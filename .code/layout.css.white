@@ -1,0 +1,39 @@
+body {font-family:arial,san-serif; }
+
+#main
+{
+/*   white-space:pre-wrap; //standard but not supported */
+/*   white-space:-moz-pre-wrap; //Mozilla */
+/*   word-wrap:break-word; //MSIE */
+/*   white-space:-pre-wrap; //old Opera */
+/*   white-space:-o-pre-wrap; //Opera */
+  padding-left:4px;
+/*   line-height: .8; */
+  }
+
+#header {font-size:110%;}
+#footer {font-size:80%;}
+
+span.bullet{margin-left:1%;font-size:150%;}
+span.indent{margin-left:1%;}
+
+span.quot,span.quot2,span.quot3{font-style:italic; font-size:80%;}
+
+span.itlc { font-style:italic; }
+span.bold { font-weight:bold; }
+
+span.h1{font-size:270%;}
+span.h2{font-size:230%;}
+span.h3{font-size:190%;}
+span.h4{font-size:150%;}
+
+/* a{text-decoration:none;} */
+/* a:visited{text-decoration:none;} */
+/* a:hover,a:focus{text-decoration:none;} */
+
+input{font-size:65%;}
+img{float:right;}
+/* img.left{float:left;} */
+
+span.italic{font-style:italic;}
+span.bold{font-weight:bold;}

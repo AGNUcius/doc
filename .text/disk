@@ -1,0 +1,122 @@
+Related: back, boot, CD, disc, drive, DVD, fdisk, file, /etc/fstab, hard, image, ISO, media, mount, NTFS, part, recover, SMART, store, UDF, USB
+
+SourceForge.jp/projects/crystaldiskinfo >>CrystalDiskInfo is a HDD/SSD utility software which supports S.M.A.R.T and a part of USB-HDD.
+
+SourceForge.jp/projects/crystaldiskmark >>CrystalDiskMark is a disk benchmark software.
+
+GSmartControl.berliOS.de >>GSmartControl is a graphical user interface for smartctl (from smartmontools package), which is a tool for querying and controlling SMART (Self-Monitoring, Analysis, and Reporting Technology) data on modern hard disk drives. It allows you to inspect the drive's SMART data to determine its health, as well as run various tests on it.
+
+SMARTMonTools.sf.net >>The smartmontools package contains two utility programs (smartctl and smartd) to control and monitor storage systems using the Self-Monitoring, Analysis and Reporting Technology System (SMART) built into most modern ATA and SCSI harddisks. In many cases, these utilities will provide advanced warning of disk degradation and failure.
+
+RawDisk.sf.net >>RawDisk is a disk utility. It can:  Modify file system boot sector (FAT & NTFS), Clean disk, Create and write disk images, Copy disks on the fly, Backup MBR or a boot sector, Modify MBR.
+
+QuietHDD.GoogleCode.com >>quietHDD modifies the APM and AAM settings of Harddrives on startup, suspend, hibernate and tries to reduce noise The APM/AAM settings of an hard disk are lost on every wakeup event from suspend or hibernate. With quietHDD you can choose your own values for those settings and let them set again on every system startup, on every wakeup event from suspend or hibernate. The main advantage of quietHDD is the small size, it does not consumes any unnecessary CPU power and it designed to be simple, small and effective. You may even disable it's tray icon if you want to. quietHDD is loosely inspired by hdparm for Windows.
+
+WinDD.sf.net >>WinDD - Disk Dump for Windows! Windows XP version of Unix 'dd' command. Safe, effort-free backup for FAT, FAT32, NTFS, ext2, ext3 partitions.
+
+WinDirStat.info >>WinDirStat is a disk usage statistics viewer and cleanup tool for Microsoft Windows (all current variants).
+
+HardDriveEraser.org >>Hard Drive Eraser is free Windows application that permanently erase the data on whole volumes (hard drives). It does so by filling the magnetic surface multiple time with a useless binary data. It is a known fact that it is impossible to permanently destroy data just by formatting hard drive. It doesn't matter if you use Windows formatting or pay for a commerical disk formatting program. It wont work. In it's essence formatting drive is same as deleting files in Windows and than removing them from Recycle Bin. Just a small bits of information (links to files) are removed but the files still reside on hard drive and it is very easy to recover them using either commercial solution or one of applications for data recovery. That's why you may want to use Hard Drive Eraser, to shred the drive partition beyond any possible recovery.
+
+www.cran.org.uk/bruce/software/ataidle.php >>ataidle sets the idle timer on ATA (IDE) hard drives, so the drive spins down when the period of inactivity has expired.
+
+BleachBit.sf.net >>BleachBit quickly frees disk space and tirelessly guards your privacy. Free cache, delete cookies, clear Internet history, shred temporary files, delete logs, and discard junk you didn't know was there. Designed for Linux and Windows systems, it wipes clean 90 applications including Firefox, Internet Explorer, Adobe Flash, Google Chrome, Opera, Safari,and more. Beyond simply deleting files, BleachBit includes advanced features such as shredding files to prevent recovery, wiping free disk space to hide traces of files deleted by other applications, and vacuuming Firefox to make it faster. Better than free, BleachBit is open source.
+
+DiscUtils.CodePlex.com >>DiscUtils is a .NET library to read and write ISO files and Virtual Machine disk files (VHD, VDI, XVA, VMDK, etc). DiscUtils is developed in C# with no native code (or P/Invoke).  Implementation of the ISO, UDF, FAT and NTFS file systems is now fairly stable. VHD, XVA, VMDK and VDI disk formats are implemented, as well as read/write Registry support. The library also includes a simple iSCSI initiator, for accessing disks via iSCSI and an NFS client implementation.
+
+
+
+
+Technet.Microsoft.com/en-us/library/cc778339.aspx >>Disk and Data Management Support Tools
+
+$ chkdsk.exe
+$ connstat.cmd
+$ devcon.exe
+$ dfsutil.exe
+$ dmdiag.exe
+$ dskprobe.exe
+$ ftonline.exe
+$ health_chk.cmd
+$ iologsum.cmd
+$ rsdiag.exe
+$ rsdir.exe
+$ topchk.cmd
+$ diskpart #convert GPT to MBR
+$ dskprobe.exe
+
+Rugg.sf.net >>_Rugg_ is a *hard drive and filesystem harness tool* that allows you to test and benchmark drives and filesystems, by writing simple to complex scenarios that can mimic the behaviour of real-world applications.
+
+DiskType.sf.net >>The purpose of disktype is to detect the content format of a disk or disk image. It knows about common file systems, partition tables, and boot codes.
+
+PING.WindowsDream.com >>PING (Partimage Is Not Ghost) -- Backup and Restore Disk Partitions
+
+CoreDump.Free.fr/linux/hddtemp.php
+
+Hules.Free.fr/wmhdplop >>wmhdplop is yet another dockapp for WindowMaker, or any windowmanager/desktop environment that handles dockapps (KDE has a dockbar extension, and gnome swallows). It monitors your hard-drives by sending visual stimuli to your cortex each time your /dev/hdx (or /dev/sdx) writes or reads anything. Try to launch openoffice and enjoy the wmhdplop show! (loading these kitties in mozilla also works).
+
+GUZU.net/linux/various.php >>IDEload monitor IDE controlers interrupts activity and general disks activity, and shows different histogram, as xload do. See README for more informations.
+
+GUZU.net/linux/e2retreive.php >>e2retrieve is a data recovery tool for Ext2 filesystem. This means that e2retrieve will not try to repair the filesystem but will extract data to "copy" it to another place (another disk, NFS, Samba, ...).
+
+GUZU.net/linux/hddtemp.php >>hddtemp is a small utility that gives you the temperature of your hard drive by reading S.M.A.R.T. informations (for drives that support this feature).
+
+CGSecurity.org/wiki/TestDisk >>TestDisk is a powerful free data recovery software! It was primarily designed to help recover lost partitions and/or make non-booting disks bootable again when these symptoms are caused by faulty software, certain types of viruses or human error (such as accidentally deleting your Partition Table). Partition table recovery using TestDisk is really easy.
+
+$ smartctl # smartmontools.sf.net - control and monitor storage systems using S.M.A.R.T.
+
+lde.sf.net >>lde is a disk editor for linux, originally written to help recover deleted files.
+
+DiskEditor.pasiz.net and DiskEditor.sf.net >>DiskEditor is aimed for expert users, to provide interface for modifying the disk in the fly.
+
+
+$ xdaf #X11 Disk Activity Feedback ezIX.org/project/wiki/Xdaf
+$ fdisk, cfdisk, sfdisk
+$ gparted #GNOME partition editor
+$ gpart #Guess PC disk partition table, find lost partitions
+
+
+$ cfdisk, fdisk, sfdisk, parted
+$ hdparm
+
+
+For each partition of a disk you may do:
+    mkdir /mnt/hdb1 #these directories can be anywhere
+    mount /dev/hdb1 /mnt/hdb1
+
+    mkdir /mnt/hdb2
+    mount /dev/hdb2 /mnt/hdb2
+
+
+==Space visualization:
+Chiark.GreenEnd.org.uk/~sgtatham/agedu >>agedu is a program which does this. It does basically the same sort of disk scan as du, but it also records the last-access times of everything it scans. Then it builds an index that lets it efficiently generate reports giving a summary of the results for each subdirectory, and then it produces those reports on demand.
+
+Determinate.net/webdata/seg/tdfsb.html >>TDFSB is a '3D - Filesystem Browser' for GNU/Linux.
+
+TreeSize.sf.net >>A disk consumption analyzing tool, which sorts folders according to their physical occupied sizes. The perfect tool to help you obtaining more disk free space, on your hard drive, usb pen drive or even on network folders (provided that they are mounted and you have access to them, of course )
+
+BitWagon.com/duv/duv.html >>duv(TM) Visual Disk Usage
+
+Dev.Yorhel.nl/ncdu >>As the name already suggests, ncdu is an ncurses version of the famous old 'du' unix command. It provides a fast and easy interface to your harddrive. Where is your disk space going? Why is your home directory that large? ncdu can answer those questions for you in just a matter of seconds!
+
+XCruiser.sf.net >>XCruiser, formerly known as XCruise, is a filesystem visualization utility.  It constructs a virtually 3-D formed universe from a directory tree and allows you to "cruise" within a visualized filesystem.  The original idea came to me when I was a university student.  I heard that tree-like filesystems are not necessarily best for us since we often remember the location of objects with spatial hints.  I was inspired by this idea and developed XCruiser.  I wish that someone create more user-friendly interfaces based on this program.
+
+gt5.sf.net >>gt5 - a diff-capable 'du-browser'    Years ago, I was proud to own an 80MHz, 16MB RAM PC with a huge 512MB harddisk. But even on this incredibly huge harddisk, my diskspace seemed to disappear over time. So I wrote a little tool to find out where all my diskspace had gone: I called it gettree, as it showed all files in a directory and also calculated the size of subtrees. Over the years, the OS I used changed, but the problem stayed. Using Linux, there are some tools to deal with it, but I couldn't find anything that was clearly laid out, intuitive to browse, and doesn't need X-Windows.
+
+GdMap.sf.net >>Welcome to the homepage of GdMap. GdMap is a tool which allows to visualize disk space. Ever wondered why your hard disk is full or what directory and files take up most of the space? With GdMap these questions can be answered quickly. To display directory structures cushion treemaps are used which visualize a complete folder or even the whole hard drive with one picture.
+
+XDiskUsage.sf.net >>xdiskusage is a user-friendly program to show you what is using up all your disk space. It is based on the design of xdu written by Phillip C. Dykstra <dykstra at ieee dot org>. Changes have been made so it runs "du" for you, and can display the free space left on the disk, and produce a PostScript version of the display.
+
+KDirStat.sf.net >>KDirStat is a graphical disk usage utility, very much like the Unix "du" command. In addition to that, it comes with some cleanup facilities to reclaim disk space.
+
+Derlien.com >>Disk Inventory X is a disk usage utility for Mac OS X 10.3 (and later). It shows the sizes of files and folders in a special graphical way called "treemaps".
+
+www.Marzocca.net/linux/baobab >>Disk Usage Analyzer is a graphical, menu-driven viewer that you can use to view and monitor your disk usage and folder structure.
+
+hibernaculum.net/durep >>durep creates disk usage reports with bar graphs, allowing one to easily deduce which directories are using the most space. Although durep can produce text output similar to du, its real power lies in the ability to store reports in a file, which can then be viewed as a web page with the supplied cgi script.
+
+MethylBlue.com/filelight >>Filelight creates an interactive map of concentric, segmented rings that help visualise disk usage on your computer.
+
+zevv.nl/play/code/philesight >>Philesight is a tool to browse your filesystem and see where the diskspace is being used at a glance. Philesight is implemented as a simple command line program that generates PNG files; a wrapper CGI script is supplied to allow navigating through the filesystem. Click the image on top for an online demo.
+
+
+dc3dd.sf.net >>The complete answer: dc3dd is an improvement of the existing GNU dd program. GNU dd is licensed under version 3 of the General Public License (GPL). These improvements were made (and are now maintained) by the DoD Cyber Crime Center, an agency of the United States Government. By law, works of the United States Government are not eligible for copyright protection (17 USC 105). In accordance with the the GPL FAQ, the improvements made by the DoD Cyber Crime Center are public domain and the project as a whole remains licensed under the GPL.

@@ -1,0 +1,120 @@
+Related: anim, art, cam, draw, image, icon, model, movie, paint, phot
+
+RawTherapee.com >>
+
+darktable.sf.net >>darktable is a photography workflow application: a virtual lighttable and darkroom for photographers: it manages your digital negatives in a database and lets you view them through a zoomable lighttable. it also enables you to develop raw images and enhance them.  this project tries to fill the gap between the many excellent existing free raw converters and image management tools (such as e.g. ufraw, rawstudio, f-spot, digikam, shotwell). The user interface is built around efficient caching of image metadata and mipmaps, all stored in a database. the main focus is on user interaction, both in terms of a smooth interface design as well as processing speed. high quality output is also one of our goals.
+
+==View
+Mirage.berliOS.de >>Mirage is a fast and simple GTK+ image viewer. Because it depends only on PyGTK, Mirage is ideal for users who wish to keep their computers lean while still having a clean image viewer.
+
+xsisqox.github.com/Viewnior >>This is Viewnior, an image viewer program. Created to be simple, fast and elegant. It's minimalistic interface provides more screenspace for your images.
+
+ImgV.sf.net >>Imgv is a unique and feature rich Image Viewer.  Features include a GUI that doesn't get in the way of viewing your images, a file browser, slideshows, zooming, rotating, on-the-fly Exif viewing, histograms, fullscreen support, wallpaper setting, the ability to view 4 images on the screen at once, adjustable thumbnail sizes, playlists, view and download images from Web sites, movie playing, file searching/filtering, multiple directory loading, transitional effects, image hiding and more.
+
+xzgv.sf.net >>xzgv is a keyboard-controllable fast picture viewer. Its thumbnail-based file selector can copy, rename and move images, rotate by multiples of 90 degrees and mirror them. Displayed images can have their zoom, contrast, brightness and gamma adjusted.
+
+CatCry.sf.net >>This is a simple picture viewer. CatCry can do some edit to photographs, like rotation, flip, and resize.
+
+imgSeek.net >>imgSeek is a free open source (GPL) photo collection manager and viewer with content-based search and many other features. The query is expressed either as a rough sketch painted by the user or as another image you supply (or an image in your collection). The searching algorithm makes use of multiresolution wavelet decomposition of the query and database images.
+
+GQview-Win.sf.net >>I am always looking for a light and easy to use image viewer.  ACDSEE? It's good for browsing the images, but it is not free.  And, likes other successful windows software, it becomes fatter and fatter.  I hope the image viewer is just a viewer and don't want to use it as a photos modifier.  To modify the photo, GIMP is my favorite.  Finally, I found GQview.  It is excellent with so many great features.  Zoom, thumbnail, directories navigate and so on.  Especially the EXIF, what a wondeful feature! Besides, it is light.  But, it only works on Linux.  Why don't port it to windows?  After a few nights work.  GQview-win was borned.  It's not a complex port.  Also, it is not a big project.  It is just a convenient tool.  If you are interested, please help me to make it better.
+
+MozImage.MozDev.org >>The goal of mozImage is to create a simple image browser that can show images present your local disks and analyze web pages in search of new ones.
+
+Guichaz.Free.fr/gliv >>GLiv is an OpenGL image viewer, image loading is done via Gdk-pixbuf bundled with GTK+-2.6, rendering with OpenGL and the graphical user interface uses GTK+ with GtkGLExt.
+
+F-Spot.org (.NET) >>F-Spot is a full-featured personal photo management application for the GNOME desktop.  F-Spot simplifies digital photography by providing intuitive tools to help you share, touch-up, find and organize your images.
+
+Spiegl.de/qiv >>Quick Image Viewer for Linux, Solaris(SunOS), FreeBSD and HP-UX ... is a very small and pretty fast gdk/Imlib image viewer.
+
+QtVu.sf.net >>QtVu, pronounced CuteView, is an image viewer for The X Window System. QtVu is heavily inspired by ACD Systems' excellent ACDSee.
+
+GQView.sf.net >>This is the homepage of GQview, an image browser that features single click access to view images and move around the directory tree.
+
+GwenView
+
+flPicSee
+
+LinuxBrit.co.uk/feh >>feh is an image viewer at heart, though it does other cool stuff. See FehFeatures.
+
+LXDE.sf.net/gpicview >>GPicView - A Simple and Fast Image Viewer for X
+
+Kujawiak.sf.net >>Kujawiak Viewer (kuview) is a free, lightweight picture viewer which focuses on browsing and managing files.
+
+www.Ecademix.com/JohannesHofmann/flimsel.html >>flimsel is a minimalistic digitial image browser based on the fltk toolkit. It displays thumbnails of images given on the command line. It is intended to be used in digital image processing shell scripts see script in the examples directory. flimsel uses the very fast epeg library by The Rasterman (Carsten Haitzler) for JPEG thumbnail generation but falls back to fltk native methods for other image formats.
+
+Goodies.XFCE.org/projects/applications/ristretto >>Ristretto is a fast and lightweight picture-viewer for the Xfce desktop environment.
+
+Geeqie.sf.net >>Geeqie is a lightweight Gtk+ based image viewer for Unix like operating systems.
+
+AlbumShaper.sf.net >>Album Shaper strives to be the most friendly, easy to use, open source application for organizing, annotating, framing, enhancing, stylizing, and sharing your digital photos. Album Shaper embraces open formats like XML, JPEG, and XSLT, while supporting Windows, Mac OS X, and Unix users who speak a multitude of languages around the world.
+
+Comix.sf.net >>Comix is a user-friendly, customizable image viewer. It is specifically designed to handle comic books, but also serves as a generic viewer. It reads images in ZIP, RAR or tar archives (also gzip or bzip2 compressed) as well as plain image files. It is written in Python and uses GTK+ through the PyGTK bindings.
+
+www.Cmis.csiro.au/Hugues.Talbot/imview >>a portable image viewing and analysis application
+
+zevv.nl/play/latest/glview >>This is a experimental image viewer using OpenGL to allow seamless panning and zooming over a lot if pictures. Textures are rescaled on the fly when zooming in and out.
+
+giv.sf.net >>giv is a cross platform image and hierarchical vector viewer based. It was designed especially for scientific vision and computational geometry and has support for drawing vector graphics on top of the image.
+
+KSquirrel.sf.net >>KSquirrel is an image viewer for KDE with disk navigator, file tree, multiple directory view, thumbnails, extended thumbnails, dynamic format support, DCOP interface, KEXIF and KIPI plugins support.
+
+Wolfpack.TWU.net/IV
+
+freeJTV.blogspot.com >>freeJTV is a photo slideshow program on the web. It is designed to create online photo albums and create slideshows with special photo effects, background music and lyric support. It is a free web tool for creating karaoke or family photo albums.
+
+
+==Edit
+see: paint
+
+SIPToolBox.sf.net >>SIP stands for Scilab Image Processing toolbox.  SIP intends to do imaging tasks such as filtering, blurring, edge detection, thresholding, histogram manipulation, segmentation, mathematical morphology, color image processing, etc.  These operations are useful for problem solving in real-world applications ranging from car motion planning to automatic diagnosis of medical images.  SIP is meant to be a complete, useful, and FREE digital image processing toolbox for Scilab.
+
+www.Ecademix.com/JohannesHofmann/flimp.html >>flimp is a generic graphical frontend to the many excellent command line image manipulation tools available. It allows to create pipelines of commands that read from standard input and write to standard output. One can view and compare the result of each stage of the pipeline. flimp leaves the input image file untouched. One rather saves the pipeline in a text file.
+
+LightWIE.sf.net >>Light Web Image Editor is a javascript library that intends to help you offering rich experience to your users. It enables a full toolbar to edit and do some actions on images, and simplify data transmission for backend analyzing.
+
+MemeCode.com/image.php >>i.Mage is a small and fast graphics editor slanted towards quite and easy pixel editing, ala DPaint from the DOS/Amiga days. Instead of being a bloated behemoth with a zillion plugins it starts in under a second and it does a lot of the mundane jobs of image editing quickly and without fuss. The right tool for simple jobs.
+
+BottleNose.demon.co.uk/share/evolvotron
+
+MIT.edu/~ibaran/kseg.html
+
+CompLang.tuwien.ac.at/~schani/mathmap
+
+Croczilla
+
+symTone.sf.net >>Two hands, better interaction. - requires 2 USB mice
+
+PDiff.sf.net >>PerceptualDiff is an image comparison utility that makes use of a computational model of the human visual system to compare two images.
+
+
+==Some common file extensions
+gif, jpg, png, ico, bmp, jp2k, DjVu, ps, pdf, pnm, xpm
+
+
+==dev
+WebP.GoogleCode.com >>WebP is a method of lossy compression that can be used on photographic images. The degree of compression is adjustable so a user can choose the trade-off between file size and image quality.
+
+GraphicsMagick.org (based on ImageMagick.org) >>GraphicsMagick is the swiss army knife of image processing. Comprised of 248K physical lines (according to SLOCCount) of source code in the base package (or 891K including 3rd party libraries) it provides a robust and efficient collection of tools and libraries which support reading, writing, and manipulating an image in over 88 major formats including important formats like DPX, GIF, JPEG, JPEG-2000, PNG, PDF, PNM, and TIFF.
+
+OpenIL.sf.net >>Developer's Image Library (DevIL) is a programmer's library to develop applications with very powerful image loading capabilities, yet is easy for a developer to learn and use. Ultimate control of images is left to the developer, so unnecessary conversions, etc. are not performed. DevIL utilizes a simple, yet powerful, syntax. DevIL can load, save, convert, manipulate, filter and display a wide variety of image formats.
+
+WebMagick.sf.net >>WebMagick makes putting images on the Web as easy as magick.
+
+FreeImage.sf.net >>FreeImage is an Open Source library project for developers who would like to support popular graphics image formats like PNG, BMP, JPEG, TIFF and others as needed by today's multimedia applications. FreeImage is easy to use, fast, multithreading safe, compatible with all 32-bit versions of Windows, and cross-platform (works both with Linux and Mac OS X).
+
+The-Light.com/netcol.html
+
+ExactCode.de/site/open_source/exactimage >>A fast, modern and generic image processing library    In the mid-2000s we where wondering about the ridiculous amounts of CPU cycles ImageMagick spent on certain image processing tasks. After the first code review it became clear that imagemagick was coded for anything but speed.
+
+
+==Search
+Pixolu.de
+
+
+==Tools
+Auricle.DynDNS.org/ALE >>ALE is a synthetic capture engine and renderer accepting, as input, a sequence of image frames, and producing, as output, rendered images, registration data, and 3D models (currently experimental).
+
+$ qiv, xv, xli, xloadimage, xwd
+
+ImageRobot.sf.net >>ImageRobot is a mass image editor and viewer. Features include: resizing, clipping, shearing, rotating, flipping, pixel-wise manipulation, brightness and contrast adjustment.

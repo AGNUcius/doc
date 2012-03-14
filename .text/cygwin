@@ -1,0 +1,11 @@
+Related: Linux, MinGW, unix
+
+Cygwin.com >>Cygwin is a Linux-like environment for Windows. It consists of two parts: A DLL (cygwin1.dll) which acts as a Linux API emulation layer providing substantial Linux API functionality.
+
+Cygwine.GoogleCode.com >>CygWine - a Cygwin package management utility (make Cygwin like Wine)    CygWine is a package manager for the Cygwin Linux-like environment, to make package installation, removal and upgrade more easy.
+
+Cygwin-Ports.sf.net >>Assortment of open-source programs built for Cygwin, and the cygport tool for building Cygwin packages. cygport releases and the Ports Subversion repository are hosted here; Ports packages are available from the website.
+
+GNUWin32.sf.net >>GnuWin32 provides ports of tools with a GNU or similar open source license, to MS-Windows (Microsoft Windows 95 / 98 / ME / NT / 2000 / XP / 2003 / Vista / 2008)
+
+Windows.KDE.org >>The KDE on Windows Project is aimed at native porting of the KDE applications to MS Windows. Currently Windows 2000, XP, 2003 and Vista are supported.

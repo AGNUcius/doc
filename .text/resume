@@ -1,0 +1,92 @@
+                Patrick Anderson
+                Senior Software Engineer
+
+
+
+Skills:
+
+
+Current Skills:
+  Languages/APIs: C/C++, Win32, Objective-C, .cmd,
+  Configuration Management
+  Registry, Services, Processes, Backups, Power Management
+  Administration: GNU/Linux, NetBSD, Windows+Cygwin, Mac OSX.
+
+Future Objectives:
+
+Past Projects:
+  Write platform-independent framework to install, modify and update software projects.
+  Write some simple Windows device drivers using the WDK.
+  GNU+Linux using
+  Write a OSX Kernel Extension (kext) using the IOKit.
+  build, verify, package, deliver, test  various products
+
+
+Work History:
+  -Present: StorageCraft Configuration Management and File System development
+    Write lightweight read/write caching file system imaging plugin for Hyper-V disks (.vhd).
+    Automate build system to compile, harden, sign, package, verify and mail reports.
+    Write installers using InstallShield, WiX and NSIS.
+    Use Windows Automated Installation Kit (WAIK) to create custom Windows7/2008R2 WinPE .wim and .iso images.
+    
+
+  Aug/05-: Independent Contractor - American Fork, UT
+    Design EcoComics ecology simulation to compare efficiency of various economic models.
+    Develop prototype Plain Text Wiki with auto-link contextual definitions and WYSIWYG "pass through" markup.
+    Design GNUnix Just-In-Time software package manager to download, install and execute when a user or the system attempts an advertised feature.
+    Write GNU's Not Usury General Public Law for efficient scheduling and allocation of physical resources.
+    Begin basic Linux kernel device driver development.
+
+
+  Aug/00-Aug/05: Altiris - Lindon, UT
+  Write thin C++ library to simplify Win32 development and automate resource management.
+  Capture legacy code value through rigorous distillation and orthogonal modularization.
+  Socket programming with TCP/IP for HTTP, IMAP, SMTP; with UDP/IP for Wake On LAN (WOL) and SNMP.
+  Design "pass through" user, programmer and error interfaces to increase performance and decrease maintenance.
+  Prefer zero-copy data transfer for speed and safety across object and thread contexts.
+  Use (X)HTML, CSS, Javascript, SQL through ODBC, the Bison parser and Flex lexical analyzer.
+
+
+    Write C++ libraries to control: Console Applications, Critical Sections, Directory traversal, DLLs, Error logging, Event Log, Files, File Versioning, Handles, INI Files, Memory Mapped Files, ODBC, Power States including WOL, Privileges, Process Info, Registry, Services, SMART, SMBIOS, Sockets, System Tray, Threads, Timers, WMI, XML.
+    Extend, debug and repair NT/2k/XP device drivers used to read/write HP specific hardware settings.
+    Write W32 Service to read and write computer settings through those C++ libraries and through the HP drivers.
+    Write simple HTTP and IMAP clients to send commands, and parse results.
+    Write self-extracting packaging and installation suite conforming to "Add/Remove Programs" guidelines, including shared DLL reference counts.
+    Write dynamic virtual file system for incremental backup to removable media.
+
+
+  Aug/99-Aug/00: NovaRad - Orem, UT
+    Integrate DICOM transport and JPEG2k compression into medical imaging client.
+    Design predictive caching SCSI robotic tape archiver.
+
+
+  Jul/97-Aug/99: NetSchools - Provo, UT
+    Write UDP/IP packet generator and simple sniffer for IR network.
+    Write Windows 9x network logon provider using SSPI and Blowfish encryption.
+    Help write Windows 9x file system and Registry write protection.
+    Maintain and extend Win9x compressing RAM paging driver and keyboard filter VxD.
+
+
+  Jun/96-Jun/97: BioVision Motion Capture - Orem, UT
+    Write flex/Bison regexps, BNFs and glue code to import various motion capture data.
+    Write other tools to simplify and automate motion data transforms.
+    Use matrix mathematics and spline approximations to smooth sparse data.
+
+
+  Feb/96-Jul/96: IBM Eduquest - Provo, UT
+    Help write Windows 9x printer driver to translate between Postscript, PCL, PDDP.
+    Track and fix application bugs in educational software.
+
+
+  Jan/95-Dec/98: Brigham Young University - Provo, UT
+    Independent C/C++ tutor.
+    Teacher's Aid for "Discrete Structures and Combinatorial Mathematics" I and II.
+
+
+Education:
+  Brigham Young University - Provo, UT
+    B.S. in Computer Science, 1998.
+
+3251 West 6610 South, West Jordan, UT 84084
+(801) 656 5951
+Patrick.T.Anderson@Gmail.com

@@ -1,0 +1,16 @@
+body {background:#CED3E4; color:#3D5192;}
+
+#header,#footer {background:#fff;}
+#main {background:#; border:1em solid #3D5192;}
+
+span.h1,span.h2,span.h3,span.h4{background:#fff;}
+span.date{background:#3D5192; color:#CED3E4;}
+
+span.cmnt{background:#aca;}
+span.shell{background:#aaa;}
+span.type{background:#caa;}
+
+a{color:#000;}
+/* a:visited{text-decoration:none:} */
+a.ext{color:#700;}
+a:hover, a:focus{background:#fff;}

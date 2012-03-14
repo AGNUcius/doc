@@ -1,0 +1,162 @@
+Related: acl, data, directory, disk, forensic, FTP, image, network stream, part, port, process, recover, socket, stor
+
+==Managers
+CubicExplorer.GoogleCode.com >>CubicExplorer is a file manager which is aimed to replace Windows Explorer. It's goal is to be easy and pleasant to use but still have enough power for more advanced usage. It has many familiar features from modern browsers like tabs and bookmarks.
+
+ExplorerPlusPlus.com >>Explorer++ is a free multi-tab file manager for Windows.    Available on Windows XP and above, it features the same familiar interface as Windows Explorer, while introducing several enhancements and improvements for a much richer file browsing experience.
+
+Stagione.interfree.it >>FxMovieManager is a Filemanager written to help managing Movie files and Video clips. It includes a filemanager, a playlist and act as a simple front-end to MPlayer. Both filemanager and playlist can display Thumbnails of Movie files making easier working with video clips and ordering different pieces of the same movie. At present it is developed on the Linux platform. Copyright (C) 2008, 2009, 2010 Luigi Ziviani.
+
+FoxPlanet.de/explorer >>It is a freely available program intended as replacement of MS Windows Explorer in the upcoming open source operation system ReactOS. It covers the explorer functionalities of desktop, explorer windows,  desktop bar with start menu, task bar and notification area (where you can see the "tray icons"). It is not yet complete, it's work in progress. However you can already work with it. I have installed it for me as default shell. This is the best way to find problems with it, and to encounter, which functions are missing the most.
+
+emelFM.sf.net >>emelFM is a file manager that implements the popular two-pane design. It features a simple GTK+ interface, a flexible filetyping scheme, and a built-in command line for executing commands without opening an xterm.
+
+Xfe.sf.net >>X File Explorer (Xfe) is an MS-Explorer like file manager for X. It is based on the popular, but discontinued, X Win Commander, which was developed by Maxim Baranov.  Xfe aims to be the filemanager of choice for all the Unix addicts!
+
+Xenon-Portable.sf.net >>Xenon File Manager Portable is a file manager specifically designed to work from a USB drive.
+
+PCManFM.sf.net >>PCMan File Manager    An extremly fast and lightweight file manager which features tabbed browsing and user-friendly interface
+
+FileWorkBench.sf.net >>File Workbench (FWB) is a cross platform file manager environment (Windows, Linux, and other Unix variants). It includes file and tree browsers, native command shells (bash/dos(cmd)), text editor and other components. It is customizable and extensible through the concept of MiniApps. An embedded scripting language (Squirrel) provides a way of adding / combining commands.
+
+DoubleCMD.sf.net >>Double Commander is a cross platform open source file manager with two panels side by side. It is inspired by Total Commander and features some new ideas.
+
+ultraMage.sf.net >>ultraMage is a powerful dual-window file manager for Windows with many useful features like bookmarks, advanced file operations and folder synchronisation. It is still very easy to use, because the user interface is similar to that of Windows Explorer.
+
+CoolExplorer.sf.net >>CoolExplorer - open source file manager for Windows.
+
+FarManager.com >>Far Manager is a program for managing files and archives in Windows operating systems. Far Manager works in text mode and provides a simple and intuitive interface for performing most of the necessary actions
+
+Atol.sf.net >>Atol is a dual panel file manager written using GTK+ toolkit and C++ programming language. Project is free and open source (released under BSD license).
+
+XWC.sf.net >>X WinCommander is a file manager with these features:
+"'    * Layout similar to Windows Explorer --- Helps people who is used with Windows.
+    * Very quick and simple. Useful to Icewm/Qvwm/WindowMaker-like users.
+    * Multilingual Support. Now supports english, portuguese, french, bulgarian and spanish.
+    * Multiple associations by filename / filetype.
+    * Device mounting/unmounting at a button mouse click.
+    * File tree view (as in MS-Explorer) and attribute file changes.
+    * Included utils: File editor/View, RPM viewer/extractor, file zip/unzipper.
+    * Xterm opening on current folder.
+    * Configuration of applications, fonts, icons, etc.'"
+
+TuxCmd.sf.net >>Tux Commander is a windowed file manager with 2 panels side by side similar to popular Total Commander or Midnight Commander file managers. The main goal of this project is to create powerful and user friendly file manager for Unix operating systems.
+
+Obsession.se/gentoo >>This is the new, slightly simpler, home page for gentoo, the GTK+ file manager. The old site design has served well, but it was time for a refresh for the new 0.15.x series of gentoo. This new version of gentoo is based on the current 2.x series of the GTK+ toolkit, finally bringing gentoo into the present (the last version of GTK 1.2 was released in 2001). It's good to be back.
+
+XCProject.sf.net >>XC is a free, user friendly file manager.
+
+FireFly.MozDev.org >>Firefly is a filemanager extesnion for Firefox.
+
+EmacsWiki.org/cgi-bin/wiki/Sunrise_Commander >>As a long time user of the Midnight Commander on Linux (and, long before that, of Norton Commander and Norton Navigator on DOS), one of the first things I tried after moving to Emacs was running MC in term-mode. It was no joy, so after that I tried using nc.el and mc.el, but both scripts were far away from what I was looking for.
+
+ROX.sf.net >>ROX is a fast, user friendly desktop which makes extensive use of drag-and-drop. The interface revolves around the file manager, or filer, following the traditional Unix view that `everything is a file' rather than trying to hide the filesystem beneath start menus, wizards, or druids.
+
+CLEX.sk >>CLEX (pronounced KLEKS) is a file manager with a full-screen user interface. It displays directory contents including the file status details and provides features like command history, filename insertion, or name completion in order to help users to create commands to be executed by the shell.
+
+Wolfpack.TWU.net/Endeavour2 >>Endeavour Mark II is a complete file management suite that comes with a File Browser, Image Browser, Archiver, Recycled Objects system, and a set of file & disk management utility programs.
+
+Micans.org/apparix >>Apparix: file system navigation on steroids
+
+BoomerangsWorld.de/worker >>Worker is a file manager for X-Window on UNIX.  The dirs and files are shown in two independent panels (similar to Midnight Commander).
+
+Thunar.XFCE.org >>Thunar is a new modern file manager for the Xfce Desktop  Environment. Thunar has been designed from the ground up to be fast and easy-to-use. Its user interface is clean and intuitive, and does not include any confusing or useless options. Thunar is fast and responsive with a good start up time and directory load time. Thunar is accessible using Assistive Technologies and is fully standards compliant.
+
+4pane.co.uk >>4Pane is a multi-pane, detailed-list file manager for Linux. It is designed to be fully-featured without bloat, and aims for speed rather than visual effects. In addition to standard file manager things, it offers multiple undo and redo of most operations (including deletions), archive management including 'virtual browsing' inside archives, multiple renaming/duplication of files, a terminal emulator and user-defined tools.
+
+Chrysocome.net/explore2fs >>explore2fs is a GUI explorer tool for accessing ext2 and ext3 filesystems. It runs under all versions of Windows and can read almost any ext2 and ext3 filesystem.
+
+muCommander.com >>muCommander is a lightweight, cross-platform file manager featuring a Norton Commander style interface and running on any operating system with Java support (Mac OS X, Windows, Linux, *BSD, Solaris...).
+
+
+====Experimental or Unfinished
+Sherpa-FileMgr.sf.net >>An elegant, flexible graphical file manager for Windows, Linux and Mac.
+
+SwissFileKnife.sf.net >>the swiss file knife project    smack my batch up!    dynamic text file patching.  easy full text search.  stream filtering and processing.  instant ftp server and client.  zero installation, all-in-one executable.  open source for windows and linux.
+
+FileMapMK.sf.net >>New file manager similar to mind map
+
+Souvenirs.sf.net >>This project presents a functional prototype of a new kind of file manager, where the data is auto organized using the semantic content.The Souvenirs system propose a new complete interface for the user and pretend to remplace the "desktop" paradigm.
+
+FFM.sf.net >>The aim of the Featurific File Manager is to allow a user to filter, sort, view, learn info about, and use files very easily and quickly. It relies on plugins to supply views of the directory and is intended to be powerful and easy to use.
+
+aircommander
+
+
+==Recovery
+e2undel.sf.net >>e2undel is an interactive console tool that recovers the data of deleted files on an ext2 file system under Linux.
+
+Projects.izzysoft.de/trac/ext3undel
+
+http://www.lonerunners.net/blog/archives/1056-How-to-recover-data-and-deleted-files-from-Ext3-partitions.html
+
+Foremost.sf.net >>Foremost is a console program to recover files based on their headers, footers, and internal data structures. This process is commonly referred to as data carving. Foremost can work on image files, such as those generated by dd, Safeback, Encase, etc, or directly on a drive. The headers and footers can be specified by a configuration file or you can use command line switches to specify built-in file types. These built-in types look at the data structures of a given file format allowing for a more reliable and faster recovery.
+
+CGSecurity.org/wiki/PhotoRec >>PhotoRec is file data recovery software designed to recover lost files including video, documents and archives from Hard Disks and CDRom and lost pictures (thus, its 'Photo Recovery' name) from digital camera memory. PhotoRec ignores the filesystem and goes after the underlying data, so it will still work even if your media's filesystem has been severely damaged or re-formatted.
+
+DigitalForensicsSolutions.com/Scalpel >>Scalpel is a fast file carver that reads a database of header and footer definitions and extracts matching files from a set of image files or raw device files. Scalpel is filesystem-independent and will carve files from FATx, NTFS, ext2/3, or raw partitions.
+
+KFM.Verens.com and KFM.GoogleCode.com >>KFM is an online file manager which can be used on its own, or as a plugin for a rich-text editor such as FCKeditor or TinyMCE.
+
+
+
+==Systems
+Tahoe-LAFS.org >>Tahoe-LAFS is a Free and Open cloud storage system. It distributes your data across multiple servers. Even if some of the servers fail or are taken over by an attacker, the entire filesystem continues to function correctly, including preservation of your privacy and security.
+
+DRBD.org >>DRBD® refers to block devices designed as a building block to form high availability (HA) clusters. This is done by mirroring a whole block device via an assigned network. DRBD can be understood as network based raid-1.
+
+OpenAFS.org >>AFS is a distributed filesystem product, pioneered at Carnegie Mellon University and supported and developed as a product by Transarc Corporation (now IBM Pittsburgh Labs). It offers a client-server architecture for federated file sharing and replicated read-only content distribution, providing location independence, scalability, security, and transparent migration capabilities. AFS is available for a broad range of heterogeneous systems including UNIX, Linux, MacOS X, and Microsoft Windows
+
+FileSystems.org >>Researchers and students in the FSL group perform research in operating systems with focus on file systems, storage, security, and networking. Emphasis is given to new methods, interfaces, and APIs that increase system security, usability, and performance significantly, improve the portability of operating system code, speed the productivity of development of new code, and more.
+
+CIFS, NFS, SMB
+
+
+http://fuse4win.4host.ru >>Here is an attempt of porting FUSE.sf.net library to win32 platform
+http://hg.sharesource.org/fuse4win
+
+Ext2Fsd.com >>Open source ext2/ext3 file system driver for Windows (NT/2K/XP/VISTA, X86/AMD64)
+
+
+
+Btrfs.Wiki.Kernel.org >>Btrfs is a new copy on write filesystem for Linux aimed at implementing advanced features while focusing on fault tolerance, repair and easy administration. Initially developed by Oracle, Btrfs is licensed under the GPL and open for contribution from anyone. Linux has a wealth of filesystems to choose from, but we are facing a number of challenges with scaling to the large storage subsystems that are becoming common in today's data centers. Filesystems need to scale in their ability to address and manage large storage, and also in their ability to detect, repair and tolerate errors in the data stored on disk.
+
+EVMS, Ext2/3, FAT, JFS, LVM, NTFS, OCFS2, ReiserFS, Swap, XFS, ZFS
+
+NAMESYS.com >>The Defense Advanced Research Projects Agency is the Primary sponsor of Reiser4.  DARPA does not endorse this project; it merely sponsors it.
+
+UberFS.GoogleCode.com >>Want your computer, everyone's computer to boot in three seconds? Me too. When I do the math, it looks doable. You are welcome to check my math and comment on it! If you have any time to give, and have some skills, please jump in!
+
+OberFS.GoogleCode.com >>To create a two to ten times faster file system to replace the 15-year-old NTFS and Ext2 file systems, by careful design and exploitation of modern PC's faster processors and larger RAMs.
+
+XtreemFS.org >>XtreemFS is a distributed, object-based file system. It is part of the XtreemOS project.
+
+Dokan-dev.net >>Dokan: user-mode file system for Windows.    When you want to create a new file system on Windows, for example to improve FAT or NTFS, you need to develop a file system driver. Developing a device driver that works in kernel mode on windows is extremely difficult. By using Dokan library, you can create your own file systems very easily without writing device driver. Dokan Library is similar to FUSE(Linux user mode file system) but works on Windows.
+
+
+
+==Monitor
+DaemonFS.sf.net >>DaemonFS is a real time file watcher. Cross-platform, free and opensource.
+
+inotify-tools.sf.net >>inotify-tools is a C library and a set of command-line programs for Linux providing a simple interface to inotify. These programs can be used to monitor and act upon filesystem events. A more detailed description of the programs is further down the page. The programs are written in C and have no dependencies other than a Linux kernel supporting inotify.
+
+
+
+==Tools
+fsutil volume querycluster c: 20 0x200
+
+AnyFS-Tools.sf.net >>toolset for recovering and converting filesystems and recovering data from a block device.
+
+Chrysocome.net/rawwrite >>RawWrite (or rawrite) is an essential tool for creating boot disks and other floppy disk images. Traditional rawwrite programs do not run under modern versions of windows so here is the Win32 version which does.
+
+hg.ShareSource.org/fuse4win
+
+$ fsutil.exe #Technet.Microsoft.com/en-us/library/cc753059.aspx, SS64.com/nt/fsutil.html, CommandWindows.com/fsutil.htm
+$ fuser # identify processes using files or sockets
+$ ls # list files in directory
+$ lslk # a lock file lister
+$ lsof # list open files
+$ fragger, partview, gdmap, uxplor
+$ sfc.exe # System File Checker --- Microsoft (R) Windows (R) Resource Checker
+$ fsck #GNU/Linux File System Checker
+

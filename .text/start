@@ -1,0 +1,15 @@
+Related: ASSOC, boot, init, install, menu, proc, run, setup, stop
+
+HKEY_Local_Machine\Software\Microsoft\Windows NT\CurrentVersion\Winlogon
+Entry Name: Shell
+Value: Explorer.exe
+
+SilentRunners.org >>The purpose of "Silent Runners" is to identify the programs that start up with Windows.
+
+Technet.Microsoft.com/en-us/sysinternals/bb963902.aspx !!NON-FREE!! >>This utility, which has the most comprehensive knowledge of auto-starting locations of any startup monitor, shows you what programs are configured to run during system bootup or login, and shows you the entries in the order Windows processes them. These programs include ones in your startup folder, Run, RunOnce, and other Registry keys. You can configure Autoruns to show other locations, including Explorer shell extensions, toolbars, browser helper objects, Winlogon notifications, auto-start services, and much more. Autoruns goes way beyond the MSConfig utility bundled with Windows Me and XP.
+
+StartupManager.org >>As the name suggests, Startup Manager (aka st-m) is an open source startup manager for the Windows platform.
+
+xpy.WhyEye.org and xpy.GoogleCode.com >>xpy is a small software, securing your Windows 2000/XP/2003 installation and protecting your privacy. In addition to so-called Antispy features, it disables common security threats (RPC/DCOM, LMHash) and increases your Windows performance.
+
+Vispa.WhyEye.org and Vispa.Googlecode.com >>vispa is a small software, securing your Windows Vista installation and protecting your privacy. In addition to so-called Antispy features, it disables common security threats and increases your Windows performance.

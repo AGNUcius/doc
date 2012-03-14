@@ -1,0 +1,319 @@
+Related: diary
+
+Jun-22-2009: Generate Tag lists from the set of defined terms appearing within each document.
+
+Jun-18-2009: Working on the definition of PSF Product Futures and it's relationship to the GNUrho.
+
+Jun-18-2009: FEE.org/articles/tgif/intellectual-property >> Intellectual "Property" Versus Real Property
+What Are Copyrights and What Do They Mean for Liberty?
+
+Jun-18-2009: Thinking about 2 very different targets for currency issuance:
+
+ (1) A "Title of Ownership" over a *specific instance* of some physical sources of production.  For example: 74% ownership in the Peach tree located at GPS coordinates X.  This is issued by the current owner and must be offered (probably as a 'receipt') to any customer that paid more than cost.
+
+ (2) A "Promise to Pay" the work required to achieve some quantity and quality of Goods or Services within some window of time.  This is issued by someone intending worker
+
+
+This is the basis of the two-sided PSF "Product Future".
+
+
+Jun-11-2009: OrgTheory.net "'the science of association is the mother science; the progress of all the others depends on the progress of that one.'" -- Alexis de Tocqueville
+
+
+Jun-11-2009: Beginning to watch Dmytri.info for better ways to word my approach in the context of traditional notation.
+
+
+Jun-11-2009:
+Thinking about the apparent invalidity of a "Consumer Owned" enterprise because it seems to ignore the plight of the Worker.
+
+But 'Worker' and 'Consumer' are roles we each play, not independent groups that should battle!
+
+'Owner' is another important role.  We must each fill ALL 3 of these roles in the GNU enconomy.
+
+But what is a better title?  "Payer Owned", "Payer as Investor" ... "Payer Profit"?
+
+
+Jun-11-2009: Posted to Groups.Google.com/group/openmanufacturing
+Permafacture wrote:
+>
+> Lord AGNUcius wrote:
+>> > A consumer pays *price* which is a combination of all production
+>> > *costs* (including wages) AND also includes the magic value called
+>> > *profit*.
+>
+> you'll have to clarify this magic value.  All the dollars go
+> somewhere, and thus everything is a "cost".
+
+
+Hi Permafacture,
+
+I understand a Payer sees profit as a Cost, but I'm talking about the 'popular' definition of these terms that are written from the point-of-view of the Owners of the Means of Production.
+
+http://Wikipedia.org/wiki/Cost says "'Usually, the price also includes a mark-up for profit over the cost of production.'"
+
+So, to avoid confusion, I will stop using these bare terms, and instead prepend an 'identifier' that will keep our thinking more clear.
+
+The following relations are equivalent:
+
+Payer_Price == Owner_Costs + Owner_Profit
+Owner_Profit == Payer_Price - Owner_Costs
+Owner_Costs == Payer_Price - Owner_Profit
+
+
+So, Owner_Profit is not an Owner_Cost of production, it is the amount the Owners receive ABOVE the Owner_Costs of production.
+
+Owner_Profit is the DIFFERENCE between Payer_Price and Owner_Costs.
+
+
+From the Payer's point-of-view, once the transaction is made, a Payer's_Price paid becomes his own "Owner_Cost", even though it also contains Owner_Profits paid to those other Owners.
+
+For example:
+    Say the Owner of a "pin factory" buys steel as an input of production.  He will pay a Payer_Price which includes both Owner_Costs AND Owner_Profit, but from HIS point-of-view, that purchase is simply an Owner_Cost because he cannot avoid paying it.
+
+But wait, there IS a way to avoid it.
+
+A Payer can escape paying Owner_Profit by becoming the Owner of THAT production too.  So, if the Owner of a "pin factory" owned the steel mines and smelters (or whatever) and all the equipment needed for THAT production, then he would still have to pay Owner_Costs (including wages), but would no longer pay Owner_Profits, since who would he possibly pay them to?
+
+
+> Perhaps that cost is money owed to investors
+
+Yes, this is a problem with WHO we choose as investors.  If the investors were potential Consumers, and were investing for the purpose of *Owner_Product* instead of Owner_Profit, then we could pay them in product instead.
+
+For example, would you be willing to invest (pre-pay) $100 toward owning shares in a Cell-Phone company (co-owned with say 999,999 other people) that would then provide you with "at cost" service?
+
+Your Payer_Price would be far lower since you would then be paying only Owner_Costs while avoiding the 'leak' of Owner_Profit.  If we want to know how much more efficient this is, all we need to do is look at the 'earnings' of Sprint, Nextel, etc. to see what we would not be paying.
+
+> money needed to offset inflation
+
+We are so accustomed to the idea that inflation cannot be avoided.
+
+Who issues the currency for your nation?
+
+Is it your (corrupt, and so there is another level of trouble)government, or is it a cabal of private, offshore bankers?
+
+If you live in the USA (and nearly every other country on earth), that currency is issued (as disturbances on magentic media) by private bankers who then buy US Bonds on the open market - bonds that, from what I understand, are largely backed by the land of our national forests and other irreplacable assets.
+
+The National Debt is a direct result of this sham that is so filthy and backward it can hardly be believed or even comprehended why we (the people) would not just issue our own currency as some presidents (Lincoln, Kennedy) tried and were murderd because of.
+
+http://en.wikipedia.org/wiki/Executive_Order_11110
+
+We are loosing ownership of the ground beneath our feet because we BORROW those electronic blips instead of issuing them ourselves.  God (if there were one) we are dumb.
+
+
+> or to re-invest into expansion and development of the operation.
+
+Yes, this is a good point.  I agree Owner_Profit should be used to pay for growth, but my contention here is that the Ownership of those new investments should be (or become as they 'vest') the Property of the person who *PAID* it - so that each Payer (consumer) slowly gains ownership in the Means of Production according to the amount he is willing and able to pay above Owner_Costs until his Payer_Price approaches and even can reach Owner_Costs.
+
+
+> If you think a $1 motor
+> costs $50 dollars because CEOs are making seven or eight figures,
+> well, you'd have to show me something besides your speculation.  I
+> think those unnecessary folks are leaching only a very small
+> percentage of the total money fluxing through the operation.
+
+CEOs are paid excessive wages (which are booked as Owner_Costs) because the pool of owners is not diversified enough to thwart such stupidity.
+
+The other owners either do not have any real control (blind investors such as those buy Mutual Funds, etc.), or they are controlling owners that do not complain because they also receive similar handouts.
+
+
+>>Why dance around wondering how to lower real costs when the current
+>>manufacturers are always trying to lower those costs to maximize
+>>profits?
+>
+> I was hoping to explain not how to lower manufacturing costs, but how
+> much more significant these costs are than the mere price of scrap
+> metal.  I brought up these costs because I think these real costs are
+> what actually determine the price of an object.  Any business laden
+> with a burden of truly unnecessary costs would quickly be put to rest
+> by another venture trying to eliminate those leaks.
+
+Perfect Competition would eliminate all Owner_Profit, but Perfect Competition will occur only when every Payer has sufficient Ownership in the Means of Production needed to escape that payment.
+
+
+> I think if you (yourself) tried to build small 6V dc motor, even if
+> you were given CAM programs and CNC machines (and you didn't feel
+> obliged at all to give anything back to those programmers for their
+> work), you'd be well over the $50 mark for a product of less quality.
+> It would take you days to make one and just wait till you get the
+> electricity bill for running that electric arc furnace to extrude that
+> copper wire.
+
+Are you saying no business ever collects Owner_Profit?
+
+If so, then what is it they report as 'earnings' at the end of each quarter?
+
+
+> Nor do collectively run manufacturing operations produce goods at a
+> small fraction of what capitalistically owned operations offer.
+
+"Collectively run" operations are inevitibly owned by a small group of workers, not by those who Pay for the product thereof, so are essentially the same as Capitalists, since their goal is also to keep Payer_Price above Owner_Costs.
+
+> You present an interesting idea.  Superficially related to marx's
+> surplus value, but the profit you speak of is very different.  Pardon
+> me if I misunderstand, but i see that, rather than being concerned
+> with reclaiming the life energy of workers, you seek to end capitalism
+> (the rule of bankers and investors) in order to lower prices.  How
+> very capitalist!
+
+I'm trying to multiplex property ownership across those finally use the outputs of that production so they can have ultimate control at minimum Payer_Price.
+
+As a side-effect, maximizing competition minimizes Owner_Profit - even to the point of 0!
+
+But that is OK when the investors are the same group that will be satisfied with "at cost" Product, for then we can all win instead of being a culture that requires late-comers perpetually pay more than Owner_Costs as some sort of 'reward' for the current owners while the late-comers remain dependent upon them.
+
+
+
+Jun-10-2009: At Blog.P2PFoundation.net/peer-money/2009/06/09 Kevin Carson wrote:
+
+> The rate of profit on capital is inherent in wage labor, via the difference in value between labor's product and the price of labor-power.
+>
+> The mere fact of the capitalist's owning capital is the source of surplus value.
+>
+> The natural value of labor-power, in a free and non-capitalist market, is the product of labor.
+>
+> Individualist anarchists consider labor to be the unique factor in that it is the one commodity whose price is not determined by the cost of production. It is the natural state of affairs, in a free and non-capitalist market, for the price of labor to be determined by the disutility of supplying it, rather than the cost of reproducing it. And it is the natural state of affairs for the price of capital to be determined by the cost of supplying it.
+>
+> It is artificial scarcity of capital - namely, state restraints on competition among those supplying it, and state restraints on direct worker access to the means of production and subsistence - that enables capitalists to charge a premium for access to capital, and pay workers a wage less than their full labor-product.
+>
+> A major component of the gross rate of interest is an artificial scarcity-premium, resulting from entry barriers and restraints on competition in the supply of credit. This artificial scarcity and artificial expense of capital reduces the bargaining power of labor, and thereby affects the rate of profit on industrial capital. For Marxists, the rate of interest derives from the rate of profit; for individualist anarchists, the reverse is true. And if Bauwens and other advocates of peer money are not individualist anarchists, they share the same understanding that the structure of money itself affects the exploitative character of capitalist production.
+>
+>
+> The purpose of open-source and P2P is not to eliminate exchange in and of itself, but to eliminate artificial scarcity. The philosophy of open-source and P2P does not involve only eliminating scarcity and cost in the cognitive realm, where the marginal cost of reproduction is zero (software, music, etc.). It also entails eliminating unnecessary costs of physical production.
+>
+> That means, for starters, eliminating the portion of commodity price that results from embedded rents on artificial property rights. This category includes proprietary designs. It includes oligopoly markup from restricted competition resulting from proprietary design, and "intellectual property" restrictions on competition in producing generic spare parts and modular accessories for competitors' platforms. It includes markup from IP-dependent designs that discourage ease of repair and reuse. It includes markup for patented or contractually mandated accessories (cheap glucometers plus expensive testing strips, cheap printers plus expensive cartridges, cheap phones with expensive service plans, etc.).
+>
+>
+> Andreas Wittel, in a post to the P2P Research list, asks
+> So why tinkering at the edges of a monetary system, why creating new ones? How could new monetary systems stop or even diminish the exploitation of labour power? If they can't, why bother? Of course I am not suggesting that work towards a new monetary system should be abandoned in the p2p community. I just don't see the point. I would like to focus my inquiries on the question how the p2p community can contribute to a fairer system of monetary exchange for labour (= value)
+>
+> .
+>
+> The answer is that ordinary producers, by using networked, crowdsourced, cooperative forms of social lending to aggregate their own small capitals into larger sums of investment capital, can finance worker-owned enterprises through their own self-organized financial system - thus eliminating the monopoly rents previously paid to the state-privileged, state-licensed banking sector for providing that service.
+>
+> .
+>
+> We should keep in mind that the primary function of money isn't to serve as a store of value. For the purposes of local economies, it is more important as a measure of value for facilitating exchange. Local currencies, LETS systems and other barter networks, provide liquidity to facilitate exchange of future products or services between ordinary producers who may not have accumulated stores of past value. Local currencies enable producers to directly exchange their wares within a network, without the intermediary of conventional money from the outside capitalist economy.
+>
+> .
+>
+> Thomas Hodgskin, writing in the 1830s, demolished the "labor fund"defense of profit by pointing out that wages aren't paid by the capitalist out of accumulated past production. They are, rather, advanced from current production by some workers against future production by other workers. The same function, of coordinating exchange of future products, could be carried out cooperatively by workers themselves. By preempting the function and monopolizing it through a state-privileged banking system, the capitalist or financier is able to collect tribute for it.
+>
+> .
+>
+> If the realization of capital follows a circuit, as described by Marx in Capital, the same is also true of labor. The circuit of labor is highly vulnerable to disruption. And the more steps in the circuit, the more likely it is to be broken, and the more likely the realization of labor (the transformation of labor into use-value, through the indirect means of exchanging one's own labor for wages, and exchanging those wages for use-value produced by someone else's labor) is to fail. When we participate in the capitalist economy, we must first obtain money by either selling our services to a capitalist wage employer or amassing the startup capital for a high-overhead, high-risk conventional business to sell one's services to the customer. Then we take the money and use it to hire the services of others, with the a major part of the price going to the overhead costs of a conventional capitalist enterprise, and the capitalist employer perhaps taking his cut as well. Local money systems, by promoting direct exchange between producers, eliminate many of the insecurities and uncertainties of the capitalist economy. By reducing the intermediate steps between production and consumption, they also reduce the contingency involved in consumption.
+>
+> .
+>
+> Michel Bauwens recently argued, contra Siefkes, that "there are important aspects of monetary transformation that are related to the peer to peer agenda."
+>
+> 	The most important thing to remember is that the peer to peer dynamic requires free or very easy access to means of production, and that this mostly works for the production of non-rival immaterial goods, but that the production of physical goods, even if the designs can be open and free, need cost recovery mechanisms....
+>
+> 	...For peer to peer self aggregation to occur, we need distributed infrastructures. Only if the individuals have control over their own means of production, can they freely self-aggregate. That we can do peer production of knowledge, software and designs is because knowledge workers have access to computers and a socialized internetwork. If we had distributed machinery, more distributed access to capital, more self-aggregation could occur.
+>
+> 	...Peer to peer is about non-rival goods that can be reproduced at marginal cost and abundantly.
+>
+> 	The more we can engineer abundance, the more this can happen. But classic capitalist money is about engineering scarcity, as are capitalist markets generally. Monetary transformation is aimed at creating sufficient money supplies, accessible by all.
+>
+> In Bauwens' recent debate with Michael Albert at Znet, Albert seemed preoccupied with the idea that peer production applies only in the immaterial realm, where the costs and permissions for obtaining inputs are negligible and the marginal cost of reproduction is zero.
+>
+>     If some group produces outputs that require inputs, it would have to get the inputs. It would have to get the labor. People could say no. Permissions, and perhaps acquisitions, are involved. More, peer to peer seems to be only about undertaking joint ventures that have no significant costs. Is that right?
+>
+> But this misses the whole point, which we have seen above: that the cost of inputs, even in physical production, is not just a given but itself a dependent variable that can be affected by peer organization.
+>
+> Rather than there being an impermeable dividing line between qualitatively distinct categories of market and peer production, it is more accurate to say that physical production can become more "peer-like," even when some aspects of it are governed by market exchange, as the costs of physical production fall. The difference between cognitive and physical production, and between free speech and free beer, is one of degree rather than of kind.
+
+
+Jun-10-2009: Rereading Dreamscape.com/rvien/Economics/Essays/LTV-FAQ.html >>Frequently Asked Questions about The Labor Theory of Value
+
+
+Jun-09-2009: Draft meant for Groups.Google.com/group/openmanufacturing
+Paul D. Fernhout wrote:
+> Profit (in theory) compensates for taking on risk. That is, you might invest
+> resources into a production facility where no one wants the product, and
+> lose your entire investment. Profit is also supposed to reward initiative
+> and the management aspects of investing.
+>
+> Still, in a mature economy (where not much is changing and there is complete
+> competition without monopolies), profit will go to zero (according to
+> mainstream economics).
+>   "Why Profits Don't Go to Zero"
+>    http://www.thestalwart.com/the_stalwart/2005/06/why_profits_don.html
+> "The conclusion is that it simply takes a long time for profits to
+> disappear.  Part of the reason is that people expect profits to disappear
+> quicker than it does, so people are hesitant to get in on the action.  This
+> actually explains a number of things, such as why asset bubbles don't burst
+> as quickly as they should."
+>
+> I don't see why mainstream economists don't see a problem with profits
+> everywhere going to zero and then ending capitalism eventually, but maybe
+> they think after a "business cycle" that businesses will fail and then there
+> will be a chance for profit again? They handwave it away perhaps, and talk
+> about profit motivating innovation, as if all innovation was valuable (like
+> the innovation of figuring out how to get young kids to smoke using cartoon
+> animals was a good thing for society).
+>
+> Anyway, I don't think you will get too much support against "profit" in the
+> USA (maybe elsewhere) because it is often a reward for initiative and risk
+> taking and investment management.
+> One may, of course, question by what right some people get to be investment
+> managers and not others (aspects that come from parents, inheritance,
+> marriage, luck, being first, connections, etc.. :-)
+>
+> What you might better focus on IMHO is "rent seeking" or "rent" or
+> "royalties" (the name coming from association with kingly privilege and
+> monopoly backed by an army) related to "monopoly". Monopoly is supposed to
+> be a dirty word to a free market society, but our society is riddled with
+> monopolies (copyrights, patents, land ownership, social relations,
+> certifications, college degree granting, professional licensing, who can
+> prescribe drugs, etc.). Rents generally come from monopolies in some form,
+> over land or over ideas or over rights to do something or access some
+> resource exclusively. And the question then is, by what right does someone
+> declare they own a parcel of land that, say, a mine is on so they can ask
+> for "rent"? Or by what right does someone who is on the other side of the
+> planet claim to "own" a warehouse or farm or oil field they may have never
+> seen? Or by what right does someone say only certain people can prescribe
+> drugs?
+>
+> So, asking how much of a motor's cost is "rent" may get you further than
+> asking how much is "profit", at least, as long as there is risk involved in
+> production. Once you eliminate "rent" from the price of a motor, then you
+> could go back to looking at profit. (Note, that in this sense, I use "rent"
+> differently than that part of money that goes to the upkeep of a property,
+> like to fix leaky roofs or repair broken sewage lines or pay for heat if
+> included.) Although it gets hazy then how much of rent is "profit" and how
+> much of it comes from having a monopoly on something.
+>
+> From:
+>   http://en.wikipedia.org/wiki/Rent-seeking
+> "In economics, rent seeking occurs when an individual, organization or firm
+> seeks to earn income by capturing economic rent through manipulation or
+> exploitation of the economic environment, rather than by earning profits
+> through economic transactions and the production of added wealth."
+
+
+
+
+Jun-08-2009: Thoughts on careful word usage and role playing...
+The terms 'consumer' and 'producer' confuse our analysis by anthromorphosizing these economic roles.
+
+Except for dependents, every actor is both a consumer AND a producer.
+
+Consumption and production and are actions we take, not opposing groups that compete.
+
+There is no such thing as a worker that does not eat, nor are there eaters that do not work.
+
+An actor may produce a good which he does not consume.
+An actor may consume a good which he did not produce.
+
+Most actors do both.  They consume the product of others while producing for others.
+
+They also likely produce some of what they consume, but that is not economically interesting.
+
+We each and all must complete both of these tasks.
+
+Ownership in the Means of Production is not a question of "which group should have", but a question of "what actions should cause".
+
+
+Jun-04-2009: Cap-Lore.com/CapTheory makes me think about physical security in the context of a human community.
+
+Jun-04-2009: http://Wikipedia.org/wiki/Rivalry_(economics) needs more clarity and precision.

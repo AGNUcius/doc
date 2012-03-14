@@ -1,0 +1,72 @@
+Related: compute, equa, fract, hex, math
+
+PC-Calculator.sf.net >>Pc Calculator is a totally new kind of a calculator. At the same time it is a handy text and formula editor and an advanced scientific calculator. It works in an intuitive way and it is extremely user-friendly. For instance, all possible typing errors are easily corrected and fast recalculated. And, its working memory is like a piece of paper, which you can scroll back and forth and write your calculations just where you wish. You can also add explanatory comments to remind you what the calculations were made for. On exit all the comments and formulas are saved and when you next time open the program, it starts from the same position where it previously was.
+
+TTCalc.sf.net >>TTCalc is an open source bignum mathematical calculator. It features arithmetical functions, trigonometric functions, inverse trigonometric functions, hyperbolic functions, inverse hyperbolic functions, logical operators, logarithms, functions for converting between degrees and radians and so on. Additionally the program allows a user to define his own variables and functions.
+
+HexCalc.sf.net >>HexCalc is a simple calculator similar to GNOME calculator. it can do simple calculations in hexadecimal, octal, binary, and non-floating point decimal. It uses a 32bit signed integer. It is a helpful little coder utility.
+
+OpenRPN.sf.net >>OpenRPN is an initiative to design and produce ultra high-quality calculator hardware and software for scientific professionals and advanced students using a community developed approach to ensure flawless operation.
+
+FPCalc.sf.net >>The fast powerful CALC is a desktop scientific calculator, still is under development and tests. The objective is offer a good and easy to use mathematical tool. I hope you enjoy it.
+I am very proud to announce the release of the fast powerful CALC 0.0.5.9 codename "guayaba", this version provides many changes and enhancements from the last release.
+
+KPNCalc.sf.net >>KPN Calculator is a Polish notation caluclator. See the docs for more details.
+
+PocketMK.sf.net >>PocketMK is programmable RPN calculator designed to be comfortable for small screens (like PDA) and compatible with a set of Soviet programmable calculators (like MK-61). It have special functions (erf, gamma ...), graphical and indirect address commands
+
+Qalculate.sf.net >>Qalculate! is a multi-purpose desktop calculator for GNU/Linux. It is small and simple to use but with much power and versatility underneath. Features include customizable functions, units, arbitrary precision, plotting, and a user-friendly interface (KDE or GTK+).
+
+CalcPlusPlus.sf.net >>First of all... What is calc++?? calc++ is a very simple interpreter for my math parsing library (libmath++) The main idea was to design a simple but powerfull way to do my physics works in less time. If you are looking for something with integrals, symbolic math, 3D plotting, etc... You came to the wrong place. There are advanced libraries and software to do that. You should try out: GNU Octave, wxMaxima, etc...
+
+MiniCalcGUI.sf.net >>MiniCalc GUI is a calculator that supports user-defined functions and graphing.It starts instantly and runs on both Windows and Linux.It is easy to use for the average user, but also supports factorials, exponents, logs, and trig functions.
+
+SimplexCalculat.sf.net >>An innovative calculator project.
+
+CalculatorPlus.sf.net >>Calculator is a small as it says calculator written in C++. The goal is to write a fully featured calculator which can beat MS Calculator. It will support Win32,Linux,Mac and so far most of the OS on the market.
+
+edanator.sf.net >>Graphical binary/hex calculator and bit manipulator
+
+HexTool.sf.net >>HexTool is a simple yet effective Windows calculator/tool; invaluable for people who work with Hex and Binary. Now you can convert between Hex, Binary and Decimal on the fly. No install needed: just unzip and run it!
+
+RPNs.sf.net >>A programmable RPN calculator for various PDAs. It features a programming language that resembles the original RPL found in HP48, along with other "standard" features such as matrices, complex numbers, binary arithmetic etc.
+
+PrecCalc.sf.net >>Precise Calculator has arbitrary precision. It knows all usual mathematical functions, statistical functions, vectors, matrices, complex numbers, fractions. It is programmable (if, goto, print, return, = ).
+
+Calcoo.sf.net >>both RPN and algebraic modes.  bitmapped button labels and display glyths.  undo/redo.  copy/paste interaction with the X clipboard.  two memory registers with displays.  displays for Y, Z, and T registers.
+
+ReactOS-Calc.sf.net >>ReactOS Calc is a scientific calculator.  It has been written to be a clone of calculators included into MS Win32 operating systems.  It has a similar user interface and keyboard shortcuts.  It will be released under GNU GPL license.
+
+galculator.sf.net >>galculator is a GTK 2 based scientific calculator supporting algebraic mode as well as RPN. Features include arithmetic precedence handling, mathematical functions, different number bases (DEC, HEX, BIN, OCT) and angle bases (radiant, degree, and grad).
+
+Jessamine.sf.net >>Jessamine is basically a text editor and a scientific calculator for everyday use with a lot of useful features. You can have multiple sheets inside your jotter file, making it easy to store, arrange and retrieve information.
+
+WinXCalc.sf.net >>WinXCalc is a calculator for Microsoft Windows. Its calculation engine is heavily based upon xcalc, the calculator for X-Windows. Although it's not just a port of xcalc, many characteristics of xcalc (like infix/rpn) are maintained in WinXCalc.
+
+HP-15C.sf.net >>HP-15C Based Calculator
+
+FL-RPNCalc.sf.net >>Fl_RPNCalc is a simple RPN Calculator designed to be easily used with keyboard/numpad. Written in C++ using the FLTK GUI toolkit. Compiles on Linux/Windows.
+
+GTKCalc.sf.net >>A simple scientific calculator for complex number calculation. It requires the GTK+ toolkit.
+
+Zahniser.net/software/hsilop >>The interface is minimalist: the program starts out as a small green rectangle floating above your other windows. Enter numbers, and the hsiloP rectangle grows to display all the numbers in a "stack" (the picture to the left shows hsiloP running, with my desktop behind it). Each command that you enter (such as + or atan or factor) removes numbers from the bottom of the stack and replace them with a result.
+
+ghsiloP.sf.net >>ghsiloP is a GNOME/GTK+ compliant inverse Polish notation calculator written in C++ with GTK--. It has most of the more common scientific calculator features, with more to be added... If you have an HP 48GX (like I do) or similar calculator, you'll love g
+
+WURP.sf.net >>Wurp is an RPN (Reverse Polish Notation) calculator, similar to the HP48 calculator. Wurp supports various platforms, including KDE and curses (and hopefully Windows eventually).
+
+FWCalc.sf.net >>Once upon a time there was a pocket calculator called the HP15C. It used a system called Reverse Polish Notation (RPN) for doing its calculations. The Fairwood Calculator is a RPN calculator designed for the computer.
+
+Qmcalc.sf.net >>Qmcalc is a multi-function, multi-memory, programmable scientific calculator. with about the same capabilities of a Ti-82 Graphic Scientific Calculator minus a few unimplemented features, but also a few extras not included with the original Ti-82 graphic calculator.
+
+GCalc.sf.net >>When in the course of computing events it becomes apparent that not all calculators are created equal, one must turn no further than to GraphCalc. When the requirements of your computations exceed the capabilities of your four-function figurer, turn to GraphCalc. When you need to see what multiple compound exponential sinusoidal waves look like, turn to GraphCalc. Haven't we all at some point wanted to see what "sin(x)^2-3*ln(tan(x*pi))" looked like, and the Windows calculator just wasn't up to the task?
+
+Jirka.org/genius.html >>Genius is a general purpose calculator program similiar in some aspects to BC, Matlab, Maple or Mathematica. It is useful both as a simple calculator and as a research or educational tool. The syntax is very intuitive and is designed to mimic how mathematics is usually written. GEL is the name of its extention language, it stands for Genius Extension Language, clever isn't it? In fact, many of the standard genius functions are written in GEL itself.
+
+PGCalc.sf.net >>PG Calculator is a powerfull scientific calculator and an excellent replacement for standard calculator.  It ofers full customizable user inteface and looks like real calculator on user desktop.
+
+Pessimization.com/software/orpie >>Orpie is a fullscreen RPN calculator for the console. Its operation is similar to that of modern HP calculators, but data entry has been optimized for efficiency on a PC keyboard. Features include extensive scientific calculator functionality, units support, base conversions, command completion, configurable keybindings, and a visible interactive stack.
+
+wxEcMath.sf.net >>Tiny library written in C++/wxWidgets designed to manage mathematical objects : parser of expressions, plots, matrixes and complex numbers. Ansi and Unicode are supported. Documentation and rich samples are provided.
+
+Calculator186.sf.net >>I started to learn C again, and this time I performed a calculator which can do simple operations by only 2 numbers per session. In the first step you shouldn't forget this: + = sum - = subtraction * = multiplication / = division Enjoy!

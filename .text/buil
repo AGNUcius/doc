@@ -1,0 +1,76 @@
+Related: compile, cook, create, current, DDK, dev, IDE, jam, make, house, store, scons
+
+Waf.GoogleCode.com >>Waf is a Python-based framework for configuring, compiling and installing applications.
+
+NonGNU.org/Cygbuild >>Cygbuild - A Porting tool for making Cygwin Net Releases
+
+Lace-Build.sf.net >>Lace is a stand alone build system that provides a scheme to define projects in a modular way. It is written in ruby, the definition files of the project are also ruby scripts (no esoteric new language to learn) and it can both build projects stand alone as well as creating project files for Microsoft Visual studio and Eclipse. You can easily add support for other IDEs. Lace has no bindings to compilers or linkers built in but comes with easy means to define your own compilers. Compared to IDEs it is a snap to create and maintain many configurations (that is build targets) of your source code, also using different compilers for groups of those configurations as is required when building multi-platform projects.
+
+github.com/funtoo/metro >>Metro is a build tool that can build Gentoo Linux OS releases and OpenVZ templates. It's designed to interface with a package manager such as Portage/emerge so that users can build their own releases of Gentoo or other Linux-based operating systems.
+
+VirtualBox.org/wiki/kBuild >>kBuild is a build framework based on a modified GNU make and a standard set of cross platform tools. VirtualBox is a cross-platform project and therefore we needed a powerful build system that works on several platforms.
+
+sf.net/projects/ccnet >>CruiseControl.NET is automated continuous integration server for the .NET platform. It is a C# port of CruiseControl for Java.
+
+HollisTech.com/Resources/ddkbuild/ddkbuild.htm >>DDKBUILD - Integrating the Windows DDK with Visual Studio .Net
+
+Social.MSDN.Microsoft.com/Forums/en-US/tfsbuild/threads >>Team Foundation Server - Build Automation
+
+OpenArchitectureNetwork.org
+
+Ribosome.HelixCommunity.org >>Ribosome is a suite of build tools, written mainly in Python, which provide a common interface to retrieving and building programs from source code stored in a CVS repository.
+
+Trac.Next-Touch.com/spray >>Spray is a build tool helping you in configuring, building and installing your project It is similar in purpose to the autotools or CMake but created following the spirit of SCons and waf using the Python programming language.
+
+Autotoolset.sf.net >>The Autotoolset package (former autotools package) complements the GNU build system
+
+BuildConf.BRLCAD.org >>It started as just a little build preparation script... and over the years has grown to be quite a useful utility saving me time and effort with support requests and cross-platform compilation.  It's the same sort of script often commonly found among projects that use the GNU Build System -- also known as just the GNU Autotools or for each tool individually as Autoconf, Automake, and Libtool. These projects frequently have a custom helper script written that prepares the build system for their project's developers, usually running various tools like libtoolize, autoconf, or autoreconf.  This script is often named either buildconf or autogen.sh but the intent is the same: to prepare your build system for compilation
+
+Hypertriton.com/bsdbuild "'BSDBuild (formerly csoft-mk) is a simple, self-contained and portable build system derived from the traditional 4.4BSD share/mk files. BSDBuild allows BSD-style makefiles, but without BSD make extensions (it uses standard Bourne script fragments instead), so the build system is portable to most operating systems and make flavors.
+
+BSDBuild can generate Bourne-type configure scripts. The base distribution currently includes more than 30 built-in tests for detecting and testing the compatibility of various software, and writing new tests is very easy.
+
+BSDBuild also implements automatic generation of "project files" for various IDEs, such as CodeBlocks and Visual Studio.'"
+
+BuildBot.net >>The BuildBot is a system to automate the compile/test cycle required by most software projects to validate code changes. By automatically rebuilding and testing the tree each time something has changed, build problems are pinpointed quickly, before other developers are inconvenienced by the failure. The guilty developer can be identified and harassed without human intervention. By running the builds on a variety of platforms, developers who do not have the facilities to test their changes everywhere before checkin will at least know shortly afterwards whether they have broken the build or not. Warning counts, lint checks, image size, compile time, and other build parameters can be tracked over time, are more visible, and are therefore easier to improve.
+
+CruiseControl.sf.net >>CruiseControl is a framework for a continuous build process. It includes, but is not limited to, plugins for email notification, Ant, and various source control tools. A web interface is provided to view the details of the current and previous builds.
+
+ice.sf.net >>iCompile the zero-configuration build system
+
+OpenLINA.org >>With LINA, applications written for Linux run with native look and feel on Windows, Mac OS X and UNIX operating systems.  LINA Is Not an Acronym.
+
+
+
+==Source Example
+Building (compiling then installing) software from source on GNU+Linux is traditionally like:
+
+$ ./autogen.sh # usually only if pulling from CVS
+$ ./configure
+$ make
+$ sudo make install
+
+But ./configure or make will fail if a required library is not installed.
+
+Look carefully at the errors for clues about what the dependency might be called.  For instance, if the output look something like:
+
+> checking for CONFUSE... configure: error: Package requirements (libconfuse >= 2.5) were not met.
+
+Then try:
+$ sudo apt-cache search confuse
+
+Which might look like:
+> libasound2-plugins - ALSA library additional plugins
+> libconfuse-dev - Development files for libConfuse
+> libconfuse0 - Library for parsing configuration files
+> makeself - utility to generate self-extractable archives
+> pmccabe - McCabe-style function complexity and line counting for C and C++
+
+In most cases we will want the *-dev package, so now type:
+
+$ sudo apt-get install libconfuse-dev
+
+And re-run the first instructions.
+----
+
+WheresTheBuild.com, BuildsOnMyMachine.com, YouBrokeTheBuild.com

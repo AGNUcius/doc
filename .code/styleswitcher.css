@@ -1,0 +1,43 @@
+body{font-family:arial,monospace;}
+
+#main{
+white-space:pre-wrap;      /* this is the standard, not supported anywhere */
+word-wrap:break-word;      /* MSIE */
+white-space:-moz-pre-wrap; /* Mozilla */
+white-space:-pre-wrap;     /* old Opera */
+white-space:-o-pre-wrap;   /* Opera */
+
+border-bottom:1em solid #fff;
+border-top:1em solid #fff;
+border-left:4em solid #fff; padding-left:4px;
+border-right:4em solid #fff;
+}
+
+#header,#footer{font-size:110%;}
+
+/*span.bullet:before{content:"\2666";}*/
+span.bullet{margin-left:1%;font-size:150%;}
+span.indent{margin-left:1%;}
+
+span.quot,span.quot2,span.quot3{font:caption;}
+
+span.h1{font-size:270%;}
+span.h2{font-size:230%;}
+span.h3{font-size:190%;}
+span.h4{font-size:150%;}
+
+a{text-decoration:none;}
+a:visited{text-decoration:none;}
+a:hover,a:focus{text-decoration:none;}
+
+a.ext:hover,a.ext:focus{text-decoration:none;}
+
+input{font-size:65%;}
+img{float:right;}
+
+span.italic{font-style:italic;}
+span.bold{font-weight:bold;}
+
+/*http://www.echoecho.com/csslinks.htm*/
+/*http://www.blooberry.com/indexdot/css/index10.htm*/
+/*http://www.w3.org/TR/REC-CSS2/text.html*/

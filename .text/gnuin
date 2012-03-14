@@ -1,0 +1,84 @@
+Related: LazyLoad, MiniMacs, c:\Home\bin\STC, \\STC-BUILD\c$\dev\research\GNUin ~/bin/GNUin
+
+GNUin -- [Pronounced "New-win"] is to Microsoft Windows as GNUnix is to *nix.
+
+1.) Slim-down and enhance any Microsoft Windows (for now just XP) Operating System to increase usability or to recover from various types of hijacking (java, anti-viri, viri, malware, spyware, etc.)
+
+2.) Make enormous amounts of Free Software available through LazyLoad.
+
+
+==Tools
+~/bin/GNUin/service.clean.Vista.cmd
+~/bin/GNUin/service.clean.XP.cmd
+
+RegainPower.sf.net >>Folder option, task manager, regedit are mostly and commonly disabled by viruses in windows.This program can bring back your folder options,task manager, regedit(windows registry editor)search option,run option,show hidden files and folders etc.. options
+
+FixUpR.sf.net >>FixUp Restrictions can bring back your task manager, regedit, folder options, search option,Hidden drives,run option,show hidden files and folders etc.. options,it help you to remove the effect of virus from windows registry and file system.
+
+
+http://wistinga.online.fr/safarp
+
+www.CodeProject.com/KB/applications/NtRegEdit.aspx
+
+
+----
+triage: GNUnix, unviri, goodlist
+
+recover: password, undelete files, find keys
+
+backup: 
+
+fix: bootcfg, convert, ~/bin/GNUin/dump.machine.info.cmd
+
+stop: service.clean, StartupManager.org, xpy.WhyEye.org, autoruns.exe
+uninstall: Wistinga.Online.fr/safarp, Vispa.WhyEye.org, service.uninstall
+
+test: chkdsk, defrag, event, cleanmgr
+
+update:
+
+communicate: Pidgin, miranda,
+
+== associate: assoc, ftype
+aud(ogg, mp3, wav)
+web: Firefox, FlashBlock.MozDev.org, AdBlockPlus.org, wget
+vid(mpg, avi, mov, wmv, flv): VideoLAN.org, SMplayer.sf.net
+arc(zip, gz, bz2, cab, iso): 7-Zip.org
+pic(jpg, gif, png): GIMP, InkScape, TuxPaint, GraphicsMagick.org, MozImage.MozDev.org, GreenShot.sf.net
+xls
+ppt
+doc, odf: AbiWord.org, OpenOffice.org, KOffice
+pdf: SumatraPDF, PDFCreator
+djvu: WinDjView.sf.net
+
+
+
+mail:
+
+maintain: procexp.exe, defrag
+
+remote:
+
+todo: schtasks.exe,
+
+sys-info: sysdm.cpl, services.msc, compmgmt.msc, diskmgmt.msc, taskmgr.exe, dmidecode, SMART
+
+develop: cygwin, CodeBlocks
+
+play: games
+
+report bugs and request features:
+
+
+===Files/Folders to delete
+
+
+===File/Folder hogs
+c:\windows\Installer
+c:\windows\Symbols
+c:\windows\system32\xircom
+
+===Services to disable
+Browser
+BITS
+

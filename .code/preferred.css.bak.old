@@ -1,0 +1,49 @@
+body{font-family:arial,monospace;background:#000;}
+
+#main{
+border-bottom:1em solid #000;
+border-top:1em solid #000;
+border-left:4em solid #000; padding-left:4px;
+border-right:4em solid #000;
+background:#bbb;
+}
+
+#header,#footer{background:#888;font-size:110%;}
+
+/*span.bullet:before{content:"\2666";}*/
+span.bullet{margin-left:1%;font-size:150%;}
+span.indent{margin-left:1%;}
+
+span.quot,span.quot2,span.quot3{font:caption;}
+span.quot{background:#fdf;}
+span.quot2{background:#ffd;}
+span.quot3{background:#dff;}
+
+span.cmnt{background:#dfd;}
+span.shell{background:#ddd;}
+span.type{background:#fdd;}
+
+span.h1,span.h2,span.h3,span.h4{background:#fff;}
+
+span.h1{font-size:270%;}
+span.h2{font-size:230%;}
+span.h3{font-size:190%;}
+span.h4{font-size:150%;}
+
+a{color:#00a;text-decoration:none;}
+a:visited{color:#a0a;text-decoration:none;}
+a:hover,a:focus{text-decoration:none;background:#aaf;}
+
+a.ext{color:#a00;}
+a.ext:hover,a.ext:focus{text-decoration:none;background:#faa;}
+
+
+input{font-size:65%;}
+img{float:right;}
+
+span.italic{font-style:italic;}
+span.bold{font-weight:bold;}
+
+/*http://www.echoecho.com/csslinks.htm*/
+/*http://www.blooberry.com/indexdot/css/index10.htm*/
+/*http://www.w3.org/TR/REC-CSS2/text.html*/

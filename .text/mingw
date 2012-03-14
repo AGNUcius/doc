@@ -1,0 +1,21 @@
+Related: compile, Cygwin, IDE, unix
+
+TakeoffGW.sf.net >>A GNU/Windows distribution with package manager. Consists of open source applications natively ported to Windows platform. Evolution, Gimp, Inkscape and more; MinGW gcc, MSYS; graphical cygwin-like package manager.
+
+MinGW.org >>MinGW, a contraction of "Minimalist GNU for Windows", is a port of the GNU Compiler Collection (GCC), and GNU Binutils, for use in the development of native Microsoft Windows applications. Offered in easily installed binary package format, for native deployment on MS-Windows, or user-built from source, for cross-hosted use on Unix or GNU/Linux, the suite exploits Microsoft's standard system DLLs to provide the C-Runtime and Windows API. It is augmented by additional function libraries for improved ISO C-99 compatibility, and further, by community supported add-on tools and libraries, many pre-built, many more in the form of "mingwPORTs", to be built by the end user.
+
+MinGW.org/wiki/MSYS >>MSYS, a contraction of "Minimal SYStem", is a Bourne Shell command line interpreter system.  Offered as an alternative to Microsoft's cmd.exe, this provides a general purpose command line environment, which is particularly suited to use with MinGW, for porting of many Open Source applications to the MS-Windows platform; it includes a small selection of GNU utilities such as bash, make, gawk and grep to allow building of applications and programs which depend on traditionally UNIX tools to be present. It is intended to supplement MinGW and the deficiencies of the cmd shell.
+
+MinGW-w64.sf.net >>The project's goal is to deliver runtime, headers, and libs for developing 64 bit (x64), as well as 32 bit (x86), windows applications using gcc-4.4 or newer versions.
+
+TDragon.net/recentgcc >>The TDM-GCC builds are unofficial replacements for the official MinGW releases of GCC binaries. TDM-GCC was previously recommended for experimentation purposes only, but constant use in day-to-day development and a total download count of over 50,000 have proven the TDM-GCC releases to be at least as usable as the most recent official MinGW GCC release.
+
+LunaC.sf.net >>The Luna project provides a convenient setup package for installing the GNU GCC C/C++ toolchain on Windows.
+
+Nuwen.net/mingw.html >>My MinGW distribution ("distro") currently contains GCC 4.5.0 and Boost 1.43.0
+
+Gordon-Taft.net/SciencePack.html >>The Boost Science Package is a easy to install C++ environment for scientists, engineers and students under Windows.
+
+FedoraProject.org/wiki/MinGW >>The Fedora MinGW project's mission is to provide an excellent development environment for Fedora users who wish to cross-compile their programs to run on Windows, minimizing the need to use Windows at all. In the past developers have had to port and compile all of the libraries and tools they have needed, and this huge effort has happened independently many times over. We aim to eliminate duplication of work for application developers by providing a range of libraries and development tools which have already been ported to the cross-compiler environment. This means that developers will not need to recompile the application stack themselves, but can concentrate just on the changes needed to their own application.
+
+UnxUtils.sf.net >>Here are some ports of common GNU utilities to native Win32. In this context, native means the executables do only depend on the Microsoft C-runtime (msvcrt.dll) and not an emulation layer like that provided by Cygwin  tools.

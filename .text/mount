@@ -1,0 +1,71 @@
+Related: burn, CD, disk, driver, file, fstab, ISO, link, ntfs, sbmount, USB
+
+==Mount Windows Share (SMB/CIFS)
+WinIP: IP of the Windows machine.
+ShareName: Name of the share, such as c$.
+
+Escape any of the following characters with a backslash:    (, ), &, *
+
+$ mkdir /mnt/WinIP/ShareName
+$ mount -t cifs //WinIP/ShareName /mnt/WinIP/ShareName -o user=YourUserName
+
+If you want to specify a domain and password, use:
+$ mount -t cifs //WinIP/ShareName /mnt/WinIP/ShareName -o domain=YourDomain,user=YourUserName,pass=YourPassWord
+
+WinFlux.GoogleCode.com >>WinFlux: Filesystems in Windows Userspace!
+
+Glandium.org/projects/vmfs-tools >>Originally loosely based on the vmfs code from fluidOps, this set of tools has since evolved to handle more features from VMFS, such as extents, and allows to access VMFS through the standard Linux VFS with the help of the FUSE framework.
+
+Ltr-Data.se/opencode.html ImDisk is a virtual disk driver for Windows NT/2000/XP/2003/Vista/2008. It can use one or more disk image files to create virtual hard disk, floppy or CD/DVD drives .The install package installs a console-mode control program called imdisk.exe and a Control Panel applet. After install is finished, type imdisk without parameters for syntax help or double click the ImDisk icon in the Control Panel. It also adds a menu item in Windows Explorer so that you can right-click on a file to mount it as a virtual disk drive. Users of mdconfig in FreeBSD will probably be familiar with the command line syntax of imdisk.exe. The driver, service and control program can be uninstalled using the Add/Remove programs applet in the Control Panel. No reboot is required for installing or uninstalling.
+
+ChitChat.at.InfoSeek.co.jp/vmware/vdk.html >>With VDK you can mount a VMware virtual disk to your Windows hosts and use them as another disk drive attached to your system.
+
+
+==ISO
+WinCDemu.sf.net >>WinCDEmu is an open-source software that allows mounting CD/DVD images by clicking at the image files in Windows Explorer. It supports both Windows XP and Vista, is open-source and completely freeware.  Version 2.0 supports ISO, CUE, BIN/RAW/IMG file formats as well as SMB network shares and includes a workaround for Windows cache bug.
+
+$ sudo mkdir /mnt/somedir
+$ sudo mount -o loop Some_Image.iso /mnt/somedir # may require  -t iso9660  option
+
+VaporCD.sf.net >>VaporCD can create a copy of a CD on your hard disk and mount it as if it were the real CD. VaporCD works with Windows NT 4.0 or Windows 2000. This is very handy when you have extra hard drive space and get tired of changing out CD's. Also, yet another benefit VaporCD is faster than a normal CD-ROM.
+
+
+==NTFS
+$ ntfs-3g /dev/sda1 /mnt/windows -o force
+
+$ fsutil.exe #Technet.Microsoft.com/en-us/library/cc753059.aspx, SS64.com/nt/fsutil.html, CommandWindows.com/fsutil.htm
+
+Support.Microsoft.com/kb/205524 >>How to create and manipulate NTFS junction points
+$ MountVol.exe #Creates, deletes, or lists a volume mount point.
+$ linkd.exe #from the Microsoft Windows 2000 Resource Kit
+$ DelRP.exe #from the Microsoft Windows 2000 Resource Kit
+
+
+====.vmdk
+ChitChat.at.infoseek.co.jp/vmware/vdk.html >>With VDK you can mount a VMware virtual disk to your Windows hosts and use them as another disk drive attached to your system.
+
+
+====.spf
+$ sbmount
+
+====.vhd
+$ imagex.exe #mount .wim files
+$ VHDMount.exe
+
+
+====Unix NFS drive:
+$ export #do this on the 'server'
+
+$ mkdir /mnt/192.168.1.101 #do this on the 'client'
+$ mount 192.168.1.101:/ /mnt/192.168.1.101 #do this on the 'client'
+
+$ sudo fdisk -l
+
+
+==EXT
+Ext2Fsd.sf.net >>Ext2Fsd is an open source linux ext2/ext3 file system driver for Windows systems (NT/2K/XP/VISTA, X86/AMD64).
+
+FS-Driver.org [[!NON-FREE!  Source is locked closed.  Do not use.  For historical reference only.]] >>It provides Windows NT4.0/2000/XP/2003/Vista/2008 with full access to Linux Ext2 volumes (read access and write access). This may be useful if you have installed both Windows and Linux as a dual boot environment on your computer.
+
+==Reiser
+RFSD.sf.net >>ReiserDriver is an Installable File System Driver (IFSD), used to easily (and natively!) read ReiserFS disk partitions under Microsoft Windows (2K/XP) by allowing ReiserFS partitions to appear as additional disks to the Windows operating system.

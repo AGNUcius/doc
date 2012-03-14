@@ -1,0 +1,54 @@
+EcOS --- An ecologically economic Operating System.  An EcoComics entry.
+
+Lessig.org says "Code is Law", but it is also true that "Law is Code".
+
+
+Miles Fidelman wrote:
+> Show me an operating system that doesn't grind to a halt
+> (either through thrashing or outright crashing)
+> when it runs out of resources
+
+Yes, that is Capitalism, the Kernel for most current
+Corporations and the Governments they Captain...
+
+DOS might be the best comparison - where any single
+process (person) might take all the bandwidth (water?)
+or all the memory (land?) while all other processes
+are 'starved' (that's the real CS term) of the inputs
+they need to survive.
+
+Now something like VMS, or a knockoff == WNT (that's
+Windows NT) take a much more Dictatorial approach -
+where a central command-center decides what Process
+will get the next slice of CPU or Pie.
+
+What I envision is an allocation scheme built around
+the understanding that any Process (legal entity)
+that has been allocated (owns) quite a bit of RAM (land)
+
+
+
+Living organisms and computer program similarities:
+
+. Genetics are as source code.
+
+. Both require some resources to be alive:
+    Organisms need air, land, water, agriculture, tools
+    A computer process needs CPU, RAM, storage, network
+
+. Physical laws are as the computer hardware.
+
+. Legal laws are the OS scheduling and interfaces (CLI, API, SDK, DDK, etc.).
+
+
+Let's say you and some others are starting a community in an isolated region, island or planet.
+
+Who will decide how to utilize the scarce things such as the land, water, useful plants and animals, tools and other supplies?
+
+If nobody decides and there is no communication about plans or goals, those resources may be accidentally squandered or used much less efficiently than possible.  Efficiency is important because poverty is when the price of production is too high.
+
+This is similar to the problem of scheduling and allocation for computer processes.  Current popular OS kernels (such as Linux, Solaris, NT+, etc.) are designed as benevolent dictators that keep central control of the physical sources such as CPU, RAM, hard-drive, network, etc.
+
+A more primitive Operating System kernel such as FreeDOS is more like Capitalism - where any process or group of procs may seize all or most of one or more physical sources and then "starve" or "kill" any other procs by setting the price of access too high.  These wealthy owners also control the containing government and create new legislation (new code) to further insure their holdings.
+
+Ownership of productive physical sources is in the hands of those who organize and invest early.  It's not that those industrious individuals or groups are 'evil', it is only that we each find ourselves in a "prisoner's dilemma" which encourages each owner to profit _against_ the rest of the community instead of choosing allowing control and growth to flow according to that consumers investment (profit).  Of course these wealthy processes have the 'right' to refuse other procs "at cost" access, but this division can also be viewed as an inefficiency that ignorantly thwarts the perfected competition that comes through "user ownership" which would perfect competition.

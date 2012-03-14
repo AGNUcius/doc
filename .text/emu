@@ -1,0 +1,175 @@
+Related: cloud, compile, game, hypervisor, simulation, translate, virtualize, VM, VMware, XEN
+
+==Hardware or 'platform' emulation:
+====Management and front-ends
+LibGuestFS.org >>libguestfs is a set of tools for accessing and modifying virtual machine (VM) disk images.  You can use this for viewing and editing files inside guests, scripting changes to VMs, monitoring disk used/free statistics, P2V, V2V, performing partial backups, cloning VMs, and much else besides.  libguestfs can access nearly any type of filesystem including: all known types of Linux filesystem (ext2/3/4, XFS, btrfs etc), any Windows filesystem (VFAT and NTFS), any Mac OS X and BSD filesystems, LVM2 volume management, MBR and GPT disk partitions, raw disks, qcow2, VirtualBox VDI, VMWare VMDK, CD and DVD ISOs, SD cards, and dozens more.
+
+Spice-Space.org >>The Spice project aims to provide a complete open source solution for interaction with virtualized desktop devices.  The Spice project deals with both the virtualized devices and the front-end.  Interaction between front-end and back-end is done using VD-Interfaces.  The VD-Interfaces (VDI) enable both ends of the solution to be easily utilized by a third-party component.
+
+Virtualmin.com >>Virtualmin is a powerful and flexible web server control panel based on the well-known Open Source web-based systems management GUI, Webmin.  Manage your virtual domains, mailboxes, databases, applications, and the entire server, from one comprehensive and friendly interface.
+
+LxCenter.org/software/hypervm >>The Most Complete Virtualization Manager.  Manage your entire server cluster from a single console.  Free, Flexible and Open Source.
+
+OpenNebula.org >>OpenNebula is an open and flexible tool that fits into existing data center environments to build any type of Cloud deployment.  OpenNebula can be primarily used as a virtualization tool to manage your virtual infrastructure in the data-center or cluster, which is usually referred as Private Cloud.  OpenNebula supports Hybrid Cloud to combine local infrastructure with public cloud-based infrastructure, enabling highly scalable hosting environments.  OpenNebula also supports Public Clouds by providing Cloud interfaces to expose its functionality for virtual machine, storage and network management.
+
+oVirt.org >>oVirt is the next step in open virtual machine management
+
+VirtualSquare.org >>Virtual Square is a new perspective on the virtuality. There are several kind of virtual entities today: virtual machines, virtual networks, virtual users, virtual servers, etc.
+
+Virt-Manager.org >>The "Virtual Machine Manager" application (virt-manager for short package name) is a desktop user interface for managing virtual machines. It presents a summary view of running domains, their live performance & resource utilization statistics. The detailed view graphs performance & utilization over time. Wizards enable the creation of new domains, and configuration & adjustment of a domain's resource allocation & virtual hardware. An embedded VNC client viewer presents a full graphical console to the guest domain.
+
+libVirt.org >>A toolkit to interact with the virtualization capabilities of recent versions of Linux (and other OSes).
+
+OpenQRM.sf.net and OpenQRM.com >>openQRM is the next generation, open-source Data-center management platform. Its fully pluggable architecture focuses on automatic, rapid- and appliance-based deployment, monitoring, high-availability, cloud computing and especially on supporting and conforming multiple virtualization technologies. openQRM is a single-management console for the complete IT-infra structure and provides a well defined API which can be used to integrate third-party tools as additional plugins.
+
+AQEMU.sf.net >>AQEMU is GUI to QEMU and KVM emulators, written in Qt4. The program have user-friendly interface and allows to set up the majority of QEMU and KVM options.
+
+$ virsh
+
+Proxmox.com >>Proxmox Virtual Environment is an easy to use Open Source virtualization platform for running Virtual Appliances and Virtual Machines.
+
+
+
+==Implementations
+Developer.Novell.com/wiki/index.php/AlacrityVM >>AlacrityVM is a performance focused hypervisor based on the Linux KVM project. Virtualized environments often impose significant performance penalties against a given workload when compared to native "bare-metal" equivalents. This project is motivated by the belief that it doesn't necessarily have to be this way, nor do we need exotic hardware to achieve it. AlacrityVM demonstrates that most of the existing performance bottlenecks in today's system are simply the result of suboptimal software stacks. By systematically identifying and fixing the weak links in the guest/hypervisor equation, near native performance from a virtualized environment is realistically achievable.
+
+KVM.sf.net >>KVM (for Kernel-based Virtual Machine) is a full virtualization solution for Linux on x86 hardware containing virtualization extensions (Intel VT or AMD-V). It consists of a loadable kernel module, kvm.ko, that provides the core virtualization infrastructure and a processor specific module, kvm-intel.ko or kvm-amd.ko. KVM also requires a modified QEMU although work is underway to get the required changes upstream.
+
+VirtualBox.org >>VirtualBox is a family of powerful x86 virtualization products for enterprise as well as home use. Not only is VirtualBox an extremely feature rich, high performance product for enterprise customers, it is also the only professional solution that is freely available as Open Source Software under the terms of the GNU General Public License (GPL).
+
+Longene.org and Longene.sf.net >>Linux Unified Kernel (Longene) is an open source project sponsored by Insigma Co., Ltd. It aims to implement a kernel module in Linux that provides a system-call and driver layer to allow the Windows applications to run on the Linux OS.
+
+ring3k.org >>ring3k is a user mode kernel capable of running Windows 2000 and XP compatible native applications on a Linux platform.  It is a light-weight virtualization of Windows 2000 for the Linux x86 platform achieved by reimplementing kernel mode code as a ring 3 process in C++.
+
+SkyEye.org >>SkyEye is an Open Source Software Project (GPL Licence). Origin from GDB/Armulator, The goal of SkyEye is to provide an integrated simulation environment in Linux and Windows. SkyEye environment simulates/emulates typical Embedded Computer Systems (Now it supports a series ARM architecture based microprocessors and Blackfin DSP Processor). You can run some Embedded Operation System such as ARM Linux, uClinux, uc/OS-II (ucos-ii) etc. in SkyEye, and analysis or debug them at source level.
+
+Parallels.com/products/virtuozzo >>Parallels Virtuozzo Containers is the world's leading OS virtualization solution for Windows and Linux. Parallels Virtuozzo Containers creates isolated containers on a single physical server and OS instance. Compared to other virtualization technologies, Parallels Virtuozzo Containers offers the highest levels of density, performance and manageability.
+
+OpenxVM.org >>OpenxVM currently consists of two core projects that use technologies enabling virtualization: * xVM Server - virtualization for the server    * xVM VirtualBox - virtualization for the desktop
+
+xVMServer.org and  >>xVM Server is an open source, data-center grade, bare-metal virtualization engine that turns the computer into a dedicated virtualization Software Appliance.  It can consolidate Windows, Linux and Solaris operating system instances and uses a top-of-the-line, easy-to-use interface you attach to over a standard https connection.  The data model is exposed as public programming interfaces via WS-MAN allowing direct web-service access to the public APIs from any WS-MAN client.  xVM Server gives the user and developer an edge in performance and scalability.  Explore this site to learn more about xVM Server APIs, and to get involved with the xVM Server open source community.
+
+ConVirt.net >>Project ConVirt is an active, open source project concieved with the goal of tackling the administrative and infrastructure management challenges that adoption of virtualization platforms presents to the traditional datacenter.  The eponymous tool "ConVirt" is the project's foremost offering.
+
+BitVisor.org >>BitVisor is a tiny hypervisor (Virtual Machine Monitor) for enhancing the security of desktop computers. It can be used as a basis for implementing various security services, such as mandantory encryption of storage and networks, intrusion detection, access control, and so on, by providing a facility for security modules in the hypervisor to intercept and manipulate I/O access from the guest OS.
+
+Ganeti.GoogleCode.com >>Ganeti is a cluster virtual server management software tool built on top of existing virtualization technologies such as Xen or KVM and other Open Source software. Ganeti requires pre-installed virtualization software on your servers in order to function. Once installed, the tool will take over the management part of the virtual instances (Xen DomU), e.g. disk creation management, operating system installation for these instances (in co-operation with OS-specific install scripts), and startup, shutdown, failover between physical systems. It has been designed to facilitate cluster management of virtual servers and to provide fast and simple recovery after physical failures using commodity hardware.
+
+TheVesi.org >>The goal of the Vizioncore Virtualization EcoShell is to provide a freeware desktop application for novice and expert IT administrators leveraging Windows PowerShell scripts across their multi-platform virtual environments.  Fostered and supported by The Virtualization EcoShell Initiative (VESI) - an online community-driven Web site sponsored by Vizioncore - the Virtualization EcoShell is enhanced by the participation of community members through the exchange of new ideas, value-add services and extendable scripts. To become a member of the VESI community, please visit VESI Registration.
+
+ET.RedHat.com/~rjones/virt-p2v >>virt-p2v is an experimental live CD for migrating physical machines to virtual machine guests.
+
+FreeVPS.com >>Virtual server technology is a cost effective solution that allows running many virtually isolated standalone servers on one host box and thus saves hardware related capital investments. FreeVPS is a free Linux based software which extends the vserver solution  with a series of improvements.
+
+ET.RedHat.com/~rjones/virt-p2v >>virt-p2v is an experimental live CD for migrating physical machines to virtual machine guests.
+
+VCritical.com >>Don't believe everything you read.
+
+VMBlog.com >>Virtualization Technology News and Information
+
+VirtualizationTeam.com >>VirtualizationTeam (Blog)    Just Virtualization Blog
+
+InvisibleThings.org
+
+Kraxel.FedoraPeople.org/xenner >>xenner is a utility which is able to run xen paravirtualized kernels as guests on linux hosts, without the xen hypervisor, using kvm instead.
+
+andLinux.org >>andLinux is a complete Ubuntu Linux system running seamlessly in Windows 2000 based systems (2000, XP, 2003, Vista; 32-bit versions only). This project was started for Dynamism for the GP2X community, but its userbase far exceeds its original design. andLinux is free and will remain so, but donations are greatly needed.
+
+QEMU.org
+
+Sysweb.CS.Toronto.edu/projects/7 >>OpenGL apps running inside a Virtual Machine (VM) can use VMGL to take advantage of graphics hardware acceleration. VMGL can be used on VMware guests, Xen HVM domains (depending on hardware virtualization extensions) and Xen paravirtual domains, using XVnc or the virtual framebuffer. Although we haven't tested it, VMGL should work for qemu, KVM, and VirtualBox. VMGL is available for X11-based guest OS's: Linux, FreeBSD and OpenSolaris. Finally, VMGL is GPU-independent: we support ATI, Nvidia and Intel GPUs.
+
+swtch.com/lguest >>Lguest is a lightweight x86 virtual machine monitor for Linux developed and documented by Rusty Russell.
+
+http://www.acc.umu.se/~achtt315/tunguska >>Tunguska is a ternary computer emulator.  ...  It is loosely based on the excellent design of the (binary) 6502-processor by MOS Technology, but entirely ternary. So instead of having two memory cell states (0, 1), it has three (-1, 0, 1).
+
+Mamory.sf.net >>Mamory is a set of usefull functions for emulators related projects.  It allows easy inclusion of roms management features into these projects through a simple API.
+
+VMGL.sf.net >>OpenGL Hardware 3D Acceleration for Virtual Machines
+
+meos.sf.net >>E/OS is not an Operative System is a open source emulator of the BeOS, Darwin, DOS, Linux, and Windows API on top of X, allowing run many unmodified programs to run on Linux, FreeBSD, Mac OS X, Solaris, Windows and DOS.
+
+MAME.net Multiple Arcade Machine Emulator
+
+Mednafen.sf.net >>Mednafen is a portable, utilizing OpenGL and SDL, argument(command-line)-driven multi-system emulator with many advanced features. The Atari Lynx, GameBoy (Color), GameBoy Advance, NES, PC Engine(TurboGrafx 16), SuperGrafx, Neo Geo Pocket (Color), and WonderSwan (Color) are emulated.
+
+www1.Interq.or.jp/t-takeda >>TAKEDA, toshiya's HOME PAGE    This is the general top page of my works. (mainly old japanese computer emulators)
+
+PearPC.sf.net >>PowerPC Architecture Emulator
+
+User-Mode-Linux.sf.net
+
+CoLinux.org >>Cooperative Linux is the first working free and open source method for optimally running Linux on Microsoft Windows natively. More generally, Cooperative Linux (short-named coLinux) is a port of the Linux kernel that allows it to run cooperatively alongside another operating system on a single machine. For instance, it allows one to freely run Linux on Windows 2000/XP, without using a commercial PC virtualization software such as VMware, in a way which is much more optimal than using any general purpose PC virtualization software.
+
+BOCHS.sf.net >>Bochs is a highly portable open source IA-32 (x86) PC emulator written in C++, that runs on most popular platforms. It includes emulation of the Intel x86 CPU, common I/O devices, and a custom BIOS. Currently, Bochs can be compiled to emulate a 386, 486, Pentium/PentiumII/PentiumIII/Pentium4 or x86-64 CPU including optional MMX, SSEx and 3DNow! instructions.
+
+DOSBox.sf.net
+
+OpenVZ.org
+
+LinuxVirtualServer.org
+
+Linux-VServer.org
+
+XENSource.com
+
+OpenSolaris.org/os/community/zones
+
+WINEHQ.com
+
+LinuxEMU.Retrofaction.com >>LinuxEmu is the number 1 informer of Linux related emulation news and has been since it came online the 26'th November year 2000.
+
+Virt-Manager.org >>The "Virtual Machine Manager" application (virt-manager for short package name) is a desktop user interface for managing virtual machines. It presents a summary view of running domains and their live performance & resource utilization statistics. A detailed view presents graphs showing performance & utilization over time. Ultimately it will allow creation of new domains, and configuration & adjustment of a domain's resource allocation & virtual hardware. Finally an embedded VNC client viewer presents a full graphical console to the guest domai
+
+http://www-128.ibm.com/developerworks/library/l-linuxvirt >>An overview of virtualization methods, architectures, and implementations
+
+==Atari 2600
+Stella.sf.net >>Stella is a multi-platform Atari 2600 VCS emulator released under the GNU General Public License (GPL).  Stella was originally developed for Linux by Bradford W. Mott, however, since its original release several people have joined the development team to port Stella to other operating systems such as AcornOS, AmigaOS, DOS, FreeBSD, IRIX, Linux, OS/2, MacOS, Unix, and Windows.
+
+==Commodore 64 (C64)
+C64gg.com Game Guide
+ftp://arnold.c64.org/pub
+ViceTeam.org >>VICE is a program that runs on a Unix, MS-DOS, Win32, OS/2, Acorn RISC OS, BeOS, QNX 6.x, Amiga, GP2X or Mac OSX machine and executes programs intended for the old 8-bit computers. The current version emulates the C64, the C128, the VIC20, almost all PET models, the PLUS4 and the CBM-II (aka C610).
+uCON64.sf.net >>uCON64 is the backup tool and wonderful emulator's Swiss Army knife program It may be freely redistributed under the terms of the GNU Public License.
+Frodo.cebix.net >>The free portable C64 emulator
+
+==Nintendo Entertainment System (NES)
+Nestopia.sf.net >>accurate, but requires 600Mhz+ CPU
+FCEUltra.sf.net >>FCE Ultra is an emulator for the original (8-bit) Nintendo  Entertainment  System  (NES).   It  has a robust color palette rendering engine that is fully  customizable,  along with excellent sound and joystick support, and even includes  TCP/IP  based  network  playing  for head-to-head gaming with your friends!
+RockNES.kinox.org >>Windows only?
+
+===Idle
+http://3e8.org/pnes.html >>pNES is a hacked-up version of NEStra 0.64. It offers two major improvements over nestra: a tile-based rendering engine, and the use of Glide to render the tiles.
+TuxNES.sf.net >>TuxNES is based on NEStra, a great public-domain NES emulator by Quor.
+NEStra.LinuxGames.com >>Nestra is a Nintendo Entertainment System emulator, which uses x86 assembly language optimizations and code translation to achieve fast emulation with relatively modest CPU requirements.
+dridus.com/~nyef/darcnes >>DarcNES: Valiantly resisting the light.
+
+
+==Super Nintendo Entertainment System (SNES)
+zsnes.com
+snes9x.com
+byuu.cinnamonpirate.com/?page=bsnes >>bsnes is an emulator that began development on 10/14/2004. The purpose of the emulator is a bit different from other emulators: it focuses on accuracy, debugging functionality, and clean code.
+
+==Nintendo 64 (N64)
+UltraHLE, 1964, Project64, Mupen, MAME version 111+
+
+
+==Game engine
+XU4.sf.net Ultima IV
+www.it-he.org/lazarus.htm Ultima 5 - Lazarus
+Nuvie.sf.net Ultima 6
+Exult.sf.net Ultima 7
+Pentagram.sf.net Ultima 8
+UWAdv.sf.net Ultima Underworld
+LOW.sf.net Ultima Underworld 2: Labyrinth of Worlds
+TSSHP.sf.net The System Shock Hack Project
+
+DuneLegacy.sf.net >>Lead one of three interplanetary houses, Atreides, Harkonnen or Ordos, in an attempt to harvest the largest amount of spice from the sand dunes. Exchange your spice stockpiles for credits through refinement and build an army capable of thwarting attempts of the other houses to stop your harvesting!
+
+SCUMMVM.org classic point-and-click adventure games
+
+GemRM.sf.net >>Your personalized Infinity Engine Emulator which was used for "Baldur's Gate".
+
+EFMovie.com/mame.htm
+DopeRoms.com
+Roms.Zophar.net >>Welcome to Zophar's ROM archive. We currently store 238,843 files for 65 different consoles, spanning a total of 772 GBs of games.

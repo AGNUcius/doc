@@ -1,0 +1,181 @@
+Related: begin, boot, build, clean, CM, deploy, dev, devlog, GNUnix, InstallShield, MSI, pack, propagate, setup, WiX
+
+EmacsWiki.org/cgi-bin/emacs/install-elisp.el >>
+
+==GNU/Linux
+packaging, distribution
+
+==Windows
+TestingReflections.com/node/view/4839
+"'
+HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Installer
+# Add the following string value to the Installer directory: Logging
+# Add the following data/value to the Logging string value: voicewarmup
+
+The letters in the value field can be in any order. Each letter turns on a different logging mode. Each letter's actual function is as follows for MSI version 1.1:
+v - Verbose output
+o - Out-of-disk-space messages
+i - Status messages
+c - Initial UI parameters
+e - All error messages
+w - Non-fatal warnings
+a - Start up of actions
+r - Action-specific records
+m - Out-of-memory or fatal exit information
+u - User requests
+p - Terminal properties
++ - Append to existing file
+! - Flush each line to the log
+'"
+[----FILE:Windows_Installer_Logging.reg
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Installer]
+"Logging"="voicewarmup!"
+"Debug"=dword:00000007
+;"AlwaysInstallElevated"=dword:00000001
+----]
+
+InstallSite.org/pages/en/msifaq/a/1022.htm >>How do I create a log file of my installation?
+[----FILE:InstallShield_SetupExeLog.reg
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\InstallShield\ISWI\3.0\SetupExeLog]
+"VerboseLogFileName"="C:\VerboseLog.log"
+----]
+
+
+MSDN.Microsoft.com/en-us/library/cc185688%28VS.85%29.aspx >>Microsoft Windows Installer is an installation and configuration service provided with Windows. The installer service enables customers to provide better corporate deployment and provides a standard format for component management. The installer also enables the advertisement of applications and features according to the operating system. For more information, see  Platform Support of Advertisement .
+
+WAI.CodePlex.com >>As you have experienced yourself developing a web application isn't that easy and quite time consuming. You spend a lot of hours thinking about software design, security problems and of course how to improve end user's usability. Why not lowering the barrier for installing (trying out) your software - using a common technology.
+
+Wubi-Installer.org >>Wubi is an officially supported Ubuntu installer for Windows users that can bring you to the Linux world with a single click. Wubi allows you to install and uninstall Ubuntu as any other Windows application, in a simple and safe way.
+
+Unattended.sf.net >>Automating the installation of Windows 2000 Professional and Server, Windows XP, and Windows Server 2003.
+
+CodePlex.com/dotnetinstaller >>dotNetInstaller is a general-purpose setup bootstrapper for Microsoft Windows.  dotNetInstaller enables the developer to define the application prerequisites and install the correct version(s) of these components in a predictable order based on the processor architecture, user operating system type and language, allow the user to download these components from the web, install these components directly from a single packaged setup, local media or both. dotNetInstaller is very feature rich and runs on all known Windows operating systems with a very tiny footprint.
+
+Support.Microsoft.com/kb/936209 >>How to use the Ocsetup.exe tool to install or to remove Windows optional components in Windows Vista
+
+http://MSDN.Microsoft.com/en-us/library/aa370834(VS.85).aspx >>The components of the Windows Installer Software Development Kit are included in the Microsoft Windows Software Development Kit (SDK). The Windows SDK includes redistributable components, documentation, installer database validation tool, database table editor, database schema, development tools, Visual Basic Scripting Edition (VBScript) tools, sample product, and code samples.
+
+Tromey.com/elpa >>Welcome to ELPA, the Emacs Lisp Package Archive. Our goal is to make it simple to install, use, and upgrade Emacs Lisp packages. We supply package.el, a simple package manager for Emacs, and a repository of pre-packed Emacs Lisp code.
+
+Blog.BigSwingingDeveloper.com >>
+
+Blogs.MSDN.com/windows_installer_team >>Windows Installer Team Blog
+
+FedoraHosted.org/cobbler >>Cobbler is a Linux installation server that allows for rapid setup of network installation environments.
+
+MSMVPS.com/blogs/installsite >>This blog complements the InstallSite.org web site which is run by Stefan Krueger. For comments and follow up questions please use the InstallSite Forum.  Stefan is a software engineer specializing in setup technologies.  He has been awared vy Microsoft as an MVP (Most Valuable Professional) for the Windows Installer (MSI) technology.  You can find his bio at https://mvp.support.microsoft.com/profile/Stefan.Krueger
+
+http://blogs.msdn.com/astebner/default.aspx >>Thoughts about setup and deployment issues, XNA, Windows Media Center, the .NET Framework and Visual Studio
+
+GeeksWithBlogs.net/ajshurts >>Demystifying Windows Setups Windows Installer and the Technology That Surrounds It
+
+JoyOfSetup.com >>During the day, I'm a developer in Microsoft Game Studios for the ACES Studio, makers of Flight Simulator, Train Simulator, and Microsoft ESP. I'm on the Platform team, focusing on setup, servicing, and extensibility. In my copious spare time, I'm a volunteer member of the core WiX virtual team, dabbling in the chainer, compiler, extensions, and custom actions.
+
+==Win32:
+WPKG.org >>WPKG is an automated software deployment, upgrade and removal program for Windows. It can be used to push/pull software packages, such as Service Packs, hotfixes, or program installations from a central server (for example, Samba or Active Directory) to a number of workstations. It can run as a service to install software in the background (silent install), without user interaction. It can install MSI, InstallShield, PackagefortheWeb, Inno Setup, Nullsoft, other software installers or .exe packages, .bat and .cmd scripts and similar: no more repackaging to perform software installation. WPKG is open source software.
+
+Wistinga.Online.fr/safarp >>SafARP is a small and fast alternative to the Add or Remove Programs Control Panel applet of Windows 2000/XP. It displays a list of the installed programs and allows one to uninstall / repair them.
+
+$ reg.exe query HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall
+$ reg.exe query "HKLM\Software\Microsoft\Windows\CurrentVersion\App Paths"
+
+
+WiX
+
+Omaha.GoogleCode.com >>Omaha, otherwise known as Google Update, is a program to install requested software and keep it up to date. So far, Omaha supports many Google products for Windows, including Google Chrome and Google Earth, but there is no reason for it to only support Google products.
+
+NSIS.sf.net >>NSIS (Nullsoft Scriptable Install System) is a professional open source system to create Windows installers. It is designed to be as small and flexible as possible and is therefore very suitable for internet distribution.
+HMNE.sf.net >>HM NIS Edit is the best Editor/IDE for Nullsoft Scriptable Install System (NSIS). Its useful for experts and beginners in the creation of Setup programs with the NSIS. Its Script Wizard will help you to create standard Setup programs with only few clicks, also its InstallOptions designer will help you to create your own custom pages with a friendly drag and drop interface.
+sf.net/projects/nsis-scriptgen The Intelligent NSIS Script Generator is a software for generating scripts for the SuperPimp installer by Nullsoft. The software has been designed in such a way that it intelligently generates scripts making it very easy to use both for the expert user a
+ExperienceUI.xx0r.info >>Development on the ExperienceUI has all but ceased.
+
+InnoSetup.com (pascal)>>Inno Setup is a free installer for Windows programs. First introduced in 1997, Inno Setup today rivals and even surpasses many commercial installers in feature set and stability.
+
+
+Orca is a simple, direct MSI database manipulator.
+
+InstallShield (proprietary)
+
+
+==GNU
+InstallJammer.com >>InstallJammer - A free, open source, multiplatform installer and builder
+
+AutoPackage.org >>This is Autopackage, the multi-distribution binary packaging framework for Linux systems.    We also provide a collection of tools to let you build high quality portable binaries.  The most important is apbuild, which is a drop-in build environment which creates binaries that work on older Linux distros by controlling glibc symbol versions, dependency scoping and correcting common distro portability mistakes.  It includes relaytool which can be used to convert required dependencies into optional ones by automatically building dlopen/dlsym thunks.
+
+Labix.org/smart >>Smart Package Manager
+
+Packer.sf.net >>Packages are a great convenience for gurus and new users alike.  Thus, users may be less inclined to use software that is not packaged.  This is unfortunate for GNU/Linux software developers since packaging software is a huge pain, especially given the huge variety of packaging formats.  Packer helps to automate this process.  Using a text-based wizard, packer can collect all the information regarding a program needed to create a package.  Then, a simple command is all it takes to create a debian directory (used to build debian packages), RPM SPEC files (for Mandriva, SuSE, and Fedora/Red Hat), and autopackages spec files (autopackage is a system for creating distribution-neutral installers with dependency handling).  These files are of a similar quality to hand-crafted ones. Packer can also automatically build the packages themselves if requested.
+
+paco.sf.net >>pacKAGE oRGANIZER
+
+ASIC-Linux.com.mx/~izto/checkinstall
+
+Web.Taranis.org/swpkg >>swpkg is a collection of small tools based on a fairly simple philosophy and designed to simplify the management of third party software packages including their inter-dependencies. These tools cover every aspect of building, installing and maintaining software packages and include the ability of having multiple versions of a single software package installed concurrently.
+
+Nixstaller.berliOS.de >>Nixstaller is an Open Source project with the goal to create user friendly and flexible installers that work on various UNIX like systems.
+
+InstallJammer.com >>InstallJammer - A free, open source, multiplatform installer and builder
+
+0install.net, Zero-Install.sf.net >>The Zero Install system aims to provide a better way of installing software than traditional systems (tarballs, apt-get, bundles, setup.exe, etc).
+
+klik
+loki
+
+
+UBUNTU:
+$ feta # a frontend to many Debian package-related tools
+$ apt-cache search GAME
+$ sudo apt-get install SOME_TITLE_FROM_THE_SEARCH_RESULTS
+$ apt-file
+
+
+LilyPond.org/~janneke/software/cyg-apt >>Cygwin installer to keep cygwin root up to date
+
+InstallSite.org
+
+GNUnix installs software JIT (Just In Time).
+
+$ sudo apt-get install update-manager-core
+$ sudo do-release-upgrade
+
+$ sudo cp /etc/apt/sources.list /etc/apt/sources.backup
+$ sudo sed -i 's/feisty/gutsy/g' /etc/apt/sources.list
+$ sudo apt-get update && sudo apt-get dist-upgrade
+$ sudo apt-get autoremove
+
+
+$ installutil.exe >>The Installer tool allows you to install and uninstall server resources by executing the installer components in a specified assembly. This tool works in conjunction with classes in the System.Configuration.Install Namespace. -- http://msdn.microsoft.com/en-us/library/50614e95(VS.80).aspx
+
+
+$ reg.exe query HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall
+
+
+
+
+-----------------------------------------------------------------
+Trying to fix Vista/2008 installer
+
+$ reg.exe query HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MSIServer
+
+http://forums.techarena.in/vista-help/941238.htm >>Altough my MSIServer registry key was correct, there was an Enum subkey that was causing all my problems. Once I removed this key, the 64-bit installer started working again.
+
+http://forums.software.com/softhelp/vista/ftopic-136939-15-days0-orderasc-.html
+"'
+In Registry Editor, navigate to:
+HKLM\System\CurrentControlSet\Services\MSIServer
+then change the DisplayName value to:
+C:\WINDOWS\SysWOW64\msiexec.exe /V
+
+Close registry editor, then register the installer by opening a command
+
+prompt and running:
+C:\WINDOWS\SysWOW64\msiexec.exe /regserver
+'"
+
+http://help.wugnet.com/vista/repair-broken-Windows-Installer-ftopict111124.html
+
+http://www.planetamd64.com/lofiversion/index.php?t16021.html

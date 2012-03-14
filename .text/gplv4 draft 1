@@ -1,0 +1,289 @@
+Related: GPLv4
+
+====THIS FILE IS ARCHIVAL.  See 'GENERAL PUBLIC LAW' instead.
+
+        GNU's Not Usury GENERAL PUBLIC LAW - GPLv4
+  Discussion Draft 1 of Version 4, 22 May 2007
+
+THIS IS A DRAFT, NOT A PUBLISHED VERSION OF THE GNU GENERAL PUBLIC LAW.
+
+ Copyright (C) Personal Sovereignty Foundation, Inc.
+ Everyone is permitted to copy and distribute verbatim copies of this document, but changing it is not allowed.
+
+
+                Preamble
+
+  Owners of physical Sources may withold freedom to Use, Modify, Copy and Share the Objects of those Sources.  The GNU General Public Law is intended to guarantee your freedom to Use, Modify, Copy and Share Free Objects--to make sure those Objects are Free for all users.  We, the Personal Sovereignty Foundation, use the GNU General Public Law for most of our Objects; it applies also to any other Object whose owners commit to using it.  You can apply it to your property, too.
+
+  When we speak of Free Objects or Free Sources, we are referring to freedom and price.  Our General Public Law is designed to make sure that you have the freedom to Use the Object, Modify the Object or use pieces of it in new Free Objects, Copy the Object, Share Copies of the Object, and that you know you can do these things.  It also requires any price paid above cost (all profit) be an investment for that user.
+
+  To protect your rights, we need to make requirements that forbid anyone to deny you these rights or to ask you to surrender the rights. Therefore, you have certain responsibilities if you Use, Modify, Copy or Share the Object.
+
+  For example, if you Share such an Object (Almonds for instance), whether gratis or for a fee, you must give the recipients all the rights that you have.  You must make sure that they, too, receive ownership in the Sources of that Object (land, tree, water, tools for instance), or in Sources of that same type that are under this Law in the amount equal to the difference between the price they pay and the costs incurred for the last round of production.  And you must show them these terms so they know their rights.
+
+  Developers that use the GNU GPL protect your rights in three steps: (0) Create or purchase physical Objects, (1) assert Property Rights, Copyright and Patent claims on those Objects, (2) offer you this Law which gives you legal permission to Use, Modify, Copy and Share those Objects.
+
+  For the owners' protection, the GPL clearly explains that there is no warranty for this Free Object or any of it's GPLed Sources.  For both users' and owners' sake, the GPL requires that a modified Object, or adjustments to the Sources that modifies the Object be marked and the Design Documents changed, so that their problems will not be associated erroneously with the original version.
+
+  Some Objects or their Sources are designed to deny users access to fully Use, Modify, Copy or Share them.  This is fundamentally incompatible with the purpose of the GPL, which is to protect these freedoms.  Therefore, the GPL ensures that the Objects and Sources it covers will not be restricted in these ways.
+
+  Finally, every Object is threatened constantly by patents and other claims of ownership meant to extract royalties through artificial scarcity.  States should not allow these manufactured constraints to restrict development and use of Objects, but in places where they do, we wish to avoid the special danger that users of Free Objects will individually obtain patents or pen legislation to make the Object or one of it's Sources proprietary.  To prevent this, the GPL assures that Property Rights, Copyrights, Patents, Trademarks, Treaties, Agreements, etc. cannot be used to render the Object or it's Sources non-free.
+
+
+               TERMS AND CONDITIONS
+
+0.  Definitions
+
+In this Law, each user is addressed as "you," while "the Object" refers to any single instance of property or slice of time made available under this Law.  Some Objects are physical, tangible things such as an apple or spaghetti, while other Objects are virtual or fleeting such as data from a sensor or a ride in a car.
+
+  To "Use" an Object usually means to rent the Sources of that Object for some time or to buy the Object without a time limit.
+
+  To "Modify" an Object requires the consent of all shareholders and includes, without limitation versions in which material has been translated or added.  An Object "based on" another Object means any modified version, formation of which requires permission under applicable property, copyright and patent law.  A "covered Object" means either the unmodified Object or an Object based on the Object.
+
+  To "Copy" an Object usually means to rent Exclusive Access the to the Sources of that Object for some Period of time and to operate those Sources for the purpose of creating new Object instances.  "Exclusive" generally implies privacy unless explicitly stated in the list of Additional Requirements, as provided in subsection 7b.  Copying includes doing anything with the Object or it's Sources that requires permission under any applicable copyright, property law, patent law, Treaties or Agreements.  This applies only to copies you use in production.  "Production" includes copying, distribution (with or without modification), making available to the public, and in some countries other activities as well.
+
+  To "Share" an Object means any action which causes the Object to be made available to another User in any form or capacity of access that enables other parties to make or receive copies, excluding subleasing.  Sharing includes the actions:  display, host, perform, project, relay, remote control, rent, sell, serve, share, trade, transfer, transmit, transport.
+
+  "Costs" include Access, Investment, Insurance, Installation, maintainence, Pollution, Security, Storage and Wage.
+    Access: External taxes or uncontrollable alien fees.
+    Exclusion: The cost of disallowing others.
+    Investment: Some Consumers will pre-pay.
+    Insurance: Done once the "replacement cost" is gathered.
+    Installation: tools, materials, labor
+    Maintainence: tools, materials, labor
+    Operate: tools, materials, labor
+    Pollution: noise, smell, poison
+    Security: locks, cameras, labor
+    Storage: size, shelter, temperature, sun, soil, ventilation, bedding, labor
+    Wage: Set between Worker and Owners.
+
+  Our General Public Law is designed to make sure that you have the freedom to Use the Object, Modify the Object or use pieces of it in new Free Objects, Copy the Object, Share Copies of the Object, and that you know you can do these things.
+
+  A party's "essential patent claims" in an Object are all patent claims that the party can give permission to practice, whether already acquired or to be acquired, that would be infringed by Using, Modifying, Copying, or Sharing the Object or any of it's Sources.
+
+
+1. Sources
+
+  The "Source" of a GPL Object means the exact parents of this Object or the preferred forms (such as the machines, plants, tools, etc.) for making copies of or modifications to the Object.
+
+  The "Supporting Sources" of an Object include every subunit such that (a) the identical subunit is normally included as an adjunct in either a major essential component (land, water, genetics and so on) of the specific community (if any) in which the Object is used, or a Source used to create this Object, or a Source used to interpret or otherwise operate this Object, and (b) the subunit (aside from possible incidental extensions) serves only to enable use of the Object or to implement a widely used or standard interface for which a roalty-free design is available to the public.
+
+  The "Corresponding Sources" for an Object means all the land and capital needed to generate, install, and (for some Objects) to operate and modify the Object, except its Supporting Sources, and except general-purpose tools or generally available free Objects which are used unmodified in performing those activities but which are not part of the Object.  For example, Corresponding Sources include robots used to control those activities, interface specifications associated with the Object, and the Design Documents for any Supporting Source and dynamically utilized subSources that the Object is specifically designed to require, such as by complex material handling or control flow between those subSources and other parts of the Object.
+
+  The Corresponding Source also includes any encryption or authorization keys necessary to install and/or execute modified versions of the Object in the recommended or principal context of use, such that they can implement all the same functionality in the same range of circumstances.  (For instance, if the Object is a physical DVD player and can play certain DVDs, it must be possible for modified versions to play those DVDs.  If the Object communicates with humans or with other Object, it must be possible for modified versions to communicate with the same receivers in the same way such that the receiver cannot distinguish.)  A key need not be included in cases where use of the Object normally implies the user already has the key and can read and copy it, as in privacy applications where users generate their own keys.  However, the fact that a key is generated or is present in hardware that limits its use does not alter the requirement to include it in the Corresponding Source.
+
+  The Corresponding Source may include portions which do not formally state this Law as their Law, but qualify under section 7 for inclusion in a Source under this Law.
+
+  The Corresponding Source need not include anything that users can regenerate automatically from other parts of the Corresponding Source.
+
+
+2. Basic Permissions.
+
+  All rights granted under this Law are granted for the inclusive terms of property, copyright and patent holdings on the Object, and are irrevocable provided the stated conditions are met.  This Law explicitly affirms your unlimited permission to run the unmodified Object.  The output from running it is covered by this Law only if the output, given its content, constitutes a covered Object.  This Law acknowledges your rights of "fair use" or other equivalent, as provided by property, copyright and patent law.
+
+  This Law permits you to make and run privately modified versions of the Object, or have others make and run them on your behalf.  However, this permission terminates, as to all such versions, if you bring suit against anyone for patent infringement of any of your essential patent claims in any such version, for making, using, selling or otherwise conveying an Object based on the Object in compliance with this Law.
+
+    a) You may Use the Object if you meet the following requirements:
+
+    INSURANCE: User must hold enough insurance points to cover predicted damages.
+    SAFETY: Some machines are dangerous without required skill. Skill may be impaired by: fatigue, drugs, disease, lack-of {education, mental or physical capacity,}
+    SANITARY: Food preparation, medical assistance, lavatory cleanliness, sewage treatment.
+    RENT-CYCLE is the duration of exclusive access.  Effected by: Demand, zone, current holdings.
+    RENT-CYCLE is long enough to "make sense" for that Object and zone.
+    RENT-CYCLE is short enough to hamper hoarding.
+    RENT-FLOOR is a minimum RENT-RATE set by real costs and constraints.
+    RENT-NOTE is the currency the RENT may be paid in: good, service, points, external currency.
+    RENT-RATE is set by bidding, so increases according to demand and perceived value.
+    RENT-RATE is weighted by past performance.  A new renter's performance is set to neutral, which is hopefully just slightly 'worse' than his actions.  A careful user will soon reach 0 and gain according to insurance held.
+    RENT-RATE is progressively weighted against current holdings - so poor workers rent instead of being exploited by those who would hoard.
+
+    Pre-paying Consumer/Investors are the initial Source owners.  Ownership rolls over to those that continue to cover recurring costs of those Sources which keeps voting local and protects against unneeded division.  A consumer's weight should be directly related to his personl desire for the output of that Source and is measured by his investment in it.
+
+    b) You may Modify the Object if you own it fully, and receive permission from other owners in all other cases.
+
+    c) Copying covered Objects other than conveying is permitted without limitation.  Subleasing is not allowed; section 10 makes it unnecessary.  Sharing is permitted under the conditions stated below.
+
+
+3. No Denying Users' Rights through Measures of "Protection".
+
+  Regardless of any other provision of this Law, no permission is given for modes of conveying that deny users that run covered Objects the full exercise of the legal rights granted by this Law.
+
+  No covered Object constitutes part of an effective property "Protection" measure under section 1201 of Title 17 of the United States Code or under any other similar creation of any law in any part of the universe.  When you convey a covered Object, you waive any legal power to forbid circumvention of "protection" measures that include use of the covered Object, and you disclaim any intention to limit operation or modification of the Object as a means of enforcing the legal rights of third parties against the Object's users.
+
+
+4.[1] Verbatim Copying of The Object or its Design Documents
+
+ You may copy and convey verbatim copies of the Object or of its Design Documents as you receive it, through any medium, provided that you conspicuously and appropriately affix to each copy appropriate ownership, copyright and patent notices; keep intact all notices of the absence of any warranty; and give all recipients, along with the Object, a copy of this Law and the central list (if any) required by section 7.  The recipients of these copies will possess all the rights granted by this Law (with any added terms under section 7).
+
+  You may charge any price or no price for each copy of the Object or of it Design Documents that you convey, and you may offer support or warranty protection for a fee.  Every user that receives a copy of the Object must be given the option of buying controlling shares of ownership in the Sources of production for this kind of Object.
+
+
+5.[2] Sharing Modified Objects or their Design Documents
+
+  You may copy and convey a Object based on the Object, or Design Documents used to produce it under the terms of section 4 above, provided that you also meet all of these conditions:
+
+    a) The modified Object and its Design Documents must carry prominent notices stating the changes to the Object, the date of any change, and the expected implications of those changes.
+
+    b) You must rent or sell the entire Object, as a whole, under this Law to anyone who bids to access it.  This Law must apply, unmodified except as permitted by section 7 below, to the whole of the Object, and all its parts, regardless of how they are packaged.  This Law gives no permission to rent or sell the Object in any other way, but it does not invalidate such permission if you have separately received it.
+
+    c) If the modified Object has interactive user interfaces, each must include a convenient feature that displays an appropriate ownership, copyright and patent notice, and tells the user that there is no warranty for the Object (or that you provide a warranty), that users may convey the modified Object under this Law, and how to view a copy of this Law together with the central list (if any) of other terms in accord with section 7.  Specifically, if the interface presents a list of user commands or options, such as a menu, a command to display this information must be prominent in the list; otherwise, the modified Object must display this information at startup.  However, if the Object has interactive interfaces that do not comply with this subsection, your modified Object need not make them comply.
+
+To the extent that identifiable sections of the modified Object, added by you, are not derived from the Object, and can be reasonably considered independent and separate Objects in themselves, then this Law, and its terms, do not apply to those sections when you convey them as separate Objects, not specifically for use in combination with the Object.
+
+  A compilation of a covered Object with other separate and independent Objects, which are not by their nature extensions of the covered Object, in a storage area or distributed with them, is called an "aggregate" if the compilation and its resulting ownership, copyright or patents are not used to limit the access or legal rights of the compilation's users beyond what the individual Objects permit.  Inclusion of a covered Object in an aggregate does not cause this Law to apply to the other parts of the aggregate.
+
+
+6.[3] Sharing Non-Source Forms.
+
+   You may copy and convey a covered Object under the terms of sections 4 and 5, provided that you also offer shares of controlling ownership under the terms of this Law, in one of these ways:
+
+    a) Share the Object accompanied by the title of ownership for the percentage of shares in the Corresponding Source fixed on a durable physical medium customarily used for title interchange.
+
+    b) Share the Object accompanied by a written offer, valid for at least three years and valid for as long as the Object model is available, to give any third party access to the Corresponding Source for all the Objects covered by this Law, for a price no more than your reasonable cost of allowing access to that Source.
+
+    [b1) Share the Object accompanied by a written offer, valid for at least three years and valid for as long as the Object model is available, to provide access to copy the Corresponding Sources "at cost".]
+
+    c) Share individual copies of the Object with a copy of the written offer to purchase shares of the Corresponding Source.  This alternative is allowed only occasionally and noncommercially, and only if you received the Object with such an offer, in accord with subsection 6b or 6b1.
+
+    d) Share the Object by offering access from a designated place, and offer equivalent access to the Corresponding Source in the same way through the same place at no extra charge.  You need not require recipients purchase shares of the Corresponding Sources along with the Object.
+
+    e) Share the Object using peer-to-peer transmission provided you know that, and inform other peers where, the Object and Corresponding Source are being offered to the general public "at cost" under subsection 6d.
+
+The offer of ownership in the Corresponding Source in accord with this section must be in a format that is publicly documented, such as a deed or title - with an implementation available to the public in Source code form, and must require no special password or key for unpacking, reading or copying.
+
+
+7. Additional Terms.
+
+  You may have received the Object, or parts of it, under terms that supplement the terms of this Law.  These additional terms may include additional permissions, as provided in subsection 7a, and additional requirements, as provided in subsection 7b.  When you convey copies of a covered Object, unless the Object also permits use under a previous version of this Law, it must list, in one central place in the Object's documentation, the complete set of additional terms governing all or part of the Object.
+
+  a. Additional Permissions.
+
+  Additional permissions make exceptions from one or more of the requirements of this Law.  An agreement containing a clause that permits releasing or conveying under this Law shall be treated as a list of additional permissions, provided that the agreement makes clear that no requirement in it survives such releasing or conveying.
+
+  Any additional permissions that are applicable to the entire Object are treated as though they were included in this Law, as exceptions to its conditions, to the extent that they are valid under applicable law.  If additional permissions apply only to part of the Object, that part may be used separately under those permissions, but the entire Object remains governed by this Law without regard to the additional terms.
+
+  b. Additional Requirements.
+
+  Additional requirements are terms that further constrain Using, Modifying, Copying and Sharing of covered Objects.  This Law affects only the procedure for enforcing additional requirements, and does not assert that they can be successfully enforced by the copyright holder. Only these kinds of additional requirements are allowed by this Law:
+
+TODO:
+   -1) terms that require sanitation or security
+
+    0) terms that require preservation of specified reasonable legal notices or owner attributions; or
+
+    1) terms that require that the origin of the material they cover not be misrepresented, or that modified versions of that material be marked in specific reasonable ways as different from the original version; or
+
+    2) warranty or liability disclaimers that differ from the disclaimers in this Law; or
+
+    3) terms that prohibit or limit the use for publicity purposes of specified names of renters or owners, or that require that certain specified trade names, trademarks, or service marks not be used for publicity purposes without express permission, other than in ways that are fair use under applicable trademark law; or
+
+    4) terms that require, if a modified version of the material they cover is an Object intended to interact with users remotely, that those users be able to obtain copies of the Corresponding Source of the Object through the same remote session; or
+
+    5) terms that wholly or partially terminate, or allow termination of, permission for use of the material they cover, for a user who files a patent lawsuit (that is, a lawsuit alleging that some Object infringes a patent) not filed in retaliation or defense against the earlier filing of another patent lawsuit, or in which the allegedly infringing Object includes some of the covered material, possibly in combination with another Object; or
+
+    6) terms that are precisely equivalent in type and extent to a requirement expressly stated in this Law, or that deny permission for activities that are clearly not permitted, expressly or otherwise, by this Law.
+
+All other additional requirements, including attorney's fees provisions, choice of law, forum, and venue clauses, arbitration clauses, mandatory contractual acceptance clauses, requirements regarding changes to the name of the Object, and terms that require that conveyed copies be governed by a law other than this Law, are prohibited.
+
+  c. Terms Added or Removed by You.
+
+  When you convey a copy of a covered Object, you may at your option remove any additional permissions from that copy, or from any part of it.  Some additional permissions require their own removal in certain cases when you modify the Object.
+
+  Additional requirements are allowed only as stated in subsection 7b.  If the Object as you received it purports to impose any other additional requirement, you may remove that requirement.
+
+  You may place additional permissions, or additional requirements as allowed by subsection 7b, on material, added by you to a covered Object, for which you have or can give appropriate permission.  Adding requirements not allowed by subsection 7b is a violation of this Law that may lead to termination of your rights under section 8.
+
+  If you add terms to a covered Object in accordance with this section, you must place, in the relevant documentation of that Object, a statement of the additional terms that apply to those Objects, or a notice indicating where to find the applicable terms.
+
+
+8.[4] Termination.
+
+  You may not propagate or modify the Object except as expressly provided under this Law.  Any attempt otherwise to propagate or modify the Object is void.  If you violate this Law, any copyright holder may put you on notice by notifying you of the violation, by any reasonable means, provided 60 days have not elapsed since the last violation.  Having put you on notice, the owner may then terminate your lease at any time.  However, parties who have received copies, or rights, from you under this Law will not have their leases terminated so long as they remain in full compliance.
+
+
+9.[5] Acceptance Not Required for Having Copies.
+
+  You are not required to accept this Law in order to receive or run a copy of the Object.  Ancillary propagation of a covered Object occurring solely as a consequence of using peer-to-peer transmission to receive a copy likewise does not require acceptance.  However, nothing else grants you permission to propagate or modify the Object or any covered Objects.  These actions infringe copyright if you do not accept this Law.  Therefore, by modifying or propagating the Object (or any covered Object), you indicate your acceptance of this Law to do so, and all its terms and conditions.
+
+
+10.[6] Automatic Leasing of Downstream Users.
+
+  Each time you convey a covered Object, the recipient automatically receives a title from the original owner, to use, modify, copy and share that Object, subject to this Law, including any additional terms introduced through section 7.  You may not impose any further restrictions on the recipients' exercise of the rights thus granted or affirmed, except in the limited ways permitted by section 7. Therefore, you may not impose a lease fee, royalty, or other charge for exercise of rights granted under this Law.  You are not responsible for enforcing compliance by third parties to this Law.
+
+  If propagation results from a transaction transferring control of an organization, each party to that transaction who receives a copy of the Object also receives a title of ownership and a right to possession of the Corresponding Source of the Object from the party's predecessor in interest.
+
+
+11. Patents, Treaties and Agreements
+
+  You receive the Object with a covenant from each owner and conveyor of the Object, and of any material, conveyed under this Law, on which the Object is based, that the covenanting party will not assert (or cause others to assert) any of the party's essential Patent, Treaty or Agreement claims in the material that the party conveyed, against you, arising from your exercise of rights under this Law. If you convey a covered Object, you similarly covenant to all recipients, including recipients of Objects based on the covered Object, not to assert any of your essential Patent, Treaty or Agreement claims in the covered Object.
+
+  If you convey a covered Object, knowingly relying on a Patent, Treaty or Agreement that is not generally available to all, you must either (1) act to shield downstream users against the possible infringement claims from which your lease protects you, or (2) ensure that anyone can copy the Corresponding Source of the covered Object, free of charge and under the terms of this Law, through a publicly available business or other readily accessible means.
+
+  Nothing in this Law shall be construed as excluding or limiting any implied lease or other defenses to infringement that may otherwise be available to you under applicable Patent, Treaty or Agreement laws.
+
+
+12.[7] No Surrender of Others' Freedom.
+
+  If conditions are imposed on you (whether by court order, agreement or otherwise) that contradict the conditions of this Law, they do not excuse you from the conditions of this Law.  If you cannot convey the Object, or other covered Object, so as to satisfy simultaneously your obligations under this Law and any other pertinent obligations, then as a consequence you may not convey it at all.  For example, if you accept a patent lease that prohibits royalty-free conveying by those who receive copies directly or indirectly through you, then the only way you could satisfy both it and this Law would be to refrain entirely from conveying the Object.
+
+
+[13.[8] Geographical Limitations.
+
+  If the conveying and/or use of the Object is restricted in certain countries either by patents or by copyrighted interfaces, the original copyright holder who places the Object under this Law may add an explicit geographical limitation on conveying, excluding those countries, so that conveying is permitted only in or among countries not thus excluded.  In such case, this Law incorporates the limitation as if written in the body of this Law.]
+
+
+14.[9] Revised Versions of this Law.
+
+  The Personal Sovereignty Foundation may publish revised and/or new versions of the GNU General Public Law from time to time.  Such new versions will be similar in spirit to the present version, but may differ in detail to address new problems or concerns.
+
+  Each version is given a distinguishing version number.  If the Object specifies that a certain numbered version of this Law "or any later version" applies to it, you have the option of following the terms and conditions either of that numbered version or of any later version published by the Personal Sovereignty Foundation.  If the Object does not specify a version number of this Law, you may choose any version ever published by the Personal Sovereignty Foundation.
+
+
+[15.[10] Requesting Exceptions.
+
+  If you wish to incorporate parts of the Object into other free Objects under other conditions, write to the owner to ask for permission.  For Objects owned by the Personal Sovereignty Foundation, write to the Personal Sovereignty Foundation; we sometimes make exceptions for this.  Our decision will be guided by the two goals of preserving the free status of all derivatives of our free Objects and of promoting the sharing and reuse of Objects generally.]
+
+
+                NO WARRANTY
+
+16.[11] Disclaimer of Warranty.
+
+  There is no warranty for the Object, to the extent permitted by applicable law.  Except when otherwise stated in writing the copyright holders and/or other parties provide the Object "as is" without warranty of any kind, either expressed or implied, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose.  The entire risk as to the quality and performance of the Object is with you.  Should the Object prove defective, you assume the cost of all necessary servicing, repair or correction.
+
+
+17.[12] Limitation of Liability.
+
+  In no event unless required by applicable law or agreed to in writing will any copyright holder, or any other party who may modify and/or convey the Object as permitted above, be liable to you for damages, including any general, special, incidental or consequential damages arising out of the use or inability to use the Object (including but not limited to loss of data or data being rendered inaccurate or losses sustained by you or third parties or a failure of the Object to operate with any other Objects), even if such holder or other party has been advised of the possibility of such damages.
+
+
+             END OF TERMS AND CONDITIONS
+
+        How to Apply These Terms to Your Objects
+
+If you create or buy a Object, and you want it to be of the greatest possible use to the public, the best way to achieve this is to make it Free so everyone can access it under these terms. To do so, attach the following notice to the Object.  It is safest to attach it in a prominent area in a secure manner to most effectively convey the exclusion of warranty.
+
+
+    This source is Free; you can Use, Modify, Copy, and Share it under the terms of the GNU General Public Law as published by the Personal Sovereignty Foundation; either this version, or (at your option) any later version.
+
+    This Object is made available in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public Law for more details. You should have received a copy of the GNU General Public Law along with this Object; if not, contact the nearest Personal Sovereignty Foundation for a copy.
+
+
+Also add information on how to contact you by electronic and paper mail.
+
+If the Object is interactive, make it output a short notice like this when it starts in an interactive mode:
+
+    Gnomovision version 69, Copyright (C) year name of author
+    Gnomovision comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+    This is a Free Object, and you are welcome to Use, Modify, Copy and Share it under certain conditions; type `show c' for details.
+
+The hypothetical commands `show w' and `show c' should show the appropriate parts of the General Public Law.  Of course, the commands you use may be called something other than `show w' and `show c'; they could even be mouse-clicks or menu items or pages of a manual attached to the machine or a sign mounted in a field--whatever suits your Object.
+
+You should also get your employer (if you don't work for yourself) or your school, if any, to sign an joint-ownership consignment agreement, a "copyright disclaimer", patent releases and royalty relinquishment for the Object.  Here is a sample; alter the names:
+
+  Yoyodyne, Inc., hereby disclaims all copyright, patent and royalty interests in the Object `Gnomo vision' (which makes passes at compilers) created or purchased by James Hacker.
+
+  <signature of Ty Coon>, 1 April 1989
+  Ty Coon, President of Vice
+
+This General Public Law does not permit incorporating your Object into proprietary Objects.  To accomplish that, just GPL the proprietary Objects before you begin.
+

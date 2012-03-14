@@ -1,0 +1,11 @@
+Related: Exchange, mail, IMAP, POP
+Simple Mail Transfer Protocol (SMTP)
+
+
+acSMTP.sf.net >>acSMTP is a SMTP/POP3/IMAP mail server for Win32. May serve MX hosts and in-LAN mail. Black/white lists for IPs/Emails, RBL spam blocks, DNS Email validation, optional DBMS backend for lists and rules, custom user authorization, AntiVirus API.
+
+OpenSMTP-NET.sf.net >>
+
+Obtuse.com/smtpd.html >>This is the Obtuse smtpd/smtpfwdd SMTP store and forward proxy. It can be used to pass SMTP mail across a dual-homed bastion host (such as in a firewall) with minimal danger.  It can also be used if you simply don't want your big complicated mail agent (such as sendmail) establishing direct contact with the outside world. It is useful for people who wish to practice "Safe Sendmail" :-)
+
+www.CodeProject.com/KB/IP/smtp_ssl.aspx >>c++ smtp client, support ssl and tls encrypted connection to smtp server

@@ -1,0 +1,131 @@
+Related: 0x, 16, 6, bin, calc, edit, exec, Great Seal of the United States, Israel, magic, six, spell, US
+
+
+==Edit
+www.CodeProject.com/KB/cpp/HexEdit.aspx and HexEdit1.sf.net (Windows only) >>Open-source hex editor with powerful binary templates.
+
+wxHexEditor.sf.net >>wxHexEditor is another Hex Editor, build because there is no good hex editor for Linux system, specially for big files.
+
+saahriktu.org/utils.html >>Brutal squirrel: This is converter to hex digits (plain text) and back. Using it you can use your favourite text editor (such as vi or emacs) as hex editor. Also you can compose any binary file or text file with non-keyboard symbols directly at hex digits. Reads from standart input and puts to standart output.
+
+DataWorkShop.de >>DataWorkshop is an editor to view and modify binary data. The editor provides different views which can be used to edit, analyze and export the binary data.
+
+T-Hex.GoogleCode.com >>Tyrannosaurus Hex aims to be the last serious hex editor ever written for PCs. It will have all the features on Wikipedia's checklist at http://en.wikipedia.org/wiki/Comparison_of_hex_editors.  Currently it runs only on Windows, has several limitations, and crashes frequently.
+
+Heraia.TuxFamily.org >>The Heraia project is an hexadecimal file editor. It is based on the GtkHex Widget from Ghex project.
+
+hexcompare.sf.net >>hexcompare is a curses-based utility to compare and identify differences between two binary files. These differences are then represented visually with an interactive block diagram.
+
+THE.sf.net >>THE is a simple cross platform hex editor that allows you to quickly edit and save the raw contents of a file.
+
+Hex-Editor.sf.net >>Hex Editing made easy. With a easy to use plain view, and a configarable GUI, you can quickly make simple or advanced edits to the data of any file. Logic Or/And/Eor with 8,16,24 or 32 bit values, Copy and Paste, and resize. Edit files over 2gig.
+
+For EMACS: hexview-mode.el --- A simple & fast hexadecimal file viewer
+
+Bviplus.sf.net >>Bviplus is an ncurses based hex editor with a vim-like interface. It was originally a fork of Binary VIsual editor (bvi) by Gerhard Burgmann, but has now been completely rewritten (since version 0.3).
+
+Dettus.net/dhex >>DHEX is just another Hexeditor with a Diff-mode for ncurses. It makes heavy use of colors and is themeable, so just send me any themes you made! (please include DHEX in the header)
+
+litchie.net/programs/binview.html
+
+EmacsWiki.org/wiki/HexviewMode >>This package provides a user-interface for hex viewing large file!! Hexview mode can open a 5GB file within a second. If you often need view large file for data debugging of probing, Hexview is for you!! For viewing binary content, Hexview mode is much better than the offical hexl-mode(using hexl program piping result in a lot memory waste). The core part of Hexview mode is just a simple builtin function: 'insert-file-contents-literally'. So Hexview doesn't need large memory to view large file. Due to the limitation of emacs's Integer representation , on 32-bit version, you can only view file content up to index '268435455', but in 64-bit version 'emacs' the valid range of Integer is much larger. Practically, Hexview mode is enough for 80% of you dailly usage. So enjoy.
+
+KlangProject.sf.net >>Klang is a file viewer and editor which allows the user to see binary files in 'chunks' that represent the data. Think of it as a file editor that lies somewhere between a pure hex editor on one side, and an end-user editing application on the other.
+
+MadEdit.sf.net >>MadEdit is an Open-Source and Cross-Platform Text/Hex Editor written in C++ and wxWidgets.  MadEdit can edit files in Text/Column/Hex modes, and supports many useful functions, e.g. SyntaxHighlightings, WordWrap, Encodings.  Can open files as large as 32GB.
+
+RidiculousFish.com/hexfiend >>A fast and clever open source hex editor for Mac OS X.
+
+RHack.sf.net >>You've found Hack's home page. A public domain Win32 hex editor with rexx scripting.  This means that all source code is available for downloading and can be reused in whatever way you want (except for the code I borrowed which generally has a specific OSI license).
+
+Frhed.sf.net >>Frhed is an binary file editor for Windows. It is small but has many advanced features like ability to load big files partially.
+
+HTE.sf.net >>HT is a file editor/viewer/analyzer for executables. The goal is to combine the low-level functionality of a debugger and the usability of IDEs. We plan to implement all (hex-)editing features and support of the most important file formats.
+
+Chiark.GreenEnd.org.uk/~sgtatham/tweak >>Tweak is a hex editor.  Tweak uses a complex data structure based on B-trees, designed to make almost all editing operations extremely fast, even when they are working on huge amounts of data.
+
+QEmacs.org >>QEmacs (for Quick Emacs) is a very small but powerful UNIX editor. It has features that even big editors lack
+
+Radare.nopcode.org >>Radare is a free and advanced command line hexadecimal editor    The project aims to create a complete, portable, multi-architecture, unix-like toolchain for reverse engineering.
+
+FreshMeat.net/projects/leeditor or Directory.FSF.org/project/le-editor >>LE has many block operations with stream and rectangular blocks, can edit both unix and dos style files (LF/CRLF), is binary clean, has hex mode, can edit text with multi-byte character encoding, has full undo/redo, can edit files and mmap-able devices in mmap shared mode (only replace), has tunable syntax highlighting, tunable color scheme (can use default colors), tunable key map. It is slightly similar to Norton Editor, but has more features.
+
+Kawomi.Tripod.com/tiah >>T.I.A.H - Tiah Is A Hex-editor
+
+sf.net/projects/nktspeview >>Browse the structure of windows portable executables (headers, directories, sections, exports, imports), combined with a HEX viewer.
+
+lde.sf.net >>lde is a disk editor for linux, originally written to help recover deleted files. It has a simple ncurses interface that resembles an old version of Norton Disk Edit for DOS. lde is 100 percent free under the Gnu public license.
+
+Hexane.sf.net >>Hexane is an attempt to create a fully scriptable hex editor, with support for editing files which are larger than the physically available system memory. We have a number of other neat features in the works, such as process editing and eventually support for a C-like structure definition language.
+
+shed.sf.net >>shed is an easy to use hex editor written for unix/linux using ncurses, with a friendly pico-style interface.
+
+Heme.sf.net >>Heme is a fast and portable console hex editor for unix systems. It has undo support (number of undo operations is only limited by available memory), ability to fill a range of addresses with the specified byte, ability to search for a single byte or character string.
+
+sf.net/projects/hexed >>curses based HEX EDitor
+
+Mickey.sf.net >>Mickey is a simple cross platform editor. Thanks to FLTK, it can be compiled on most common platforms.
+
+bvi.sf.net >>The bvi is a display-oriented editor for binary files, based on the vi texteditor. If you are familiar with vi, just start the editor and begin to edit! A bmore program is also included in the package.
+
+Sites.Google.com/site/e3editor >>e3 is a full-screen, user-friendly text editor with an interface similar to that of either WordStar, Emacs, Pico, Nedit, or vi. It's heavily optimized for size and independent of libc or any other libraries, making it useful for mini-Linux distributions and rescue disks. The assembler version supports Linux, FreeBSD, OpenBSD, NetBSD, Win9x, QNX, Atheos, BeOS, ELKS, and DOS. There is also a separately distributed version written in C which supports some other Unix versions and CygWin. It is also possible to use regular expressions by using child processes like sed. e3 has a built in arithmetic calculator.
+
+Hexplorer.sf.net >>Hexplorer, a program I'm currently working on in my free time can be downloaded from here. It is free hex editor for Windows, licensed under GNU GPL. This program was created as an answer to my needs, I hope you'll find it useful too. The program is currently not evolving due to lack of time and it's complexity, I'm just fixing bugs, so I would be very pleased if you wrote to me and send suggestions and bug reports, I could improve and debug this program better then.
+
+JewFish.net/description.php?title=HexCurse >>HexCurse is a versatile ncurses-based hex editor written in C that provides the user with many features. It currently supports hex and decimal address output, jumping to specified file locations, searching, ASCII and EBCDIC output, bolded modifications, an undo command, quick keyboard shortcuts, and more.
+
+Rogoyski.com/adam /programs/hexedit >>Curses Hexedit is a full screen hex editor using the curses, ncurses , or pdcurses library
+
+hexdump
+
+hexeds20
+
+hexsource
+
+hview
+joe
+
+katy.sf.net
+
+mg06
+
+mined.sf.net >>Mined is a powerful text editor with a comprehensive yet concise and easy-to-use user interface supporting modern interaction paradigms, and fast, small-footprint behaviour. Mined provides both extensive Unicode and CJK support offering many specific features and covering special cases that other editors are not aware of (like auto-detection features and automatic handling of terminal variations, or Han character information). It was the first editor that supported Unicode in a plain-text terminal (like xterm or rxvt).
+
+ng06
+regex
+sted
+thud
+tmdc5inv_src
+http://www.grigna.com/diego/linux/vche >>It's a Linux hex editor which lets you see all the 256 characters as found in video ROM (as in the old MS-DOS).
+
+zeth
+zile
+
+Home.Gna.org/bless Bless is a high quality, full featured hex editor.  It is written in mono/Gtk# and its primary platform is GNU/Linux.
+
+==No Insertion
+MemeCode.com/ihex.php >>i.Hex is a small and free graphical Hex Editor for Windows. I got ticked off at all the lame shareware hex editors out there and just buckled down and wrote my own [lame free hex editor ;)].
+
+StoopidSimple.com/lfhex >>lfhex is an application for viewing and editing files in hex, octal, binary, or ascii text. The main strength of lfhex is it's ability to work with files much larger than system memory (or address space for that matter!).
+
+
+==View
+BEye.sf.net (was BIEW) >>BEYE (Binary EYE) is a free, portable, advanced file viewer with built-in editor for binary, hexadecimal and disassembler modes. It contains a highlight AVR/Java/i86-AMD64/ARM-XScale/PPC-64 and other disassembler, full preview of MZ,NE,PE,ELF and other.
+
+
+==Diff
+tboudet.free.fr/hexdiff (translated)>>Visual Hexdiff is a software to compare visually , on a display hex, two fragments of binary files.  Some keyboard commands are used to move up and down, by line or page, go early, go to the end to seek the next difference, loading a new file.  There is also a superb ascii viewer, which allows you to decode (with a little luck) frames this Ymodem that does not work.  In short, a software indispensable.
+
+FreshMeat.net/projects/visuelhexdiff >>Visuel Hexdiff is a curses-based application designed to make it easy to visually detect the differences between two binary files. It has only been tested on Linux and OpenBSD, but is reported to work on FreeBSD, Solaris, and Irix.
+
+CJMWeb.net/vbindiff >>VBinDiff (Visual Binary Diff) displays files in hexadecimal and ASCII (or EBCDIC). It can also display two files at once, and highlight the differences between them. Unlike diff, it works well with large files (up to 4 GB).
+
+
+==Tools
+edanator.sf.net >>Graphical binary/hex calculator and bit manipulator
+
+HexTool.sf.net >>HexTool is a simple yet effective Windows calculator/tool; invaluable for people who work with Hex and Binary. Now you can convert between Hex, Binary and Decimal on the fly. No install needed: just unzip and run it!
+
+
+==Discontinued?
+Hex-Edit.sf.net >>Hex Editing made easy. With a easy to use plain view, and a configarable GUI, you can quickly make simple or advanced edits to the data of any file. Logic Or/And/Eor with 8,16,24 or 32 bit values, Copy and Paste, and resize. Edit files over 2gig.

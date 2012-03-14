@@ -1,0 +1,343 @@
+Related: distro, GNU, GNUnix, Macintosh, Microsoft, MiniMacs, kernel, OS, pack, Windows, WM
+
+An Operating System should attempt to minimize overall resource usage by maximizing the effectiveness of physical source utilization per process.  This is traditionally accomplished by carefully allocating and scheduling the Material Means of production on a per-process basis according to the preceived 'needs' of that process and to generally inhibit process 'starvation' by weighting allocation and scheduling decisions against current holdings.
+
+
+==News
+Operating-System.org >>Operating System Documentation Project
+DistroWatch.com
+OSDev.org/wiki/Projects
+OSNews.com
+
+
+=Distributions (Distros)
+GNUnix.sf.net, MiniMacs, LazyLoad, PaperDesk.sf.net
+
+replicant.us >>Replicant is a distribution of Android that is 100% Free Software. Most of Android is licensed freely under the Apache License 2.0. The Linux core is mostly Free Software under the GPLv2. However, there are numerous components of the default software stack on the devices that are proprietary software. Most notably, nearly any component that touches the hardware directly is proprietary software.
+
+UBUNTU
+T2-Project.org
+Cross-LFS.org
+XPud.org
+
+LoseThos.com >>If you have an x86_64 PC machine such as a Core_i7, a Core_2_Duo, a Pentium_D... nothing worse than a Pentium_4_Extreme_Edition, then enjoy the clean, 64-bit, programming environment of LoseThos.  In addition to having 64-bit registers, there are eight additional general purpose registers in 64-bit mode!  LoseThos is the ultimate in clean because all tasks on all cores can access all RAM memory at all times with no banking, protections or segmentation.  Essentially, there are no virtual addresses, just physical because PAGING IS NOT USED and pointers are 64-bit, able to access, directly, all of the 12 Gig RAM physical memory on my machine, at all times from all tasks on all cores.  LoseThos is like nothing else -- I wrote all of it, entirely from scratch, including the compiler/assembler.  It is the ultimate in clean and simple.
+
+ReturnInfinity.com/baremetal.html >>BareMetal is a 64-bit OS for x86-64 based computers. The OS is written entirely in Assembly, while applications can be written in Assembly or C/C++.
+
+UberStudent.org >>UberStudent is a free, user-friendly Linux distribution for learning, doing, and teaching the essential skills of academic success at the higher education and advanced secondary levels. It is supported by a free virtual learning environment. Lifelong learners, researchers, and knowledge workers of all sectors will equally benefit.
+
+GeoCities.com/ze_aks >>MyOS: OpenGL & OpenGL ES - Open Source & Demos -
+
+MeeGo.com >>MeeGo is an open source, Linux project which brings together the Moblin project, headed up by Intel, and Maemo, by Nokia, into a single open source activity. MeeGo integrates the experience and skills of two significant development ecosystems, versed in communications and computing technologies. The MeeGo project believes these two pillars form the technical foundations for next generation platforms and usages in the mobile and device platforms space.
+
+BKHome.org/quirky >>Quirky is a Linux distribution and is in the "Puppy Linux family", also known as a "puplet". However, Quirky is not a mainline Puppy release -- it is a distinct distro in its own right.
+
+Cross-LFS.org >>Cross Linux From Scratch (CLFS) is a project that provides you with step-by-step instructions for building your own customized Linux system entirely from source.
+
+HelenOS.org >>Rather sooner than later, HelenOS will become a complete and usable modern operating system, offering room for experimenting and research. HelenOS uses its own microkernel written from scratch and supports SMP, multitasking and multithreading on both 32-bit and 64-bit, little-endian and big-endian processor architectures, among which are AMD64/EM64T (x86-64), ARM, IA-32, IA-64 (Itanium), 32-bit MIPS, 32-bit PowerPC and SPARC V9. Thanks to the relatively high number of supported architectures and suitable design, HelenOS is very portable. On top of the microkernel, HelenOS provides services such as file systems, networking, device drivers and user interface. Most of these services are composed of multiple independent server processes, which makes HelenOS one of the most modular operating systems.
+
+funtoo.org >>I have a lot of technical goals for Funtoo, but the primary goal of Funtoo as a free software project is to create an environment where I can happily work on Gentoo-related and non-Gentoo-related technical efforts in a way that's compatible with my personal life, and have it be fun, too. In the sense, the name Funtoo is sort of a play on words on Gentoo, where Funtoo is sort of my own personal Gentoo that's also fun.
+
+exherbo.org >>Source based Linux distribution with up-front configuration. Up-front configurations means that you know in advance what you'll get from common system administration tasks like package installations and updates.
+
+gentoo.org >>
+
+LinuxLinks.com/Distributions/Mini_Distributions
+
+MCNLive.info >>On this website you can find documentation about how to create your own Linux Live CD, based on Mandriva Linux.
+
+
+==Secure Rescue
+Ubuntu-Rescue-Remix.org >>The Rescue Remix provides a Free-Libre Open-Source data recovery software toolkit based on Ubuntu
+
+PartedMagic.com >>Parted Magic is a Linux LiveCD/USB/PXE with its elemental purpose being to partition hard drives.  Optimized at approximately 30MB, the Parted Magic OS employs core programs of GParted and Parted to handle partitioning tasks with ease, while featuring other useful programs (e.g. Partition Image, TestDisk, fdisk, sfdisk, dd, ddrescue, etc.) and an excellent set of documentation to benefit the user. An extensive collection of fileystem tools are also included, as Parted Magic supports the following: aufs, ext2, ext3, ext4, fat16, fat32, hfs, hfs+, jfs, linux-swap, ntfs, ocfs2, reiserfs, reiser4, xfs, and zfs.
+
+NetWorkSecurityToolkit.org >>Welcome to the Network Security Toolkit (NST). This bootable ISO live CD/DVD (NST Live) is based on Fedora. The toolkit was designed to provide easy access to best-of-breed Open Source Network Security Applications and should run on most x86/x86_64 platforms.
+
+Knoppix-STD.org >>STD is a Linux-based Security Tool. Actually, it is a collection of hundreds if not thousands of open source security tools. It's a Live Linux Distro, which means it runs from a bootable CD in memory without changing the native operating system of the host computer. Its sole purpose in life is to put as many security tools at your disposal with as slick an interface as it can.
+
+PLoP.at/en/ploplinux.html >>PLoP Linux is a small distribution that can boot from CD, DVD, USB flash drive (UFD), USB harddisk or from network with PXE. It's designed to rescue data from a damaged system, backup and restore operating systems, automate tasks and more.
+
+TrinityHome.org/trk >>Trinity Rescue Kit | CPR for your computer
+
+SysRescCD.org >>SystemRescueCD is a Linux system on a bootable CD-ROM for repairing your system and recovering your data after a crash.  It aims to provide an easy way to carry out admin tasks on your computer, such as creating and editing the partitions of the hard disk.  It contains a lot of system utilities (parted, partimage, fstools, ...) and basic tools (editors, midnight commander, network tools).  It is very easy to use: just boot the CDROM.  The kernel supports most of the important file systems (ext2/ext3, reiserfs, reiser4, xfs, jfs, vfat, ntfs, iso9660), as well as network filesystems (samba and nfs).
+
+Clonezilla.org >>You're probably familiar with the popular proprietary commercial package Norton Ghost.  Now there is an OpenSource clone system (OCS) solution called Clonezilla with unicasting and multicasting! With DRBL and network boot enabled client computers, the only thing you have to prepare is a Clonezilla server. You do not even have to prepare a bootable CD or floppy with Partition Image for every client computer.  Clonezilla, based on DRBL, Partition Image, ntfsclone, and udpcast, allows you can massively clone many (40 plus!) computers simultaneously. Unlike G4U (Ghost for Unix) or G4L (Ghost for Linux), Clonezilla saves and restores only used blocks in the harddisk. This increases the clone effiency. At the NCHC's Classroom C, Clonezilla was used to clone 41 computers simultaneously. It took about 50 minutes to clone a 5.6 GBytes system image to all 41 computers via unicasting and only about 10 minutes via multicasting!
+
+DRBL.sf.net >>Diskless Remote Boot in Linux (DRBL) provides a diskless or systemless environment for client machines. It works on Debian, Ubuntu, Mandriva, Red Hat, Fedora, CentOS and SuSE. DRBL uses distributed hardware resources and makes it possible for clients to fully access local hardware. It also includes Clonezilla, a partitioning and disk cloning utility similar to Symantec Ghost(R).
+
+VisOpSys.org >>Visopsys is an alternative operating system for PC compatible computers.  Under development since late 1997, this system is small, fast, and open source.  It features a simple but functional graphical interface, preemptive multitasking, and virtual memory.  Though it attempts to be compatible in a number of ways, Visopsys is not a clone of any other operating system.  You can demo the distribution from a "live" CD or floppy disk... (read more).
+
+SuperGRUBDisk.org >>We want Linux newbies to restore their new toy, but also help the Linux advanced user make potentially dangerous operations to the MBR in a safe way. Super Grub Disk is also a teaching tool to help you learn more about bootloaders and the booting process. After all, booting is the most important thing your computer does -- without the boot process, you would not have an operating system to use!
+
+TUX.org/pub/people/kent-robotti/looplinux/rip >>You can get the (R)ecovery (I)s (P)ossible Linux rescue system here!
+
+Ping.WindowsDream.com >>PING is a live Linux ISO, based on the excellent Linux From Scratch (LFS) documentation. It can be burnt on a CD and booted, or integrated into a PXE / RIS environment. Several tools have been added and written, so to make this ISO the perfect choice to backup and restore whole partitions, an easy way. It sounds like Symantec Ghost(tm), but has even better features, and is totally free.
+
+DEFTLinux.net >>DEFT (acronym for Digital Evidence & Forensic Toolkit) is a Xubuntu Linux-based Computer Forensics live CD. It is designed to meet police, investigators, system administrator and Computer Forensics specialist�s needs.
+
+CAINE-Live.net >>CAINE (Computer Aided INvestigative Environment) is a GNU/Linux live distribution created by Giancarlo Giustini as a project of Digital Forensics for Interdepartment Center for Research on Security (CRIS), supported by the University of Modena and Reggio Emilia.
+
+Remote-Exploit.org/backtrack.html >>BackTrack is the most top rated linux live distribution focused on penetration testing. With no installation whatsoever, the analysis platform is started directly from the CD-Rom and is fully accessible within minutes.
+
+
+
+==Mini or lightweight
+goodgoat.com >>The goal of goodgoat is to make an easy to use Linux that has few duplicated applications so that you don't have to dig through the menus to find the program that you want. We have spent endless hours finding the best of programs to be included on this Linux distro.
+
+PapugLinux.net >>PapugLinux is a minimal GNU/Linux live CD based on the Gentoo Linux distribution for x86 computer architecture.
+
+openmamba.org >>openmamba GNU/Linux is a ready-to-use operating system for notebooks, desktop and server personal computers. It comes with a plenty of software programs for office, multimedia, internet, games and much more and it is free software, so you have the freedom to download, use, modify and copy it. It is maintained by mambaSoft and opened to the contributions of a community of developers and Open Source software fans. 
+
+AcquaintanceOS.sf.net >>Acquaintance OS aims to be a lightweight Linux distribution based off of OpenSUSE. Remember, don't be fooled by the OpenSUSE branding, this project is very different from OpenSUSE, software-wise and goal-wise.
+
+LUBUNTU
+
+CrunchBangLinux.org >>CrunchBang Linux is an Ubuntu based distribution featuring the lightweight Openbox window manager and GTK+ applications. The distribution is developed from a minimal Ubuntu install and has been designed to offer a good balance of speed and functionality.
+
+LXDE.sf.net >>"Lightweight X11 Desktop Environment", is an extremely fast, performing and energy saving desktop environment. It is maintained by an international community of developers and comes with a beautiful interface, multi-language support, standard keyboard short cuts and additional features like tabbed file browsing. LXDE uses less CPU and less RAM. It is especially designed for cloud computers with low hardware specifications like netbooks, mobile devices (e.g. MIDs) or older computers. LXDE can be installed with distributions like Ubuntu or Debian. It provides a fast desktop experience connecting easily with applications in the cloud. LXDE supports a wealth of programs, that can be installed with Linux systems locally. The source code of LXDE is licensed partly under the terms of the General Public License and partly under the LGPL.
+
+xPUD.org (also PUD-Linux.sf.net and PCManFM.sf.net) >>xPUD is an unique Linux distribution, consisting mainly of a web browser and a media player, with a simple user interface on top.  It can turn your computer into a kiosk-like station by leveraging web technologies, making surfing and watching movies as easy as pie.
+
+GetEasyPeasy.com >>Why was your awesome netbook shipped with that horrible operating system?  Your netbook is not a typical laptop, so why should you use a typical operating system?  easypeasy is harder, better, faster and stronger than what came with your netbook.  And did I mention it is 100% free?
+
+CDLinux.info >>CDlinux is a compact distribution of GNU/Linux. The name is a synonymous of "Compact Distro Linux". It is small in size, yet rich in features.
+
+SliTaz.org >>SliTaz is a free micro GNU/Linux distro using BusyBox, a Linux kernel, and GNU free software. The goal of SliTaz is to have a GNU/Linux distro working in memory (RAM). Installable to a hard disk, with good support for French language web, it offers reliability, high performance and PC recycling. SliTaz boots with Syslinux and provides more than 200 Linux commands, the LightTPD web server, SQLite database, rescue tools, IRC client, SSH client/server powered by Dropbear, X window system, JWM (Joe's Window Manager), gFTP, Geany IDE, Mozilla Firefox, Alsaplayer, Gparted, a sound file editor and much more.
+
+Moblin.org >>Moblin is an optimized Linux platform that provides a modern, engaging user experience for mobile devices, such as netbooks, MIDs, and IVI systems. Moblin has a common core of Application and User Interface services and APIs, which provide application developers a rich and consistent development environment across multiple device form factors.
+
+Munix.sf.net >>The Munix Operating System    This is the placeholder website for the Munix OS. Come back in a while when we're done with it to see the website.
+
+TinyCoreLinux.com >>Tiny Core Linux is a very small (10 MB) minimal Linux Desktop.  It is based on Linux 2.6 kernel, Busybox, Tiny X, Fltk, and Jwm.  The core runs entirely in ram and boots very quickly.  Our goal is the creation of a nomadic ultra small desktop capable of booting from cdrom, pendrive, or frugally from a hard drive. The desktop boots extremely fast and is able to support additional applications and hardware of the users choice. While Tiny Core always resides in ram, additional applicatons extensions can either reside in ram, mounted from a persistent storage device, or installed into a persistent storage device.
+
+MinimaLinux.org
+
+Sics.se/contiki >>Contiki The Operating System for Embedded Smart Objects - the Internet of Things
+
+HStein.Trix.net/contiki >>Contiki under Windows
+
+
+Fluxbuntu.org >>The Lightweight, productive, agile operating system.
+
+Zeroshell.net >>Zeroshell is a small Linux distribution for servers and embedded devices aimed at providing the main network services a LAN requires. It is available in the form of Live CD or Compact Flash image and you can configure and administer it using your web browser.
+
+nUbuntu.org >>The main goal of nUbuntu is to create a distribution which is derived from the Ubuntu distribution, and add packages related to security testing and remove unneeded packages. nUbuntu is the result of an idea two people had to create a new distribution for the learning experience back in early 2006, when Ubuntu was in its still early stages. nUbuntu started many years ago as a project with the intent for its developers to learn about distribution development and quickly evolved into a full scale project after recieving a large community response. Currently today, we have many developers and a large contributing communinty. Anyone interested in helping may do so by contributing ideas and packages directly to the nUbuntu developers.
+
+
+
+
+==Heavy
+ArtistX.org >>ArtistX is a free live GNU/Linux DVD which turns a common computer into a full multimedia production studio. It is based on Ubuntu GNU/Linux and contains nearly all the available free audio, 2D and 3D graphics, and video software for the GNU/Linux computing platform. It doesn't need to be installed, and boots directly into a running system without touching hard drives. The files produced with ArtistX can be easily stored on USB devices or CD/DVD medium while it is running. If you want to install it please take a look to our documentation to the ArtistX Installation Manual (Live DVD section).
+
+ZevenOS.com >>ZevenOS is a GNU/Linux Distribution with a focus on a fast and easy to use system with a touch of BeOS.
+
+7Linux.com >>7Linux is a fast distribution, our own comparisons to other distributions have showed us to be noticeably faster than them. Clearly speed is not everything and we also try to keep up to date, but maintain stability and provide best of breed applications.
+
+PC-OS.org >>So what's unique regarding PC/OS. It's the first Linux based distribution that provides ease of use out of the box. It provides all multimedia codecs out of the box, an easy to use and simplified interface. Great compatibility with older hardware to help you extend your hardware and software investments. Being based on Ubuntu Linux all software and hardware that is compatible with Ubuntu is compatible with PC/OS. Our mission statement is summed up in two words "Simplified Computing"
+
+
+
+==Experimental
+Barrelfish.org >>Barrelfish is a new research operating system being built from scratch in a collaboration between ETH Zurich in Switzerland and Microsoft Research Cambridge in the UK. We are exploring how to structure an OS for future multi- and many-core systems. We are motivated by two closely related trends in hardware design: first, the rapidly growing number of cores, which leads to a scalability challenge, and second, the increasing diversity in computer hardware, requiring the OS to manage and exploit heterogeneous hardware resources.
+
+Minix3.org
+
+FreeDOS.org
+
+BEERnix.berliOS.de >>"You don't buy beer, you rent it"    BEERnix is a Linux distribution.  It is a dirivitive of Knoppix.  It runs straigth off of a cd, but is also installable to a harddrive.  IT IS CUURENTLY BETA, meaning it isn't perfect in anyway.  There are thing i still wish to remove and add, and all sorts of other fun stuff.
+
+APODIO.org >>APODIO is a 5 years old Gnu/Linux distribution, dedicated to multimedia tools for audio/visual creation, to run your own radio, TV, make your own film, animation, art installation, Live Coding and other A/V performance... .
+
+Asperix.org >>Asperix is a collection of Free/Open Source software more generally known as GNU/Linux Distribution...  There are many distributions that are based on other distributions. Asperix is designed from scratch, built from the raw packages with minimal changes. By idea Asperix closely follows the Linux From Scratch project.
+
+Quantix.sf.net >>Quantix is a free and adaptable BSD-licensed microkernel operating system.
+
+Mirzoyan.com/xaos.php >>XAOS is a brand new operating system written from scratch (Pronounced "Khaos" as in Greek ????). All the software is free and open source. The operating system currently runs on Intel 386+ processors. It is written mostly on C++. Some parts (such as boot sector code) are written on assembler.
+
+Utah FlexOS
+
+XtreemOS.org >>Building and Promoting a Linux-based Operating System to Support Virtual Organizations for Next Generation Grids (2006-2010).
+
+Seed.sf.net >>What's this "seed project" all about, anyway?  Well... It's about making a single-address-space operating system built around a persistant linear object store, with event-based pre-emptive-multitasking, but without a traditional kernel or filesystem, in which the locus of system security has been moved to capability-based on-the-fly object permission checking and tight control over the system assembler.
+
+OpenLab.jp/oscircular >>OS Circular is a framework of Internet Disk Image Distributor for anonymous OSes.
+
+SplashTop.org instant-on GNU/Linux in BIOS
+
+www.Igelle.org >>The Igelle Project aims to produce a Linux-based operating system distribution to run on various different devices, including desktop/laptop computers, cellular phones, mobile internet devices and other handheld computers.
+
+Whitix.org >>Whitix is a simple open-source operating system for your PC. It offers a range of applications, so you can do what you want without worrying about instability or poor performance. How often have you wondered why modern software is too complicated, too buggy or just too unclear? Whitix is a return to the ideal of simple software that works the way you want it to. Although the software itself is still in its early days, our vision is well established.
+
+AROS.sf.net >>The AROS Research Operating System is a lightweight, efficient and flexible desktop operating system, designed to help you make the most of your computer. It's an independent, portable and free project, aiming at being compatible with AmigaOS 3.1 at the API level (like Wine, unlike UAE), while improving on it in many areas. The source code is available under an open source license, which allows anyone to freely improve upon it.
+
+MonaOS.org >>MonaOS is a free operating system.  It's new, small, simple, open source and well structured.  So, MonaOS may be suitable for education of operating system and program at school.
+
+FMIOS.org >>FMI/OS is a copylefted system based on the VSTa operating system originally written by Andrew Valencia.
+
+FreeOS.com >>The Resource Center for Free Operating Systems
+
+Prex.sf.net >> The Prex project is an open source initiative to provide a portable real-time operating system for embedded systems. This project originally started to make a royalty-free OS for mobile phones and PDA in order to spread open source movement to such proprietary OS fields. And now, the project target has been shifted to the wider area of real-time and embedded systems.
+
+kolibriOS.org based on MenuetOS.org
+
+Nemesis: cl.cam.ac.uk/research/srg/netos/old-projects/nemesis
+
+KateOS.org "let your computer feel the power" >>KateOS is a multitasking operating system which provides all that is necessary for programmers, webmasters, administrators and home users.
+
+haiku-os.org >> Haiku is an open-source operating system currently in development designed from the ground up for desktop computing. Inspired by the BeOS, Haiku aims to provide users of all levels with a personal computing experience that is simple yet powerful, and free of any unnecessary complexities.
+
+LOSAK.sf.net >>LOSAK is a project to develop a Lisp operating system. LOSAK is also the name of the dialect of Lisp used. This project is comprised of two parts: the LOSAK language, and the operating system kernel that is implemented in LOSAK. A LOSAK interpreter written in C (with a minuscule amount of assembly) is available. Additionally, a simple multi-tasking environment has already been built in LOSAK. Both programs are currently provided on the disk image.
+
+BlueFlops.sf.net >>blueflops is a two floppies Linux distribution with a graphical web browser ("links" using svgalib) and an IRC client (rhapsody).
+
+ArchLinux.org >>You've reached the website for Arch Linux, a lightweight and flexible linux distribution that tries to Keep It Simple.
+
+SourceMage.org
+
+
+Gnu-Darwin.org
+
+SymphonyOS.com Debian, FVWM and VLC are a good start, but using Perl and HTTPd then Mozilla to render the desktop makes this a resource-intense (unlight) choice.
+
+hostileencounter.com/os_main.html
+
+cotse.com/miniunix.htm Mini GNU+Linux Distros
+
+linspire.com
+
+RTEMS.org >>RTEMS is the Real-Time Operating System for Multiprocessor Systems. It is a full featured RTOS that supports a variety of open API and interface standards. Major decisions about RTEMS are made by the Steering Committee, guided by the Mission Statement.
+
+webs.cs.berkeley.edu/tos TinyOS
+
+jaluna.com
+
+pliant.cx
+
+comos.sf.net
+
+members.chello.nl/w.cools
+
+themoebius.org.uk
+
+patmedia.net/eaj.pizzi/pizzios
+
+mungi.org >>Mungi is an operating system designed to simplify distribution in cluster and grid systems. It does this with a single address space, shared by all nodes in the system. Along with other ERTOS projects, the current Mungi implementation makes use of the L4 microkernel and user-level device drivers. Mungi's single-address-space approach and capability-based protection system have been adopted by the Iguana project.
+
+elysium.sf.net
+
+gskinner.com/assets/0era/ flashOS
+
+tik.ee.ethz.ch/~topsy/Source
+
+cs.washington.edu/homes/tom/nachos
+
+rome.sf.net
+
+deming-os.org
+
+goos.sf.net >>We are currently bringing this project down in favor of Odin OS (http://odin-os.sf.net) 
+
+ODIN-OS.sf.net >>As of 2007-06-16 02:13, this project is no longer under active development.
+
+SkyOS.org >>SkyOS development is currently halted
+
+OpenBSD.org
+
+Therx.sf.net
+
+EROS-OS.org
+LNG.sf.net >>LUnix The next generation    LNG is an operationg system primarly for the good old Commodore64 home-computer. There also is a native version for the successor Commodore128. Ports to other 6502/6510 driven 8Bit Computers are possible but not yet started. LUnix started in 1993 and reached the internet in 1994. In 1997 LUnix0.1  was rewritten from scratch, the result is LNG.
+
+Palm-Linux.sf.net ucdot.org linux on palm
+
+GNU.org/software/hurd
+
+l4ka.org
+cs.utah.edu/flux/oskit
+MicroBSD.net
+nonDot.org/sabre/os/articles os doc site
+
+ReactOS.com
+
+AtheOS.cx >>AtheOS is a free desktop operating system under the GPL license. AtheOS currently run on Intel, AMD and other compatible processors and support the Intel Multi Processor architecture. I have seen quite a few anouncements of "promising" OSes with "great potential" during the development of AtheOS. The problem is that when I follow the links I normally find a description of the concept, a floppy-bootloader written in assembly, and not much else. AtheOS is a bit more mature, and is already running quite a lot of software. This server for example is running AtheOS. The HTTP server is a AtheOS port of Apache, and most of the content is generated by the AtheOS port of PHP3 and perl.The native AtheOS file system is 64-bit and journaled.
+
+Syllable.sf.net >>Syllable Desktop is an original, modern operating system design, in the tradition of the Amiga and BeOS, but built using many parts from the GNU project and Linux. It is designed and optimised for your desktop PC, making it exceptionally fast and responsive and easy to use. It is under development, so it is interesting and even exciting to try out, but you have to decide for yourself whether it fits your needs already. Syllable Desktop runs on industry-standard Personal Computers with a minimum of a Pentium compatible processor and 32 MB of memory. It can make a new computer extremely fast and an old computer usable again.
+
+os.inf.tu-dresden.de/drops, os.inf.tu-dresden.de/~nf2/dope.html
+6502.org/users/andre/osa
+
+csbruce.com/~csbruce/cbm/ace
+dunkels.com/adam/contiki
+
+crux.nu
+
+
+
+
+==Web
+Robin.sf.net >>Remote Operating System Built in Netscape
+
+CorneliOS.org >>CorneliOS is a web based virtual OS which is currently still in an early development stage. CorneliOS offers a complete API and command set accessible via text and web terminal as well as a GUI/desktop for end users.
+
+
+
+==Meta: Build and Packaging systems
+T2-Project.org 
+
+Igelle.org >>Igelle is, first and foremost, an open source software development project that develops a Linux-based operating system that is intended to be portable, and is designed to work on various different hardware devices and architectures, including laptops, desktops, mobile phones, mobile internet devices, netbooks, etc. Some notable highlights of Igelle, or differences to other Linux distributions, are listed here. If you wish to try out Igelle instead, and/or install it on our device/computer, see the download page instead.
+
+YoctoProject.org >>It's not an embedded Linux distribution -- it creates a custom one for you. The Yocto Project(TM) is an open source collaboration project that provides templates, tools and methods to help you create custom Linux-based systems for embedded products regardless of the hardware architecture.
+
+Aloofix.sf.net >>Aloofix is a minimalist Linux distribution optimized for use in virtual machines. The base distro consists of grub/syslinux, linux, busybox, ipkg, chrony, and dropbear.
+
+Revisor.FedoraUnity.org >>Revisor enables you to customize and compose your own Fedora based installation and live media. It does so by presenting you a GUI with all options you can click your way through, a command-line interface and extended configuration files for more advanced users. Features that Revisor has vary from customizing the packages available during the installation and/or installed on the live media, to fully customizing the desktop environment for the live media. Check out Screenshots!
+
+OSBuilder
+
+smxi.org >>smxi is an interactive script designed to help people maintain their systems. It supports Debian (Stable, Testing, and Sid) and true Debian based distros (sidux, AntiX, Mepis). It does not support Ubuntu based distros because there are too many differences between Debian and Ubuntu.
+
+Autodist.SILC.fi >>Autodist is a source distribution management system that allows powerful mechanisms to define what is included in and excluded from a distribution and what license is used. It is especially targeted at large software projects that create multiple distributions from a source tree. Autodist supports distribution management in directory, file, and file content level, and automatic relicensing of a distribution.
+
+PokyLinux.org >>Poky is an embedded Linux build system, distribution and developer environment which builds upon OpenEmbedded technologies. Poky's focus is purely on building stable optimised GNOME Embedded type platforms (X11/Matchbox/GTK+) together with a streamlined system layer and cross development environment.
+
+Linux-Live.org >>Linux Live is a set of shell scripts which allows you to create own Live Linux from your installed Linux distribution.
+
+CS.Wisc.edu/condor >>The goal of the Condor® Project is to develop, implement, deploy, and evaluate mechanisms and policies that support High Throughput Computing (HTC) on large collections of distributively owned computing resources. Guided by both the technological and sociological challenges of such a computing environment, the Condor Team has been building software tools that enable scientists and engineers to increase their computing throughput.
+
+Beowulf.org >>is a collection of resources for the expanding universe of users and designers of Beowulf class cluster computers. These enterprise systems are built on commodity hardware deploying Linux OS and open source software.
+
+
+
+
+==Tools
+BusyBox.net
+
+
+
+==Research
+OSWatershed.org >>OpenSourceWatershed is a project aimed at understanding the relationship between distributions (downstream) and the individual software components (upstream).  It is the basis for a larger study of distributions and their evolution.  It is distrology.
+
+Qimo4Kids.com >>Qimo is a desktop operating system designed for kids. Based on the open source Ubuntu Linux desktop, Qimo comes pre-installed with educational games for children aged 3 and up.    Qimo's interface has been designed to be intuitive and easy to use, providing large icons for all installed games, so that even the youngest users have no trouble selecting the activity they want.
+
+ZeptoOS.org >>ZeptoOS is a research project studying operating systems for petascale architectures with 10,000 to 1 million CPUs. Operating systems and run-time software are strained by ultra-scale machines, and a variety of fascinating research topics are revealed at such amazing scale. Archtectures such as IBM's Blue Gene and Cray's XT are capable of achieving petaflops performance and beyond, and make perfect testbeds for computer science explorations.
+
+FastOS2.org >>
+
+Inferno-OS.GoogleCode.com >>
+
+HARE
+
+
+==Virtualized
+PortableUbuntu.sf.net >>Portable Ubuntu for Windows is an Ubuntu system running as a Windows application.  This system is built with the Colinux Kernel, Xming X server and Pulseaudio server for Windows.  Portable Ubuntu for Windows is a useful tool for when you need to use Ubuntu on an machine that has Windows as operating system.
+
+Ring3k.org
+
+
+==Other
+GNU+Linux or GNU/Linux
+
+NetBSD.org
+jibbed.org >>A Live CD for NetBSD
+

@@ -1,0 +1,55 @@
+Related: animate, art, color, draw, pic, photo, swf, text
+
+GrafX2.GoogleCode.com >>GrafX2 is a bitmap paint program inspired by the Amiga programs Deluxe Paint and Brilliance. Specialized in 256-color drawing, it includes a very large number of tools and effects that make it particularly suitable for pixel art, game graphics, and generally any detailed graphics painted with a mouse. The program is mostly developed on Linux and Windows, but is also portable on many other platforms.
+
+Pinta-Project.com >>Pinta is a drawing/editing program modeled after Paint.NET. It's goal is to provide a simplified alternative to GIMP for casual users. It is currently early in development.
+
+Nathive.org >>Nathive is a libre software image editor, similar to Adobe Photoshop, Corel Photo-Paint or GIMP, but focused on usability, logic and providing a smooth learning curve for everyone. The project runs in the Gnome desktop environment and anyone is welcome to collaborate on it with code, translations or ideas.
+
+SCIImage.sf.net >>A powerful, extensible raster graphics program similar to Paint, the Gimp or Photoshop. This program can be used stand alone, or it can be plugged into your application allowing any program to perform high performance raster graphics editing.
+
+FlowPaint.org (java)>>Flowpaint is a next generation paint program that focuses on usability and power. It's open source, cross platform, and supports pressure sensitive graphics tablets.
+
+MyPaint.IntiLinux.com >>MyPaint is a fast and easy graphics application for digital painters. It lets you focus on the art instead of the program. It comes with a large brush collection including charcoal and ink to emulate natural painting.
+
+TuxPaint.org >>Tux Paint is a free, award-winning drawing program for children ages 3 to 12
+
+Al.chemy.org >>Alchemy is an open drawing project aimed at exploring how we can sketch, draw, and create on computers in new ways. Alchemy isn't software for creating finished artwork, but rather a sketching environment that focuses on the absolute initial stage of the creation process. Experimental in nature, Alchemy lets you brainstorm visually to explore an expanded range of ideas and possibilities in a serendipitous way.
+
+InkScape.org >>Inkscape is an open-source vector graphics editor similar to Adobe Illustrator, Corel Draw, Freehand, or Xara X. What sets Inkscape apart is its use of Scalable Vector Graphics (SVG), an open XML-based W3C standard, as the native format.
+
+XaraXtreme.org >>Formely known as Xara LX, it is based on Xara Xtreme for Windows, which is the fastest graphics program available, period. The Xara Xtreme source code was made available open-source in early 2006, and is being ported to Linux.
+
+KOffice.org/krita >>Krita contains both ease-of-use and fun features like guided painting (never before has it been so easy to airbrush a straight line!) and high-end features like support for 16 bit images, CMYK, L*a*b and even OpenEXR HDR images.
+
+sK1Project.org >>We think that sK1 is a powerful illustration program for the Linux platform that can substitute professional proprietary software like CorelDRAW or Adobe Illustrator and we hope the program and its derivatives will be helpful for you.
+
+www.Scribus.net >>Scribus is an open-source program that brings award-winning professional page layout to Linux/Unix, MacOS X, OS/2 and Windows desktops with a combination of "press-ready" output and new approaches to page layout. Underneath the modern and user friendly interface, Scribus supports professional publishing features, such as CMYK color, separations, ICC color management and versatile PDF creation.
+
+SodiPodi.com >>Sodipodi is general vector illustrating application for Linux/Unix and Windows. It uses W3C SVG as native file and in-memory image format and can do many neat things.
+
+mtPaint.sf.net >>mtPaint is a painting program which Mark Tyler developed from scratch so he could easily create pixel art and manipulate digital photos.  It uses the GTK+ toolkit (version 1 or 2) and runs on PC's via the GNU/Linux or Windows operating systems.  Due to its efficient design it can run on older PC hardware (e.g. a 200MHz CPU and 32MB of RAM).
+
+GPaint.sf.net >>GNU Paint is a simple, easy-to-use paint program for GNOME, the GNU Desktop. Gpaint is part of the GNU Project. Written by Andy Tai, Gpaint is licensed under the GNU GPL, version 2 or later.
+
+Doodle.sf.net >>Doodle is a descriptive language to produce Origami (paper folding) diagrams. Doodle is the software which translates the source code written in its language into a ready-to-print diagram (PS, GIF, PDF, HTML...).
+
+DrawPile.sf.net >>DrawPile is a collaborative drawing program, similar to OpenCanvas. It is currently under development and planning.
+
+GoghProject.com >>Gogh is a GNU/Linux bitmap graphics editor. It is designed to work with pressure-sensitive input devices, like a Wacom tablet.
+
+OpenOffice.org/product/draw.html >>DRAW - from a quick sketch to a complex plan, DRAW gives you the tools to communicate with graphics and diagrams. With a maximum page size of 300cm by 300cm, DRAW is powerful tool for technical or general posters, etc.    Use DRAW's free ability to create Flash (.swf) versions of your work.
+
+GetPaint.NET !NON-FREE!(Though author may soon be convinced the GNU GPL can protect him.)>>Paint.NET is free image and photo editing software for computers that run Windows. It  features an intuitive and innovative user interface with support for layers, unlimited undo, special effects, and a wide variety of useful and powerful tools. An active and growing online community provides friendly help,  tutorials, and plugins.
+
+GimPhoto.GoogleCode.com and GimPhoto.com >>GimPhoto is GIMP modification with new menu layout, great selection of plugins, and many additional resources for more professional look and feel as digital photo retouching and image editing application package.
+
+GIMPShop.com >>GIMPshop is a modification of the free/open source GNU Image Manipulation Program (GIMP), intended to replicate the feel of Adobe Photoshop. Its primary purpose is to make users of Photoshop feel comfortable using GIMP.org
+
+GimpFX-Foundry.sf.net >>Repository for porting and creating GPL licensed scripts for the latest GIMP. At the moment that is 2.6. In the future this effort can be directed towards newer versions easily while still providing a source for older versions of scripts.
+
+Gimp-Savvy.com >>Gimp-Savvy.com seeks to provide high-level educational and practical resources for the Gnu Image Manipulation Program, a.k.a. the GIMP, and to promote its skillful and knowledgeable use. The GIMP is a premiere image editing and painting program rivaling any commercial package, but developed and distributed in the best open-source software tradition.
+
+ARainyDay.se/projects/python/PaintBrush >>PaintBrush is NOT an application, it's a public domain class that can be used in various drawing applications or games. It's really simple to use. You just set a destination surface and a surface to be used as a brush. Then you can set the color and alpha value for that brush. You can also tell the brush to be rotated in the drawing direction. It's also possible to specify a line pattern to be able to draw dotted lines.
+
+Grafx2.GoogleCode.com >>A pixelart-oriented painting program

@@ -1,0 +1,824 @@
+Related: diary
+
+Jan-20-2011: 
+diyFractional.net GetItWithMe.com e-Allocator.com U-Reserve-It.com ShareZen.com
+
+Calendaring, scheduling and reservations are surprisingly fundamental to community building.
+
+conflict
+allocate
+sharing
+visibility
+
+Shareable.net/blog/how-to-manage-usage-of-a-shared-asset
+"'
+1. It should be easy for everyone involved to keep track of who's using the asset when.
+This is kind of a no-brainer. Without this, you have utter chaos. Partners should be made aware when someone reserves the asset, and there should be some centralized mechanism for partners to see when the asset is reserved and when it's available next.
+
+2. The system should prevent partners from scheduling over each other.
+Another no-brainer. It's not really a "reservation" if it doesn't prevent others from claiming the same time slot. Again, without this you have chaos.
+
+3. The system should prevent partners from scheduling more than their share of time in advance.
+Whatever system is in place should ensure that each partner is not scheduling more usage than they're entitled to, based on their percentage of equity in the asset. Without this, an individual partner could easily monopolize the shared asset at the expense of the other partners.
+
+4. The system should allow for unlimited last minute usage if the asset is available.
+In the interest of making full use of the asset, it wouldn't make much sense to have it sit idle if someone is ready to jump on it at the last minute.
+
+5. The system should have a fair and consistent answer to the central question - "What happens if we all want to use it at the same time?"
+Unless you've agreed to a static schedule in advance (which fails miserably at #6), there will definitely be occasions when more than one partner wants to reserve the same time slot. The system should have a better answer than whoever gets there first wins.
+
+6. Bonus: The system should provide an experience that is as close as possible to sole ownership.
+This is a bonus requirement because an asset-sharing partnership can be successful without it, but it can make a world of difference in how much frustration comes along with the benefits of shared ownership. In an ideal world, you pay for a fraction of an asset and you use it whenever you want or need to. You shouldn't have to plan your life around when you're going to use your asset. It should feel like you're the only owner, except when it comes time to pay the bills.
+
+Scheduling Approaches
+
+So, with these requirements in mind let's take a look at some common scheduling approaches. The options generally fall into two categories - static scheduling, or flexible scheduling.
+
+With static scheduling, the partners agree in advance to a set schedule that never changes. It might be that partners alternate weeks, or one partner gets weekdays and the other gets weekends. There are infinite variations, but the results are the same. You end up scheduling your life around your asset. For something like a vacation home, this approach might be suitable. You generally don't take vacations whenever the mood strikes you so planning around your static block of time isn't that difficult. For something like a car however, this is much less realistic and it starts to feel like your car owns you and not the other way around.
+
+With flexible scheduling, partners are able to reserve available time without having to agree to a fixed schedule in advance. Generally, flexible scheduling solutions provide an experience that is much closer to sole ownership. The main drawback to flexible scheduling is that it's more complicated than static scheduling, and if it's not done right it can lead to friction between partners, and potentially a messy and costly dissolution of the partnership.
+
+Flexible Scheduling Options
+
+There are plenty of options available to implement a flexible scheduling system, some better than others. Here are a few of the more common approaches:
+
+"Working it out"
+This approach tends to be common in partnerships that are started between friends, and typically means that when you want to use your asset you call the other partners and let them know. If there are only two of you in your partnership and you're close friends or family, this may work out. However, this approach has the highest probability of failure and of ruining your friendship. The problem arises when another partner says, "me too." Now what? Without a fair and consistent process for making decisions in these cases it comes down to whoever is the most persuasive or yells the loudest - not the shared ownership experience you were hoping for. This approach fails to meet any of the requirements from the above list, and should really be avoided.
+
+Google Calendar
+The next step up from "working it out" is to use a shared Google Calendar. While this is a step in the right direction, and at least provides a way for partners to keep track of who is using the asset when (#1), it doesn't do anything to prevent partners from scheduling over each other (#2), or more than their share of time (#3). It also leaves it up to the partners to decide what happens if more than one partner wants to reserve the same time slot (#5). Granted Google Calendar is free, but it's not that much better than just "working it out".
+
+Simplistic reservation systems
+There are quite a few options available when it comes to online reservation systems that are designed to simply block time for some shared resource. All of them provide the basics like a shared calendar (#1) and the blocking of time for reservations (#2). Some of the better solutions will even provide quotas for each user to ensure that an individual doesn't schedule more than their share of usage in a given time period (#3). However, because these systems are general purpose scheduling systems they fall short when it comes to dealing with the specifics of managing a shared asset, like distinguishing between reservations made in advance and last minute reservations (#4). Finally, their approach to dealing with cases when more than one partner wants to reserve the same time slot is first-come, first-served. While this does provide consistent results, it's far from fair. Should a partner be able to reserve a time slot when they've already used the asset more than anyone else simply because they woke up earlier and made their reservation first?
+
+Basic shared ownership management systems
+Now we're getting closer to a workable solution. There are just a handful of applications that are targeted specifically at managing a jointly owned asset. All of them provide reservation systems and additional features like management of finances and collaboration features. Some are specific to a certain type of asset, like a boat or airplane, while others are customizable to work with any type of asset. Some provide just the management tools, while others go further to help potential shared owners find partners and set up their partnership. When it comes to reservations, these systems have an answer for each of the requirements. They all provide the basics (#1-3), and most allow for unlimited last minute usage (#4). They also have a decent answer for dealing with cases when more than one partner wants to reserve the same time slot (#5). One common solution for this requirement is wait listing. With wait listing, the first partner to reserve a time slot is granted the reservation, but the system still collects additional reservations for that time slot and creates a waiting list. In the event that the first partner cancels their reservation, the next partner on the waiting list gets the time slot. This is a step in the right direction, but it's really just first-come, first-served with a twist that only makes a difference when a partner cancels a reservation. Another common solution is to offer trades or purchasing of a time slot. With this approach, the first partner to request a time slot is still granted the reservation, but other partners can now offer to trade another reservation for the one in question, or can offer to purchase the time slot with either cash or virtual "credits". The drawback with this approach is that it puts the holder of the first reservation in the position of having to directly grant or deny another partner's request, which can result in friction and resentment between partners.
+
+Sophisticated shared ownership management systems
+Here's where the list of options gets very short. A sophisticated system has the right answers for all of the requirements, and provides a scheduling experience that is as close as you can get to sole ownership without actually paying for it (#6). The key to doing this is how the system handles requests for the same time slot (#5). A sophisticated reservation system gets away from first-come, first-served entirely and instead makes intelligent decisions to eliminate scheduling conflicts before they can happen. This is done by separating the reservation process into two steps. The first step is figuring out how many partners want to use a given time slot - essentially collecting demand. This step is triggered when a partner requests the first reservation for a given time slot. Instead of granting the reservation immediately, it is held in a pending state for a short time while the system notifies the other partners of the pending reservation. Other partners who want to reserve that time slot can do so while the reservation is still pending, which triggers the next step in the process. In this step, the system makes an intelligent decision about who should get the time slot in question by analyzing each partner's past and future scheduled usage. The time slot is then given to the partner who has used (or will use) the asset the least - the fairest possible outcome. Some systems will even apply a weighting factor to more recent usage to try to spread time more evenly among partners. This two-step reservation process results in the least friction possible between partners because it is the system that makes the reservation decision instead of an individual partner. With this strategy, partners can even go as far as giving up on scheduling reservations in advance and just reserve their asset whenever they feel the urge, relying on the system to ensure fairness. This is as close as it gets to owning the asset yourself.
+
+So, if you're considering shared ownership, or are already sharing something, make sure you have the right tools in place because they can have a significant impact on your shared ownership experience. Resist the urge to go with a free or cheap option and seriously consider going with a purpose built solution. You can expect to pay a modest monthly fee for these services, but it's well worth it to ensure that you get the best shared ownership experience possible.
+'"
+
+
+
+Jan-20-2011: From http://radar.oreilly.com/archives/2007/05/gplv3-clarity-a.html
+"'
+    The goal of this License is to promote the freedom of all users to share and change free software.
+
+    Definitions:
+    "You" means any individual exercising the rights granted in this License.
+
+    The "Work" means the work of authorship distributed under this License. A "Modified Work" means any altered version of the Work.
+
+    The "Source Code" for a Work means the preferred form of the Work for making modifications to it. "Object Code" means any non-source form of a Work.
+
+    "Distribute" means copying a Work or Modified Work, making it available to the public, and enabling other parties to make or receive copies. It does not mean sublicensing.
+
+    Permissions:
+    1) You may use the Work, without limitation.
+
+    2) You may Distribute the Work as Source Code, provided that you:
+    a) make the Work available under this License,
+    b) retain all of the copyright notices and warranty disclaimers of the original Work unchanged in the distribution, and
+    c) provide to the user any information necessary to install modified versions from the Source Code.
+
+    3) You may Distribute a Modified Work as Source Code, provided that you prominently note the changes you made and provided that you satisfy the requirements of section 2.
+
+    4) You may Distribute a Work or Modified Work as Object Code, provided that you satisfy the requirements of sections 2 or 3, and provided that you make the corresponding Source Code available to the user under this License.
+
+    5) You may charge any price or no price for each Work or Modified Work that you Distribute, and you may offer support or warranty protection for a fee.
+
+    6) Aggregation of the Work with other separate and independent works on a volume of storage or distribution medium does not cause this License to apply to those other separate and independent parts of the aggregate.
+
+    7) You are not permitted to Distribute the Work or Modified Work in a way that denies the users any of the rights granted in this license. You are not permitted to impose a fee for the rights granted in this license. You are not permitted to limit operation or modification of the Work or Modified Work as a means of enforcing your legal rights or the legal rights of any third party against any users of the Work or Modified Work.
+
+    8) By Modifying or Distributing the Work or Modified Work, you indicate your acceptance of this License, and all its terms and conditions. You may contact the copyright holder of the Work directly and arrange terms to use, distribute, or modify the Work other than those of this License.
+
+    9) Each contributor grants you a non-exclusive, worldwide, royalty-free patent license under the contributor's patent claims in its contribution, to make, use, sell, offer for sale, import and otherwise run, modify and propagate the contribution.
+
+    Termination:
+    10) The permission granted by this License to distribute or modify the Work will terminate if you bring a legal action for infringement of any patent claim licensable by you that is applicable to any element of the Work or any Modified Work, against anyone based on their use, modification or distribution of the Work or a Modified Work.
+
+    11) The permissions granted under this License cannot be terminated as long as you are in compliance with this License. If you violate this License, and you do not correct the violation and return to compliance within 30 days after receiving notice of the violation from the copyright holder, the permissions will terminate as of the end of the 30 day period.
+
+    Warranty and Liability:
+    12) There is no warranty for the Work, to the extent permitted by applicable law. Unless otherwise stated in writing, the copyright holders and/or other parties provide the Work "as is" and without warranty of any kind, either expressed or implied, and the excluded warranties include without limitation implied warranties of merchantability and fitness for a particular purpose.
+
+    13) Unless required by applicable law or agreed to in writing by a copyright holder, in no event will any copyright holder, or any other party who may modify and/or distribute the Work under this License, be liable to you for damages, including any general, special, incidental or consequential damages arising out of the use or inability to use the Work, even if such holder or other party has been advised of the possibility of such damages.
+'"
+
+
+Jan-18-2011: To Quora.com/What-is-the-origin-of-profit
+In other words, why do Consumers pay more for products than the real Costs to produce them (where Wages are also a Cost)?
+
+If you and your neighbors co-owned a small dairy, you would need to pay all the Costs, including Wages.
+
+But for any milk you use directly, there is no Profit because there was no sale...
+
+Does that mean Profit arises from the Consumer's lack of ownership in the Means of Production?
+Edit
+
+I am not asking whether profit is a 'fair' or 'moral'. I am thinking in a much more mechanical and blameless way about what causes this difference between Price and Cost.
+
+I'm just noticing that when the owner of a Milk Cow drinks some of that milk - even if he hired someone else to milk the cow - then, even though he had to pay all of the Costs of production, he simply *cannot* pay profit because he did not buy the product. Profit is apparently *undefined* in this case.
+
+This seems to show that profit is caused by the consumer's lack of ownership in the Means of Production.
+
+And so eliminating profit (whether that is a good idea or not) can be achieved by consumers choosing to invest in the Means of Production for that which they can use directly.
+
+I'm somewhat surprised by this discovery, as I was under the impression that profit was the result of worker efforts...
+
+Quora.com/Eric-Fair wrote:
+> there is a higher Opportunity Cost for not drinking his own farm's milk.
+
+> I likely pay a higher price than the dairy farmer who's drinking his own product, but I don't have to deal with management/sales of the excess inventory of milk that I won't consume myself
+
+Being able to buy exactly as much as I need/want of the product without any other ancillary issues has value to me (and most other consumers, it seems).
+
+
+Jan-18-2011: [OK] reciprocal altruism and timescales for collaboration
+
+Tiberius Brastaviceanu wrote:
+> How do you define "cost"?
+
+Every corporation calculates the costs it
+paid for production during (for example)
+each 1/4 of a year.
+
+They then report their 'earnings' (profit)
+as the difference between those costs and
+the gross revenue they received from users
+who bought the product.
+
+
+Is there something about that routine
+procedure you would say is inaccurate?
+
+
+>> When the consumers are the owners of the
+>> Means of Production, then they *already* own
+>> the outputs of that production even before
+>> it is produced
+
+> I think we should emphasize more on
+> producing stuff than on owning stuff.
+
+You absoloutly CANNOT produce unless you
+have access to the Means of Production.
+
+And I guarantee those Means are already
+owned by somebody or some government.
+
+So if you are unwilling to be an owner,
+then how do you propose we access the
+Means of Production?  Who should own
+them if not the collective 'we'?
+
+If you say "nobody should own them"
+then you have lost already because it
+is currently impossible for land and
+capital to exist on the earth without
+someone laying claim to it.
+
+If you do not lay claim to some land
+and capital, then what will stop those
+that intend to stop us from taking
+those resources from us?  What will
+we say when they say "You don't own
+this, so I am taking it as my own"?
+
+
+> my opinion, it is better to link ownership to participation in the
+> production process (innovation, design, manufacturing or distribution).
+
+
+> If I understand your system properly, it can degenerate, because someone can
+> only acquire means of production and never have to get involved in the
+> production process, will never have to work. That's not a value-based
+> system, especially if you enable inheritance, or if you allow ownership to
+> be transferred (sold). You provide the mechanism for a class of parasites to
+> get formed, owning means of production but not doing any work. That is pure
+> capitalism! Putting your money to work for you, accumulation of capital
+> (means of production) and the possibility of capital to create capital.
+> We've seen that movie already.
+
+
+
+Jan-18-2011: [OK] reciprocal altruism and timescales for collaboration
+Tiberius Brastaviceanu wrote:
+> I don't think that we can eliminate
+> this concept (profit) from our language.
+
+I agree.
+
+Profit is not something we can just wish away.
+
+But the origin of Profit is very misunderstood,
+and so it is rarely if ever treated in a manner
+that could act as the negative-feedback loop we
+need to begin stablizing our productive systems.
+
+Profit measures Scarcity, and more specifically
+it measure the Consumer's lack of ownership in
+the Means of Production.
+
+
+I say we *should* charge Profit against those
+who do not yet have enough ownership, for then
+we can use that overpayment as *their* investment
+toward more Means of Production which they will
+then co-own - so they also, incrementally, gain
+the property ownership needed to protect them
+from paying tribute (profit) to others.
+
+Of course these owners must continue to pay
+for the costs of production, but the concept
+of profit is *undefined* when the owners are
+also the consumers, for in that case the outputs
+are not sold because they are already the
+property of those who intend to use them.
+
+
+> [In Romania] everything on the market
+> had to be sold at cost.
+
+I do not propose we try selling anything at cost.
+
+Please slow-down and listen to what I am saying.
+
+1.)
+When the consumers are the owners of the
+Means of Production, then they *already* own
+the outputs of that production even before
+it is produced.
+
+They do not *buy* the outputs from anyone
+because they own them already!
+
+Since there is no transaction taking place
+after production, the consumers that have
+sufficient ownership in the Means of Production
+receive the outputs at cost as a side-effect
+of their ownership in the Means of those outputs.
+
+
+2.)
+When the consumer does not yet have sufficient
+ownership in the Means of Production, then
+he must buy the outputs from someone who
+has a surplus.
+
+In that case, I say we *should* charge Price
+above Cost against those non-owners, for that
+is how we can collect the extra funds needed
+to grow the collective.
+
+The only difference I propose is that we treat
+that overpayment as though it were an investment
+from the very consumer who paid it - so that he
+also gains real co-ownership in his own part of
+the collective.
+
+His co-ownership he paid for (when he paid Price
+above Cost) will protect him from needing to pay
+profit in the future, for when he has sufficient
+ownership in the Means of Production, he does
+not buy the outputs of that production, but owns
+them already.
+
+
+
+> The real problem is POWER.
+> If you allow mechanisms for the accumulation
+> of power your society is doomed.
+> In capitalism these mechanisms were
+> "private property" and "profits"
+
+Profit is not a problem in itself.
+
+The problem is our mistreatment of profit.
+
+Treating profit as a reward for the current
+owners, even if we try to be 'nice' about it,
+is a positive-feedback loop that increases the
+wealth and power of those already on top.
+
+
+> We need to create value-based organizations, meaning that value can be
+> extracted from the system ONLY in proportion to what one puts in,
+
+Yes, investors shall receive Product instead of Profit.
+This means every investors must also be a consumer.
+
+And those who arrive late must pay for that which
+they gain.  They must pay to cover the Costs of
+production, and they must also pay Profit because
+of their lack of ownership.
+
+It would be against our collective best-interests
+to treat profit as a reward for the current owners.
+
+We must instead treat that overpayment as though
+that consumer had just invested for their future
+so they also gain the ownership needed to protect
+them from those who would otherwise parasite value
+away as the Capitalists ignorantly do already.
+
+
+Jan-18-2011: Title ideas: Buyer's Remorse, Patron Saint
+
+Jan-18-2011: To: FaceBook.com/AGNUcius
+What is the origin of Profit?
+
+If you and your neighbors co-owned a small dairy, you would need to pay all the Costs, including Wages.
+
+But for any milk you use directly, there is no Profit because there was no sale...
+
+Does that mean Profit arises from the Consumer's lack of ownership in the Means of Production?
+
+By the way, if you think Profit is created by Worker effort, then who should receive that value when robots are used?: http://SingularityHub.com/2010/11/16/dairy-farms-go-robotic-cows-have-never-been-happier-video
+
+
+Robin Green wrote:
+> It depends if the neighbourhood pools all its
+> significant property (and hence is a commune).
+> If it does, there is presumably no payment
+> involved in internal use, and hence no profit.
+
+> But if your property is a distinct thing from
+> the property (if any) owned by "the community dairy",
+> then there might be a transfer of property
+> (in particular, money) from the former to the latter.
+
+> Then, there might or might not be a profit, to be reinvested.
+> In general you can't prevent that,
+> because the "true" costs might not be known at the same time as the payment.
+
+> In other words, to eliminate profit, you have to eliminate trade
+> (which is sort of the Marxist view).
+
+> As for robots, they, like all other non-human
+> workers on this planet, do not need to be paid,
+> so the workers who build, maintain and operate
+> them should be paid instead.
+
+> The "intellectual property" behind the robots is an interesting case because that can be - in principle - given away cost-free. But then voluntary payments could be made to programmers, designers, engineers etc.
+
+
+Jan-17-2011: 
+Phil Driver wrote:
+>
+> Many of us are prepared to "give it a go" and donate our time/money to what
+> appears to be a good cause but we all expect something back (directly or,
+> increasingly, indirectly) from that contribution - within some period of
+> time (likely to be days, maybe weeks, but probably not much longer).
+>
+
+When I am unsure how to reason about how a part of the 'corrected'
+system might function, I resort to the "stranded islander" approach
+and then incrementally scale-up from there.
+
+For example, If a person were stranded and alone on an island, what
+could he possibly 'invest' in, and what would that even mean?
+
+Let's say the only "manufacturing plants" available to him are some
+coconut trees, which are luckily already producing for him, but he
+wants to more fully insure his future...
+
+
+So first of all we need to determine just *what* he could possibly use
+to invest.
+
+Well, it seems to me there are 2 fundamentally different types of
+investments which he can 'commit':
+
+1.) The promise to labor in the future toward accomplishing some goal.
+
+2.) The 'Physical Sources' that must be dedicated to this goal (such
+as some square-feet of land, some coconuts which he will plant instead
+of eating directly, some fresh water, etc.)
+
+
+bleh...  sorry if this is too boring - I'm trying to answer the
+question of "how long must we wait before some investment pays-out?".
+
+
+So my answer is: The payout time and quantity and quality for any
+investment should, ideally, be bound directly to the *type* of thing
+it is because we should be organizing users to invest into production
+for the payoff of Use-Value - in that they can use the *Outputs*
+instead of relying upon traditional investors who intend to collect
+Price above Cost (Profit).
+
+This makes the system less complex and therefore much easier to
+predict, but also 'solves' the conflict between Customer and Vendor
+relations because the Customer *IS* the Vendor.
+
+This is sufficient for the 'static' case where the number of
+investor/consumers and the amount they invested is exactly the amount
+needed for them to receive the amount of Product they predicted they
+would want or need.
+
+To solve the 'dynamic' case where there is surplus Product, we must
+have a legally binding Social Contract that says "All owners of
+Physical Sources can keep all the Product they own as a result of
+their ownership in Physical Sources, but if that Product is instead
+sold to those outside of the coalition, then we should:
+
+1.) Charge Price above Cost (Profit) for as much as the market will bear.
+
+2.) Treat any Profit collected as an investment from the consumer who
+paid it toward even more Physical Sources - so that every user becomes
+a co-owner in collaborative Production.
+
+
+This will also finally allow us to break our addiction to Scarcity,
+since treating Profit as a reward for the current owners has been a
+Positive-Feedback loop that incents the creation of artificial
+scarcity in the drive to perpetuate the difference between Price and
+Cost.
+
+
+Alex Rollin wrote:
+> Would you mind elaborating on "legally binding"
+> in terms of "socially enforceable".
+
+What I imagine is starting a business that draws up a "Terms of
+Operation" for that organization enforcing the condition I mentioned.
+
+I get the impression it is common practice for corporations to have
+this type of document they can use to stay 'on track' when it comes to
+various things, including the treatment of Profit.
+
+Unfortunately, I am not really the "business starting" sort of guy,
+and so have still not started even the smallest endeavor.
+
+
+> I was having a conversation about "foreclosure on
+> collateralized assets" today and it rubbed me the wrong way.  I
+> understand "legally binding", in general, though due diligence shows
+> that this is a power game fraught with asymmetry.
+
+I see what you mean, but notice the case I am proposing is
+specifically asymmetric *against* those that have the upper-hand.
+
+In other words, the group of consuming-investors would voluntarily
+"tie their hands" against taking advantage of late-comers.  The only
+way I currently see how we could effectively do this would be through
+a legally-binding document that applies the inner-workings of that
+institution.
+
+This is analogous to what the GNU GPL does when it uses Copyright in a
+sort of 'backward' manner as Copyleft.  The GNU GPL is only
+operationally effective because it is *legally binding*.
+
+We cannot rely upon good behavior for enforcement, for those that
+intend to capsize the commons do not respect such morays.
+
+You might think of what I propose will be using Property Rights in a
+'backward' manner as Property Left which needs some sort of 'teeth'
+into the current system just as the GNU GPL - somewhat paradoxically -
+has no stance without the Copyright system to hold those corporations
+in check that would otherwise try to pirate-away that which the
+community has built.
+
+
+
+> It's cheaper to do
+> this with social relations, and it may be the only way.
+
+I don't understand how we can keep the wolves at the door through
+wishful thinking and the tears they will not heed.
+
+
+> Can we construct property as a social relation such that enforcement
+> results in something like "diminishing equity over time" in the form
+> of "access to product at cost +" as a social function of necessity
+> instead of relying on law?
+
+Small groups often want to "do the right thing", but as we scale to a
+size of any significance, the nature of the beast will take hold of
+the operation and find and endless number of reasons that Profit must
+instead be used by those already in charge to fund projects they have
+decided must be created for the benefit of the late-comers they pretend
+to help.
+
+It is not that any one person even needs to have the slightest of poor
+intentions.  Every participant would likely be convinced they are
+trying their hardest to accomplish the best of goals.
+
+But this is the same disease that inflicts every government down even
+to the city level.  The real ownership is not distributed, and so the
+citizens in need of the goods and services are at the mercy of a
+handful of well-intending tyrants that cannot let go of the control
+they have gained.
+
+
+>>
+>> 1.) Charge Price above Cost (Profit) for as much as the market will bear.
+>>
+>> 2.) Treat any Profit collected as an investment from the consumer who
+>> paid it toward even more Physical Sources - so that every user becomes
+>> a co-owner in collaborative Production.
+>
+> I've been walking through the "social contract" that a customer 'must'
+> uphold, RandR, to claim their share.  Also an interesting place to
+> look at social approaches and participation instead of simply risk and
+> liability management.
+
+Sorry, I don't understand what you mean here.
+
+
+Jan-17-2011: Imputed Production
+
+Abundance creates peace.
+Scarcity creates profit.
+
+Investment creates risk.
+
+Seeking profit incents scarcity.
+
+When consumers own sources, objects are not sold.
+When objects are not sold, profit does not occur.
+
+There is no need to sell objects when they are already the property of those who will use them.
+
+Overaccumulation is the result of treating Profit as a reward for those who are already organized.
+
+Ownership can be automatically distributed to those willing to pay for it by treating that overpayment as an investment from the consumer who paid it so they also gain ownership in some Physical Sources of Production.
+
+Growth must be 'reflected' back to those willing who pay for that growth.
+
+
+Jan-14-2011: <Coalition> Systems and Network Theory
+> - thinking as a species
+> - thinking as one, as a whole, as a single organism!
+> - systems for the whole humanity
+
+Yes, we must be more holistic and inclusive, but in a tactical and even 'defensive' manner similar to how the GNU GPL protects a community from outside predation...
+
+With that in mind, let me present some of my findings of a surprisingly simple Organizational Form that has always been available but lying dormant and unused - maybe because the traditional ways of production have until recently been sufficient and had not caused nearly the trouble we see now.
+
+
+This is a rough draft, but I need to send it now, as I have delayed too long already...
+
+
+----
+
+Capitalism has achieved much for humanity, but as any business scales in size it becomes clear the goals of that body conflicts with the goals of those it claims to serve.
+
+As society becomes more aware of these troubles, corporations try to hide their goal of Profit because we understand Scarcity keeps Price above cost, and therefore striving to perpetuate Profit is the very basis of the conflict between Production and Consumption.
+
+It may seem there could be no solution since those who traditionally Fund production demand Profit as a Return for the Risk they take.  They are operating under the paradigm of "Exchange Value" which requires some amount of scarcity to keep Price above Cost.
+
+...
+
+Let's re-examine our assumptions about who should Fund and therefore Own the Means of Production.
+
+Let's look at the most trivial case of a single person owning a fruit tree for his own benefit.
+
+He must pay all the Costs of ownership, including Wages if he does not do the work himself.
+
+But he cannot pay *more* than Cost, for who would he pay it to?
+
+Profit is defined as Price above Cost but if he does not sell the product, Profit is undefined.
+
+So he Funded that production and Owns those means for the expected return of Product instead of Profit.  This was "Use Value" production instead of "Exchange Value".  It does not benefit this owner when other orchards fail in the area unless he resorts to selling that which he would have eaten.
+
+...
+
+This is all very obvious and might seem unimportant, but let's push the idea a bit further and see what happens:
+
+Imagine now, instead of a single Funder-Owner-User, we have thousands of such investors pooling Funds toward an orchard.
+
+By attracting potential Users to pre-pay for the goods they predict they will need, we can use those Funds to buy the means necessary for that production.
+
+The Users and Owners will then be the very same set.  The product will not be sold because the ROI for the Risk is Product itself which they attain at Cost.
+
+...
+
+This solves the 'static' case where the number of Users matches exactly the output of that production.
+
+But many of these consuming investors will want to over-own by some percentage to guarantee they have enough product at the round of each production.
+
+We must do something with that surplus or it will rot.
+
+We can sell those products for Price above Cost - as much as the market will bear - but to keep the organization owned by the Users of those products, we must treat the payment of Profit as an investment from the User who paid it so they also gain ownership in the Physical Sources of production.
+
+....
+
+In the attached picture "Capitalism.png" we see investors in the upper-left corner funding production and receiving Title to those Physical Sources.
+
+All Costs, including Worker wages, are initially paid from that pool of funding.
+
+The Consumer (in blue) begins to paying for those Costs in his (late) quest to buy Objects.
+
+Over time, if the business is successful, the investors receive all they had initially put forward and then begin receiving the special value called Profit.
+
+The Consumer never gains any ownership in his own Physical Sources under this arrangement.
+
+
+In the attached picture "Patched-Capitalism.png" we see again see investors in the upper-left corner funding production and receiving Title to those Physical Sources, but this time the investors are *also* Consumers of the future product.  They are taking risk for the purpose of receiving at-cost Product under their full control.
+
+After each round of Production, the Objects are not sold (except in cases of surplus), because they are already the property of those who will consume them.
+
+The heavy line indicates there is no transfer of ownership, but shows the funders are already the owners without any need to purchase since they paid all the Costs of production and are the owners as a side-effect of their owning the Physical Sources.
+
+The bottom of the picture shows a Consumer with insufficient ownership buying Objects late and probably paying Price above Cost.
+
+But in this case, that overpayment is treated as an investment from the Consumer who paid it - causing him to unwittingly Fund the purchase and care of even *more* Physical Sources that will eventually begin producing and therefore provide him with that which he needs.
+
+This allows the organization to grow and yet remain distributed as all new ownership is 'reflected' back to those willing to pay for that growth.
+
+In systems theory this is known as a negative-feedback loop.
+
+----
+
+I'll clean this up over the weekend and put it on the wiki.
+
+Sincerely,
+Patrick Anderson
+http://SourceFreedom.BlogSpot.com
+
+
+
+Jan-07-2011: [Commoning] On 'Open Access'
+James Quilligan wrote:
+> find a more useful, resonant and transparent
+> terminology than 'open access commons'.
+
+Heeding the advice of the FSF, maybe 'Free Access Commons', though I
+would say that is also confusing since we would want 'Free' to
+indicate 'Freedom' which, of course, is not without a Price...
+
+other ideas:
+'Freedom Commons'
+'Common Freedoms'
+
+'Freedom Access'
+'Access Freedom'
+
+'Common Access'
+
+
+Patrick Anderson
+Social Sufficiency Coalition
+http://SourceFreedom.BlogSpot.com
+
+Jan-06-2011: [Commoning] free software commons
+Roberto Verzola wrote:
+> the copyright system itself should eventually be abolished, because
+> it is *not in harmony with the nature of information goods*.
+
+Yes, the 'virtual' part of all things, including genetics, industrial
+design and computer code should not be made artificially scarce - it
+should only be naturally restricted by the physical sources required
+to host each instance.
+
+
+> do not give anyone exclusive rights over creations, ie, the "right" to
+> exclude others from enjoying the benefits of a non-rivalrous good).
+
+Yes, this will allow us to copy objects without artificial
+restrictions except for any artificial restrictions (including
+excessive price) enforced by the property owners of the Physical
+Sources required to create each copy.
+
+But copying is only one of the freedoms we must protect.
+
+The ability to study and change a finished object (or some future
+instance of that object) requires the User has access to the Sources -
+*even* when he lacks the skills required to operate those sources.
+
+So, Copyright is currently used mostly as a Copywrong - stopping our
+otherwise inalienable Right to Copy organisms, machines and programs.
+
+But if Copyright were completely eliminated, how we will protect Users
+who accept finished objects but are not given access to the Virtual
+Sources of those goods?
+
+Similarly, if Property Rights were completely eliminated, we wouldn't
+be able to write a contract with which we could insure Users gain
+access to the Physical Sources of the goods receive whenever they pay
+price above cost by treating that overpayment as an investment from
+the User who paid it...
+
+
+Patrick Anderson
+Social Sufficiency Coalition
+http://SourceFreedom.BlogSpot.com
+
+
+Jan-04-2011: [fcf_discussion] is property relevant for free software, do free cultures advocates ignore 'real commons'
+Michel Bauwens wrote:
+> free software as code needs a material infrastructure,
+> to be produced, distributed, etc. ..
+>
+> is there a non-virtual part of free software,
+> and if so, which one would that be?
+
+The "non-virtual part" IS the "material infrastructure".
+
+
+For software (whether Free or not), it includes:
+
+1.) The keyboard used to enter the text.
+
+2.) The wires from the keyboard to the computer.
+
+3.) The separate components of the computer, such as the CPU, RAM,
+Disk, Motherboard, etc.
+
+4.) The physical network or media such as CD, DVD, USBkey, etc. used
+to transport that software.
+
+5.) All the machines needed to mine the minerals used to create all of
+those components.
+
+6.) All the machines needed to extract the petroleum used for the plastic parts.
+
+7.) All the infrastructure such as roads, telecommunications, energy,
+etc. used to transport those machines and the material they collect
+and transform.
+
+8.) All the factories and machines needed to create the machines
+mentioned in #5, #6 and #7.
+
+9.) All the agriculture required to feed the humans involved in all of
+these steps, and recursively used to feed the plants and animals these
+humans use and eat.
+
+10.) All the Land, Water and Shelter required to host that production
+and also to host the humans and their supporting organisms.
+
+11.) All the negative impacts such as pollutions of all types and also
+the fact that those finite resources are being withheld from being
+used in other ways.
+
+
+This is only roughly complete, and is not a truly exhaustive list of
+the Physical Sources required for the creation, storage, transport,
+installation, expression, maintenance and improvements needed for ALL
+types of production, no matter whether the objective is Bread or
+Software; Wine or Song.
+
+
+Sincerely,
+Patrick Anderson
+Social Sufficiency Coalition
+http://SourceFreedom.BlogSpot.com
+
+Jan-03-2011: [fcf_discussion] is property relevant for free software, do free cultures advocates ignore 'real commons'
+Hello all,
+
+This thesis and discussion are confused or ignore the difference
+between the 2 parts of every thing:
+
+1.) The 'Virtual' part of things such as {Software, Genetics and
+Industrial Design} which are infinite in *potential*, but are
+constrained by #2.
+
+2.) The 'Physical' part of things needed to *host* and *express* the
+Virtual parts - such as a {Computer, a Chicken and a Car} - and,
+recursively, all the Physical things, including Land throughout that
+entire chain (actually tree) of production required for those
+instances to exist and be used.
+
+So when considering whether society should treat some thing as
+property, please always qualify to which portion of that thing you
+refer.
+
+Do not say:
+
+   "The FSF does not see the concept of property as relevant for Free
+Software."
+
+Instead say:
+
+   "The FSF does not see the concept of property as relevant for the
+**Virtual Portion of** Free Software."
+
+
+Sincerely,
+Patrick Anderson
+Social Sufficiency Coalition
+http://SourceFreedom.BlogSpot.com
+
+
+Jan-03-2011: The Next Net
+We, the users, already pay all the costs of the physical layer *and* we also pay profit because of our lack of ownership.
+
+This proves we could afford to buy or build our own network if we could learn to cooperate - since we already pay all those bills and more!
+
+So those who are willing and able to prepay can be co-owners and receive at-cost access under our collective control.
+
+That solves the 'static' case.
+
+The 'dynamic' case is the difficult part, but I think I have discovered a solution.
+
+So, to allow us to grow without suffering the usual problems of over accumulation and concentration of power, let's try the following:
+
+Let's allow all all late-comers who have not yet paid enough to purchase access from us as they already do from the current corporations - and even pay profit when the "market will bear", *but* under the strict condition that we treat that profit as an investment from the user who paid it - so they too can gain the ownership needed to protect themselves from the collective we.
+
+Handling profit as payer investment creates a negative-feedback loop that auto-distributes control into the hands of those willing to pay for it.

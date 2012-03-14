@@ -1,0 +1,130 @@
+Related: back, boot, divi, file, fork, GPT, image, MBR, poli, portion, split
+
+PAUD.sf.net >>PAUD is a disk image that contains system utilities, such as fdisk, mc (midnight commander), parted, ntfsresize, and more. PAUD is ideal for rescue/administration purposes and transferring files from one filesystem to another for windows users.
+
+=Some hard drive partition tools:
+GParted.sf.net >>The GParted application is a graphical partition editor for creating, reorganizing, and deleting disk partitions.
+
+RodsBooks.com/gdisk >>text-mode partitioning tool that works on GPT disks
+
+Brzitwa.de/mb/gpart >>Gpart is a tool which tries to guess the primary partition table of a PC-type hard disk in case the primary partition table in sector 0 is damaged, incorrect or deleted.
+
+UserWeb.kernel.org/~kzak/util-linux-ng cfdisk, fdisk, sfdisk
+
+GNU.org/software/parted >>GNU Parted is an industrial-strength package for creating, destroying, resizing, checking and copying partitions, and the file systems on them. This is useful for creating space for new operating systems, reorganising disk usage, copying data on hard disks and disk imaging.
+
+WinParted.sf.net >>This software wants to be a full partition manager and explorer written from scratch for Windows (at the moment). It will support, FAT, FAT32, NTFS, EXT2, EXT3, HFS, HFS+, ...
+
+PING.WindowsDream.com >>PING (Partimage Is Not Ghost) -- Backup and Restore Disk Partitions.  PING is a live Linux ISO, based on the excellent Linux From Scratch (LFS) documentation. It can be burnt on a CD and booted, or integrated into a PXE / RIS environment.
+
+PartImage.org >>Description: Partimage is a Linux utility which saves partitions having a supported filesystem to an image file.
+
+PartitionLogic.org.uk >>Partition Logic is a free hard disk partitioning and data management tool.  It can create, delete, format, defragment, resize, and move partitions and modify their attributes.  It can copy entire hard disks from one to another.
+
+PartedMagic.com >>Parted Magic is a Linux LiveCD/USB/PXE with its elemental purpose being to partition hard drives.  Optimized at approximately 30MB, the Parted Magic OS employs core programs of GParted and Parted to handle partitioning tasks with ease, while featuring other useful programs (e.g. Partition Image, TestDisk, fdisk, sfdisk, dd, ddrescue, etc.) and an excellent set of documentation to benefit the user. An extensive collection of fileystem tools are also included, as Parted Magic supports the following: aufs, ext2, ext3, ext4, fat16, fat32, hfs, hfs+, jfs, linux-swap, ntfs, ocfs2, reiserfs, reiser4, xfs, and zfs.
+
+VisOpSys.org Visual Operating System
+
+Surprise.sf.net
+
+rfhs8012.fh-regensburg.de/~feyrer/g4u
+
+SystemImager.org - software that automates Linux installs, software distribution, and production deployment.
+
+Replicator.sf.net >>Replicator is a set of scripts to automate the duplication of a model computer running Debian/GNU Linux, with some provisions to take into account differences in hardware (like HD size, video card) and in software configuration (partitioning).
+
+$ bootsect.exe #From the WAIK
+$ diskpart.exe
+
+
+
+==Technologies
+Partclone.org >>Partclone provides utilities to back up and restore used-blocks of a partition and it is designed for higher compatibility of the file system by using existing library, e.g. e2fslibs is used to read and write the ext2 partition.
+
+
+
+
+=From Wiki.PartedMagic.com/index.php/Programs:
+==Partition Programs:
+cfdisk -curses-based disk partition table manipulator
+fdisk -partition table manipulator
+gpart -guess PC-type hard disk partitions
+GParted -partition editor that uses libparted
+parted -partition manipulation program
+sfdisk -partition table manipulator
+
+==Filesystem Tools:
+diskdev_cmds -OSX-ported, HFS+ utilities supplying mkfs and fsck
+dosfstools -utilities to create and check MS-DOS FAT filesystems
+e2fsprogs -ext2 filesystem utilities and libraries
+FUSE -filesystem in userspace
+hfsplus -set of tools to access HFS+ filesystems
+NTFS-3g -third generation NTFS driver
+ntfsprogs -tools for doing neat things with NTFS
+reiser4progs -administration utilities for Reiser4 filesystems
+reiserfsprogs -user-level tools for ReiserFS filesystems
+xfsprogs -utilities for managing XFS filesystems
+sshfs -filesystem client based on ssh
+curlftpfs -filesystem for accessing FTP hosts based on FUSE and libcurl
+
+==UNIX Boot Loader Tools:
+$ grub -GRand Unified Bootloader
+$ install-mbr -installs and configures a Master Boot Record manager
+$ lilo -LInux LOader
+$ ms-sys -used to create Microsoft compatible boot records
+$ syslinux -Linux boot loader for MS-DOS FAT filesystems
+
+== X Utilities:
+Conky -light-weight system monitor
+Firefox -www browser
+FireFTP -secure, cross-platform FTP client for Firefox
+galculator -GTK+ scientific calculator
+GPicView -GTK+ image viewer
+gtk-lshw -GTK+ front-end for lshw
+ISO Master -GUI CD image editor
+Leafpad -GTK+ based simple text editor
+PCMan -file manager
+ROXTerm -terminal emulator with tabs and multiple windows
+XChat -IRC chat program
+Xarchiver -GTK+2 only frontend to various command line archivers
+Xfburn -CD burning GUI
+Xfce -light-weight desktop environment
+
+== Console Utilities:
+bzip2 -block-sorting file compressor
+bzip2recover -recover data from damaged bz2 files
+dcfldd -enhanced version of GNU dd
+dc3dd -patched version of GNU dd
+dd -convert and copy a file
+ddrescue -does not abort on errors on the input file
+device-mapper -kernel component that supports LVM
+di -disk information utility
+diff -compares two files, showing differences line by line
+disktype -detect content format of disk or disk image
+dmraid -discover and activate software (ATA)RAID
+file -determine file type
+gzip -compress or expand files
+hdparm -get/set ATA/SATA drive parameters
+hexedit -view and edit files in hexadecimal
+lftp -a command-line file transfer program
+lshw -Hardware Lister
+lspci -lists PCI buses and devices in the system
+lsscsi -lists information about SCSI devices
+lsusb -lists USB devices
+mdadm -manage MD devices, aka Linux Software Raid
+Midnight Commander -file manager
+myrescue -rescue still-readable data from a damaged harddisk
+nano -editor aimed to replace Pico
+openSSH -encrypt sessions using the SSH protocol
+openSSL -open source implementation of the SSL and TLS protocols
+partimage -utility which saves partitions to an image file
+PhotoRec -digital photo recovery
+pv -monitors the progress of data through a pipeline
+rsync -fast incremental file transfer
+safecopy -data recovery tool
+sdparm -outputs and modifies SCSI device parameters
+shred -securely delete a file
+smartctl -control and monitor utility for SMART disks
+TestDisk -partition scanner and disk recovery tool
+UDPcast -transfer tool that can multicast data on a LAN
+wpa_supplicant -implementation of an IEEE 802.11i supplicant

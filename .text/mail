@@ -1,0 +1,198 @@
+Related: chat, collab, commun, connect, IMAP, MAPI, net, POP, post, [E]SMTP, web
+
+emailman.com
+
+OfflineIMAP.org
+
+NotMuchMail.org
+
+
+==Clients
+UltraFunk.com/popcorn >>Popcorn is an e-mail client that uses the Post Office Protocol (POP) to connect to your Internet Service Provider's (ISP) mail server and downloads the e-mail stored on it. When an e-mail is sent to your address it is held on an e-mail server until it is deleted. Usually messages are deleted as an e-mail client downloads them, however it is possible to download these messages without deleting them until you wish to remove them permanently.
+
+Virtual-Access.org >>Virtual Access is a mature and well established Windows mail, news and conferencing product which is in the process of being converted to open source. The product is well supported and has an extensive and experienced user community.
+
+Courier-MTA.org/cone >>Cone is a text-based mail client. Cone seamlessly handles multiple POP3, IMAP accounts, and local mail folders. Cone is also a simple newsreader. Cone's interface is foolproof enough to be used by inexperienced users, but it also offers advanced features for power users.
+
+fdm.sf.net >>fdm is a simple, lightweight replacement for mail fetch, filter and delivery programs such as fetchmail and procmail. It can fetch using POP3 or IMAP (with SSL) or from stdin, and deliver to a pipe, file, maildir, mbox or SMTP server, based on regexp
+
+LinuxMafia.com/faq/Mail/muas.html >>Mail User Agents (MUAs) for Linux
+
+Mutt.org >>"All mail clients suck. This one just sucks less." -me, circa 1995
+
+UNIXMail-w32.sf.net >>Unixmail for Windows is a package of unix mail tools ported to MS Windows (Win32), and bundled together with an easy-to-use installer.  The bundle currently includes fetchmail, mutt, aspell/pspell, sSMTP, and GnuPG.  The existance of this project in effect turns these tools into a cross-platfrom email system.
+
+msmtp.sf.net >>msmtp is an SMTP client with a sendmail compatible interface. It can be used with Mutt and other mail user agents.
+
+mpop.sf.net >>mpop is a POP3 client: it retrieves mail from POP3 mailboxes.
+
+HereWe.ServeBeer.com/libspopc >>libspopc is a simple and light pop3 mail client library used by small programs. one of libspopc's purposes is to help developpers to host easily a pop3 mail client in their programs. It appears that various projets use it, although it began as a toy library, and still given without any warranty at all. So, now libspopc support also SSL encrypted connections (thx to Jeff, and openssl), but it still can be built without SSL support for size reduction.
+
+TradeClient.sf.net >>TradeClient is a UNIX mail client and personal information manager for X. It uses GTK+ and includes support for multiple accounts, both POP3 and IMAP, SMTP, and LDAP. It includes an address book that can interact fully with an LDAP server, and a personal calendaring system.
+
+DavMail.sf.net >>Ever wanted to get rid of Outlook ? DavMail is a POP/IMAP/SMTP/Caldav/LDAP gateway allowing users to use any mail/calendar client with Exchange, even from the internet through Outlook Web Access on any platform, tested on MacOSX, Linux and Windows.
+
+Mahogany.sf.net >>Mahogany is an OpenSource cross-platform mail and news client. It is available for X11/Unix and MS Win32 platforms, supporting a wide range of protocols and standards, including SMTP, POP3, IMAP, NNTP (including SSL support for all of them) and full MIME support.
+
+MMM3.sf.net >>Magic Mail Monitor (MMM) is a free POP3 mail monitor with multiple accounts support. It sits silently in your system tray, and notifies you about new messages in your mailboxes. Then you can preview messages and delete unwanted mail in order to avoid spam and viruses.
+
+Mailcheck.sf.net >>Mailcheck is a simple, command line, configurable tool that allows multiple mailboxes to be checked for the existence of new mail messages. It supports both mbox and maildir-style mailboxes. It also supports remote POP3 and IMAP mailboxes.
+
+Alumnit.ca/wiki/index.php?page=RetchMail >>RetchMail is the world's most stupidly fast POP3 retriever.
+
+siMail.si >>
+
+Blat.net (Blat.sf.net) >>Blat is a Win32 command line utility that sends eMail using SMTP or post to usenet using NNTP.
+
+Hastymail.org >>Hastymail is a full featured IMAP/SMTP client written in PHP.
+
+DadaMailProject.com (Copyright JustinSimoni.com) >>Dada Mail is a completely contemporary, mature and intuitive web-based e-mail list management system, which runs on most any Unix-like hosting account that can run custom CGI scripts (details). Dada Mail is also a conceptual art project.
+
+AtMail.org >>AtMail is an open source webmail client written in PHP. We aim to provide a elegant Ajax webmail client for existing IMAP mailservers, with less bloat and a focus on an intuitive, simple user interface.
+
+Simple-Mail.sf.net >>Welcome to the official website of SimpleMail, the easiest e-mail client there is!
+
+UserLogos.org/extensions/simplemail >>Simple Mail is a mail client for Firefox. It allows you to get notified, read and write messages for multiple email accounts inside Firefox.
+
+Citadel.org >>Email and Groupware - easy to install, easy to use.
+
+Dev.LibreApps.com/wiki/AGPLMail and Savannah.NonGNU.org/projects/agplmail >>AGPLMail does what it says on the tin - it is an AGPL'd webmail application. It will hopefully compete with gmail, mimicking the interface and eventually having all the same features. However, it is currently in very early stages of development. It is written in PHP using the php-imap library to access an imap server, and also uses a MySQL database.
+
+DadaMailProject.com >>Dada Mail is a completely contemporary, mature and intuitive web-based e-mail list management system, which runs on most any Unix-like hosting account that can run custom CGI scripts
+
+Savannah.NonGNU.org/projects/agplmail >>AGPLMail does what it says on the tin - it is an AGPL'd webmail application. It will hopefully compete with gmail, mimicking the interface and eventually having all the same features. However, it is currently in very early stages of development. It is written in PHP using the php-imap library to access an imap server, and also uses a MySQL database.
+
+OBM.org >>>OBM is enterprise-class messaging and collaboration platform for workgroup or enterprises with many thousands users. OBM includes many components working together as a complete end-to-end solution: Groupware, messaging server, CRM, LDAP, smartphone and PDA synchronization...
+
+Code.Google.com/p/minig >>MiniG is a webmail written as an alternative to IMP for the OBM groupware solution.  OBM is an open source alternative to exchange based on postfix, cyrus imap and openldap.
+
+libgmail.sf.net >>The libgmail project is a pure Python binding to provide access to Google's Gmail web-mail service.
+
+GmailAgent.sf.net >>GmailAgent is a application that acts as a email client and can be used by programs like Digikam,gthumb and others to provide email access to a Gmail account. It's written in Python and pyQT.
+
+RoundCube.net >>RoundCube Webmail is a browser-based multilingual IMAP client with an application-like user interface. It provides full functionality you expect from an e-mail client, including MIME support, address book, folder manipulation, message searching and spell checking. RoundCube Webmail is written in PHP and requires a MySQL or Postgres database. The user interface is fully skinnable using XHTML and CSS 2.
+
+SpiceBird.com >>Spicebird is your one platform for many collaboration needs. It provides e-mail, calendaring and instant messaging with intuitive integration and unlimited extensibility.
+
+Holovaty.com/blog/archive/2004/06/18/1751
+CPAN.org/authors/id/A/AH/AHARRISON Gmail archiver
+
+Packages.Debian.org/etch/mailagent >>Mailagent allows you to process your mail automatically. This has far more functionality than procmail, and is easier to configure (providing, of course, that you grok perl). As a mail processing tool, this slices, it dices, it ...  Given a set of lex-like rules, you are able to file mails to specific folders (plain Unix-style folders and also MMDF and MH ones), forward messages to a third person, pipe a message to a command or even post the message to a newsgroup.
+
+Packages.Debian.org/unstable/mail/chewmail >>chewmail is a Perl-based mail archiver. It uses Mail::Box so supports any mailbox format it does. It can filter messages into mbox's based on the message's date and other criteria.
+
+LaikwanWong.com/wmc >>Single web mail client interface to access Gmail, Hotmail/Msn, and IMAP accounts all at the same time. Tabbed interface for reading and composing email. 3 panel perspective: folder list, email list and email preview.
+
+sf.net/projects/snailmail >>A light mail client which concentrates on IMAP support and offers easy ways to organize and display mail.
+
+Jeenyus.net/~budney/linux/software/safecat.html >>safecat implements Dan Bernstein's maildir algorithm, copying standard input safely to a specified directory. With safecat, the user is offered two assurances. First, if safecat returns successfully, then all data is guaranteed to be saved in the destination directory. Second, if a file exists in the destination directory, placed there by safecat, then the file is guaranteed to be complete.
+
+Wikipedia.org/wiki/Maildir >>Maildir is a widely-used format for storing e-mail that does not require application-level file locking to maintain message integrity as messages are added, moved and deleted. Each message is kept in a separate file with a unique name. All changes are made using atomic filesystem operations so that the filesystem handles file locking concurrency issues. A Maildir is a directory (often named Maildir) with three subdirectories named tmp, new, and cur.
+
+Linux-France.org/prj/imapsync >>imapsync - IMAP synchronisation, sync, copy or migration tool. Synchronise mailboxes between two imap servers. Good at IMAP migration. More than 32 different IMAP server softwares supported with success.
+
+Savannah.GNU.org/projects/mailman >>Mailman is the GNU mailing list manager. Most of the project artifacts are currently kept at the Mailman project on SourceForge. This project is currently used only to maintain the project web pages on www.gnu.org.
+
+GNU.org/software/mailutils >>GNU Mailutils is a collection of mail-related utilities. At the core of Mailutils is libmailbox, a library which provides access to various forms of mailbox files (including remote mailboxes via popular protocols). It also provides support for parsing of RFC-822 style messages and MIME support.
+
+NonGNU.org/gmailreader
+
+Perl.Overmeer.net/mailbox >>This page is dedicated to Perl's MailBox module. MailBox consists of a large set of packages which implement powerful methods to handle e-mail in Perl.
+
+Pyropus.ca/software/getmail >>getmail is a mail retriever designed to allow you to get your mail from one or more mail accounts on various mail servers to your local machine for reading with a minimum of fuss. getmail is designed to be secure, flexible, reliable, and easy-to-use. getmail is designed to replace other mail retrievers such as fetchmail.
+
+archivemail.sf.net >>archivemail is a tool for archiving and compressing old email in mailboxes. It moves messages older than the specified number of days to a separate mbox format mailbox that is compressed with gzip. It can also just delete old email rather than archive it.
+
+Mailsync.sf.net >>Mailsync is a way of synchronizing a collection of mailboxes.  The algorithm is a 3-way diff.  Two mailboxes are simultaneously compared to a record of the state of both mailboxes at last sync.  New messages and message deletions are propagated between the two mailboxes.  If you're familiar with CVS, it's the same principle, except there's no opportunity for conflicts.
+
+libEtPan.sf.net >>libEtPan ! is a mail purpose library.  It will be used for low-level mail handling : network protocols (IMAP/NNTP/POP3/SMTP over TCP/IP and SSL/TCP/IP, already implemented), local storage (mbox/MH/maildir), message / MIME parser
+
+www.RPCurnow.force9.co.uk/mairix >>mairix is a program for indexing and searching email messages stored in Maildir (see the documentation section below), MH or mbox folders.
+
+List.org >>Mailman is free software for managing electronic mail discussion and e-newsletter lists. Mailman is integrated with the web, making it easy for users to manage their accounts and for list owners to administer their lists. Mailman supports built-in archiving, automatic bounce processing, content filtering, digest delivery, spam filters, and more. See the features page for details.
+
+Sympa.org >>Sympa mailing list server
+
+Bongo-Project.org >>Bongo is an easy-to-use mail and calendar system, offering a simple yet powerful user interface. The goal is to make sharing, organisation, and communication simpler, quicker, and more useful.
+
+HORDE.org/imp >>IMP is the Internet Messaging Program. It is written in PHP and provides webmail access to IMAP and POP3 accounts.
+
+RoundCube.net >>RoundCube Webmail is a browser-based multilingual IMAP client with an application-like user interface. It provides full functionality you expect from an e-mail client, including MIME support, address book, folder manipulation, message searching and spell checking. RoundCube Webmail is written in PHP and requires a MySQL or Postgres database. The user interface is fully skinnable using XHTML and CSS 2.
+
+ChandlerProject.org >>For people who use their Inbox as their task list, Chandler Preview picks up where your Inbox leaves off.
+
+Collaboration-World.com/pantomime >>The Pantomime framework supports the major mail protocols: POP3, IMAP, and SMTP.  It's free and it's fast.  Use it in your open source projects!
+
+Collaboration-World.com/gnumail >>The complete and fast mail application for GNUstep and Mac OS X.
+
+Washington.edu/alpine >> In late 2005, Computing & Communications at the University of Washington began a project to create a new family of email tools built upon the Pine® Message System.  This family of tools is called Alpine.  Alpine consists of a UNIX command-line program, a PC version, and a Web version.
+
+Wiki.Mozilla.org/Penelope >>Qualcomm's intention with the Penelope (huh?) project (overview) is to join the Eudora® user experience with the Mozilla platform.  We intend to produce a version of Eudora that is open source and based on Mozilla and Thunderbird.  It's not our intention to compete with Thunderbird; rather, we want to complement it.
+
+SUP.RubyForge.org >>Sup is a console-based email client for people with a lot of email. It supports tagging, very fast full-text search, automatic contact-list management, and more.
+
+TinyMail.org >>Tinymail is a library for developing mobile applications with E-mail functionality. The framework provides components that aid the developer with the user interface but of course also with the connectivity and the caching of messages.
+
+Elmo.sf.net
+
+Claws-Mail.org
+
+MuttRCBuilder.org >>This site lets you create a muttrc file for the Mutt email program . You specify your preferences in the boxes on the next few pages, and you get a muttrc you can use.
+Spinnaker.de/mutt
+
+Thunderbird
+
+Sylpheed.org
+
+Courier-MTA.org >>The Courier mail transfer agent (MTA) is an integrated mail/groupware server based on open commodity protocols, such as ESMTP, IMAP, POP3, LDAP, SSL, and HTTP. Courier provides ESMTP, IMAP, POP3, webmail, and mailing list services within a single, consistent, framework. Individual components can be enabled or disabled at will. Courier now implements basic web-based calendaring and scheduling services integrated in the webmail module. Advanced groupware calendaring services will follow soon.
+
+SquirrelMail.org >>SquirrelMail is a standards-based webmail package written in PHP. It includes built-in pure PHP support for the IMAP and SMTP protocols, and all pages render in pure HTML 4.0 (with no JavaScript required) for maximum compatibility across browsers. It has very few requirements and is very easy to configure and install. SquirrelMail has all the functionality you would want from an email client, including strong MIME support, address books, and folder manipulation.
+
+Zimbra.com
+MH, NMH
+elm
+mail
+mailx
+nail
+pine
+
+Emacs: RMAIL, GNUS, VM, Meadow, Wanderlust (wl)
+
+==Servers
+AllThingsRSS.com/rss2email >>a free, open-source tool for delivering news from RSS feeds in email
+
+==== MTA (SMTP)
+exim.org >>Exim is a message transfer agent (MTA) developed at the University of Cambridge for use on Unix systems connected to the Internet. It is freely available under the terms of the GNU General Public Licence. In style it is similar to Smail 3, but its facilities are more general. There is a great deal of flexibility in the way mail can be routed, and there are extensive facilities for checking incoming mail. Exim can be installed in place of sendmail, although the configuration of exim is quite different to that of sendmail.
+
+qmail.org, cr.yp.to/qmail >>qmail is a secure, reliable, efficient, simple message transfer agent. It is designed for typical Internet-connected UNIX hosts. As of October 2001, qmail is the second most common SMTP server on the Internet, and has by far the fastest growth of any SMTP server.
+
+Maildrop
+
+Sendmail
+
+Postfix
+
+==== IMAP, POP3
+Dovecot.org >>Dovecot is an open source IMAP and POP3 server for Linux/UNIX-like systems, written with security primarily in mind. Dovecot is an excellent choice for both small and large installations. It's fast, simple to set up, requires no special administration and it uses very little memory.
+
+Fetchmail
+
+CyrusIMAP.web.cmu.edu >>Cyrus is a highly scalable enterprise mail system designed for use in enterprise environments of various sizes using standards based technologies. Cyrus technologies scale from independent use in email departments to a system centrally managed in a large enterprise.
+
+BincIMAP.org abandoned?
+
+isync.sf.net >>isync: free IMAP and MailDir mailbox synchronizer
+
+Software.Complete.org/offlineimap
+
+FreePOPs.org
+
+Courier-MTA.org/cone/libmail.html >>LibMAIL is a C++ E-mail access library, which provides a high-level API for accessing E-mail messages stored on POP3 and IMAP servers, or in local mail folders; and for sending mail via ESMTP, or the local sendmail command. LibMAIL also serves as a platform for development of a new experimental network mail access protocol, SMAP, that offers additional capabilities not available in IMAP and POP3.
+
+
+==== MAPI
+OpenMAPI.org >>open, multi-language, cross-platform MAPI implementation
+
+
+==Old
+ftp://sunsite.unc.edu/pub/Linux/system/mail

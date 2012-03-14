@@ -1,0 +1,99 @@
+Related: browse, CMS, group, net, weave, WWW
+
+OSQA.net >>
+
+CobWebProject.sf.net >>CobWeb is a decentral social network. It makes it possible to share anonymously information in a cloud. The communication in the web is fully encrypted, and it implements the OTR principles. Its implemented in Python3 and requires the GMPY library.
+
+OSE.sf.net >>OSE is a generic application framework suitable for constructing general purpose applications, distributed systems and web based services. The four main parts of OSE are an extensive C++ class library, a set of Python wrappers, a build environment based on GNU Make, and a set of documentation extraction tools.
+
+Wakaba.c3.cx/s/web/wakaba_kareha.html >>Wakaba and Kareha are my attempts at implementing from scratch image and message boards of a type popular in Japan (used on sites such as Futaba Channel and 2channel). This kind of board software is built around anonymous posting and no requirements for registration, to make the boards more suited for casual uses, and more fun overall. They are written in Perl, and are designed to be more efficient and cleanly written than the original scripts that are available, while preserving the same kind of functionality. Both scripts are in use at iichan, an English-language site built along the same lines as the Japanese Futaba Channel, and also 4-ch, an English-language discussion BBS.
+
+CodePlex.com/Gestalt >>Gestalt.js is a library released by MIX Online Labs that allows you to write Ruby, Python & XAML code in your (X)HTML pages. It enables you to build richer and more powerful web applications by marrying the benefits of expressive languages, modern compilers, AJAX & RIAs with the write >> save >> refresh development model of the web.
+
+Scratch.RubyForge.org >>Scratch is the minimalist's web log. Scratch gives you nothing more than the meta-weblog API for posting. Reading is done via Atom or RSS. That's it. There's no HTML to hack up. You don't have to use the same, tired old web log template that everyone else is using. Break out of that blue, rounded rectangle! Be original! Thumb your nose at those primitive apes still using the web! Use Scratch! Scratch can also serve as a framework for developing your own weblog package.
+
+cat-v.org >>Werc is a minimalist web framework built on the Unix and Plan 9 tool philosophy of software design.
+
+Rack.RubyForge.org >>Rack provides an minimal interface between webservers supporting Ruby and Ruby frameworks.
+
+Typo3.org >>A free, feature rich, Content Management Framework built with PHP and running under many Unixes and Windows.
+
+TruetopiaProject.org >>Truetopia is an open source project developing a generic self-governance web application. The application allows its users collaborate on finding solutions to their shared problems. Using the application shared problems are identified, understood and (in theory) solved. This is accomplished using a direct-democratic system of online publishing, rating and voting.
+
+WebToolKit.eu >>Wt (pronounced 'witty') is a C++ library and application server for developing and deploying web applications. It is not a 'framework', which enforces a way of programming, but a library.
+
+Cwfm.sf.net >>Cwfm (Comet WebFileManager) is simply a web file manager.  I started this project to solve a typical 'intranet problem'. Non-skilled users want to exchange files from servers connected by wan or Internet link. Ftp is not suitable for this task 'cause its scarce user-friendlyness. Normal smb connections are impraticable over Internet due to security problems and slowness. The users are generally already able to use a web browser. All these considerations have carried me to one direction: a web application reachable from everywhere with the http protocol. Of course I started with security in mind. If anyone can connect to your server disks it's important to avoid any possible unauthorized access. Cwfm is constituted by a set of php scripts that perform user authentication (using php sessions) and a subset of a typical file manager features.
+
+WebFileBrowser.org >>Web File Browser is a simple open-source file browser written in PHP (1 single file) that allows users to create, delete, edit, copy, rename, move and upload files and directories thru a light, full-text, web-based interface
+
+OWL.AnyTimeComm.com >>Owl is a multi user document repository (knowledge base) system written in PHP for publishing files/documents onto the web for a corporation, small business, group of people, or just for yourself.
+
+Laconi.ca >>Soon, this page will be filled with deliciously useful information about the Open Source u-blogging tool Laconica.
+
+Helma.org >>Helma is an open source web application framework for fast and efficient scripting and serving of your websites and Internet applications.
+
+cynin.sf.net >>cyn.in is an Open Source Collaborative Knowledge Management Appliance that enables teams to seamlessly work together on files, documents and content in a secure central environment. cyn.in is available for free under the GNU GPL v3 license.
+
+cyn.in >>cyn.in is a software tool developed by Cynapse, that inter-connects your people with each other and their collective knowledge, seamlessly. cyn.in helps teams to create collective knowledge by sharing workspaces, applications, documents, files and digital content within a secure, unified environment. cyn.in combines the capabilities of collaboration tools like wikis, blogs, file repositories, micrologs instant discussions and other social applications into a seamless platform. The cyn.in desktop client keeps users updated with its unique activity stream while enabling instant discussions within any document, file or content.
+
+EnanoCMS.org >>From the reliable and solid core to its beautiful, responsive user interface, Enano has everything you expect from today's content management framework. We decided to put only a basic set of features in to the core and leave the remainder up to the various plugins that are available.
+
+Liferay.com
+
+concrete5.org >>concrete5 is a CMS framework that can power all types of websites. It is written in PHP, uses a MySQL database, and runs on many web servers.
+
+TangoCMS.org >>TangoCMS is a free and Open Source (GNU/GPL 2.1) PHP Content Management System (CMS). Its ease of use and powerful feature set allows you to quickly and easily create and manage an entire website.
+
+RingSideNetworks.org >>What is Ringside Social Application Server?  Open source social application server, providing every request with the context of the user, user data and the users network. Thus giving every application the capability to be more social. Combining your application with Ringside Social Application Server can turn an application into a social network of it's own giving you the breadth of a Facebook with a platform open to as many other applications, websites and users you desire.
+
+TYPO3.org >>is the main developer resource of the TYPO3 project, a free CMS framework released under the GPL. This site provides lots of information about creating sites, writing extensions and developing the core of TYPO3.
+
+Total-Knowledge.com/progs/cppserv >>CPPSERV is a web application server that provides Servlet-like API and JSP-like functionality to C++ programmers. It consists of stand-alone daemon, listening on TCP socket for requests from web server, and web server module. Currently apache-2.0.x and ligttpd are supported.
+
+Wikidot.org >>now protected by AGPLv3
+
+Ocsigen.org >>Ocsigen is a Web server and a programming framework providing a new way to create dynamic Web sites. Its goal is to offer an alternative to Apache/PHP, based on cutting-edge technologies coming from research in programming languages. (OCaml)
+
+WebGUI.org >>The WebGUI Content Engine is Web Done Right. It's the premier platform for managing all your web based content and applications. WebGUI is modular, powerful, secure, and user-friendly. Most users find themselves managing content within hours, and developers can easily plug-in functionality to maximize a site's potential. Since its introduction in 2001, WebGUI has grown to currently run over 10,000 web sites, intranets, and extranets around the world.
+
+MODxCMS.com >>MODx is an open source PHP Application Framework that helps you take control of your online content. It empowers developers and advanced users to give as much control as desired to whomever they desire for day-to-day website content maintenance chores.
+
+GetWiki.net >>Welcome to GetWiki.net, the official website for and about the GetWiki software and concept - an open-source, feature-rich, secure application for "getting" Wiki content onto your website, and a Wiki/Weblog running the easy-to-use GetWiki software.
+
+SoftWiki.de >>SoftWiki -- Distributed, End-user Centered Requirements Engineering for Evolutionary Software Development    The aim of the cooperative research project SoftWiki is to support the collaboration of all stakeholders in software development processes in particular with respect to software requirements.
+
+dimdim.sf.net >>dimdim is the world' s first free web meeting service based on the open source platform.  dimdim is a browser-based web 2.0 service that allows anybody to share their desktop, show slides, as well as talk, listen, chat, and broadcast via webcam.  dimdim's hosted service is available for free and can be easily used for small gatherings, to seminars with hundreds of attendees.  With absolutely no software to download for attendees, dimdim gives everyone the opportunity to hold Web meetings and to customize and brand these meetings.
+
+OntoWiki.net >>OntoWiki is a tool providing support for agile, distributed knowledge engineering scenarios.    OntoWiki facilitates the visual presentation of a knowledge base as an information map, with different views on instance data. It enables intuitive authoring of semantic content, with an inline editing mode for editing RDF content, similar to WYSIWIG for text documents.
+
+Appleseed.sf.net >>The Appleseed Project is an effort to create open source Social Networking software that is based on a distributed model. For instance, a profile on one Appleseed website could "friend" a profile on another Appleseed website, and the two profiles could interact with each other.
+
+ChandlerProject.org >>Chandler Project is an open source, standards-based personal information manager (PIM) built around small group collaboration and a core set of information management workflows modelled on Inbox usage patterns and David Allen's GTD methodology.  Our goal is to serve the way people actually work, independently and together, particularly in small groups, a market segment we believe is underserved.  Our belief is that personal and collaborative information work is by nature iterative and that the existing binary Done/Not-Done, Read/Unread, Flagged/Unflagged paradigm in productivity software poorly accommodates the reality of how people work.
+
+KeplerProject.org/cgilua >>CGILua is a tool for creating dynamic Web pages and manipulating input data from Web forms. CGILua allows the separation of logic and data handling from the generation of pages, making it easy to develop web applications with Lua.
+
+Pivot.net >>Pivot is a web-based tool to help you maintain dynamic sites, like weblogs or online journals. Pivot is released under the GPL so it is completely free to use. It is written in PHP, and does not require additional libraries or databases to function.
+
+PyLucid.org >>OpenSource CMS written in Python, used django
+
+eBox-Platform.com >>The eBox platform will effectively and easily help you managing the advanced services for your corporate network.  Designed with extensibility in mind it offers, among others, these modules: Firewall, Transparent proxy, Traffic shaping, VPN’s, Content filter, NTP Server, Users and groups, Mail server…
+
+OpenSocialWeb.org >>There are already many who support the ideas laid out in this Bill of Rights, but we are actively seeking to grow the roster of those publicly backing the principles and approaches it outlines. That said, this Bill of Rights is not a document “carved in stone” (or written on paper). It is a blog post, and it is intended to spur conversation and debate, which will naturally lead to tweaks of the language. So, let’s get the dialogue going and get as many of the major stakeholders on board as we can!
+
+SemioticWeb.org >>The Semiotic Web is a project to collect ideas and research topics on web meaning. Web meaning is here intended in the broadest sense possible. The concept derives from an article by Professor Jouko Seppänen although it departs from it. See also the SeCo Group at the Helsinki University of Technology
+
+Pentabarf.org >>Pentabarf is a conference planning software written in Ruby (using the Rails framework) and PL/pgSQL.  Pentabarf supports you in the submission collection, content planning, schedule creation, feedback collection and has various exports to put these data to use in other systems.
+
+Yogurt.sf.net >>Yogurt is a free GPL virtual community portal.
+
+Wefis.sf.net >>Wefis is a tool designed to manage files on a web-server: it works in a way similar to FTP, except that it is entriely hosted by the server.  With WEFIS you can create, delete, modify, rename, copy, etc any file or folder in your section of the site (depending on WEFIS configuration), allowing the user complete freedom of operation...
+
+DACS.dss.da >>DACS is a light-weight single sign-on and role-based access control system for web servers and server-based software. DACS makes secure resource sharing and remote access via the web easy, safe, and efficient.
+
+Tntnet.org >>Tntnet is a modular, multithreaded webapplicationserver written from scratch for C++.
+
+Wefis.sf.net >>Wefis is a tool designed to manage files on a web-server: it works in a way similar to FTP, except that it is entriely hosted by the server. With WEFIS you can create, delete, modify, rename, copy, etc any file or folder in your section of the site (depending on WEFIS configuration), allowing the user complete freedom of operation...
+
+WebMagick.sf.net >>WebMagick makes putting images on the Web as easy as magick.
+
+haXe.org >>haXe is a high-level object-oriented programming language mainly focused on helping programers develop Websites and Web applications.

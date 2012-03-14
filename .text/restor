@@ -1,0 +1,9 @@
+Related: image, recover, state, store
+
+==Microsoft System Restore:
+  strComputer = "."
+  Set objWMIService = GetObject("winmgmts:\\" & strComputer & "\root\default")
+  Set objItem = objWMIService.Get("SystemRestore")
+  errResults = objItem.Enable("D:\")
+
+

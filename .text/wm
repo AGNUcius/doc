@@ -1,0 +1,82 @@
+Related: dock, login, manager, menu, OS, panel, taskbar, window, X, X11, .xmodmap
+
+
+==Lists
+GilesOrr.com/wm
+Linux.org/apps/all/GUI/Window_Managers.html
+
+
+* Current favorites: IceWM, JWM, OpenBox, FVWM95, FLWM
+
+IceWM.org >>goal of IceWM is speed, simplicity, and not getting in the user's way.
+
+JoeWing.net/programs/jwm >>Joe's Window Manager
+
+ICCULUS.org/openbox >>Openbox is a highly configurable, next generation window manager with extensive standards support.
+
+FVWM.org, FVWM-Themes.sf.net, FVWM-Crystal.org, FVWM-Crystal.sf.net, Developer.berliOS.de/projects/fvwm-crystal
+
+QuarkWM >>- A keyboard-driven*, small and fast window manager - *You can use your mouse too, there is a nice toolbar ;)
+
+Phrat.de >>YeahWM is a h* window manager for X based on evilwm and aewm.
+"'
+Features:
+• Sloppy Focus.
+• BeOS-like tabbed titles, which can be repositioned.
+• Support for Xinerama.
+• Simple Appearance.
+• Good keyboard control.
+• Creative usage of the mouse.
+• Respects aspect size hints.
+• Solid resize and move operations.
+• Virtual Desktops.
+•" Magic" Screen edges for desktop switching.
+• Snapping to other windows and screen borders when moving windows.
+• Small binary size(ca. 23kb).
+• Little resource usage.
+• It's slick.
+'"
+
+JFC.org.uk/software/lwm.html >>lwm is a window manager for X that tries to keep out of your face. There are no icons, no button bars, no icon docks, no root menus, no nothing: if you want all that, then other programs can provide it. There's no configurability either: if you want that, you want a different window manager; one that helps your operating system in its evil conquest of your disc space and its annexation of your physical memory.
+
+Projects.Mini-Dweeb.org/projects/unagi >>Unagi is a modular compositing manager which aims to be efficient, lightweight and responsive. It is currently written in C programming language and based on XCB library client library. Any existing window manager can be used as long as it implements properly EWMH and ICCCM specifications (or at least parts of it which are needed), which is generally the case nowadays.
+
+WeeWM.FlashTux.org >>WeeWM - ultra-light window manager
+
+Wumwum.sf.net >>Wumwum is a window manager manager. It manages window managers so that they place your windows automatically the way a tile-based window manager (ion or awesome) would do it. This way you get the nice graphics of modern window managers and the efficiency of keyboard driven tiling-based managers. Moreover you can still use all features of the underlying manager and you keep all your keyboard shortcuts and behaviour when switching from one manager to the other. This video gives a quick overview of wumwum's features.
+
+pekWM.org and pekSysTray.sf.net >>pekwm is a window manager that once up on a time was based on the aewm++ window manager, but it has evolved enough that it no longer resembles aewm++ at all. It has a much expanded feature-set, including window grouping (similar to ion, pwm, or fluxbox), autoproperties, xinerama, keygrabber that supports keychains, and much more.
+
+Peereboom.us/scrotwm >>Scrotwm is a small dynamic tiling window manager for X11. It tries to stay out of the way so that valuable screen real estate can be used for much more important stuff. It has sane defaults and does not require one to learn a language to do any configuration. It was written by hackers for hackers and it strives to be small, compact and fast.
+awesome.naquadah.org >>awesome is a tiling window manager initialy based on a dwm code rewriting. It's extremely fast, small, dynamic and awesome.
+suckless.org/wiki/dwm >>dynamic window manager.  In contrast to ion, larswm, and wmii, dwm is much smaller, faster and simpler.
+suckless.org/wiki/wmii >>wmii is a dynamic window manager for X11. It supports classic and dynamic window management with extended keyboard, mouse, and filesystem based remote control. It replaces the workspace paradigm with a new tagging approach.
+Multi-Cursor-WM.sf.net >>A Multi-Cursor window manager is a modified Unix window manager which provides multiple cursors. This allows multiple users to simultaneously interact with a Unix desktop environment.
+FpcBol.sf.net >>Bol a simple GUI made for children
+Sawmill.sf.net >>Sawfish is an extensible window manager using a Lisp-based scripting language --all window decorations are configurable and all user-interface policy is controlled through the extension language.
+Common-Lisp.net/project/clfswm >>CLFSWM is a 100% Common Lisp X11 window manager (based on Tinywm and Stumpwm. Many thanks to them).  It can be driven only with the keyboard or with the mouse.
+xmonad.org >>tiling wm in Haskell
+proj.phk.at/iwm
+OmegaWM.TheGraveyard.org
+www.cc.rim.or.jp/~hok/heliwm >>Highly Essential Light Itsy-bitsy Window Manager for X Window System    Heliwm is designed and developed to be one of the smallest and lightest window managers in the world of X. I believe that saving memory and CPU time contributes to less electricity consumption, thus saving natural resources.
+NickGravgaard.com/windowlab
+wmi.modprobe.de attempting highest functionality/LOC
+BadWM.sf.net does almost nothing.  see also: ratpoison
+Equinox-Project.org or EDE.sf.net Equinox Desktop Environment (shortly EDE) is small desktop environment ... based on modified FLTK library.
+FLWM.sf.net another FLTK wm
+insitu.lri.fr/~chapuis/metisse/screenshots
+Dinx.sf.net framebuffer stuff
+XPDE.com wm that looks like Microsoft Windows(R) XP
+
+IronPhoenix.org/tril/fvwm writes:
+"'I remember Red Hat's Fvwm setup as a byzantine web of config files written in an indecipherable alien language--what I later learned to be M4 scripts. I have vague, nightmarish memories of hot-pink titlebars, fat blocky window borders, black and white load graphs, and garish pixmap buttons. And the puke-green emacs background (at this time, I was too naive to understand what Fvwm controlled and what Xdefaults controlled!). And the page-switch delay, just long enough to be annoying if you were trying to switch, and just short enough to be annoying if you weren't. And the insufferable sloppy focus.
+
+My first timid attempts to tame this monstrosity were soundly squelched. Red Hat's Fvwm was controlled, as mentioned, by a web of system files: it paid no attention to any puny .fvwm2rc in the user's home directory.  After a few weeks of flailing, I gave up. I retreated to the comfort of the console, returning to X only when a particularly insatiable Netscape-craving arose.
+
+...
+
+The more I use Fvwm, the less patience I have with the limitations of newer, supposedly better Window Managers.'"
+
+
+==Others
+ion, larswm, XFCE, Gnome, KDE

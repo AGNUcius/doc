@@ -1,0 +1,13 @@
+Related: concur, govern, monitor, perf, quest, restore, store
+
+SteadyState.org >>Welcome to the Center for the Advancement of the Steady State Economy (CASSE). CASSE is a non-profit, tax-exempt organization dedicated to advocating a sustainable economy with stabilized population and consumption.  This economy is called a "steady state economy".
+
+Qsfm.sf.net >>A graphical tool for designing finite state machines
+
+SMC.sf.net "'Your application lives in a world of asynchronous, unordered events: mouse clicks, timeouts, messages, and OS signals. And you're ready for them. You've carefully designed your objects. You're using robust patterns that facilitate reuse and anticipates future product direction. Your dynamic models allow your objects to recover from all but the most catestrophic events. Your application is ready for anything.
+
+But there's a hitch. Your detailed state diagrams are only pictures. How are you going to translate your drawings into code? A transition matrix is cryptic while switch statements means your state machine logic is scattered all over your code. The state pattern looks like a great solution but that means writing and maintaining a class for each state - too much work.
+
+Enter SMC - The State Machine Compiler. Now you put your state diagram in one file using an easy-to-understand language. SMC generates the state pattern classes for you. No more hand-maintained transition matrices. No more widely scattered switch statements. Instead, the state diagram is in one place, coded directly from the picture to the SMC language and is easily maintained.
+
+SMC uses the state pattern to its fullest extent. In the real world, events don't always happen when they should. Dealing with unexpected events is a must for a robust application. By combining virtual methods with the state pattern, SMC allows you to define "Default" transitions - transitions which allow your objects to handle unexpected events, recover and continue providing service (rather than crashing, burning and getting you into trouble).'"

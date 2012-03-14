@@ -1,0 +1,421 @@
+Related: diary
+
+Sep-29-2009: What is wrong with US?  Why do "We the People" fail to achieve our potential?
+
+Why do we have so much trouble organizing the co-ownership of productive resources for our own benefit?
+
+Why do we assume, and therefore tend to structure those endeavors as lossy value sinks that require continual external funding?
+
+Where is the abundance?  Where is the freedom?  Where is the fun?
+
+
+Sep-29-2009: Talking to a friend about MarshallBrain.com/robotic-nation.htm I asked >>What do you see happening when so many jobs are replaced by robots?  What will the poor workers do?
+
+After a moment of thought he said >>>Well, if people die of starvation from that, then maybe it is simply the way it was meant to be.  Maybe it is our natural evolutionary path.
+
+
+Sep-28-2009: Debt and profit are similar patterns.  In both cases the server (creditor/owner/funder/investor) of sources is rewarded for "being there first" while the client (debtor/consumer/customer/patron) of objects is punished for arriving late.  This is justified with a logic something like: "'The payee has shown prudence, care and productivity while the payer is irresponsible and therefore deserves less.'"
+
+
+Sep-28-2009: Reading ArtOfCommunityOnline.org/2009/09/18/the-art-of-community-now-available-for-free-download available at ArtOfCommunityOnline.org/downloads/jonobacon-theartofcommunity-1ed.pdf
+
+
+Sep-28-2009: Some terminology that has shaped our perception toward the role of consumer:
+----
+"'client  1393, from Anglo-Fr. clyent, from L. cliens (acc. clientem) "follower, retainer," perhaps a var. of prp. of cluere "listen, follow, obey" (see listen); or from clinare "to incline, bend," from suffixed form of PIE base *klei- "to lean" (see lean (v.)). The ground sense is of one who leans on another for protection. In ancient Rome, a plebian under protection of a patrician (in this relationship called patronus, see patron), originally in Eng. "a lawyer's customer," by c.1600 extended to any customer. Clientele is 1563, from Fr. clientèle, from L. clientela "relationship between dependent and patron." '" -- EtymOnline.com
+
+Here the role is clearly subservient to the 'server' (as in client/server architecture).
+----
+"'patron "a lord-master, a protector," c.1300, from O.Fr. patrun (12c.), from M.L. patronus "patron saint, bestower of a benefice, lord, master, model, pattern," from L. patronus "defender, protector, advocate," from pater (gen. patris) "father." Meaning "one who advances the cause" (of an artist, institution, etc.), usually by the person's wealth and power, is attested from 1377; "commonly a wretch who supports with insolence, and is paid with flattery" [Johnson]. Commercial sense of "regular customer" first recorded 1605.'" -- EtymOnline.com
+
+This seems to show the role of ownership being separated from and then finally replaced by the role of consumer.
+
+The "regular customer" idea mixes the need to compensate for production with the profit paid to owners.  Originally, a patron as "lord-master" might support an artisan by paying for the material costs of production and would also probably supply a sort of "basic income" directly through housing and basic sustenance, but would certainly not be paying profit.
+
+----
+"'chap (n.) 1577, "customer," short for obsolete chapman (see cheap). Colloquial sense of "lad, fellow" is first attested 1716 (cf. slang tough customer).'" -- EtymOnline.com
+
+We commonly assume and usually accept the consumer to be unprepared - partially because of his immaturity.
+
+
+Sep-25-2009: LikewiseOpen.org >>Joins Linux, Unix and Mac systems to Active Directory domains in a single step from the command line or from a GUI
+
+
+Sep-25-2009: GPLPedia.com looks busy, and may have some good content, but is littered with freeware/trialware/shareware content while insensitively using the term "Open Source" instead of "Free Software" - though we (the Free Software movement) need an even better title such as "Freedom Software", "FreedomWare", or in a move to holistic syncretism "Source Freedom"
+
+
+Sep-21-2009: PXE-booting PartedMagic.com using the W32 server from TFTPD32.Jounin.net
+
+
+Sep-18-2009: Reading "'From Nature to the Lab:  Experimental Political Science and the Study of Causality'" -- PolMeth.WUSTL.edu/retrieve.php?id=939
+
+
+Sep-18-2009: Reading "'Study of the compatibility mechanism of the EUPL (European Union Public License)'" -- EC.Europa.EU/idabc/servlets/Doc?id=27472   My cynical view tells me this is a plot to undermine or overthrow the GNU GPL protections.
+
+
+Sep-14-2009: Begin MiniMacs.
+
+
+Sep-11-2009: Reading "Corporate Ideology in World of Warcraft" at Retts.net/documents/rettberg_corp_ideology.pdf
+
+
+Sep-11-2009: Reading "The Player's Game: Towards Understanding Player Production Among Computer Game Cultures" at ACTA.UTA.fi/english/teos.php?id=11176
+
+
+Sep-10-2009: 20 questions, mostly about about conveyance: Jacobian.org/writing/gpl-questions - and some pretty good answers: News.YCombinator.com/item?id=702462
+
+
+Sep-10-2009: Posted to Lists.Autonomo.us/pipermail/discuss
+
+Thomas Lord wrote:
+
+> Google will license libraries to have a single
+> public terminal from which full texts can be
+> retrieved.   However, for works not in the public
+> domain, if the library wants to *print* the work
+> they must pay a fee into the registry, via Google.
+>
+> The GFDL does not permit such a restriction to be
+> imposed as a condition of distributing the work.
+
+
+I wonder if the GNU GFDL might not cover this activity in the same way the GNU GPL does not cover SaaS...
+
+The terminals allow users to *access* the Copyrighted work, but *distribution* (or conveyance) does not occur until printing, and at that point Google is allowed to charge.
+
+
+Sep-10-2009: Posted to Groups.Google.com/group/openmanufacturing
+On Thu, Sep 10, 2009 at 6:56 AM, Bryan Bishop wrote:
+> On Thu, Sep 10, 2009 at 7:43 AM, Patrick Anderson wrote:
+>> On Wed, Sep 9, 2009 at 10:27 PM, Michel Bauwens wrote:
+>>> Do we have a formal definition of open manufacturing?
+>>>
+>>> My take:
+>>>
+>>> Any system of production whereby knowledge and designs are shared freely so
+>>> innovation can flow in the whole system.
+>>
+>> So Open Manufacturing is purely about the design side of things.
+>
+> Wrong. Manufacturing is the actual bridge between bits and atoms.
+> That's why fablabs are run by the Center for Bits and Atoms, for
+> instance. Ever wonder about that?
+
+Fablabs are trying to instantiate designs of fancy new things we don't really need.
+
+What about food, medicine, cloth, soap?
+
+Plants and animals are the RepRaps of those basic needs, and yet we (the people) still have not even figured out how to co-own those (mostly (see Monsanto)) open designs.
+
+We don't need lasers and robots when we don't even have beans!
+
+People are starving on this planet, and it is not because of lack of new technology.  Governments pay farmers to NOT grow.
+
+Co-ownership of Physical Sources required for instantiation is what Open Manufacturing lacks.  Designs are a dime/dozen.
+
+
+Sep-10-2009: Posted to Groups.Google.com/group/openmanufacturing
+On Thu, Sep 10, 2009 at 6:56 AM, Bryan Bishop wrote:
+> On Thu, Sep 10, 2009 at 7:43 AM, Patrick Anderson wrote:
+>> On Wed, Sep 9, 2009 at 10:27 PM, Michel Bauwens wrote:
+>>> Any system of production whereby knowledge and designs are shared freely so
+>>> innovation can flow in the whole system.
+>>
+>> So Open Manufacturing is purely about the design side of things.
+>
+> Wrong. Manufacturing is the actual bridge between bits and atoms.
+> That's why fablabs are run by the Center for Bits and Atoms, for
+> instance. Ever wonder about that?
+
+Is the Center for Bits and Atoms not capitalist?
+
+Is the Center for Bits and Atoms trying to help us (the people) to co-own the expensive tools required for physical instantiation?
+
+>
+>> Instantiating those designs is ignored and left to the Capitalists.
+>
+> I am not a capitalist, and yet I do designs, so what does that make
+> me? Am I impossible? Oh no, I'm poofing away.
+
+When I say 'instantiate' I am talking about "creating a physical instance of some design".
+
+You say "I do designs".  But that is NOT the same as instantiation. You are talking about only the design half.
+
+Would you say the design of a car is the same as a car?
+
+Can you drive a design down the road?
+
+Instantiating a car requires (typically) various metals, plastic, rubber, grease, many tools, buildings to house those things and land for those things to reside.
+
+I cannot live inside the blue-prints of a house, it must be instantiated with physical materials.
+
+
+>
+>> Open Manufacturing is actually "Made in China"facturing - such as
+>> http://Arduino.cc boards.
+>
+> That's only because people are continuously told that they can't do
+> semiconductor manufacturing.
+
+Told?
+
+I don't avoid manufacturing because I am 'told'.
+
+I avoid manufacturing because I don't have access to the Land, Tools, heavy machinery, etc. *required* to manufacture.
+
+But since those things are tremendously expensive, and since - even if I could afford them, I could never *utilize* them to their full potential, we (the people) are in need of a way to co-own those expensive things.
+
+The adherents of Open Manufacturing seem to currently care nothing about co-ownership, but instead, if local instantiation is attempted at all, it is through singly-owned and mostly toy-like "desktop manufacturing" such as reprap, etc.
+
+Co-ownership is difficult, but until we face that trouble we will be only designers because we will lack "at cost" access to the Physical Sources required for material instantiation.
+
+
+Sep-09-2009: Posted to list-en@oekonux.org
+
+On Sun, Sep 6, 2009 at 5:17 PM, Diego Saravia wrote:
+>> > you can duplicate software endlessly (if not copyright)
+>> >
+>> > you cannot duplicate fish in a pond forever
+>> >
+>>
+>> Both are constrained by the physical sources required for hosting.
+>>
+>
+> that is only theoretical speculation
+>
+> in practice every people in the world, once connected and with a computer,
+> could download almost everything he/she wishes
+
+Wow, this is revolutionary!
+
+Infinite data transfer and storage with no physical constraints!
+
+Google, Amazon, etc. will want to talk to you immediately.
+
+I need to get my silly ISP involved so he can stop caring about how much I download.
+
+And I'd sure like one of these infinite-capacity drives...  But if they are not composed of matter, and don't take up any space at all, I wonder how they can even be seen...
+
+
+
+>
+>>
+>> Neither software nor fish can exist unless hosted on a physical medium.
+>>
+>>
+> yes, but physical medium for computers and connections allready exists or
+> could exist for the people included in info soc.
+
+I saw a statistic the other day showing only 1 in 100 people owns a PC.
+
+We currently use physical networks to carry data between these rare machines.  Those networks have very real limits of bandwidth and response-time.
+
+And we use clunky, overheated, dusty hard-drives to store very small amounts of that total data.
+
+
+But if you are correct - if we have been fooling ourselves about such material constraints, then each of us will soon (or are you saying we already are?) carry around a *local* copy of the entire internet at all times, which was instantaneously updated in real-time with no lag and no actual costs of any sort.
+
+
+
+
+>
+>> You might say software is silicon-based while fish are carbon-based.
+>>
+>
+> we have enough silicon for everyone, but not enough fish
+
+
+I wonder why you compare the source of one (silicon) with the object of the other (fish).
+
+Couldn't we at least compare silicon to carbon or computers to fish?
+
+But either way:
+1. Neither silicon nor carbon are infinite.
+2. There are currently not enough computers nor enough fish.
+3. There *could be* enough computers and enough fish if we humans knew how to work together, but since Capitalism requires Profit, and since Profit requires Scarcity, there is no chance we will ever have enough unless we solve the problem of co-ownership.
+
+
+
+>
+>> In both cases here are real limits to the number of copies because of
+>> the physical constraints of:
+>>
+>> 1. space: you can only store so many.
+>>
+> we have exponential growing digital density
+
+Even so, datasets will continue to grow and storage will always be an issue.
+
+Another reason storage will always be an issue is the degenerative nature of the physical medium: hard-drives, CDs, DVDs, magnetic tape, 'flash' memory, etc. all have limits on the amount of time they will hold data in a stable manner.
+
+Our world is rotting around us, and the data will disappear unless we continue to move it to newly created media.
+
+
+>
+>> 2. time: creating each copy takes more than 0 seconds
+>>
+>
+> exponential decreasing
+
+But it will never reach infinity.  All I'm saying is that every form of design must reside in our physical world - otherwise how could we even have contact with it?
+
+
+>
+>
+>> 3. mass: each copy must reside on a mineral substrate.
+>>
+>
+> exponential growing density
+
+That does not change the fundamental property of data: it *MUST* be hosted in the material world.  There are no exceptions!
+
+
+>
+>
+>> 4. energy: ultimately mostly the sun
+>>
+>>
+> we have enough for all computers we can imagine, also decreasing consumption
+
+This is a very sloppy and even dangerous claim because of the massive energy and therefore environmental impact caused by all of these electric machines and all the resources dedicated to keeping it running.
+
+Secondarily, just because you may be able to personally 'afford' such things doesn't mean most people can.  Most people cannot.
+
+
+
+>
+> in real life we have not real limits
+
+If there are no limits, then why don't you instantly download the entire internet onto your hard-drive?
+
+>
+>
+>
+>> The only real difference is in the speed at which the duplication can
+>> occur.
+>>
+>> It is quite possible to allow fish to duplicate themselves
+>> (self-unfold) to trillions of copies.
+>>
+>
+> it happens, but no at enough velocity, because growth limits.
+
+Are you saying growth has limits?  If so, then I agree.
+
+But that is not why we lack abundant fish.
+
+The reason is caused by governments run by corporations steered by profit which requires scarcity.
+
+We could easily farm enough fish to feed everyone in the world many times over if we knew how to co-own (share or multiplex) property.
+
+But the corporations that do co-own, do so in a very centeralized manner caused by their mistreating profit as though it were a reward for them to keep.
+
+They operate the governments directly, and those governments create legislation (such as the US Farm Bill) that artificially keeps price above cost by purposefully decreasing abundance by (for instance) paying farmers to NOT grow on land that is provably arable.
+
+We cannot solve or even address this issue until we realize and admit that the Material Means of Production (Physical Sources) must be in the hands of those that intend to use the outputs of those Means.
+
+I'm talking about the consumers that pay for product now will in the future organize to pay for production - and at that time, when the payers are the owners, and when profit is being treated as an investment from he who paid it, those organizations will not have the filthy goal of withholding abundance to prop-up price, for their goal will be *product* instead.
+
+>
+>>
+>> It is just as realistic to consider trillions of CDs or DVDs full of
+>> software.
+>>
+>>
+> we dont need cd or dvd, but we have more than we need
+
+Who is this 'we' you speak of?  I personally need some DVD-R media right now!
+
+
+>
+>> In both cases there is no limit in potential, but there is a very
+>> definite ceiling on the number of copies you can finally instantiate
+>> into the physical world.
+>
+>
+>
+> yes, but now we have  costly fish and cheap bits.
+
+The bits seem cheap to you, but for the Earth as a whole they are very expensive.
+
+
+Sep-04-2009: The definition of the word 'cooperative' carries many ideas and ideals that conflict with the goals of user freedom.  Because it would be so difficult to redefine the term, and because of the legal implications and assumptions made if the title were used, the organization is now reverted to the "Personal Sovereignty Foundation" and the name for the inter-owner trade agreement is once again the "GNU's Not Usury General Public Law".
+
+
+Sep-04-2009: Posted to ListCultures.org/pipermail/p2presearch_listcultures.org
+
+On Fri, Sep 4, 2009 at 10:36 AM, Samuel Rose wrote:
+
+> many easily modifiable bicycle design cores (plus a standard way to
+> contribute more cores) that people can download and fabricate
+
+
+Fabricate?  What the hell does that mean?  I don't have access to the Physical Sources required for fabrication!
+
+How are we, the people supposed to fabricate without land, buildings, tools, etc.?  That is the question the article is asking.
+
+How can you (and so many others on these lists) so readily brush aside the difficulty of *instantiating* these designs?
+
+We, the people do not have the Physical Sources required for 'fabrication'.
+
+Sure design is important.  But that is only a (very small) part of the problem.
+
+The complexity of designing a bicycle is on the verge of trivial.
+
+The primary difficulty is access to the mass, time, space and energy required to 'host' that design in physical reality.
+
+Most people on these lists seem to think we will fix this in the future through rep-rap robots.  Quit dreaming.
+
+We can address this *now* with current technology by "getting together" and co-owning those Physical Sources for the purpose of product instead of profit.
+
+But such an approach has a massive psychological barrier: we have been convinced/hypnotized into believing production cannot occur unless profit is treated as a reward for those that organize.
+
+Eventually we will see that product alone (in this case bicycles) is enough of a reason for we, the people to *own* Physical Sources (such as the land, buildings and tools needed to build bicycles) needed for production, but until then we will ignorantly beg those that intend to charge us a price above costs (the Capitalist profiteers) to "do the right thing" when they have a big reason not to: for profit decreases as abundance increases, so it is clear they will never do *our* will, for to do so would put them out of the business of keeping us dependent upon them!
+
+
+Sep-04-2009: Posted to Groups.Google.com/group/openmanufacturing
+On Fri, Sep 4, 2009 at 4:16 AM, Austin wrote:
+>
+> In the absence of dual-licensing, is there a way to encourage P2P or
+> OS contributors to donate their time, money, and energy to the
+> community, generating an common pool of open technology ... while still
+> allowing for-profit firms to create proprietary add-ons that need not
+> go back into the community.
+
+...
+
+> From what I understand, a license like GPL does not allow this.  If a
+> for-profit firm adds in a miniscule snippet of OS code, this
+> contaminates everything else the for-profit firm has created, and it
+> must return "everything" back to the commons.
+
+Your wording seems to convey a slightly incorrect interpretation of the GNU GPL's constraints.
+
+The GNU GPL only requires sources be made available to those who receive the objects.  There is no overarching requirement to publish those changes back to "the commons", nor is there any requirement to notify the original copyright holders in any way.  In fact, according to the FSF, any license with those requirements does not even qualify as a "Free Software" license!
+
+So, for example, let's say Google modifies the Linux kernel (which is of course protected by the GNU GPL) and uses that modified version to run it's servers.
+
+Google is not required to make those changes public unless (and only to whomever) they publish the binaries.
+
+So Google could sell their new binaries (say to Yahoo) even for a very large amount - there is no limit - but the source-code must accompany the object files (the executable binaries) during that transaction.  There is still no requirement to publish anything to the public in general.
+
+It is a common and very deep mistake to conflate "Free as in Freedom" with zero price.  This is a subtle point but very applicable to your quest since the ability to withhold GNU GPLed binaries until payment is received is a completely legal and in fact very important part of the history of this license.  RMS used this feature of the license to get paid while developing GNU Emacs by charging $150.00 for each copy he distributed.  http://GNU.org/bulletins/bull2.txt - notice he was distributing the source-code by itself, not the binaries at all.
+
+
+
+> Is there a license out there that prevents contamination?
+
+If you do not want to be 'contaminated', then just write your own damn code.  Why do you feel you should be able to do anything you want with the Copyrighted work of others?
+
+What strange logic people use against the GNU GPL.  If I took a Microsoft EULAed binary and modified it (difficult without source-code, but not impossible) and then wanted to distribute the modified whole as my own while complaining my project had been contaminated/infected, there would be few that thought my stance was sane.
+
+Yet a surprisingly large number of humans support breaking the requirements of the GNU GPL even though in both cases these are simply Copyright licenses.
+
+From where does this belief arise that the Copyright holders deserve no respect when the license is not proprietary?
+
+
+> And has
+> that license generated successful ecosystems/projects with open
+> innovators and proprietary commercializers existing side-by-side?
+
+Examples include: Public domain (no license at all - Copyright has been relinquished), Apache, BSD-style, Artistic, "'WTFPL - Do What The Fuck You Want To Public License'" -- http://Sam.zoy.org/wtfpl ...

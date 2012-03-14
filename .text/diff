@@ -1,0 +1,75 @@
+Related: compare, divide, merge, patch, sort, synchronize, unify
+
+==Plain Text
+WinMerge.sf.net >>WinMerge is an Open Source (GPL) visual text file differencing and merging tool for Windows.  It is highly useful for determing what has changed between project versions, and then merging changes between versions.
+
+WinMergeX.sf.net >>WinMergeX is a development branch of WinMerge, to provide myself with some features which increase my productivity. Most of these features are patches which were rejected from WinMerge.
+
+KDiff3.sf.net >>KDiff3 is a graphical text difference analyzer for up to 3 input files, provides character-by-character analysis and a text merge tool with integrated editor. It can also compare and merge directories. Platform-independant.
+
+Meld.sf.net >>Meld is a visual diff and merge tool. You can compare two or three files and edit them in place (diffs update dynamically). You can compare two or three folders and launch file comparisons.
+
+Diffuse.sf.net >>Diffuse is a graphical tool for merging and comparing text files. Diffuse is able to compare an arbitrary number of files side-by-side and gives users the ability to manually adjust line-matching and directly edit files. Diffuse can also retrieve revisions of files from bazaar, CVS, darcs, git, mercurial, monotone, and subversion repositories for comparison and merging.
+
+Caffeinated.me.uk/kompare >>Kompare is a graphical difference viewer that allows you to visualize changes to a file. Whether you're a developer comparing source code, or you just want to see the difference between that research paper draft and the final document, Kompare is the tool you need.
+
+Diff-Ext.sf.net >>compare files easily
+
+xxdiff.sf.net and Furius.ca/xxdiff >>Graphical File And Directories Comparator And Merge Tool
+
+Google-Diff-Match-Patch.GoogleCode.com >>The Diff Match and Patch libraries offer robust algorithms to perform the operations required for synchronizing plain text.
+
+sdelta.berliOS.de >>By analyzing the difference between files sdelta3 outputs tiny highly compressible patches. Patches translate source tarballs into newer or older versions or similar sources such as: mozilla into firefox or firefox into mozilla.  sdelta is honed to the characteristics of source tarballs.  For deltas of binary files try: bdelta and edelta.
+
+Xffm.sf.net >>Xffm applications consist of is a graphical means for harnessing the power of command line Un*x and more command line tools. Filemanagement, network access, find tools, and more. The Xffm applications provide more useful commands and a graphical environment to othert useful un*x commands.
+
+BeeSoft.pl >>BeeDiff (beediff) is a program with graphical user interface (GUI) for comparing and merging files. User have the possibilty to work with two text files, each in separate panel. Panels are side by side. All differences of both texts are highlighted in colors. Operation buttons (such as merge and remove) are located directly inside the compared texts in appropriate positions. The program is user-friendly, very simple, and efficient.
+
+GNU.org/software/emacs/manual/html_node/ediff EDiff and EMerge in GNU Emacs
+
+LinuxGazette.com/issue27/marsden.html
+
+Serice.net/mgdiff >>I no longer maintain mgdiff for Debian, but I still use it and send in suggested changes. I use the same version numbers as Debian. So, if the official Debian package is equal to or greater than the version number below, get the official Debian package.
+
+MatteoLucarelli.net/xrecursediff >>xRecurseDiff is a small program that can rapidly traverse entire directory trees to show different version of the same files, for example to compare different version of the same project.
+
+LurkLurk.org/xwindiff.html >>I've programmed a lot in both UNIX and Windows environments, and I found that when I was working on UNIX machines I really missed having the "windiff" tool. So, I've written a first pass at an X11 version of windiff, called xwindiff (obviously enough). Note that my aim was to produce a quick and dirty clone of windiff; if you're looking for a graphical diffing tool with oodles of features and a rather prettier UI, you might like to try the splendid xxdiff
+
+
+==Binary/Hex
+FreshMeat.net/projects/visuelhexdiff >>Visuel Hexdiff is a curses-based application designed to make it easy to visually detect the differences between two binary files. It has only been tested on Linux and OpenBSD, but is reported to work on FreeBSD, Solaris, and Irix.
+
+http://dev.chromium.org/developers/design-documents/software-updates-courgette
+
+tboudet.free.fr/hexdiff (translated)>>Visual Hexdiff is a software to compare visually , on a display hex, two fragments of binary files.  Some keyboard commands are used to move up and down, by line or page, go early, go to the end to seek the next difference, loading a new file.  There is also a superb ascii viewer, which allows you to decode (with a little luck) frames this Ymodem that does not work.  In short, a software indispensable. 
+
+CJMWeb.net/vbindiff >>VBinDiff (Visual Binary Diff) displays files in hexadecimal and ASCII (or EBCDIC). It can also display two files at once, and highlight the differences between them. Unlike diff, it works well with large files (up to 4 GB).
+
+rdiff-backup.org >>rdiff-backup backs up one directory to another, possibly over a network. The target directory ends up a copy of the source directory, but extra reverse diffs are stored in a special subdirectory of that target directory, so you can still recover files lost some time ago. The idea is to combine the best features of a mirror and an incremental backup. rdiff-backup also preserves subdirectories, hard links, dev files, permissions, uid/gid ownership, modification times, extended attributes, acls, and resource forks. Also, rdiff-backup can operate in a bandwidth efficient manner over a pipe, like rsync. Thus you can use rdiff-backup and ssh to securely back a hard drive up to a remote location, and only the differences will be transmitted. Finally, rdiff-backup is easy to use and settings have sensical defaults.
+
+Daemonology.net/bsdiff >>bsdiff and bspatch are tools for building and applying patches to binary files.  By using suffix sorting (specifically, Larsson and Sadakane's qsufsort) and taking advantage of how executable files change, bsdiff routinely produces binary patches 50-80% smaller than those produced by Xdelta, and 15% smaller than those produced by .RTPatch (a $2750/seat commercial patch tool).  These programs were originally named bdiff and bpatch, but the large number of other programs using those names lead to confusion; I'm not sure if the "bs" in refers to "binary software" (because bsdiff produces exceptionally small patches for executable files) or "bytewise subtraction" (which is the key to how well it performs). Feel free to offer other suggestions.
+
+XDelta.org >>open-source binary diff, differential compression tools, VCDIFF (RFC 3284) delta compression
+
+Open-VCDIFF.GoogleCode.com >> An encoder and decoder for the format described in RFC 3284: "The VCDIFF Generic Differencing and Compression Data Format." The encoding strategy is largely based on Bentley-McIlroy 99: "Data Compression Using Long Common Strings." A library with a simple API is included, as well as a command-line executable that can apply the encoder and decoder to source, target, and delta files. A slight variation from the draft standard is defined to allow chunk-by-chunk decoding when only a partial delta file window is available.
+
+WebAlice.it/g_pochini/bdiff >>Yes, this page is awful, who cares ?? BDiff is a small utility to do what diff/patch pair does with text files. It handles binary files, of course.
+
+deltup.org and deltup.sf.net  >>Delta Update is a source package update system that performs similarly to diff/patch for packages. It can reconstruct compressed tarballs so that there is a perfect binary match with the old package. By using Deltup you can dramatically reduce network bandwidth by downloading an update patch instead of the complete tarball. Some of the results are rather impressive. See this page to get a some stats on popular file downloads.
+
+Binary Delta is an advanced file differencing algorithm that is both efficient and fast. Deltup spends far more time with the compression step than with file differencing. BDelta also includes a library so that it can be used in your own applications.
+
+The Dynamic Deltup Server was started by Nicolai Lissner. You can use it to create and download patches. See the HOWTO page for more info.
+
+
+DIKU.dk/~jacobg/edelta >>EDelta is a fast XDelta-style binary differ, but optimized for executables that have a very systematic way of changing between versions. It has not been thoroughly evaluated so far, but on one example (two versions of Vim) it produces a 30kB delta where XDelta needs 250kB. My personal use for edelta is to quickly deploy Linux kernels from my development-laptop to my test-machines, especially when working over my slow ADSL line at home. I frequently see factor of 100 speedups compared to shipping the whole file.
+
+
+==Pictures
+imsim.GoogleCode.com >>imsim calculates the similarity between 2 images, with 0 being a perfect match and 1 completely different. Generally a threshold of around 0.4 works well to distinguish similar images from unrelated.
+
+PDiff.sf.net >>PerceptualDiff is an image comparison utility that makes use of a computational model of the human visual system to compare two images.
+
+
+==Other
+InCaseOfStairs.com/firediff >>Firediff is a Firebug extension that tracks changes to a pages DOM and CSS.

@@ -1,0 +1,35 @@
+/* body {background:#000; color:#000;} */
+/* #header,#footer {background:#fff;} */
+#main {background:#fff; border:1em solid #fff;}
+
+/* span.h1,span.h2,span.h3,span.h4{background:#ccc;} */
+
+/* span.rel{background:#007000; color:#fff;} */
+span.rel{font-size:80%; background:#777;}
+span.date{background:#000; color:#fff;}
+
+/* span.quot, span.quot2, span.quot3 {} */
+span.quot {background:#eff;}
+span.quot2 {background:#ffe;}
+span.quot3 {background:#fef;}
+
+span.cmnt{background:#dfd;}
+span.shell{border:1px solid #000;}
+span.type{background:#770;}
+
+a{color:#007; text-decoration:underline;}
+
+a:visited{color:#007;
+}
+
+a.ext{color:#700;}
+a.ext:visited{color:#700;}
+
+/* a:hover, a:focus{background:#ddf; color:#007; text-decoration:underline;} */
+/* a.ext:hover, a.ext:focus{background:#fdd; color:#700;} */
+
+a:hover, a:focus {background:#ddf; color:#007; border: 1px solid orange;}
+a.ext:hover, a.ext:focus{background:#fdd; color:#700;}
+
+/* a:hover, a:focus{border-bottom: 1px solid orange;} */
+/* a.ext:hover, a.ext:focus{text-decoration:underline;} */

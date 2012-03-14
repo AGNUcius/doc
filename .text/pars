@@ -1,0 +1,40 @@
+Related: Bison, compute, junction, lang, lex, tag, text, word, YACC
+
+Wikipedia.org/wiki/Comparison_of_parser_generators
+
+WWW.SSW.Uni-Linz.AC.at/Research/Projects/Coco >>Coco/R is a compiler generator, which takes an attributed grammar of a source language and generates a scanner and a parser for this language. The scanner works as a deterministic finite automaton. The parser uses recursive descent. LL(1) conflicts can be resolved by a multi-symbol lookahead or by semantic checks. Thus the class of accepted grammars is LL(k) for an arbitrary k.
+
+CompLang.org/ragel >>Ragel compiles executable finite state machines from regular languages. Ragel targets C, C++, Objective-C, D, Java and Ruby. Ragel state machines can not only recognize byte sequences as regular expression machines do, but can also execute code at arbitrary points in the recognition of a regular language. Code embedding is done using inline operators that do not disrupt the regular language syntax.
+
+http://pegjs.majda.cz >>PEG.js is a parser generator for JavaScript based on the parsing expression grammar formalism. It is designed to be used either from your browser, from JavaScript code, or from a command line (using Rhino JavaScript interpreter).
+
+inimino.org/~inimino/blog/peg_first_release >>I am releasing an MIT-licensed JavaScript packrat parser generator based on parser expression grammars or PEGs.
+
+zaa.ch and zaach.github.com/jison >>Jison takes a context-free grammar as input and outputs a JavaScript file capable of parsing the language described by that grammar. You can then use the generated script to parse inputs and accept, reject, or perform actions based on the input. If you're familiar with Bison or Yacc, or other clones, you're almost ready to roll.
+
+quex.sf.net >>Quex is a tool to generate lexical analyzers. A lexical analyzer is a program that transforms a stream of characters into a stream of 'atomic chunks of meaning'
+
+fdik.org/pyPEG >>pyPEG - a PEG Parser-Interpreter in Python
+
+TreeTop.RubyForge.org >>Treetop is a language for describing languages. Combining the elegance of Ruby with cutting-edge parsing expression grammars, it helps you analyze syntax with revolutionarily ease.
+
+Lemke-IT.com
+
+Lists.GNU.org/archive/html/gnu-emacs-sources/2008-11/msg00003.html >>peg.el --- Parsing Expression Grammars in Emacs Lisp
+
+
+
+==Reparse Points
+"\\stc-file\software\Microsoft\2003 Resource Kit"
+
+
+
+PCGuide.com/ref/hdd/file/ntfs/filesReparse-c.html
+"'
+In addition to allowing reparse points to implement many types of custom capabilities, Microsoft itself uses them to implement several features within Windows 2000 itself, including the following:
+
+    * Symbolic Links: Symbolic linking allows you to create a pointer from one area of the directory structure to the actual location of the file elsewhere in the structure. NTFS does not implement "true" symbolic file linking as exists within UNIX file systems, but the functionality can be simulated by using reparse points. In essence, a symbolic link is a reparse point that redirect access from one file to another file.
+    * Junction Points: A junction point is similar to a symbolic link, but instead of redirecting access from one file to another, it redirects access from one directory to another.
+    * Volume Mount Points: A volume mount point is like a symbolic link or junction point, but taken to the next level: it is used to create dynamic access to entire disk volumes. For example, you can create volume mount points for removable hard disks or other storage media, or even use this feature to allow several different partitions (C:, D:, E: and so on) to appear to the user as if they were all in one logical volume. Windows 2000 can use this capability to break the traditional limit of 26 drive letters--using volume mount points, you can access volumes without the need for a drive letter for the volume. This is useful for large CD-ROM servers that would otherwise require a separate letter for each disk (and would also require the user to keep track of all these drive letters!)
+    * Remote Storage Server (RSS): This feature of Windows 2000 uses a set of rules to determine when to move infrequently used files on an NTFS volume to archive storage (such as CD-RW or tape). When it moves a file to "offline" or "near offline" storage in this manner, RSS leaves behind reparse points that contain the instructions necessary to access the archived files, if they are needed in the future.
+'"

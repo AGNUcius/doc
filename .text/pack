@@ -1,0 +1,123 @@
+Related: archive, boot, build, carry, compress, distro, install, LazyLoad, live, MiniMacs, msi, pkg, port, WiX, zip
+
+labix.org/smart >>The Smart Package Manager project has the ambitious objective of creating smart and portable algorithms for solving adequately the problem of managing software upgrades and installation. This tool works in all major distributions and will bring notable advantages over native tools currently in use (APT, APT-RPM, YUM, URPMI, etc).
+
+PackMan.Links2Linux.org >>We build software packages to enable users to easily install and remove software on Linux. More specifically, we do so for software that is not shipped as part of distributions or that are shipped as an outdated version.
+
+Project-Builder.org >>is a GPL tool to help you build packages of projects for multiple operating systems
+
+VCS-Pkg.org >>The aim of the vcs-pkg project is to investigate the use of version control for distro package maintenance. We bring together people interested in taking the next step in distro package maintenance: the proper integration of version control into the package maintenance workflow.
+
+PortableLinuxApps.org >>Just Download, Make Executable, and Run! These Apps have been tested on Ubuntu 10.04 (Lucid Lynx) 32-bit, OpenSUSE 11.3 (GNOME) 32-bit , and Fedora 12 (GNOME) 32-bit.
+
+==Windows
+install, msi, cygport
+
+==Emacs
+EmacsWiki.org/emacs/use-package.el
+
+==GNU/Linux
+Some common package formats: apt, dpkg, get, msi, rpm, urpmi, yum
+
+Opkg.GoogleCode.com >>Opkg is a lightweight package management system. It is written in C and resembles apt/dpkg in operation. It is intended for use on embedded Linux devices and is used in this capacity in the OpenEmbedded and OpenWrt projects.
+
+XBPS.GoogleCode.com >>The X Binary Package System (in short XBPS) is a new binary package system designed and implemented from scratch. Its goal is to be fast, easy to use, bug-free, featureful and portable as much as possible.
+
+Wubi-Installer.org >>Wubi is an officially supported Ubuntu installer for Windows users that can bring you to the Linux world with a single click. Wubi allows you to install and uninstall Ubuntu as any other Windows application, in a simple and safe way. Are you curious about Linux and Ubuntu? Trying them out has never been easier!
+
+libGPMI.org >>General Package/Module Interface is a lightweight library to help modularizing applications. It also supports more script languages trough an unified interface.
+
+vinux.sf.net/pkgwatch >>The main purpose of pkgwatch is to keep tracks of how packages (deb or rpm) on a linux box are installed/removed.
+
+Wajig.TogaWare.com >>JIG (consisting of wajig and gjig) provides a simplified interface to many of the system administration tasks of Debian GNU/Linux.
+
+TogaWare.com/linux/survivor/Wajig_Overview.html >>Wajig is designed to run in such a way as to suit the system it is running on and the policies of the system administrators. It can be run as a normal user, but once a privileged command is required it will use either su and ask for the root user's password, or else it can use sudo and rely on the normal user's password. It can also be run directly as root without any extra setup (i.e., without the need for sudo or regularly supplying passwords). Using sudo requires a little setting up as described below in Section 6.5.
+
+Bell-Labs.com/project/nsbd >>NSBD, Not-So-Bad Distribution, is an automated distribution system that is designed for distributing open source software on the internet, where users cannot trust the network and cannot entirely trust the maintainers of software. NSBD authenticates packages with GNU Privacy Guard (GnuPG) or "Pretty Good(Tm) Privacy" (PGP(Tm)) digital signatures so users can be assured that packages have not been tampered with, and it limits the maintainer to only update selected files and directories on the user's computer. NSBD's focus is on security, leaving as much control as is practical in the users' hands.
+
+RULE-Project.org >>Run Up to date Linux Everywhere    Making the current versions of Fedora Core Linux installable and useable, even on limited or older computers
+
+NixOS.org >>Nix is a purely functional package manager. It allows multiple versions of a package to be installed side-by-side, ensures that dependency specifications are complete, supports atomic upgrades and rollbacks, allows non-root users to install software, and has many other features. It is the basis of the NixOS Linux distribution, but it can be used equally well under other Unix systems.
+
+GNU.org/software/sourceinstall >>GNU Source Installer is a source package manager for Unix-likes.  It provides configuration, compilation, installation, upgrade, tracking and removal of packages built from source code following the GNU coding standards.
+
+HowToForge.com/pkgwatch-a-package-management-wrapper >>The main purpose of pkgwatch is to keep tracks of how packages (deb or rpm) on a linux box are installed/removed. The idea is stupidly simple: each time we install or remove a package, we record the list of packages being installed/removed into a file and give it a reasonable name.
+
+Paludis.Pioto.org >>Paludis is a multi-format package manager. It can currently be used on Gentoo and derivatives, using the ebuild and VDB repository formats, and on Exherbo using the exheres repository format.
+
+LinuxHA.net /tp2 >>Twisted Packager II is a package manager that aims to make live easy - for end users and also developers. In some respects it is similar to Autopackage - it does not intend to replace the "system packaging tool" but instead will sit alongside it to allow application developers an easy way to package software; and system administrators an easy way to install [or remove!] such software.
+
+Nhopkg.sf.net >>Nhopkg builds, installs, creates binary and source packages of software, manages software on Linux systems and more ...
+
+Autopackage.org >>Autopackage makes software installation on Linux easy. Software distributed using Autopackage can be installed on multiple Linux distributions and integrate well into the desktop environment.
+
+Tromey.com/elpa >>Emacs Lisp Package Archive
+
+Creo.hu/~csaba/stuff/reclinker >>reclinker is a recursive symlinking utility. It mirrors a hierarchy of files by means of symlinks.  It's similar to GNU Stow, however...
+
+$ dpkg-query -W --showformat='${Installed-Size} ${Package}\n' | sort -nr | less
+
+PackageKit.org >>PackageKit is a system designed to make installing and updating software on your computer easier. The primary design goal is to unify all the software graphical tools used in different distributions, and use some of the latest technology like PolicyKit to make the process suck less.
+
+www.Fruit.je/debfoster >>Debian uses the main programs apt and dpkg to manage packages. These programs do not make a distinction between packages that got installed because some other program happened to need it and packages you really asked for. Debfoster will help you get rid of packages (libraries for example) get left behind on your system when the program that required it was removed or upgraded to a version that doesn't have the dependency.
+
+SrcPack.sf.net >>Spm is a package manager focused on source package. It can install package using autotools and makefile.
+
+toastball.net >>toast - simple source-and-symlinks package manager for root and non-root users.    toast is a simple, self-contained tool for downloading, building, installing, uninstalling and managing software packages. Unlike traditional package-management systems, toast is primarily intended to work directly with software distributed as source code, rather than in some precompiled or specialized binary format, such as RPM. Binary packages are also supported.
+
+Trac.Project-Builder.org >>Project-Builder is a tool that helps you building packages for your application (managed with tar file, or a configuration management system such as CVS or Subversion). It is able to generate build package skeleton for your project, and with simple configuration files to generate for up to 20 different tuples of distributions (name, version, architecture), including Fedora, Mandriva, OpenSuSE, Debian, Ubuntu, Gentoo, Slackware.
+
+==APT
+$ dpkg --get-selections #list all installed pkgs
+
+$ dpkg -L "SOME_PKG" #all files installed by this package
+
+$ sudo apt-get install apt-file
+$ apt-file list "SOME_PKG" #all files installed by this package
+
+$ apt-get update
+$ apt-get upgrade
+
+$ apt-get dist-upgrade
+
+Sometimes you need to compile from source a newer version of an application which is already included in the repositories. For example, to install the development libraries for BasKet, you would run as root:
+
+$ apt-get build-dep "SOME_PKG" #prep to compile "SOME_PKG" from source
+
+$ apt-get clean #delete 'install' files from /var/cache/apt/archives
+
+$ apt-get autoclean # remove packages no longer in the repository
+
+$ apt-cache search "SOME_PKG" #search for 
+
+====Transfer a selection of installed pkgs to another machine:
+#on the old machine:
+$ dpkg --get-selections > installed-pkgs.txt
+
+#on the new machine:
+$ cat inst-pkgs.txt | dpkg --set-selections
+
+----
+$ apt-get dselect-upgrade
+
+$ dpkg -l #list package versions and descriptions
+
+$ wajig
+
+$ apt-get install debian-refcard
+
+==ERRORS
+If, while using apt-get you get something like:
+> (update-desktop-database:27607): GLib-CRITICAL **: g_key_file_get_string_list: assertion `group_name != NULL' failed
+
+Try:
+$ sudo apt-get --purge remove PACKAGE_NAME
+
+If that fails, try:
+$ sudo dpkg -r --force-remove-reinstreq PACKAGE_NAME
+
+If that fails, use:
+$ dpkg-query -L PACKAGE_NAME
+and remove the listed files.
+
+Now, as root, edit /var/lib/dpkg/status and remove the section of the PACKAGE_NAME in question.

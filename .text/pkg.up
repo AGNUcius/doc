@@ -1,0 +1,5 @@
+:: calculate gentoo
+layman -s calculate
+eix-update
+emerge -uD world
+eix-sync

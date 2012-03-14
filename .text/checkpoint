@@ -1,0 +1,5 @@
+Related: cloud, failover
+
+NCL.CS.Columbia.edu/research/migrate/crak.html >>CRAK: Linux Checkpoint/Restart As a Kernel Module    Process checkpoint/restart is a very useful technology for process migration, load balancing, crash recovery, rollback transaction, job controlling and many other purposes. Although process migration has not yet been widely used and is not widely available commercial systems, the growing shift of computing facilities from supercomputers to networked workstations and distributed systems is increasing the importance and demand for migration technologies.
+
+CheckPointing.org

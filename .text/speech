@@ -1,0 +1,25 @@
+Related: phon, sound, speak, text
+
+GNU.org/software/gnuspeech >>Gnuspeech is an extensible, text-to-speech package, based on real-time, articulatory, speech-synthesis-by-rules. That is, it converts text strings into phonetic descriptions, aided by a pronouncing dictionary, letter-to-sound rules, rhythm and intonation models; transforms the phonetic descriptions into parameters for a low-level articulatory synthesiser; and uses these to drive an articulatory model of the human vocal tract producing an output suitable for the normal sound output devices used by GNU/Linux.
+
+Cgstmad.sf.net >>Cgstmad is an experimental articulatory speech synthesizer that uses GnuSpeech's  tube model and articulation data. It's written in C++ and released under GNU GPL. Runs on Linux and possibly on other POSIX systems. 
+
+$ flite, festival, espeak, recite
+
+kbs.cs.tu-berlin.de/~jutta/toast.html >>GSM 06.10 lossy speech compression
+
+Linux-Wildo.sf.net >>Linux-Wildo! is an initiative to create something similar to the windows program Roger Wilco and Teamspeak, allowing users from different platforms talk with each other in real time with minimal CPU and bandwidth usage. Currently the project is being developed using C++ and we are heading towards a totally object oriented scheme.
+
+Mumble.sf.net >>Mumble is an open source, low-latency, high quality voice chat software primarily intended for use while gaming.
+
+Praat.org >>Praat: doing phonetics by computer
+
+VoxForge.org >>VoxForge was set up to collect transcribed speech for use with Free and Open Source Speech Recognition Engines. 
+
+FreeSpeech.sf.net >>The Open Mind Speech project is part of the Open Mind Initiative and aims to develop free (GPL) speech recognition tools and applications, as well as collect speech data from "e-citizens" using the Internet. The main target will still be Linux (and other UNIX flavors). The software will be designed so that it can be easily integrated into any application, window manager or desktop environments (KDE and gnome). Open Mind Speech is using the Overflow environment.
+
+ShortTalk-Emacs.sf.net >>ShortTalk aspires to be a perfect and universal spoken language for editing and other intensive computer-mediated tasks.  EmacsListen, the GNU Emacs code base in this project, implements ShortTalk and addresses key usability issues in dictation systems.
+
+eSpeak.sf.net >>eSpeak is a compact open source software speech synthesizer for English and other languages.
+
+SpeakGoodChinese.org >> Speak Good Chinese is a cross-platform application based on GTK technology that allows you or your students to train their Mandarin pronunciation.  Our software is based on Praat, leading software in speech analysis.

@@ -1,0 +1,51 @@
+/* body {font-family:arial,san-serif; font-size:135%;} */
+/* body {font-family:monospace;} */
+body
+{
+	font-family:monospace;
+	font-size:120%;
+//	text-shadow: 0px 1px 2px #000;
+ }
+
+/* body { */
+/* 	font-family:  "Courier New", Courier, monospace; */
+/* 	font-size: 16px; */
+/* 	line-height: 12px; */
+/* 	background-color: #C0C0C0; */
+/* 	padding: 5px 5px 5px 5px; */
+/* } */
+
+/* body {font-family: arial, helvetica, sans-serif;} */
+
+#main {padding-left:4px;}
+
+#header {border-bottom:solid; font-family:arial, san-serif;}
+#footer {border-top:solid; font-family:arial, san-serif; font-size:50%;}
+
+span.bullet{margin-left:1%;font-size:150%;}
+span.indent{margin-left:1%;}
+
+span.quot,span.quot2,span.quot3{
+	font-weight:normal;
+	font-style:italic;
+	/* font-family:serif; */
+	font-size:100%;
+}
+
+span.italic{font-style:italic;}
+span.bold{font-weight:bold;}
+
+span.h1, span.h2, span.h3, span.h4 {font-family:arial, san-serif; background:#ddd;}
+
+span.h1{font-size:300%;}
+span.h2{font-size:250%;}
+span.h3{font-size:200%;}
+span.h4{font-size:150%;}
+
+a{text-decoration:none;}
+a:visited{text-decoration:none;}
+a:hover,a:focus{text-decoration:none;}
+
+input{font-size:65%;}
+img{float:right;}
+/* img.left{float:left;} */

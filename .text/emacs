@@ -1,0 +1,670 @@
+Related: dayOS, ~/NoteMacs
+
+Emacs is Editing MACroS, the extensible, customizable, self-documenting real-time display editor.
+
+ErgoEmacs.org >>ErgoEmacs is a new emacs distribution.  This project's aim is to create a modernized version of emacs.
+
+Rudel.sf.net >>Rudel is a collaborative editing environment for GNU Emacs. It supports multiple backends to enable communication with other collaborative editors using different protocols (most notably Gobby). For details about supported protocols and compatibility with other implementations, have a look at the compatibility page.
+
+BreadCrumbEmacs.sf.net >>Breadcrumb is an add-on module for Emacs that allows you to set a series of quick bookmarks in the file buffers, and jump back to them quickly.
+
+HOSEF.org/media/audio/PFOSSCON-RichardStallman-2007.01.20.ogg >>Emacs loves every user.
+
+The GNU GPL was originally written as the Emacs General Public License Free-Soft.org/gpl_history/emacs_gpl.html to protect GNU Emacs from future appropriation by those who might release a non-free version based on the work others had already marked 'free'.  This license was generalized to be applicable any Copyrightable work.
+
+Savannah.GNU.org/projects/emacs >> Emacs is the extensible, customizable, self-documenting real-time display editor.
+
+EmacsWiki.org >>
+
+Planet.Emacsen.org >>People living with the extensible, self-documenting text editor.
+
+identi.ca/group/emacs >>emacs discussion and hacking
+
+EmacsWiki.org/MinEmacs >>MinEmacs wants to help the OneTrueEditor become a lighter yet even more instantly extendable environment by repackaging GNU Emacs as a careful minimum of bundled functionality that also makes extra EmacsLisp or 'c' language changes available through AutoExtend.
+
+==Implementations/clones/ripoffs
+Peppy.FlipTurn.org >> (ap)Proximated (x)Emacs Powered by Python. -- an XEmacs-like editor in Python. Eventually.
+Zile.sf.net >>Zile is Lossy Emacs
+QEmacs.org >>QEmacs (for Quick Emacs) is a very small but powerful UNIX editor. It has features that even big editors lack
+9ne.org >>9ne (pronounced "nine") is an online code editor based on Emacs (Copyright 2006 Rob Rohan). 9ne is a recursive acronym and joke, and means "9ne is not Emacs".
+SXEmacs.org >>Yep, SXEmacs is JAFE (Just Another Fine Editor). Though, if that's all you thought it was, you'd be missing out. There is very little that SXEmacs can't do, or at least, be made to do. You can tailor it to your wildest dreams and imagination. This is where the "customisable and extensible" part of the description comes in.
+PintDay.org/hack/mg and XS4All.nl/~hanb/software/mg >>mg is a tiny, mostly public-domain emacs-like editor included in the base OpenBSD system. It is compatible with emacs because there shouldn't be any reason to learn more editor types than emacs or vi.
+JedSoft.org/jed >>JED is a freely available text editor for Unix, VMS, MSDOS, OS/2, BeOS, QNX, and win9X/NT platforms. Although it is a powerful editor designed for use by programmers, its drop-down menu facility make it one of the friendliest text editors around. Hence it is ideal for composing simple email messages as well as editing complex programs in a variety of computer languages.
+Jasspa.com >>Jasspa's MicroEmacs is an Emacs editor biased towards UNIX users, working across platforms by providing a consistent interface under UNIX, Microsoft Windows 3.1/'95/'98/NT/2K/XP and DOS operating systems.
+
+
+== Notes
+github.com/benatkin/emacs-starter-kit/tree/master >>Fork of technomancy/emacs-starter-kit Description:  All the code you need to get started, with an emphasis on dynamic languages.
+
+Groups.Google.com/group/comp.lang.lisp/msg/30084d4afe3009da >>Emacs has a certain way of doing things
+
+http://MSDN.Microsoft.com/en-us/library/ms165509(VS.80).aspx >>Emacs Default Shortcut Keys
+http://MSDN.Microsoft.com/en-us/library/ms165528.aspx >>Emacs Specific Shortcut Keys, Emacs Scheme
+
+
+AngeFTP, EFS or Tramp may be used for remote URLs, and the syntax is slightly different
+/user@host.org:
+/ssh:user@host.org:
+
+(defun fullscreen ()
+  (interactive)
+  (x-send-client-message nil 0 nil "_NET_WM_STATE" 32
+    '(2 "_NET_WM_STATE_FULLSCREEN" 0)))
+
+
+
+Problem: Character encoding is fscked when copying from Firefox
+Solution: Copy from the source file instead.  Select the area, right-click and choose "View Selection Source"
+
+
+
+==Persistent UNDO
+"'From: Eli Barzilay (eli@barzilay.org)
+Subject: Re: Emacs Undo across sessions and files.
+View: Complete Thread (6 articles)
+Original Format
+Newsgroups: comp.emacs
+Date: 2001-11-27 13:22:11 PST
+
+"Bora Eryilmaz" <beryilma@mathworks.com> writes:
+
+> Is there a way to make Emacs remember the changes to files between emacs
+> sessions/file edits.
+>
+> I have two scenarios in mind:
+>
+> 1. I open and edit a file, main.tex. Close Emacs, Re-run Emacs, and re-open
+> main.tex. I want Emacs to remember the changes I made to main.tex in the
+> previous session so that I can do Undo.
+>
+> 2. I open a file, main.tex. I edit the file. I kill the buffer (close the
+> file). I re-open the file, main.tex. I again want Emacs to remember the
+> changes I've made before I closed the file last time.
+
+This should do the trick, but it's better suited to something that
+will store local buffer info in some helper file, sort of like
+desktop.el, but based on files.  I'm sure there's something that does
+that somewhere, but couldn't find it in a quick search.
+
+----------------------------------------------------------------------
+(defun save-undo-info ()
+  (let ((name  (make-backup-file-name buffer-file-name))
+        (undos buffer-undo-list))
+    (when (and name undos (not (eq t undos)))
+      (let ((after-save-hook nil))
+        (with-temp-file (concat name "-undos~")
+          (insert "; undo info\n(\n")
+          (dolist (u undos)
+            (unless (and (consp u) (markerp (car u)))
+              (insert (format "%S\n" u))))
+          (insert ")\n"))))))
+(defun load-undo-info ()
+  (let ((name (make-backup-file-name buffer-file-name))
+        (undos nil))
+    (when (and name (not buffer-undo-list)
+               (file-readable-p (concat name "-undos~")))
+      (let ((find-file-hooks nil)) ; not really needed
+        (with-temp-buffer
+          (insert-file (concat name "-undos~"))
+          (setq undos (read (current-buffer))))))
+    (when undos (setq buffer-undo-list undos))))
+(add-hook 'find-file-hooks 'load-undo-info)
+(add-hook 'after-save-hook 'save-undo-info)
+----------------------------------------------------------------------
+
+--
+          ((lambda (x) (x x)) (lambda (x) (x x)))          Eli Barzilay:
+                  www.barzilay.org/                 Maze is Life!
+
+'" -- groups.google.com/groups?q=barzilay+emacs+undo&hl=en&lr=&selm=skherfdi4g.fsf%40mojave.cs.cornell.edu&rnum=3
+
+
+
+
+
+
+==Fonts
+__unworking devlog attempt for Emacs from CVS (this is called 'HEAD' or 'TRUNK', not a branch)
+$ sudo apt-get install cvs
+$ cvs -z3 -d:pserver:anonymous@cvs.savannah.gnu.org:/sources/emacs co emacs
+$ cd emacs
+$ ./configure --with-gtk --with-xft --enable-font-backend --with-freetype --without-toolkit-scroll-bars
+
+Which outputs a bunch of stuff including:
+> Should Emacs use mmap(2) for buffer allocation?         no
+
+Hmm...  Would Emacs load large files faster and more memory efficient with mmap?  If so, How do I enable it?  Why is it not enabled by default?
+
+Ok, so...
+$ make bootstrap
+$ make
+
+Ok, looks good, now try to enable antialiased fonts:
+
+$ ./src/emacs --enable-font-backend --font "Bitstream Vera Sans Mono-10"
+> No fonts match `Bitstream Vera Sans Mono-10'
+
+Hm.  What is that goofy font identifier syntax...?  What will work?  How about an argument that lists all the fonts currently installed like:
+
+$ ./src/emacs --list-font-backend-fonts
+
+Would show all font names Emacs can use in the form expected.
+
+references:
+CS.HUJI.ac.il/support/emacs/font.html "'CSE HUJI Emacs Fonts HOWTO'"
+PDimitar.wordpress.com/2006/11/30/gnu-emacs-use-ttf-font-even-if-it-is-looks-like-not-installed
+PeaDrop.com/blog/category/computers/emacs/ "'Pretty Emacs'"
+DextersLabs.com/danny/xft.html "'Configuring the Xft extension (including antialiasing)'"
+DextersLabs.com/danny/XftConfig
+KeithP.com/~keithp/render/Xft.tutorial
+Times.UsefulInc.com/2005/12/02-emacs-xft
+Blog.XFCE.org/?p=175
+EmacsWiki.org/cgi-bin/wiki/XftGnuEmacs
+EmacsWiki.org/cgi-bin/wiki/DisplayingNonAsciiCharacters
+
+
+"'
+Re: How can I determine what the default font it?
+From:   Floyd L. Davidson
+Subject:    Re: How can I determine what the default font it?
+Date:   Thu, 26 Feb 2004 02:25:20 -0900
+User-agent:     gnus 5.10.6/XEmacs 21.4.15/Linux 2.6.0
+
+exits funnel wrote:
+>Hello,
+>
+>I've just upgraded to emacs 21.3.1 from emacs 19.7(?)
+>running on RedHat Linux.  It works great but for one
+>immediate problem.  The default font size is much
+>smaller and I can barely read it.  I've done a bit of
+>research (I'm pretty new to Linux and well as emacs)
+>on changing the font size but I have a few quick
+>questions.  First of all it seems I can do this either
+>by modifying my .emacs file or by modifying
+>.Xdefaults.  Which approach is better?
+
+You'll want to note that basically all of this applies not only
+to Emacs, but to xterms as well, where you will probably have
+exactly the same problem.  (I use a 1333x1000 resolution screen,
+and have fits trying to work out fonts that provide readable
+text in windows of the right size.)
+
+Probably .Xdefaults is best, because that relates closely to the
+X configuration (which is where the screen resolution is
+chosen).  You can use the same ~/.emacs file, regardless of the
+X configuration if you specify font sizes with the X
+configuration rather than the Emacs configuration.
+
+There still seem to be lots of "gotchas", and I haven't worked
+it out well enough for GNU Emacs (mostly because I normally use
+XEmacs, and they don't work quite the same).  In particular,
+it is necessary to go through the faces customization menu
+and set fonts.  And I've found that some fonts simply can't
+be manipulated by GNU Emacs (for reasons that I do not at all
+understand).  For example, I rather like, in XEmacs, using the
+-misc-fixed-medium-r-semicondensed fonts.  But GNU Emacs can't
+scale them, and attempts to do so result in very small sizes.
+
+One comment on testing changes to ~/.Xdefaults before going on
+to the rest of this.  To test a new configuration you can use
+xrdb to effect the new configuration, but there are two ways
+to do it.
+
+  xrdb -merge .Xdefaults
+
+is usually recommended, but it will not delete something you
+have removed from .Xdefaults.  It will add, and it will change,
+but no deletions.  But,
+
+  xrdb .Xdefaults
+
+will replace the existing definitions with the new definitions,
+which means something that is not defined in the new file will
+not exist after that command.  Hence it will delete what you've
+removed, but it also deletes everything from any other
+initialization files.  I.e., it's good for testing, but you'll
+want to restart X when you are done.
+
+>I'm assuming
+>if I change .Xdefaults this will affect other programs
+>besides emacs.
+
+Only if you want it to.   For example,
+
+  *font:  -*-courier-*-*-*-*-23-*-*-*-*-*-iso8859-1
+
+will affect virtually everything ending in "font" that is not
+otherwise specifically set, and hence is probably not a good
+idea.  There are two ways to be specific,
+
+Emacs*font:  -*-courier-*-*-*-*-23-*-*-*-*-*-iso8859-1
+Emacs.font:  -*-courier-*-*-*-*-23-*-*-*-*-*-iso8859-1
+
+will both affect either Emacs or XEmacs, but nothing else. While
+
+XEmacs*font:  -*-courier-*-*-*-*-23-*-*-*-*-*-iso8859-1
+XEmacs.font:  -*-courier-*-*-*-*-23-*-*-*-*-*-iso8859-1
+
+will both affect only XEmacs and not GNU Emacs.
+
+The difference between using the '*' wildcard or not, is that
+the wild card will set all Emacs resources that end in "font",
+that are not more specifically defined, while using the "."
+specifies one and only one resource.  Hence, if you have only
+
+Emacs.font:  -*-courier-*-*-*-*-23-*-*-*-*-*-iso8859-1
+
+you might have not set several fonts, and they will default to
+something like "fixed", which is exceedingly small and moreover
+Emacs can neither scale it or find variations for such as
+bold, italic, or underline.
+
+But if you set
+
+Emacs*font:  9x15
+
+you're screwed too, because everything is set to a font that
+Emacs cannot manipulate.
+
+However, I don't know that Emacs has any resource ending in
+"font" other than the default, so it (may or) may not make any
+difference at all.  But definitely with other programs that is
+significant...  (for colors and other resources as well as
+fonts).
+
+>My other question is how can I find
+>out what font emacs is currently displaying?  Thanks
+>in advance for any replies.
+
+You can do "M-x list-faces-display" which will give you
+a line of text for each face that is defined.  It gives you
+the variable for that particular face, and you can select
+from that buffer any of the face names and change the font
+or other properties.  For example, with some fonts being
+too small (once you have the basic defaults set in .Xdefaults),
+you can browse the list and change the ones that are hard
+to read.
+
+There are some strange things happen with fonts in GNU Emacs
+that you may or may not bothered by.  One is the way tabs are
+offset.  I have the following in my .Xdefaults file, and used it
+for checking the results of font changes.
+
+ #
+ #  When playing with fonts for GNU Emacs, the tabs do not
+ #  necessarily line up where they should when fonts are scaled.
+ #  The following chart uses tabs between the 'T' characters, and
+ #  spaces between the '|' characters.  They should line up
+ #  exactly...
+ #
+ #      T       T       T       T       T       T       T       T       T
+T
+
+#1234567890123456789012345678901234567890123456789012345678901234567890123456789
+ #       |       |       |       |       |       |       |       |       |
+ |
+
+Note the comment about tabs between the "T" characters on the
+chart.  If, between my writing this and you reading it, they get
+changed to spaces, it won't provide the needed value...
+
+A couple recommendations.  Change the size to suit your needs,
+but for menus and pop-ups the proportional spacing with a
+helvetica font is much nicer.  I use bold to make it more readable
+too. YMMV, of course.
+
+ #
+ # Font  menus
+ #
+ Emacs*menubar*font: -*-helvetica-bold-r-*-*-16-*-*-*-*-*-iso8859-*
+ Emacs*popup*font:   -*-helvetica-bold-r-*-*-16-*-*-*-*-*-iso8859-*
+
+Here is what I like for the default font.  Unfortunately, GNU Emacs
+(unlike XEmacs) can't seem to scale this font.
+
+ Emacs.font: -misc-fixed-medium-r-semicondensed-*-25-*-100-*-*-*-iso8859-1
+
+Here is what I set for attribute fonts.
+
+ Emacs.default.attributeFont:     -*-courier-*-*-*-*-23-*-*-*-*-*-iso8859-1
+ Emacs.bold.attributeFont:        -*-courier-bold-r-*-*-23-*-*-*-*-*-iso8859-1
+ Emacs.italic.attributeFont:      -*-courier-medium-r-*-*-23-*-*-*-*-*-iso8859-1
+ Emacs.bold-italic.attributeFont: -*-courier-bold-r-*-*-23-*-*-*-*-*-iso8859-1
+
+(Note that I don't use the oblique font for italics, because it is
+just too ugly to look at and hard to read.)
+
+However, despite having set those in ~/.Xdefaults, I'm pretty
+sure that I've changed every one of them using the customize
+menu, and therefore that is overridden by custom-set-faces
+written to ~/.emacs.el.  The problem is that while the courier
+fonts do scale, it is at intervals and is not a continuous
+allowable range, and the trick is to get a size to most closely
+match the default font's size.
+
+
+Floyd L. Davidson    Web.NewsGuy.com/floyd_davidson    Ukpeagvik (Barrow, Alaska)
+'" -- Lists.GNU.org/archive/html/help-gnu-emacs/2004-02/msg00676.html
+
+
+
+
+
+
+
+
+
+ Emacs Timeline.
+by Jamie Zawinski
+  written:   8-Mar-1999
+updated: 29-Oct-2007
+
+Someone prodded me into drawing up a timeline of the Emacs family tree. Let me know if you have any additions/corrections.
+
+This isn't intended to be a complete list of everything that has ever called itself Emacs -- as Craig Finseth's periodic posting of emacs implementations shows, that would be much larger than this.
+
+However, I think this is fairly accurate for the GNU/Lucid/X Emacs part of the world, and their important predecessors. (An explanation of how and why the FSF Emacs / Lucid Emacs split came about is over here.)
+
+For more detail about the early days, please see Bernie Greenberg's paper, Multics Emacs: The History, Design and Implementation.
+
+I've drawn lines only where code is shared, not merely ideas.
+
+1976    TECMAC and TMACS
+        a pair of "TECO-macro realtime editors."
+        by Guy Steele, Dave Moon, Richard Greenblatt,
+        Charles Frankston, et al.
+          |
+          |
+1976    EMACS
+        by Richard Stallman, Guy Steele,       EINE (EINE Is Not EMACS)
+        and Dave Moon.                         by Dan Weinreb.
+        Merger of TECMAC and TMACS, plus       for MIT Lisp Machine.
+        a dynamic loader and Meta-key cmds.    First Emacs written in Lisp.
+        Ran on ITS and TWENEX (Tops-20)                |
+        written in TECO and PDP 10 assembly.           |
+                                                       |
+                                                       |
+1978    Multics Emacs                         ZWEI (ZWEI Was EINE Initially)
+        by Bernie Greenberg.                  by Dan Weinreb and Mike McMahon.
+        written in MacLisp;                            |
+        also used Lisp as its                          |
+        extension language.                            |
+1980                                         ZMACS (direct descendant of ZWEI)
+                                             on Symbolics LM-2, LMI LispM,
+                                             and later, TI Explorer (1983-1989)
+1981               Gosling Emacs                       :
+                   by James Gosling                    :
+                   written in C; with "Mocklisp"
+                   as its extension language.
+                       /      |
+1983                  /       |
+                     /   Unipress Emacs (6-may-83)
+                    /    $395 commercial product.
+1984               /                                   Hemlock
+                  /                                    by Bill Chiles,
+                 /                                     Rob MacLachlan, et al.
+1985  GNU Emacs 13.0? (20-mar-85)                      written in Spice Lisp
+      by Richard Stallman.                             (CMU Common Lisp)
+      initial public release?                              :
+             |                                             :
+      GNU Emacs 15.10 (11-apr-85)                          :
+             |
+      GNU Emacs 15.34 (07-may-85)
+             |
+      GNU Emacs 16.56 (15-jul-85)
+      (Gosling code expunged
+      for copyright reasons)
+             |
+             |
+      GNU Emacs 16.60 (19-sep-85)
+      (contained first patches from
+      the net, including preliminary
+      SYSV support)
+             |
+             |
+      GNU Emacs 17.36 (20-dec-85)
+      (included TeX manual; first
+      version that worked on SYSV
+      out of the box)
+             |
+             |
+1986  GNU Emacs 18.24 beta (02-oct-86)
+             |
+1987  GNU Emacs 18.41 (22-mar-87)
+             |
+      GNU Emacs 18.45 (02-jun-87)
+             |
+      GNU Emacs 18.49 (18-sep-87)
+             |   \
+             |    \________________________________________________
+             |                                                     \
+             |                                                      \
+             |                                           Early work on Epoch begins (1987)
+             |                                           by Alan M. Carroll
+1988  GNU Emacs 18.50 (13-feb-88)                                     |
+             |                                                        |
+      GNU Emacs 18.51 (07-may-88)                                     |
+             |                                                        |
+      GNU Emacs 18.52 (01-sep-88)                                     |
+             |                                            Epoch 1.0 (14-dec-88)
+             |                                            by Alan M. Carroll with Simon Kaplan
+1989  GNU Emacs 18.53 (24-feb-89)                                     |
+             |   \                                                    |
+             |    \________________________________________________   |   _____
+             |                                                        |        \
+      GNU Emacs 18.54 (26-apr-89)                                     |         \
+             |                                                        |          \
+      GNU Emacs 18.55 (23-aug-89)                                     |           \ 
+             |    |                                                   |            \
+             |    |                                                   |     NEmacs 3.2.1 (15-dec-89)
+             |    |                                                   |     "Nihongo Emacs": a fork
+             |    |                                                   |     with multi-byte Japanese
+             |    |                                                   |     language support.
+             |    |                                                   |             |
+             |    |                                       Epoch 2.0 (23-dec-89)     |
+             |    |                                                   |             |
+             |    |                                                   |             |
+1990         |    |                                       Epoch 3.1 (06-feb-90)     |
+             |    |                                                   |             |
+             |    \                                                   |     NEmacs 3.3.1 (3-mar-90)
+             |     \                                                  |             |
+             |      \                                     Epoch 3.2 (11-dec-90)     |
+             |       \                                    last Carroll release.     |
+             |        \____ (sporadic work on                         |             |
+             |               GNU Emacs 19 begins)                     |             |
+             |                     |                                  |             |
+             |                     |                                  |             |
+             |                     |                      Epoch 4.0 (27-aug-90)     |
+             |                     |                      Now maintained by NCSA.   |
+             |                     |                                  |             |
+1991  GNU Emacs 18.57 (??-jan-91)  |                                  |             |
+             |                     |                                  |             |
+      GNU Emacs 18.58 (??-???-91)  |                                  |             |
+             |                     |                                  |             |
+1992         |                     |___                               |     MULE 0.9.0b (4-mar-92)
+             |                     |   \                              |     "Multilingual
+             |                     |    \                             |     Enhancements to Emacs":
+             |                     |     \                            |     support for input methods
+             |                     |      \                           |     and various languages
+             |                     |   Lucid Emacs 19.0 (??-apr-92)   |     including Japanese,
+             |                     |   by Jamie Zawinski et al.       |     Chinese, Korean, Greek,
+             |                     |      |                           |     Hebrew, and Cyrillic.
+             |                     |   Lucid Emacs 19.1 (04-jun-92)   |             |
+             |                     |      |                           |             |
+             |                     |   Lucid Emacs 19.2 (19-jun-92)   |             |
+             |                     |      |                           |             |
+             |                     |   Lucid Emacs 19.3 (09-sep-92)   |             |
+      GNU Emacs 18.59 (31-oct-92)  |      |                           |             |
+             |                     |      |                           |             |
+1993         |                    /    Lucid Emacs 19.4 (21-jan-93)   |             |
+             |                   /        |                           |             |
+             |                  /      Lucid Emacs 19.5 (05-feb-93)   |             |
+             |                 /       (trade-show giveaway CD only)  |             |
+             |                /           |                           |             |
+             |   ____________/         Lucid Emacs 19.6 (09-apr-93)   |             |
+             |  /                         |                           |             |
+             | /                          |                           |             |
+      GNU Emacs 19.7 beta (22-may-93)     |                          /|             |
+      first public v19 beta               |                         / |             |
+             |                            |                        /  |  ...___     |
+      GNU Emacs 19.8 beta (27-may-93)     |                       /   |        \    |
+             |        \                   |                      /    |         \   |
+             |         \________________  |  ___________________/     |     MULE 1.0 (1-aug-93)
+             |                          \ | /                         |     (based on GNU Emacs 18.59)
+             |                         Lucid Emacs 19.8 (06-sep-93)   |             |
+             |                         (Epoch merger, preliminary     |             |
+             |                          I18N support)                 |             |
+             |                            |                           |             |
+      GNU Emacs 19.22 beta (28-nov-93)    |                           |             |
+             |                            |                           |             |
+1994         |                         Lucid Emacs 19.9 (12-may-94)  /              |
+             |                         (scrollbars, Athena)         /               |
+             |                            |                        /                |
+      GNU Emacs 19.23 beta (17-may-94)    |                       /                 |
+             |            \               |                      /                  |
+             |             \____________  |  ___________________/                   |
+             |                          \ | /                                       |
+             |                         Lucid Emacs 19.10 (27-may-94)                |
+             |                         last JWZ release.                            |
+             |                            |                                         |
+      GNU Emacs 19.24 beta (16-may-94)    |                                         |
+             |                            |                               ...___    |
+             |                            |                                     \   |
+             |                            |                                      \  |
+             |                            |                                 MULE 2.0 (6-aug-94)
+             |                            |                                 (based on GNU Emacs 19.25)
+             |                            |                                         |
+             |                         XEmacs 19.11 (13-sep-94)                     |
+             |                         Lucid Emacs -> XEmacs renaming.              |
+             |                         now maintained by Chuck Thompson             |
+             |                         and Ben Wing.                                |
+             |                            |                                         |
+      GNU Emacs 19.27 beta (14-sep-94)    |                                         |
+             |                            |                                         |
+      GNU Emacs 19.28 (01-nov-94)         |                                         |
+      first official v19 release.         |                               ...___    |
+             |                            |                                     \   |
+             |                            |                                      \  |
+             |                            |                                 MULE 2.2 (28-dec-94)
+             |                            |                                 (based on GNU Emacs 19.28)
+             |                            |                                         |
+             |                            |                                         |
+1995         |                            |                                 MULE 2.3 (24-jul-95)
+             |                            |                                         .
+             |                         XEmacs 19.12 (23-jun-95)                     .
+             |                         (tty support)    \                           .
+      GNU Emacs 19.29 (21-jun-95)         |              \                          .
+             |                            |        (work on 20.x begins)            .
+      GNU Emacs 19.30 (24-nov-95)         |               :                         .
+             |           \                |               :                         .
+             |            \_____________  |                                         .
+             |                          \ |                                         .
+             |                         XEmacs 19.13 (01-sep-95)                     .
+1996  GNU Emacs 19.31 (25-may-96)         |                                         .
+             |                         XEmacs 19.14 (23-jun-96)                     .
+      GNU Emacs 19.34 (21-aug-96)         |                   \                     .
+1997         |                         XEmacs 20.0 (09-feb-97) \                    .
+             |                         now maintained by        \                   .
+             |                         Steve Baur.               |                  .
+             |                            |           XEmacs 19.15 (26-mar-97)      .
+             |                            |                      |                  .
+             |                         XEmacs 20.1 (15-apr-97)   |                  .
+             |                            |                      |                  .
+             |                         XEmacs 20.2 (16-may-97)   |                  .
+      GNU Emacs 20.1 (17-sep-97)          |                      |                  .
+             |                            |                      |                  .
+      GNU Emacs 20.2 (20-sep-97)          |                      |                  .
+             |                            |           XEmacs 19.16 (31-oct-97)     .
+             |                            |                                       .
+             |                         XEmacs 20.3 (21-nov-97)                   .
+             |                            |                                     /
+             |                            |    ________________________________/
+             |                            |   /
+             |                            |  /
+1998         |                         XEmacs 20.4 (28-feb-98)
+             |                         first reasonably stable
+             |                         release with MULE support.
+             |                         XEmacs "core" and "packages"
+             |                         now packaged separately.
+             |                            |
+             |                            |
+             |                         XEmacs 21.0-pre5 (18-jul-98)
+             |                         Numbering scheme goes wonky due to
+             |                         switch to stable + unstable branches.
+      GNU Emacs 20.3 (19-aug-98)          |
+             |                            |
+             |                         XEmacs 21.0.60 (10-dec-98)
+             |                           /  \___________________
+             |                          /                       \
+1999         |                         /             XEmacs 21.2.9 (03-feb-99)
+             |                        /              (trunk / unstable branch)
+             |                       /                           |
+             |                XEmacs 21.1.3 (26-jun-99)          |
+             |                (stable / maintenance branch)      |
+             |                maintained by Vin Shelton.         |
+             |                       |                           |
+      GNU Emacs 20.4 (12-jul-99)     |                           |
+             |                       |                           |
+2000         |                       |               XEmacs 21.2.27 (18-jan-00)
+             |                       |                           |
+             |                XEmacs 21.1.9  (13-feb-00)         |
+             |                       |                           |
+      GNU Emacs 21.1 (20-oct-01)     |               XEmacs 21.2.36 (04-oct-00)
+             |                       |                           |
+2001         |                XEmacs 21.1.14 (27-jan-01)         |
+             |                (branch retired)                   |
+             |                                       XEmacs 21.2.40 (08-jan-01)
+             |                             ____________________/ |
+             |                            /                      |
+             |                           /           XEmacs 21.5.0  (18-apr-01)
+             |                          /            (trunk / unstable branch)
+             |                         /                         |
+             |                XEmacs 21.4.0  (16-apr-01)         |
+             |                (stable / maintenance branch)      |
+             |                Maintained by Stephen Turnbull.    |
+             |                Shipped by Red Hat, Debian,        |
+             |                Mandrake, etc.                     |
+             |                        |                          |
+2002  GNU Emacs 21.2 (16-mar-02)      |              XEmacs 21.5.6  (05-apr-02)
+             |                        |                          |
+             |                XEmacs 21.4.7  (04-may-02)         |
+             |                        |                          |
+2003         |                XEmacs 21.4.12 (15-jan-03)         |
+             |                first "stable" 21.4                |
+             |                        |                          |
+      GNU Emacs 21.3 (19-mar-03)      |                          |
+             |                        |                          |
+             |                XEmacs 21.4.13 (25-may-03)         |
+             |                maintained by Vin Shelton.         |
+             |                        |                          |
+             |                        |              XEmacs 21.5.14 (01-jun-03)
+             |                        |                          |
+             |                XEmacs 21.4.14 (05-sep-03)         |
+             |                        |                          |
+             |                        |              XEmacs 21.5.16 (26-sep-03)
+2004         |                        |                          |
+             |                XEmacs 21.4.15 (03-feb-04)         |
+             |                        |                          |
+             |                        |              XEmacs 21.5.18 (22-oct-04)
+             |                        |                          |
+             |                XEmacs 21.4.17 (06-feb-05)         |
+2005         |                        |                          |
+      GNU Emacs 21.4a (17-feb-05)     |              XEmacs 21.5.19 (18-feb-05)
+             |                        |                          |
+             |                        |              XEmacs 21.5.23 (26-oct-05)
+             |                        |                          |
+             |                XEmacs 21.4.18 (03-dec-05)         |
+             |                        |                          |
+             |                        |              XEmacs 21.5.24 (19-dec-05)
+             |                        |                          |
+2006         |                XEmacs 21.4.19 (28-jan-06)         |
+             |                        |                          |
+             |                        |              XEmacs 21.5.28 (21-may-06)
+             |                        |
+             |                XEmacs 21.4.20 (09-dec-06)
+             |                        |
+      GNU Emacs 22.1 (02-jun-07)      |
+                                      |
+2007                          XEmacs 21.4.21 (14-oct-07)
+
+[ up ]

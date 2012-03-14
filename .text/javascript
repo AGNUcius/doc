@@ -1,0 +1,33 @@
+Related: lang, net, parse, script
+
+NodeJS.org >>
+
+Orderly-JSON.org >>Orderly is an ergonomic micro-language that can represent a subset of JSONSchema. Orderly is designed to feel familiar to the average programmer and to be extremely easy to learn and remember. This document provides a conversational overview of orderly as well as a normative grammar.
+
+narwhaljs.org >>Narwhal is a cross-platform, multi-interpreter, general purpose JavaScript platform. It aims to provide a solid foundation for building JavaScript applications, primarily outside the web browser. Narwhal includes a package manager, module system, and standard library for multiple JavaScript interpreters. Currently Narwhal's Rhino support is the most complete, but other engines are available too. Narwhal's standard library conforms to the CommonJS standard. It is designed to work with multiple JavaScript interpreters, and to be easy to add support for new interpreters. Wherever possible, it is implemented in pure JavaScript to maximize reuse of code among engines. Combined with Jack, a Rack-like JSGI compatible library, Narwhal provides a platform for creating server-side JavaScript web applications and frameworks such as Nitro.
+
+zaach.github.com/jison >>Jison takes a context-free grammar as input and outputs a JavaScript file capable of parsing the language described by that grammar. You can then use the generated script to parse inputs and accept, reject, or perform actions based on the input. If you're familiar with Bison or Yacc, or other clones, you're almost ready to roll.
+
+NoScript.net >>The NoScript Firefox extension provides extra protection for Firefox, Flock, Seamonkey and other mozilla-based browsers: this free, open source add-on allows JavaScript, Java, Flash and other plugins to be executed only by trusted web sites of your choice (e.g. your online bank), and provides the most powerful Anti-XSS protection available in a browser.
+
+qooxdoo.org >>qooxdoo is a comprehensive and innovative Ajax application framework. Leveraging object-oriented JavaScript allows developers to build impressive cross-browser applications. No HTML, CSS nor DOM knowledge is needed. It includes a platform-independent development tool chain, a state-of-the-art GUI toolkit and an advanced client-server communication layer. It is open source under an LGPL/EPL dual license.
+
+EmacsWiki.org/emacs/FlymakeJavaScript
+
+Projects.Nikhilk.net/ScriptSharp >>Script# compiles C# source code into JavaScript and brings the power and productivity of C# and .NET tools to Ajax development.
+
+Brockman.se/writing/method-references.html.utf8 >>Object-Oriented Event Listening through Partial Application in JavaScript
+
+Mozilla.org/projects/tamarin >>The goal of the "Tamarin" project is to implement a high-performance, open source implementation of the ECMAScript 4th edition (ES4) language specification. The Tamarin virtual machine will be used by Mozilla within SpiderMonkey, the core JavaScript engine embedded in Firefox, and other products based on Mozilla technology. The code will continue to be used by Adobe as part of the ActionScript Virtual Machine within Adobe Flash Player.
+
+CodePlex.com/AjaxControlToolkit >>The AJAX Control Toolkit is a joint project between the community and Microsoft. Built upon the ASP.NET 2.0 AJAX Extensions, the Toolkit aims to be the biggest and best collection of web-client components available.
+
+Ejscript.org >>Welcome to the home of the Ejscript(TM) language --- an implementation of Javascript for use anywhere outside a browser.
+
+JavaScript is a programming language similar to Flash ActionScript, and not much like the memory hungry Java spec from SUN.
+
+http://www.brockman.se/writing/method-references.html.utf8 >>Object-Oriented Event Listening through Partial Application in JavaScript
+
+Mozilla.org/projects/tamarin >>The goal of the "Tamarin" project is to implement a high-performance, open source implementation of the ECMAScript 4th edition (ES4) language specification. The Tamarin virtual machine will be used by Mozilla within SpiderMonkey, the core JavaScript engine embedded in Fir
+
+"'Adobe's work on the new virtual machine is the largest contribution to the Mozilla Foundation since its inception," said Brendan Eich, chief technology officer, Mozilla Corporation, and creator of JavaScript. "Now web developers have a high-performance, open source virtual machine for building and deploying interactive applications across both Adobe Flash Player and the Firefox web browser. We're excited about joining the Adobe and Mozilla communities to advance ECMAScript.'"

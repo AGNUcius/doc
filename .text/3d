@@ -1,0 +1,88 @@
+Related: CAD, dimension, games, graphics, model, three
+
+LDView.sf.net >>LDView is a real-time 3D viewer for displaying LDraw models using hardware-accellerated 3D graphics. It was written using OpenGL, so should be accellerated on any video card which provides full OpenGL 3D accelleration (so-called mini-drivers are not likely to work). It should also work on other video cards using OpenGL software rendering, albeit at a much slower speed. For information on LDraw, please visit www.ldraw.org, the centralized LDraw information site.
+
+PIAVCA.org >>PIAVCA is the Platform Independent API for Virtual Characters and Avatars. The project aims to produce a unified character animation system that is usable across multiple platforms and that can be used as a basis for virtual character and animation research across a number of domains. Piavca is implemented using the Cal3d animation library and is able to integrate smoothly with a number of different graphics architectures. The major focus of PIAVCA is body animation, particularly based on motion capture data or hand animated motion data. PIAVCA contains a number of features that help with the manipulation of motion data. The most important being a single abstraction for all sources of motion data, whether they are data loaded from file, real time streams such as tracking data, procedural animation or manipulations of existing data. This allows for very flexible motion manipulation systems. PIAVCA has been released as open source software under the Mozilla Public licence at which point we will be keen to encourage academics researching virtual characters to use it.
+
+Open5.sf.net >>The Open5 framework is an Open Source Initiative to support the fast prototyping of new applications with advanced 3D visualization techniques combined with innovative interaction techniques. Open5 relies on both OpenSG and OpenTracker technologies to provide an integrated solution with a powerful 3D scenegraph and support for tracking devices. Open5 proposes a flexible event loop management to fit any VR/MR/AR setup and to support multi-input configurations. This framework enables the usage of customized visualization devices such as Head Mounted Displays, Tiled display systems or traditional Desktop monitors. Thanks to flexible XML based configuration files, it enables customized prototyping and fast integration mechanisms with a complete separation of inputs, interaction and functionality.
+
+VE3D-1.sf.net >>Ve3D es un visor y navegador estereoscópico de modelos tridimensionales en formato "VRML" y "Open Inventor". Fue desarrollado para el Observatorio de Visualización IXTLI. Le permite al usuario crear fácilmente escenas con elementos ocultables, así como secuencias de modelos. Soporta despliegue estéreo activo y varios tipos de despliegue estéreo pasivo.
+
+SweetHome3D.sf.net (java) >>Sweet Home 3D is a free interior design application that helps you place your furniture on a house 2D plan, with a 3D preview.
+
+QCake.org >>QCake (GPL) is a programming environment as well as a scene editor for 3D games based on PLIB (TM). QCake will support almost all PLIB functions.
+
+VTK.org >>The Visualization Toolkit (VTK) is an open-source, freely available software system for 3D computer graphics, image processing and visualization. VTK consists of a C++ class library and several interpreted interface layers including Tcl/Tk, Java, and Python. Professional support and products for VTK are provided by Kitware. VTK supports a wide variety of visualization algorithms including scalar, vector, tensor, texture, and volumetric methods; and advanced modeling techniques such as implicit modeling, polygon reduction, mesh smoothing, cutting, contouring, and Delaunay triangulation. Additionally, VTK has an extensive information visualization framework, has a suite of 3D interaction widgets, supports parallel processing, and integrates with various databases on GUI toolkits such as Qt and Tk. VTK is cross-platform and runs on Linux, Windows, Mac and Unix platforms.
+
+K-3D.org >>K-3D features a robust, object oriented plugin architecture, designed to scale to the needs of professional artists. It is designed from the ground up to generate motion picture quality animation using RenderMan compliant render engines.
+
+O3D.GoogleCode.com >>Welcome to the O3D Project Hosting site. This is the community website for O3D, an open-source web API for creating rich, interactive 3D applications in the browser.
+
+Blender.org >>Blender is the free open source 3D content creation suite, available for all major operating systems under the GNU General Public License.
+
+OpenFX.org >>OpenFX is an Open-Source 3D modeling, animation and rendering suite created by Dr. Stuart Ferguson. He made the decision to release the source code to the public in the middle of 1999, and the product formerly named SoftF/X was renamed to OpenFX. It has now been released under the terms of the GNU General Public Licence.
+
+3DMLW.com >>3DMLW is a Open Source technology for creating and displaying 3D and 2D content on the web through common web-browsers. This technology includes five parts:
+
+JPatch.com >>JPatch is a spline based 3D modeling tool (a patch modeler). It can be used to create 3D models for POV-Ray or RenderMan(R) compatible renderers (e.g. Aqsis).
+
+Aqsis.org >>Open source 3D rendering solution adhering to the RenderMan standard
+
+VisualizationLibrary.com >>Visualization Library is an open source C++ middleware for 2D/3D graphics applications based on OpenGL, designed to develop portable applications for the Windows XP, Windows Vista and Linux/X11 operating systems.
+
+icculus.org/freyja >>Freyja 3d is a modeler and animator focusing on low polygon game content with wide range of model import/export plugins. Freyja has some unique features such as Lua macros, tools for reverse engineering, and use of GLSL shaders while editing. Currently supported platforms: Linux, PS3Linux, Windows, and OS X
+
+NiallMoody.com/heilan >>Heilan is a cross-platform OpenGL X3D browser written in C++ and designed for audiovisual performance. Specifically, it forms the environment within which I am developing an audiovisual instrument for my PhD. As such, it has a number of features not commonly found in X3D browsers:
+
+Free3D.org >>3D Graphics hardware performance using Free Software drivers (X.Org DRI)
+
+FlashSandy.org >>Sandy 3D Engine
+
+VPython.org >>3D Programming for Ordinary Mortals
+
+Olex2.org >>THE NEW MOLECULAR TOOL
+
+BALLView.org >>BALLView is our standalone molecular modeling and visualization application.  Furthermore it is also a framework for developing molecular visualization functionality.
+
+GAMGI.org >>Our goal is to provide a free package to construct, view and analyse atomic structures, as powerful and simple to use as possible.
+
+YAPRM.sf.net >>Y.A.P.R.M. is a modeller to graphicaly design 3d scenes and generate Povray-files for them.
+
+pyformex.berliOS.de >>pyFormex is a python implementation of Formex algebra.  pyFormex lets you generate large geometrical models of 3D structures by a sequence of mathematical transformations. It is especially suited for the automated design of spatial frame structures.  But as the examples show, it can also be used for other tasks, like finite element preprocessing, or just for creating some nice pictures.
+
+Coin3D.org >>Coin3D is a high-level, retained-mode toolkit for effective 3D graphics development.
+
+EuclideanSpace.com
+
+AOI.sf.net >>Art of Illusion is a free, open source 3D modelling and rendering studio.
+QuArK.PlanetQuake.GameSpy.com >>QuArK stands for Quake Army Knife and is a game editor for Quake and many other games. It can edit maps and models, import sounds and textures, create pak-files and run compilers.
+Moonlight3D.eu >>Moonlight|3D strives to become a free modern, flexible, feature-rich and extensible modelling and animation tool. Our goal is to provide a tool that is capable of turning even the most advanced and challenging projects of artists and technical artists into reality.
+K3DSurf.sf.net >>K3DSurf is a program to visualize and manipulate Mathematical models in three, four, five and six dimensions. K3DSurf supports Parametric equations and Isosurfaces.
+Geomview.org >>Geomview is an interactive 3D viewing program for Unix. Geomview lets you view and manipulate three-dimensional objects: you use the mouse to rotate, translate, zoom in and out, and so on.
+Antiprism.com >>Antiprism is a set of programs for generating, manipulating, transforming and visualising polyhedra.
+gSculpt.sf.net >>gSculpt is an open source, procedural subdivision modeller. It has a comprehensive set of polygon modelling tools, including most of those found in Wings 3D, and more.
+MisfitModel3D.sf.net PrettyPoly.sf.net Ayam3D.org Wings3D.com
+
+Sharp3D.sf.net >>SharpConstruct is an OpenGL graphics application that supports real-time sculpting of polygon meshes. The process is similar to painting on a canvas in a traditional 2D image program, but with an added dimension. Depth is simply brushed onto the model, offering an easy way to create highly detailed meshes.
+dune.sf.net >>dune is a simple 3D modelling and animation tool for the authoring of VRML (Virtual Reality Modelling Language). dune is a weekend hack that went horribly, horribly wrong. dune is delicious and nutritious. dune is fun for the whole family.
+
+panda3d.org
+
+ogre.sf.net
+FlipCode.com
+OpenIL.sf.net
+GLASS.sf.net >>GLASS is a 3D library, designed to make easy use of structured models in open GL applications. What do I mean by structured? That is models, that are made up of nodes linked by basic transforms, for example, rotations and translations.
+CoderCorner.com/Opcode.htm >>OPCODE is a new small collision detection library. It is similar to popular packages such as SOLID or RAPID, but more memory-friendly, and often faster.
+Innovation3D.sf.net >>Innovation3D is a 3D modeling program for Linux. It's primarily a mesh based modeler with preliminary support for NURBS.
+Vis5d.sf.net >>Vis5d+ is intended as a central repository for enhanced versions and development work on Vis5d, a free OpenGL-based volumetric visualization program for scientific datasets in 3+ dimensions.
+GMOne.org GNU Modeller One
+www.openscenegraph.org vterrain.org
+rise.sf.net realistic image synthesis engine
+sf.net/projects/tinyptc
+BlenderWars.com
+VCF.sf.net >>The Visual Component Framework
+CinePaint.sf.net
+Wings3D.com
+ayam.sf.net
+k3d.sf.net
+plib.sf.net

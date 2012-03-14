@@ -1,0 +1,111 @@
+Related: mac
+OSXBook.com/book/bonus
+OSXBook.com/book/bonus/chapter11/fslogger
+OSXBook.com/book/bonus/ancient/whatismacosx/tools.html
+
+DarwinSource.sf.net >>Darwin is here: the open source operating system at the heart of Mac OS X
+
+InsanelyMac.com
+
+
+"'The following calls in DiskArbitration.h do exactly what I want:
+
+DARegisterDiskAppearedCallback
+DARegisterDiskDisappearedCallback
+DARegisterDiskDescriptionChangedCallback
+These cover insertion, removal (even of unmountable volumes)
+metadata change events.
+
+P.S. Don't forget to add your DASession to a runloop
+or you won't get any callbacks.
+'" -- http://stackoverflow.com/questions/171855/detecting-appearance-disappearance-of-volumes-on-osx/194691
+http://stackoverflow.com/questions/1346806/osx-how-do-i-find-the-size-of-the-disk-i-o-cache-write-cache-for-example
+
+"Mac OS X power tools" http://books.google.com/books?id=cJxN2XFpXbsC&pg=PA428
+
+$ hdik
+$ hdiutil
+$ newfs_hfs
+$ ioclasscount
+$ kextutil
+$ kextfind
+$ kextload
+$ softwareupdate
+$ diskutil
+$ sysctl
+$ nm (Object File Symbol Table Viewer)
+$ otool (Object File Display Tool)
+$ fs_usage (File System Monitoring Tool)
+$ lsof (File Descriptor Table Viewer)
+$ vmmap (Virtual Memory Regions Viewer)
+$ lipo (Universal Binary Handler)
+$ file (Binary File Format Analyzer)
+
+
+RINGO.GoogleCode.com >>RINGO is an environment that runs Mac apps on Linux. named after of a Mac User Group in Tokyo at http://ringo.net/wp/. RINGO is not GNUstep / OSx86. RINGO is based on GNUstep and CocoTron (both written in Objective-C) and used its own loader to run Mac OSX Apps on GNU variants such as Linux.
+
+MacOSForge.org
+
+DarwinBuild.macosforge.org
+
+FSTools.MacOSForge.org >>The Filesystem Tools project is a place where the Apple filesystem teams will be publishing some of the tools we use to test the filesystems that are part of Mac OS X. These tools will be useful to developers who are writing new Mac OS X filesystems, or testing Mac OS X network filesystems against their servers.
+
+http://www.opensource.apple.com/release/mac-os-x-1071/
+
+PackageMaker
+
+MacPorts.org >>
+
+OSXGNU.org >>Most Mac OS X users prefer to use GUI tools to make Installations of software. By providing GNU software ported or built for the Apple Installer we are providing a needed service for the OS X community. Our Goal is to produce Tools for the OS X Package Installer/Maker and to port all Free/Open source software to the OS X Installer system as is possible.
+
+http://developer.apple.com/library/mac/#documentation/Darwin/Conceptual/KEXTConcept
+
+http://lists.apple.com/archives/darwin-drivers/2011/Sep/msg00005.html >>Does your script do a "touch /System/Library/Extensions"? This has long been the suggested way to ensure the caches are updated.
+
+
+Caravan.net/ec2plus >>Welcome to the Embedded C++ HOMEPAGE
+http://www.osxgnu.org/info/osxpackages.html
+
+http://developer.apple.com/library/mac/#documentation/DeviceDrivers/Conceptual/IOKitFundamentals/HandlingEvents/HandlingEvents.html#//apple_ref/doc/uid/TP0000018-BAJFFJAD
+
+
+http://people.freebsd.org/~rse/dist
+
+GNU-Darwin.org 
+
+GNU-Darwin.sf.net >>GNU-Darwin aims to be the most free software distribution. Our mission	is two-fold: Focus on projects that leverage our unique combination of Darwin and GNU, and help users to enjoy the benefits of software freedom.
+
+XNU-Dev.GoogleCode.com >>This project is a fork of the XNU kernel utilized by Darwin and Mac OS X whose goal is to provide additional support for hardware and functionality to users which use XNU kernel driven operating systems.
+
+
+XNU-Sleep-Enabler.GoogleCode.com >>A kernel extension for the latest Apple Darwin XNU kernel, re-enabling sleep for generic x86 computers.
+
+MacOSX-NoSleep-Extension.GoogleCode.com >>Projects consists of kext and userspace tools that help to manage sleep behavior.
+
+forge.VoodooProjects.org >>
+> Chameleon open source boot loader project.
+> Chameleon related Applications (system preferences panels, helper applications)
+> VoodooSDHCI
+
+Darwinx86.org >>
+
+Chameleon.OSX86.hu >>Welcome to the Chameleon boot loader project information center.
+
+http://www.cse.unsw.edu.au/~cs9242/06/lectures/09-IOKit_Threading.pdf 
+
+
+KellogsOSX.BlogSpot.com
+
+http://www.lobotomo.com/products/FanControl/index.html
+
+
+
+you can avoid the code to register your user client class by adding a "IOUserClientClass" property to your personality dictionary.
+
+
+==Paragon (no 10.7 support)
+http://www.paragon-software.com/technologies/snapshot.html
+\\stc-file\software\3rdParty\Paragon
+Product: Paragon Volume Snapshot for Mac OS X 2010 (English)
+Product Key: PSG-176-PEE-PL-837565424
+Serial Number: 00024-F9889-BD76F-9C1E0

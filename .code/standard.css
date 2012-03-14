@@ -1,0 +1,22 @@
+/* body {background:#ff8; color:#000;} */
+/* #header,#footer {background:#ff8;} */
+/* #main {background:#ffa; border:1em solid #ff8;} */
+
+/* span.h1,span.h2,span.h3,span.h4{background:#ccc;} */
+
+span.rel{background:#070; color:#fff;}
+span.date{background:#000; color:#fff;}
+
+span.quot{background:#ffe;}
+span.quot2{background:#eff;}
+span.quot3{background:#fef;}
+
+span.shell{background:#ddd;}
+span.cmnt{background:#dfd;}
+span.type{background:#9bf;}
+
+a{color:#006;}
+a:visited{color:#606;}
+a.ext{color:#600;}
+a:hover, a:focus{background:#006; color:#ff0;}
+a.ext:hover, a.ext:focus{background:#600; color:#ff0;}

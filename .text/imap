@@ -1,0 +1,13 @@
+Related: Exchange, mail, MAPI, Outlook, POP, SMTP
+
+GitHub.com/rtyler/imuse >>imuse is an experimental IMAP file-system for FUSE. The general idea behind the project is to present what equates to "networked data" as any other kind of "networked data" that we're used to (CIFS, AFS, AFP, SSHFS, FTP, etc), simply as a set of folders and files.
+
+ScratchPost.DreamHosters.com/software/IMAPFS >>IMAPFS is a FUSE-based filesystem that lets you mount your remote mailbox via IMAP and represent your mail as files.
+
+IMAPEngine.org >>IMAPEngine is an IMAP email server that stores all email and mailbox data within a tdbengine database structure. Thus it provides high performance even with a huge number of email accounts, messages and folders.
+
+Caliban.org/ruby/rit.shtml >>rit is the Ruby IMAP tool. It can be used to manipulate mailboxes over IMAP, allowing you to copy and delete mailboxes and their contents.
+
+IMAPFS.sf.net >>Note: My project is old and has a lot of unresolved issues and design problems. Please don't try to use it in any production applications. I do not foresee updating it any further. I hope someone will come along and make a better one.
+
+http://git.sr71.net/?p=gmailfs.git;a=summary >>FUSE filesystem, stores data on an IMAP server. Designed to work with GMail.

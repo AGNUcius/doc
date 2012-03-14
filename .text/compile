@@ -1,0 +1,66 @@
+Related: build, computer, GCC, IDE, interpret, lib, script
+
+Compilr.com >>Compilr is a completely online IDE & compiler for C#, PHP, C, C++, Ruby, VB and Java.
+
+CTuning.org >>free, open source, collaborative repository and tools for program and architecture characterization and optimization.
+
+Code.Google.com/closure/compiler >>The Closure Compiler is a tool for making JavaScript download and run faster. It is a true compiler for JavaScript. Instead of compiling from a source language to machine code, it compiles from JavaScript to better JavaScript. It parses your JavaScript, analyzes it, removes dead code and rewrites and minimizes what's left. It also checks syntax, variable references, and types, and warns about common JavaScript pitfalls.
+
+Buildroot.uClibc.org >>Buildroot is a set of Makefiles and patches that makes it easy to generate a cross-compilation toolchain and root filesystem for your target Linux system using the uClibc C library. Buildroot is useful mainly for people working with small or embedded systems. Embedded systems often use processors that are not the regular x86 processors everyone is used to using on their PC. It can be PowerPC processors, MIPS processors, ARM processors, etc. And to be extra safe, you do not need to be root to build or run Buildroot.
+
+Openembedded.org >>Welcome to Openembedded, your best-in-class cross-compile environment. Openembedded allows developers to create a complete Linux Distribution for embedded systems.
+
+Scratchbox.org >>Scratchbox is a cross-compilation toolkit designed to make embedded Linux application development easier. It also provides a full set of tools to integrate and cross-compile an entire Linux distribution. To find out what it can do, take a look at some of the documentation.
+
+CS.Virginia.edu/~lcc-win32 >>lcc-win32: A Compiler system for windows by Jacob Navia    based on the original screenplay of Dave Hanson and Chris Fraser: A portable C compiler
+
+Rano.org/bcompiler.html >>Bootstrapping a simple compiler from nothing    This document describes how I implemented a tiny compiler for a toy programming language somewhat reminiscent of C and Forth. The funny bit is that I implemented the compiler in the language itself without directly using any previously existing software. So I started by writing raw machine code in hexadecimal and then, through a series of bootstrapping steps, gradually made programming easier for myself while implementing better and better "languages".
+
+StrategoXT.org >>Stratego/XT is a language and toolset for program transformation. The Stratego language provides rewrite rules for expressing basic transformations, programmable rewriting strategies for controlling the application of rules, concrete syntax for expressing the patterns of rules in the syntax of the object language, and dynamic rewrite rules for expressing context-sensitive transformations, thus supporting the development of transformation components at a high level of abstraction.
+
+Boomerang.sf.net >>A general, open source, retargetable decompiler of machine code programs
+
+CS.MU.OZ.au/research/mercury
+
+RADAsm.VisualAssembler.com
+
+SmallBasic.sf.net >>The SmallBASIC project aims to provide a full featured and easy to use scripting language suitable for non serious programming on any computing platform.
+
+GooGooGaGa.org >>GOO is a new type-based prefix syntaxed language that is simple, powerful and extensible. GOO is an acronym for Generic Object Orientator. GOO supercedes preproto.
+
+ECLS.sf.net >>ECL is an implementation of the Common Lisp language as defined by the ANSI X3J13 specification. The most relevant features:
+
+elastiCWorld.org >>elastiC is a portable high-level object-oriented interpreted language with a C like syntax.
+
+Fresh.FlatAssembler.net >>Welcome to the site of flat assembler! This is a place dedicated to assembly language programming for x86 and x86-64 systems and contains many resources for both beginners and advanced assembly programmers. This site is constantly being improved, and hopefully you'll find here some useful materials, no matter whether you are trying to learn the assembly language, or just are looking for the solution for some particular problem.
+
+Agner.org/assem >>This series of five manuals describes everything you need to know about optimizing code for Intel and AMD microprocessors, including optimization advices for C++ and assembly language, details about the microarchitecture and instruction timings of Intel and AMD processors, and details about different compilers and calling conventions.
+
+SuperTech.LCS.MIT.edu/cilk
+
+DigitalMars.com/d D programming language
+
+DistCC.samba.org "a fast, free distributed C/C++ compiler"
+
+SDCC.sf.net "Small Device C Compiler"
+
+nescc.sf.net "A Programming Language for Deeply Networked Systems"
+
+ccache.samba.org
+
+GNU.org/software/lightning >>GNU lightning is a library that generates assembly language code at run-time; it is very fast, making it ideal for Just-In-Time compilers, and it abstracts over the target CPU, as it exposes to the clients a standardized RISC instruction set inspired by the MIPS and SPARC chips.
+
+Info.UNI-Karlsruhe.de/software/libfirm >>libFirm is a library that provides an intermediate representation and optimisations for compilers. Programs are represented in a graph based SSA form.
+
+DevKitPro.org >>This site is home to the toolchains of choice for homebrew game development, currently available for GameBoy Advance, GP32, Playstation Portable and GameCube. More platforms will be added as time permits.
+
+
+Sandroid.org/imcross >>I'm Cross! (Install Microsoft and Mac OS X Cross-Compilers) Installation of Linux-hosted Cross-Compilers and Libraries targeting Microsoft Windows and Mac OS X
+
+Kegel.com/crosstool >>Building and Testing gcc/glibc cross toolchains
+
+Ymorin.Is-A-Geek.org/dokuwiki/projects/crosstool >>crosstool-NG aims at building toolchains. Toolchains are an essential component in a software development project. It will compile, assemble and link the code that is being developed. Some pieces of the toolchain will eventually end up in the resulting binary/ies: static libraries are but an example.
+
+LLVM.org >>The Low Level Virtual Machine Compiler Infrastructure
+
+Eli-Project.sf.net >>We have combined a variety of standard tools that implement powerful compiler construction strategies into a domain-specific programming environment called Eli. Using this environment, one can automatically generate complete language implementations from application-oriented specifications. The implementations might be interpretive, using the constructs of the source language to invoke operations of an existing system, or might involve translation into an arbitrary target language.

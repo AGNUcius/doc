@@ -1,0 +1,924 @@
+Related: diary
+
+Aug-31-2011: 
+Property is position or potential
+Production is velocity or stasis
+Profit is acceleration or growth
+
+Governments are driven by corporations.
+Corporations are driven by investors.
+Investors are driven by profit.
+Profit is driven by scarcity.
+
+Product for needs or Profit for greeds?
+
+Aug-31-2011: [P2P] 2 strategies to undermine free software's progress
+Felix Stalder wrote:
+> move to software-as-service, where the GPL has no teeth
+
+The GNU AGPL addresses this directly by requiring Sources be offered to anyone interacting with the program "over a network" but is incomplete because:
+
+.) This does not apply to any hardware not owned by users.
+   For example, a business could offer access to computers running Free Software but would not be required to provide Source Code to those users.
+
+.) It does not help us share the hardware costs of *hosting* that software.
+   We might do this through a Property Left legally binding social contract.
+
+
+> Android type approach, where the software is linked to hardware
+
+The GNU GPLv3 addresses this directly by requiring all information needed "to install and execute modified versions of a covered work in that User Product" and  disallowing "any legal power to forbid circumvention of technological measures" but is incomplete because:
+
+.) This does not apply to any hardware not owned by users.
+   From the license: "A ``User Product'' is either (1) a ``consumer product'', which means any tangible personal property which is normally used for personal, family, or household purposes, or (2) anything designed or sold for incorporation into a dwelling.  In determining whether a product is a consumer product, doubtful cases shall be resolved in favor of coverage.  For a particular product received by a particular user, ``normally used'' refers to a typical or common use of that class of product, regardless of the status of the particular user or of the way in which the particular user actually uses, or expects or is expected to use, the product.  A product is a consumer product regardless of whether the product has substantial commercial, industrial or non-consumer uses, unless such uses represent the only significant mode of use of the product."
+
+---
+http://en.wikipedia.org/wiki/Tivoization
+http://www.codinghorror.com/blog/2008/02/tivoization-and-the-gpl.html
+
+
+
+Aug-30-2011: Solid-State Econ
+
+Within a steady state, production must continue so we can meet our recurring physical needs of food, shelter, etc.
+
+Capitalism requires Consumer_Price be kept above Owner_Costs so the investors can be paid that difference.
+
+But Profit is not the only value to consider.  We have forgotten about Product.  How can we pay investors with Product?
+
+Imagine the owners of the Means of Production are the end-users of those goods and services.
+
+We organize users to pre-pay for the things they know they will need so they become the real co-owners for those Means of Production.  For example, people who like milk would co-purchase a dairy.
+
+In this strange scenario, the product (milk for example) is not bought or sold because it is already the property of the person who intends to use it.
+
+When you own a dairy cow, you must pay all the costs of production, but you do not buy the milk from yourself - for you already own it!
+
+The same is true if you CO-own a dairy with 999 other people.  You must pay all the costs for your % of the dairy, but instead of BUYing the product from the other co-owners, you simply collect what is already yours.
+
+This is true Use-Value production.
+
+This organizational form requires neither growth nor profit, but can operate indefinitely "at cost" since the investors are paid with Product instead of Profit.
+
+Aug-25-2011: Investigating EToys, Scratch and other environments to teach programming.
+Control-Tech-Sama.BlogSpot.com, TonyForster.BlogSpot.com/search/label/TurtleArt
+
+Aug-24-2011: Rewarding Risk with Product Eliminates Exchange -- ImputedProduction.BlogSpot.com/2011/08/rewarding-risk-with-product-eliminates.html
+
+Alan Avans wrote:
+> Can you clarify what you mean by "exchange" in your
+> concept as it presently stands?
+
+By "exchange" I mean "change ownership".
+
+We do not need to "change ownership" of a product if it is already owned by the person who will consume it.
+
+That may seem an impossible scenario, but it is actully very common for SINGULAR ownership.
+
+For example, the owner of a milk-cow does not buy the milk from himself after it is produced - he owns it already!
+
+We can do the same thing with MULTIPLE ownership.
+
+For example, the co-owners of a milk-cow do not buy the milk from themselve after it is produced - they own it already!
+
+The (co-)owner(s) of a dairy do not buy milk because they own those Objects ALREADY as a side-effect of their owning the Sources of those Objects.
+
+This eliminates one of the reasons we claim to need money.
+
+
+> I'm assuming that in your model there may be a number
+> of different firms undertaking production of goods
+> and services.
+
+I envision many productive sub-units within the Aggregate that are each co-owned by the people that intend to use the products thereof.
+
+For example, if you want a community swimming-pool, then you can commit Sources or Skills to create and maintain such a facility.  If you do not care, then you do not need to be a co-owner of that sub-unit.
+
+
+> These goods and services are ultimately aggregated at
+> the point of retail or "absolute exchange", either in
+> intermediated fashion, or in a peer-to-peer
+> arrangement between producers and consumers.
+
+> It is here that people exchange what they have
+> produced with one another through the transactions
+> that take place during absolute exchange operations.
+
+That is how Capitalism works, but is not what I describe.
+
+People who commit skills (for example: milking cows) would make those commitments in exchange for others within the Aggregate making commitments toward producing things which that worker needs but does not have Skills.
+
+The Sources of those products (such as milk-cows) are not owned by those that happen to have the Skills needed to 'operate' those Sources.
+
+The Sources are instead owned by the people who need the outputs of that production.  The end-users (milk-drinkers) are the owners of the Sources (cattle) AND the owners of the Objects (milk).
+
+
+> People are compensated for their efforts in producing
+> those goods and services with claims that may take the
+> effective form of tickets or tokens.
+
+Thanks for the careful reading.
+
+I see what you mean here, and have called those claims "scheduling tickets" and "allocation tokens" in some of my other writings.
+
+But I would like to move away from that characterization toward the drastically more simplified scenario where changing ownership does not occur (there is no sale), and so governments cannot interfere or collect taxes.
+
+This 'short-circuit' of the market is explained at:
+ http://en.wikipedia.org/wiki/Imputed_rent
+
+You may also be interested in:
+ http://ImputedProduction.Blog.com/2011/05/20/longer-explanation
+
+
+Aug-22-2011:
+Dante-Gabryell Monson wrote:
+> if we can get a discount by bulk buying 200kg of rice,
+> we need pledges/promises of purchase,
+
+> This approach can lead to avoiding the middleman/shop,
+> and reduce organic food prices by 30 percent.
+> At first, I realize it may be better not to set up any legal
+> framework, and not retain any profit,
+
+
+Hi Dante,
+
+This is part of the same approach I talk about, but I'm
+confused when you say "not retain any profit".
+
+If the people pre-pay to buy in bulk, then they do not
+buy the product again, after it arrives, do they?
+
+And if they don't pay again, then how would there
+even be any Profit at all?
+
+Do you plan to overcharge when collecting money
+for the initial bulk-purchase?
+
+
+Dante-Gabryell Monson wrote:
+> consumers to bulk purchase together, and reduce prices, or
+> set conditions for the product, potentially before its production.
+
+Yes, and the extension of that idea is for those consumers
+to buy and co-own the Sources of those products, because
+then they never need to buy that product again (though
+they still must continue to cover all the Costs of production).
+
+
+> owned by consumers / pro-sumers
+
+I have recently been developing a much more holistic
+approach to local production and worker rights which
+uses two forms of 'Commitment' to replace most of the
+reasons we pass tokens.
+
+
+I call it the "Vertically Integrated Production Aggregate",
+as a fully self-sustained, permaculture-based habitat for
+human/ecology reintegration that supplies all the people
+working there with all the food, housing, health care, etc.
+that they need for a comfortable standard of living.
+
+The people are not paid with money, but instead commit
+to work in some number of arenas where they must qualify
+- as in they must prove they can operate the equipment -
+though we want to make it easy to watch videos of the pros
+so newbies can start milking the cow sooner than later. ;)
+
+
+
+> maximum profit on operations - which in the way
+> I perceive it can be totally re-invested in the cause
+
+Yes, this is my view as well, otherwise middle-men will
+buy all the product below market price and resell above.
+
+
+> The reason for setting up a specific legal structure which could take 10
+> percent ( yet still enable 20 percent reduction in costs ) could be to cover
+> certain operating costs.
+
+Whenever I use the word Profit, I use it in the strict accounting sense of:
+
+Owner_Profit = Consumer_Price - Owner_Costs
+
+Consumer_Price = Owner_Costs + Owner_Profit
+
+Owner_Costs = Consumer_Price - Owner_Profit
+
+Aug-17-2011: Mapping the GNU GPL into the Physical Realm
+Hello all,
+
+I've been trying to understand how the GNU GPL might apply to the
+material world and am happily surprised with the results.
+
+
+In the virtual world of software:
+1.) An Object is the result of {compiling} some type of Sources.
+2.) Sources are the inputs such as {source-code, makefiles,
+shell-scripts, installer scripts, etc.} required to change a future
+instance of that Object type.
+
+
+In the physical world of hardware:
+1.) An Object is the result of {work* across time} to some type of Sources.
+2.) Sources are the inputs such as {land and water and seeds and
+animals and tools} required to change a future instance of that Object
+type.
+*  Note: some Objects are occasionally created by the 'work' of nature
+with no human intervention.
+
+
+
+So we can say physical Objects have physical Sources.
+
+For example, the Sources of a bottle of beer include land, water,
+barley, hops, yeast, heated water, containers, glass (for the bottle),
+kiln (to melt the glass), etc. - and even recursively all the sources
+required to initially create the tools that created the tools, etc...
+
+
+The GNU GPL instructs us to help every user incrementally gain at-cost
+access the Sources of all the Objects they use.
+
+I think I've found a way to do this!
+
+The trick is to start a business that can treat some % of Profit
+(Price above Cost) as an INVESTMENT FROM THE PAYER.
+
+Treating Profit as Payer Investment causes each user to slowly gain
+co-ownership in the *growth* of that organization.
+
+Imagine you buy a $5 hamburger from such a place, but it only cost the
+current owners $3 to deliver that surplus (the owners would only be
+selling surplus, since the *primary* reason for their investments
+would be to receive at-cost objects such as hamburgers).
+
+The cashier would give you a receipt showing you now have (within a
+future vesting window) $2 invested in more land, water rights, calves,
+and also toward paying wages, etc.
+
+As you continue to gain ownership (and as you also continue to pay
+recurring costs on what you already own), you will eventually go to
+the new restaurant your overpayments help to create, and you will show
+your ownership credentials to prove you already own a prepared
+hamburger as a result of your ownership in the entire tree of it's
+production.
+
+When the investors will accept the objects themselves (say beer) as
+compensation for the risk they took, there is no sale because the end
+user already paid all the costs of production, and owns the objects as
+a side-effect of those commitments.
+
+And since there is no sale, Profit doesn't even have a chance to enter
+the picture.
+And without a sale there is no attack-point for external governments -
+and so no sales tax.
+
+
+http://Wikipedia.org/wiki/Imputed_rent is a subset or simplified
+version of this.
+
+
+Sincerely,
+Patrick Anderson
+http://ImputedProduction.BlogSpot.com
+
+
+We can also eliminate wages by committing to swap of skills within a
+"closed-loop, user-owned production aggregate" *before* production
+begins.  I call it pre-barter.
+
+
+Aug-16-2011: Cool idea: Communal broadband" - via GigaOm
+Charles N Wyble wrote:
+> Patrick Anderson wrote:
+>> we, as customers, finally pool our monthly fees and invest in buying
+>> and building our OWN networks.
+>
+> Oh? Why?
+
+1.) So we can use the network without artificial limitations.
+
+2.) So we can pay only the Costs of operation instead of paying
+tribute to others.
+
+
+> The large carriers are under immense pressure and very
+> close to collapse.
+
+That is because they must kepep Price above Cost (must collect Profit
+to pay their investors).  This is an unnatural arrangement that must
+be held in place through artificial scarcities of various kinds, and
+is the reason Capitalist seek continuous Growth.
+
+A network owned by the Users doesn't need to keep Price above Cost
+because we will only be using Profit as Growth - investing it for the
+latecoming User toward growing the network with that ownership finally
+vesting to that payer - so the control of that growth is
+auto-distributed to those willing to pay for it.
+
+At all other times, during normal operation, the only fees we pay will
+be the real Costs of operation, while are ROI for being the owners
+will be the product itself (network connectivity in this case).
+
+
+Charles N Wyble wrote:
+> Also if you think that just pooling monthly fees = network operation
+> costs , I'd love to see some business models. Spreadsheets my man!
+
+No, I said the network fees are NOT = to costs.
+
+I said the network fees cover all costs and also include Profit.
+
+I'm saying we, the consumers, pay MORE than it really costs to run the
+network because we do not co-own the network.
+
+If we co-owned the network, then we would still have to pay all the
+costs, but we wouldn't pay Profit because we wouldn't even sell the
+Product*, and so, by definition, we would be paying exactly cost.
+
+*We can sell any surplus Product to non-owners, and should even charge
+Profit against them (otherwise middle-men will scalp the Profits out
+anyway), but must treat that overpayment as that users investment to
+grow the network - with the ownership of that growth becoming the real
+property of that payer.
+
+
+Douglas Rushkoff wrote:
+> I think he is saying that these big businesses have great challenges meeting
+> the needs of consumers.
+> AT&T can't reach all of its subscribers in my area.  And Optimum is having a
+> hard time giving me good VoIP when everyone is spending bandwidth streaming
+> Netflix movies during work hours.
+
+They struggle because, not only must they collect the *costs* from
+you, they must also collect *profit* to pay their investors.
+
+But if those investors were the users themselves - if you could
+pre-pay for internet access and become a co-owner in the network -
+then the only amount the corporation would need to collect would be
+the real costs of operation since your ROI would be the Product itself
+for which you already paid all the costs.
+
+
+Charles N Wyble wrote:
+> Please answer why the ISPs and cell-phone providers
+> will perform similar activities and sue us.
+
+Capitalism abhors competition because it reduces profit.
+
+Reducing profit is a good thing if product is your goal,
+but we do not yet invest for product.
+
+
+They will sue us because user-owned eliminates profit,
+leaving a wake of ownership which cannot be outperformed.
+
+Since any Capitalist entry would require price above cost,
+and yet we will comfortably run at cost when not growing.
+
+
+               Profit is undefined,
+               when Product is ROI.
+
+
+Chris Cook wrote:
+> if we use an associative agreement like a partnership
+> framework, then there is no profit and no loss
+
+Yes, this is also what I propose: a legally-binding social contract.
+
+
+At http://www.slideshare.net/ChrisJCook/economic-systems-thinking230710
+Chris Cook wrote:
+> Sellers give buyers interest-free credit -
+> or "time to pay"
+
+We are seeing parts of the same solution.
+
+
+At http://opencapital.net/unitisation.htm Chris Cook wrote:
+> I propose a new co-ownership framework for direct investment
+> - unitization - in a new type of real estate investment trust
+
+Would you say unitization "short circuits" the economy as described
+here: http://Wikipedia.org/wiki/Imputed_rent - or is it something
+else?
+
+
+Aug-14-2011: Cool idea: Communal broadband" - via GigaOm
+Jon Lebkowsky wrote:
+> Cable providers try to prevent competitiion by government entitites by
+> getting laws passed, but I'm not thinking they have grounds to sue private
+> ISPs.
+
+It reminds me of this case against free distribution:
+
+ http://Wikipedia.org/wiki/Wallace_v._International_Business_Machines_Corp._et_al.
+
+Where Wallace "filed suit against the FSF in Indiana, stating that the
+GPL, by requiring copies of computer software licensed under it to be
+made available freely (without legal restriction), and possibly even
+at no cost, is tantamount to price fixing".
+
+I'm sure we'll see such attempts by ISPs and cell-phone providers when
+we, as customers, finally pool our monthly fees and invest in buying
+and building our OWN networks.
+
+Later, as we more fully awaken, we will put all for-profit producers
+in ALL industries out of business as we, the people buy the farms,
+factories, railroads, bus lines, taxies, restaurants, fish farms, oil
+refineries, oil wells, mines, etc.
+
+We already pay all the costs anyway.
+
+And we pay profit because we are to cowardly or disorganized to own
+for our mutual, direct benefit.
+
+
+Aug-11-2011: Freedom Databases
+Is there any chance we could co-own some of these 'FreedomBases'
+as small groups while retaining our Freedom?
+
+Is it possible to share hardware for the benefit of that group
+without taking Freedoms from others?
+
+
+If so, then we should discover and define what those groups must
+do if they are to avoid going the way of all Corporations...
+
+Once we have this understood, we should be able to fund and co-own
+Internet Service Providers (ISPs), cloud datacenters, etc.
+
+
+Notice we, the users ALREADY pay all the initial costs of building
+that infrastructure, and we CONTINUE to pay all the operating costs.
+
+So it's not like we can't afford it.  Hell we pay *more* than costs
+(we pay Profit) only because we have not taken the responsibility
+of ownership upon our collective selves, but instead continually
+beg the current owners to do the 'right' thing.
+
+
+The current owners *cannot* do the right thing because their
+investors expect to be paid Profit, and Profit requires scarcity.
+
+We can overcome this by paying our users-as-micro-investors
+with the Product itself (in this case 'connectivity') and will never
+even need to sell the Product (since the users are the owners
+already), causing Profit to be undefined and Price to equal Cost.
+
+
+Aug-11-2011: One system to rule them all
+Rasmus Wikman wrote:
+> Because once you have in your head both the understanding
+> and financial means to do so; would you start a corporation
+> for the common good or for the benefit of yourself?
+
+We can create corporate-owned commons that benefit all the
+users by helping each of them gain ownership in the growth
+of that entity whenever they pay price above cost.
+
+This causes every user to incrementally gain real property
+ownership in the Means of Production for all the goods and
+services they need.
+
+When the network is owned by the users of the network,
+the ROI for that risk they all took is the Product itself -
+in this case, network connectivity.
+
+We can seek Product instead of Profit by attracting
+users who will pre-pay for an ISP, then use that money
+to buy and/or build an ISP that is really owned by the
+people who use and need it.
+
+> Few people would turn to the former. Greed is a natural,
+> basic and required human function as far as I can tell.
+> It's a question of survival.
+
+Defending property you need to use for yourself is not
+the same as denying others access so you can charge a
+price above cost because of their lack of preparation.
+
+Profit comes from the users' dependence upon the current
+owners, and is safely eliminated when those users gain
+the co-ownership they need to be able to captain their
+own portion of those productive resources.
+
+Wages can also be eliminated by committing to do the
+kind of work for which you have skills and which is
+wanted by the collective others in return for them
+committing their own skills toward creating the goods
+and services you need.
+
+
+
+The fear that allocation without money is an unsolvable problem mainly
+stems from a confusion between production for profit and production for
+usage, or benefit. I can *sell* a practically unlimited amount of edibles,
+but I can only *eat* so many of them before I'm full. The same is true for
+all other goods: every desire to actually use them is limited. The only
+thing that's potentially infinite is the possibility to turn them into
+money (as long as there are buyers). But that possibility vanishes in a
+world where production is benefit-, rather than profit-driven, and where
+nobody is forced to buy and sell anymore.
+
+
+
+Aug-11-2011: [Open Manufacturing] Engineers with sympathy?
+davidc wrote:
+> Is there anyone here who wants to see
+> a mutual aid, non-exchange economy
+
+I'm sure we will all enjoy the result.
+
+But how can we share the costs of production
+without passing tokens?
+
+
+...  Is it an "order of operations" problem?
+
+Notice when those who need the food
+are the co-owners of the field, then they
+do not *buy* the product, because, of
+course, they already own it.
+
+Notice when those who can work in the
+field will commit to work in the future in
+return for being allowed to live in the
+Aggregate, then they do not receive a
+*wage*, because they already have
+their reward (for as long as they uphold
+that commitment to work).
+
+
+When a crowd owns a dairy, part of
+them will apply skill there, and the others
+will apply skills somewhere else in the
+Aggregate to compensate
+
+So Wages are eliminated by having workers
+commit early to solve problems within the
+aggregate in return for a Basic Outcome
+supplied as a result of all the other workers
+upholding their commitments to supply
+their own skillset when needed by others.
+
+
+Imagine a non-profit corporation purchases land, tools and raw
+materials to build a closed-loop permaculture 'commons'.
+
+By closed-loop I mean the entire operation has a required minimum
+complexity because it must supply all workers with all food, shelter,
+health care, transport, etc.
+
+We attract people who are willing to work for nothing more than a
+nice, free house and all the organic food they can eat.
+
+If we can a doctor and a dentist, then we have health and dental insurance.
+
+The trade and barter are optional when commit Sources and Skills *early*.
+
+
+http://en.wikipedia.org/wiki/Imputed_rent talks about how the
+transaction is "short-circuited".
+
+
+
+Aug-06-2011: Imputed Income as a partial solution
+If we own the cattle together,
+with the milk being the ROI,
+then there will be no sale,
+so nothing for cops to attack.
+
+This organizational form is called "Imputed Income"
+http://en.wikipedia.org/wiki/Imputed_income
+
+When consumers co-own the Means of Production (such as a milk dairy),
+they own the milk even before it comes out of the cows, and so don't
+buy it from anyone, but simply claim what is already theirs.
+
+Some other interesting features:
+Since there is no sale, there is no tax.
+Since there is no sale, there is no profit.
+Since there is no sale, there is one less reason for money.
+
+
+
+Aug-08-2011:
+
+Richard Sanders wrote:
+> One thing that I have become convinced won't work is a system where individuals seek to live in the world by acquiring money as the means of obtaining the necessities of life where that money is acquired by investment.
+>
+> By investment I mean economic activities where one grows ones money - turning an amount of money into more money and living on the profit.
+>
+> My reasoning is as follows. Money is not wealth but a claim on wealth and wealth is the material stuff needed to sustain us - food, shelter, infrastructure, ecological life support, etc. All wealth is ultimately sourced from low entropy natural capital.
+>
+
+
+Aug-05-2011:
+Hey Dave,
+
+Nate Bushman mentioned he saw you.
+
+I've been studying economics in my spare time
+off and on for about 10 years now.
+
+I've discovered something that I think is very
+important but overlooked, so want to involve all
+good thinkers to tackle these issues.
+
+I have developed an alternate economic system
+that allows for even more specialization than
+we currently enjoy and yet does not require
+require passing tokens (money) and where Profit
+becomes *undefined*.
+
+
+Here is a small riddle to help begin thinking
+in this new way:
+
+
+----
+Imagine 1000 milk drinkers decide to buy a dairy.
+
+They each invest as much as they predict they will
+need, and receive the Product as the ROI.
+
+The Product is not sold because the people who
+will use the milk are *already* the owners.
+
+Because of this short-circuit, there is also
+no taxes to report and no Profit to be considered.
+
+The riddle then, is: What is the origin of Profit?
+
+
+Aug-04-2011:
+
+Douglas Rushkoff wrote:
+> implementation of the mechanical weaving loom
+> by Victorian England in India. It reduces the
+> role and expertise of labor, and is value
+> extractive rather than allowing people on the
+> periphery to create value.
+
+http://Wikipedia.org/wiki/Overproduction
+Overproduction is a problem for Capitalism
+because it reduces both profits and wages.
+
+Capitalism is production for the sole purpose
+of *exchanging* the end product *after* it is
+created for a price above cost (profit).
+
+
+http://Wikipedia.org/wiki/Abundance_(economics)
+But we, the people, want abundance and would
+rather not even worry about profit and wages.
+
+We want production for the purpose of using
+that product directly: for *use-value* and
+really don't even need to exchange the product
+after it is created if the owners of the
+sources are the very users of that product.
+
+
+We can do this by attracting users to pre-pay
+for an ISP connection and then use those funds
+to purchase the physical layer needed to begin.
+
+Since the users are the real owners, they must
+pay all the costs of operation, including work,
+but do not pay profit, for the product is not sold.
+
+
+Imagine a theoretical situation where automated
+weaving looms were made available to everyone at
+the real costs of that access.
+
+This would cause a situation analogous to what
+now occurs with Free Software - where users can
+get workers to create and fix things for free
+partly because it is just fun to do...
+
+The danger is toward those who are still working
+in proprietary loom/code shops, since all those
+free products causes proprietary solutions to
+become less relevant and finally ignored.
+
+
+
+> The function is to centralize the capital
+
+The way to auto-distribute (decentralize) capital
+is to treat overpayment (profit) as an investment
+from that payer.
+
+The reason this stops the payment of tribute is
+because of how that user's property ownership
+will allow him to receive that objective at the
+real costs of production once he has sufficient
+co-ownership in the Sources of that objective.
+
+
+For example: the owner of a CAT5 cable and a
+router must pay to purchase, install, configure,
+maintain, power that network - but he doesn't
+*buy* that connectivity from himself because
+he owns it already.
+
+
+The same is true when a loom shop owned by the
+people who will finally use the outputs of those
+Sources, then automation becomes a goal.
+
+
+But this does not help us understand how to share,
+and that is what we need to do if we are ever
+to stand on our own feet on our own land for our
+own purposes instead of for the usual purpose of
+subjugating others through overpriced objectives
+and no possibility of access to Physical Sources.
+
+
+We will never be free until we learn to share the
+Physical Sources needed for the production of all
+our objectives, including network connectivity.
+
+
+
+
+Aug-04-2011:
+
+Samuel Rose wrote:
+> worker-owned cooperative probably would not make
+> the decision to replace people with machines.
+
+
+
+
+Aug-04-2011:
+
+Devin Balkind wrote:
+> If technology is open,
+> everyone can benefit from it's advances.
+
+That is only true if we are able to *instantiate*
+those designs, and of course that requires access
+to the material substrate required to host any and
+all production: land, water, buildings, tools, etc.
+
+
+I'm glad we now have open washing machine designs,
+but it doesn't really help me because I am not
+allowed access to the Physical Sources (the factories)
+required to create an instance of that technology.
+
+
+It is important that those end users gain at-cost
+access to the Sources of production even when they
+have no skill or inclination to operate or maintian
+those Sources directly.
+
+
+When the humans in need of goods and services are allowed
+at-cost access to the Physical Sources of those Objectives,
+they will be able to work together, swapping skills to
+achieve all of their goals without worrying about the
+dangers of automation.
+
+
+Aug-01-2011:
+Rasmus Wikman wrote:
+> To get it up to speed, I do hope that governments, educational institutions
+> and non-profit organisations will offer the service for free since they are
+> already co-owned by the people.
+
+
+You must be joking.
+
+Of course the corporations that captain our governments
+will not allow such profit-destroying tactics.
+
+If we could get what we need out of the governments, we wouldn't
+need any separate corporations.
+
+But since governments are controlled by corporations,
+
+And since corporations are controlled by investors,
+
+And since the only investors we will consider are
+those that require a return based on profit,
+
+And since profit requires scarcity,
+
+And since scarcity is what we (the ignorant users)
+thought was being addressed by the fact that someone
+is organizing production,
+
+We are left with a bunch of scarcity-loving thugs
+who keep us just satisfied that we will not organize
+for our own benefit while continuously attempting
+to perpetuate profit by withholding features and
+otherwise generally causing us trouble because our
+ignorant choice of investors has led us down a path
+of short-sighted geocide that we cannot seem to
+escape, or hardly even understand the trouble...
+
+
+
+> I believe that there are many people who will start non-profit
+> production companies when they realise how simple it is.
+
+In what way will it be easier to start a non-profit
+if compared to yesterday?
+
+
+
+> Hard to say, but I do think we'll see the Open-movement
+> moving onto the physical world quite soon.
+
+We cannot fully address our 'sacred' (immaterial) needs
+without freeing their 'profane' (material) containers.
+
+The physical world will be free as in freedom when the
+users begin to organize and co-own the Sources of
+production for their mutual, use-value benefit.
+
+It is easy to prove we, the users, can afford to do
+so - since we know that the users (in the end) pay
+all the costs of production AND they pay profit.
+
+When users are the owners and product is the payment,
+profit is undefined because there is no sale!
+
+
+Aug-01-2011:
+Rasmus Wikman wrote:
+> With an open equivalent, at least the users
+
+Hi Rasmus, do you have any ideas about how
+we might aquire the hardware we will need?
+
+Do you envision the users coming together
+to buy and co-own those physical assets?
+
+Do you envision current governments taking
+ownership from the current corporations?
+
+Do you envision current corporations changing
+in some way where they begin giving ownership
+to the users on an incremental basis?
+
+Or maybe some other approach...
+
+
+Thanks,
+Patrick Anderson
+
+
+Aug-01-2011:
+This can be done by changing how we reward investors.
+
+We can attract regular users of that product to invest
+small amounts for real co-ownership in the corporation.
+
+Those user-owners receive *product* instead of *profit*
+for the risk they took.
+
+We do not even sell the product in that case, for it is
+already the property of the people who will use it.
+
+This moves us away from seeking scarcity toward an
+economy driven by use-value instead of exchange-value.
+
+
+Aug-01-2011: [P2P-F] Open System
+Rasmus Wikman wrote:
+>
+> we need a new technological foundation for society
+> that gives everyone equal opportunities and is owned
+> by noone.
+
+That might be throwing too much out with the bathwater.
+
+Property ownership is a very dangerous tool that we can
+bridle and temper through a legally binding document
+that we strategically design and apply to property that
+we buy 'collectively' for the purpose of stopping any of
+the originators or the later co-owners from causing the
+usual kinds of trouble.
+
+
+I have been studying this as a system and have 3 points
+that must be enforced if we are to move toward society
+that does not require passing tokens:
+
+1.) Users commit Sources or Skills toward future production.
+
+2.) Property co-ownership is the result of those investments.
+
+3.) The product is not sold, for it is already the property of
+   the people who will use - for the users are the owners.

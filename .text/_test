@@ -1,0 +1,94 @@
+Related: ASCII, compete, qualify
+
+Testing ./.code/etym.el
+
+=Filenames
+
+===Local
+Link absolute *nix paths such as /usr/bin (browser can't resolve this on Windows)
+Link relative paths such as or ./.code/preferred.css or ../onedirlower
+Link UNC paths such as \\Some-SMB-Server\ShareName
+link with spaces using quotation marks: "c:\Program Files", "\\Some-SMB-Server\Share Name\sub folder"
+
+Link any protocol: file:// ftp:// http:// https:// mail:// torrent:// ed2k:// p2p://
+
+==External URL examples
+COMMAND.COM  ;;This is ambiguous because it is both a valid filename and a URL.
+ftp://127.0.0.1 ;;any letters followed by :// will link to that protocol
+// is a c++ single-line comment
+Floating-point numbers such as 1.0 should not link as a URL
+IP addresses require protocol be explicitly specified:  https://192.168.1.2
+
+IPFrontline.com/depts/article.asp?id=10139&deptid=6
+------------------------------------------^this ampersand is not properly escaped.
+
+Supported domain names
+a.aero a.at a.au a.be a.biz a.ca a.cat a.cc a.ch a.com a.coop a.cx a.cz a.da a.de a.dk a.edu a.es a.eu a.fi a.fr a.gov a.hu a.ie a.il a.im a.in a.it a.info a.int a.jp a.jobs a.lt a.mil a.mobi a.museum a.name a.net a.nl a.nu a.nz a.org a.pl a.pro a.pt a.se a.sk a.tel a.travel a.tv a.uk a.us a.ws
+
+
+
+=UTF-8 test
+Epistemology from Greek: επιστήμη - episteme, "knowledge" + λόγος, "logos"
+
+
+=Any column:
+ >> email multi-quote
+ >>> email multi-quote
+ >>>> email multi-quote
+ "'multi-
+     line quote'"
+
+ <i>italic</i>
+ <b>bold</b>
+
+ # shell comment
+ ;;Lisp comment
+ /* c style multi-
+     line comment*/
+ //c style single-line comment
+
+ (paren [paren {paren}])
+
+=Beginning of Line (BOL):
+> single email quote
+$ shell command
+Jan-23-2008: date format
+Related: to categorize
+
+===Bullets:
+* milk
++ honey
+. nuts
+: berries
+
+
+==TAB Alignment
+Wikipedia.org/wiki/Tab_key#Tabs_in_HTML >> 2. All tabs (U+0009) are rendered as a horizontal shift that lines up the start edge of the next glyph with the next tab stop. Tab stops occur at points that are mutiples of 8 times the width of a space (U+0020) rendered in the block's font from the block's starting content edge.
+
+This group should align at column 5
+____v
+	|TAB
+ 	|SPC TAB
+  	|SPC SPC TAB
+   	|SPC SPC SPC TAB
+----^
+
+This group should align at column 9
+________v
+		|TAB TAB
+ 	 	|SPC TAB SPC TAB
+   	   	|SPC SPC SPC TAB SPC SPC SPC TAB
+        |SPC SPC SPC SPC SPC SPC SPC SPC
+--------^
+
+
+
+===Entities
+< &lt;
+& &amp; not correctly escaped within URLs
+
+
+=Headings (h1)
+==Sub Heading (h2)
+===Sub Sub Heading (h3)
+====Sub Sub Sub Heading (h4)

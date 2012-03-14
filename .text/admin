@@ -1,0 +1,23 @@
+Related: manage, root, runas, su, sudo
+
+WebUI
+
+ReductiveLabs.com/projects/puppet >>Puppet lets you centrally manage every important aspect of your system using a cross-platform specification language that manages all the separate elements normally aggregated in different files, like users, cron jobs, and hosts, along with obviously discrete elements like packages, services, and files.
+
+Hosted.FedoraProject.org/func >>Func: Fedora Unified Network Controller
+
+Enable Vista Admin login:
+$ net user administrator /active:yes
+
+Now assign a password:
+$ net user administrator PASSWORD
+
+Disable:
+$ net user administrator /active:no
+
+
+
+Within Vista:
+Press 'Windows-Key' (not Win-R), type "cmd" (without quotes) but don't press ENTER - instead press Ctrl-Shift-ENTER to make a terminal running with Admin rights.
+
+

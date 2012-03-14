@@ -1,0 +1,68 @@
+Related: code, compile, programming
+
+Liber: A God associated with Bacchus and Dionysus
+Liberate: Free
+Liberal: plenty, Left
+Liber Al: Mason (Alister Crowley)
+Liberty: Freedom
+Neoliberal: WTO
+Library: books
+Library(computer): /lib, /usr/lib, /usr/bin/ldd
+Libre: free
+
+
+
+==Computer
+http://www.exactcode.de/site/open_source/embeddedstl
+
+LEMON is an open source library written in C++. It provides easy-to-use implementations of common data structures and algorithms in the area of optimization and helps implementing new ones. The main focus is on graphs and graph algorithms, thus it is especially suitable for solving design and optimization problems of telecommunication networks. To achieve wide usability its data structures and algorithms provide generic interfaces.
+
+Ultima.sf.net >>Lightweight, cross-platform, object-oriented library for C++ wich helps you to operate with files, directories, processes, threads, sockets etc.
+
+CoreLibrary.sf.net >>The CoreLibrary is a multiplatform object library for C++ (Linux, Win32, MacOSX, PocketPC).It provides many of the common objects found in Java (Strings, Threads, Collections, etc.) and has the ability to send objects across the network like CORBA.
+
+PACC.sf.net >>PACC is a collection of Portable Agile C++ Classes. It includes math, socket, threading, SVG, and XML classes. They run on both Unix and Windows platforms, and have been tested and used under Linux, MacOSX, and Windows 2000/XP.
+
+Closure.GoogleCode.com >>The Closure Library is a broad, well-tested, modular, and cross-browser JavaScript library. You can pull just what you need from a large set of reusable UI widgets and controls, and from lower-level utilities for DOM manipulation, server communication, animation, data structures, unit testing, rich-text editing, and more.
+
+Open-Network.GoogleCode.com >>OpenNetwork is designed to be a straightforward and clean API for network programming. Its completely interface-based, what means that you can replace everything with own implementations. The big advantage of OpenNetwork is that it is released under the zlib license what means that you have basically the right to do whatever you want with it AND it is frequently updated and improved.
+
+libUTL.sf.net >>libUTL++ is a cross-platform C++ class library that provides a set of commonly useful functionality and abstractions to expedite C++ application development.
+
+WWW710.Univ-Lyon1.fr/~exco/ZMW >>Zero Memory Widget    Widget libraries have now been developed and used for years. In all these libraries, widget instances require computer memory. But this memory is not really required, We have implemented a widget library to prove that it is possible to use zero bytes of memory per widget. In such a library, there is no widget reference, so widget programming is easier even in a low level language such as C. Programs are more robust because they do not use pointers, make no memory management and do not translate data between application and widget. To set the attributes of a widget, it is not possible to use the widget's pointer so a current state is used as in OpenGL. Most classic widgets were integrated into the library, and it is possible to integrate widgets of all kinds without any problem.
+
+Public.MSLI.com/lcs/muscle MUSCLE (Multi User Server Client Linking Environment) is an N-way messaging server and networking API. It includes client-side networking APIs for various languages, including C, C++, C#, Delphi, Java, and Python. MUSCLE lets programs communicate over a network via streams of serialized Message objects. The included server program ("muscled") lets its clients message each other and store information in its server-side hierarchical database. The database supports flexible queries via hierarchical wildcarding, and "live" updates via a subscription mechanism.
+
+libjingle.GoogleCode.com >>libjingle is a collection of open-source C++ code and sample applications that enables you to build a peer-to-peer application. The code handles creating a network connection (through NAT and firewall devices, relay servers, and proxies), negotiating session details (codecs, formats, etc.), and exchanging data. It also provides helper tasks such as parsing XML, and handling network proxies.
+
+OpenControls.sf.net >>OpenControls is a library of Windows controls similar to Common Controls. It contains "In Place ComboBox", "Property Box" and "Image Button". It is available for both 32 and 64 bit platform, suports ANSI and UNICODE and supports XP Visual Styles.
+
+www.CodeProject.com/KB/winsdk/framework.aspx?fid=159070 >>Win32++ has been designed to make life a little easier for those learning to use C++ to program using the Win32 API directly. It is a simple alternative to MFC, but has the added advantage of running on a wide range of free compilers. Win32++ doesn't attempt to hide the Win32 API. On the contrary, it exposes the Win32 API, allowing it to be more easily learnt and understood. You have all the source code right there in front of you, so there is no mystery about how the Framework actually works. The code has been designed to run on a wide range of C++ compilers, including those from Microsoft, Borland and the free MinGW compiler from GNU. Win32++ supports all Win32 operating systems, from Windows 95 through to Windows XP and Vista. Win32++ also directly supports the Windows CE operating system. Windows CE is the operating system which runs on the various Pocket PCs, Smartphones, as well as industrial devices and embedded systems. The Windows CE API is a subset of the Win32 API. It also includes some new common controls tailored for the smaller computers and devices it runs on. Win32++ brings an object oriented approach to programming directly with the Win32 API. Each window created is a C++ class object capable of having its own window procedure for routing messages.
+
+GNUTelephony.org/index.php/UCommon >>UCommon is meant as a very light-weight C++ library to facilitate using C++ design patterns even for very deeply embedded applications, such as for systems using uclibc along with posix threading support. For this reason, UCommon disables language features that consume memory or introduce runtime overhead, such as rtti and exception handling, and assumes one will mostly be linking applications with other pure C based libraries rather than using the overhead of the standard C++ library and other similar class frameworks.
+
+OpenLibraries.org >>The Openlibraries are a powerful, cross-platform set of C++ libraries that provide developers with key components for the development of rich media applications. The Openlibraries are the first of its kind and represent a crucial step forward in the development of open source tools for creating digital content. Its library modules can be used to develop applications for such things as editing, compositing, media players, encoders and image processing.
+
+rulib.sf.net >>A C++ library for the Windows platform containing classes for MIME, video capture, socket, Windows registry, files, images, and other basic purposes.
+
+DynObj.sf.net >>DynObj is a C/C++ library for cross compiler plugin libraries. It enables exposing and sharing run-time type information for C++ classes. This allows for loading binary plugins, and interacting with them in type safe ways:
+
+Win32-Framwork.sf.net >>Win32++ is a C++ library used to build windows applications. It supports most compilers including Visual 2008 Express. It is an ideal starting point for anyone learning to program for windows, but also caters for the needs of professional developers.
+
+dClib.sf.net >>Welcome to the dlib C++ library's homepage. It is a modern C++ library with a focus on portability and program correctness. It strives to be easy to use right and hard to use wrong. Thus, it comes with extensive documentation and thorough debugging modes.
+
+ibiblio.org >>the public's library and digital archive
+
+LibriVox.org >>Acoustical liberation of books in the public domain
+
+OpenLibrary.org
+
+uClibc.org >>uClibc (aka µClibc/pronounced yew-see-lib-see) is a C library for developing embedded Linux systems. It is much smaller than the GNU C Library, but nearly all applications supported by glibc also work perfectly with uClibc. Porting applications from glibc to uClibc typically involves just recompiling the source code. uClibc even supports shared libraries and threading. It currently runs on standard Linux and MMU-less (also known as µClinux) systems with support for alpha, amd64, ARM, Blackfin, cris, h8300, hppa, i386, i960, ia64, m68k, mips/mipsel, PowerPC, SH, SPARC, and v850 processors.
+
+Grace.OpenPanel.com "'Lots of effort has been put, through various projects, into creating systems and libraries that hide some of the more ugly parts and ease programming. Grace is one of those attempts. It is a project that has grown over a couple of years to introduce, through a combination of useful classes and clever macros, clear and easy ways to perform a lot of computing tasks in C++.
+
+This project is not for C++ purists. Code written for Grace will look more like Python or PHP than your run-of-the-mill C++ program. What it delivers is code that you can read back the next morning -- it will make sense, even if it touches nasty subjects like threading and text munging.
+
+This project is also not for those people looking for ever-increasing thrills that find them in esoteric programming concepts that allow them to use yet more clever ways to express mundane operations in increasingly illegible runes that, while looking really clever and perhaps sometimes even making sense for particular operations, are more likely to make your head spin. Grace is for the rest of us that prefer, for now, programming to be a bit more straight forward in the context of, well, getting things done.'"
+
+Sources.RedHat.com/newlib >>Newlib is a C library intended for use on embedded systems. It is a conglomeration of several library parts, all under free software licenses that make them easily usable on embedded products.

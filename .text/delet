@@ -1,0 +1,14 @@
+Related: file, wipe
+
+Deleting genetic lines increases profit through artificial scarcity.
+
+==Recover
+www.codeproject.com/KB/files/NTFSParseLib.aspx >>It seems a hard job, but it took me less than an hour to implement it by using this library, and much time was wasted on adjusting the dialog interface. Of course, this is rather a simple test program than a commercial product. I didn't check if the freed clusters had been modified by another file (it's one reason why commercial tools take such a long time when analyzing a big volume).
+
+NTFSUndelete.GoogleCode.com >>NTFS Undelete is free software that allows to recover deleted files. It recovers files directly from hard drive, and it will work even if Recycle Bin is empty.
+
+www.CodeProject.com/KB/files/NTFSUndelete.aspx >>to undelete files on NTFS
+
+www.student.dtu.dk/~s042078/magicrescue >>Magic Rescue scans a block device for file types it knows how to recover and calls an external program to extract them. It looks at "magic bytes" in file contents, so it can be used both as an undelete utility and for recovering a corrupted drive or partition. As long as the file data is there, it will find it.
+
+Memberwebs.com/swalter/software/scrounge >>Data recovery program for NTFS file systems.  Reads each block of the hard disk to and retrieves rebuilds file system tree on another partition.  I wrote this program when one of my friends lost valuable data on an NTFS drive.  It been used since then in several cases, but not thoroughly tested, especially not WRT the fact that it's a data recovery program.  You should have your partition information stored away in advance.  This allows reliable retrieval of file info.  If you don't however, there's some hope.  You can guess at it in many cases.

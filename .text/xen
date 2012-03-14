@@ -1,0 +1,23 @@
+Related: vhd, virt
+
+f:\dev\research\emu\XEN
+
+==Networking
+http://wiki.xensource.com/xenwiki/XenNetworking
+http://jolokianetworks.com/70Knowledge/Virtualization/Open_Source_Windows_Paravirtualization_Drivers_for_Xen
+GNU GPL xennet drivers http://xenbits.xensource.com/ext/win-pvdrivers
+http://wiki.xensource.com/xenwiki/XenWindowsGplPv
+http://wiki.xensource.com/xenwiki/XenWindowsGplPv/Installing
+
+Mediakey.dk/~cc/howto-install-windows-xp-vista-on-xen
+
+Developer.Novell.com/wiki/index.php/Xenfire >>Xenfire is a soft appliance that can be used to auto-install multiple virtual machines on a single physical server using the Xen virtualization technology. It can be useful for small and medium enterprises to consolidate their intranet servers and gateway server into one single physical server, while still preserving the administrative and security advantages of running two separate systems.
+
+==Links
+DSG.CS.UBC.ca/secondsite >> SecondSite is a project to provide high availability services via the Xen virtual machine monitor. Its mechanisms include: * frequent virtual machine checkpoints (using iterative copy to minimize downtime) * group-wide checkpoint consistency via network interposition * low-overhead persistent storage checkpointing using the Parallax block device
+
+xen-tools.org >>xen-tools is a collection of software which allow you to create new guest domains.
+
+Community.Citrix.com/display/xs/Kensho >>Citrix Project Kensho provides administrators with highly usable tools that facilitate the export and import of virtual machines and virtual machine based workloads (virtual appliances) using the Open Virtual Machine Format (OVF) and Common Information Model (CIM) industry standards developed by the Distributed Management Task Force (DMTF).    The Project Kensho OVF Tool utilizes the OVF standard for the export and import of virtual appliances. The Open Virtual Machine Format is an XML document that describes the metadata of virtual machine(s) that are stand alone or part of a virtual appliance along with pointers to the location of the virtual disks.    Citrix Project Kensho also provides a CIM interface to the XenServer™ API. As well as introducing a WSMAN interface to XenServer™. The Xen-CIM component is required by the Project Kensho OVF Tool and installs directly on the XenServer™.
+
+Community.Citrix.com/blogs/citrite/simoncr/2009/04/16/XenConvert+v2+Tech+Preview+-+OVF+and+VMDK+Support+for+XenServer >>XenConvert 2.0 supports direct import of VMware VMDK virtual hard disks into XenServer, including all v2v operations.  It has also productized the Citrix Project Kensho implementation of the DMTF portable application packaging format, OVF (Open Virtual machine Format), which Citrix has helped to develop and standardize.  OVF virtual appliance packages will now directly import in to XenServer to instantiate a complex virtualized application stack, together with all of its relevant infrastructure resource requirements.    XenConvert's v2v capabilities mean that even VMware dependent OVFs will be able to be imported into XenServer, which in turn means zero switching cost to XenServer.   Since XenServer itself is also free, my guess is XenConvert 2.0 puts you well into the black on your next virtualization project.  Finally, any VM you import into VHD files for use by XenServer can also be used in our provisioning services engine (the artist formerly known as Citrix Provisioning Server for Data Centers) to allow you to dynamically stream a VM onto any hypervisor and even bare metal!

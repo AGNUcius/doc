@@ -1,0 +1,70 @@
+Related: browse, HTML, web
+
+Hyper Text Transport Protocol(HTTP) runs over TCP/IP, and is generally meant for HTML Transport.
+
+
+==Client
+4S4C.com/pocketHTTP >>This is an Open Source [MPL] HTTP/1.1 client COM component for the Windows family (PocketPC/95/98/Me/NT4/2000/XP/2003), originally based on HTTP transport from PocketSOAP.
+
+Monkey.org/~provos/crawl >>The crawl utility starts a depth-first traversal of the web at the specified URLs. It stores all JPEG images that match the configured constraints. Crawl is fairly fast and allows for graceful termination. After terminating crawl, it is possible to restart it at exactly the same spot where it was terminated. Crawl keeps a persistent database that allows multiple crawls without revisiting sites.
+
+HTTrack.com >>HTTrack is a free (GPL, libre/free software) and easy-to-use offline browser utility.  It allows you to download a World Wide Web site from the Internet to a local directory, building recursively all directories, getting HTML, images, and other files from the server to your computer.  HTTrack arranges the original site's relative link-structure.  Simply open a page of the "mirrored" website in your browser, and you can browse the site from link to link, as if you were viewing it online.  HTTrack can also update an existing mirrored site, and resume interrupted downloads. HTTrack is fully configurable, and has an integrated help system.
+
+DeMailly.com/~dl >>A tiny but usefull (IMO) http library and a command line tool to perform http queries (including PUT, DELETE, in addition to usual GET and HEAD and working through proxy).
+
+WebDAV.org/neon >>neon is an HTTP and WebDAV client library, with a C interface.
+
+HTTP-Fetcher.sf.net >>http-fetcher is a small, robust, flexible library for downloading files via HTTP using the GET method.
+
+curl, wget, wput
+
+
+====Server
+Mongoose.GoogleCode.com >>Mongoose is easy to use web server. It can be embedded into existing application to provide a web interface to it.
+
+TinyServer.sf.net >>This is a very basic http server. This server can accept multiple requests at once. The server is only 56 kb. The default page, web page directory and port number can be configured by editing the server.ini file. The message window provides details of connections and errors if any. The server has been configured to accept a maximum of 100 connections. I have used the Winsock control in VB. As of now Tiny Server supports only the GET request. It also does not support any server side processing. The server can be used for testing websites on a local network before uploading to the Internet.
+
+Nullhttpd.sf.net >>If you're looking for Null httpd, you've come to the right place. Please note that Null httpd is _not_ a production quality server, nor should it be used in environments where stability and/or security are a concern. If you're looking for a solid, reliable web server, go here.
+
+MiniWeb.sf.net >>MiniWeb is a mini HTTP server implementation written in C language, featuring low system resource consumption, high efficiency, good flexibility and high portability. It is capable to serve multiple clients with a single thread, supporting GET and POST methods, authentication, dynamic contents (dynamic web page and page variable substitution) and file uploading. MiniWeb runs on POSIX complaint OS, like Linux, as well as Microsoft Windows (Cygwin, MinGW and native build with Visual Studio). The binary size of MiniWeb can be as small as 20KB (on x86 Linux). The target of the project is to provide a fast, functional and low resource consuming HTTP server that is embeddable in other applications (as a static or dynamic library) as well as a standalone web server.
+
+Dolda2000.com/~fredrik/ashd >>Ashd is a modular HTTP server based on a multi-program architecture. Whereas most other HTTP servers are monolithic programs with, perhaps, loadable modules, Ashd is composed of several different programs, each of which handles requests in different ways, passing requests to each other over a simple protocol (not unlike Unix pipelines).
+
+ProngHorn.org >>Pronghorn is an high-scalable, event-driven webserver named after the Pronghorn Antelope.
+
+acWEB.sf.net >>acWEB is an OpenSource replacement for MS IIS and other proprietary WEB servers for Windows. Unlike IIS, acWEB is not affected by viruses like CodeRed, Nimda, etc :).
+
+HTTPdx.sf.net >>Single-process HTTP1.1/FTP server; no threads or processes started per connection, runs with only 2-4 threads. Includes directory listing, virtual hosting, basic auth., support for PHP, Perl, Python, SSI, etc. All settings in one config/script file.
+
+WLMP-Project.net "'
+WLMP is an acronym, which stands for the first letters of Windows / LightTPD / MySQL / PHP.
+
+The purpose of the WLMP Project is to create a LightTPD-based, secure and fast web server package for Windows with MySQL database server and PHP support. The package is being developed by a Hungarian team - WLMP Project TEAM - under the terms of GNU/General Public License. The package is in Hungarian for now, but soon it will be available in English.
+
+We host a closely related project providing unofficial Windows builds for LightTPD, which is essential for the web server package.
+'"
+
+Addons.Mozilla.org/en-US/firefox/addon/3002 >>Turn the web on its head with the Plain Old Webserver (POW), which adds a server to your browser.
+
+John.Fremlin.de/programs/teepeedee >>teepeedee is a small, hopefully scalable, single-threaded file server.  It can serve or receive multiple files over http, https and ftp simultaneously, listening on any number of ports and providing entirely different views of the filesystem to different users.  It uses sendfile and is written in C++.  It supports most of the draft-ietf-ftpext-mlst-16.txt FTP extensions, EPRT, EPSV, AUTH TLS, and does HTTP 1.1 persistant connections, and HTTPS.
+
+OSS.LINBIT.com/trapdoor2 >>trapdoor2 - HTTPS trapdoor daemon    trapdoor2 (td2) allows remote users to execute local commands by sending 'magic cookies'. this can e.g. be used to alter local firewalling rules so people can connect to local services after sending the magick cookie.
+
+Cherokee-Project.com >>Cherokee is a very fast, flexible and easy to configure Web Server. It supports the widespread technologies nowadays: FastCGI, SCGI, PHP, CGI, SSI, TLS and SSL encrypted connections, Virtual hosts, Authentication, on the fly encoding, Load Balancing, Apache compatible log files, Data Base Balancer, Reverse HTTP Proxy and much more.
+
+nginx.net >>nginx [engine x] is a HTTP server and mail proxy server written by me (Igor Sysoev).
+
+KevinWorthington.com >>Nginx for Windows, Lighttpd, Linux, Tech, etc.
+
+LightTPD.net >>Security, speed, compliance, and flexibility -- all of these describe lighttpd (pron. lighty) which is rapidly redefining efficiency of a webserver; as it is designed and optimized for high performance environments. With a small memory footprint compared to other web-servers, effective management of the cpu-load, and advanced feature set (FastCGI, SCGI, Auth, Output-Compression, URL-Rewriting and many more) lighttpd is the perfect solution for every server that is suffering load problems. And best of all it's Open Source licensed under the revised BSD license.
+
+ACME.com/software/micro_httpd >>micro_httpd is a very small Unix-based HTTP server. It runs from inetd, which means its performance is poor. But for low-traffic sites, it's quite adequate. It implements all the basic features of an HTTP server, ... All in about 200 lines of code.
+libwebserver.sf.net
+browsex.com
+ACME.com/software/thttpd >>thttpd is a simple, small, portable, fast, and secure HTTP server.
+Apache
+many others
+what is optimal {select, poll, etc.}
+
+
+HTTPFS.sf.net >> ... is a FUSE-based file system. You may think of it, as a downloader with the speed of light.

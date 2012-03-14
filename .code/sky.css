@@ -1,0 +1,17 @@
+
+body {font-family:monospace; font-size:125%;}
+body {background:#69c; color:#000;}
+#header,#footer {background:#69c;}
+#main {background:#adf; border:1em solid #69c;}
+
+span.h1,span.h2,span.h3,span.h4{background:#fff;}
+span.date{background:#006; color:#adf;}
+
+span.cmnt{background:#0c0;}
+span.shell{background:#ccc;}
+span.type{background:#c00;}
+
+a{color:#006; text-decoration:underline; }
+a:visited{color:#060;}
+a:hover, a:focus{background:#ffa;}
+a.ext{color:#600;}

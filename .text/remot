@@ -1,0 +1,65 @@
+Related: net, debug, RDP, share, Terminal Services, VNC
+
+rdesktop: Connect to RDP server from GNUnix.
+
+xrdp: Become RDP server.  Connect from windows with mstsc.exe
+x11vnc: Become VNC server.  Connect from windows with TigerVNC
+
+
+RDPDesk.com >>RD Connection Manager is a free open source Remote Desktop (RD) management solution which is licensed under the GNU General Public License.
+
+WinTun.sf.net >>WinTun is a simple user friendly application that creates an SSH tunnel to access RDP sessions. It strives to be a win32 native application using the libraries from libssh2 project. In the future there is an intention to support VNC as well.
+
+iTALC.sf.net >>iTALC is a use- and powerful didactical tool for teachers. It lets you view and control other computers in your network in several ways. It supports Linux and Windows 2000/XP (Vista support will come) and it even can be used transparently in mixed environments!
+
+QuickSynergy.GoogleCode.com >>QuickSynergy is a graphical interface (GUI) for easily configuring Synergy2, an application that allows the user to share his mouse and keyboard between two or more computers.
+
+Synergy2.sf.net >>Synergy lets you easily share a single mouse and keyboard between multiple computers with different operating systems, each with its own display, without special hardware. It's intended for users with multiple computers on their desk since each system uses its own monitor(s).
+
+VisitPC.sf.net >>VisitPC: Remote desktop over the Internet - Remote computer access - Single click for desktop access - VNC compatibility - File Transfer - Encryption - Port forwarding - Multi platform support
+
+StraightRunning.com/XmingNotes and Xming.sf.net >>Xming is the leading [WWW]X Window Server for Microsoft Windows® (XP/2003/Vista/7). It is fully featured, lean, fast, current, simple to install and because it is standalone native Microsoft Windows, easily transported [WWW]portable as a Pocket PC X server.
+
+LiveScreen.sf.net >>LiveScreen makes it possible to publish GUI screenshots that users can interact with. Unlike other remote desktop solutions, no special client is required. Web browsers can act as clients without employing helper apps, plugins or Java.
+
+VCL.sf.net >>VCL (Virtual Computer Lab) is a PHP/MySQL web interface based on MRBS that allows users to schedule access to VirtualBox (c) virtual machines. Once reserved, users can control their VM's through a web interface, and access them via RDP.
+
+CoRD.sf.net >>CoRD is a Mac OS X remote desktop client for Microsoft Windows computers using the RDP protocol. It's easy to use, fast, and free for anyone to use or modify.
+
+UniTeS.sf.net >>UniTeS is a multiplatform virtual desktop what uses different Terminal Services and connection clients like rdesktop, XDMCP, rdp, etc. to allow users to connect to apps located in different systems from a common place.
+
+Remmina.sf.net >>Remmina is a remote desktop client written in GTK+. Remmina supports multiple network protocols in an integrated and consistant user interface. Currently RDP, VNC, XDMCP and SSH are supported.
+
+Neatx.GoogleCode.com >>Neatx is an Open Source NX server, similar to the commercial NX server from NoMachine.
+
+Grdc.sf.net >>Grdc is a remote desktop client based on GTK+ and Gnome. It provides a GTK+ application and a Gnome applet. Features include scrollable/scalable window, floating toolbar, keyboard grabbing, etc. Support RDP (rdesktop), VNC (libvncclient) and SSH (libssh)
+
+RDesktop.org >>rdesktop is an open source client for Windows Terminal Services, capable of natively speaking Remote Desktop Protocol (RDP) in order to present the user's Windows desktop. Supported servers include Windows 2000 Server, Windows Server 2003, Windows Server 2008, Windows XP, Windows Vista and Windows NT Server 4.0.
+
+AtomIce.com/blog/?page_id=9 >>
+
+FreeRDP.sf.net >>FreeRDP is a fork of the rdesktop project that intends to rapidly start moving forward and implement features that rdesktop lacks the most.
+
+xrdp.sf.net >>Based on the work of rdesktop, xrdp uses the remote desktop protocol to present a GUI to the user.  The goal of this project is to provide a fully functional Linux terminal server, capable of accepting connections from rdesktop and Microsoft's own terminal server / remote desktop clients.
+
+FreeNX.berliOS.de >>NX is an exciting new technology for remote display. It provides near local speed application responsiveness over high latency, low bandwidth links. The core libraries for NX are provided by NoMachine under the GPL. FreeNX is a GPL implementation of the NX Server and NX Client Components.
+
+Synergy2.sf.net >>Synergy lets you easily share a single mouse and keyboard between multiple computers with different operating systems, each with its own display, without special hardware. It's intended for users with multiple computers on their desk since each system uses its own monitor(s).
+
+
+http://www.windowsnetworking.com/kbase/WindowsTips/WindowsServer2008/AdminTips/TerminalServersAndThinClients/AQuickTipToEnableTerminalServicesAccessForPreviousVersionsofWindows.html
+"'
+ Windows Server 2008 runs in higher security level. By default, Windows Server 2008 does not allow previous versions of Windows computers to access the Server Core via Terminal Services. You must turn off the higher security level to allow them to access via Terminal Services
+
+   1. Enable the terminal services if it is not enabled already:
+
+      Cscript C:\Windows\system32\Scregedit.wsf /ar 0
+   2. Next, run the following command to turn off the higher security level:
+
+      Cscript C:\Windows\System32\Scregedit.wsf /cs 0
+'"
+
+
+== Concurrent RDP:
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TerminalServer\Licensing Core
+DWORD EnableConcurrentSessions=1

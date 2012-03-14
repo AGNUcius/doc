@@ -1,0 +1,135 @@
+Related: boot, drive, flash, image
+
+
+== Making USB keys in Vista
+$ DiskPart.exe clean
+$ DiskPart.exe format
+$ COPY files to USB key
+$ RENAME "i386" "MiniNT"
+$ COPY "MiniNT\SETUPLDR.BIN" "NTLDR"
+$ COPY "\MiniNT\NTDETECT.COM" "NTDETECT.COM"
+
+
+==Tools
+LiveUSB.info >>	MultiSystem Le premier LiveUSB MultiBoot.
+
+Wikipedia.org/wiki/List_of_tools_to_create_Live_USB_systems
+
+MultiBoot-USB.Yoshimov.com >>isobooster - Multiboot USB tool is the script to create multiboot USB stick that uses ISO files to boot each LiveOS directly.  You can easily install and remove each OS and install huge number of LiveOS in one USB stick.
+
+Shounen.ru/soft/flashnul >>Flashnul - tool for performance testing and maintenance of Flash-Memory (USB-Flash, IDE-Flash, SecureDigital, MMC, MemoryStik, SmartMedia, XD, CompactFlash, etc.)
+
+UUSB.sf.net >>linux usb traffic monitor/sniffer/capture/analyzer
+
+LinuxLiveUSB.com >>LiLi will allow you to test almost any Linux distributions directly from Windows, or just install them from a USB flash drive instead of CDs.
+
+UNetbootin.sf.net >>UNetbootin allows you to create bootable Live USB drives for a variety of Linux distributions from Windows or Linux, without requiring you to burn a CD. You can either let it download one of the many distributions supported out-of-the-box for you, or supply your own Linux .iso file if you've already downloaded one or your preferred distribution isn't on the list.
+
+FedoraHosted.org/liveusb-creator >>The liveusb-creator is a cross-platform tool for easily installing live operating systems on to USB flash drives.
+
+CD2USB.GoogleCode.com >>cd2usb is a program to create Ubuntu Live USBs
+
+CD2USB.sf.net >>"Cd2usb by hacktolive" (formerly "ULUMFW") is a Windows program, designed to make Live USBs of Ubuntu (also works with Super Ubuntu). Credits to pendrivelinux.com for the inspiration for this tool and original basic design! GUI made by Vince'.
+
+USBIP.sf.net >>The USB/IP Project aims to develop a general USB device sharing system over IP network. To share USB devices between computers with their full functionality, USB/IP encapsulates USB I/O requests into IP packets and transmits them between computers.
+
+$ bootsect.exe /force /nt60 G:\ #where G:\ is the USB drive.  From the WAIK
+
+Launchpad.net/win32-image-writer >>This tool is used for writing images to USB sticks on Windows.
+
+LiveUSBHelper.sf.net >>If you haved already be familiar with Clonezilla or DRBL, you might be interested in Live USB Helper. It can help you deploy the clonezilla's image file to the flash drive. Furthermore, it can make the flash drive bootable and it's multilanguage support.
+
+CloneZilla.org/clonezilla-live/liveusb.php >>
+
+
+CAUTION: /dev/sd[a-z] may be SATA drives in 2.6.* Linux kernels
+
+$ sudo fdisk -l #list all devices that appear to be disks
+> Disk /dev/sda: 250.0 GB, 250059350016 bytes
+> Disk /dev/sdb: 127 MB, 127664128 bytes
+> ...
+> /dev/sdb1               1         247       15792    1  FAT12
+
+$ sudo mkdir /media/sdb1 #make a directory for mounting
+$ sudo mount /dev/sdb1 /media/sdb1 #mount USB drive
+$ sudo umount /dev/sdb1 #unmount when finished
+
+==Other commands:
+$ usbview #USBView.sf.net >>USBView is a GTK program that displays the topography of the devices that are plugged into the USB bus on a Linux machine.
+$ lsusb
+$ dmesg | grep -i usb
+$ cat /proc/bus/usb/devices
+$ dir /proc/scsi
+$ dir /proc/scsi/usb-storage
+$ lsmod | grep -i usb
+$ lsmod | grep -i scsi
+
+
+==Boot
+PenDriveLinux.com >>Boot and run Linux from a USB flash memory stick
+
+Rudd-O.com/new-projects/portablelinux >>The bootable USB live Linux creator. Live USB drives -- pen, thumb, SD, MMC or even phones with USB Mass Storage support -- created with this tool let you use the empty disk space on Windows, Linux and Mac, remember the changes you make across reboots, and boot other operating systems. No other tool comes close.
+
+http://windowsconnected.com/blogs/joshs_blog/archive/2007/02/05/creating-a-bootable-winpe-2-0-usb-key.aspx >>Creating A Bootable WinPE 2.0 USB Key
+
+http://home.graffiti.net/jaclaz:graffiti.net/Projects/USB/USBstick.html >>EVERYTHING YOU EVER WANTED TO KNOW ABOUT BOOTING FROM AN USB PENDRIVE ... AND DARED TO ASK
+http://home.graffiti.net/jaclaz:graffiti.net/Projects/USB/USBfaqs.html >>EVERYTHING YOU EVER WANTED TO KNOW ABOUT BOOTING FROM AN USB PENDRIVE ... AND DARED TO ASK
+
+BootDisk.com/pendrive.htm
+"'
+How To Boot From A USB Flash Drive
+
+For starters this is still a new science and many people have had good luck with at least one of these methods and others have not. Note that flash drives are often also called thumb drives, keychain drives, pendrives, etc.
+
+A FEW THINGS YOU NEED TO CONSIDER IN ADVANCE.
+
+1. The PC has to support booting from a USB flash drive. There may be anywhere from 1-3 items to change in the BIOS to make this possible assuming your BIOS supports it. Some bios's may refer to your flash drive as a USB floppy or USB zip.
+2. The USB flash drive must support booting from it in general.
+3. The flash drive must contain the boot/system files.
+4. The flash drive must have bootsector area. This is done with special utilities.
+5. References to "A:" drive lines in the autoexec.bat and/or config.sys files you copy to the drive after you make it bootable may result in errors.
+6. You "may" have to format your floppy disk first in WinXP before you create a bootdisk as XP may "not" like working later on with a disk formatted otherwise.
+7. Included below is a bootable ISO of DOS 7.1 which may be used with some of these methods if you do not have a 1.44 drive.
+'"
+
+http://hacktolive.org/wiki/Create_a_Live_USB_of_ubuntu
+
+Microsoft.com/whdc/archive/usb-boot.mspx >>Archive: Recommendations for Booting Windows from USB Storage Devices    Updated: August 23, 2004
+
+Bootdisk.com/pendrive.htm
+
+
+----
+"'Instructions - installing Parted Magic to a USB stick
+
+Download the latest version of Parted Magic LiveUSB. You should have a file called
+partedmagic-liveusb-1.X.zip, where 1.X is the current version. Unzip that file to
+your USB stick and you can do this in Linux using the unzip command, or using
+Winzip in Windows.
+
+Then run syslinux, which will install the bootloader needed for Parted Magic to be
+able to boot from the USB stick. Syslinux can be downloaded at
+http://syslinux.zytor.com
+
+or from here:
+
+http://partedmagic.com/downloads/syslinux/syslinux.exe.zip
+
+in Linux type:
+
+syslinux /dev/sda1
+
+if your USB drive is found at /dev/sda1.
+
+in Windows type:
+
+syslinux.exe E:
+
+if your USB drive is found at E:
+
+This should make your USB stick bootable.
+'" -- PartedMagic.com/docs/mkliveusb.txt
+
+
+libUSB-Win32.sf.net >>Libusb-win32 is a port of the USB library libusb  to the Windows operating systems (Win98SE, WinME, Win2k, WinXP). The library allows user space applications to access any USB device on Windows in a generic way without writing any line of kernel driver code.
+

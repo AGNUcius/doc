@@ -1,0 +1,73 @@
+Related: code, compute, develop, edit, program, Visual Studio
+
+IDE = Integrated Development Environment
+
+CodeMirror.net >>CodeMirror is a JavaScript library that can be used to create a relatively pleasant editor interface for code-like content - computer programs, HTML markup, and similar. If a mode has been written for the language you are editing, the code will be coloured, and the editor will optionally help you with indentation.
+
+Cloud9IDE.com >>Cloud9 IDE is aiming to be the IDE for Javascript developers. We have all experienced the Eclipse variants and other Java or C++ IDE's for which webdevelopment and javascript was an afterthought. Extending these applications or customizing them to our needs was done in either Java or C++ and generally very difficult. We are developing applications in javascript to run online for a purpose, why shouldn't you do your application development online too?
+
+wxDsgn.sf.net >>wxDev-C++ is an extension of Dev-C++ by Colin Laplace et. al. This program helps you to create dialogs and frames for wxWidgets visually using a form designer. With all the wonderful features of Dev-C++, wxDev-C++ is still being actively developed. The main aim of this project is to provide the wxWidgets community with a free, open-source, commercial-grade IDE/RAD tool for development with wxWidgets.
+
+WideStudio.org >>WideStudio is an open source, Integrated Development Environment for desktop applications purely made in Japan. This enables you to develop GUI applications that can run on Windows95/98/Me/NT/2000/Xp/Vista, WindowsCE, Linux, FreeBSD, SOLARIS, MacOSX(w/X11), BTRON, T-Engine, mu-CLinux(wo/X11) in various programming languages such as C/C++, Java, Perl, Ruby, Python,Objective Caml    Since an application is build on MWT(Multi-Platform Widget Toolkit) which runs on multiple platforms, WideStudio applications are all source compatible between these platforms. If you developped an application in C/C++ language, you only need to re-compile the source code to run on a different platform in as native code.
+
+CodeBlocks.org >>Code::Blocks is a free C++ IDE built to meet the most demanding needs of its users. It is designed to be very extensible and fully configurable.
+
+UltimatePP.org >>Ultimate++ is a C++ cross-platform rapid application development suite focused on programmers productivity. It includes a set of libraries (GUI, SQL, etc..), and an integrated development environment. - Rapid development is achieved by the smart and aggressive use of C++ rather than through fancy code generators. In this respect, U++ competes with popular scripting languages while preserving C/C++ runtime characteristics.
+
+CodeLite.org >>CodeLite is a powerful open-source, cross platform IDE for the C/C++ programming languages (build and tested on Windows XP SP3, (K)Ubuntu 8.04, and Mac OSX 10.5.2). CodeLite is distributed under the terms of the GPL license.
+
+Geany.org >>Geany is a text editor using the GTK2 toolkit with basic features of an integrated development environment. It was developed to provide a small and fast IDE, which has only a few dependencies from other packages.
+
+KDevelop.org >>KDevelop is a free, opensource IDE (Integrated Development Environment) for MS Windows, Mac OsX, Linux, Solaris and FreeBSD.  It is a feature-full, plugin extendable IDE for C/C++ and other programing languages.  It is based on KDevPlatform, KDE and Qt libraries and is under development since 1998.
+
+TrollTech.com/developer/qt-creator >>Qt Creator is a new, lightweight, cross-platform integrated development environment (IDE) designed to make development with the Qt application framework even faster and easier.
+
+OpenKomodo.com >>The Open Komodo Project, based on the award-winning Komodo IDE, is a new initiative by ActiveState to create an open source platform for building developer environments. ActiveState has open-sourced elements of Komodo Edit, a free multi-language editor for dynamic languages based on Komodo IDE, to create the Open Komodo code base.
+
+wxDsgn.sf.net (2010)>>wxDev-C++ is an extension of Dev-C++ by Colin Laplace et. al. This program helps you to create dialogs and frames for wxWidgets visually using a form designer. With all the wonderful features of Dev-C++, wxDev-C++ is still being actively developed. The main aim of this project is to provide the wxWidgets community with a free, open-source, commercial-grade IDE/RAD tool for development with wxWidgets.
+
+wxStudio.sf.net
+
+wxWorkShop.sf.net (2002)
+
+SallyIDE.sf.net >>"Sally - A Simple C++ IDE" is a GPL multi-compiler C++ IDE for WindowsXP/2000.
+
+BabyDevelop.sf.net >>BabyDevelop is a lightweight Integrated Development Environment for C, C++, Qt and support for the GP2X/SDL.  Easy to use, fast to start and compile, expandable in functional range for anyone.  For Linux, Mac OS X and Windows (cygwin).
+
+LittleWizard.sf.net >>Little Wizard is a development environment for children. It is intended to be used by primary school children to learn about the main elements of real computer languages. Using only the mouse, children can explore programming concepts such as variables, expressions, loops, conditions, and logical blocks. Every element of the language is represented by an intuitive icon, making it easy to learn.
+
+www.SRCF.UCAM.org/~dmi1000/roboc >>Roboc is designed as a teaching language, so it doesn't require any previous programming experience, and is suitable for short courses (from two hours to two weeks). Relatively young programmers (14-17 years) should find it OK. It has been developed in conjunction with programming classes for such students, and has evolved based on the issues which were observed during teaching. To keep things simple we added only those language features which turned out to be necessary (for example, and was added to conditions because deeply nested if statements caused difficulty for some students).
+
+Eidola.org >>Eidola is a representation-independent, object-oriented, visual programming language.
+
+SmallBASIC.sf.net >>The SmallBASIC project aims to provide a full featured and easy to use interpreted language suitable for non serious programming on any computing platform.
+
+kidBasic.sf.net (now BASIC-256)>>BASIC-256 is an easy to use version of BASIC designed to teach young children the basics of computer programming. It uses traditional control structures like gosub, for/next, and goto, which helps kids easily see how program flow-control works. It has a built-in graphics mode which lets them draw pictures on screen in minutes, and a set of detailed, easy-to-follow tutorials that introduce programming concepts through fun exercises.
+
+kturtle
+
+LogoGL.sf.net >>LogoGL aims to bring back the joy and amusement of learning the basis of programming through Logo, but in a 3D OpenGL world. It should feature a nice cartoon turtle with an intuitive interface for young ones and a complete command-line for the adults.
+
+DrScheme, DrPython
+
+Libre.ADACore.com/gps >>GPS, the GNAT Programming Studio, is a cutting-edge Free Software IDE that streamlines the interaction between developers and their software. With its intuitive interface, GPS is easy to use, simplifying source navigation and highlighting the fundamental ideas in the program.
+
+Leksah.org >>Leksah is a Haskell IDE (Integrated Development Environment) written in Haskell based on Gtk+ and gtk2hs. Leksah is a practical tool to support the Haskell development process. It is platform independent and runs on any platform where GTK+, gtk2hs and GHC can be installed. It is currently been tested on Windows and Linux but it should work on the Mac. It works with the Glasgow Haskell Compiler (GHC).
+
+www.ncc.up.pt/apoo >>Apoo    An environment for a first course in assembly language programming
+
+Members.Save-Net.com/jko%40save-net.com/asm (DesktopLinuxAsm, asmide)>>If you enjoy assember coding and think it is more than a technique to optimize slow code then you are in the right place.
+
+Anjuta.org
+
+April-Child.com implemented in javascript and Ruby
+
+Eclipse (java)
+
+DevKitPro.org >>This site is home to the toolchains of choice for homebrew game development, currently available for GameBoy Advance, GP32, Playstation Portable and GameCube. More platforms will be added as time permits.
+
+MonoDevelop.com >>MonoDevelop is an IDE primarily designed for C# and other .NET languages. MonoDevelop enables developers to quickly write desktop and ASP.NET Web applications on Linux. MonoDevelop makes it easy for developers to port .NET applications created with Visual Studio to Linux and to maintain a single code base for all platforms.
+
+SharpDevelop.net >>SharpDevelop is an Integrated Development Environment (IDE) for .NET Framework applications. It supports the development of applications written in C#, Visual Basic.NET, Boo and IronPython.
+
+Wikipedia.org/wiki/List_of_integrated_development_environments

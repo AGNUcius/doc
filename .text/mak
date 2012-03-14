@@ -1,0 +1,25 @@
+Related: bake, build, birth, compile, create, made, produce, qmake
+
+IndustriousOne.com/premake >>Powerfully simple build configuration    Describe your software project just once, using Premake's simple and easy to read syntax, and build it everywhere. Generate project files for Visual Studio, GNU Make, Xcode, Code::Blocks, and more across Windows, Mac OS X, and Linux. Use the full featured Lua scripting engine to make build configuration tasks a breeze.
+
+FreeSoftwareMagazine.com/books/autotools_a_guide_to_autoconf_automake_libtool >>Autotools: a practitioner's guide to Autoconf, Automake and Libtool
+
+OMake.metaprl.org (OCaml)>>OMake is a build system designed for scalability and portability.
+
+BakeFile.org >>Bakefile is cross-platform, cross-compiler native makefiles generator. It takes compiler-independent description of build tasks as input and generates native makefile (autoconf's Makefile.in, Visual C++ project, bcc makefile etc.).
+
+CMake.org >>Welcome to CMake, the cross-platform, open-source build system. CMake is a family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files. CMake generates native makefiles and workspaces that can be used in the compiler environment of your choice.
+
+PreMake.sf.net >>You are the manager of a software project. Your users are asking you for a Visual Studio workspace file, but you don't have Visual Studio! Or perhaps you are a Windows developer struggling to keep Makefiles in sync for a Linux port. It's a common problem for open source projects: restrict your users to a single build tool -- driving away potential contributors -- or manually maintain two, three, or more sets of build scripts. Enter Premake.
+
+BitWiserLabs.com/cppmake >>Cppmake is a front-end to make that builds C++ programs with less effort and more accuracy than writing makefiles manually.
+
+Makezine.com
+
+MakingThings.com >>MakingThings provides software and electronics tools for people who create projects that interact with the physical world.  A broad range of people use MakingThings products including artists, designers, students, musicians, hobbyists and engineers.
+
+Make-Stuff.com
+
+Savannah.nonGNU.org/projects/mkproject >>`Make project' is a bash script that makes project skeletons.  It automatizes the task of start a new project with the information provided from the command line.  The package created by default is a `hello world' project of the selected skeleton that uses the autotools to be managed.
+
+SCons.org >>SCons is an Open Source software construction tool -- that is, a next-generation build tool.  Think of SCons as an improved, cross-platform substitute for the classic Make utility with integrated functionality similar to autoconf/automake and compiler caches such as ccache.  In short, SCons is an easier, more reliable and faster way to build software.

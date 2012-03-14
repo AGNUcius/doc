@@ -1,0 +1,22 @@
+body {background:#000; color:#ccc;}
+
+#main {background:#000; border:1em solid #111;}
+
+#header,#footer {background:#111;}
+
+span.date{background:#ccc; color:#000;}
+
+span.quot,span.quot2,span.quot3{color:#ccc;}
+
+span.quot{background:#022;}
+span.quot2{background:#220;}
+span.quot3{background:#202;}
+
+span.cmnt{background:#020;}
+span.shell{background:#222;}
+span.type{background:#200;}
+
+a{color:#0af;}
+a:visited{color:#0c6;}
+a:hover, a:focus{background:#fa0; color:#000;}
+a.ext{color:#c06;}

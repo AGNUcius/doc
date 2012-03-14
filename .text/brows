@@ -1,0 +1,53 @@
+Related: web, file, HTML, HTTP, net, XUL
+
+Dillo-Win32.sf.net >>unofficial patched version of Dillo.org
+
+Dooble.sf.net >>Dooble Web Browser provides cross-platform functionality, solid performance, and stability. Integrated privacy features include: download manager, e-mail client, messenger, and search engine.  An integrated desktop and a rich file manager are also included.
+
+uzbl.org >>Uzbl - web interface tools which adhere to the unix philosophy.
+
+KMeleon.sf.net >>K-Meleon is an extremely fast, customizable, lightweight web browser based on the Gecko layout engine developed by Mozilla which is also used by Firefox. K-Meleon is free, open source software released under the GNU General Public License and is designed specifically for Microsoft Windows (Win32) operating systems.
+
+TwoToasts.de/index.php?/pages/midori_summary.html >>Midori is a lightweight web browser.
+
+Arora.GoogleCode.com and Arora-Browser.org >>Arora is a lightweight cross-platform web browser. It's free (as in free speech and free beer). Arora runs on Linux, embedded Linux, FreeBSD, Mac OS X, Windows and any other platforms supported by the Qt toolkit.
+
+GNU.org/software/gnuzilla >>GNUzilla is the GNU version of the Mozilla suite, and GNU IceCat is the GNU version of the Firefox browser. Its main advantage is an ethical one: it is entirely free software. While the Firefox source code from the Mozilla project is free software, they distribute and recommend non-free software as plug-ins and addons.
+
+GetSwiftFox.com >>Swiftfox is an optimized build of Mozilla Firefox. Swiftfox has builds for both AMD and Intel processors and is based on the most cutting edge Firefox source code available.
+
+Firefox
+
+curl, wget, wput
+
+retawq.sf.net >>Welcome to the home page of the retawq project. retawq is an interactive, multi-threaded network client (web browser) for text terminals on computers with Unix-like operating systems. It is written in C, fast, small, nicely configurable, and comfortable; e.g. the low-level network communications are performed in a non-blocking way, and you can keep open as many "virtual windows" as you want and work simultaneously in two of them in a split-screen mode.
+
+pypi.Python.org/pypi/mechanoid >>mechanoid is a programmatic browser written in Python. It is intended as an engine which will do things like log in as SourceForge project admin and do a Quick Release or send and receive Yahoo mail. mechanoid is a fork of John J. Lee's mechanize.
+
+SkipStone
+
+Flock.com
+
+Kazehakase.sf.jp >>Kazehakase is a browser with gecko engine like Epiphany or Galeon.
+
+Inquisitor.sf.net >>Frenzy's Inquisitor Homepage Visual SiteRipper and HTML Browser Tool
+
+uBrowser.com >>uBrowser is an open source test mule that renders interactive web pages onto geometry using OpenGL® and an embedded instance of Gecko, the Mozilla® rendering engine. Its primary purpose is to help me integrate Gecko into my company's software - a 3D virtual world called Second Life.
+
+Conkeror.MozDev.org >>Conkeror is a mozilla based web browser designed to be completely keyboard driven, no compromises. It also strives to behave as much like Emacs as possible. This means all the keybindings and to-die-for features of Emacs that can be imitated by a javascript/XUL web browser Just Work.
+VIMperator.MozDev.org >>First there was a Navigator, then there was an Explorer. Later it was time for a Konqueror. Now it's time for an Imperator, the VIMperator :)
+
+SwiftWeasel.TuxFamily.org >>Main Menu About Downloads Forums News Old News Repository Statistics Which Build Wiki Swiftweasel is an optimized build of the Mozilla Firefox web browser for Linux. With builds for both AMD and Intel processors. Swiftweasel is 100% compatible with all Firefox themes, plugins, and extensions.
+
+Gnome.org/projects/epiphany
+
+Dillo.org
+
+Lynx Links Links2
+w3m
+qemacs?
+Emacs: w3, w3m, ewb
+browsex.com
+netrick.sf.net
+
+FreeWRL.sf.net >>FreeWRL is an open-source(R) VRML and X3D browser written primarily for the Linux (Unix) and OS X platforms. FreeWRL runs on both 32 and 64 bit Linux platforms. FreeWRL has been released as a Universal Binary for the OS X platform - it can run natively on both Intel and G4 Apple computers.

@@ -1,0 +1,204 @@
+Related: cert, Emacs, lock, pass, sign
+
+AutoKey.sf.net >>AutoKey is a text replacement and hotkey utility. It allows you to manage collection of phrases or other text, and assign abbreviations and hotkeys to these phrases allowing you to insert them on demand into whatever program you are using. This is the most basic functionality, and is similar to a well-known Windows utility called AutoHotkey.
+
+EKeyFinder.sf.net >>is a Magical Jelly Bean Keyfinder fork. It is a utility that retrieves the product key used to install Windows from your registry or from an unbootable Windows installation. It works on Windows 9X, ME, NT/2K/XP, and Vista/Win7 and for other software.
+
+Keyfinder.sf.net >>The Magical Jelly Bean Keyfinder is a freeware open source utility that retrieves your Product Key (cd key) used to install Windows from your registry. It allows you to print or save your keys for safekeeping. It works on Windows 95, 98, ME, 2000, XP, Vista, Server 2003, Server 2008, Office XP, Office 2003, and Office 2007 family of products. It also has a community-updated configuration file that retrieves product keys for many other applications. Another feature is the ability to retrieve product keys from unbootable Windows installations.
+
+$ xev #print contents of X events
+
+AutoHotKey.com >>AutoHotkey unleashes the full potential of your keyboard, joystick, and mouse. For example, in addition to the typical Control, Alt, and Shift modifiers, you can use the Windows key and the Capslock key as modifiers. In fact, you can make any key or mouse button act as a modifier. For these and other capabilities, see Advanced Hotkeys.
+
+SolemnWarning.net/kbtrap >>kbtrap is a program which monitors a keyboard for events and executes commands when selected keys are pressed/released, it is implemented as a server/client connected by pipes for flexibility. Documentation is included with the downloads, kbtrap is currently in very early development stages and I'd be interested in hearing suggestions/ideas from anyone.
+
+KeyTouch.sf.net >>KeyTouch is a program which allows you to easily configure the extra function keys of your keyboard. This means that you can define, for every individual function key, what to do if it is pressed.
+
+Firefox:
+Ctrl-a select All text
+Ctrl-n create New window
+Ctrl-t create new Tab
+C-r Reload page
+CS-r force Reload page
+
+Plan for Universal Interface (UI):
+WindowKey Open 'Root' menu.
+CS-ESC    Display system monitor.
+CA-Del    Open 'Power' menu.
+CA-Bckspc Menu to fix resolution, refresh rate, login portal
+
+WindowKey-z Open 'Root' menu when WindowKey alone won't.
+WindowKey-e Light browser and editor for disk and net.
+WindowKey-r Run prompt.
+WindowKey-m Minimize all windows.
+WindowKey-t Terminal
+WindowKey-l Lock Console.
+
+For X Window use .xmodmap
+$ xmodmap ./.text/.xmodmap
+
+==Remap Caps to Ctrl on a GNU/Linux virtual terminal:
+Press Ctrl-Alt-F1 to enter the first virtual terminal (a virtual terminal is NOT an [agk[rxv]ux]term inside of X).
+
+Now run:
+$ sudo dumpkeys | head -1 > /usr/share/keymaps/Caps2Ctrl.map
+
+Then add the following lines to that file:
+----------------------------------------------------------------
+keycode 58 = Control #This makes Caps act as Ctrl
+# keycode 29 = Caps_Lock #This makes Ctrl act as Caps
+# alt_is_meta #This fixes the Alt key for Emacs
+----------------------------------------------------------------
+
+Then run loadkeys on it:
+$ sudo loadkeys /usr/share/keymaps/Caps2Ctrl.map
+
+To revert:
+$ loadkeys -d #load default keymap file
+$ rm /usr/share/keymaps/Caps2Ctrl.map
+
+For more extensive editing try:
+$ dumpkeys > my_keymap
+$ cp my_keymap trial_keymap
+$ edit trial_keymap
+$ loadkeys trial_keymap
+
+$ man keymaps
+"'
+   It should be noted that using numeric notation for the
+   keysyms is highly unportable as the key action numbers
+   To find out what keysyms there are available  for  use
+   in keymaps files, use the command
+
+          dumpkeys --long-info
+
+   Unfortunately,  there  is  currently no description of
+   what each symbol does. It has to be guessed  from  the
+   name or figured out from the kernel sources.
+'"
+
+
+Alt+Sysrq requests are allowed when the file /proc/sys/kernel/sysrq contains the value '1'.
+
+Press Alt+Sysrq, then one of the following letters:
+r 	Unraw: Restores the keyboard after an X crash or similar.
+0 	Changes console loglevel to 0 and so reduces error messages.
+k 	System attention key: Kills all processes on the current virtual console.
+e 	Terminate: Kills all processes except init on the current terminal.
+i 	Kill: Kills all processes except init, everywhere.
+s 	Sync: Attempts to sync all mounted filesystems. Outputs OK and Done when it's managed. This can reduce the chances of needing to run fsck at a later stage so it can be useful if you're having disk problems.
+u 	Umount: Attempts to remount all mounted filesystems read-only.
+b 	Reboot: immediately reboots the system without syncing or unmounting disks. Not a good idea unless in extremis! This may lead to data loss.
+p 	Dumps current registers and flags to the console.
+m 	Dumps current memory info to the console.
+
+To unmount all drives, terminate all processes and reboot cleanly: Hold <Right Alt> and the SysRq/PrtScn key while typing: R E I S U B
+
+
+$ mstsc.exe #aka "Remote Desktop" or "Terminal Services"
+ Alt+Tab->Alt+Page-Up
+ Alt+Shift+Tab->Alt+Page-Down
+ Alt+Esc->Alt+Insert
+ Ctrl+Esc->Alt+Home
+ Alt+SPACE->Alt+Delete
+ Ctrl+Alt+Del->Ctrl+All+End
+ Print-Screen->Ctrl+Alt+Minus
+ Alt+Print-Screen->Ctrl+Alt+Plus
+
+
+
+GeekQuanta.BlogSpot.com/2007/07/remapping-ctrl-and-caps-lock-in-windows.html
+"'
+Remapping CTRL and CAPS LOCK in Windows Vista
+As any Unix geek will quickly tell you, one of the greatest frustrations of serious geeks with the PC keyboard is the placement of the CTRL key and the CAPS LOCK key. Look at your PC keyboard, you'll see the CAPS LOCK by your "a" key and the CTRL key waaaay down in the bottom left (and usually also on the right). That wasn't the way it was back in the day. Once upon a time, the CAPS LOCK and CTRL keys were switched.
+
+Now, I'm too young to have cut my teeth on Sparc stations, mainframes, mid-ranges, or minis back in the days of BSD and AT&T Unix, where these keyboard configurations were standard. However, I've read about them in various Linux & FreeBSD mailing lists, websites, etc. Amongst the Linux crowd, it's still a big todo.
+
+Having carpal tunnel syndrome and being an avid Linux CLI user, the concept was always appealing to me. For those that don't know, the CTRL key is used heavily in advanced CLI operations (e.g., CTLR-L will clear your terminal screen, CTRL-U will clear the line of text you're typing, CTRL-K will clear the text after your cursor, etc.)
+
+Since it's so heavily used, putting the CTRL key next to the "a" key makes a lot of sense. One doesn't have to move too far from the home keys in order to hold it down while pressing the other key of interest. One also strikes the CTRL key far more frequently than the CAPS LOCK key. Less movement of the fingers is a BIG and GOOD thing when having to deal with RSI. That's the same reason I'm teaching myself the Dvorak keyboard...but that's a story for another post... ;-)
+
+So, switching the CTRL key with the CAPS LOCK key is a very good idea, for those of us who live on the command line interface.
+
+In either case, the remapping is easy enough to achieve in any Linux distro. I had thought I could achieve the same in Windows using Mark Russinovich's CTRL2CAP. It's worked well for me in the past, on Win2K and even WinXP. However, my new Toshiba is running the dreaded V, and I face the imminent and depressing prospect of having to use the same at work. So, finding a way to make the switch was somewhat important to me.
+
+After a thorough job of Googling, I found this link with instructions to directly manipulate the Windows registry to achieve the switch in WinNT and Win2K. I was wary about it working, since when I clicked through on the in-depth technical background on the registry tweak referenced a mailing list posting from 1996 that talked about the hack definitively working on NT 4.0, and maybe on 3.5...!
+
+Still, I figured, what's the worst that could happen?
+
+The answer is, nothing bad happens. I got it wrong the first few times and nothing failed or crashed, it simply didn't change anything. Once I got it right, it worked like a champ on Windows Vista. I fixed my keyboard problem, my CTRL key is now completely switched with my CAPS LOCK. I'm now a much happier and healthier geek.
+
+Oh, just in case the page evaporates, as things are wont to do on the Internet from time to time, here's the original posting in full:
+
+    Windows Registry Key-remap
+    Changing NT and Win2K Keymaps through the Registry
+
+    1. Run Start->Run...
+    2. Open: regedt32 to edit the registry.
+    3. Select the key
+
+    HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Keyboard Layout
+
+
+    4. From the Edit menu, choose "Add Value" to add a value named "Scancode Map" with type REG_BINARY.
+    5. Set the value for the layout you want (copy and paste the bold text below):
+    * Map CapsLock -> Left Ctrl:
+    0000000000000000020000001d003a0000000000
+    * Swap CapsLock and Left Ctrl:
+    0000000000000000030000001d003a003a001d0000000000
+    * CapsLock->Left Ctrl, Left Ctrl->Left Alt, Left Alt->CapsLock:
+    0000000000000000040000001d003a0038001d003a00380000000000
+    6. Reboot your machine
+
+
+
+I tried the third option, to do a full three-key switch between CTRL, ALT, and CAPS LOCK, but immediately realized it was a mistake. The ALT key is used too frequently for things like ALT-TAB window switching. It's native placement by the space bar makes it handy to hit with the thumb, which is the strongest digit on the hand - a good thing for those of us with carpal tunnel.
+
+In addition, here's the original email that the original poster references. It's fairly interesting.
+
+    Scancode Map Email
+
+    From: Shane Holder <holder@mordor.rsn.hp.com>
+    To: "Jeff McCarrell" <jwm@cccpp.com>
+    Cc: cmcmahan@Teknowledge.COM, Jonathan Payne <jpayne@marimba.com>, ntemacs-users@cs.washington.edu
+    Subject: Re: Re[2]: problem with caps/ctrl swap on NT 4.0
+    Date: 04 Dec 1996 14:36:21 -0600
+
+
+    Found this on the net somewhere.
+
+    Add this value:
+
+    HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\KeyBoard Layout\Scancode Map
+
+    It's a binary value that lets you map keystrokes in the low-level keyboard drivers in NT. As a result you don't have to worry about applications bypassing mappings that you've done at a higher level (i.e. it just works).
+
+    Here's the format of the value:
+
+    DWORD: 0x00000000 header
+    DWORD: 0x00000000 header
+    DWORD: length (in DWORDs) of remaining data, including terminating DWORD
+    DWORD: mapping 1
+    ...
+    DWORD: mapping n
+    DWORD: 0x00000000 terminating null DWORD
+
+    Each mapping DWORD has two parts: the input scancode, and an output scancode. To map scancode 0x1d (left control) to scancode 0x3a (caps lock), you want a value of 0x003a001d. Note that this does not swap the keys. Using just this mapping value, both the left control and the caps lock key will behave as caps-lock. To swap, you also need to map 0x3a to 0x1d, using 0x001d003a. So, the complete registry value you'd use to swap left-control and caps-lock is:
+
+    00 00 00 00 00 00 00 00 03 00 00 00 1d 00 3a 00 3a 00 1d 00 00 00 00 00
+
+    This works on NT 4.0, I don't know about 3.51. This registry value is system wide, and can't be made user-specific. It also only takes affect on reboot.
+
+
+
+
+    --
+    Shane Holder e-mail: holder@rsn.hp.com
+    Hewlett Packard phone: (214)497-4182
+    3000 Waterview Never underestimate the bandwidth
+    Richardson, TX 75083 of a truck moving at 70 MPH.
+
+
+
+So, I hope this posting helps some other poor geek who's tearing out his hair about how to make Windows Vista somewhat tolerable to work within. (I'd say work with, but it's more similar to operating within the confines of a cage, really...)
+'"

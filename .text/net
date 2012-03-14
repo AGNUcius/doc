@@ -1,0 +1,156 @@
+Related: LAN, mount, ICMP, remote, SMB, SMTP, socket, TCP, UDP, VPN, wire, web
+
+curl, wget, wput, netsh, ipconfig, ifconfig, dhclient
+
+Wicd.org >>Wicd is an open source wired and wireless network manager for Linux which aims to provide a simple interface to connect to networks with a wide variety of settings.
+
+Miechu.pl/freemeter >>Monitor network bandwidth (C#.NET 2k/XP+). Desktop and Systray graph. Configurable connection speed, update interval, color, transparency. Monitor any or all network interfaces. Ping/Trace/UPnP utilities. Email notifier (POP/IMAP). Requires .NET 2.0. Written by David Schultz and Mieszko Lassota.
+
+Sector.sf.net >>Sector/Sphere supports distributed data storage, distribution, and processing over large clusters of commodity computers. Sector is a high performance, scalable, and secure distributed file system. Sphere is a high performance parallel data processing engine that can process Sector data files with very simple programming interfaces. Sector/Sphere can be broadly compared to Google's GFS/MapReduce stack, but differes several key design choices and provides better performance.
+
+PHANTUM.sf.net >>PHANTUM - Punch-Hole Access for NAT Traversal of UDP in a Module; Built on top of Samy Kamkar's 'chownat' script, PHANTUM allows for pure client-agnostic TCP services to be tunneled over UDP and hosted behind NAT infrastructures.
+
+NetDude.sf.net >>The Network Dump data Displayer and Editor is a framework for inspection, analysis and manipulation of tcpdump trace files. It addresses the need for a toolset that allows easy inspection, modification, and creation of pcap/tcpdump trace files. Netdude builds on any popular UNIX-like OS, such as Linux, the BSDs, or OSX.
+
+Netdisco.sf.net >>Netdisco is an SNMP-based L2/L3 network management tool designed for moderate to large networks. Routers and switches are polled to log IP and MAC addresses and map them to switch ports. Automatic L2 network topology discovery, display, and inventory.
+
+Cyberoam-iView.sf.net >>Cyberoam iView provides organizations network visibility across multiple devices to achieve higher levels of security, data confidentiality while meeting the requirements of regulatory compliance.
+
+wormulon.net/slurm >>slurm started as a FreeBSD port of the Linux ppp link monitor called pppstatus by Gabriel Montenegro. I ripped of the ppp dependent parts and the email checks to turn in into a generic network load monitor for *BSD, Linux, HP-UX and Solaris.
+
+AngryZiber.com >>Angry IP Scanner (or simply ipscan) is an open-source and cross-platform network scanner designed to be fast and simple to use. It scans IP addresses and ports as well as has many other features. It is widely used by network administrators and just curious users around the world, including large and small enterprises, banks, and government agencies. It runs on Linux, Windows, and Mac OS X, possibly supporting other platforms as well.
+
+MetaGeek.net/products/inssider >>inSSIDer is an award-winning free Wi-Fi network scanner for Windows Vista and Windows XP. Because NetStumbler doesn't work well with Vista and 64-bit XP, we built an open-source Wi-Fi network scanner designed for the current generation of Windows operating systems. A year later, inSSIDer was discussed by Lifehacker and Tekzilla!
+
+Packetyzer.sf.net >>Packetyzer provides a Windows interface for the Ethereal packet capture and dissection library. Ethereal is used by network professionals around the world for troubleshooting, analysis, software and protocol development, and education. Ethereal has all of the standard features expected in a protocol analyzer, and several features not otherwise available.
+
+TrafficWatcher.GoogleCode.com >>A tool to monitor IP traffic. It differs between LAN traffic and the traffic which actually goes to the internet. This is useful if you like to know whether some internet traffic is going on and not just LAN traffic.
+
+Dest-Unreach.org/socat >>what: "netcat++" (extended design, new implementation)
+
+socat.sf.net >>socat is a relay for bidirectional data transfer between two independent data channels. Each of these data channels may be a file, pipe, device (terminal or modem), socket (UNIX, TCP, UDP, IP6, raw), a file descriptor, a program etc. combination of two of
+
+UDT.sf.net >>UDT is a reliable UDP based application level data transport protocol for distributed data intensive applications over wide area high-speed networks. UDT uses UDP to transfer bulk data with its own reliability control and congestion control mechanisms. The new protocol can transfer data at a much higher speed than TCP does. UDT is also a highly configurable framework that can accommodate various congestion control algorithms.
+
+NetworkMiner.sf.net >>NetworkMiner is a Network Forensic Analysis Tool (NFAT) for Windows that can detect the OS, hostname and open ports of network hosts through packet sniffing or by parsing a PCAP file. NetworkMiner can also extract transmitted files from network traffic.
+
+DeliRandom.net/sniffjoke >>SniffJoke is a software able to inject in your TCP connections some packets.
+
+Xplico.org and Xplico.sf.net and Developer.Berlios.de/projects/xplicoprj >>The goal of Xplico is to extract the applications data from an Internet traffic capture. For example, from a pcap file Xplico extracts each email (POP, IMAP, and SMTP protocols), all HTTP contents, each VoIP call (SIP), and so on.
+
+Netcat.sf.net >>Netcat is a featured networking utility which reads and writes data across network connections, using the TCP/IP protocol. It is designed to be a reliable "back-end" tool that can be used directly or easily driven by other programs and scripts. At the same time, it is a feature-rich network debugging and exploration tool, since it can create almost any kind of connection you would need and has several interesting built-in capabilities.
+
+BitTwist.sf.net >>Bit-Twist is a simple yet powerful libpcap-based Ethernet packet generator.  It is designed to complement tcpdump, which by itself has done a great job at capturing network traffic.  "'With Bit-Twist, you can now regenerate your captured traffic onto a live network! Packets are generated from tcpdump trace file (.pcap file).  Bit-Twist also comes with a comprehensive trace file editor to allow you to change the contents of a trace file.'"  Generally, packet generator is useful in simulating networking traffic or scenario, testing firewall, IDS, and IPS, and troubleshooting various network problems.
+
+EtherGrouik.sf.net network visualization
+
+WinPcap.org >>WinPcap is the industry-standard tool for link-layer network access in Windows environments: it allows applications to capture and transmit network packets bypassing the protocol stack, and has additional useful features, including kernel-level packet filtering, a network statistics engine and support for remote packet capture.  WinPcap consists of a driver, that extends the operating system to provide low-level network access, and a library that is used to easily access the low-level network layers. This library also contains the Windows version of the well known libpcap Unix API.
+
+ShowTraf.sf.net >>Show Traffic - monitors network traffic on the chosen network interface and displays it continuously. It could be used for locating suspicious network traffic or to evaluate current utilization of the network interface.
+
+Zenoss.com >>Zenoss Core is an open-source network monitoring and server monitoring product. Currently the most popular IT Management project on SourceForge.Net, Zenoss Core source code is available for free downloads.
+
+NMap.org/zenmap >>Zenmap is the official Nmap Security Scanner GUI. It is a multi-platform (Linux, Windows, Mac OS X, BSD, etc.) free and open source application which aims to make Nmap easy for beginners to use while providing advanced features for experienced Nmap users. Frequently used scans can be saved as profiles to make them easy to run repeatedly. A command creator allows interactive creation of Nmap command lines. Scan results can be saved and viewed later. Saved scan results can be compared with one another to see how they differ. The results of recent scans are stored in a searchable database.
+
+NetworkSecurityToolkit.org >>Welcome to the Network Security Toolkit (NST). This bootable ISO live CD/DVD is based on Fedora. The toolkit was designed to provide easy access to best-of-breed Open Source Network Security Applications and should run on most x86 platforms.
+
+sf.net/projects/netmate-meter >>NetMate Meter is a flexible and extensible tool for network measurement. It can be used for accounting, delay/loss measurement, packet capturing. It supports dynamic loadable packet processing and data export modules and a flexible packet classifier.
+
+NUTSS.GForge.CIS.Cornell.edu >>NUTSS is a network architecture that uses signaling before establishing the data channel. The goal is to enable middle boxes like firewalls and NATs, which can intercept the signals to discover the intent of the connection. The middle boxes can then facilitate the connection setup, or enforce other policies. While the data channel is a direct TCP/IP connection between two IP addresses and ports, the signaling is through SIP, which uses stable endpoint identifiers for routing.
+
+DumpsterVentures.com/jason/httpry >>httpry is a specialized packet sniffer designed for displaying and logging HTTP traffic. It is not intended to perform analysis itself, but to capture, parse, and log the traffic for later analysis. It can be run in real-time displaying the traffic as it is parsed, or as a daemon process that logs to an output file. It is written to be as lightweight and flexible as possible, so that it can be easily adaptable to different applications.
+
+Abrahams.co.nz/asithappens >>AsItHappens is a real-time network statistic collector and grapher. It collects data from devices over a network and displays them on a graph, optionally storing collected data in a database for later retrieval. Current collection types include network response, bandwidth, processor usage, memory usage, Cisco NBAR, and Cisco NetFlow. AsItHappens polls data in regular intervals, which can be in the order of milliseconds, to give immediate feedback on network performance. In addition, AsItHappens can graphically display flow information from a packet capture file.
+
+NetWib.sf.net, NetWox.sf.net, NetWag.sf.net >>Netwib is a network library, for network administrators and network hackers.  Its objective is to easily create network programs.  This library provides network functionnalities for Ethernet, IP, UDP, TCP, ICMP, ARP and RARP protocols.  It supports spoofing, sniffing, client and server creation.  Furthermore, netwib contains high level functions dealing with data storage and handling.  Using all these functions, you can quickly create a network test program.
+
+Nicolargo.com/dev/sjitter >>Sjitter is a command line client/server to measure jitter (based on RFC 1889), one way UDP delay and bandwidth.
+
+nfcount.sf.net >>nfcount is tool for count network traffic by using rules. Rule can be defined by source or destenation IP address, timeranges. Accounting result may be simple counter or hystogram.
+
+Bitwizard.nl/mtr >>mtr combines the functionality of the 'traceroute' and 'ping' programs in a single network diagnostic tool.  As mtr starts, it investigates the network connection between the host mtr runs on and a user-specified destination host. After it determines the address of each network hop between the machines, it sends a sequence ICMP ECHO requests to each one to determine the quality of the link to each machine. As it does this, it prints running statistics about each machine.
+
+SecDev.org/projects/scapy >>Scapy is a powerful interactive packet manipulation program. It is able to forge or decode packets of a wide number of protocols, send them on the wire, capture them, match requests and replies, and much more. It can easily handle most classical tasks like scanning, tracerouting, probing, unit tests, attacks or network discovery (it can replace hping, 85% of nmap, arpspoof, arp-sk, arping, tcpdump, tethereal, p0f, etc.). It also performs very well at a lot of other specific tasks that most other tools can't handle, like sending invalid frames, injecting your own 802.11 frames, combining technics (VLAN hopping+ARP cache poisoning, VOIP decoding on WEP encrypted channel, ...), etc. See the quick demo: an interactive session.
+
+MasterShaper.org >>MasterShaper is a network traffic shaper which provides a Web Interface for Quality of Servcie (QoS) functions of newer Linux 2.4- & 2.6-Kernel-Series.
+
+BandwidthD.sf.net >>BandwidthD tracks usage of TCP/IP network subnets and builds html files with graphs to display utilization. Charts are built by individual IPs, and by default display utilization over 2 day, 8 day, 40 day, and 400 day periods. Furthermore, each ip address's utilization can be logged out at intervals of 3.3 minutes, 10 minutes, 1 hour or 12 hours in cdf format, or to a backend database server. HTTP, TCP, UDP, ICMP, VPN, and P2P traffic are color coded.
+
+ibmonitor.sf.net >>ibmonitor is an interactive linux console application which shows bandwidth consumed and total data transferred on all interfaces.
+
+TransmissionBT.com >>Transmission is a fast, easy, and free multi-platform BitTorrent client with a focus on being lightweight yet feature-filled.
+
+Autoscan-Network.com >>AutoScan Network is an application designed to explore and to manage your network.
+
+Nagios.org >>Nagios is an Open Source host, service and network monitoring program.
+
+Project-Observer.org >>Project Observer is an autodiscovering PHP/MySQL/SNMP/CDP based network management system focused primarily on Cisco and Linux/BSD networks. It is capable of of automatically generating network infrastructure diagrams using link data harvested via CDP from Cisco network hardware.
+
+Emulab.net >>Network Emulation Testbed Home    Emulab is a network testbed, giving researchers a wide range of environments in which to develop, debug, and evaluate their systems. The name Emulab refers both to a facility and to a software system.
+
+POCOProject.org >>POCO, the C++ Portable Components, is a collection of open source C++ class libraries that simplify and accelerate the development of network-centric, portable applications in C++. The libraries integrate perfectly with the C++ Standard Library and fill many of the functional gaps left open by it. Their modular and efficient design and implementation makes the C++ Portable Components extremely well suited for embedded development, an area where the C++ programming language is becoming increasingly popular, due to its suitability for both low-level (device I/O, interrupt handlers, etc.) and high-level object-oriented development. Of course, POCO is also ready for enterprise-level challenges.
+
+akkada.tivi.net.pl >>akk@da is a simple network monitoring system designed for small and middle size computer networks.  Its purpose is to quick detect system or network fault and to display information about detected problem for administrator.  akk@da is designed as a pro-active network monitor.  It does not wait for information from any agents, systems, etc.  It collects information itself every single minute (you can decrease this period even to 1 second if you need).  Almost all services of the monitored hosts are discovered automatically.
+
+VirtualGL.org >>VirtualGL is an open source package which provides hardware-accelerated 3D rendering capabilities to thin clients.  Normally, when you run a 3D application inside a thin client environment (e.g. VNC, remote X11, NX, etc.), the 3D application either does not work at all, is forced to use a slow software 3D renderer, or (worse) is forced to send every 3D command and piece of 3D data over the network to be rendered on the client machine.  With VirtualGL, the 3D rendering commands from the application are intercepted at run time and redirected onto the server's 3D accelerator hardware.  The resulting rendered images are then read back from the 3D hardware and composited into the appropriate window on the user's desktop.  This produces a completely seamless shared 3D environment that performs fast enough to take the place of a dedicated 3D workstation.
+
+freeNX.berliOS.de
+
+OpenNMS.org >>OpenNMS is the world's first enterprise grade network management platform developed under the open source model.
+
+Planet-Lab.org >> PlanetLab is a global research network that supports the development of new network services. Since the beginning of 2003, more than 1,000 researchers at top academic institutions and industrial research labs have used PlanetLab to develop new technologies for distributed storage, network mapping, peer-to-peer systems, distributed hash tables, and query processing.
+
+Wireshark.org >>Sniff Free or Die    Same developers, same code, different name. The Ethereal network protocol analyzer has changed its name to Wireshark.
+
+OpenNMS.org >>OpenNMS is the world's first enterprise grade network management platform developed under the open source model. It consists of a community supported open-source project as well as a commercial services, training and support organization.
+
+Browse http://192.168.1.1 to configure your network.  The user/pass is probably admin/admin.
+
+$ ifconfig -a # show interface configuration
+$ dhclient -r # release IP
+$ dhclient # request new IP
+
+Nemesis.sf.net >> Nemesis is a command-line network packet crafting and injection utility for UNIX-like and Windows systems. Nemesis, is well suited for testing Network Intrusion Detection Systems, firewalls, IP stacks and a variety of other tasks. As a command-line driven utility, Nemesis is perfect for automation and scripting.
+
+Roland-Riegel.de/nload >>nload is a console application which monitors network traffic and bandwidth usage in real time. It visualizes the in- and outgoing traffic using two graphs and provides additional info like total amount of transfered data and min/max network usage.
+
+netscript.sf.net "'
+             __                _       __
+  _ __   ___| /_ ___  ___ _ __(_)_ __ | /_  (portable/multi-platform) lightwei-
+ | '_ \./ _ \ __/ __)/ __| '__| | '_ \| __) ght tcp/udp socket scripting.  int-
+ | | | |  ._/ |_(__ \ (__| |  | | |_) ) |_  ended for (non-)experienced person-
+ |_| |_|\___|\__|___/\___|_|  |_| .__/ \__) s to be able to use to automate si-
+ [TCP / UDP socket scripting] |_| [1.7.1]   tuations, built on a word-to-word
+                                            ruleset response system.  includes
+ wildcard support, character replacement, random replacement, argument inclusi-
+ on, server timeout, initial send, display altering, multiple character dump f-
+ ormats, telnet protocol support, logging, program to socket dumping, executab-
+ le ruleset support, reverse binding, module support, data truncation, data fo-
+ rmatting, permission options, virtual hosting support, history storage, dynam-
+ ic storage variables, directory placement, character omitting, timed rules, b-
+ ackground support, syslog support, routing support, socket options, interacti-
+ ve mode, and a graphical user interface among other things.
+'"
+
+NAST.berlios.de >>Nast is a packet sniffer and a LAN analyzer based on Libnet and Libpcap.
+
+Snort.org AirSnort.shmoo.com
+
+ntop.org >>ntop is a network traffic probe that shows the network usage, similar to what the popular top Unix command does. ntop is based on libpcap and it has been written in a portable way in order to virtually run on every Unix platform and on Win32 as well.
+
+IPTraf.seul.org
+
+ex-parrot.com/~pdw/iftop >>iftop does for network usage what top(1) does for CPU usage. It listens to network traffic on a named interface and displays a table of current bandwidth usage by pairs of hosts. Handy for answering the question "why is our ADSL link so slow?"
+
+Netatalk.sf.net >>Netatalk is a freely-available, kernel level implementation of the AppleTalk Protocol Suite, originally for BSD-derived systems. A *NIX/*BSD system running netatalk is capable of serving many macintosh clients simultaneously as an AppleTalk router, AppleShare file server (AFP), *NIX/*BSD print server, and for accessing AppleTalk printers via Printer Access Protocol (PAP). Included are a number of minor printing and debugging utilities.
+
+
+If, while trying to connect to a CIFS or SMB share, you receive: "'Multiple connections to a server or shared resource by the same user, using more than one user name, are not allowed. Disconnect all previous connections to the server or shared resource and try again.'" try the following:
+
+$ net use #this will tell us the ServerName\ShareName we need to DELETE
+$ net use /DELETE \\ServerName\ShareName
+
+
+Support.Microsoft.com/kb/242468 NON-FREE! >>Netsh.exe is a tool an administrator can use to configure and monitor Windows-based computers at a command prompt. With the Netsh.exe tool, you can direct the context commands you enter to the appropriate helper, and the helper then carries out the command. A helper is a Dynamic Link Library (.dll) file that extends the functionality of the Netsh.exe tool by providing configuration, monitoring, and support for one or more services, utilities, or protocols. The helper may also be used to extend other helpers.
+
+Technet.Microsoft.com/en-us/library/bb490939.aspx NON-FREE! >>Netsh is a command-line scripting utility that allows you to, either locally or remotely, display or modify the network configuration of a computer that is currently running. Netsh also provides a scripting feature that allows you to run a group of commands in batch mode against a specified computer. Netsh can also save a configuration script in a text file for archival purposes or to help you configure other servers.

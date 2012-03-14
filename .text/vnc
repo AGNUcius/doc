@@ -1,0 +1,8 @@
+Related: RDP
+
+www.karlrunge.com/x11vnc
+www.sics.se/~adam/uvnc
+www.unixuser.org/~euske/vnc2swf
+
+Start x11vnc as:
+$ x11vnc -usepw -ncache 10 -xkb

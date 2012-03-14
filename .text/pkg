@@ -1,0 +1,110 @@
+Related: GNUnix, LazyLoad, pack, pkgmgr
+
+The "pkg" project attempts to hide differences among the various package management tools.
+
+Update all installed software:
+$ alias pkg.up='sudo apt-get update; sudo apt-get upgrade'
+
+List all installed software:
+$ alias pkg.list='dpkg -l'
+
+Search through all available software:
+$ alias pkg.find
+
+Install by registered NAME:
+$ alias pkg.add
+
+Install through unregistered FILE:
+
+$ alias pkg.del sudo apt-get --purge remove
+
+
+
+Hypexr.org /freebsd_ports_help.php
+FreeBSD Package Management (ports, pkg_*) Basics
+
+After this short guide you will be proficient with installing, deleting, and upgrading software in FreeBSD
+
+I just started using FreeBSD (4 shinny new 6.0 cds just arrived in the mail, hot off the press). The part that I was most interested in is its package management. I've come from the land of Linux... Gentoo (portage: based on ports), Arch Linux (pacman: i686 binary package manager), all the rpm based systems, and Debian's package management concoction. Portage and pacman have won me over and after a day of working with FreeBSD there is room for a little ports in my life. This is my cheat sheet for getting started with ports and FreeBSD package management. I obtained most of this information from the FreeBSD documentation on Installing Applications: Packages and Ports.
+
+Upon First Boot
+
+When first booting into my system I was dropped into a shell. I wasn't sure which shell, but I knew it was not BASH and immediately felt slightly crippled. I had chose to install bash during the installation process so tried to switch to it by typing bash. This didn't work so I did a search. It turns out that the bash executable is in /usr/local/bin. Go figure, there is a bunch of useful stuff in there. /usr/local/bin and /usr/local/sbin will definitely be appended in my PATH variable. Now I'm ready to roll.
+
+Installing Compiled Packages (Quick!)
+
+pkg_add
+
+You've searched and the package you want to use is not installed. Lets say you want the console web browser w3m installed. This will install the package need from pre-compiled FreeBSD .tbz package.
+
+$ pkg_add -r w3m
+With the -r option it fetches the package from the internet and installs it. This is very quick and clean and its going to fetch and install all of the dependencies that you need as well. Without the -r it is going to look for the package as if you had downloaded it manually. For example:
+
+$ wget ftp://ftp.freebsd.org/pub/FreeBSD/ports/i386/packages-6.0-release/Latest/w3m.tbz
+$ pkg_add w3m.tbz
+pkg_delete
+
+Deleting packages is as easy as installing them. You will need the full package name when using pkg_delete so do something like this:
+
+$ pkg_add -r mutt
+$ pkg_info | grep mutt
+This will give a line that shows the package name and its full version (mutt-1.4.2.1_2 <- for me), which you will need for pkg_delete.
+
+$ pkg_delete mutt-1.4.2.1_2
+Using ports
+
+Using ports is pretty easy as well once you know just a few commands. Ports is going to give you the ability to have the FreeBSD package manager (ports) automatically download, compile, and install packages. This is beneficial because it give you the power to add additional build flags to a package to make them more specific to your system, wether that be building packages with specific processor flags or passing custom compile options.
+
+Updating your ports collection (Using the Ports Collection)
+
+Using the CVSup Method is the best option for keeping your ports collection up to date. It is similar to Gentoo's emerge sync as it downloads the latest ports collection from the internet. First we need to add cvsup to our system:
+
+$ pkg_add -r cvsup-without-gui
+And if your like me and don't want to type in the cvsup server every time you plan to update:
+
+$ cp /usr/share/examples/cvsup/ports-supfile /root
+Edit /root/ports-supfile and change CHANGE_THIS.FreeBSD.org to one of the CVSup Mirrors. Now just run:
+
+$ cvsup -L 2 /root/ports-supfile
+and your whole ports collection is going to be up to date.
+
+Installing a package from ports
+
+The ports collection is held in /usr/ports. In there you will find directories containing collections of packages that relate to each other. Lets install dosbox for some old school dos gaming fun.
+
+$ cd /usr/ports/emulators/dosbox
+$ make install clean
+make instructs it to make the package, install instructs it to move the built files to the correct locations on your system, clean deletes the files that are not necessary anymore.
+
+It may ask you for some option to customize your install of its SDL dependency and thats it. Its going to automatically fetch and install dosbox and all of its dependencies. Piece of cake.
+
+Changing compile/configure options is also easy. Just open up its Makefile and edit as necessary.
+
+Big Boy Toys (portaudit & portupgrade)
+
+portaudit
+
+security/portaudit is great. It will check for any packages that are installed on your system that have know security flaws. Easy to install, easy to use. This will install it and give you a report of packages that have security problems:
+
+$ pkg_add -r portaudit
+$ portaudit -F -a
+You can now remove the package that has the security problem and install a new version.
+
+portupgrade
+
+This tool is going to be used to keep our FreeBSD systems up to date. First we need to read /usr/ports/UPDATING to check for any issues that may affect us when trying to auto update.
+
+$ pkg_add -r portupgrade
+$ /usr/local/sbin/pkgdb -F
+$ /usr/local/sbin/portupgrade -a
+These commands will install portupgrade, build the database of the currently installed packages, and upgrade all of the packages on your system that newer versions exist for. Pretty nice and easy.
+
+Conclusion
+
+FreeBSD offers powerful and convent package management that stands up to the competition. I really like having the option of installing a pre-compiled package or using ports to have it build a the package from source to my specifications. FreeBSD's fancy new SMP improvements in 6.0 and authoritative ports = good times.
+
+
+Corrections, comments, questions e-mail scott@hypexr.org
+Top of Page
+
+

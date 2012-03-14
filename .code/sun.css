@@ -1,0 +1,19 @@
+body {background:#ff8; color:#000;}
+#header,#footer {background:#ff8;}
+#main {background:#ffa; border:1em solid #ff8;}
+
+span.h1,span.h2,span.h3,span.h4{background:#fff;}
+span.date{background:#000; color:#fff;}
+
+/* span.quot{background:#022;} */
+/* span.quot2{background:#220;} */
+/* span.quot3{background:#202;} */
+
+span.cmnt{background:#0c0;}
+span.shell{background:#ccc;}
+span.type{background:#c00;}
+
+a{color:#006;}
+a:visited{color:#060;}
+a:hover, a:focus{background:#9cf;}
+a.ext{color:#600;}

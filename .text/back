@@ -1,0 +1,88 @@
+Related: arch, cloud, copy, image, partition, recover, rescue, restore, secure, store, snap, sync
+
+Tahoe-LAFS.org >>Tahoe-LAFS is a Free and Open cloud storage system. It distributes your data across multiple servers. Even if some of the servers fail or are taken over by an attacker, the entire filesystem continues to function correctly, including preservation of your privacy and security.
+
+duplicity.NonGNU.org >>Encrypted bandwidth-efficient backup using the rsync algorithm
+
+URBackup.org >>Urbackup is a client/server backup system, that through a combination of image and file backup accomplishes both 100% data security and a fast restoration time.  Single files can be restored fast through the web interface or the Windows Explorer while the image backups can be restored with a bootable CD or USB-Stick.
+
+RedoBackup.org >>Redo Backup and Recovery is so simple that anyone can use it. It is the easiest, most complete disaster recovery solution available. It allows bare-metal restore, which means that even if your hard drive melts or gets completely erased by a virus, you can have a completely-functional system back up and running in as little as 10 minutes.
+
+==Distros
+SysRescCD.org >>SystemRescueCd is a Linux system on a bootable CD-ROM for repairing your system and recovering your data after a crash.  It aims to provide an easy way to carry out admin tasks on your computer, such as creating and editing the partitions of the hard disk.  It contains a lot of system utilities (parted, partimage, fstools, ...) and basic tools (editors, midnight commander, network tools).  It is very easy to use: just boot the CDROM.  The kernel supports most of the important file systems (ext2/ext3, reiserfs, reiser4, xfs, jfs, vfat, ntfs, iso9660), as well as network filesystems (samba and nfs).
+
+Clonezilla.sf.net >>You're probably familiar with the popular proprietary commercial package Norton Ghost.  Now there is an OpenSource clone system (OCS) solution called Clonezilla with unicasting and multicasting! With DRBL and network boot enabled client computers, the only thing you have to prepare is a Clonezilla server. You do not even have to prepare a bootable CD or floppy with Partition Image for every client computer.  Clonezilla, based on DRBL, Partition Image, ntfsclone, and udpcast, allows you can massively clone many (40 plus!) computers simultaneously. Unlike G4U (Ghost for Unix) or G4L (Ghost for Linux), Clonezilla saves and restores only used blocks in the harddisk. This increases the clone effiency. At the NCHC's Classroom C, Clonezilla was used to clone 41 computers simultaneously. It took about 50 minutes to clone a 5.6 GBytes system image to all 41 computers via unicasting and only about 10 minutes via multicasting!
+
+
+==Image-Based (Partition-level)
+ZumaStor.org >>Zumastor is Free software that adds enterprise storage features (primarily improved snapshots and remote replication) to Linux.
+
+MondoRescue.org >>Mondo Rescue is a GPL disaster recovery solution. It supports Linux (i386, x86_64, ia64) and FreeBSD (i386). It's packaged for multiple distributions (RedHat, RHEL, SuSE, SLES, Mandriva, Debian, Gentoo).
+
+Dump.sf.net >>Dump examines files in a filesystem, determines which ones need to be backed up, and copies those files to a specified disk, tape or other storage medium. Subsequent incremental backups can then be layered on top of the full backup.  The restore command performs the inverse function of dump; it can restore a full backup of a filesystem. Single files and directory subtrees may also be restored from full or partial backups in interractive mode.
+
+
+==File-Based (File-level)
+PBackup.sf.net (java) >>Peter's Backup solves problems that the backup programs that come with operating systems as well as commercial backup programs do not address.
+"'
+    * Full and incremental backups
+    * Restore a file to any previous version
+    * Automatically keeps track of where every version of each file is stored
+    * Keep track of deleted files so that files that have been removed on purpose are not restored. Note it is always possible to override the default behaviour and restore files that have been deleted.
+    * Supports fixed or removable disks
+    * Does not use archive attributes. You can have multiple sets of backups going at the same time of the same files and they will each be consistent
+    * Use wild-cards and multiple options allowing selective backups of files and exclusion of temporary and work files
+    * Messages and screens are in English, Dutch, German and Polish. If anybody is willing to translate into another language some 200 messages, please contact me, or use the "translate this application" option on the help menu.
+    * Back up can be encrypted to ensure privacy of your data.
+
+You can back up your data files on to disk, diskette, CD or DVD. Peter's backup will keep track of file versions and disks. You can restore any file to any previous version without having to know on which disk or in which backup set it is located. You can create unlimited incremental backups. This saves time, backups and restores are very fast.
+'"
+
+NasBackup.com >>NasBackup is an open source backup solution. It is a high-performance, enterprise-grade system for backing up MS Windows desktop PCs, laptops and servers to network disks. NasBackup is a highly configurable solution and easy to install and maintain.
+
+Bacula.org >>Bacula is a set of computer programs that permit you (or the system administrator) to manage backup, recovery, and verification of computer data across a network of computers of different kinds.
+
+BackupPC.sf.net >>BackupPC is a high-performance, enterprise-grade backup system for backing up Linux, WinXX PCs, Macs and laptops to a server's disk. Features include clever pooling of identical files, no client-side software, and a powerful Apache/CGI user interface
+
+Code.Google.com/p/manent >>Manent is an algorithmically strong backup and archival program.
+
+BackInTime.Le-Web.org >>Back In Time is a simple backup system for Linux inspired from "flyback project" and "TimeVault". The backup is done by taking snapshots of a specified set of directories.
+
+Wiki.Zmanda.com/index.php/Zmanda_Windows_Client >>Zmanda Windows Client Community Edition is an Amanda client for Windows platform that uses native Win32 API and uses Volume Shadow Services for backup.
+
+AMANDA.org >>AMANDA, the Advanced Maryland Automatic Network Disk Archiver, is a backup system that allows the administrator to set up a single master backup server to back up multiple hosts over network to tape drives/changers or disks or optical media. Amanda uses native dump and/or GNU tar facilities and can back up a large number of workstations running multiple versions of Unix. Amanda uses Samba, Cygwin or a native Windows client to back up Microsoft Windows desktops and servers.
+
+tivano.de/software/amanda >>The Amanda CDRW-Taper is a drop-in replacement for the taper component of the Amanda backup system. CDRW-Taper makes it possible to dump backups to CD-RW, DVD+RW or DVD-RW instead of tape.
+
+SCDBackup.sf.net >>Simplified CD/DVD Backup for Linux
+
+Restore-Backup.com >>Looking for a backup solution that offers simple backups, minimal maintenance, easy file restoration, and can be customized to fit your network's needs? Look no further.
+
+Backup-Manager.org >>Backup Manager is a command line backup tool for GNU/Linux, designed to help you make daily archives of your file system. Written in bash and perl, it can make archives in lots of open formats (tar, gzip, bzip2, lzma, dar, zip) and provides lots of interesting features (such as network exports or CD/DVD automated-burning).
+
+BoxBackup.org >>An open source, completely automatic on-line backup system for UNIX.
+
+rsnapshot.org >>rsnapshot is a filesystem snapshot utility for making backups of local and remote systems.
+
+Dev.Riseup.net/backupninja >>Bacula is a set of Open Source, enterprise ready, computer programs that permit you (or the system administrator) to manage backup, recovery, and verification of computer data across a network of computers of different kinds. Bacula is relatively easy to use and efficient, while offering many advanced storage management features that make it easy to find and recover lost or damaged files. In technical terms, it is an Open Source, enterprise ready, network based backup program.
+
+Rdiff-Backup.NonGNU.org >>A remote incremental backup of all your files could be as easy as "rdiff-backup / host.net::/target-dir"
+
+FauBackup.sf.net >>
+
+fluffy.co.uk/boxbackup/comparison.html
+
+afio - freshmeat.net/projects/afio/
+Mondo Rescue + Mindi - microwerks.net/~hugo/
+storebackup - sourceforge.net/projects/storebackup/
+Taper - taper.sourceforge.net
+
+afbackup - sourceforge.net/projects/afbackup
+DAR - dar.linux.free.fr
+Drakbackup - people.mandrakesoft.com/~sbenedict
+Hdup - miek.nl/projects/hdup16
+
+BackupCentral.com
+Directory.FSF.org/sysadmin/Backup
+
+

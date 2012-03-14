@@ -1,0 +1,137 @@
+Related: begin, init, lilo, MBR, partition, WinPE, PXE, root, start, strap, USB
+
+Barebox.org >>Barebox (formerly known as u-boot-v2) is a bootloader that inherits the best of U-Boot and the Linux kernel: The size and look-and-feel of u-boot, with driver model and lots of design concepts from the kernel.
+
+==PXE
+LiNBo.sf.net >>Linux-based Network Bootmanager A graphical bootmanager providing OS deployment and repair for Linux, Windows, possibly other operating systems, via PXE and local cache.
+
+netboot.me >>netboot.me is a service that allows you to boot nearly any operating system or utility on any computer with a wired internet connection - without having to know ahead of time what you'll want to boot.  Once you can netboot.me, you never need to update your boot disk again!  netboot.me works through the magic of netbooting.  There are a number of ways to boot a computer with netboot.me.  The simplest is to download a bootable image and burn it to a CD, USB memory stick, or floppy disk. Boot off it on any networked computer, and it will automatically fetch the latest boot options from netboot.me and let you choose from dozens of installation, recovery, testing, portable desktop and other tools.  You can also start netboot.me from any computer running gPXE, or from any netbootable computer with some simple tweaks to your DHCP server.
+
+Boot.Kernel.org [(BKO) : Booting your machine over HTTP ] >>Our objective is to let users boot their machines with bare minimal requirements on their side, and we will handle most of the problem that you may face in booting. All that user needs is Internet connectivity and a small program (gpxe) to boot the machine. This gpxe program provides network booting facility. You can download these program from our site (available at Downloads section). Also, you can find a list of distributions and tools that can be booted with BKO here. Your small 56KB gpxe program can boot any of these options!
+
+
+==Managers
+burg.GoogleCode.com and LaunchPad.net/burg >>burg is a brand-new boot loader based on GRUB. It uses a new object format which allows it to be built in a wider range of OS, including Linux/Windows/OSX/FreeBSD, etc. It also has a highly configurable menu system which works in both text and graphic mode. Additional features like stream support and multiple input/output device are also planned.
+
+SolemnWarning.net/kexec-loader >>kexec-loader is a Linux based bootloader that uses kexec to start the kernel of your choice. It fits on a 1.44MB floppy, supports most block devices supported by Linux and is easy to use. kexec-loader supports reading GRUB configuration files, this allows kexec-loader to be used as a drop-in replacement for GRUB by merely setting the GRUB installation path.
+
+ZorOS.sf.net >>ZorOS is a boot manager that hides/shows partitions at boot time and allows to boot up to 10 primary partitions per HD
+
+Chameleon.OSX86.hu >>It seems that current boot loaders for Mac OS X on white boxes either lacks of all cool features or has many of the cool features but the sources are kept closed. With Chameleon you can have all benefits of features while you can inspect/bugfix/extend the codebase.
+
+Denx.de/wiki/U-Boot and U-Boot.sf.net (was PPCBoot.sf.net) >>This directory contains the source code for U-Boot, a boot loader for Embedded boards based on PowerPC, ARM, MIPS and several other processors, which can be installed in a boot ROM and used to initialize and test the hardware or to download and run application code.
+
+BtMgr.sf.net >>Smart BootManager is an os independent BootManager which has easy to use interface and many other features. The main goals of SBM are to be absolutely OS independent, flexible and full-featured. It has all of the features needed to boot a variety of OS.
+
+GNU.org/software/grub >>GRUB, Grand Unified Boot Loader
+
+SuperGRUBDisk.org >>We want Linux newbies to restore their new toy, but also help the Linux advanced user make potentially dangerous operations to the MBR in a safe way. Super Grub Disk is also a teaching tool to help you learn more about bootloaders and the booting process. After all, booting is the most important thing your computer does -- without the boot process, you would not have an operating system to use!
+
+Gujin.org >>Gujin is Gpl Use of the Jnp INstruction
+
+PLoP.at/bootmanager_en.html >>The PLoP Boot Manager is a small program to boot different operating systems. You can boot the operating systems from harddisk, floppy, CD/DVD or from USB. You can start the boot manager from floppy, CD, network and there are many more ways to start the boot manager. You can install the boot manager on your harddisk. There is no extra partition required for the boot manager.
+
+GAG.sf.net >>GAG (initials, in spanish, of Graphical Boot Manager) is a Boot Manager program. It's loaded when the computer is turned on and allows you to choose the operating system you want to use.
+
+XOSL.sf.net >>XOSL is a graphical boot manager released by Geurt Vos under GPL.  XOSL can dual boot over 30 various operating systems on a single disk.
+
+Elinux.org/Boot_Time >>This page has information about reducing boot-up time for a Linux system. This is of interest for many embedded developers, because for many products customers expect to be able to use them very soon after system startup.
+
+SolemnWarning.net/kexec-loader >>kexec-loader is a Linux based bootloader that uses kexec to start the kernel of your choice. It fits on a 1.44MB floppy, supports most block devices supported by Linux and is easy to use. kexec-loader supports reading GRUB configuration files, this allows kexec-loader to be used as a drop-in replacement for GRUB by merely setting the GRUB installation path.
+
+XMission.com/~ebiederm/files/kexec/README >>kexec is a set of systems call that allows you to load another kernel from the currently executing Linux kernel.  The current implementation has only been tested, and had the kinks worked out on x86, but the generic code should work on any architecture.
+
+bootimg.sf.net >>(bootimg has served its purpose as a proof of concept, and is no longer being worked on. Please uses Eric Biederman's kexec instead.)  bootimg provides the ultimate boot loader - the Linux kernel itself.  Booting a Linux kernel from under Linux allows multi-stage boot procedures where a comparably simple boot loader can load the first Linux kernel (possibly with an initial RAM disk) from whatever storage is convenient, and this kernel can then use the full functionality of a Linux system to retrieve the "real" kernel.
+
+TBoot.sf.net >>Trusted Boot (tboot) is an open source, pre- kernel/VMM module that uses Intel(R) Trusted Execution Technology (Intel(R) TXT) to perform a measured and verified launch of an OS kernel/VMM.
+
+BusyBox.net/~vda/mboot >>MultiBoot is a master boot record with ability to interactively select which partition to boot. It doesn't try to do fancy things and extend MBR format in fancy non-compatible ways. MBR which has multiboot installed in it continues to be perfectly "normal" MBR for BIOS, OSes and fdisk-like utilities.
+
+IBM.com/developerworks/linux/library/l-boot-rootfs/index.html?ca=dgr-lnxw06rootfs&S_TACT=105AGX59&S_CMP=grsitelnxw06 >>Finding rootfs during boot Four tips on how to "rediscover" a missing root file system after adding storage devices and adapters
+
+Technet.Microsoft.com/en-us/library/cc749177.aspx >>Bootsect.exe updates the master boot code for hard disk partitions to switch between BOOTMGR and NTLDR. You can use this tool to restore the boot sector on your computer. This tool replaces FixFAT and FixNTFS.
+
+----
+"'BOOTING FROM HARD DRIVE
+
+Things needed:
+A Lilo or GRUB boot loader installed and working.
+The lastest Parted Magic iso.
+A working Linux Distro.
+
+First we'll open the iso file with these comands:
+
+$ mkdir iso
+$ mount -o loop /path/to/iso/partedmagic-livecd-1.X.iso iso
+$ cd iso
+$ ls
+
+partedmagic isolinux
+
+I have decided to boot from my windows drive that is mounted on /mnt/windows:
+
+patrick@partedmagic:~/iso$ cp -a * /mnt/winows
+
+I need to update my boot loader so it can find the bzImage and initrd files. My windows
+drive is /dev/hda1.
+
+For GRUB add this to menu.lst:
+
+title partedmagic
+root (hd0,0)
+kernel /isolinux/bzImage root=/dev/ram0 initrd=initrd init=/linuxrc ramdisk_size=67000
+initrd /isolinux/initrd
+
+For lilo add this to lilo.conf:
+
+image= /mnt/windows/isolinux/bzImage
+label = partedmagic
+initrd = /mnt/windows/isolinux/initrd
+append = "init=/linuxrc"
+root = /dev/ram0
+ramdisk=67000
+
+Be sure to run /sbin/lilo!
+
+Now reboot the computer and select partedmagic from the boot menu. When the Parted Magic LiveCD/USB Extra Boot Options comes up select "Pick boot device".
+
+Now type the name of the device to boot from in the box.
+
+After hitting "OK" we will be returned to the main menu. Select "Done" and the system
+will boot.
+
+That's it!
+'" -- PartedMagic.com/docs/harddriveboot.txt
+
+
+BootStrap.org
+
+BootstrapBootcamp.com >>The Bootstrap Bootcamp    A Crash Course in Bootstrapping your Business
+
+
+UBCD4Win.net (non-Free) >>UBCD4Win is a bootable recovery CD that contains software used for repairing, restoring, or diagnosing almost any computer problem. Our goal is to be the most complete and easy to use free computer diagnostic tool. Almost all software included in UBCD4Win are freeware utilities for Windows®. Some of the tools inlcuded are "free for personal use" copies so users need to respect these licenses. A few of the tools included in UBCD4Win are paid for and licensed software owned by UBCD4win. On occasion we work with software companies/authors for permission to include their software in our download or have requested their software better support PE. Users can freely share copies of UBCD4Win with friends but selling UBCD4Win for a profit is not acceptable. We have worked hard for many years helping people for free with this project, others should not make money from our hard work. If you are a dialup user having a hard time downloading UBCD4Win, please visit our ordering page. UBCD4Win is based on Bart's PE©. Bart's PE© builds a Windows® "pre-install" environment CD, basically a simple Windows® XP booted from CD. UBCD4Win includes network support and allows you the ability to modify NTFS volumes, recover deleted files, create new NTFS volumes, scan hard drives for viruses, etc. Our download includes almost everything you need to repair your system problems. This project has been put together to be the ultimate recovery cd and not a replacement OS (Operating System). Please visit the "List of Tools" page for a complete list of what is included in the latest version of UBCD4Win.
+
+
+$ bootsect.exe #From the WAIK or Win7/2008R2 iso
+$ bootrec.exe # Support.Microsoft.com/kb/927392 >>How to use the Bootrec.exe tool in the Windows Recovery Environment to troubleshoot and repair startup issues in Windows Vista
+
+
+
+
+www.Clusters.UMaine.edu/projects/notp >>Nick of Time Provisioning    notP is a loose coterie of applications that, when combined, provide a simple means for the administrator to quickly force nodes to boot into various OS images. While it can be used as a stand-alone application, notP was designed to be used by Moab/Maui and Torque in a HPC environment, quickly provisioning nodes per user demand.
+
+alter.org.ua >> read_boot: for reading MBRs and BOOT-sectors.  FastReboot: Reboot Windows quickly.
+
+Boot-Land.net >>Home of the smallest XP ever built!
+
+Bootchart.org >>Bootchart is a tool for performance analysis and visualization of the GNU/Linux boot process. Resource utilization and process information are collected during the boot process and are later rendered in a PNG, SVG or EPS encoded chart.
+
+----
+Change /etc/conf/rc:
+RC_PARALLEL_STARTUP="no"
+RC_PARALLEL_STARTUP="yes"
+
+Change /etc/inittab:
+l5:5:wait:/etc/rc.d/rc 5
+l5:5:wait:/etc/rc.d/rc 5 &
+

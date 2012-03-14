@@ -1,0 +1,58 @@
+Related: 3, art, mod
+
+Computer Aided Design
+
+OpenSCAD.org >>OpenSCAD is a software for creating solid 3D CAD objects.  It is free software and available for Linux/UNIX, MS Windows and Apples OS X.  Unlike most free software for creating 3D models (such as the famous application Blender) it does not focus on the artistic aspects of 3D modelling but instead on the CAD aspects.  Thus it might be the application you are looking for when you are planning to create 3D models of machine parts but pretty sure is not what you are looking for when you are more interested in creating computer-animated movies.
+
+BRLCAD.org >>The BRL-CAD package is a powerful Constructive Solid Geometry (CSG) solid modeling system with over 20 years development and production use by the U.S. military. BRL-CAD includes an interactive geometry editor, parallel ray-tracing support for rendering and geometric analysis, path-tracing for realistic image synthesis, network distributed framebuffer support, image-processing and signal-processing tools.
+
+HeeksCAD.GoogleCode.com >>Functionality: Import solid models from STEP and IGES files. Draw construction geometry and lines and arcs. Create new primitive solids, or make solids by extruding a sketch or by making a lofted solid between sketches. Modify solids using blending, or boolean operations. Save IGES, STEP and STL. Printer plot the 2D geometry or to HPGL. Import and export dxf files; lines, arcs, ellipses, splines and polylines are supported. Use the geometric constraints solver to create accurate drawings from rough sketches.
+
+AvoCADo-CAD.sf.net >>avoCADo, the open source 3D CAD program for engineers and artists alike, has released its third preAlpha version for download.
+
+caDNAno.org >>caDNAno is software for design of three-dimensional DNA origami nanostructures. It was written with the goal of providing a simple and user-friendly interface to facilitate a process that can be complex and error-prone.
+
+Discretizer.org >>Discretizer, a free mesh program for CFD (Computational Fluid Dynamics)    A interactive mesh creation tool. Discretizer will create geometry and meshes for three dimensional flow simulations (CFD). Geometry import is not a goal: Discretizer will be furiously fast geometry builder (on many common engineering applications at least.
+
+CADEMIA.org >>Existing software tools for the planning process have severe limitations: They are restricted in openness, they are dependent on the platform, they are complex to use and to program and the users have a limited exertion of influence on the further development.
+
+Hypertriton.com/cadtools >>cadtools is an open-source 3D computer-aided design (CAD) and manufacturing (CAM) toolkit. The aim of the project is to develop an easy-to-use parametric, feature-based solid modeler  with a generic geometrical constraint solver sufficiently robust for real-time mechanical simulations over complex assemblies.
+
+LeoCAD.org >>LeoCAD is a CAD program that uses bricks similar to those found in many toys (but they don't represent any particular brand).
+
+Fritzing.org >>Fritzing - from prototype to product
+
+Simple2DCADCAM.sf.net >>A Simple 2D CAD/CAM application (currently Windows-only) for your Sherline CNC mill (or similar).
+
+rattleCAD.sf.net >>A graphical tool to design a bicycle (s) geometry and derive drawings from its configuration
+
+LiquidPCB.org >>Liquid PCB was designed from the point of view of the user. I think that the computer should take as much work from the user as possible, while still giving them the freedom to produce an excellent design. It should be possible to navigate the interface using as few mouse clicks as possible.
+
+NaroCAD.sf.net (.NET)>>NaroCAD will be a fully fledged and extensible 3D parametric modeling CAD application. It is based on OpenCascade.
+
+HeeksCNC.GoogleCode.com >>Written in C++, HeeksCNC is an add-on for HeeksCAD http://Code.Google.com/p/heekscad  The user can add machining operations. These can then be output to NC code. The NC code is then shown as red and green lines on the screen. The NC code is generated using Python script, so it can be configured for different machines.
+
+Gocad.org >>The Gocad Research Group is a multidisciplinary team of researchers striving to define new approaches to build and update 3D subsurface models accounting for available data. This team is hosted by the  Centre de Recherches Petrographiques et Geochimiques (CRPG) and the School of Geology at Nancy Universite.
+
+http://wiki.xtronics.com/index.php/CAD_CAM
+
+Free-CAD.sf.net >>FreeCAD is an Open Source 3D CAD/CAE program, based on OpenCascade, QT and Python. It features key concepts like macro recording, workbenches, ability to run as server and dynamically loadable application extensions. It's platform independent!
+
+KiCAD.sf.net >>KiCad - is a GPL'd suite of programs for EDA (Electronic Design Automation).
+
+PythonCAD.org >>PythonCAD is a CAD package written, surprisingly enough, in Python. The PythonCAD project aims to produce a scriptable, open-source, easy to use CAD package for Linux, the various flavors of BSD Unix, commercial Unix, and other platforms to which someone who is interested ports the program.
+
+QCAD.org >>QCAD is a multi-platform 2D CAD system and the flagship product of RibbonSoft.
+
+sagCAD.SourceForge.jp >>SagCAD is a CAD/CAM of 2D.  Designed for the X Window System, it uses the GTK+ 1.2 libraries.
+
+TinyCAD.sf.net >>TinyCAD is a program to help you draw circuit diagrams. It comes complete with symbol libraries to get you started straight away. As well as being able to simply print your designs, you can use TinyCAD to publish your drawings by copying and pasting into a Word document or saving as a PNG bitmap for the web.
+
+Arquimedes.org.br >>Archimedes is a free and open source CAD (Computer Aided Design) software. It is a robust system built over Eclipse's Rich Client Platform fully based on plug ins. This means it is easily extensible but also has a pretty thin core that allows you to select the features you need and drop the other ones easily.
+
+CADShuttle.com >>CAD Shuttle is an open source connector which allows instant collaborations between CAD tools and PDM or PLM systems. Product Data Management seems too complicated, too hard to deploy and too expensive for you ? Have a look at CAD Shuttle ! The keywords of CAD Shuttle are : simplicty, simplicity and simplicity ...
+
+OpenCASCADE.org >>Open CASCADE Technology is software development platform freely available in open source. It includes components for 3D surface and solid modeling, visualization, data exchange and rapid application development.
+
+geuz.org/gmsh >>Gmsh: a three-dimensional finite element mesh generator with built-in pre- and post-processing facilities
+

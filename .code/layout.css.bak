@@ -1,0 +1,32 @@
+/* body {font-family:arial,san-serif;} */
+body {font-family:monospace; font-size:125%;}
+/* body {font-family: arial, helvetica, sans-serif;} */
+
+#main {padding-left:4px;}
+
+#header {border-bottom:solid; font-family:arial, san-serif;}
+#footer {border-top:solid; font-family:arial, san-serif; font-size:50%;}
+
+span.bullet{margin-left:1%;font-size:150%;}
+span.indent{margin-left:1%;}
+
+span.quot,span.quot2,span.quot3{font-style:italic;}
+/* span.quot,span.quot2,span.quot3{font-weight:bold;} */
+
+span.italic{font-style:italic;}
+span.bold{font-weight:bold;}
+
+span.h1, span.h2, span.h3, span.h4 {font-family:arial, san-serif;}
+
+span.h1{font-size:180%;}
+span.h2{font-size:160%;}
+span.h3{font-size:140%;}
+span.h4{font-size:120%;}
+
+a{text-decoration:none;}
+a:visited{text-decoration:none;}
+a:hover,a:focus{text-decoration:none;}
+
+input{font-size:65%;}
+img{float:right;}
+/* img.left{float:left;} */

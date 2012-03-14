@@ -1,0 +1,39 @@
+body {background:#000; color:#000;}
+#header,#footer {background:#fff;}
+#main {background:#fff; border:1em solid #fff;}
+
+/* span.h1,span.h2,span.h3,span.h4{background:#ccc;} */
+
+span.rel{background:#007000; color:#fff;}
+span.date{background:#000; color:#fff;}
+
+/* span.quot, span.quot2, span.quot3 {} */
+/* span.quot {color:#022;} */
+/* span.quot2 {color:#202;} */
+/* span.quot3 {color:#220;} */
+
+span.cmnt{background:#eef;}
+span.shell{border:1px solid #000;}
+span.type{background:#9bf;}
+
+a{color:#000;
+  background:#efe;
+  text-decoration:underline;
+}
+
+a:visited{color:#000;
+  background:#efe;
+}
+
+a.ext{background:#fee;}
+a.ext:visited{background:#fee;}
+
+/* a:visited{color:#000; */
+/* /\*  text-decoration:underline;*\/ */
+/*   background:#fff; */
+/* } */
+
+//a:hover, a:focus{background:#aaf; text-decoration:underline;}
+a:hover, a:focus{background:#afa; text-decoration:underline;}
+a.ext:hover, a.ext:focus{background:#faa;}
+

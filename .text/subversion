@@ -1,0 +1,13 @@
+Related: bug, Version Control
+
+Win32SVN.sf.net >>Win32 build of Subversion
+
+CodePlex.com/lizardtf >>LizardTF is a (sort of) TortoiseSVN clone for Microsoft Team Foundation Server version control. It uses Explorer shell extensions to provide status overlays, TF item information as additional list columns, context menus from explorer to drive TF operations and an extra tab on the file properties form to show TF item status and history.
+
+Subversion.Tigris.org >>Why does this project exist?  To take over the CVS user base.  Specifically, we're writing a new version control system that is very similar to CVS, but fixes many things that are broken.
+
+AnkhSVN.Open.Collab.net >>AnkhSVN is a Subversion SourceControl Provider for Visual Studio. The software allows you to perform the most common version control operations directly from inside the Microsoft Visual Studio IDE. With AnkhSVN you no longer need to leave your IDE to perform tasks like viewing the status of your source code, updating your Subversion working copy and committing changes. You can even browse your repository and you can plug-in your favorite diff tool.
+
+EmacsWiki.org/emacs/SvnStatusMode
+
+TortoiseSVN.net/docs/release/TortoiseSVN_en/tsvn-dug-branchtag.html >>Although Subversion itself makes no distinction between tags and branches, the way they are typically used differs a bit. Tags are typically used to create a static snapshot of the project at a particular stage. As such they not normally used for development - that's what branches are for, which is the reason we recommended the /trunk /branches /tags repository structure in the first place. Working on a tag revision is not a good idea, but because your local files are not write protected there is nothing to stop you doing this by mistake. However, if you try to commit to a path in the repository which contains /tags/, TortoiseSVN will warn you.

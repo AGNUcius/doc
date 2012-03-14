@@ -1,0 +1,49 @@
+Related: backup, copy, disk, drive, graph, hard, idol, icon, ISO, magic, paint, part, pic, recover, save, symbol, text, USB
+
+RESTORE.sf.net >>RESTORE is a complete enterprise network backup and recovery solution. It is scalable to a complete backup solution for multiple workstations, servers and data centers. It operates over local area networks, wide area networks, and the Internet.
+
+GeekConnection.org/remastersys >>Remastersys is a tool that can be used to do 2 things with an existing Debian,  Ubuntu or derivative installation. It can make a full system backup including personal data to a live cd or dvd that you can use anywhere and install. It can make a distributable copy you can share with friends.  This will not have any of your personal user data in it.
+
+DiscUtils.CodePlex.com >>DiscUtils is a .NET library to read and write ISO files and Virtual Machine disk files (VHD, VDI, XVA, VMDK, etc). DiscUtils is developed in C# with no native code (or P/Invoke).
+
+
+=Filesystem Imaging
+FOGProject.org >>Fog is a Linux-based, free and open source computer imaging solution for Windows XP and Vista that ties together a few open-source tools with a php-based web interface. Fog doesn't use any boot disks, or CDs; everything is done via TFTP and PXE.
+
+SystemImager.org >>SystemImager is software which automates Linux installs, software distribution, and production deployment.
+
+ODIN-Win.sf.net >>ODIN is a utility for easy backup of hard drive volumes or complete hard drives under Windows. A disk image can be created or restored. Only used clusters can be backuped, compression on the fly is possible. It runs under 32-Bit Windows Operating Systems. How many hours did you spend in setting up your Windows system? Setting up the operating system, installing programs, customizing to your personal needs. Do you want to be protected against hard disk failures, viruses or other malware? Just restore your system within minutes. Why spend money for a commercial solution? Now with snapshot support (using the Microsoft Volume Shadow Copy Service).
+
+SelfImage.Excelcia.org "'SelfImage is the little hard drive utility with big aspirations.
+
+SelfImage is capable of making an image file of a hard disk or hard disk partition, and can restore an image back to any drive or partition that doesn't have open files.  Useful for making backups.  Unlike dd for Windows (or cygwin), SelfImage is capable of creating an image of a partition that is currently in use.
+
+SelfImage can even create images of partitions that Windows doesn't recognize (partitions that Windows doesn't have mounted on a drive letter).  This is perfect for the dual-boot system, you can create an image backup of a Linux partition directly from Windows.'"
+
+G4L.sf.net >>G4L is a hard disk and partition imaging and cloning tool. The created images are optionally compressed and transferred to an FTP server or cloned locally. Version 0.27 adds ssh backup on local menu, and encryption on Network menu.
+
+Linux-NTFS.org/doku.php?id=ntfsclone >>The ntfsclone utility efficiently copies, backups and restores an NTFS filesystem to/from a file, partition or standard output. It is part of the ntfsprogs suite, its full description along with some usage examples can be found in the ntfsclone manual. Working with ntfsclone is like working with dd, but ntfsclone is always faster. Like dd, ntfsclone works at the disk sector level, but since it knows the underlying filesystem (unlike dd) it either ignores unused sectors or converts them into easily compressible zeros. If you store the resulting images uncompressed, most Unix file systems (xfs, jfs, ext2/3, reiser3/4, etc) as well as NTFS won't waste space for these unused sectors. Ntfsclone also has an advanced image format which makes the image files much smaller than plain dd images, by not storing the zeros at all. On the down side, such images are not loop-mountable.
+
+
+==Distros
+SysRescCD.org >>SystemRescueCd is a Linux system on a bootable CD-ROM for repairing your system and recovering your data after a crash.  It aims to provide an easy way to carry out admin tasks on your computer, such as creating and editing the partitions of the hard disk.  It contains a lot of system utilities (parted, partimage, fstools, ...) and basic tools (editors, midnight commander, network tools).  It is very easy to use: just boot the CDROM.  The kernel supports most of the important file systems (ext2/ext3, reiserfs, reiser4, xfs, jfs, vfat, ntfs, iso9660), as well as network filesystems (samba and nfs).
+
+Clonezilla.org >>You're probably familiar with the popular proprietary commercial package Norton Ghost.  Now there is an OpenSource clone system (OCS) solution called Clonezilla with unicasting and multicasting! With DRBL and network boot enabled client computers, the only thing you have to prepare is a Clonezilla server. You do not even have to prepare a bootable CD or floppy with Partition Image for every client computer.  Clonezilla, based on DRBL, Partition Image, ntfsclone, and udpcast, allows you can massively clone many (40 plus!) computers simultaneously. Unlike G4U (Ghost for Unix) or G4L (Ghost for Linux), Clonezilla saves and restores only used blocks in the harddisk. This increases the clone effiency. At the NCHC's Classroom C, Clonezilla was used to clone 41 computers simultaneously. It took about 50 minutes to clone a 5.6 GBytes system image to all 41 computers via unicasting and only about 10 minutes via multicasting!
+
+
+==Utilities
+Launchpad.net/win32-image-writer >>This tool is used for writing images to USB sticks on Windows.
+
+DiskType.sf.net >>The purpose of disktype is to detect the content format of a disk or disk image. It knows about common file systems, partition tables, and boot codes.
+
+UWfirmforce.WikiDot.com >>UWfirmforce tries to be useful for firmware images reversing. It can currently match series of signatures and trigger further analysis of data blobs, possibly with a relevance estimation. General purpose forensic functionalities are planned as well, as is automatic decompression and extraction of content, would it be a compression, archive or filesystem format.
+
+Auricle.DynDNS.org/ALE >>ALE is a synthetic capture engine and renderer accepting, as input, a sequence of image frames, and producing, as output, rendered images, registration data, and 3D models (currently experimental).
+
+
+==Technologies
+www.FSArchiver.org >>FSArchiver is a system tool that allows you to save the contents of a file-system to a compressed archive file. The file-system can be restored on a partition which has a different size and it can be restored on a different file-system. Unlike tar/dar, FSArchiver also creates the file-system when it extracts the data to partitions.
+
+PartImage.org >>Partimage is a Linux utility which saves partitions having a supported filesystem to an image file.
+
+Partclone.org >>Partclone provides utilities to back up and restore used-blocks of a partition and it is designed for higher compatibility of the file system by using existing library, e.g. e2fslibs is used to read and write the ext2 partition.

@@ -1,0 +1,84 @@
+Related: ACL, code, crack, hack, key, secure, recover, rescue, reset, word
+
+==Microsoft Windows
+$ net.exe user USERNAME * /domain #reset a domain password
+$ net.exe user USERNAME * #reset a local password
+
+$ control userpasswords2
+
+$ rundll32.exe keymgr.dll, KRShowKeyMgr
+
+IHTeam.net/eden-live >>Welcome to the Eden Project! This small distribution was born to retrive passwords and sensitive files on Windows and Unix partitions.
+
+CDSlow.WebHost.ru/ntpwedit >>NTPWEdit based on sources from The Offline NT Password Editor (chntpw version 0.99.4 070409 (decade)) (c) 1997-2007 Petter Nordahl-Hagen. In fact, NTPWEdit is a Win32 GUI port of chntpw.
+
+HowToGeek.com/howto/windows-vista/reset-your-forgotten-password-the-easy-way-using-the-ultimate-boot-cd-for-windows/
+
+$ chntpw -l SAM #Change your NT, 2k/2000, XP, 2003, Vista, 2008
+
+Home.EUNet.no/pnordahl/ntpasswd/bootdisk.html >>Offline NT Password & Registry Editor, Bootdisk / CD
+
+Pogostick.net/~pnh/ntpasswd
+"'
+    * This is a utility to (re)set the password of any user that has a valid (local) account on your Windows NT/2k/XP/Vista etc system.
+    * You do not need to know the old password to set a new one.
+    * It works offline, that is, you have to shutdown your computer and boot off a floppydisk or CD or another system.
+    * Will detect and offer to unlock locked or disabled out user accounts!
+    * There is also a registry editor and other registry utilities that works under linux/unix, and can be used for other things than password editing.
+'"
+
+Ophcrack.sf.net >>Ophcrack is a free Windows password cracker based on rainbow tables. It is a very efficient implementation of rainbow tables done by the inventors of the method. It comes with a Graphical User Interface and runs on multiple platforms.
+
+www.CGSecurity.org/wiki/Chntpw_for_Dos >>NTFS driver & Change a NT password from MSDOS (March 25, 2002)
+
+NoBodix.org/seb/win2003_adminpass.html >>How to reset the Domain Admin Password under Windows 2003 Server
+
+==GNU
+HowToGeek.com/howto/linux/reset-your-forgotten-ubuntu-password-in-2-minutes-or-less
+
+
+Blog.Dipinkrishna.info/2009/09/recover-your-linux-root-password.html
+"'
+1. Reboot your system and at the GRUB press "e". Edit the first line and make sure it says "linux single". Then press "b" to boot the new entry line.
+
+2. You will now have access to a BASH prompt. Enter the following commands:
+
+
+cd /etc
+nano passwd
+
+
+and look for a line somewhere at the top of the file that looks like this:
+
+
+root:x:0:0:root:/root:/bin/bash
+
+
+You must remove the "x" from that line so it will look like this:
+
+
+root::0:0:root:/root:/bin/bash
+
+
+And save the file.
+
+3. Run the following command:
+
+
+nano shadow
+
+
+Edit the first line in the shadow file by removing the encrypted password. The line must now look exactly like this:
+
+root::::
+
+
+Now save the file.
+
+4. Reboot the system and log in as a normal user, then set your new root password using the following commands:
+
+
+$ sudo su
+$ passwd
+'"
+

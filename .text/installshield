@@ -1,0 +1,59 @@
+Related: install, msi
+
+Macrovision InstallShield is a proprietary and aggravating but very popular IDE. for creating .msi installers.
+
+TestingReflections.com/node/view/4839 >>Troubleshooting Installshield Errors with Windows Installer Logging
+
+$ SomeSetup.exe /c /t c:\SomeOutputDir #extract .msi from .exe
+
+
+Community.Acresso.com/archive/index.php?t-131806.html >>Standalone build and ISDEV : error 125
+Community.Macrovision.com/showthread.php?t=153916 >>In order to use the Standalone builder with Merge Modules you need install the InstallScript Objects that include the Holder Object. You can download this using Update Service or on the InstallShield website. Run this installer on the StandAlone machine and this should solve your 125 error.
+Community.Macrovision.com/showthread.php?t=184338 >>standalone build has errors on including MS merge modules
+Community.InstallShield.com/showthread.php?t=159149 >>Standalone Build problem
+Community.Macrovision.com/showthread.php?t=183545 >>Standalone build issues with IS2008
+Community.Acresso.com/archive/index.php?t-154602.html >>Standalone build module cannot find merge module
+
+Community.InstallShield.com/showthread.php?t=155107&page=2
+"' SherylSikora InstallShield Developer
+Join Date: Oct 2001
+Location: Schaumburg, IL.
+Posts: 357
+
+I would like to take this opportunity to clear up some confusion regarding how the StandAlone Build handles objects and merge modules.
+
+As a rule, if the .msm file you are using is classified as an object, the files should be placed in an "Objects" folder under the StandAlone Build install location. An example of this would be the MDAC 2.7 object that was mentioned. If the .msm file is classified as a merge module, the file should be placed in an "Modules\i386" folder. An example of this type of file would be the Crystal Report Engine API.Msm.
+
+The "ObjectsGallery" folder should not be deleted because some of the objects need those .ini files to determine where to find their dependant binaries, which are needed to build those objects. An example of one of these objects would be the DirectX 9 object.
+
+I appreciate your suggestion that the "Objects" folder should be created by the install to help guide the user and I have created Issue # IOC-000045751 for this.
+
+In addition, an underlying issue is causing the -o command line parameter to not work as you expect it to. As a workaround, if you want to use the -o parameter to specify your own location for your objects and merge modules you will need to copy those files from your InstallShield 11.5 install location into the StandAlone Build install location into either a folder named "Objects" or "Modules\i386" as I described above. You can then specify any path you want on the command line using the -o parameter and the build will use it. This is an unnecessary duplication of these files so I have created Issue # IOC-000045700 for this.
+'"
+
+
+Copying the .msm files as suggested did not work for me.
+
+
+Community.InstallShield.com/showthread.php?t=155107&page=4
+"'
+It appears to be an issue still in InstallShield 12. I am using MSBuild to build our installation and get the following error:
+
+C:\TrkkBuild\Trackker Install Build.proj(194,5): error : -7017: The Object/MergeModule "\\Devinstaller\TestBuilds\MergeModules\Trackker\2007\MDAC28SP1.msm" is not installed on the local system. To download it, go to the Redistributables view, right click on any item and select "Download required Merge Modules."
+
+I have many other merge modules included in this installation that are stored in the merge module path "\\Devinstaller\TestBuilds\MergeModules\Trackker\2007" that I do not get this error with. I have tried copying MDAC28SP1.msm to "C:\Program Files\Macrovision\IS 12 StandaloneBuild\Modules\i386" and "C:\Program Files\Macrovision\IS 12 StandaloneBuild\Objects" but it has not corrected the issue.
+'"
+
+InstallSite.org/pages/en/bugs_isw115.htm >>If you want to use the -o parameter to specify your own location for your objects and merge modules you will need to copy those files from your InstallShield 11.5 install location into the StandAlone Build install location into either a folder named "Objects" or "Modules\i386". You can then specify any path you want on the command line using the -o parameter and the build will use it. This is an unnecessary duplication of these files.
+
+
+Community.Macrovision.com/showthread.php?t=169901
+
+$ sfc.exe /scannow #Scans all protected system files and replaces incorrect versions with correct Microsoft versions.
+
+DWMAPI.dll link/not-found problem.
+ Possible culprits: IE7, bad .NET framwork install
+ Possible solutions: sfc.exe, VCRedist?
+
+
+> ISDEV : warning -6558: The Custom Action CreateServiceConfigFile in the InstallExecuteSequence table is run from an installed file.  To run the custom action successfully, you may need to have a condition that checks if the source file is installed locally.

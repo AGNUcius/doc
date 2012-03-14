@@ -1,0 +1,43 @@
+Related: #!, $, cmd, CLI, conquer, console, control, demand, exe, require, ssh, term, verb
+
+Shell (nature): chaf, cover, husk, seed
+
+Win-Bash.sf.net >>win-bash is a windows port of the famous GNU bash (see GNU Bash homepage).
+
+ShellInABox.GoogleCode.com >>Shell In A Box implements a web server that can export arbitrary command line tools to a web based terminal emulator. This emulator is accessible to any JavaScript and CSS enabled web browser and does not require any additional browser plugins.
+
+ShellSetup.sf.net >>Generic and scalable system for Linux or Unix shell setup. This is a good replacement of .cshrc files. ShellSetup provides a user friendly environment to you, enabling you to customize the system very easily for you.
+
+Zhap.sf.net >>Zhap is the shell, or command language interpreter for Win32. It is console program and try to replace command.com.
+
+GeoShell.sf.net >>GeoShell is a Windows Shell Replacement. It replaces the standard 'Start Menu', 'Desktop', 'Task Bar' and 'system tray' of windows with a smaller, faster, and more configureable program, with an extensible bar-oriented minimal interface.
+
+SquirrelSH.sf.net >>Squirrel Shell is made as a cross-platform alternative to system shells like bash in *nix and cmd.exe (command.com) in Windows®. It is based on Squirrel scripting language ...
+
+RubNub.org >>Ready to go beyond Domain Names and take control of the Internet? RubNub is transparent and lives in your Address Bar, so in addition to typing in URLs you can also use YubNub commands. Download the RubNub that matches your Firefox version.
+
+MetaShell.sf.net >>metashell is a lightweight, heavy punch, interactive, intelligent command-line shell. The amazing difference with metashell lies in its ability to determine a file's datatype, and automatically run your desired applications.
+
+NADVSH.sf.net >>The New Adventure Shell is a shell script that will make your Un*x shell act like a text adventure game.  It is similar to the mud-shell (available on http://www.xirium.com/tech/mud-shell ) which has been written in perl.  This script however is written in ksh/bash/zsh.  The script is intended to pose as little restrictions on the normal use of the shell as possible, while allowing as many adventure commands as possible, and is written for maximum portability to other Unices.
+
+DEMOSTEN.com/shellexman >>Shell Extension Manager - helps you activate / deactivate MS Windows shell extensions in order to improve the stability and speed of your computer. Your actions with this program could fail your Windows Explorer Shell! Use with caution!
+
+Viewglob.sf.net >>It's a filesystem visualization add-on for Bash and Zsh... sort-of. The idea is simple but hard to describe simply.
+
+SecDev.org/projects/shellforge >>ShellForge is a python program that builds shellcodes from C. It is inspired from Stealth's Hellkit.
+
+PASH.sf.net >>PowerShell open source reimplementation for "others" (Mac, Linux, Solaris, etc...) and Windows (including Windows Mobile and Windows CE)
+
+goosh.org >>the unofficial google shell.
+
+Hotwire-Shell.org >>A modern hybrid textual/graphical shell for developers and system administrators
+
+fishShell.org >>fish is a user friendly command line shell for UNIX-like operating systems such as Linux.
+
+Mooix.net >>Mooix is a MOO, an object-oriented multi-user virtual world that users can log into and explore. Each user takes control of a computerized avatar. You can walk around, chat with other people, solve puzzles, and even extend and change the world by creating new places and items and adding your own code.
+
+CODESH.sf.net and Bourilko.Web.CERN.ch/bourilko/caves.html >>CAVES: Collaborative Analysis Versioning Environment System    CODESH: COllaborative DEvelopment SHell
+
+Home.EOL.ca/~parkw >>BashDiff is a patch against Bash-3.0 shell, incorporating many useful features from Awk, Python, Zsh, Ksh, and others.
+
+LUSH.sf.net Lisp Universal SHell

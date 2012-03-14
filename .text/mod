@@ -1,0 +1,33 @@
+Related: cad, MIDI, track, weather
+
+mode: production
+model: 3D, emulate, simulate
+modify: change, weather, WeatherMod.org, WeatherMod.com
+
+TraxerNews.net, United-Trackers.org
+
+==Module Trackers, MIDI, scene.org
+MilkyTracker.net >>MilkyTracker is an open source, multi-platform music application for creating .MOD and .XM module files. It attempts to recreate the module replay and user experience of the popular DOS program Fasttracker II, with special playback modes available for improved Amiga ProTracker 2/3 compatibility.
+
+Batman.no/buze >>Buze is an open source modular audio sequencer and tracker for Windows. Designed as a modern remake of Jeskola Buzz.
+
+Beast.GTK.org >>Beast is a powerful music composition and modular synthesis application released as free software under the GNU GPL and GNU LGPL, that runs under unix. It supports a wide range of standards in the field, such as MIDI, WAV/AIFF/MP3/OggVorbis/etc audio files and LADSPA modules. It has excellent technical abilities like multitrack editing, unlimited undo/redo support, real-time synthesis support, 32bit audio rendering, full duplex support, multiprocessor support, conditional MMX/SSE utilisation for plugins, precise timing down to sample granularity, on demand and partial loading of wave files, on the fly decoding, stereo mixing, FFT scopes, MIDI automation and full scriptability in scheme.
+
+SoundTracker.org >>SoundTracker is a music tracking tool for Unix / X11 similar in design to the DOS program FastTracker and the Amiga legend ProTracker. Samples can be lined up on tracks and patterns which are then arranged to a song. Supported module formats are XM and MOD; the player code is the one from OpenCP. A basic sample recorder and editor is also included. SoundTracker is free ("open source") software, licensed under the GNU GPL.
+
+$ timidity #Software sound renderer (MIDI sequencer, MOD player)
+
+CheeseTracker.sf.net >>
+
+RigelSeven.com/schism >>Schism Tracker is a music editor that aims to match the look and feel of Impulse Tracker as closely as possible. The player code is based on Modplug, so it supports a wide variety of module formats.
+XMP.sf.net >>Extended Module Player
+ModPlug.org
+MikMod.raphnet.net
+BuzzTard.org >>The buzztard project aims to provide a free replacement of the currently windows only and close source software Buzz. It is a music production environment, which is based on a very modular approach, to allow many people to get involved.
+Psycle.sf.net and Psycle.PastNoteCut.org >>PSYCLE is a Music Creation Studio, using a tracker interface.  It can be used to make any type of music, using either its native plugins (synths and effects), VST2 plugins (synths and effects), internal sampler and effects and .wav files through the sampler.
+PureData.info >>PD (aka Pure Data) is a real-time graphical programming environment for audio, video, and graphical processing. It is the third major branch of the family of patcher programming languages known as Max (Max/FTS, ISPW Max, Max/MSP, jMax, etc.) originally developed by Miller Puckette and company at IRCAM. The core of Pd is written and maintained by Miller Puckette and includes the work of many developers, making the whole package very much a community effort.
+Scene.org
+
+==Kernel Modules, drivers
+$ lsmod #program  to show the status of modules in the Linux Kernel
+$ insmod #simple program to insert a module into the Linux Kernel

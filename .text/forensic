@@ -1,0 +1,63 @@
+Related: file, recover, rescue
+
+AFFLib.org >>This server is the distribution site for currents and archival releases of forensic software by Simson L. Garfinkel. All of the software distributed at this server is either covered by a liberal Open Source license agreement or is in the public domain.
+
+Remote-Exploit.org/backtrack.html >>BackTrack is the most top rated linux live distribution focused on penetration testing. With no installation whatsoever, the analysis platform is started directly from the CD-Rom and is fully accessible within minutes.
+
+Xplico.org >>Xplico is a Network Forensic Analisys Tool NFAT, for Unix and Unix-like operating systems.  It uses libpcap, a packet capture and filtering library.
+
+FTimes.sf.net >>FTimes is a system baselining and evidence collection tool. The primary purpose of FTimes is to gather and/or develop topographical information and attributes about specified directories and files in a manner conducive to intrusion and forensic analysis.
+
+DeftLinux.net >>DEFT (acronym of Digital Evidence & Forensic Toolkit) is a customized distribution of the Xubuntu live Linux CD.
+
+PlainSight.info >> PlainSight is a versatile computer forensics environment that allows inexperienced forensic practitioners perform common tasks using powerful open source tools.
+
+AIR-Imager.sf.net >>AIR (Automated Image and Restore) is a GUI front-end to dd/dcfldd designed for easily creating forensic bit images.
+
+PyFLAG.net >>FLAG (Forensic and Log Analysis GUI) is an advanced forensic tool for the analysis of large volumes of log files and forensic investigations.  PyFlag features a rich FeatureList which include the ability to load many different log file formats, Perform forensic analysis of disks and images. PyFlag can also analyse network traffic as obtained via tcpdump quickly and efficiently.
+
+PTK-Forensics.sf.net >>PTK is an alternative advanced interface for the suite TSK (The Sleuth Kit). It was developed from scratch and besides providing the functions already present in Autopsy it implements numerous new features essential during forensic activity.
+
+WebJob.sf.net >>Incident response is fraught with constraints. Often, response handlers must work around the constraints imposed by the surrounding environment. For example, lack of physical or shell access, untrusted diagnostic programs, lack of encryption, many machines in need of investigation, et cetera. Therefore, tool designers need to take into account these issues and compensate, where possible. Further, tool builders need to design their tools with Daubert principles in mind. Specifically, such tools need to have open architectures and utilize open data formats so that other practitioners and tool builders may thoroughly understand and appreciate their operation.
+
+OpenSourceForensics.org >>The Open Source Digital Forensics site is a reference for the use of open source software in digital investigations (a.k.a. digital forensics, computer forensics, incident response). Open source tools may have a legal benefit over closed source tools because they have a documented procedure and allow the investigator to verify that a tool does what it claims.
+
+Digital-Evidence.org
+
+DFTT.sf.net >>Digital Forensics Tool Testing Images
+
+VolatileSystems.com/default/volatility >>The Volatility Framework is a completely open collection of tools, implemented in Python under the GNU General Public License, for the extraction of digital artifacts from volatile memory (RAM) samples. The extraction techniques are performed completely independent of the system being investigated but offer unprecedented visibilty into the runtime state of the system. The framework is intended to introduce people to the techniques and complexities associated with extracting digital artifacts from volatile memory samples and provide a platform for further work into this exciting area of research.
+
+TechM4sters.org >>Protech is a specially designed Linux distribution for security technicians and programmers, although it can be used normally as your default desktop system.
+
+GMGSystemsINC.com/fau >>This is a collection of utilities and libraries intended for forensic or forensic-related investigative use in a modern Microsoft Windows environment.  The components in this collection are intended to permit the investigator to sterilize media for forensic duplication, discover where logical volume information is located and to collect the evidence from a running computer system while at the same time ensuring data integrity (e.g. with a cryptographic checksums) and while minimizing distortive alterations to the subject system.  The components of this package are not intended to preclude all changes to the subject system  while the evidence collection process is under way .  A third party hardware or software write blocker should be employed in those circumstances where it is deemed necessary to guarantee  that no changes occur to the subject volume prior to and after the imaging process.  
+
+ForensicsWiki.org >>This is the Forensics Wiki, a Creative Commons-licensed wiki devoted to information about digital forensics (also known as computer forensics). We currently list a total of 539 pages.  Much of computer forensics is focused on the tools and techniques used by investigators, but there are also a number of important papers, people, and organizations involved. Many of those organizations sponsor conferences throughout the year and around the world. You may also wish to examine the popular journals and some special reports.
+
+NetworkMiner.sf.net >>NetworkMiner is a Network Forensic Analysis Tool (NFAT) for Windows. NetworkMiner can be used as a passive network sniffer/packet capturing tool in order to detect operating systems, sessions, hostnames, open ports etc. without putting any traffic on the network. NetworkMiner can also parse  PCAP files for off-line analysis and to regenerate/reassemble transmitted files and certificates from PCAP files.
+
+Linux-Forensics.com
+
+SleuthKit.org >>digital investigation tools (a.k.a digital forensic tools) ... analyze NTFS, FAT, Ext2, Ext3, UFS1, and UFS2 file systems and several volume system types.
+
+DigitalForensicsSolutions.com/Scalpel >>Scalpel is a fast file carver that reads a database of header and footer definitions and extracts matching files from a set of image files or raw device files. Scalpel is filesystem-independent and will carve files from FATx, NTFS, ext2/3, or raw partitions.
+
+
+OCFA.sf.net "'The Open Computer Forensics Architecture (OCFA)
+
+Dutch National Police Agency. See http://www.politie.nl/overige/English/ for more information.
+
+The Open Computer Forensics Architecture (OCFA) is a modular computer forensics framework built by the Dutch National Police Agency. The main goal is to automate the digital forensic process to speed up the investigation and give tactical investigators direct access to the seized data through an easy to use search and browse interface.
+
+The architecture forms an environment where existing forensic tools and libraries can be easily plugged into the architecture and can thus be made part of the recursive extraction of data and metadata from digital evidence.
+
+The Open Computer Forensics Architecture aims to be highly modular, robust, fault tolerant, recursive and scalable in order to be usable in large investigations that spawn numerous terabytes of evidence data and covers hundreds of evidence items.
+'"
+
+Rossi.com/fstools/intro.html (java) >>FileSystem Investigator is a platform independent file system viewer and data extraction tool. It allows the user to: * View the contents of the target file system in a forensicly safe manner, bypassing the normal operating system mechanisms. * Extract files and whole directory trees of files from the source filesystem.
+
+
+CAINE-Live.net >>CAINE (Computer Aided INvestigative Environment) is a GNU/Linux live distribution created by Giancarlo Giustini as a project of Digital Forensics for Interdepartment Center for Research on Security (CRIS), supported by the University of Modena and Reggio Emilia.
+
+TechM4sters.org >>Protech is a specially designed Linux distribution for security technicians and programmers, although it can be used normally as your default desktop system.
+

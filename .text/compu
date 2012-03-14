@@ -1,0 +1,129 @@
+Related: code, compile, game, hardware, IDE, machine, OS, process, script, software
+
+==Languages
+CoffeeScript is a little language that compiles into JavaScript. Underneath all of those embarrassing braces and semicolons, JavaScript has always had a gorgeous object model at its heart. CoffeeScript is an attempt to expose the good parts of JavaScript in a simple way.
+
+Fantom.org >>Do we really need another programming language? Well obviously we thought so, or we wouldn't have built Fantom! Fantom is designed as a practical programming language to make it easy and fun to get real work done. It is not an academic language to explore bleeding edge theories, but based on solid real world experience.
+
+Basic-Converter.org >>BaCon is a free BASIC to C converter for Unix-based systems.
+
+LavaPE.sf.net >>LAVA    an experimental object-oriented rapid application development (RAD) language with type parameters ("virtual types"), refactoring, and extensive static checks, that prevent inadvertent access to uninitialized variables and null objects already at programming time.    The Lava programming environment LavaPE replaces text editors completely by structure editors.
+
+GoLang.org >>GO a systems programming language expressive, concurrent, garbage-collected
+
+Pharo-Project.org >>Pharo's goal is to deliver a clean, innovative, free open-source Smalltalk environment. By providing a stable and small core system, excellent developer tools, and maintained releases, Pharo is an attractive platform to build and deploy mission critical Smalltalk applications. Pharo is MIT licensed and is steered by a board of benevolent dictators. The board makes final decisions if no consensus can be reached within the community. Pharo fosters a healthy ecosystem of both private and commercial contributors who advance and maintain the core system and its external packages.
+
+Unicon.org >>Unicon is a "modern dialect" descending from the Icon programming language. Unicon incorporates numerous new features and extensions to make the Icon language more suitable for a broad range of real-world applications.
+
+ChaiDraw.GoogleCode.com >>ChaiDraw is a showcase for ChaiScript. It is meant to demonstrate just how simple ChaiScript is to use and to integrate into your application. Also, it is a simple way to introduce young computers users to programming.
+
+ChaiScript.com >>ChaiScript is the first and only scripting language designed from the ground up with C++ compatibility in mind. It is an ECMAScript-inspired, embedded functional-like language.
+
+Users.RCN.com/david-moon/PLOT >>Programming Language for Old Timers (PLOT) is a new dialect of Lisp designed by Dave Moon in February 2006, and thoroughly revised and simplified November 2007 and March 2008. I have been developing PLOT as a hobby, with the idea of for once having a programming language which does everything the right way. You know it is right when both simplicity and power are maximized, while at the same time confusion and the need for kludges are minimized.
+
+BOO.CodeHaus.org >>Boo is a new object oriented statically typed programming language for the Common Language Infrastructure with a python inspired syntax and a special focus on language and compiler extensibility.
+
+FactorCode.org >>Factor is a concatenative programming language where references to dynamically-typed values are passed between words (functions) on a stack. Learn more about this paradigm.
+
+Squirrel-Lang.org >>Squirrel is a high level imperative/OO programming language, designed to be a powerful scripting tool that fits in the size, memory bandwidth, and real-time requirements of applications like games. Although Squirrel offers a wide range of features like:
+
+IntendC.org >>You have arrived at the homepage of Intend C, a light-weight embeddable scripting language. The language uses a syntax and library similar to ANSI C, but adds automatic memory management and runtime polymorphism on top of that.
+
+CSScript.net >>S-Script is a CLR (Common Language Runtime) based scripting system which uses ECMA-compliant C# as a programming language. CS-Script currently targets Microsoft implementation of CLR (.NET 2.0/3.0/3.5) with limited support on Mono. CS-Script is an open-source initiative that is distributed under the license agreement, which can be found here. However commercial support is also available. CS-Script combines the power and richness of C# and FCL with the flexibility of a scripting system. CS-Script can be useful for system and network administrators, developers and testers. For any one who needs an automation for solving variety of programming tasks.
+
+XAmber.org >>The Amber Scripting Language combines the traditional advantages of scripting languages with support for software correctness, large-scale software engineering and re-use.
+
+Parrot.org >>Parrot is a virtual machine designed to efficiently compile and execute bytecode for dynamic languages. Parrot currently hosts a variety of language implementations in various stages of completion, including Tcl, Javascript, Ruby, Lua, Scheme, PHP, Python, Perl 6, APL, and a .NET bytecode translator. Parrot is not about parrots, though we are rather fond of them for obvious reasons.
+
+www.Srcf.ucam.org/~dmi1000/roboc >>Roboc is a teaching language suitable for children. It includes an IDE and various modes for turtle graphics (like LOGO), mathematical programs, artistic graphics, and robot programming. It art mode you can create animations, physics simulations, and interactive games; in robot mode you must program a robot to collect objectives within mazes. The language is designed to be very easy and fast to learn but well structured and with good visual feedback.
+
+Alice.org >>Alice is an innovative 3D programming environment that makes it easy to create an animation for telling a story, playing an interactive game, or a video to share on the web. Alice is a freely available teaching tool designed to be a student's first exposure to object-oriented programming. It allows students to learn fundamental programming concepts in the context of creating animated movies and simple video games. In Alice, 3-D objects (e.g., people, animals, and vehicles) populate a virtual world and students create a program to animate the objects.
+
+Scratch.MIT.edu >>Scratch is a new programming language that makes it easy to create your own interactive stories, animations, games, music, and art -- and share your creations on the web.
+
+Shoooes.net and The-ShoeBox.org >>Shoes is a tiny graphics toolkit, designed for beginners. But make no mistake: this is real programming. You can make real, colorful apps in Shoes.
+
+RUR-PLE.sf.net >>Learning to program computer should be fun, for adults and children alike. RUR-PLE is an environment designed to help you learn computer programming using the language Python. To use RUR-PLE, you need wxPython.
+
+Sprog.sf.net >>Sprog is a graphical tool which anyone can use to build programs by plugging parts together. In Sprog jargon, the parts are known as 'gears' and they are assembled to make a 'machine'.
+
+NewLisp.org >>newLISP is a scripting language for developing web applications and programs in general and in the domains of artificial intelligence (AI) and statistics.
+
+Rhope.RetroDev.com >>Rhope is a new multi-paradigm programming language that uses dataflow and a transaction model to make concurrent programming easy
+
+PuppyLinux.com/genie and Live.Gnome.org/Genie >>Vala and Genie are new programming languages, really new. Vala came first, in mid-2006, with a C#-like syntax, followed by Genie in mid-2008 with a Python-Boo-like syntax. These languages use the same compiler and support all the same features, so take your pick!
+
+dClib.sf.net >>Welcome to the dlib C++ library's homepage. It is a modern C++ library with a focus on portability and program correctness. It strives to be easy to use right and hard to use wrong. Thus, it comes with extensive documentation and thorough debugging modes.
+
+XEVM.net >>The XEPL Engine Virtual Machine    Real time Multi-threaded Pub/Sub Event Driven XML Engine
+
+LLVM.org >>The LLVM Compiler Infrastructure
+
+HLVM.org >>HLVM is a language designer's toolkit.  It's goal is to take care of the many compilation, optimization and runtime details needed in a language system.
+
+lechak.info/blue >>Blue is a unique language that consolidates the most powerful programming features into a simple and concise syntax.  To keep the syntax clean, simple-to-write plugin modules add functionality without compromising simplicity.  Modules can add types, algorithms, and even programming paradigms.
+
+CodeWorker.free.fr >>CodeWorker is a versatile Open Source  (GNU Lesser General Public License) parsing tool and a source code generator devoted to generative programming.  Generative programming is a software engineering approach interested in automating the production of reusable, tailor-made, adaptable and reliable IT systems.
+
+FreePascal.org >>High speed, low memory Being a language that is compiled into fast machine code by a modern compiler, Free Pascal has been able to make Pascal one of the fastest languages there are. Further, Free Pascal programs tend to use little memory. For comparison with other languages we suggest the Shootout.Alioth.Debian.org benchmark and recommend you modify the weights to your own taste.
+
+www.cs.cornell.edu/talc >>Typed Assembly Language (TAL) extends traditional untyped assembly languages with typing annotations, memory management primitives, and a sound set of typing rules.  These typing rules guarantee the memory safety, control flow safety, and type safety of TAL programs.  Moreover, the typing constructs are expressive enough to encode most source language programming features including records and structures, arrays, higher-order and polymorphic functions, exceptions, abstract data types, subtyping, and modules.  Just as importantly, TAL is flexible enough to admit many low-level compiler optimizations.  Consequently, TAL is an ideal target platform for type-directed compilers that want to produce verifiably safe code for use in secure mobile code applications or extensible operating system kernels.  We have implemented a variant of TAL for Intel's IA32 architecture called TALx86, and have written a compiler for a safe C-like language called Popcorn to TALx86.
+
+RetroForth.org >>RetroForth is a lightweight, easy to learn, and complete implementation of the Forth programming language.
+
+MinimaLinux.org/arena >>Arena Scripting Language  arena [Unix] n. The area of memory attached to a process by brk(2) and sbrk(2) and used by malloc(3) as dynamic storage.  The language uses a syntax and library similar to that of ANSI C, but adds automatic memory management and runtime polymorphism on top of that.
+
+BellSouthpWP.net/p/r/prochak/blue >>The blue programming language (blue) is a unique bytecode-compiled language that implements the most effective capabilities of many popular programming languages in a clear and concise syntax. Plugin modules are easy to develop and can add functions, types, and even programming paradigms to the language without interfering with the syntax.
+
+ngrease.sf.net >>metalanguage and language set
+
+dsource.org >>Open Source Development for the D Programming Language
+
+Live.GNOME.org/Vala >> Vala - Compiler for the GObject type system
+
+Fortress.SunSource.net >>Fortress is a new programming language designed for high-performance computing (HPC) with high programmability.
+
+re2c.org >>re2c is a tool for writing very fast and very flexible scanners. Unlike any other such tool, re2c focuses on generating high efficient code for regular expression matching. As a result this allows a much broader range of use than any traditional lexer offers. And Last but not least re2c generates warning free code that is equal to hand-written code in terms of size, speed and quality.
+
+NekoVM.org >>Neko is a high-level dynamically typed programming language which can also be used as an embedded scripting language.
+
+Seed7.sf.net >>Seed7 is a general purpose programming language designed by Thomas Mertes.  It is a higher level language compared to Ada, C/C++ and Java.
+
+DGCC.sf.net GCC front end for D language files.
+
+ferite.org >>ferite is a clean language with influences from various places: objects from Java/C++, functions from C/php, closures from scheme, block calling from ruby, namespaces from C++, as well as its own a sane loose typing mechanism, variant type and set of nice APIs.
+
+lang2e.sf.net >>The 2e language (two e's, as in ee, or expression evaluator) is an experimental algebraic syntax language. It natively supports expressions (composed of operators and operands), and function definitions, Operands are numeric literals, quoted string or (single-quoted) character values, variables, and function calls, while Operators are things like +, -, /, *, also assignment and comparison operators (>, <, ==, etc.).
+
+q-lang.sf.net
+
+Assembly (ASM)
+C, C++, D
+JavaScript
+
+Python
+Perl
+
+Shell
+
+Emacs Lisp, Scheme
+Clisp.CONS.org >>a feature-loaded implementation of a great language!
+
+HTML, SGML, XHTML, XML
+
+Ferite.org >>Welcome to the ferite.org website. ferite is a scripting engine and language written in c for complete portability. For more information please see the about page. We have finally reached a 1.0 release - this has only taken us since Summer 2000 to get here so far.
+
+cOMPunity.org >>The Community of OpenMP Users, Researchers, Tool Developers and Providers
+
+CS.NYU.edu/rgrimm/xtc/rats.html >>Rats! is an easily extensible parser generator for C-like languages; though currently it only generates parsers in Java. Rats! has been explicitly designed so that grammars are concise and easily modifiable. To this end, Rats!
+
+
+$ dmidecode #look at BIOS info
+
+
+Beginner's All-purpose Symbolic Instruction Code(BASIC)
+Visual BASIC(VB)
+Javascript, ActionScript, Flash, swf, Sliverlight
+Perl, Ruby
+Shell, cmd(batch)
+

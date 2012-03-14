@@ -1,0 +1,713 @@
+====THIS FILE IS ARCHIVAL.  See 'Diary' for newest entries
+
+Feb-28-2008: Working on http://OpenFarmTech.org/index.php?title=Talk:User_Owner_Project
+
+
+Feb-27-2008: GreenInventor.org >>The StrawJet harvests straw in the field before it has been crushed or damaged, orients the stems so they are all parallel, adds a clay based binding material, compresses the bundle and binds it into a continuous length of 2 inch cable using a polyester yarn. Once the clay has dried, the cable becomes a rigid cylinder.
+
+
+Feb-27-2008: Noticed Selfsufficientish.com >>Self sufficient 'ish'.com - The urban guide to almost self sufficiency.
+
+
+Feb-27-2008: Created OpenMoney.ning.com/profile/AGNUcius
+Peace and abundance result when profit is treated as an investment from the user who paid it.
+War and poverty result when profit is taken by source owners acting as accidentally parasitic usurists.
+War and poverty increase the potential for profit, while peace and abundance decrease that potential.
+Profit is an inverse measure of progress.
+As the object consumers become source owners, price approaches cost as profit approaches zero and control becomes direct.
+
+
+Feb-27-2008: CiteSeer.IST.PSU.edu/tatar01new.html >>"A New Algorithm For Word Sense Disambiguation (2001)" Abstract: The task of disambiguation is to determine which of the senses of an ambiguous word is invoked in a particular use of the word [3]. Starting from the algorithm of Yarowsky [5, 4] and the Naive Bayes Classi er (NBC) algorithm , in this paper we propose an original algorithm which combines their elements. This algorithm preserve the advantage of principles of Yarowsky ( one sense per discourse and one sense per collocation) with the known high performance of the NBC algorithm. Moreover, an agent... (Update)
+
+Feb-27-2008: CiteSeer.IST.PSU.edu/molina02hidden.html >>"A Hidden Markov Model Approach to Word Sense Disambiguation (2002)" Abstract: In this work, we propose a supervised approach to Word Sense Disambiguation which is based on Specialized Hidden Markov Models and the use of WordNet. Our approach formulates the disambiguation process as a tagging problem. The specialization process allows for the incorporation of additional knowledge into the models. We evaluated our system on the English all-words task of the Senseval-2 competition. The performance of our system is in line with the best approaches for this task.
+
+
+Feb-27-2008: PublicAndPrivateEnterprise.org
+
+Feb-27-2008: Reading "Nishanth Sastry, Karen Sollins, Jon Crowcroft: Architecting Citywide Ubiquitous Wi-Fi Access. The Sixth Workshop on Hot Topics in Networks (HotNets-VI)." http://www.cl.cam.ac.uk/~nrs32/pubs/hotnets6.pdf
+
+
+Feb-27-2008: Listening to Eben Moglen on Software Patents: http://cmdln.evenflow.nl/mp3/cmdln.net_2008-02-20.mp3
+
+
+Feb-27-2008: Reading "There Are Realistic Alternatives" (maybe a play on TINA?) AEinstein.org/organizations/org/TARA.pdf
+
+
+Feb-26-2008: Posted to Blog.P2PFoundation.net/one-loaf-per-child/2007/06/14
+Marcin,
+
+Are you saying that we cannot organize to co-own a large factory or farm?
+
+"'What are you doing to organize the means of production to a smaller organizational scale of production owners? ... I know my answer. Fab labs. Open repository of digital design.'"
+
+I think the reason for the excessive interest in magical fabbers and "desktop manufacturing" is an attempt at avoiding the difficult issue of co-ownership.
+
+People want the advantage of owning the Physical Sources of production so they can have control, but want to avoid the sticky issue of partial ownership.
+
+Individual ownership of Personal Computers (PCs) is a big part of the success in the P2P paradigm and of Free Software and 'online' Free Culture.  These Physical Sources are cheap enough that many people can afford one in their own home and ISP charges are just quietly disregarded.
+
+Collective ownership of Physical Sources is difficult, but obviously is "worth it" for many kinds of production - for that is the role that Capitalist corporations currently fill.
+
+For instance, a person could choose to individually own a milk cow so they could get "at cost" milk, but they couldn't afford the better tools like a fancy milking machine, so would likely have to the work themselves since hiring someone to come for that little bit of time would hardly be worth it unless you overpaid them.  And it probably wouldn't be worth it to grow their own alfalfa, or to purchase expensive medical/vet tools, so would be paying "price above cost" to feed and provide medical care for the animal, and so on, recursively for the entire chain (actually tree) of production.  There is great savings in eventually owning the physical sources for every step required for that production, and that is one of the savings in the "efficiency of scale".
+
+Most people do not INDIVIDUALLY own a milk cow even though there are great advantages of controlling exactly what the cow is fed and whether or not it is injected with artificial hormones, and is treated humanely, etc. because it is just not realistic to INDIVIDUALLY own - it is too much trouble.
+
+But it WOULD be "worth it" for 10 or 100 or 1000 neighbors to COLLECTIVELY own a small dairy.  Each consumer would have as much vote control as they have percentage of ownership, and when the majority wanted to do something that caused a division, the minority should be able to 'fork' from the rest of the group to avoid the excessive granularity of typical 'democracy'.
+
+So the problem I am working on is in describing how to make collective ownership self perpetuating.
+
+The primary secret I have discovered that has been purposefully hidden or accidentally lost is that profit (price above cost) is a measure of a consumer's dependence on the current owners of the physical sources, and is 'balanced' by treating that payment as an investment from the consumer that paid it.
+
+
+Feb-26-2008: Email reply to Marcin
+> Ok, I think i agree with the logic. But what is the productive capacity of
+> these Organizations that will help people see the value of joining? Is there
+> something like a value portfolio that is displayed? Is the value monetary or
+> in-kind (products and services)?
+
+Just for clarity I will reiterate that treating profit as an investment from the consumer who paid it automates the incremental growth of the organization, but that comes AFTER we overcome the initial investments required to begin.
+
+So the difficulty is in the intial funding.
+
+Since the originating investors can never expect to collect profit for themselves, the motivation must come from somewhere else.
+
+1. At-Cost product(*): A paritial owner (controlling shareholder) will receive as much of the outputs of production as he has percentage of ownership.  If you own 15% of an apple tree, and enough of the "supporting sources" required to deal with your percentage of that tree {such as the land, water rights, tractor, tools, etc.}, then you will automatically own 15% of the harvest of that tree at the end of that round of production.  Notice you will still need to pay all costs - including any wages, but paying profit is not even possible unless you were to pay it to yourself.  Profit is undefined in this case.
+
+1a. You may choose to sell or give away any or all of your apples, but your association with the other co-owners under the GNU GPLaw means those objects are also under that contract.
+
+
+2. Consumer Control: By investing early, you have immediat vote-weight over that establishment.  Let's say you (an investing consumer) want a restaurant that serves good food at a reasonable price and pays it's workers well.  Since we are used to paying all costs (including wages) + profit, we can easily pay costs alone while increasing wages since profit will only be paid by those that do not yet have sufficient ownership.
+
+3. Work Sharing: Creating such establishments allows us to finally maximize the trade of labor.  You can then go "out to eat" for every meal because it will never be more expensive than cooking a meal at home.  Sure you must pay the workers, but your time is valuable too right?  The difference from a Capitalist restaurant is that you no longer pay profit(*), so we no longer need to avoid the value that specialization brings.
+
+(*) Objects are usually perfectly "At-Cost" only for brief periods of time because consumers are dynamic in many different ways, so a change in a consumer's desire (say from apples to pears) will not be available "At-Cost" until the "Price Above Cost" (profit) that they pay for the new product has been invested for them, and those new Physical Sources have become productive for them.
+
+> I agree that people will want to join,
+> because they get great value in return - and the point is to explain to
+> people clearly how they will benefit. What are your comments on that?
+
+Imagine you need some work done on your house or your car.
+
+1. If you are lucky enough to have the needed skills, you might try to buy cheap versions of some of the tools you will need, but must avoid the more expensive things because it will not be "worth it" for the small amount you will utilize them.
+
+2. You can contact a typical Capitalist business with non-working owners and non-owning workers who will have both skills and the better tools, but you must then pay price above cost (profit) without ever earning ownership in that organization.
+
+3. You can contact a smaller Capitalist business where all the owners are workers and all the workers are owners.  They will also have skills and better tools, but will pay themselves much more than the non-owning workers in (2.)  The profit you usually paid now appears to be wage, but it is actually hidden profit as proved by the worker-owners disallowing other non-owning workers to bid to access the tools.  In other words, competition between all possible workers is not maximized.  The non-owning workers described in (2.) would not be allowed to work with these tools at the wage they agreed upon before.
+
+4. You could get together with 100 neighbors and buy the expensive tools that you will a percentage of ownership in.  You can then hire non-owning workers at a wage above (2.) while still paying less than either (2. or 3.).  You can also choose to do the work yourself if you have those skills, and can do all variety of things that other corporations arbitrarily don't allow.
+
+Hope this helps.
+
+I'm happy that this stuff is finally getting some attention, but I want to be very clear that I seek no glory for myself.
+
+The things that I am talking about could not have been 'invented' by anybody, they are simply truths that were waiting to be discovered - maybe like gravity.  It was Richard Stallman that discovered the Users must gain Control.  We are helping to generalize that discovery.
+
+Sincerely,
+Patrick
+
+
+Feb-26-2008: Reading ArielRubinstein.tau.ac.il/papers/poe.pdf >>Edgar Allan Poe’s Riddle: Do Guessers Outperform Misleaders in a Repeated Matching Pennies Game?
+
+
+Feb-26-2008: Email reply to Stan
+> I have not done a formal critique of Patrick's GPLaw yet.  If
+> I did, it would be based on it not being feasibly implementable.
+
+Stan,
+
+I was thinking about your concern that we would need to track all objects (products) that are purchased as GPLed and then resold as not.  I think the problem is small for these reasons:
+
+. The trouble you point out only occurs when an object is illegally traded (breaking contract law) by removing the notice that the object is under that contract, and even then the damage is isolated to the new consumer in that the new consumer is simply unaware of their rights becuase the information is hidden from them.  It doesn't really help the middle-man seller.
+
+. The owner of an objective protected by GNU General Public Law (such as an apple) will sell that object at a price above cost (whatever the market will bear), so there is not a great incentive for the buying middle-man to resell the item - as he could only do so for approximately the same price, hardly covering his own wage for the trouble.
+
+. The GNU GPLaw minimizes the trade of objects while maximizing the trade of labor because, as Object Consumers become Source Owners, the Objects (product) is in the correct hands (owned by the final consumer) even before it is produced.
+
+
+Feb-25-2008: Reading ScienceStudies.fi/filestore2/download/1592/Guest_editorial.pdf
+
+
+Feb-25-2008: Email reply to Marcin
+> Are you interested in any particular circuits? What is your interest in
+> electronics?
+
+Well, I targeted OLPC mainly because I thought their minds might be open to such an idea.  But the strategy I have in mind to solve our economic woes applies equally well to any industry.
+
+I wrote a paper with a title that spoofs the idea of giving laptops to the poor when so many don't even have food/cloth/shelter/soap.  The name of the paper is "One Loaf Per Child" which you can read at http://Blog.P2PFoundation.net/one-loaf-per-child/2007/06/14
+
+We (the consumers) need to control the sources of all the products we use.  Regular property ownership is the most direct and complete form of control, so why not utilize it to achieve that goal?
+
+For instance, the price we pay for simple, low quality communication is pitiful.
+
+We need to be able to send each other text, audio and video on portable computers over non-dangerous networks.
+
+If the consumers were the owners of the farms, factories and networks, we would have the products of those physical sources AT COST, and could arbitrarily add all the features we want AT COST.  When consumer is owner, profit has no meaning except maybe as an investment in more sources for future production.  For instance, if you own an apple tree, you may pay someone to tend and harvest the apples, but you cannot pay profit unless you were to pay it to yourself.  When an owner is the consumer, price and cost are the same thing!
+
+Why pay so much for a text message?  Why pay so much just to transmit a bit of data (access the internet)?  Does it really COST these proprietary cell-phone 'service' companies $40/month?  That question is easy to answer.  Just look at the numbers they call 'Profit'.
+
+Profit is explicitly and plainly "Price above Cost".
+
+Profit and Wage are somewhat 'mixed' when Workers are the Owners because the division is arbitrary.  The Worker/Owners may overpay themselves and the consumers can do nothing about it, but when the Consumers are the Owners, Wage is a clearly defined Cost because competition is then between all qualified workers instead of between the few that happen to also be Owners in that corporation.
+
+When Consumers are Owners (when an organization is "User Owned"), Profit tends toward zero and Price tends toward Cost.  I say "tends toward" instead of "is" because Consumers are dynamic in many ways - they are born, they die, they "move in", the "move out", they want something this year, and not the next, etc.  So, since they will rarely have 'perfect' ownership in the sources of the products they need, they will usually be paying "price above cost" as an investment toward perfect ownership in the Physical Sources so price approaches cost and profit approaches zero.
+
+Why can nobody on the planet hear me?
+
+exasperated,
+Patrick Anderson (Lord (as in bread guard) AGNUcius)
+President, Personal Sovereignty Foundation
+
+
+Feb-22-2008: Reply to Blogs.The451Group.com/opensource/2007/11/21/closing-open-source-loopholes
+
+A copyright holder may CHOOSE any license for that work.
+
+Talking about code that corporations such as Google CHOOSE not to release is meaningless.
+
+The point with the GNU GPL which is only sharpened with GNU GPLv3 and GNU AGPL, is:
+
+IF the copyright holder CHOOSES to "Free" (Open) their Source, then using a GNU GPL license guarantees that code cannot be used *against* them by proprietary competitors.
+
+This defense mechanism is only strengthened by later GPLs, so to "stay with the GPL and enjoying proprietary SaaS business models" for instance, is only applicable to those that are building on the code of others WITHOUT releasing.
+
+IF a copyright holder CHOOSES to defend their work, the GPLv3 and AGPL are a stronger defense.  This has nothing to do with people that are not CHOOSING to release code.
+
+
+Feb-22-2008: Listening to more on StreetFrog.org
+
+Feb-22-2008: Posted to Blog.P2PFoundation.net/drew-endy-on-the-need-to-open-source-synthetic-biology/2008/02/22
+
+The parasitic actions of genetic profiteers such as Monsanto, Nestlé, Sime Darby, ConAgra, etc. have been LOCKING life's potential CLOSED for a long time now.
+
+Terminator(TM) technology, and more recently with http://www.TransContainer.wur.nl described as "'Developing efficient and stable biological containment systems for genetically modified plants.'"
+
+http://Grain.org/hybridrice/?lid=198
+
+Profit requires dependence.  The consumer must be dependent upon the source owners.  Wage has no such requirement.
+
+"'if you’re trying to invent a language for programming DNA, having a proprietary language seems stupid.'"
+
+Stupid?  You think profiteers are stupid to make something proprietary?  Clever; vicious; insideous; dangerous; yes, but not stupid.
+
+"'If Oxford University had supported privatization of the English language hundreds of years ago, the dictionary they made wouldn’t have been so useful.'"
+
+Profiteering corporations don't want products to be useful.  Usefulness is bad for profit because the consumer becomes more "set up".  A profiteer wants a consumer to believe the product is useful so it will be purchased, but after that the product should be "self destructing" or limited by time or in other ways so the dependence remains.
+
+"'there are wonderful companies that have locked up most of the relevant intellectual property around how to engineer proteins to bind DNA. The products that they can deliver are going to be measured in small positive integer numbers, a few diseases.'"
+
+All the better to subjugate you with, my dear.
+
+
+"'But, the real value associated with being able to engineer proteins that bind DNA are in the uncountable applications people could use the proteins for.'"
+
+Value?  BWA-HA-HA-ha-ha!  You think abundance is value?  Abundance is WORTHLESS to a profiteer.  In fact, it is worse than that, abundance is *INVERSELY* related to profit.  As abundance increases, the potential for profit decreases.  Profit for some measures the poverty of others.
+
+"'It’s like a programming language where it would be a big downstream economic cost if you owned "if/then" and you were the only person who could use it.'"
+
+Sure it is a cost for everyone 'except' the profiteering source owners.  That proves profit is an externality for the consumers that suffer it.  It is a measure of their dependence; a plea for growth.
+
+Profit is not needed by a society, it shows how far we are from having the sources of production fully distributed.  This is easily solved by treating all price above cost as an investment from the consumer that paid it.
+
+Until we organize in a manner that respects a consumer's pleading, the ignorantly divisive profiteers will continue to murder/delete all useful species while replacing them with those that will guarantee dependence to insure profit remains.
+
+
+
+Feb-19-2008: Email response to Amanda
+> Hi Pat,
+>
+> How's it going?  Lately, I have really been wanting to
+> get away from our  society and move to the country.  I
+> would like to live in a small group and grow food and
+> have some livestock.  I know it is not realistic to
+> think that we can be totally weaned off the system,
+> but I would like to be as self sufficient as possible.
+>  I also like the idea of solar heating and alternative
+> energy sources.  I am going to look into the links you
+> sent.
+>
+> Amanda
+
+I hear you.
+
+I worry we are running out of time.
+
+We need to buy land and bees and fruit/nut bushes/trees NOW, before it is obvious that we must.
+
+If we wait until it is clear to the general population, it will probably be too late and we will have no alternative than to beg our federal government to house and employ us in the facilities they have already constructed for that purpose...
+
+I am on-board with your goals; it only sounds like I'm not because I'm attempting to address the fundamental issue of resource misallocation that got us here in the first place.
+
+In other words, if we start a new 'group', how will we insure it doesn't turn sour in the same way our current 'society' has?  Why has nobody ever been able to organize in such a way that they are able to overgrow the situation we see now?
+
+Is Capitalism optimally efficient?  I don't see how anyone could claim that, but if it is not, then why does that 'model' always tend to 'win' as any new group tries to scale?
+
+Why, as the size of a well-meaning group grows, does Capitalism almost inevitably rear it's head within that group and destroy the original goals of abundance and peace?
+
+
+Feb-18-2008: Listening to "Mermen Live at Old Princeton Landing on 2007-02-23 (February 23, 2007)" at Archive.org/details/mermen2007-02-23.flac16
+
+
+Feb-18-2008: Marcin Jakubowski called me on my warbly cell phone.  We spoke for about an hour about his Production Commons.
+
+
+Feb-18-2008: Email to Marcin Jakubowski
+> It is essentially an organized
+> effort for open engineering and product R&D for the public interest, and it
+> is applicable to any product within the current industrial system.
+
+The words 'engineering' and 'industrial' without mention of "naturally productive" sources makes me think something as simple as an (non-GMO) apple tree or a chicken will not be handled differently (from capitalism) within a Production Commons.  If that is true, then the sentence is fine, otherwise you might want to make it more inlusive.
+
+On a similar note, will industrial capital that a Production Commons cannot yet create (such as the drill-press I saw Brittany operating) be under the 'rule' of the Production Commons, or is that not within the scope of this project?
+
+
+> 1. People volunteer time and resources to develop products
+
+By 'develop' do you mostly mean the 'design' of new industrial machines, or are you including the 'development' of something as mundane and ancient as another instance of an apple tree which may require unglamorous ditch digging?  Are you morally or strictly opposed to the payment of wages or other compensation for the trading of specialized labor?
+
+> 2. Production facilities are built and donated into the production commons
+
+Does the word 'facilities' include both land (surface area) and capital (such as a tractor)?
+
+Are you interested in discussing how to recover costs and/or the scheduling required for sharing those physical sources among many people?
+
+Should we save such details for a later discussion, or do you view them as fully unimportant - that we will just "get along" without a need to outline such nit-picking?
+
+> 3. A product is made available at the cost of production
+
+I understand this stance, and have thought the same thing in the past, but think it is slightly wrong now that I understand profit to be a plea for growth from the consumer who pays it.
+
+I agree that we should work *toward* making product available "at cost", but I think it should be a final *result* of our actions.  We should approach that goal somewhat indirectly by treating all "price above cost" (profit) as an INVESTMENT from the consumer that paid it.
+
+By charging whatever the "market will bear", we will also have a steady supply of funding from people (consumers) who want product, but do not expect to receive profit for themselves.
+
+Again, to summarize, instead of holding the consumer_price down at owner_cost, I think it best to charge whatever the consumer is willing to pay, and then treat that overpayment as an investment from that very same consumer.  I'm still not sure how or when the control of that investment should 'vest' to that consumer, but as consumers gain real ownership in the physical sources, price naturally tends toward cost (and profit toward zero) since the owner of an apple tree who is also the consumer of those apples cannot pay profit - it becomes essentially undefined [unless he were to pay it to himself toward future production - again, as his own investment toward future production...].
+
+>
+> We are simply eliminating the development, intellectual property,
+> capitalization, overhead, competitive waste, and other costs- to create a
+
+I think I understand what you mean by "competitive waste" but you may need to be more clear because I also think maximizing competition between workers is actually a good thing.  I will try to write more about how and why this is the case.
+
+> novel way to produce physical goods. This is identical to the open source
+> software model in terms of sharing development costs, except we added
+> physical production into the mix.
+
+Identical?  What do you mean by "sharing development costs"?
+
+One of the big problems with Free Source software is how the consumers have not found a good way to connect with the skilled worker to incent him to work on things he isn't just incidentally interested in.
+
+Sincerly,
+Patrick
+
+
+Feb-14-2008: Reading Axel Bruns' reply at Re-public.gr/en/?p=277
+
+
+Feb-14-2008: Posted to P2PFoundation.net/DNA
+Similar to copy-protection schemes employed by some software companies, proprietary genetics are often designed to remove abundance by disabling the otherwise natural quality of self-copying - or propagation.
+
+Monsanto does this with Terminator(TM) technology, and more recently with http://www.TransContainer.wur.nl described as "Developing efficient and stable biological containment systems for genetically modified plants."
+
+Profit increases as consumer control decreases.
+
+http://www.grain.org/hybridrice/?lid=197 "' "Why are farmers again being compelled to go for cultivation dependent on fertilizer-pesticide-irrigation?" UBINIG and Nayakrishi Andolon ask in a statement released at the conference. "The fact is that the government is going to offer subsidy on fertilizer, pesticide, electricity and pump machine, etc. to introduce hybrid seeds in the interest of the company. It is known to every one that the farmers will not be able to save and use hybrid seeds for next year. They will be again bound to buy seeds from the market with higher price. This sort of decision is a sheer neglect of the real needs of the farmers. Bangladeshi farmers have enough of their own high yielding varieties of aman and boro rice, which needs to be protected and promoted.'"
+
+"'since monopoly seed business can not be established with the local varieties of rice, so the efforts are there to destroy the local seed system in order to create market for seed from the companies.'"
+
+Profit abhors nature. Nature must learn that profit is a measure of Poverty if it is to survive the drive to eliminate all natural genetic lines. Profit is perpetuated for power and to keep Price Above Cost.
+
+We are toying with the future of our planet and the livelyhood of all living organisms. Treating profit as a reward for Owners is DANGEROUS because it INVERTS our natural goals of Abundance and Peace.
+
+Profiteers consider abundance Worthless because keeping price above cost requires poverty.
+
+
+Feb-14-2008: Posted to OpenFarmTech.org/weblog/?p=156
+Your picture of the duck reminds me of this picture: http://grain.org/front_files/west-bengal-bird-flu-woman-ducks-crying-1.jpg
+
+and the related article: http://grain.org/articles/?id=35
+
+Large corporate agriculture will enjoy increased profits as the competition of these small farmers is eliminated.
+
+The future of our earth hang in the balance while keeping price above cost is labeld 'earnings', and choices are influenced by those who intend to perpetuate that usury.
+
+I hope we can work together to grow a new tomorrow.
+
+I cry for the Permaculture that Capitalism fears (as plenty for all would mean profit for none).
+
+Your peer,
+Patrick Anderson
+President, Personal Sovereignty Foundation
+http://EcoComics.org
+
+
+Feb-14-2008: Posted to BusinessOfOpenness.org/?p=6
+When you say 'open' are you talking about opening the physical sources of production?
+
+If you are opening the physical sources, do you have plans to recover the real and recurring costs of those physical sources, including wages?
+
+If you are planning to recover those costs, do plan to also collect the price above cost that users will pay (profit) depending upon what the market will bear?
+
+If you collect profit will it be distributed to the owners and/or workers of your business as is almost universally the case?
+
+Why do users (consumers) pay price above cost?  Remember, wages are a cost, and consumers pay all costs - but why or how are they "tricked into" paying MORE than cost?  What does profit even mean?  Isn't profit a measure of the difficulty that user would have in purchasing and organizing the physical sources of production?  Isn't profit a plea for growth from the consumer that paid it?
+
+If a user had sufficient ownership in the physical sources, he would still have to pay costs, including the wage of those skilled enough to install, maintain and operate those physical sources, but he wouldn't have to pay more than that - he could get the product "at cost" because to pay profit would be meaningless unless he were to pay it to himself.  Profit is 'undefined' when the users are free to control the sources.
+
+If you read what Saint IGNUcius (Richard Stallman) writes about freedom you will see it is "User Freedom".  He says "Freedom for evey user".
+
+The GNU GPL is a copyright license that only covers intangible, immaterial, 'virtual' sources.  If you (or we) intend to make a business that is 'Open', it seems prudent to observe that 'Free' as in Freedom means it must be the USERS that gain control of the sources, even (and most importantly) when they do not happen to have the skills to operate (or program) those sources themselves.  This maximizes competition and minimizes profit while causing production to be focused on "use value" instead of "exchange value".
+
+If profit is treated as an investment from the user who paid it, a business can become and remain open even as it scales to outcompete the dinosaurs who continue with raw capitalism.
+
+
+Feb-13-2008: Posted to http://P2PFoundation.net/Talk:Open_Source_Ecology and OpenFarmTech.org/weblog/?p=155
+Hello Marcin,
+
+I have been aware of your work since you had SourceOpen.org and am very impressed that you have been able to actually begin physical production.  I hope this will grow out of control (out of the control of the originators)...
+
+I have some criticism directed at your claim that you intend to model the business after Open Source, and I hope it can be considered by you with care.
+
+I am a religious follower of the prophet Saint IGNUcius.  His wisdom enforced through the GNU GPL trade agreement has made Free Software a competitor that proprietary corporations can no longer ignore.
+
+If we are to emulate this social movement, it is important to understand what User Freedom is and what it means for Sources to be open.
+
+
+== Developers Vs. Users or Workers Vs. Consumers ==
+
+OSE/Neocommercialization appears to be taking the stance of most any other Mode Of Production intending to overtake Capitalism when it assumes the organization/business must be Worker Owned.
+
+But I am convinced this is not nearly optimal.
+
+Some interesting things occur when Consumers (or Users) are own the Physical Sources of production, even when they are not skilled enough to operate them that don't occur through worker ownership:
+
+* The consumer owns the Product even before it is Produced.  This causes trade to be minimized.
+* Wages are separated from Profit: A worker-owner may otherwise overpay himself and disallow competing workers from accessing the Land and Capital (Physical Sources needed for that production), thereby keeping Price Above Cost.
+*  Abundance and real solutions are goal and never thought 'destructive'.
+* Scarcity is not sought and those physical sources are real insurance.
+* Unemployment is not a problem, it is the second goal.
+* Work is to be eliminated as a hurdle on the road to riches.
+* Low prices are always good and tend toward cost.
+* Profit is meaningless except as consumer growth.
+* Entire production chains are finally localized.
+* Development is solved instead of being sustained.
+
+
+In the world of Software, it is the users (consumers) that are guaranteed access to the Virtual Sources.  Access is not confined to developers who happen to possess the skills needed to operate (program) those sources.
+
+When the consumers (users) have control, they are always able to "go around" any owner/developer that is attempting to overcharge them while claiming those charges are merely wage.  Competition is maximized when mere consumers are in charge.  Making workers the owners does not solve this problem.
+
+Here are some quotes to support my claim:
+
+"Three Minutes with Richard Stallman" ''With free software, the users are in control.  Most of the time, users want interoperability, and when the software is free, they get what they want.  With non-free software, the developer controls the users.  The developer permits interoperability when that suits the developer; what the users want is beside the point.'' -- http://www.pcworld.com/article/id,137098-c,freeware/article.html
+
+"When we talk about computer users' freedom, we mean computer users -- not computer programmers, not the most powerful people in society," -- Peter Brown at http://ITManagement.EarthWeb.com/article.php/31771_3683791_3
+
+And a short video supporting the opposite view = the idea that developers (workers) are the most important: http://YouTube.com/watch?v=8zEQhhaJsU4
+
+Sincerely,
+Patrick Anderson
+
+
+Feb-12-2008: fscking sprayers are making me sick today
+http://www-pm.larc.nasa.gov/sass/pathfinder_research.html
+
+http://www.pa.op.dlr.de/aac >>European Conference on Aviation, Atmosphere and Climate (AAC-Conference)    The AAC conference provided a platform for an international information exchange and a discussion forum on the current status of our knowledge of the impact of aviation on the composition of the atmosphere and the climate. http://www.pa.op.dlr.de/aac/proceedings/AAC-proceedings-complete.pdf
+
+Feb-12-2008: AGAIN I'm reading through FAX.libs.UGA.edu/HD3271xG453/1f/consumers_coop_societies.txt trying to find a way to explain why control must be in the hands of users instead of the developers.
+
+Feb-11-2008: Mulling a response to Re-public.gr/en/?p=201
+
+Feb-10-2008: Solidarius.com.br/mance/index.php?lng=en with papers that discuss the importance of investing in prodution chains.
+
+Feb-10-2008: Posted to Blog.P2PFoundation.net/wikipedia-governance-the-power-of-admins/2008/02/06
+
+Owners may lock gates closed for exclusive private property.
+Or they may open them a bit for access that is proprietary.
+
+Even owners that want a perfectly inclusive public utility,
+must be able to exclude those that would destroy the community.
+
+So how do we build the perfect restaurant,
+that helps hungry eat while keeping dirty hands out?
+
+Who is it that determines when something is good or bad?
+It's the owners that decide, but how did get that badge?
+
+They organized first.  They invested and took risk.
+They are the OWNERS dammit!  To exclude is their right!
+
+But again, just what if.  What if we started again?
+Could we figure this out?  Could it ever be right[eous]?
+
+What about the Johnny-Come-Late?  The non-owning worker?
+Can he ever progress, or will he be forever a serf?
+
+If he cannot gain real ownership himself,
+he will never have say; he will never have vote.
+
+The proposal I have is that ownership is good.
+But only if new users can somehow gain ground.
+
+In the 'real world' an investment is made
+when a consumer pays more than it cost to create.
+
+Wages are a cost, so don't worry about that.
+But profit should be treated as a plea for more growth.
+
+This is more difficult 'online', where costs are still real,
+but so small that collecting from each user is too annoying.
+
+WE (the users) need a way to pay costs
+to the collective others that will organize with US.
+
+WE also need a way to bid against each other,
+and pay more than cost when the property WE own is not yet enough.
+
+WE will treat the payment of cost as a property retainer,
+and any amount above as that same user's investment.
+
+This way joint property can finally be free.
+Free as in Freedom, though never 0.
+
+
+Feb-09-2008: Email reply to BS
+Don't blame the [poli]ce, they're are just doing their jobs.
+Don't blame the [poli]ticians, that is all just theatre.
+Don't blame the [poli]cy, set by corporate owners who write law.
+
+Blame our mistake of mistreating profit as earnings.
+Profit is an inverse measure of our overall progress.
+
+It is USURY to take this "Price Above Cost" as reward,
+For the user who pays it is ADMITTING he needs growth.
+
+Usury stunts progress, it REQUIRES poverty.
+If each user owned enough physical sources himself,
+Price would meet cost, and profit would have no meaning.
+
+Owners cry "Cops, Cops we need more Cops"
+To convince us the pain must be sustained.
+
+Usurists are the terrorist, and "Terrorist Hate Freedom"*
+For freedom would allow peace and plenty to reign.
+
+* "Terrorist Hate Freedom" is Trademark/Copyright AmericA's "'War Of Terror'" Inc.
+
+
+Feb-08-2008: Posted to Blog.P2PFoundation.net/umair-hacque-when-data-are-valueless-open-beats-closed-and-good-beats-evil/2008/02/07
+You say "'consider the commercial'" as though price must remain above cost, yet then go on to say the opposite.  Could you tell me more specifically what you mean by that phrase?
+
+"'using investment for improved service.'"
+
+I guess you are talking about treating profit as investment?
+
+This is fine *only* if those investments finally become the real property of the humans that paid them.
+
+"'or paying it back to the trustees (customers of the service they’re providing)'"
+
+I don't think we can just hand the profit back to those users either.  We, the originators understand the importance of growing the cooperative which requires the purchase of *MORE* land and capital.
+
+Customers (users) generally don't really know how or what to invest in (otherwise we wouldn't have this problem), and are unlikely to do so anyway because the corporate media has taught them poor judgement and desire for immediate satisfaction (money in the pocket) over sound planning (investing in their own future production).
+
+"'These do sort of already exist, in the form of cooperatives.'"
+Unfortunately, almost every 'cooperative' on earth subscribes to the faulty notion that the ownership must be in the hands of those that happen to have the skills to operate it instead of being owned by those that need the products thereof.  Price will never meet cost and profit will remain mixed with wages as long as the act of working determines the ownership (and therefore control) of the means of production.
+
+"'Farmer’s markets are certainly staging a comeback in parts of the US as the food supply becomes–and is recognized as–more industrialized.'"
+These are better than the filth from ConAgra, Nestle, etc., but still are not optimum because it is almost universally taken as apriori that the Workers must be the owners, instead of understanding that control must be in the hands of the Users that need the product even though they may not happen to have those exact skills.
+
+Farm owners (and all small businesses) have a terribly difficult time because they must hold the entire debt themselves, while the collective consumers could do this so much easier that they might even have a chance of actually paying off the bank!
+
+
+Feb-07-2008: Posted to Blog.P2PFoundation.net/umair-hacque-when-data-are-valueless-open-beats-closed-and-good-beats-evil/2008/02/07 and http://www.bubblegeneration.com/2008/01/data-is-commodity-redux.cfm
+
+Using the word 'value' to represent 'profit' is tremendously confusing.  Profit is nothing more than "price above cost".  Why would we (anyone seeking to solve the economic troubles we face) want to keep price above cost?  Must we perpetuate poverty to insure profit?
+
+If everyone in world had "at cost" access to bread, would you say bread has no value?  I'll bet the starving Hatians wouldn't agree.  Isn't "use value" worth considering?
+
+Of course things lose "exchange value" as we approach abundance, but that only proves that profit is an inverse measure of development.
+
+We don't NEED to keep price above cost when the users and the owners are the same set.  Wage is also a cost, and work is paid before profit is even calculated.
+
+Users are willing to invest in "for product" production for the purpose of "use value" alone.
+
+Users already pay all costs anyway, and they ALSO pay "price above cost" (profit) whenever they do not yet have sufficient ownership in the means of production (the physical sources) required to meet those objectives.
+
+You say "'how can we, as separate entities, capture value.'", but what makes you think the founders of an enterprise MUST remain divided from the users it was supposedly created for?  Don't we want to create true public utilities?
+
+Governments at all levels and every non-profit corporation and/or organization keep control away from the users they claim to serve by not understanding the "price above cost" those users pay should be considered an INVESTMENT from the very user that paid it - for the only reason a user pays the portion called profit is because the do not yet have enough control to achieve those goals "at cost".
+
+
+Feb-05-2008: BBF.OpenWetWare.org >>Using BioBrick™ standard biological parts, a synthetic biologist or biological engineer can already, to some extent, program living organisms in the same way a computer scientist can program a computer. The DNA sequence information and other characteristics of BioBrick™ standard biological parts are made available to the public free of charge currently via MIT's Registry of Standard Biological Parts.
+
+
+Feb-05-2008: Posted to Re-public.gr/en/?p=277 and snurb.info/comment/reply/772 "Axel Bruns - Who controls the means of produsage?"
+
+Axel,
+
+You say:
+"This requires us to pay attention no longer mainly to who owns the means of production, but to ask a new question: who controls the means of produsage?"
+
+But you haven’t shown (and I doubt that it could be shown) that owners do not control.
+
+The answer to your question of "who controls?" is, in fact, "the owners".
+
+Maybe you meant to ask a different question?
+
+In what way, or when are the owners of the *physical* means of production not the controllers?  Is that ever true?
+
+Maybe you are suggesting that a 'commons' model would be designed so that the owners would somehow not be in control, but I don’t see that happening.  When push comes to shove, it is ALWAYS the owners that have the final say.
+
+This may seem like a bad situation, as owners generally tend to eventually turn against the users they claim to be 'serving', but I have an idea about how we could use regular property rights to build a commons through a more careful form of sharing built upon the ideals of the GNU GPL.  I won't outline that proposal here, as this post is probably already considered too long.
+
+I am very interested in your thoughts on this, and will check back here for your reply.  Please email me directly if you like.
+
+Sincerely,
+Patrick Anderson
+
+
+Feb-03-2008: Response to MySpace.com/grnxnm blog entry "Create your own religion"
+
+Your requirement "it has to make sense to an alien visitor" may be a problem for a more discerning race because Kurt Godel's first "incompleteness theorem" http://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems appears to require any system to be either inconsistent or incomplete.
+
+So, (if my interpretation is correct), religion can be EITHER consistent (does not contradict itself), or it can be complete (can be proven from data wholly from within itself), but it can't be simultaneously both.
+
+Since most adherents would want to claim their religion doesn't contradict itself, then that religion must be incomplete, and therefore would require proof OUTSIDE of itself to prove or disprove it's validity.
+
+Notice Godel's theorem can't be used to prove or disprove the validity of the system itself, it is only used to prove or disprove the *decidability* of that system. In other words, if an adherent claims his system (religion) is consistent, but is only willing to consider data (scripture) from within that system, then the system cannot be decided - it can be neither proven nor disproven until external information (such as physical evidence) is presented.
+
+
+Feb-03-2008: HenryFlynt.org >>Henry Flynt was born in 1940 in Greensboro, NC. He is a philosopher, musician, anti-art activist and exhibited artist.
+
+
+Feb-03-2008: http://pzwart.wdka.hro.nl/mdr/research/fcramer/wordsmadeflesh >>A b  s  t  r  a  c  t: Executable code existed centuries before the invention of the computer in magic, Kabbalah, musical composition and experimental poetry. These practices are often neglected as a historical pretext of contemporary software culture and electronic arts. Above all, they link computations to a vast speculative imagination that encompasses art, language, technology, philosophy and religion. These speculations in turn inscribe themselves into the technology. Since even the most simple formalism requires symbols with which it can be expressed, and symbols have cultural connotations, any code is loaded with meaning. This booklet writes a small cultural history of imaginative computation, reconstructing both the obsessive persistence and contradictory mutations of the phantasm that symbols turn physical, and words are made flesh.
+
+
+Feb-02-2008:
+Hello Ned, Michel and all researchers,
+
+On Feb 2, 2008 9:35 PM, Ned Rossiter <...> wrote:
+
+> ... there are always going to be those dysfunctional dimensions that
+> you refer to vis-a-vis platform owners vs. users.  I don't think
+> those tensions can ever be 'solved'.
+
+I'd like to ask a question that may seem too stupid to be worth answering, but I wonder if the reason it hasn't occured to us is because it is just too obvious to consider.
+
+
+First, a claim about ownership:
+1. == When users are owners, tension is 'fair'
+In some (usually very small) cases, the users and the owners are actually the same set of people.  If each of those users has as much vote-control (as measured by the percentage of ownership they hold) needed to accomplish the goals they desire, then conflicts could only be structured as: [a subset of owners vs. another subset of owners].
+
+This levels the playing field, and avoids the uneven case we are usually fighting: [a subset of non-owning users vs. a subset of owners].
+
+
+Second, a claim about scale:
+2. == Profit should be treated as an investment from the user who pays it
+Users pay price above cost (even if just through excessive exposure to unwanted advertising and lack of freedom) when they don't have ownership, so profit should be understood as a plea for growth, and may be 'balanced' by treating it as an investment from the specific user that pays it.  By doing this, ownership flows continuously to those who are willing to pay for it - thereby holding the first claim (#1) "in place" in a sort of self-correcting dynamic.
+
+
+Third, a question about implementation:
+3. == While Copyleft jujitsu requires Copyright, Propertyleft will require Property rights
+Could we write a contract similar in spirit to the GNU GPL that describes #2 in legal language, and then apply that contract to some of our OWN property - maybe as a kind of corporate "Terms of Operation" so that Freedom is guaranteed for all users by causing each and every user to incrementally become partial owners (and simultaneously be growing the organization) whenever they pay price above cost?
+
+
+> As I note in my response to Daren's review, another challenge for
+> network governance is scale.
+
+If some of us were to start a small business or organization and become owners ourselves, we could choose to steer the power we might be otherwise tempted to hold against new users so the system would scale as control is contiuously distributed.
+
+Allowing every user *real* ownership over the investments they pay for (as measured by the amount they pay above real costs of production) would enable owning subgroups to 'fork' whenever they thought they were large enough to survive on their own, and would also insure the whole organization couldn't suddenly be aquired by a big-fish, since each user would have real and divisible ownership (note: ownership would NOT be equal, because some users are very active and willing to pay (invest) alot, while others may be willing to spend very little time, energy or money).
+
+
+> The very existence of owners/sysops indicates the non-participatory
+> (or at least closed circle) dimension of networks.
+
+Maybe property ownership isn't the problem per-se; maybe the problem is more about WHO the owners are.  Notice, that while Richard Stallman dislikes how Copyright is usually used, he didn't abandon it.  Instead, he used it in a subversive manner to insure every user would have control of the 'virtual' means of production.  Maybe we could do something similar with property to insure every user gains control over the 'physical' means of production.
+
+> There is
+> frequently very little communication/participation between admins and
+> users.  And most are fine with this relation. Who wants to clear our
+> spam every day on a mailing list for example, or attend to the
+> numerous admin requests to process postings from non-subscribers
+> (which this list still has a strangely high amount of)?
+
+
+We would still need to hire skilled personell whenever we couldn't do it ourselves, but at least we would have the reins, and could fire them if they ever tried to act against us.
+
+> The other obvious thing to note is that the culture of governance
+> varies considerably across widely adopted applications. Geert Lovink
+> documents this well in his analysis of mailing list cultures. This
+> points to the fact that a universal model of network governance will
+> never exist.
+
+Yes, there will always be individual and group idiosyncracies, but those conflicts will be more 'fair' when each user is gaining real ownership.
+
+
+Hoping for thoughtful critique,
+Patrick Anderson
+President, Personal Sovereignty Foundation
+http://EcoComics.org
+
+
+Feb-02-2008: Email reply to Todd and Max
+
+Todd wrote:
+> That's interesting!  Patrick had a quote from somewhere: "Profit must be
+> treated as an investment fromthe consumer who paid it so that price
+> approaches cost and profit approaches zero in a safe manner."  Do you know
+> where that comes from?  It is something I have not heard before and my
+> first impression is a representation of the middle ground between
+> capitalism and communism, but of course communism identifies with the
+> worker, not the consumer.  I need to ponder this one a bit and am
+> wondering of its references to expand the discussion.  It reminds me that
+> humans often walk a fine line between greed and benevolency, and I say
+> that in not only a monetary sense, but also in a spiritual sense.  Also,
+> if you want to read some "heady" stuff about spirituality and religion of
+> the human psyche try some Joseph Campbell, if you have not already.  You
+> may remember him from the Bill Moyers series with him, but one of my
+> favorites is The Inner Reaches of Outer Space - Metaphor As Myth and
+> Religion.
+
+
+Hello Todd and Max,
+
+I'm happy to hear someone willing to consider the idea enough to think it through.
+
+I am not quoting anyone here, this is my own claim based on research I've been working on since late 1999.
+
+Of course I didn't *invent* the idea, it is simply truth that was in need of discovery - like gravity or friction.
+
+I don't know if this information was purposefully hidden from us, or if we accidentally lost it, but it is unfortunate that profit is now treated as 'earnings' when it is much more clear to understand it as a plea from growth from the consumer who pays it.
+
+A consumer pays a high price for nuts and berries not because those things are 'inherently' expensive, but because they do not yet have ownership in the sources (land, plants, water rights) of those things.  If you own an almond tree, you might pay someone to tend it and to bring in the harvest (and treat those wages as a cost), but it would be impossible to pay profit unless you were to pay it to yourself.  Profit is UNDEFINED in the special case where the consumer has ownership in the means of production (physical sources) required for that production - even if that consumer does not possess the skills required to operate those sources.
+
+Corporations already calculate profit as the difference between Consumer_Price and Owner_Costs, while Worker_Wages are one of those costs of production.
+
+Consumers ALREADY pay all costs (including wages), and they ALSO pay a price above cost because of the 'pressure' created by their lack of ownership in the physical sources required for that production.
+
+Profit depends upon rivalry for product initially, and rivalry of physical sources finally, and can only be "held in place" for as long as the consumer is not able to figure out how to have ownership in the physical means of production required for that product.
+
+We (the consumers) suffer this because we have not yet figured out a way to organize amongst ourselves, so let the corporations take advantage of our lack of development.  Whenever one of us decides to start a business intending to solve this problem, we are not able to do so because we hold the pre-concieved notion that profit is a reward to be won instead of understanding it to be an inverse measure of competition, and therefore a direct measure of partial monopoly.
+
+Competition is maximized and profit minimized when consumers gain control through ownership, and profit happens to measure how far we are from reaching that goal.
+
+
+I write alot about this stuff, but my own psychological issues (we all have them) make them difficult to digest.
+
+You probably already noticed my website in my signature.  Read the FAQ and Thesis there for an overview.
+
+Other readings include:
+http://MySpace.com/patware
+http://P2PFoundation.net and http://Blog.P2PFoundation.net
+
+A recent post of mine: http://Oekonux.org/list-en/archive/msg04278.html
+
+
+Patrick Anderson
+President, Personal Sovereignty Foundation
+http://EcoComics.org
+
+
+PS: About religion: I'm not just being cranky, I've given this plenty of thought, and have recently (because of the exchange with Max) found there may be a way of PROVING that no religion is meaningful without physical evidence according to Kurt Godel's "Theory of Incompleteness" can be summarized as: No description of a system can be simultaneously consistent and complete.
+
+Older entries: diary-jan-2008

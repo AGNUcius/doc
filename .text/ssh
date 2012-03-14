@@ -1,0 +1,28 @@
+Related: ftp, secure, shell, SSL
+
+Wikipedia.org/wiki/Secure_Shell >>Secure Shell or SSH is a network protocol that allows data to be exchanged using a secure channel between two networked devices. [1] Used primarily on Linux and Unix based systems to access shell accounts, SSH was designed as a replacement for TELNET and other insecure remote shells, which sent information, notably passwords, in plaintext, leaving them open for interception.[2] The encryption used by SSH provides confidentiality and integrity of data over an insecure network, such as the Internet.
+
+Wikipedia.org/wiki/SSH_file_transfer_protocol >>In computing, the SSH File Transfer Protocol (sometimes called Secure File Transfer Protocol or SFTP) is a network protocol that provides file transfer and manipulation functionality over any reliable data stream. It is typically used with version two of the SSH protocol (TCP port 22) to provide secure file transfer, but is intended to be usable with other protocols as well.
+
+Matt.UCC.ASN.au/dropbear >>Dropbear is a relatively small SSH 2 server and client. It runs on a variety of POSIX-based platforms. Dropbear is open source software, distributed under a MIT-style license. Dropbear is particularly useful for "embedded"-type Linux (or other Unix) systems, such as wireless routers.
+
+HSSH.sf.net >>HSSH (Hybrid ssh) is developing to transmit the large size data at high speed on the long distance and wideband infrastructure. It has achieved the fast transfer by changing both ways pipeio transfer of ssh into the UDP (using UDT). cf. HSCP
+
+HSCP.sf.net >>HSCP (Hybrid scp) is developing to transmit the large size file at high speed on the long distance and wideband infrastructure. It has achieved the fast transfer by changing the file transfer part of scp into the UDP (using UDT).
+
+Putty
+TeraTerm
+
+9BIS.net/kitty >>KiTTY is a fork from version 0.61 of PuTTY, the best telnet / SSH client in the world. 
+
+http://hoolihan.net/blog-tim/2009/11/12/209/
+
+As long as pageant is running with your key, you can edit your remote files using the format ssh://user@server:path/to/file
+
+(setq tramp-default-method "plink")
+/plink:user@10.1.0.124:
+
+(setq tramp-default-method "pscp")
+/pscp:user@10.1.0.124:
+
+(setq tramp-verbose 10)

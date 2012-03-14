@@ -1,0 +1,55 @@
+Related: doc, DjVu, ps
+
+Portable Document Format (PDF)
+
+HardCoded.net/pdfmasher >>PdfMasher is a tool to convert PDF articles (newspaper, academic) to MOBI or EPUB documents.  PdfMasher asks the user about the role of each piece of text, and does it in an efficient manner.
+
+pstoedit.net >>pstoedit translates PostScript and PDF graphics into other vector formats. 
+
+AccessPDF.com/pdftk >>If PDF is electronic paper, then pdftk is an electronic staple-remover, hole-punch, binder, secret-decoder-ring, and X-Ray-glasses.  Pdftk is a simple tool for doing everyday things with PDF documents.
+
+$ sudo apt-get install poppler-utils #for pdftotext (pdf2txt)
+
+CcXvII.net/mupdf "'
+MuPDF is a lightweight PDF viewer and toolkit written in portable C.
+
+The renderer in MuPDF is tailored for high quality antialiased graphics for screen display. MuPDF text is rendered with metrics and spacing accurate to within fractions of a pixel for the highest fidelity in reproducing the look of a printed page on screen.
+
+MuPDF has a small footprint. A binary that includes the standard Roman fonts is only one megabyte. A build with full CJK support (including an Asian font) is approximately five megabytes.
+
+MuPDF has support for all non-interactive PDF 1.7 features, and provides a simple API for accessing the internal structures of the PDF document for viewers to build interactive features upon. Example code for navigating the bookmarks, interactive links on pages, encrypting PDF files, extracting fonts, images, and searchable text, and rendering pages to image files is provided.
+'"
+
+www.Ecademix.com/JohannesHofmann/flpsed.html >>flpsed is a WYSIWYG PostScript and PDF annotator. You can't remove or modify existing elements of a document.
+
+Scribus.net >>Scribus is an open-source program that brings award-winning professional page layout to Linux/UNIX, Mac OS X, OS/2 and Windows desktops with a combination of "press-ready" output and new approaches to page layout. Underneath the modern and user friendly interface, Scribus supports professional publishing features, such as CMYK color, separations, ICC color management and versatile PDF creation.
+
+PDFEdit.Petricek.net >>Free editor for manipulating PDF documents. GUI version + commandline interface.
+
+PDFChain.sf.net >>PDF Chain is a Graphical User Interface for the PDF Tool Kit, released under the terms of the GNU Public License verion 3.  It includes features designed to handle PDF files in a easy way. Basicaly it can merge, split, add backgrounds or stamps and add attachments. There are some tools for extended needs, too.
+
+FinalPage.sf.net >>Final Page is a free opensource software that make possible to reorganize, split and merge PDF documents.
+
+SumatraPDF.GoogleCode.com >>Sumatra PDF is a PDF viewer for Windows. The focus is to build a small and simple program that starts up fast and offers basic features needed for comfortable on-screen viewing of PDF files. Simplicity and elegance have higher priority than additional features.
+
+Trac.Emma-Soft.com/epdfview >>ePDFView is a free lightweight PDF document viewer using Poppler and GTK+ libraries.  The aim of ePDFView is to make a simple PDF document viewer, in the lines of Evince but without using the Gnome libraries.
+
+Skim-App.sf.net >>Skim is a PDF reader and note-taker for OS X. It is designed to help you read and annotate scientific papers in PDF, but is also great for viewing any PDF file.
+
+Projects.Gnome.org/evince >>Evince is a document viewer for multiple document formats. It currently supports pdf, postscript, djvu, tiff and dvi. The goal of evince is to replace the multiple document viewers that exist on the GNOME Desktop with a single simple application.
+
+GNUPDF.org >>The goal of the GNU PDF project is to develop and provide a free, high-quality, complete and portable set of libraries and programs to manage the PDF file format, and associated technologies.
+
+Okular.KDE.org >>Okular combines the excellent functionalities of KPDF with the versatility of supporting different kind of documents, like PDF, Postscript, DjVu, CHM, and others.
+
+FooLabs.com/xpdf >>Xpdf is an open source viewer for Portable Document Format (PDF) files. (These are also sometimes also called 'Acrobat' files, from the name of Adobe's PDF software.) The Xpdf project also includes a PDF text extractor, PDF-to-PostScript converter, and various other utilities.
+
+Ghostscript.com and GNU.org/software/ghostscript >>Ghostscript is the name of a set of software that provides: * An interpreter for the PostScript language and the PDF file format, * A set of C procedures (the Ghostscript library) that implement the graphics capabilities that appear as primitive operations in the PostScript language, and * A wide variety of output drivers for various file formats and printers.
+
+TecNick.com/public/code/cp_dpage.php?aiocp_dp=tcpdf >>TCPDF is an Open Source PHP class for generating PDF documents.
+
+sf.net/projects/pdfcreator >>PDFCreator easily creates PDFs from any Windows program. Use it like a printer in Word, StarCalc or any other Windows application.
+
+JPedal.org >>In active development since 1999, JPedal is a 100% Java PDF developer library. It comprises a Java PDF viewer and includes Java functions for enhanced PDF printing, PDF searching and PDF rasterizing. JPedal also comes with a plethora of tools for PDF text, PDF image and PDF content extraction.
+
+ToThink.com/pat2pdf >>This script fetches the pages of a U.S. patent document from the USPTO patent database and converts them into a single PDF file. To find patents use the USPTO advanced search page. pat2pdf is released under the terms of the GPL.

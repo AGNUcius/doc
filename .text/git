@@ -1,0 +1,14 @@
+git config --global user.name "Your Name"
+git config --global user.email AGNUcius@Gmail.com
+
+==Add github.com project
+
+====Add ssh key:
+
+====Init project
+cd $(PROJECT)
+git init
+git add README.txt
+git commit -m 'init'
+git remote add origin git@github.com:$(USER)/$(PROJECT).git
+git push -u origin master

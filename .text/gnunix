@@ -1,0 +1,278 @@
+Related: coreutils, desk, distro, GNUin, LazyLoad, menu, MiniMacs, Operating System, tools
+
+==Links
+~/.GNUnix
+
+GNUnix.sf.net >>Simplified X11 Desktop using an orthogonal set of re-branded "best of breed" applications.  We also merge the "Start Menu" with the "Package Manager" and the "Window Manager" with "Bug Report/Feature Requests" for holistic ease of use.
+
+
+==Goals
+Minimal resource use through JIT download, install, start.
+
+Auto-hibernate procs by writing "resident memory" and handle list to disk allowing thousands of procs to remain forever running, even across reboots.
+
+Some kind of dashboard to display computer health and help such as:
+  Process interrogation and control: htop, xosview, xload
+  CPU schedule, split, cluster
+  Memory Allocation and Protection
+  Disk Storage, Throughput, Temperature: CoreDump.Free.fr/linux/hddtemp.php
+  Network Throughput:
+  Keyboard and API access
+
+
+The user downloads a very small, platform-specific installer to split the disk.
+
+A minimal disk image (with a low-performance 'universal' network driver or with all known network drivers) is then downloaded and written to the target partition which is (by default) made bootable from the containing OS.
+
+Hardware is probed during the first (and anytime |SHIFT| is held during) boot; needed drivers are downloaded, installed and started.
+
+The video card is switched to graphics mode very early and the login prompt appears while services start in the background.  Default resolution and refresh rate are sensible and easily adjusted by right-clicking the desktop.
+
+New users may create their own (limited) account with the [New] button at the login screen.
+
+Pressing the WindowKey or clicking the [Star] button displays a tree of software and media organized and sorted by community and/or personal rankings.  Tools, toys, games, movies, music, books, news, etc. are downloaded, installed and executed only when selected.
+
+Titles appear slightly faded until installed.  When a choice is made, it is downloaded from local CD/DVD if available or through bit-torrent backed by HTTP mirrors.
+
+The lightweight windowing system optionally captures and translates keystrokes so input can be standardized across applications.  Mixable themes include: CUA/Explorer, Emacs, vi, Norton Commander.
+
+Each application frame drawn by the window manager includes an extra button which helps this user read and write community News, Bugs, Updates, Help, Docs, Fix, Ratings, etc.
+
+
+==Features
+Read+Write: email, address book, notes, todo list, code
+Draw/Paint: 2D, 3D, sketch, script, render
+Remote control other computers: WakeOnLan, Restart, Shut off, Exec remote commands
+Share+Find+Copy files from: SMB, NFS, VNC, RDP, SSH, Citrix ICA, Active Directory, Workgroups, IP address ranges.
+Record and rePlay macros (AutoHotKey)
+View status and plan of Users who reveal this info.
+Edit currently running programs
+Edit startup of drivers, services and other programs and shell extensions.
+Edit Installed Software
+View Event Log
+View clipboard
+Edit Registry
+
+
+==Global keys
+WindowKey         Open 'root' menu
+Ctrl-Shift-ESC    System Monitor
+Ctrl-Alt-Del      Menu to shutdown, logoff, restart
+Ctrl-Alt-Bckspc   Menu to fix resolution, refresh rate, login portal
+
+WindowKey-e      PCManFM.sf.net or MinEmacs lightweight disk and net browser/editor
+WindowKey-r      Open a 'Run' prompt
+WindowKey-m      Minimize all windows
+
+
+A text file or maybe a directory of files and subdirs used describe the menu layout and commands?
+
+Make the directory /usr/local/gnunix and put it at the *end* of our $PATH environment variable.  Then fill /usr/local/gnunix with small executable installation scripts having the same name as the target command.  When the user tries to run a program that is not yet installed, it actually runs the installer instead.
+
+For example, /usr/local/gnunix/xosview might look something like:
+
+__
+#!/bin/sh
+sudo apt-get install xosview
+xosview
+__
+
+Now, when the user attempts to run that program, the system will transparently run the installer and then launch the program.  The next time the program is called, the system will find the *real* executable earlier in $PATH and run it directly instead.
+
+
+
+
+==Long-term ideas:
+The GUI "Desktop" becomes a 3D looking first-person perspective with the same MOO text objects represented as icons or models.
+
+These objects are manipulated through a right-click menu or by 'applying' other objects.
+
+The HUD contains gauges for CPU utilization, speed, heat; Memory load; fan speeds, disk and net activity/load and errant processes or users.
+
+Programs are grouped in rooms dedicated to high-level goals like janitor, mail, music, TV, games.
+
+Computer hardware is represented by a 3D model you may administer directly.
+
+Networked peers may share read, write, execute access to their files and display.
+
+Security may appear as doors or windows that require a key or tool to open.
+
+A portable radio or TV can be added to your HUD.  Changing channels lets you browse through Free audio and video blogs or feeds.
+
+
+
+KMandla.WordPress.com/2009/08/09/idesk-completes-the-look
+
+http://serverfault.com/questions/24323/gentoo-linux-useful-utilities
+http://serverfault.com/questions/9936/is-this-the-optimal-procedure-to-upgrade-gentoo-linux
+
+Porthole.sf.net >>Porthole is a GTK-based front-end for Portage (the Gentoo package management system). It features a hierarchical view of packages and supports fast searches and dependency calculations. Porthole works mainly by running "emerge" commands in its own terminal window, and supports most emerge operations.
+
+====Mount VBox "Shared Folders"
+Install Dynamic Kernel Module Support (DKMS):
+$ pkg.add dkms
+
+Reboot the machine.
+
+Install VBox "Guest Additions"
+
+
+On the VBox GUI Choose "Devices|Shared Folders..." and add a "Machine Folder".  Share the c$ drive and name that share 'c'.
+
+Create a directory in GNUnix that will represent the Shared Folder.
+$ sudo mkdir /mnt/c
+
+Mount the Shared Folder 'c' to mountpoint /mnt/c as type "vboxsf"
+$ sudo mount -t vboxsf c /mnt/c
+
+
+====X Window
+The new X.Org creates a much smaller /etc/X11/xorg.conf that is easier to understand.
+
+But a virtual desktop larger that their real resolution is unworkable!
+$ sudo emacs /etc/X11/xorg.conf #force X11 to one resolution
+
+Section InputDevice
++ add Option "XkbOptions" "altwin:super_win"
+EndSection
+
+Section "Screen"
++	DefaultDepth     24
++	SubSection "Display"
++		Depth     24
++		Modes "1024x768"
++	EndSubSection
+EndSection
+
+
+Documents: Ted, Abiword, Scribus.net, Open Office Writer
+HTML: Kompozer.net, Bluefish.openoffice.nl
+Record Desktop: Shutter-Project.org, recordMyDesktop, DemoHelper.GoogleCode.com
+Page Layout: www.Scribus.net, FinalPage.sf.net
+3D Modeling: K-3D.org, Blender.org
+Paint: mtpaint, xpaint, TuxPaint, InkScapeLite, Al.chemy.org, InkScape, XaraXtreme, GIMP
+ Color: grabc, gcolor2
+Hex: MadEdit, HTE, biew, QEmacs, Heme
+CAD:
+CD/DVD: DVDAuthor, dvd+rwtools, pburn, grafburn, cdrtools/wodim, cdw
+ISO: Mount, Create, Extract, etc.
+Music: ripoff, asunder, cdparanoia
+Todo: lxtask, pschedule
+Budget: GNUCash.org, homebank, expensetracker
+
+Chat: pidgin.im, PSYC.eu
+Mail: ThunderBird, SimpleMail
+FTP: FileZilla, gcurl, urlgfe, xwget, pwget, gcurl
+WWW: dillo, Firefox + FlashBlock + AdBlockPlus + NoScript + History, Gnash or flashplayer
+Remote Control: Grdc, FreeNX, VNC, rdesktop, tsclient, Synergy2, WOL
+P2P, Torrent: aMule, emesene, gSTM, deluge, ctorrent, pctorrent, transmission_gtk
+
+Administration
+Audio
+Business and productivity
+Calculator: SpeedCrunch.org, ycalc, galculator, calcoo, cgtkcalc
+Database
+Education
+Email:
+Archiver: k7z.GoogleCode.net
+Picture View: xzgv, Mirage.berliOS.de, gpicview, zevv.nl/play/code/glview, Guichaz.Free.fr/gliv, aview, flphoto, gimageview, gqview
+Hobbies
+Interface
+Internet apps
+Live communications: chat, video conferencing, phone
+Localization
+Mathematics
+Printing
+Science
+Security
+Software Dev (IDE): CodeBlocks.org, wxDsgn.sf.net, UltimatePP.org, CodeLite.org, Geany.org
+Text Editors: beaver, aedit, geany, zedit, Emacs, vi, pico, nano, teagtk
+Web authoring:
+
+
+AUTO:
+ mount volumes
+ browse for network NSF or SMB shares: pnethood, AVAHI.org
+
+
+Play
+ Audio CD: xfreecd, cdp
+ Games: xsoldier, rubix
+
+Administer: xlock, slock
+ Logs:
+ File: emelFM2, PCManFM, xfe, Thunar, rox, autoconnect
+ Find/Search: turma, zfind, pfind
+ Hard: usbview, lspci, hardinfo
+ Disk:
+  gdmap
+  Backup: pbackup
+  Sync: mirdir, gadmin-rsync
+  Partition: GParted, fdisk, sfdisk
+ Terminal: urxvt, terminator.org
+ Proc launch: drun.sf.net, gexec, srun, bashrun, xrun, wbar
+ Proc view/edit: xosview, xload, htop, conky, hwinfo, xproc
+ Audio: xtmix, aumix, zmixer
+ Network: reconfigure, net-tools, xnetload, mtr
+  Wireless: xwconfig, wavemon, xnetstrength, wireless-tools, ndiswrapper, pwireless
+ Disk: lde,
+ Power: Shutdown, Restart, xlock
+ Upgrade: Upgrade Distro, Compile Kernel
+ Camera: gtkam, gphoto2
+ Printer: gtklp
+ Scanner: xsane
+gfontsel
+
+
+PDF: Trac.Emma-Soft.com/epdfview, PDFChain.sf.net
+chm: chmsee
+
+Video Player: Videolan.org, SMPlayer.sf.net
+Resource Monitor: xosview, htop
+Clock:
+
+
+Diagnostics
+ Memory: memtest, memtester
+ scanpci
+ clamav
+dmidecode
+edid
+eject
+elspci
+ethtool
+
+
+pstopwatch
+
+autofs         A kernel-based automounter for Linux
+axyftp-gtk     A graphical ftp program with GTK interface
+cdrecord       A command line CD/DVD writing tool
+cloop-module   The compressed loopback block device kernel 
+cloop-utils    Tools for handling with cloop compressed vol
+
+ifupdown       High level tools to configure network interf
+mkisofs        Creates ISO-9660 CD-ROM filesystem images.
+
+ppp            Point-to-Point Protocol (PPP) daemon.
+ppp-scripts-kn PPP connection scripts for various providers
+pppconfig      A text menu based utility for configuring pp
+
+rxvt           VT102 terminal emulator for the X Window Sys
+
+scite          Lightweight GTK-based Programming Editor
+
+util-linux     Miscellaneous system utilities.
+
+wvdial         PPP dialer with built-in intelligence.
+
+zile           a very small emacs-like editor
+
+
+
+
+=Other Research
+distro
+CDLinux.info
+Help.UBUNTU.com/community/LiveCDCustomizationFromScratch
+

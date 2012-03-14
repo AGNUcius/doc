@@ -1,0 +1,48 @@
+Related: CRT, LCD, manage, money, mono, proc, top, video
+
+NetXMS.org >>NetXMS is an enterprise grade multi-platform open source network management and monitoring system. It provides comprehensive event management, performance monitoring, alerting, reporting and graphing for all layers of IT infrastructure - from network devices to business application layer.
+
+SourceWare.org/systemtap >>SystemTap provides free software (GPL) infrastructure to simplify the gathering of information about the running Linux system. This assists diagnosis of a performance or functional problem. SystemTap eliminates the need for the developer to go through the tedious and disruptive instrument, recompile, install, and reboot sequence that may be otherwise required to collect data.
+
+GroundWorkOpenSource.com >>GroundWork Monitor is the most scalable open source IT monitoring solution for companies with heterogeneous operating systems, application and hardware environments who want to reduce ongoing monitoring costs, consolidate views and reports and improve staff productivity.
+
+OSS.Oetiker.ch/rrdtool >>RRDTool is the OpenSource industry standard, high performance data logging and graphing system for time series data. Use it to write your custom monitoring shell scripts or create whole applications using its Perl, Python, Ruby, TCL or PHP bindings.
+
+Cacti.net >>Cacti is a complete network graphing solution designed to harness the power of RRDTool's data storage and graphing functionality. Cacti provides a fast poller, advanced graph templating, multiple data acquisition methods, and user management features out of the box. All of this is wrapped in an intuitive, easy to use interface that makes sense for LAN-sized installations up to complex networks with hundreds of devices.
+
+collectd.org >>collectd gathers statistics about the system it is running on and stores this information. Those statistics can then be used to find current performance bottlenecks (i. e. performance analysis) and predict future system load (i. e. capacity planning). Or if you just want pretty graphs of your private server and are fed up with some homegrown solution you're at the right place, too ;).
+
+HealthMonitor.sf.net >>HealthMonitor is a free powerful and featureful system monitoring tool for Windows. It works as a Windows Service and check system status (event viewer, disk free space, services status, performance....) and notify the administration by E-Mail, SMS ...
+
+Monitorix.org >>Monitorix is a free, open source, lightweight system monitoring tool designed to monitorize as many services as it can. At this time it monitors from the CPU load and temperatures to the users using the system. Network devices activity, network services demand and even the devices' interrupt activity are also monitored. The current status of any corporate Linux server with Monitorix installed can be accessed via a web browser. 
+
+OpenMONI.sf.net >>Free semitransparent programmable system monitor
+
+WinPooch.Free.fr >>Winpooch is a Windows watchdog, free and open source. Anti spyware and anti trojan, it gives a full protection against local or external attacks by scanning the activity of programs in real time. Associated with ClamWin antivirus, Winpooch keeps safe your computer against virus.
+
+SEToolkit.org >>The classic performance monitoring tool for Solaris "SE Toolkit" has been released under GPL!
+
+cpufreqd digitemp FVCool104 gai-temp heatload kima testdisk wmacpi_temp wmacpimon wmtemp xdiskusage
+
+GNU.org/software/freeipmi >>FreeIPMI provides in-band and out-of-band IPMI software based on the IPMI v1.5/2.0 specification. The software has been written with a number of useful features for large HPC environments.
+
+LatencyTOP.org >>LatencyTOP is a Linux* tool for software developers (both kernel and userspace), aimed at identifying where in the system latency is happening, and what kind of operation/action is causing the latency to happen so that the code can be changed to avoid the worst latency hiccups.
+
+PIKT.org >>PIKT is cross-categorical, multi-purpose software for monitoring and configuring computer systems, administering networks, organizing system security, and much more.
+
+Nagios.org >>Nagios is an Open Source host, service and network monitoring program.
+
+inotify-tools.sf.net >>inotify-tools is a C library and a set of command-line programs for Linux providing a simple interface to inotify. These programs can be used to monitor and act upon filesystem events. A more detailed description of the programs is further down the page. The programs are written in C and have no dependencies other than a Linux kernel supporting inotify.
+
+LinuxPowerTop.org >>PowerTOP combines various sources of information from the kernel into one convenient screen so that you can see how well your system is doing at saving power, and which components are the biggest problems.
+
+gotmor.GooglePages.com/dzen >>dzen A general purpose messaging and notification program.
+
+GAI.sf.net >>The General Applet Interface Library
+
+www.etg.e-technik.uni-erlangen.de/web/doe/xcalib >>xcalib is a tiny monitor calibration loader for XFree86 (or X.org) and MS-Windows.
+
+sysmond.sf.net >>Sysmon is a tool to monitorise the state of one or more computers.  It's based on a daemon and a php script.
+
+cpufreqd digitemp FVCool104 gai-temp heatload kima testdisk wmacpi_temp wmacpimon wmtemp xdiskusage
+

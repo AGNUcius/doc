@@ -1,0 +1,61 @@
+Related: copy, defend
+
+GPLs help us lock open objects for user freedom.
+
+RobMyers.org/wiki/index.php/Copyleft_Concepts
+
+EyeMagazine.com/opinion.php?id=117&oid=290 >>It is clear that copyright is being misdirected from its original intention to that of meeting the needs of corporations desperate to safeguard existing profits and create new markets artificially.
+
+http://cyber.law.harvard.edu/cyberone/wiki/The_Open_Patent_Project "'patentleft'"
+
+
+----
+Re mix of http://GNU.org/copyleft
+
+[image of a Philosophical Gnu]
+
+Property Left is a general method for making an Object Free, and requiring all Modified, Copied and Shared versions of the Object to be Free as well.
+
+Design such as software or genetics is not rivalrous, so does not need owners.  But each instance must be "hosted" by space, mass and energy to store, copy and express it.  Those physical sources such as land, water, computers, plants, etc. ARE rivalrous, so must have real owners for privacy and protection.
+
+Property left is a trade agreement between owners that causes all profit at each trade be treated as User investment in more physical sources of that same kind.
+
+In this way, Object Users become Owners of physical Sources at a rate determined directly by their demand as measured by the amount they are willing to pay above Cost.  Paying Cost indicates demand for the Object, while paying Profit indicates demand for ownership in the Physical Sources of that Object.
+
+
+==Definitions within the context of this document
+    * Control: Control of Objects and Sources is held by Owners and weighted by their % of holdings in that instance and it's divisibility; and also impacted by neighbors that border the Source if the change is going to pollute or damage their property.
+    * Object: Objects are Physical - such as spaghetti, or Virtual - such as software object-code.
+    * Source: Sources may be Physical - such as a wheat plant, or Virtual - such as software source-code.
+    * User: Users are the Consumers and Workers who buy or rent access to the Objects of physical Sources.
+    * Consume: Object Consumers need to gain Source Ownership for Freedom and Control.
+    * Own: Owners control according the amount they pay to investment and maintain.
+    * Demand: Demand is measured by the Price a User is willing to pay, and determines his investment and maintenance of Sources.
+    * Worker: Workers do not become Users through Owners paying them a Wage, as the Worker is not investing unless he is buying or renting some Free Sources to complete the job, and in those cases he does become Owner in the amount he pays above cost, just as any Consumer does.
+    * Wage: Wage is a Cost claimed against Source Owners or Object Users who choose to hire a Worker.
+    * Manage: Owners may hire managers to find and organize Workers, but Workers can always reorganize and offer their services as a competition to those managers if they outgrow the need for their services, and want to become more independent.
+    * Free: Freedom is maximized as Power is minimized when Users Control.
+    * Power: Power reduces the Freedom of others by withholding Source control.
+    * Four Freedoms: Use(0), Modify(1), Copy(2), Share(3).
+    * Cost: Paid by the Owners for the last round of production.  Includes Wages.
+    * Price: Paid by the User as: Cost + Profit + Growth.
+    * Profit: This used to be taken by Owners, but is now a User investment.
+    * Growth: Progress in natural when Users Invest according to their demand.
+
+The simplest way to make a physical Source free is to put it in a public place, unprotected.  This allows people to share the Objects of that Source and their improvements, if they are so minded.  But it also allows uncooperative people to take more of the Objects than they paid toward the maintenance of the Sources, or they may Own and organize many Sources, but might hold them and their Objects proprietary, away from users for the purpose of profit.  They may disallow others from ever using the Source, or they may make changes, many or few, and distribute the resulting Objects as a proprietary product.  People who want to use the Object or a modified form do not have the Freedom that the original Owner gave; the middleman has stripped it away.
+
+In the GNU project, our aim is to give all users the freedom to use GNU Objects.  If middlemen could strip off the freedom, we might have many users, but those users would not have freedom.  So instead of putting a GNU Object in the public domain, we property left it.  Property left says that anyone who uses the Object, with or without changes, must pass along those Freedoms.  Property left guarantees that every User has freedom to access the physical sources.
+
+Property left also provides an incentive for Owners and Workers to add to free sources.  Property left also helps investors of money or effort who want to contribute improvements to Free Objects get permission to do that.  These investors often work for companies or universities that would do almost anything to get more profit.  An investor may want to contribute her changes to the community, but her employer may want to turn the changes into a proprietary product.
+
+When we explain to the employer that it is illegal to distribute the improved version except as a free Object, the employer usually decides to release it as a free Object rather than throw it away.
+
+To property left an Object, we first state that it is Owned; then we add use and distribution terms, which are a legal instrument that gives everyone the rights to Use, Modify, Copy and Share the Object or any Object derived from it but only if the distribution terms are unchanged.  Thus, the Use and the Freedoms become legally inseparable.
+
+Proprietary owners use property rights to take away the users' freedom; we use property rights to guarantee their freedom. That's why we reverse the terms, changing property right into property left.
+
+Property left is a general concept; there are many ways to fill in the details. In the GNU Project, the specific distribution terms that we use are contained in the GNU GeneralPublicLaw?. The GNU General Public Law is often called the GNU GPL for short.
+
+This law is designed so that you can easily apply it to your own objects, assuming you are the owner.  You don’t have to modify the law to do this, just include a copy of the law in or on the object, and add notices in or on the sources of that object that refer properly to the law.
+
+Using the same terms for many different objects makes it easy to various different objects in harmony.  Since they all have the same terms, there is no need to think about whether the terms are compatible.

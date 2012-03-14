@@ -1,0 +1,87 @@
+Related: emu, .vdi, virtual, VMware, Hyper-V, XEN
+
+http://arunnsblog.com/2010/07/20/nat-with-port-forwarding-for-virtual-box
+
+OSEBox.GoogleCode.com >>As Virtualbox OSE is released under The GNU General Public License (GPL) Version 2 license, we aim at providing you with instructions for how to build the open source edition from the source available and at providing the binaries themselves.
+
+VBoxWin32.sf.net >>This is a small project which releases binary packages for Windows built from the VirtualBox OSE source code releases available on virtualbox.org. Because the name VirtualBox is a trademark of Sun Microsystems, packages made available by this project are named VBox.
+
+VirtualBox.org >>VirtualBox is a family of powerful x86 virtualization products for enterprise as well as home use. Not only is VirtualBox an extremely feature rich, high performance product for enterprise customers, it is also the only professional solution that is freely available as Open Source Software under the terms of the GNU General Public License (GPL).
+
+VBoxTool.sf.net >>Currently VirtualBox lacks a decent management environment for controlling virtual sessions on a headless server environment. VBoxTool mimics partly Virtual Machine Manager which controls sessions for other virtualization solutions like Qemu, KVM, etc. Unfortunately, VirtualBox is not in the list of supported engines (nor will be in the near future).
+
+xVMServer.org >>xVM Server is a data-center grade, bare-metal virtualization engine that provides hypervisor life-cycle management for servers. It is designed to be a cross-platform, high efficiency, open source hypervisor capable of hosting multiple guest operating systems (including Solaris, Windows, and Linux), with advanced CPU and memory handling capabilities. The server is being built using technology from the Xen open source project as well as Sun™ Logical Domains (LDOMS). xVM Server turns the computer into a dedicated virtualization Software Appliance with a top-of-the-line, easy-to-use interface you attach to over a standard https connection. The data model is exposed as public programming interfaces via WS-MAN allowing direct web-service access to the public APIs from any WS-MAN client.
+
+
+
+
+http://forums.virtualbox.org/viewtopic.php?p=37931#p37931
+
+Enable one network adapter and set its MAC address to that of your real network card.
+
+
+$ dmidecode -t0
+SMBIOS 2.5 present.
+DmiBIOSVendor: Vendor: Dell Computer Corporation
+DmiBIOSVersion: Version: A12
+DmiBIOSReleaseDate: Release Date: 08/26/2004
+
+Bios Revision: 2.3
+Firmware Revision: 2.3
+
+DmiBIOSReleaseMajor (2)
+DmiBIOSReleaseMinor (3)
+DmiBIOSFirmwareMajor (2)
+DmiBIOSFirmwareMinor (3).
+* If Bios and Firmware Revisions are not listed, set them both to the version of SMBIOS.
+
+$ sudo dmidecode -t1
+DmiSystemVendor: Manufacturer: Dell Computer Corporation
+DmiSystemProduct: Product Name: Dimension 4600i             
+DmiSystemVersion: Version: Not Specified
+DmiSystemSerial: Serial Number: JTGL999
+DmiSystemUuid: UUID: 99999C9C-9999-9999-999C-CAC99F999999
+DmiSystemFamily: Family: X86-based PC
+
+
+VM_NAME="xpraw" # Name of your Virtual Machine
+VSETED="VBoxManage setextradata $VM_NAME"
+CFG_PATH="VBoxInternal/Devices/pcbios/0/Config"
+$VSETED $CFG_PATH/DmiBIOSVendor       "Dell Computer Corporation"
+$VSETED $CFG_PATH/DmiBIOSVersion      "A12"
+$VSETED $CFG_PATH/DmiBIOSReleaseDate  "08/26/2004"
+$VSETED $CFG_PATH/DmiBIOSReleaseMajor  2
+$VSETED $CFG_PATH/DmiBIOSReleaseMinor  3
+$VSETED $CFG_PATH/DmiBIOSFirmwareMajor 2
+$VSETED $CFG_PATH/DmiBIOSFirmwareMinor 3
+$VSETED $CFG_PATH/DmiSystemVendor     "Dell Computer Corporation"
+$VSETED $CFG_PATH/DmiSystemProduct    "Dimension 4600i"
+$VSETED $CFG_PATH/DmiSystemVersion    "<EMPTY>"
+$VSETED $CFG_PATH/DmiSystemSerial     "JTGL999"
+$VSETED $CFG_PATH/DmiSystemUuid       "99999C9C-9999-9999-999C-CAC99F999999"
+$VSETED $CFG_PATH/DmiSystemFamily     "X86-based PC"
+
+* Note: Make sure you choose partition type 0x07 (instead of 0x17 - Hidden HPFS/NTFS) if you're planning to use NTFS (recommended) or you might end up with the "Autochk program not found" error when trying to boot natively. (See this posting.)
+
+Configurations fall into the following three categories. By this I mean the location of the primary Windows partition. You might of course decide to use multiple partitions.
+
+The Windows installer will try by default to install boot files (ntldr, NTDETECT.COM, etc.) onto the first partition of a disk and will fail if it is not allowed write to it. The solution to this is to set the partition you want to install Windows on as active (aka boot flag). The safest way to do it is to boot a LiveCD in VirtualBox with the raw vmdk attached and set it there. Alternatively, and only if you know what you're doing, you can do the following before and after you create the raw vmdk.
+
+$ sudo parted [DISK] set [PARTITION] boot [on|off]
+
+If you've already got one or more operating systems installed, or you only have one disk, chances are you fall into this category. In this case Windows will try to write to the first (or active) partition just like mentioned above. The solution in this case to create a tiny virtual disk (16MB will do) for Windows to put the boot partition on. Set this as the first disk in VirtualBox. 
+
+
+      Create a backup copy of %WINDIR%\system32\wpa.dbl after activation.
+   2. Set the virtual network adapter's MAC address to that of your real network adapter.
+
+                http://www.aumha.org/win5/a/wpa.php wrote:[...] It then calculates and records a number based on the first device of each type that was found during setup, [...]
+
+   3. Boot Windows in VirtualBox
+      If you set the correct MAC address Windows should not ask for reactivation. If it does:
+
+         1. Shut down the guest.
+         2. Temporarily mount the Windows partition and replace %WINDIR%\system32\wpa.dbl with your backup copy.
+         3. Repeat step 2. using the MAC address of your next network adapter. 
+
+

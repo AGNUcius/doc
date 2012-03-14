@@ -1,0 +1,88 @@
+Related: change, code, hex, IDE, images, model, text
+
+GNU Emacs is Editing MACroS; the extensible, customizable, self-documenting real-time display editor.
+
+NoteMacs
+
+NotePad-Plus.sf.net >>Notepad++ is a free (as in "free speech" and also as in "free beer") source code editor and Notepad replacement that supports several languages. Running in the MS Windows environment, its use is governed by GPL Licence.
+
+ConTEXTEditor.org and ConTEXTEditor.GoogleCode.com (Pascal) >>ConTEXT is an advanced programmers' editor originally written by Eden Kirin over a decade ago and released as freeware. The editor quickly became popular as it was the arguably most powerful freeware editor for the Windows platform. Eden's work and interests changed and he neglected updating the program for several years. In 2008, recognizing he no longer had time for ConTEXT, Eden sold ConTEXT to its current owner who has decided to open source the still widely popular editor. The ConTEXT community plans on improving and modernizing ConTEXT to better compete with today's best freeware programmers' editors.
+
+Bespin.Mozilla.com >>Bespin is a Mozilla Labs experiment on how to build an extensible Web code editor using HTML 5 technology.
+
+WYMeditor.org >>WYMeditor is a web-based WYSIWYM (What You See Is What You Mean) XHTML editor (not WYSIWYG). WYMeditor's main concept is to leave details of the document's visual layout, and to concentrate on its structure and meaning, while trying to give the user as much comfort as possible (at least as WYSIWYG editors). WYMeditor has been created to generate perfectly structured XHTML strict code, to conform to the W3C XHTML specifications and to facilitate further processing by modern applications. With WYMeditor, the code can't be contaminated by visual informations like font styles and weights, borders, colors, ... The end-user defines content meaning, which will determine its aspect by the use of style sheets. The result is easy and quick maintenance of information.
+
+Code.Google.com/p/metanote >>It begins as a zero-feature text editor.    By adding or removing macros and add-ins, it becomes a full featured text editor, that can be customized to your exact style of use.
+
+Algorithm.com.au/code/vimacs >>Yep, it's Emacs... in Vim. Phear it.
+
+WYMEditor.org >>WYMeditor is a web-based WYSIWYM (What You See Is What You Mean) XHTML editor.
+
+DiskEditor.pasiz.net and DiskEditor.sf.net or sf.net/projects/diskeditor >>View the contents of your disk drive(harddisk and floppy disk).view,edit any sector, save sector to file and write sector from file.view contents of files,sectors in hex and ascii.view boot record of floppy,harddrive,and view partition table.
+
+Cream.sf.net >>Cream is a free text editor. A modern configuration of the powerful and famous Vim, Cream is now available for Microsoft Windows, GNU/Linux, and FreeBSD.
+
+Zed.c3po.it >>Zed is a very simple, fast, powerful, small, low cpu consumer, highly configurable,TEXT EDITOR.  It's written for UNIX (Tested with Linux, HPUX, SunOS, AIX).  If you cannot stand VI, this is the editor for you.
+
+Yzis.org >>Yzis a vi-like editor inspired by vim. Yzis aims to be a powerful, fast editor with all of Vim's features and hopefully, at some point, more.
+
+Directory.FSF.org/category/editors
+
+Flos-Freeware.ch/notepad2.html >>A few years ago, I found myself writing my first PHP projects using metapad. When I was looking around for text editors with syntax highlighting, I have come across the Scintilla source code editing component. I was very much impressed by this project, so I decided to create my own Scintilla-based text editor.  The result is Notepad2, a fast and light-weight Notepad-like text editor with syntax highlighting. This program can be run out of the box without installation, and does not touch your system's registry.
+
+Hessling-Editor.sf.net >>THE is a powerful text editor modelled on the VM/CMS text editor XEDIT with the best features of Mansfield Software's Kedit.  Like its relatives, THE uses Rexx as its macro language, which means that THE is a highly configurable and versatile editor.
+
+PurePistos.net/diakonos >>Frustrated by those other console editors?  You already know what keys to press in your GUI applications to open, save, copy, cut, paste and undo. Why should your console text editor behave differently?  Answer: it shouldn't.  Welcome to Diakonos, the console text editor with a key mapping you practically already know.  Easy to use and easy to configure, but potent in the hands of power users.
+
+Yudit.org >>Yudit is a free Unicode plain-text editor for Unix-like systems.
+
+FreshMeat.net/projects/leeditor or Directory.FSF.org/project/le-editor >>LE has many block operations with stream and rectangular blocks, can edit both unix and dos style files ( LF/CRLF ), is binary clean, has hex mode, can edit text with multi-byte character encoding, has full undo/redo, can edit files and mmap-able devices in mmap shared mode (only replace), has tunable syntax highlighting, tunable color scheme (can use default colors), tunable key map. It is slightly similar to Norton Editor, but has more features.
+
+SETEdit.sf.net >>SETEdit is a friendly text editor. It is a text mode application with windows, buttons, mouse support, etc. The main target of the project are programmers so the editor is mainly oriented to programming. 
+
+WinVi.de >>WinVi is a free editor for MS Windows.
+
+CrimsonEditor.com and now EmeraldEditor.com >>
+
+Kupu.OSCOM.org >>Kupu is a 'document-centric' open source client-side editor for Mozilla, Netscape and Internet Explorer. Inspired by Maik Jablonski's Epoz editor, it was written by Paul Everitt, Guido Wesdorp and Philipp von Weitershausen (and several other contributors, for a complete list refer to the CREDITS.txt file) to improve the JavaScript code and architecture, pluggability, standards support, support for other webservers than Zope (which was the original target platform for Epoz), configurability and a lot of other issues.
+
+OC-CO.org/files/b8 >>Bouillon 8    Both WYSIWYG and visible markup approaches have their //pro// and //contra//.  By using the visible logical markup of T,,e,,X, Prof.  Donald Knuth was able to write a book nobody will ever entirely read.  On the other side, by selling a WYSIWYG editor named "Word", Mr. William Gates made a sum of money he will never entirely spend.  Let's discuss both approaches in more detail.
+
+nllgg.nl/ted >>Ted is a text processor running under X Windows on Unix/Linux systems.  Ted was developed as a standard easy word processor, having the role of Wordpad on MS-Windows.  Since then, Ted has evolved to a real word processor that still has the same easy appearance as the original.  The possibility to type a letter, a note or a report on a Unix/Linux machine is clearly missing.  Only too often, you have to turn to MS-Windows machine to write a letter or a document.  Ted was made to make it possible to edit rich text documents on Unix/Linux in a wysiwyg way.  RTF files from Ted are fully compatible with MS-Word.  Additionally, Ted also is an RTF to PostScript and an RTF to Acrobat PDF converter.
+
+NonGNU.org/beaver >>Beaver is a recursive acronym for Beaver is an Early AdVanced EditoR.
+
+CDolivet.net/editarea and sf.net/projects/editarea >>Here is EditArea, a free javascript editor for source code. (That is no way a WYSIWYG editor).  This editor is designed to edit souce code files in a textarea. The main goal is to allow text formatting, search and replace and real-time syntax highlight (for small text).
+
+Code-Browser.sf.net >>Code Browser is a folding text editor for Linux and Windows, designed to structure hierarchically any kind of text file and expecially source code.
+
+TEA-Editor.sf.net >>TEA is the GTK2-based text editor for Linux, Darwin, MacOS X, Solaris and *BSD. With an ultimate small size TEA provides you hundreds of functions.
+
+vian.sf.net >>vian is a vi clone written completely in Javascript. It works in Internet Explorer and Firefox, and is intended for those who want to add a decent editor to their web pages. Hooks are available for syntax hilighting, loading/saving buffers, etc.
+
+rospell.sf.net >>rospell is a UTF-8 programming editor with spelling support for Romanian and English languages.
+
+Triptico.com/software/mp.html >>Minimum Profit - A text editor for programmers
+
+Gobby.0x539.de >>Gobby is a free collaborative editor supporting multiple documents in one session and a multi-user chat.
+
+www.Talula.Demon.co.uk/fed >>FED - a folding text editor
+
+aoeui.sf.net >>the lightweight, unobtrusive, keyboard layout-optimized editor
+
+flipturn.org/peppy >>`Proximated Emacs Powered by Python.  -- an XEmacs-like editor in Python. Eventually.
+
+Jedsoft.org/jed >>JED is a freely available text editor for Unix, VMS, MSDOS, OS/2, BeOS, QNX, and win9X/NT platforms. Although it is a powerful editor designed for use by programmers, its drop-down menu facility make it one of the friendliest text editors around. Hence it is ideal for composing simple email messages as well as editing complex programs in a variety of computer languages.
+
+Scribes.sf.net >>Simple, slim and sleek, yet powerful.
+
+Lekho.sf.net >>MULTI-PLATFORM BANGLA UNICODE EDITOR
+
+katy.sf.net >>Katy is a general purpose text editor for KDE which is inspired by the Windows text editor, UltraEdit.
+
+www.Linux.org/apps/all/System/Editors.html   Linux Online - Category: System  Editors
+
+====Mozilla
+Mozile.MozDev.org: Firefox and javascript.
+
+cuneAform.mozdev.org >>cuneAform is a community built extension to Mozilla products including Firefox and Mozilla.

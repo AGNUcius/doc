@@ -1,0 +1,58 @@
+Related: back, collab, diff, thread
+
+==File Synchronization
+StorageBox.org >>StorageBox is full replicated peer-to-peer file system. No longer synchronize your files - put them in your StorageBox.
+
+AboutMyIP.com/AboutMyXApp/DeltaCopy.jsp >>In general terms, DeltaCopy is an open source, fast incremental backup program. Let's say you have to backup one file that is 500 MB every night. A normal file copy would copy the entire file even if a few bytes have changed. DeltaCopy, on the other hand, would only copy the part of file that has actually been modified. This reduces the data transfer to just a small fraction of 500 MB saving time and network bandwidth.
+
+Ftplicity.sf.net >>Ftplicity is a shell front end for duplicity (Duplicity.NonGNU.org). It simplifies using duplicity by managing repeatedly needed settings in profiles per backup job. Make incremental encrypted backups on non-trusted backup spaces a child's play.
+
+Synchronicity.sf.net >>Create Synchronicity is an opensource application developed in VB.NET to synchronize files and folders across different locations.  It is aimed at making the synchronization process as easy as possible, and yet remains fully customizable.
+
+luckyBackup.sf.net >>... a powerful, fast and reliable backup & sync tool
+
+www.educ.umu.se/~cobian/cobianbackup.htm >>Cobian Backup is a multi-threaded program that can be used to schedule and backup your files and directories from their original location to other directories/drives in the same computer or other computer in your network. FTP backup is also supported in both directions (download and upload).
+
+iFolder.com/ifolder
+
+PortableApps.com/apps/utilities/toucan >>Toucan is a small utility allowing you to synchronise, backup and secure your data with more options than the built in suite utilities.
+
+FreeFileSync.sf.net >>FreeFileSync is an Open-Source folder comparison and synchronization tool. It is optimized for highest performance and usability without restricted or overloaded UI interfaces.
+
+Synkron.sf.net >>Synkron is able to synchronise multiple folders at once, analyse folders before sync, restore overwritten or deleted files, plan synchronisations and much more.
+
+OSS.LinBit.com/csync2 >>Csync2 is a cluster synchronization tool. It can be used to keep files on multiple hosts in a cluster in sync. Csync2 can handle complex setups with much more than just 2 hosts, handle file deletions and can detect conflicts.
+
+OpenSync.org >>down due to maintenace Currently we're moving the OpenSync.org infrastructure to a new location. Back online very soon! BR -Daniel
+
+GreenTeaPress.com/semaphores >>The Little Book of Semaphores is a free (in both senses of the word) textbook that introduces the principles of synchronization for concurrent programming.
+
+csync.org >>csync is a client only bidirectional file synchronizer.  The intention is to provide Roaming Home Directories for Linux but you can use it to synchronize your music collection or create a backup of a directory.
+
+MultiSync.sf.net >>MultiSync is a free modular program to synchronize calendars, addressbooks and other PIM data between programs on your computer and other computers, mobile devices, PDAs or cell phones. MultiSync works on any Gnome platform, such as Linux.
+
+FullSync.sf.net >>FullSync is a universal file synchronization and backup tool which is highly customizable and expandable. It is especially for developers, but the basic functionality is easy enough for everyone.
+
+DirectorySync.sf.net >>DirSync Pro (Directory Synchronize Pro) is a small, but powerful utility for file and folder synchronization.  DirSync Pro can be used to synchronize the content of one or many folders recursively.
+
+SynchroEdit.com >>SynchroEdit is a browser-based simultaneous multiuser editor, a form of same-time, different-place groupware. It allows multiple users to edit a single web-based document at the same time, and it continuously synchronizes all changes so that users always have the same version.    SynchroEdit's main editor is fully WYSIWYG, dynamically displaying bolds, italics, underlines, strikethroughs, with various justifications, indents and listing styles as an author inputs them. SynchroEdit also supports a simple, text-only editor for more basic documents. To clarify the multiuser experience, the editor window clearly depicts every user's changes in a specific color and also marks where each user is currently editing with a colored flag listing the user's name.
+
+DocSynch.sf.net >>DocSynch is a collaborative editing system on top of IRC. By transforming single-user editors into multi-user editors, it allows to remotely edit text documents together. Implementations are targeted as extensions to many popular text editors and IDEs. A working version is available for jEdit.
+
+www.CIS.UPenn.edu/%7Ebcpierce/unison >>Unison is a file-synchronization tool for Unix and Windows.  It allows two replicas of a collection of files and directories to be stored on different hosts (or different disks on the same host), modified separately, and then brought up to date by propagating the changes in each replica to the other.
+
+jrockey.com/develop/kfs (KDE)>>KFS is a simple tool for 'synchronising' files between two sites. Usually, these two sites will be a local directory on your machine and a remote directory via FTP.
+
+Samba.ANU.edu.au/rsync >>rsync is an open source utility that provides fast incremental file transfer. rsync is freely available under the GNU General Public License version 2
+
+lyra.org/sitecopy
+
+CVSup.org >>CVSup is a software package for distributing and updating collections of files across a network. It can efficiently and accurately mirror all types of files, including sources, binaries, hard links, symbolic links, and even device nodes. CVSup's streaming communication protocol and multithreaded architecture make it most likely the fastest mirroring tool in existence today.
+
+
+Wikipedia.org/wiki/Syncretism >>Syncretism is the attempt to reconcile disparate, even opposing, beliefs and to meld practices of various schools of thought. It is especially associated with the attempt to merge and analogize several originally discrete traditions, especially in the theology and mythology of religion, and thus assert an underlying unity.
+
+SyncDocs.sf.net (java) >>SyncDocs provides a simple point-and-click drag-and-drop HTTP server for transferring files between computers, or especially to applications on an iPhone.  No DNS or IP settings are required.  SyncDocs uses the Bonjour service discovery protocol.
+
+HEIHO.net /synctool >>synctool is a configuration management for working with clusters of computers.  synctool copies configuration files to groups of machines in your cluster based on what groups (or classes) they are in.  By doing so, it keeps the configuration on that group of machines synchronized (or, "in sync").  If needed, synctool will restart or reload any daemons, as you wish.  synctool can be easily extended to do other administrative tasks, such as checking daemons, checking free disk space, installing packages, etc. or any other task you want it to do.
+

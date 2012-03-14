@@ -1,0 +1,62 @@
+Related: ointment, wash, WSDL
+
+PocketSOAP.com >>This is an Open Source [MPL] SOAP client COM component for the Windows family, originally targeted at PocketPC (hence the name), there is also a Win32 version that works on Windows 95/98/Me/NT4/2000/XP/2003. The package includes a HTTP 1.1 transport for making HTTP based SOAP requests, however the transport is separate from the main SOAP core, so any other transports can be easily added. James Clark's excellent Expat XML Parser is used for parsing the response SOAP messages.
+
+SoapUI.org >>soapUI is the leading desktop application for inspecting, invoking, monitoring, simulating/mocking and functional/load/compliance/surveillance testing of REST/WADL and SOAP/WSDL-based Web Services over HTTP.
+
+cSOAP.sf.net >>cSOAP is a client/server SOAP library implemented in pure C. It comes with embedded transport servers for UDP and HTTP (nanoHTTP). The transferred XML structures are handled by libxml2.
+
+gSOAP.sf.net (NON-Free?: www.cs.fsu.edu/~engelen/soaplicense.html)
+
+/dev/research/net/SOAP/gsoap/gsoap-2.8/README.txt
+
+$ wsdl2h -s -o calc.h http://www.cs.fsu.edu/~engelen/calc.wsdl
+$ soapcpp2 calc.h
+
+
+http://support.microsoft.com/gp/lifedevtool
+>>1. What is the SOAP Toolkit? Is it supported?
+>>
+>>> All SOAP Toolkits have been replaced by the Microsoft .NET Framework. The .NET Framework provides basic Web service capabilities with COM components and applications. SOAP Toolkit versions prior to 3.0 are no longer supported. Support for SOAP Toolkit 3.0 has been extended beyond the original retirement date of July 1, 2004 to more closely align with the support offered for Visual Studio 6.0. Standard support for SOAP Toolkit 3.0 will now expire March 31, 2005 and extended support will expire April 8, 2008. For the latest information about supported technologies for developing Web services, visit the Web Services Developer Center on the MSDN Web site. To learn about the benefits of building Web services solutions on the .NET Framework and to take advantage of the latest advanced Web services capabilities, read the MSDN articles on migration.
+
+
+==ATL Server
+ ATLServer.CodePlex.com
+ http://msdn.microsoft.com/en-us/library/exb5b09w(v=VS.80).aspx >>ATL Server Reference 
+  http://msdn.microsoft.com/en-us/magazine/cc188796.aspx
+ http://msdn.microsoft.com/en-us/magazine/cc301865.aspx >>Using ATL Server to Build an Asynchronous SOAP Client in Unmanaged C++
+ http://bytes.com/topic/net/answers/285451-frustrating-lack-support-sproxy-exe
+ http://msdn.microsoft.com/en-us/library/ftdya1d6(v=VS.80).aspx >>SOAP Client Code
+ http://msdn.microsoft.com/en-us/library/ztta389h(VS.80).aspx >>sproxy.exe
+http://blogs.msdn.com/b/jpsanders/archive/2008/01/17/building-with-atlserver-based-soap-project-with-visual-studio-2008.aspx
+
+wsdl.exe
+wsutil.exe
+
+replace <import> tags with the contents of those files
+remove all <policy> tags
+add <wsdl:service> tag, including port and binding.
+<wsdl:service name="PrefProjectService">
+<wsdlort name="ProjectServiceSoap" binding="tns:ProjectServiceSoap">
+<soap:address
+location="http://localhost/PrefProject/PrefProjectService.svc" />
+</wsdlort>
+</wsdl:service>
+
+
+
+http://geekswithblogs.net/cicorias/archive/2007/08/28/Consuming-WCF-Services-from-COM-using-C.aspx
+
+==Web Services on Devices (WSD)
+ http://msdn.microsoft.com/en-us/library/aa386288(v=VS.85).aspx >>Web Services on Devices Reference
+
+
+==Windows Web Services (WWSAPI) WebServices.dll
+ MSDN.Microsoft.com/en-us/library/dd430435(VS.85).aspx
+ Licensing killed: Blogs.MSDN.com/b/wndp/archive/2009/10/09/final-version-of-windows-web-services-api-for-windows-xp-vista-server-2003-and-server-2008-is-now-available.aspx
+ http://weblogs.asp.net/kennykerr/archive/2009/12/24/windows-web-services-fail.aspx
+ Blogs.MSDN.com/b/nikolad/archive/2009/04/06/connecting-c-c-and-web-services.aspx
+ http://social.msdn.microsoft.com/Forums/en-US/wwsapi/thread/adf2a58c-32b7-477a-adcc-f2d053e2902b
+ http://social.msdn.microsoft.com/Forums/en-US/wwsapi/thread/c204006e-087c-44c7-8300-d499feb90314
+
+

@@ -1,0 +1,23 @@
+body{background:#200; color:#fff;}
+
+#main{background:#500; border:1em solid #200;}
+
+#header,#footer{background:#500;}
+
+span.date{background:#000; color:#bbb;}
+
+span.quot{background:#030;}
+span.quot2{background:#003;}
+span.quot3{background:#300;}
+
+span.cmnt{background:#303;}
+span.shell{background:#333;}
+span.type{background:#033;}
+
+span.h1,span.h2,span.h3,span.h4{background:#200; color:#500;}
+
+a{color:#99f;}
+a:visited{color:#f9f;}
+a:hover, a:focus{background:#00f;}
+a.ext{color:#ff0;}
+a.ext:hover, a.ext:focus{background:#f00;}
