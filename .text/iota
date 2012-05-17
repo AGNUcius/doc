@@ -1,23 +1,30 @@
-Related: Property Left
+Related: Property Left, VIPM
 
-The Intra-Owner Trade Agreement (IOTA) is a 
-
- Deposit-Based, *Insuring* currency representing some quantity and quality of a Product and backed by the Means of Production and Promises to Labor from Workers.
+The Intra-Owner Trade Agreement (IOTA) is a Deposit-Based, *Insuring* currency representing a predicted quantity and quality of PRODUCT.
 
 
-1.) Commitments of Sources: These is the physical assets
-   needed to produce food and shelter for those Villagers.
+This legal document has 3 distict sections:
 
-- Commitments of Skills: These are the various kinds
-   of goals that need to be accomplished within the Village.
+1. A PRODUCT of some predicted type and quantity and quality.
 
-The IOTA is invalid Unless both of those conditions are met.
+2. Commitments of the SOURCES such as land, mineral/water rights,
+buildings, tools, etc. required for production.
 
---
+3. Commitments of all the SKILLS required for production.
 
+
+For example:
+0. One dozen grade A, medium chicken eggs every week.
+
+1. Co-ownership in land and tools etc. of a chicken farm and to grow feed.
+
+2. Contractural from all the people required to make it happen.
+
+
+==Internal Governance
 The IOTA enforces the following constraints on Trade:
 
-- Product is Investor's Return: The Product is not sold*,
+A: Product is Investor's Return: The Product is not sold*,
    because each Villager already owns the exact** amount
    of Product from their ownership in Sources.
 * Surplus can be sold to those who own insufficient Sources.
@@ -26,42 +33,41 @@ The IOTA enforces the following constraints on Trade:
   production seasons.
 
 
-- Profit is Payer Investment: When Surplus is sold to non-
+B: Profit is Payer Investment: When Surplus is sold to non-
    owners, the Profit must be treated as an Investment from
    that Payer - so that latecomers gain as much control as
    they are willing to Pay, and ultimately Work for.
 
 
 
-claim over the Sources and Skills
-required for production.
+==Sharing Sources
+Products are preallocated when the users of output are the co-owner of inputs.
 
-Debt as a "promise to pay" means a
-worker can promise apply his Skills
-in the future for food and shelter today.
-
-TRUST as the land, plants, tools, etc.
-needed to host that production.
-
-This currency represents 3 things:
-
-0. A PRODUCT of some predicted type, quantity and quality.
-
-1. Commitments of the SOURCES such as land, mineral/water rights,
-buildings, tools, etc. required for production.  This co-owned
-property must be constrained by legally binding social contract.  See
-the GNU General Public Law and PropertyLeft for attempts.
-
-2. Commitments of all the SKILLS required for production.
+When input co-owners are output users, the owner need not change.
+Each %-owner of a cow does not buy milk, but owns that % already.
 
 
-For example:
-0. One dozen grade A, medium chicken eggs every week.
+==Swapping Skills
+When a worker commits to labor in the future
 
-1. Co-ownership in land and tools etc. of a chicken farm and to grow their feed.
+We can specialize without passing tokens and without resorting to barter.
 
-2. Commitments from all the people required to make it happen.
+This is only for the subset of outputs 
 
-THIS TITLE IS A PREDICTION OF PERFORMANCE
-#0 IS INSURED ONLY IF #1 AND #2 ARE SECURED
 
+
+ (promises to Work in the future) – so that I can achieve goals for others in the VIPM in return for their commitments to Work toward my personal goals (I’ll shovel shit and plant trees in return for commitments from Dentists, Mechanics, etc. to work for me when needed) – instead of passing tokens *late*.
+
+
+This insures any Product as much as the Skills and Sources can be secured.
+
+
+
+Selling surplus to non-owners will usually cause profit from  be treated as that Payer’s Investment in more Sources.
+
+----
+* Investors COMMIT Sources or Skills.
+* Each Investor is a %-owner in the Sources according to the amount the did COMMIT.
+* 
+Product is the Investors’ Return.
+* Profit collected during the sale of surplus is handled as that payer’s investment.
