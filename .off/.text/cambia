@@ -1,0 +1,336 @@
+CAMBIA.org BiOS.net BioForge.net
+
+
+About licenses: http://www.bios.net/daisy/bios/BiOS_licenses.html
+
+
+"'The CAMBIA BiOS License for Plant Enabling Technology
+Version 1.3
+
+The following is a DRAFT for comment and discussion only. No license, warranty or liability is created or implied with any use of this draft or any portion of it.
+
+THIS LICENSE AGREEMENT is effective as and from _________, 200X (the " Effective Date")
+
+BETWEEN:
+
+BiOS LICENSEE
+
+- and -
+
+BiOS LICENSOR
+Recitals
+
+Whereas, CAMBIA«s »Biological Innovation for Open Society… (BIOS) Initiative is intended to extend the metaphor and concepts of Open Source to biotechnology and other forms of innovation in biology; and
+
+Whereas, it is the intent of the parties that this Agreement promote and conform to CAMBIA«s BIOS Initiative; and
+
+Whereas, it is the goal of the BIOS Initiative to ensure common access to the tools of innovation, to promote the development and improvement of these tools, and to make such developments and improvements freely accessible to both academic and commercial parties under substantially similar conditions; and
+
+Whereas, CAMBIA owns or is the licensee of certain Plant Enabling Technologies and associated patents, patent applications, knowhow, data, materials, and business, technical, economical and manufacturing information (the »IP & Technology…); and
+
+Whereas, BiOS LICENSEE desires and CAMBIA is willing to grant to BiOS LICENSEE the right to use IP & Technology in the Field of Agriculture; and
+
+Whereas, the parties contemplate that BiOS Licensees of the BIOS Initiative, through evaluation and use of the IP & Technology, may develop improvements, knowledge, data, and/or materials relevant to the general utility of the IP & Technology (»Improvements… and »Technology Data…) which should be made available to all BiOS Licensees; and
+
+Whereas, the parties agree that it is not the intent of this Agreement to restrict any BiOS Licensee from commercializing a BiOS Licensed Product, but to preserve the rights of all BiOS Licensees to use said IP & Technology and improvements, knowledge, data, and/or materials relevant to the general utility of the IP & Technology;
+
+therefore, the parties agree as follows:
+1. Definitions
+
+1.1 In this Agreement the singular includes the plural and vice versa and any gender includes any other gender and the neuter.
+
+1.2 "Affiliate" means any corporation, firm, limited liability company, partnership or other entity that directly or indirectly controls or is controlled by or is under common control with a PARTY. As used in this Section, control means ownership, directly or through one or more Affiliates, of fifty percent (50%) or more of the shares of stock entitled to vote for the election of directors, in the case of a corporation, or fifty percent (50%) or more of the equity interests in the case of any other type of legal entity, or status as a general partner in any partnership, or any other arrangement whereby a party controls or has the right to control the Board of Directors or equivalent governing body of a corporation or other entity, or if such level of ownership or control is prohibited in any country, any entity owned or controlled by or owning or controlling at the maximum control or ownership right permitted in the country where such entity exists.
+
+1.3 "Agriculture" means research, development and commercialisation of plants, terrestrial animals, products derived from plants or terrestrial animals, or micro-organisms, which are used for food, feed, fiber, or ornamental purposes.
+
+1.4 »BiOS Licensed Product… means any tangible or intangible asset of BiOS LICENSEE (including without limitation any material or method, but excluding Improvements), that is
+
+   1. generated through use by or for BiOS LICENSEE of the IP & Technology, and
+   2. which is intended for commercialization, and
+   3. which has at least one function or property that makes it substantially distinct in function from the IP & Technology which it contains or from which it was derived.
+
+1.5 »BiOS Licensee… means any party subscribing to a BiOS License Agreement other than BiOS LICENSEE and its Affiliates.
+
+1.6 »Improvement… means any improvement to the IP & Technology made or discovered by or for BiOS LICENSEE or any party to which BiOS LICENSEE has granted a sublicense, comprising Û without limitation - methods, compositions, know-how, statistically significant or repeatable observations, or protocols, which
+
+   1. is a Plant Enabling Technology improving or increasing the effectiveness, efficiency, applicability, or value of the IP & Technology from which it is derived, or
+   2. but for the terms of this License Agreement cannot be used without infringing a valid claim in an unexpired Licensed Patent,
+
+unless
+
+   1. developed without any use of the IP & Technology, or
+   2. existing as of the Effective Date of this Agreement or any specifically related Materials Transfer and Non-Disclosure Agreement, whichever is earlier, or
+   3. not relevant to the general use of the IP & Technology as a Plant Enabling Technology and relevant or applicable solely for production or use of a BiOS Licensed Product, or
+   4. consisting entirely of a confidential formula, pattern, process device, information, or compilation of information that is actively maintained as a proprietary trade secret for use in BiOS LICENSEE«s business by obligation of confidentiality and by other reasonable efforts of BiOS LICENSEE such as would be defined as suppression or concealment imposing a statutory bar against patenting by the United States Patent Office.
+
+In addition, BiOS LICENSEE may designate at its sole discretion any other proprietary technology of BiOS LICENSEE, which BiOS LICENSEE contemplates to be suitable in the field of plant molecular biology and is willing to share with other BiOS Licensees under the conditions of this Agreement, to become an Improvement.
+
+1.7 »Improvement Patent… means any patent or plant variety protection application claiming an Improvement including - without limitation - all foreign counterpart thereof, all patent applications that claims priority thereof, all divisionals, continuations (in whole or part) thereof, all patent rights that grants on any of the preceding, and all reexamination or reissue patents of any of the preceding. Improvement Patents shall be listed in Annex C, or on CAMBIA«s Protected Commons website (BioForge), which list may be expanded in the case additional Improvement Patents are to be licensed, such expansion requiring written approval by CAMBIA.
+
+1.8 »IP & Technology… means Licensed Patents, Licensed Materials, Technology Data, Improvements, Improvement Patents and Improvement Materials licensed or sublicensed or provided to BiOS LICENSEE under the terms of this Agreement.
+
+1.9 »Licensed Patents… include »CAMBIA Patents… and »BiOS Licensed Patents….
+
+»CAMBIA Patent… means patents and patent applications and plant variety rights listed in Annex A or on CAMBIA«s Protected Commons website (BioForge), including - without limitation - all foreign counterparts thereof, all patent applications that claims priority thereof, all divisionals, continuations (in whole or part) thereof, all patent rights that grants on any of the preceding, and all reexamination or reissue patents of any of the preceding.
+
+»BiOS Licensed Patents… means patents and patent applications and plant variety rights made available to CAMBIA under a BiOS License Agreement with the right to sublicense to BiOS LICENSEE, including any patents and patent applications listed in Annex B, or on CAMBIA«s Protected Commons website (BioForge), including - without limitation - all foreign counterparts thereof, all patent applications that claims priority thereof, all divisionals, continuations (in whole or part) thereof, all patent rights that grants on any of the preceding, and all reexamination or reissue patents of any of the preceding.
+
+Annex A and Annex B and the listings on CAMBIA«s Protected Commons website (BioForge) may be expanded in the case additional IP rights become accessible to CAMBIA and are listed in the relevant BiOS Licensed Patent Inventory, such expansion requiring written approval by BiOS LICENSEE.
+
+1.10 »Licensed Material… includes »CAMBIA Material… and »BiOS Licensed Material… transferred from CAMBIA to BiOS LICENSEE under the associated BiOS Technology Support Services Subscription Agreement.
+
+»CAMBIA Material… means material, including without limitation biological material, necessary to practice the invention described in CAMBIA Patents.
+
+»BiOS Licensed Material… means material, including without limitation biological material, made available to CAMBIA under a BiOS License Agreement with the right to provide to BiOS LICENSEE, including, without limitation, all material necessary to practice BiOS Licensed Patents.
+
+1.11 "Improvement Material" means material, including without limitation biological material, made available to CAMBIA under a BiOS License Agreement with the right to provide to BiOS Licensees, including, without limitation, all material necessary to practice Improvement Patents.
+
+1.12 »Plant Enabling Technology… means any technology, material or method which is suitable in the process of generating a transgenic plant but which as such is not intended to change the agronomic characteristics of said plant. Plant Enabling Technologies may include but are not limited to plant transformation and selection methods, gene expression tools (e.g. promoters or enhancers, methods for gene suppression, vector systems), methods for homologous recombination, etc.
+
+1.13 »Technology Data… means any data or information regarding the general safety and efficacy of the IP & Technology or Improvements, excluding any proprietary data of BiOS LICENSEE that is relevant only to the safety, efficacy, and regulatory acceptance of specific BiOS Licensed Products and which is not relevant to the general use of the IP & Technology or Improvement, but specifically including without limitation, data generated by CAMBIA, BiOS LICENSEE or any other BiOS Licensees of the BIOS Initiative that
+
+   1. would be considered relevant in the regulatory approval of products made through the use of the IP & Technology or Improvement, and that
+   2. is credible, substantial, specific, and validated to an extent which BiOS LICENSEE applies for in-house reports.
+
+Technology Data shall include copies of the respective parts of all applications by BiOS LICENSEE for regulatory approval, from which BiOS LICENSEE is entitled to redact information which is not relevant for the general use of the IP & Technology or Improvement and which refers only to a BiOS Licensed Product.
+
+Notwithstanding the foregoing, BiOS LICENSEE may designate at its sole discretion any proprietary data of BiOS LICENSEE, which BiOS LICENSEE is willing to share with other BiOS Licensees of the BIOS Initiative under the conditions hereunder, to become »Technology Data….
+2. License Grant
+
+2.1 CAMBIA hereby grants to BiOS LICENSEE under Licensed Patents in the Field of Agriculture a worldwide, non-exclusive, royalty-free right and license to make and use the IP & Technology for the purpose of developing, making, using, and commercializing BiOS Licensed Products without obligation to CAMBIA, including a right to sublicense limited to
+
+2.1.1 granting limited sublicenses to third parties (including Affiliates of BiOS LICENSEE) to conduct research and/or development activities (including field trials) for BiOS LICENSEE, provided that the product and/or other results (including all intellectual property rights) resulting from said limited sublicense are owned exclusively by BiOS LICENSEE, said limited sublicenses to terminate when such activities cease or such ownership terminates, and
+
+2.1.2 granting limited sublicenses to third parties (including Affiliates of BiOS LICENSEE) for the sole purpose of commercializing BiOS Licensed Products that embody the IP & Technology or are generated by use of the IP & Technology, said limited sublicenses to terminate when said commercialization ceases.
+
+BiOS LICENSEE shall be responsible to ensure in said sublicenses that any Improvements produced by sublicensees are considered to be Improvements hereunder and that such sublicenses require the performance of all applicable obligations due to CAMBIA and other BiOS Licensees under this Agreement and any associated Agreements. BiOS LICENSEE shall provide a list of sublicensees to CAMBIA in writing at least once a year, which CAMBIA is entitled to post in CAMBIA's Protected Commons website (BioForge) or make available to BiOS Licensees.
+
+BiOS LICENSEE shall further be responsible to ensure that in said sublicenses, third parties to whom a sublicense has been granted are notified which of the Sections 2.1.1 or 2.1.2 obtain, the scope of said sublicenses under said Section, that assertion of any Improvement Patent against any BiOS Licensee or sublicensee is grounds for immediate revocation of any said sublicense, that said third parties have no right to sublicense absent the execution of a BiOS License Agreement with CAMBIA, and that CAMBIA may be approached for a BiOS License Agreement.
+
+Other than stipulated under this Article 2.1, no further right to sublicense is granted to BiOS LICENSEE hereunder.
+
+2.2 BiOS LICENSEE acknowledges that CAMBIA is free to license the IP & Technology and to provide any Improvement Material received under the associated BiOS Technology Support Services Subscription Agreement to other BiOS Licensees under the terms of a BiOS License Agreement.
+
+If BiOS LICENSEE grants any sublicenses under Article 2.1, BiOS LICENSEE shall exert best efforts to prohibit the assertion of any IP rights under the IP & Technology, Improvements and Technology Data against CAMBIA or any BiOS Licensee by any sublicensee, said prohibition to survive the termination of any sublicense for any reason. Such assertion by a sublicensee is grounds for revocation of the sublicense under Article 6.2.
+
+2.3 BiOS LICENSEE is entitled to freely cooperate with any other BiOS Licensees. CAMBIA shall provide BiOS LICENSEE regularly with an updated list of BiOS Licensees or shall alternatively publish such list on its publicly accessible internet webpage. CAMBIA is entitled to use BiOS LICENSEE«s name for this purpose. Subject to Article 7.9, while this Agreement is in force, both CAMBIA and BiOS LICENSEE may acknowledge the existence of this Agreement in communications with or other disclosures to third parties.
+
+2.4 Except for the limited rights granted in this Agreement, no right or license, either expressed or implied, under any intellectual property right including but not limited to patents, trade secret or know-how is granted hereunder by one PARTY to the other.
+3. Improvements and Technology Data
+
+3.1 In partial consideration for the rights granted to BiOS LICENSEE, BiOS LICENSEE grants to CAMBIA, a worldwide, non-exclusive, royalty-free, fully-paid license, with the right to sublicense to other BiOS Licensee, under the Improvement Patents, for use which is within the scope of the Licensed Patents, and a worldwide, non-exclusive, royalty-free, fully-paid license, with the right to sublicense to other BiOS Licensee, to any Improvements not protected under the Improvement Patents, any Technology Data and any Improvement Material provided by BiOS LICENSEE to CAMBIA and necessary to practice Improvements.
+Any other BiOS Licensee to which CAMBIA has granted sublicenses under this section, shall have a right for further sublicenses within the scope of the license granted herein limited to
+
+3.1.1 grant sublicenses to third parties (including Affiliates of said BiOS Licensee) to conduct research and/or development activities (including field trials) for said BiOS Licensee, provided that the product and/or other results (including all intellectual property rights) resulting from said sublicense are owned exclusively by said BiOS Licensee, said sublicenses to terminate when such activities cease or such ownership terminates, and
+
+3.1.2 grant sublicenses to third parties (including Affiliates of said BiOS Licensee) for the sole purpose of commercializing said BiOS Licensed Products that embody the IP & Technology or are generated by use of the IP & Technology, said sublicenses to terminate when said commercialization ceases.
+
+Other than stipulated under this Article 3.1, no further right to sublicense is granted hereunder.
+
+3.2 BiOS LICENSEE will report to CAMBIA any Improvement, including a copy of any filed Improvement Patent or submitted publication or Technology Data, and (if applicable) additional information including but not limited to a full description of any compositions, methods, materials, protocols, or data (including statistical significance and repeatability if available) in sufficient detail to readily practice such Improvement, and will provide to CAMBIA any Improvement Material necessary to practice such Improvement, in sufficient quantities that CAMBIA is able to use the Improvement Material, create a backup for storage, and propagate it for provision to other BiOS Licensees.
+
+By March 31 of each year, BiOS LICENSEE will provide CAMBIA with an annual report including a list of any Improvement Patents that were published or issued during the preceding twelve months, including all serial numbers and filing dates, together with copies of all such applications and issued patents.
+
+3.3 BiOS LICENSEE may not assert against CAMBIA or any other BiOS Licensee any Improvement Patent for any use within the limited license granted hereunder. Such assertion is grounds for revocation of this license under Article 6.2.
+
+3.4 In the event that BiOS LICENSEE has pre-existing obligations to third parties, which obligations would conflict with BiOS LICENSEE's obligations as defined in this Agreement, BiOS LICENSEE shall not make any use of the IP & Technology that would invoke such conflicting obligations, unless a waiver of said conflicting obligations is obtained by BiOS LICENSEE from said third party. BiOS LICENSEE will report to CAMBIA any encumbrance or obligation to any third party associated with any Improvement. BiOS LICENSEE may not enter into any new third party arrangement (such as a Materials Transfer Agreement or Sponsored Research Agreement) where the terms of such arrangement would conflict with BiOS LICENSEE's obligations under this Agreement. BiOS LICENSEE's obligations under this Agreement will in no way be waived, modified, negated, or otherwise diminished due to BiOS LICENSEE's contractual obligations to third parties. In the event that BiOS LICENSEE enters into an agreement the terms of which would conflict with BiOS LICENSEE's obligations under this Agreement, the terms of this Agreement will prevail.
+4. Material Transfer
+
+All transfer of Licensed Material and Improvement Material in relation to the IP & Technology or any Improvement hereunder is regulated by the associated BiOS Technology Support Services Subscription Agreement.
+5. Limited Warranty/Hold Harmless
+
+5.1 The PARTIES acknowledge that the IP & Technology and Improvements are experimental in nature and may have hazardous properties. The PARTIES make no representations and extend no warranties of any kind, either expressed or implied, except as required by applicable laws. There are no expressed or implied warranties of merchantability or fitness for a particular purpose, except as required by applicable laws. The PARTIES do not warrant that the IP & Technology or Improvements do not infringe any patent, copyright, trademark, or other proprietary right.
+
+5.2 Each PARTY to this Agreement will bear all risk to itself and to others resulting from its own negligence or wrongful act or omission during or after the term of this Agreement, its own breach of this Agreement, or its own use, commercialization, or sublicensing of IP & Technology or Improvements or Technology Data or any product made thereby.
+
+Each PARTY hereunder will hold, for all claims, suits, losses, liabilities, damages, costs, fees, and expenses resulting from its gross negligence or wrongful act or omission during or after the term of this Agreement, breach of this Agreement, or use, commercialization, or sublicensing of IP & Technology or Improvements or any product made thereby, the other PARTY harmless, and will also hold harmless any parties from which said other PARTY obtained the IP & Technology or Improvement or Technology Data.
+
+5.3 CAMBIA shall ensure by appropriate written agreement with other BiOS Licensees receiving any Improvement and/or related material, that said BiOS Licensee agrees to the same risk-bearing and hold-harmless obligations for said BiOS Licensees« use of said Improvement and related material with regard to BiOS LICENSEE as accepted by CAMBIA under Article 5.1 and 5.2 above.
+6. Term and Termination
+
+6.1 BiOS LICENSEE may terminate this Agreement at any time by providing written notice of termination ("Notice of Termination") to CAMBIA.
+
+Within sixty (60) days of such termination, BiOS LICENSEE will submit a report describing and providing any previously unreported Improvements, Improvement Patents, Improvement Materials and Technology Data made prior to the date of termination.
+
+Within sixty (60) days of termination BiOS LICENSEE will destroy all In-Licensed Materials and Confidential Information except for In-Licensed Materials that have been incorporated into BiOS Licensed Products on hand that were made prior to termination and Technology Data or other information required for the commercialization of such BiOS Licensed Product. BiOS LICENSEE will ensure that any sublicensees to whom BiOS LICENSEE granted a sublicense will take the same action. BiOS LICENSEE will provide CAMBIA with written notice that such In-Licensed Materials and Confidential Information have been destroyed, and that completely describes any In-Licensed Materials and Technology Data or other information that have not been destroyed because they have been incorporated into said BiOS Licensed Products on hand or are required for the commercialization of said BiOS Licensed Products on hand that were made prior to termination.
+
+CAMBIA has the right to inform other BiOS Licensees of said termination and of the contents of said written notices.
+
+6.2 If any PARTY hereunder (the »Violating Party…) should violate or fail to perform any term or obligation of this Agreement or an associated Agreement under Article 4, then the other PARTY may give written notice of such default ("Notice of Default") to said Violating Party. If said Violating Party should fail to repair such default within sixty (60) days
+
+   1. after the date such notice takes effect or
+   2. after a final decision of an arbitration under Article 7.6 or Article 7.7, in cases where the PARTIES cannot agree whether or not a violation occurred,
+
+said other PARTY will have the right to immediately terminate the BiOS License Agreement, by providing a written notice of termination ("Notice of Termination") to the Violating Party. Upon such termination, the Violating Party will destroy all Licensed Material received from the other PARTY and all material which was made by using such Licensed Material or which incorporates such Licensed Material. The Violating Party will ensure that any sublicensees to whom said Violating Party granted a sublicense will take the same action. The Violating Party will provide the other PARTY with written notice that such Licensed Materials have been destroyed.
+
+Failure of any BiOS Licensee to comply with its obligations (including but not limited to share certain IP & Technology) shall not be construed as a violation by CAMBIA or failure to perform of CAMBIA.
+
+CAMBIA shall immediately terminate the BiOS License and all associated agreements granted of a BiOS Licensee, for whom a final arbitration under Article 7.7 found a violation of said BiOS Licensees obligations which BiOS Licensee refused to repair within sixty (60) days following said arbitration decision.
+
+6.3 Upon termination of this agreement all rights and obligations of BiOS LICENSEE and CAMBIA shall cease except
+
+   1. the right of BiOS LICENSEE under Article 2.1 to further develop, propagate, and commercialize BiOS Licensed Products, including a right to sublicense to third parties (including Affiliates of BiOS LICENSEE) under Article 2.1.2, solely in relation to BiOS Licensed Products made prior to the termination, and
+   2. the non-assertion obligations under Article 2.2; and
+   3. the license rights to Improvements, Improvement Materials and Technology Data generated prior to termination, granted to CAMBIA under Article 3.1; and
+   4. the risk-bearing and hold harmless obligations granted under Article 5.2 and Article 5.3; and
+   5. any unfulfilled obligations of BiOS Licensee under an associated Agreement under Article 4.
+
+7. Miscellaneous
+
+7.1 No PARTY hereunder is under any obligation to prosecute, maintain, or enforce Licensed Patents or Improvement Patents or any other intellectual property right against any third party.
+
+However, should CAMBIA or BiOS LICENSEE determine or suspect that any third party not party to a BiOS License Agreement is infringing any Licensed Patent or misappropriating Licensed Material, and should BiOS LICENSEE desire that CAMBIA should assert its rights under any Licensed Patent or any other intellectual property right, and should CAMBIA at its sole discretion decide to assert said rights, BiOS LICENSEE agrees to reimburse CAMBIA its entire expenses in enforcing said rights.
+
+7.2 CAMBIA shall exert reasonable efforts to ensure that all BiOS Licensees under the BiOS License for Plant Enabling Technologies are entitled and bound to substantially the same rights and obligations as agreed hereunder.
+
+7.3 This Agreement may not be modified, changed, or discharged, in whole or in part, except by an agreement in writing signed by both PARTIES. No waiver of any term or condition of this Agreement shall be deemed to be or shall constitute a waiver with respect to any other terms or conditions of this Agreement, whether or not similar. Each such waiver shall be effective only in the specific instance and for the purpose for which it was given, and shall not constitute a continuing waiver.
+
+7.4 This Agreement will be binding upon and inure to the benefit of the PARTIES hereto and their respective successors and assignees.
+
+BiOS LICENSEE may, with the approval of CAMBIA, such approval not to be unreasonably withheld, assign all, but no less than all, its rights and delegate all, but no less than all, its duties under this Agreement, including all rights and obligations under any corresponding BiOS Technology Support Services Subscription Agreement or Materials Transfer Agreement, and all rights to Improvements including without limitation any Improvement Patent to a third party, such approval to be sought by written notice from BiOS LICENSEE to CAMBIA within thirty (30) days of any change of control or sale of rights.
+
+Other than regulated under this section this Agreement may not be assigned or transferred to a third party in whole or in part, without the prior written consent of CAMBIA, which consent may not be unreasonably or arbitrarily withheld.
+
+Assignments under this Article 7.4 will not be effective unless and until BiOS LICENSEE's assignee and CAMBIA execute an instrument of legal assignment.
+
+7.5 CAMBIA may publish revised and/or new versions of the BiOS License for Plant Enabling Technologies from time to time. Such new versions will be similar in spirit to the present version, but may differ in detail to address new or newly identified issues. Each version will be given a distinguishing version number. Upon written request to CAMBIA, BiOS LICENSEE may opt to be bound by the terms and conditions of a later version published by CAMBIA. CAMBIA may also publish versions of the BiOS License for Plant Enabling Technologies in other languages. Where there is any conflict between the present version and such translations or any controversy between the parties respecting the interpretation or application of the terms of this Agreement, the latest English language version of the Agreement published on the BIOS website shall be controlling.
+
+7.6 The PARTIES agree to attempt to mediate any dispute relating to this Agreement or the negotiation hereof or entry hereunto or any contract or agreement entered in pursuant hereto or the fulfillment and performance by the PARTIES of their respective duties and obligations under this Agreement, including any dispute under Article 6.2, and further agree that any dispute that cannot be resolved by mediation shall be settled by binding arbitration, with construction under Australian law, in accordance with the UNCITRAL Arbitration Rules in force at the time of the dispute.
+
+7.7 All notices, requests, consents and other communications hereunder shall be in writing and shall be addressed to the receiving PARTY«s address set forth above or to such other address as a PARTY may designate by notice hereunder, and shall be either sent by an internationally recognized private courier service providing confirmations of receipt, or sent by registered or certified mail.
+
+7.8 Should any part of this Agreement be declared invalid or unenforceable by any Court of competent jurisdiction for any reason, such declaration of judgment shall not affect the validity of the rest of the Agreement and any associated Agreements, which shall remain in full force and effect to the fullest extent provided by law.
+
+7.9 »CAMBIA…, »TransBacter…, »GUSPlus…, »BiOS License… and »The BIOS Initiative… are trademarks owned by CAMBIA. CAMBIA may from time to time require that its trademarks are used in association with the IP & Technology. Neither PARTY may use any trademarks of the other without express written permission.
+
+7.10 The relationship of the PARTIES hereto is that of independent contractors. The PARTIES hereto are not deemed to be agents, partners or joint venturers of the other PARTY or of other BiOS Licensees for any purpose as a result of this Agreement or the transactions contemplated thereby.
+
+7.11 This License replaces any earlier license for the use of the IP & Technology.
+
+IN WITNESS WHEREOF the PARTIES have duly executed this Agreement this _____________ day of __________________
+
+_________________________________ Name of BiOS LICENSEE's Representative
+
+_________________________________ Title of BiOS LICENSEE's Representative
+
+_________________________________ Name of BiOS LICENSOR's Representative
+
+_________________________________ Title of BiOS LICENSOR's Representative
+Annex A. CAMBIA Patents
+
+Technology
+	
+
+Patent Number(s)
+	
+
+Priority Date
+	
+
+Assignee/Owner
+
+Transformation and regeneration of transformed plant tissue using non-phytopathogenic bacteria
+	
+
+USPTO Applications 10/954,147 and 10/953,392 and International Patent application number PCT/US2005/023250
+	
+
+28 June 2004
+	
+
+CAMBIA
+
+Secreted beta-glucuronidase genes and proteins, including genes and proteins similar to those isolated from Staphylococcus, and regenerated organisms transformed by these genes, and uses thereof
+	
+
+US Patent 6,391,547 and corresponding PCT applications, conversions, divisionals, continuations and continuations-in-part, and issued patents
+	
+
+9 September 1997
+	
+
+CAMBIA
+
+Beta-glucuronidase genes and proteins, including genes and proteins similar to those isolated from purple bacteria, gram(+) bacteria, cyanobacteria, spirochaetes, green sulphur bacteria, bacteroides, flavobacteria, planctomyces, chlamydiae, radioresistant micrococci, thermotogales, and fungi
+	
+
+US Patent 6,641,996 and corresponding PCT applications, conversions, divisionals, continuations and continuations-in-part, and issued patents
+	
+
+9 September 1997
+	
+
+CAMBIA
+
+This Annex A may be expanded;  applicable changes will be executed with dated signatures below.
+
+________________________________ Name of BiOS LICENSEE's Representative 
+________________________________ Title of BiOS LICENSEE's Representative
+________________________________ Date
+
+________________________________ Name of BiOS LICENSOR's Representative
+________________________________ Title of BiOS LICENSOR's Representative
+________________________________ Date
+Annex B. BiOS Licensed Patents
+
+Technology
+	
+
+Patent Number(s)
+	
+
+Priority Date
+	
+
+Assignee/Owner
+			
+
+.
+			
+
+.
+			
+
+.
+
+This Annex B may be expanded;  applicable changes will be executed with dated signatures below.
+
+________________________________ Name of BiOS LICENSEE's Representative 
+________________________________ Title of BiOS LICENSEE's Representative
+________________________________ Date
+
+________________________________ Name of BiOS LICENSOR's Representative
+________________________________ Title of BiOS LICENSOR's Representative
+________________________________ Date
+Annex C. Improvement Patents
+
+Technology
+	
+
+Patent Number(s)
+	
+
+Priority Date
+	
+
+Assignee/Owner
+			
+
+.
+			
+
+.
+			
+
+.
+
+This Annex C may be expanded;  applicable changes will be executed with dated signatures below.
+
+________________________________ Name of BiOS LICENSEE's Representative 
+________________________________ Title of BiOS LICENSEE's Representative
+________________________________ Date
+
+________________________________ Name of BiOS LICENSOR's Representative
+________________________________ Title of BiOS LICENSOR's Representative
+________________________________ Date
+'" -- bios.net/daisy/PELicense/751/1169.html

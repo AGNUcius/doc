@@ -1,0 +1,25 @@
+Related: monitor, PowerShell
+
+$ Shutdown.exe #shutdown, restart, hibernate, abort, ... no standby?
+
+$ PowerCfg.exe #You can use the Powercfg.exe tool to control power settings and configure computers to default to Hibernate or Standby modes.
+
+VMware.com/sdk/vitk_win (PowerShell)>>Welcome to the VMware Infrastructure Toolkit (for Windows) site. The VI Toolkit (for Windows) provides a powerful yet simple command line interface for task based management of the VMware Infrastructure platform. Windows Administrators can easily manage and deploy the VMware Infrastructure with a familiar, simple to use command line interface.
+
+PolishLinux.org/linux/debian/green-pcs-cpu-frequency-scaling-in-linux
+
+LinuxPowerTop.org >>PowerTOP combines various sources of information from the kernel into one convenient screen so that you can see how well your system is doing at saving power, and which components are the biggest problems.
+
+ThinkWiki.org/wiki/How_to_reduce_power_consumption
+
+LessWatts.org >>Saving power is a hot topic across the computer industry. For some, saving power means getting a longer battery life on their mobile devices, be it laptops or handhelds. For others, saving power means reducing costs and increasing efficiency in their data centers. For all of us its about reducing the impact of computing on our planet
+
+http://80PLUS.org >>Energy-Efficient Computers Run with 80 PLUS
+
+Power.sf.net >>(powerd) A simple yet powerful Power Daemon (powerd) to monitor an Uninteruptable Power Supply (UPS) with the additional capabilities of notifying remote hosts that may not have a way of knowing if their power is off.
+
+NetworkUPSTools.org >>The primary goal of the Network UPS Tools (NUT) project is to provide reliable monitoring of UPS hardware and ensure safe shutdowns of the systems which are connected.
+
+GNU.org/philosophy/freedom-or-power.html "'Freedom is being able to make decisions that affect mainly you. Power is being able to make decisions that affect others more than you. If we confuse power with freedom, we will fail to uphold real freedom.
+
+Proprietary software is an exercise of power. Copyright law today grants software developers that power, so they and only they choose the rules to impose on everyone else—a relatively few people make the basic software decisions for everyone, typically by denying their freedom. When users lack the freedoms that define Free Software, they can't tell what the software is doing, can't check for back doors, can't monitor possible viruses and worms, can't find out what personal information is being reported (or stop the reports, even if they do find out). If it breaks, they can't fix it; they have to wait for the developer to exercise its power to do so. If it simply isn't quite what they need, they are stuck with it. They can't help each other improve it.'"

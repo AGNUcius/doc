@@ -1,0 +1,33 @@
+Related: install, NSIS
+
+NSIS.sf.net
+
+GUINSIS.sf.net
+
+ScratchPaper.com >>Finally, an open source installer that can handle Unicode!
+
+nsisPatchGen.sf.net >>The nsisPatchGen utility recursively compares two directory structures looking for changes to the files and subdirectories. It produces an NSIS include file containing functions that will perform a patch upgrade from the original structure to the new.
+
+XPUI.sf.net and ExperienceUI.EnanoCMS.org >>The ExperienceUI is an addition to NSIS that enables fully skinned user interfaces. The ExperienceUI was the first 3rd-party user interface for NSIS and remains the fastest and richest in features.
+
+UltraModernUI.sf.net >>The UltraModern User Interface is an new interface with a style like the most recent installers for UltraModernUI and NSIS are released under an open source license.
+
+PreNIS.sf.net and Pixolut.com/prenis >>PreNIS is a preprocessor macro language extension to the NSIS scripting language to automatically include dlls, exes or project version information in to NSIS scripts.
+
+HMNE.sf.net >>HM NIS Edit is the best Editor/IDE for Nullsoft Scriptable Install System (NSIS). Its useful for experts and beginners in the creation of Setup programs with the NSIS. Its Script Wizard will help you to create standard Setup programs with only few clicks, also its InstallOptions designer will help you to create your own custom pages with a friendly drag and drop interface.
+
+NSIS-NICE.sf.net >>N.I.C.E. is an editor for NSIS scripts. It helps the user with programming by using wizards and other features. With N.I.C.E., you can make your own customized program installation executable which installs your program on other PC's.
+
+OrfanikNSISIDE.sf.net >>
+
+SYSINT-Update.sf.net >>
+
+NNE.sf.net >>
+
+GitHub.com/kjk/nsis-processes >>This is a NSIS plugin originally written by Andrei Ciubotaru and updated by Krzysztof Kowalczyk.
+
+NSIS.sf.net/Processes_plug-in
+
+NSEI.sf.net (abandoned?) (.NET)>>Nullsoft Easy Installer is a tool for quickly creating and updating installers using Nullsoft Scriptable Install System.
+
+NSISInstCreator.sf.net (abandoned?) >>Do you want to create an installation for you program? Use this program, NSIS Installation Creator, along with Nullsoft's NSIS installation program and scripting language to create a powerfull installation fast. Both this program and Nullsoft NSIS are fr

@@ -1,0 +1,5 @@
+system: computer, design, ecology, root
+
+if /proc/sys/kernel/sysrq is '1', then press 
+
+$ sudo apt-get install sysutils # lsdev, memtester procinfo tofrodos

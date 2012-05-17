@@ -1,0 +1,79 @@
+Related: window, wm, X, X11, .xmodmap
+
+Wikipedia.org/wiki/XCB >>In computing, XCB (X C Binding) is a C language binding for the X Window System. It is implemented as free software and aims to replace Xlib. The project was started in 2001 by Bart Massey.
+Xlib/XCB provides application binary interface compatibility with both Xlib and XCB, providing an incremental porting path. Xlib/XCB uses the protocol layer of Xlib, but replaces the Xlib transport layer with XCB, and provides access to the underlying XCB connection for direct use of XCB.
+
+X Window is the bare bones of a *nix GUI.  The unusably poor defaults require a "window manager" to complete the interface.
+
+
+==Some config tools
+$ xdpyinfo # X display information
+$ xrestop # X11 server resource usage monitor
+$ xf86config # generate an /etc/X11/xorg.conf file
+$ Xconfigurator
+$ xf86cfg
+$ gvidm # GTK+ app to quickly and easily change video resolutions in X
+$ xev #print contents of X events
+
+
+__/etc/X11/xinit/xinitrc or ~/.xinitrc
+xmodmap -e "keycode 115 = Super_L"
+__
+
+$ wmctrl #control EWMH/NetWM wm from command line
+
+xdock.sf.net >>xdock is a software that emulates the Window Maker docks
+Stalonetray.sf.net >>Stalonetray is a stand-alone freedesktop.org and KDE system tray (notification area) for X Window System/X11 (e.g. X.Org or XFree 86). It has full XEMBED support and minimal dependencies: an X11 lib only. Stalonetray works with virtually any EWMH-compliant window manager.
+
+
+
+FreeDesktop.org/wiki/Software/Xephyr >>Xephyr is a kdrive based X Server which targets a window on a host X Server as its framebuffer. Unlike Xnest it supports modern X extensions ( even if host server doesn't ) such as Composite, Damage, randr etc. It uses SHM Images and shadow framebuffer updates to provide good performance. It also has a visual debugging mode for observing screen updates.
+$ Xephyr :1 -ac -screen 800x600 &
+
+
+$ startx #only use this for temporary testing.  Use wdm, xdm, gdm or kdm otherwise.
+
+Ctrl-Alt-Backspace: restart the X session
+Ctrl-Alt-NumPad(-): mess with resolution in some incomplete manner
+Ctrl-Alt-NumPad(+): mess with resolution in some incomplete manner
+
+$ xvidtune #video mode tuner for Xorg
+
+Determine monitor resolution and refresh rate capabilities:
+  DDCControl.sf.net
+
+Lynucs.org
+
+
+====Tools
+BlindPenguin.org magnifier
+
+====Alternatives
+Xynth.org
+PicoGUI.org
+DirectFB
+Berlin
+MiniGUI.org
+MicroWindows.censoft.com (now Nano-X)
+Tutok.sk/fastgl OpenGUI
+
+
+
+http://wiki.linuxquestions.org/wiki/Using_SSH#Forwarding_X11
+"'
+ Forwarding X11
+
+You can have the server you login to forward X to the X server controlling the display on your local machine, so that you can run programs on remote computers and they'll appear on your screen alongside the programs running on your local machine.
+
+This can be done by adding "ForwardX11 yes" to your ~/.ssh/config. SSH will handle setting your display automatically, which includes setting the DISPLAY environment variable (usually to localhost:10, or a higher-numbered display if that is taken), and setting up the xauth file for access to the X Server running on the SSH client computer.
+
+For this to work the remote sshd must also be configured to allow X forwarding. This option is called "X11Forwarding yes" and resides in /etc/ssh/sshd_config.
+
+Once these are set you can access remote programs at will, like so:
+
+$ ssh user@remote1:/usr/bin/gedit &
+
+Alternatively to setting "ForwardX11 yes", use the command ssh -X remote to connect. Also, you can use ssh -x remote to disable it for a single session if "ForwardX11 yes" is in your ~/.ssh/config file.
+
+In recent openSSH, there is also ssh -Y (or the option "ForwardX11Trusted yes") . This enables 'trusted' X11 forwarding. This used to be the default with older versions, but because of a potential security vulnerability (which allowed other X11 clients to 'sniff' or alter data from the remote client) this was changed. Most people won't need to use this '-Y' option (and should not have "ForwardX11Trusted yes" set in their ssh config file). 
+'"

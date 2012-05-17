@@ -1,0 +1,31 @@
+Related: bin, char, codex, compile, compute, devel, DNA, encode, gene, hex, IDE, lang, law, parse, program, soft, text, UTF, word
+
+Code is 'active' or 'live' data such as design, genetics, law, software, source.
+
+Efficient design minimizes code by maximizing "pass through" of data or material.
+
+Grace.OpenPanel.com >>This project is not for C++ purists.  Code written for Grace will look more like python or php than your run-of-the-mill C++ program.  Much of this purity has been sacrificed to the gods of legibility, and that is what you will gain: Code that you can read back the next morning that will still make sense, even if it touches nasty subjects like threading and text munging.
+
+openFrameworks.cc >>openFrameworks is a C++ library for creative coding.
+
+SourceNav.berliOS.de >>source navigator NG is a source code analysis tool.  with it, you can edit your source code, display relationships between classes and functions and members, and display call trees.  it is based upon source navigator (original site) and strives to improve usability and performance.
+
+CallbackExt.berliOS.de >>Extended C++ Callback Library
+
+QuickFunctor.sf.net >>The QuickFunctor library consists of a collection of template classes and global functions to facilitate creation of and working with "functors", or "function objects", i.e. classes implementing an operator(). The functors in QuickFunctor are a substantial improvement (IMHO) over what the standard provides, with things like composition, expressions, "transform" operations, and even the naming convention.
+
+Schrodinger.sf.net >>The Schrödinger project will implement portable libraries for the high quality Dirac video codec created by BBC Research and Development. Dirac is a free and open source codec producing very high image quality video.
+
+BonkEnc.org >>BonkEnc is a CD ripper, audio encoder and converter for various formats. It can produce MP3, MP4/M4A, Ogg Vorbis, AAC, Bonk and FLAC files.
+
+audio: ogg, spx
+video: Dirac.sf.net, Tarkin, Theora, H.264
+Source Code: Software
+
+$ sudo dmidecode # Dump Desktop Management Interface data
+
+Morf.sf.net >>Morf is the supreme ninja god of encodings. URL, HTTP, Base64, HEX, MD5, SHA1, UTF-7, the list goes on...
+
+CodeYard.net >>CodeYard is a project that provides High School students in grades 10 through 12 with infrastructure and coaching for the production of Open Source software.
+
+Codex Alimentarius: CODEXINFO.org, CodexAlimentarius.net, WHO.int/foodsafety/codex/en

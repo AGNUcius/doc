@@ -1,0 +1,7 @@
+see also: paper, cloth, ink, book, 
+
+CUPS is a common GNU computer printing solution.
+
+# sudo apt-get install cupsd
+# sudo cupsd
+# browse http://localhost:631

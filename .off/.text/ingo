@@ -1,0 +1,10 @@
+Related: design, virtual
+
+Information requires mass and energy for storage and expression.
+
+FFII.org "'The Foundation for a Free Information Infrastructure (FFII) is a non-profit organisation dedicated to establishing a free market in information technology, by the removal of barriers to competition.'"
+
+$ info #document viewer.  See also: man(1)
+$ ifinfo # Network interface information
+$ wmifinfo # Dockapp that shows information for all interfaces
+$ x86info # Display diagnostic information about i386 compatible CPUs

@@ -1,0 +1,43 @@
+Related: fount, lang, text, type, water
+
+http://www.sabi.co.uk/Notes/linuxFonts.html >>Fonts in Linux can be used by several different applications, and sometimes in several different ways for each application. Since they have not been designed into some kind of framework, there is little similarity, to the point that often different applications use distinct copies of the very same font file, in different directories.
+
+Fontmatrix.net >>Fontmatrix is a GPL'd font manager for Linux users. It's for you. Enjoy it and get involved.
+
+FontConfig.org >>Fontconfig is a library for font customization and configuration.
+
+NoStatic.org/sfont >>sfontmaker is a small utility that takes bitmapped font image files and annotates them with character breaks suitable for use with the Linux-Games.com/sfont library.
+
+DesignWritingResearch.org/free_fonts.html >>FREE FONT MANIFESTO    What if a few digital type foundries on earth gave away one good typeface as a gift to humanity?
+
+OpenFontLibrary.org >>The Open Font Library is a sister project of the Open Clip Art Library. The goal of this project is to collect public domain fonts so that they may be used freely.
+
+TypeForge.net >>open source collaborative type design
+
+http://scobleizer.com/2006/08/17/linux-achilles-heel-fonts
+http://www.cl.cam.ac.uk/~mgk25/ucs-fonts.html >>The classic X Window System bitmap fonts are now available in an ISO 10646-1/Unicode extension.
+
+SIL.org >>Founded over 70 years ago, SIL International is a faith-based organization that studies, documents, and assists in developing the world's lesser-known languages.  SIL's staff shares a Christian commitment to service, academic excellence, and professional engagement through literacy, linguistics, translation, and other academic disciplines.  SIL makes its services available to all without regard to religious belief, political ideology, gender, race, or ethnic background.
+
+Scripts.SIL.org/FontDownloadsGentium >>a typeface for the nations - literally "belonging to the nations" in Latin.
+
+FontForge.sf.net >>FontForge -- An outline font editor that lets you create your own postscript, truetype, opentype, cid-keyed, multi-master, cff, svg and bitmap (bdf, FON, NFNT) fonts, or edit existing ones.  Also lets you convert one format to another.  FontForge has support for many macintosh font formats.
+
+Process-Of-Elimination.net/wiki/Control_Font_DPI_in_X >>One of the most common things omitted in many of the so-called font beautification guides has been a discussion on font DPI and what types of mishaps can result from a poorly configured system.  While it is important to have fonts that render properly, the relative sizing of the fonts ought not be omitted from debate.  This problem of relative sizing can be exacerbated, for example, by intermixing Gtk+ and KDE applications.
+
+$ xfontsel
+
+Mensis.sf.net >>To or for, by, with or from TrueType(R) Tables
+
+PFAEdit.sf.net
+Ibiblio.org/pub/Linux/X11/fonts
+NonGNU.org/freefont
+AlanWood.net/unicode/fonts.html
+Home.ATT.net/~jameskass
+GameProgrammer.com/polyfonts
+
+Gesindel.de >>be useful as quick previewer for your 10 fonts. Come back when you have some hundred fonts. Enjoy it if you have some thousand fonts. You don't want to live without Fontlinge if you have some ten-thousand fonts.
+
+home.kabelfoon.nl/~slam/fonts
+
+gyve.org/gs-cjk

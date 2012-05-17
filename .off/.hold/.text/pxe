@@ -1,0 +1,19 @@
+Related: boot, bootp, DHCP, TFTP, WOL
+
+Preboot eXecution Environment
+
+SYSLINUX.zytor.com >>The Syslinux Project covers lightweight bootloaders for MS-DOS FAT filesystems (SYSLINUX), network booting (PXELINUX), bootable "El Torito" CD-ROMs (ISOLINUX), and Linux ext2/ext3 filesystems (EXTLINUX). The project also includes MEMDISK, a tool to boot legacy operating systems (such as DOS) from nontraditional media; it is usually used in conjunction with PXELINUX and ISOLINUX.
+
+TFTPD32.Jounin.net >>Tftpd32 includes DHCP, TFTP, DNS, SNTP and Syslog servers as well as a TFTP client.  The TFTP client and server are fully compatible with TFTP option support (tsize, blocksize and timeout), which allow the maximum performance when transferring the data.  Some extended features such as directory facility, security tuning, interface filtering; progress bars and early acknowledgments enhance usefulness and throughput of the TFTP protocol for both client and server.
+
+PXEKnife.Erebor.org >>PXE Knife is a set of utilities modeled after Ultimate Boot CD. It is designed to work with the syslinux boot stacks and was specifically designed for use with PXE (although it's configuration is general enough that it could be used with isolinux or extlinux without issue).  The intention of this project is to create a good, general purpose, one stop shop of utilities that sysadmins find they are in need on a regular basis, with specific ephasis on self contained programs that typically require a floppy drive to make use of. It is intended for consumption via PXE Linux but since it makes extensive use of memdisk and it's configuration file is syslinux compatible it could easily be used with isolinux or extlinux.
+
+EtherBoot.org >>gPXE is an open source (GPL) network bootloader.  It provides a direct replacement for proprietary PXE ROMs, with many extra features such as DNS, HTTP, iSCSI, etc.  Take a look at our Screenshots page and the HowTo Guides for some ideas of what we can do, and grab the code from our Download page.  gPXE evolved from Etherboot, and is maintained by the Etherboot project.
+
+DRBL.sf.net >>Diskless Remote Boot in Linux (DRBL) provides a diskless or systemless environment for client machines. It works on Debian, Ubuntu, Mandriva, Red Hat, Fedora, CentOS and SuSE. DRBL uses distributed hardware resources and makes it possible for clients to fully access local hardware. It also includes Clonezilla, a partitioning and disk cloning utility similar to Symantec Ghost(R).
+
+PLoP.at/en/ploplinux.html >>PLoP Linux is a small distribution that can boot from CD, DVD, USB flash drive (UFD), USB harddisk or from network with PXE. It's designed to rescue data from a damaged system, backup and restore operating systems, automate tasks and more.
+
+PartedMagic.com >>Parted Magic is a Linux LiveCD/USB/PXE with its elemental purpose being to partition hard drives.  Optimized at approximately 30MB, the Parted Magic OS employs core programs of GParted and Parted to handle partitioning tasks with ease, while featuring other useful programs (e.g. Partition Image, TestDisk, fdisk, sfdisk, dd, ddrescue, etc.) and an excellent set of documentation to benefit the user. An extensive collection of fileystem tools are also included, as Parted Magic supports the following: aufs, ext2, ext3, ext4, fat16, fat32, hfs, hfs+, jfs, linux-swap, ntfs, ocfs2, reiserfs, reiser4, xfs, and zfs.
+
+DIET-PC.org >>DIET-PC (DIskless Embedded Technology Personal Computer) is a Do-It-Yourself open source thin client software kitset, allowing IT professionals to construct generic- or special-purpose thin clients, or other network appliances, using commodity x86 PC or Apple Mac hardware or certain commercial embedded appliances.

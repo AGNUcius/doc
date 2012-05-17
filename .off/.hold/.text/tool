@@ -1,0 +1,32 @@
+Related: capital, hard, soft, util
+
+==Some Computer Management Tools
+Diff: WinMerge.sf.net, Meld.sf.net, Diffuse.sf.net, BeeSoft.pl, XDelta.org, sdelta.berliOS.de, Code.Google.com/p/google-diff-match-patch, Diff-Ext.sf.net
+Defrag: Kessels.com/JKDefrag, UltraDefrag.sf.net
+FileCopy: CopyHandler.com
+ISO: LittleSVR.ca/isomaster, InfraRecorder.org
+Burn CD or DVD: InfraRecorder.org, Burgner.sf.net, cdrkit.org, Packet-CD.sf.net, CDRDAO.sf.net
+Partition Editing: Surprise.sf.net, PartedMagic.com, PartitionLogic.org.uk, GNU.org/software/parted
+Partition Backup: PartImage.org, FOGProject.org, Restore-Backup.com, Backup-Manager.org, BoxBackup.org, rsnapshot.org, Dev.Riseup.net/backupninja, Rdiff-Backup.NonGNU.org, Bacula.org, SysRescCD.org, Clonezilla.sf.net
+Linux: Cygwin, AndLinux.org
+AntiVirus: ClamAV.sf.net
+Chat: AjaxIM.com, JWChat.sf.net, SamePlace.cc, DutchPipe.org, ANtsP2P.sf.net, RetroShare.sf.net, TStone.sf.net, ChaNT.com, SILCNet.org, PunJab.sf.net, WASTE.sf.net
+Remote: RDesktop.org, RDP, VNC, ssh, sftp
+Video: VideoLAN.org, SMplayer.sf.net
+WMI: $ wmic.exe
+pdf: Code.Google.com/p/sumatrapdf
+Browse: Firefox, Dillo, Lynx, Links, Links2, w3m, netrick.sf.net
+Archive: PeaZip.org or 7-zip.org
+Text Editing: Notepad-Plus.sf.net
+IDE: CodeBlocks.org, TrollTech.com/developer/qt-creator
+Forensic: CAINE-Live.net, OCFA.sf.net, SleuthKit.org, DigitalForensicsSolutions.com/Scalpel
+Shell: PowerShell
+Screen Capture: CamStudio.org
+Disk Space Visualize: WinDirStat.info
+Virtualization: VirtualBox
+
+Firefox, FlashBlock.MozDev.org
+VideoLAN, smplayer
+PDFCreator, 7-zip
+TuxPaint
+OpenOffice

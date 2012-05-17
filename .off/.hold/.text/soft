@@ -1,0 +1,335 @@
+Related: game, info, tool, virtual
+
+
+Software is like genetics - it determines how the sand acts.
+
+
+= This page needs major cleanup.
+
+OSSmole.sf.net >>FLOSSmole    collaborative collection and analysis of free/libre/open source project data
+
+
+==Repositories
+FOSSFor.us >>free open source software for us
+
+Savannah.GNU.org and NonGNU.org
+
+berliOS.de
+
+FireForge.net
+
+SourceFiles.org
+
+WEBI.org >>Free and Open Source Software Directory (FLOSS/FOSS)
+
+LoLL.sf.net >>Loads of Linux Links
+
+GForge.org
+GNA.org
+GNU.org/directory
+IFArchive.org
+Sarovar.org
+Tigris.org
+
+Pawfal.org [ poor artists working for a living ] - audio visual software for linux since 1999
+
+SourceFrog.net
+
+Alobbs.com
+Free-Soft.org
+GDNEws.Tuwien.ac.at
+
+SourceForge.net
+FreshMeat.net
+
+==GUI toolkits:
+devdaily.com/Dir/C_and_CPP/CPP/Tools_and_Utilities/GUI_Toolkits/
+kefk.net/Linux/X11/Widget-Libraries/free-soft.orgguitool.html
+utenti.lycos.it/dcg/alfagui.html
+directory.google.com/Top/Computers/Software/Operating_Systems/Graphic_Subsystems/Toolkits/
+hal9k.com/cug/links/subject34.htm
+
+medical
+
+encryption:
+botan.randombit.net
+axcrypt.sf.net
+
+money, tax:
+grisbi.org
+
+Operating Systems
+
+database tools:
+Globecom.se/tora
+
+Devel
+
+Programming Languages
+
+browsing:
+CScope.sf.net >>Cscope is a developer's tool for browsing source code. It has an impeccable Unix pedigree, having been originally developed at Bell Labs back in the days of the PDP-11. Cscope was part of the official AT&T Unix distribution for many years, and has been used to manage projects involving 20 million lines of code!
+global
+ctags
+etags
+
+install
+inventory
+testing
+
+text layout:
+pdftoxml.sf.net  pdf conversion
+foolabs.com/xpdf
+lout
+pstoedit.net  PS and PDF to many converter
+
+text editing:
+Emacs
+bluefish.openoffice.nl
+lyx.org
+Emacs
+wingide.com
+yudit.org
+qemacs
+
+
+Computer aided design (CAD):
+geda.seul.org
+gael.sf.net
+staticfreesoft.com
+bach.ece.jhu.edu/~haceaton/pcb
+qcad.org
+atlc.sf.net
+
+
+Networking:
+pilot.org.ua/etcnet
+nmap
+ngrep
+winfingerprint.sf.net
+ntop.sf.net
+ethereal.com
+sf.net/projects/ntop
+snort.org
+tcpdump.org
+windump.polito.it tcpdump for windows
+winpcap.polito.it packet capture driver
+hogwash.sf.net "intrusion detection system(IDS)/packet scrubber"
+angst.sf.net "Angst is an active sniffer based on libpcap and libnet."
+etherape.sf.net " EtherApe is a graphical network monitor for Unix modeled after etherman."
+
+
+revision, version control:
+venge.net/monotone
+Codeville
+aegis.sf.net
+opencm.org
+cvsnt.org
+prcs.sf.net
+subversion.tigris.org
+cryptognome.sf.net scsh scheme version control
+bagley.org/~doug/shootout/ language comparison
+www-sop.inria.fr/mimosa/fp/Scribe/ scheme scribe markup language
+leb.net/ddlinux/ speech recognition
+vcf.sf.net/  The Visual Component Framework
+cvsnt.org/ cvs for nt/2k/xp
+eros-os.org os operating system
+opencm.org
+regexps.com (down, try google.com/search?q=arch+%22version+control%22 )
+
+
+remote control
+
+partition editing
+
+web browser
+
+archiving (.7z, .zip, .cab, .rar, .arj, .gz, .bz2, .Z, .tar, .cpio, .rpm and .deb)
+leaders.sf.net
+bzip2
+
+installation:
+msi2xml.sf.net
+izfree.sf.net
+
+file systems:
+endurasoft.com/vcd/ststo.htm
+squashfs.sf.net
+zisofs
+linux-ntfs.sf.net
+lufs.sf.net linux userland filesystem
+auto-autofs.sf.net autoautomount
+
+
+disk imaging:
+xs4all.nl/~edienske/abakt/
+mondorescue.org/
+bacula.org/
+amanda.org/
+nongnu.org/duplicity/
+fluffy.co.uk/boxbackup/
+backuppc.sf.net/
+rdiff-backup.stanford.edu/
+partimage.org
+pamir.sf.net/
+cluclo.sf.net/
+
+
+volume management:
+evms.sf.net
+
+system setup:
+sisuite.org
+systemimager.org
+systemconfig.sf.net
+systeminstaller.sf.net
+
+monitor:
+nagiosexchange.org
+jankratochvil.net/project/TraceFS Microsoft Windows Kernel API Tracer
+codeproject.com/system/HookSys.asp api hooks
+bigsister.graeff.com/demo.html
+regmon
+filemon
+midas-nms.sf.net
+smartmontools.sf.net SMART monitoring
+
+
+partition editing:
+gnu.org/software/parted/parted.html
+pamir.sf.net
+cluclo.sf.net
+beeblebrox.sf.net
+surprise.sf.net
+ms-sys.sf.net
+
+
+security:
+setacl.sf.net
+
+filesystem info:
+linux-ntfs.sf.net
+geocities.com/thestarman3/asm/mbr/MBR_in_detail.htm 
+
+
+registry manipulation under *nix:
+cs.mun.ca/~michael/regutils
+
+
+
+Speech recognition, voice recognition:
+winnie.kuis.kyoto-u.ac.jp/pub/julius
+julius.sf.jp/en/julius.html
+marf.sf.net
+Sphinx
+leb.net/ddlinux
+
+
+File sharing:
+MUTE
+GrapeVine.sf.net
+Entropy.stop1984.com/en/home.html
+NodeZilla.cjb.net
+FreeNet.sf.net
+
+modeling
+
+image editing
+
+
+presentation (like powerpoint):
+nongnu.org/criawips
+
+graphics
+
+Fractals
+
+SWF
+Video
+lang
+
+search
+
+audio
+
+media
+SBaGen.sf.net >>Binaural Brain Wave Experimenter's Lab
+OpenEEG.sf.net
+
+storage:
+CD, DVD
+compiler compiler
+emulation
+
+Hardware
+phys
+restore
+dist
+game
+sim
+debug
+boot
+font
+
+ks.uiuc.edu/Research/biocore
+
+other:
+slffea.sf.net   San Le's Free Finite Element Analysis
+collidoscope.com/modernca/stickwarsrules.html automata
+complang.tuwien.ac.at/schani
+htmlgoodies.com/beyond/keycapture.html capture keys in javascript
+kagi.com similar to paypal?
+wtcs.org/snmp4tpc/snmp4w2k.htm SNMP
+unlambda.com/lmud mud in lisp
+falcon.sch.bme.hu/~seasons/linux/swsusp.html linux hibernate
+haydn.sf.net .net in apache
+monday.sf.net scheme web authoring.
+www-sop.inria.fr/mimosa/fp/Scribe scheme scribe markup language
+bagley.org/~doug/shootout language comparison
+codeproject.com/system/HookSys.asp api hooks
+
+
+genealogy:
+lifelines.sf.net
+
+web hosting:
+epfarms.net
+freeshell.org
+
+
+OCR
+
+free hardware
+
+artificial intelligence:
+swarm.org
+codesoup.sf.net
+
+OSX:
+homepage.mac.com/khsu/XShelf/XShelf.html
+
+education:
+paws.wcu.edu/kirk/HRcourses%5CHR678/CourseDocuments/ELDevResources.htm
+ofset.sf.net/freeduc
+
+
+news:
+RootPrompt.org
+
+earn a living:
+SourceSupport.org
+RentACoder.com
+
+papers:
+Linas.org/theory/freetrade.html
+
+
+ICBC, China's biggest bank is moving it's 390,000 employees from SCO to GNU/Linux-- http://TechWorld.com/opsys/news/index.cfm?NewsID=3582
+
+"... the open source and free software model is a threat to all commercial software vendors." -- Microsoft.com/msft/speech/FY04/Connors0225GSTech.mspx [John Connors, Senior Vice President, Chief Financial Officer]
+
+
+significant challenge to the company's business model," Microsoft wrote in its recent filing. "(This is) including recent efforts by proponents of the Open Source model to convince governments worldwide to mandate the use of Open Source software in their purchase and deployment of software products."
+
+
+In June, the Munich city government said it will migrate 14,000 Windows desktops to Linux beginning in early 2004. The city decided Linux would be less expensive over time, even though Microsoft's bid was nearly $12 million less than those from IBM and SuSE Linux, which is based in Germany.

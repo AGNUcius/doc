@@ -1,0 +1,23 @@
+Ubuntu.com is a great GNU/Linux Distro originally based on Debian.org
+
+GNUnix is an Ubuntu based mini distro.
+
+Ubuntero.org GetAutomatix.com UbuntuGeek.com UbuntuGuide.org UbunTux.org
+
+$ sudo apt-get --purge remove libgnomevfs2-0 gconf2
+> remove mountain of garbage?
+>> Y
+
+UCK.sf.net >>UCK is a tool that helps you customizing official Ubuntu Live CDs (including Kubuntu/Xubuntu and Edubuntu) to your needs. You can add any package to the live system, for example language packs, or applications.
+
+
+AJBenjaminJr.BlogSpot.com/2005/01/this-years-word-ubuntu.html
+"'
+Saturday, January 01, 2005
+This year's word: Ubuntu
+"Ubuntu", Humanist Declaration
+
+    It's a Bantu word we should make our own. It is so rich that linguists call a "crowditude" of other words to the rescue to express its nuances. "Ubuntu" is, in academic terms: "the quality inherent in the fact of being a person with other persons." When he uses it in his autobiography, Nelson Mandela translates it into English as "fellowship," literally camaraderie or, in the context "fellow citizenship." In fact, ubuntu means much more, well beyond that: a way of being human, a way of conducting oneself as a human being, a practice of mutual humanity. Also, far from being simplistic, Mandela's translation is at the heart of South African political invention, that unprecedented response anti-apartheid militants brought to the question every liberation poses: how to live together after hatred, after civil war, after crime against humanity? How to reconnect there where there was nothing but separation?
+
+    We know their response: by reconciling oneself to the truth. It will soon be ten years ago that the Truth and Reconciliation Commission, chaired by Mgr. Desmond Tutu, was established by the South African Constitutive Assembly in 1995. Its power: to bestow individual amnesty, case by case, in exchange for complete revelation of their crimes, to the authors of serious violations of human rights associated with a political objective. No vengeance, no reprisals, but no oblivion, no getting off, no concealment. "Facing up" says the 1993 South African Provisional Constitution, to "a heritage of hatred, of fear" on the basis of a "need for ubuntu and not victimization."
+'"

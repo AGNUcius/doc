@@ -1,0 +1,55 @@
+Related: browse, ftp, http, web
+
+mozImage.MozDev.org >>The goal of mozImage is to create a simple image browser that can show images present your local disks and analyze web pages in search of new ones.
+
+FlashBlock.MozDev.org stop Flash
+
+Firefox is Mozilla's HTML/HTTP web browser which was Firebird, Phoenix, Netscape, SeaMonkey, IceWeasel, Gnuzilla
+
+FireFTP.MozDev.org >>FireFTP is a free, secure, cross-platform FTP client for Mozilla Firefox which provides easy and intuitive access to FTP servers.
+
+Jetpack.MozillaLabs.com >>Jetpack is a newly formed experiment in using open Web technologies to enhance the browser, with the goal of allowing anyone who can build a Web site to participate in making the Web a better place to work, communicate and play.
+
+KwiClick.com >>KwiClick adds another dimension to the browser by extracting content from your favorite sources and presents it within an innovative contextual window.
+
+Addons.Mozilla.org/en-US/firefox/addon/682 >>This places each day's entire browsing history in a submenu of the history menu.
+
+Addons.Mozilla.org/en-US/firefox/addon/3002 >>Turn the web on its head with the Plain Old Webserver (POW), which adds a server to your browser.
+
+NoScript.net stop JavaScript
+
+AdBlockPlus stop Advertisements
+
+MediaPlayerConnectivity stop Media
+
+MozPlugger.MozDev.org control external viewers
+
+FireFly.MozDev.org >>Firefly is a filemanager extesnion for Firefox.
+
+==Research
+GetFireBug.com >>Firebug integrates with Firefox to put a wealth of web development tools at your fingertips while you browse. You can edit, debug, and monitor CSS, HTML, and JavaScript live in any web page.
+Mozile.MozDev.org In-Line editor
+Annozilla.MozDev.org annotations
+karmatics.com/aardvark
+KenSchutte.com/slogger log history
+MozMacs: fix keystrokes
+http://daryl.learnhouston.com/?p=157
+Addons.Mozilla.org/en-US/firefox/addon/2955 backword >>This extension helps people learning English.
+
+==about:config settings
+browser.cache.disk.capacity 15000
+browser.cache.memory.enable true
+browser.cache.memory.capacity 1024
+
+browser.tabs.showSingleWindowModePrefs true
+network.http.pipelining true
+network.http.proxy.pipelining true
+network.http.pipelining.maxrequests
+nglayout.initialpaint.delay 0
+integer browser.sessionhistory.max_total_viewers 0
+network.prefetch-next false
+config.trim_on_minimize true
+
+about:cache?device=memory
+
+http://www.supernova00.biz/userchrome.html

@@ -1,0 +1,25 @@
+Related: 3, art, GUI, image, photo, pic, plot, toon
+
+Quad-ren.sf.net >>Quad-ren is a resolution independent 2D graphics engine which focuses on minimalism and follows the suckless philosophy.  The applications created with Quad-ren are always resizeable, either running in a window or full screen, allowing them to work flawlessly with a wide range of screen resolutions as well as with tiling window managers.  Quad-ren utilises modern graphics hardware provide RGBA bitmap drawing capability's with high performance rotation and scaling.  It is written in and usable from the C++ programming language with a simple object oriented API and a clean, hackable code base.
+
+Clutter-Project.org >>Clutter is an open source software library for creating fast, visually rich and animated graphical user interfaces.
+
+Gaphor.DevjaVu.com >>Gaphor is an easy to use modelling environment. This means that you are able to create nice UML diagrams for documentation and to assist you with design decisions. Gaphor will help you create your applications.
+
+Minara.sf.net >>Minara is a programmable graphics program editor. Think of it as "Emacs for graphics", an environment for working with vector graphics that can be customised and extended from the ground up. Images are stored as Lisp files which are loaded into buffers in the program's memory. There they are edited as plain text by tools and scripts, executed as drawing instructions by the program's GUI, or executed as picking commands by the selection system.
+
+GraphicAll.org >>building for you
+
+GraphicsMagick.org >>GraphicsMagick is dististributed under a MIT-style License, which is approved by the Open Source Initiative and is compatible with the GPL.  GraphicsMagick is originally derived from ImageMagick 5.5.2.
+
+SciGraphica.sf.net >>SciGraphica is a scientific application for data analysis and technical graphics. It pretends to be a clone of the popular commercial (and expensive) application "Microcal Origin".
+
+SFML.sf.net >>SFML is a portable and easy to use multimedia API written in C++. You can see it as a modern, object-oriented alternative to SDL.
+
+FLTK.org
+
+OpenGL
+
+SDL
+
+AutoTrace.sf.net >>converts bitmap to vector graphics

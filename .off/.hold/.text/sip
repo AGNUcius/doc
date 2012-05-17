@@ -1,0 +1,5 @@
+Related: chat, communication, media, TV, video
+
+Wikipedia.org/wiki/Session_Initiation_Protocol >>The Session Initiation Protocol (SIP) is a signalling protocol, widely used for setting up and tearing down multimedia communication sessions such as voice and video calls over the Internet. Other feasible application examples include video conferencing, streaming multimedia distribution, instant messaging, presence information and online games. The protocol can be used for creating, modifying and terminating two-party (unicast) or multiparty (multicast) sessions consisting of one or several media streams. The modification can involve changing addresses or ports, inviting more participants, adding or deleting media streams, etc.
+
+Croczilla.com/zap >>Zap brings advanced scalable internet communication to Mozilla.  A project started by 8x8 Inc, our goal is to build a robust platform for the client-side use of technologies such as ICE, SIP and RTP.

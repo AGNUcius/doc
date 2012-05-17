@@ -1,0 +1,329 @@
+Related: WinPE
+
+/dev/stc/build/bin/wim.dism.cmd
+
+c:/WINDOWS/Logs/DISM/dism.log
+
+
+Deployment Image Servicing and Management tool
+Version: 6.1.7600.16385
+
+DISM.exe [dism_options] {WIM_command} [<WIM_arguments>]
+
+DISM.exe {/Image:<path_to_offline_image> | /Online} [dism_options]
+         {servicing_command} [<servicing_arguments>]
+
+DESCRIPTION:
+
+  DISM enumerates, installs, uninstalls, configures, and updates features
+  and packages in Windows images. The commands that are available depend
+  on the image being serviced and whether the image is offline or running.
+
+WIM COMMANDS:
+
+  /Get-MountedWimInfo     - Displays information about mounted WIM images.
+  /Get-WimInfo            - Displays information about images in a WIM file.
+  /Commit-Wim             - Saves changes to a mounted WIM image.
+  /Unmount-Wim            - Unmounts a mounted WIM image.
+  /Mount-Wim              - Mounts an image from a WIM file.
+  /Remount-Wim            - Recovers an orphaned WIM mount directory.
+  /Cleanup-Wim            - Deletes resources associated with mounted WIM
+                            images that are corrupt.
+
+IMAGE SPECIFICATIONS:
+  /Online                 - Targets the running operating system.
+  /Image                  - Specifies the path to the root directory of an
+                            offline Windows image.
+
+DISM OPTIONS:
+  /English                - Displays command line output in English.
+  /Format                 - Specifies the report output format.
+  /WinDir                 - Specifies the path to the Windows directory.
+  /SysDriveDir            - Specifies the path to the system-loader file named
+                            BootMgr.
+  /LogPath                - Specifies the logfile path.
+  /LogLevel               - Specifies the output level shown in the log (1-4).
+  /NoRestart              - Suppresses automatic reboots and reboot prompts.
+  /Quiet                  - Suppresses all output except for error messages.
+  /ScratchDir             - Specifies the path to a scratch directory.
+
+For more information about these DISM options and their arguments, specify an
+option immediately before /?.
+  Examples:
+    DISM.exe /Mount-Wim /?
+    DISM.exe /ScratchDir /?
+    DISM.exe /Image:C:\test\offline /?
+    DISM.exe /Online /?
+
+
+
+
+:: Mount
+Dism /Mount-Wim /WimFile:C:\winpe_x86\winpe.wim /index:1 /MountDir:C:\winpe_x86\mount
+
+
+:: Add LangPack:
+Dism /image:C:\winpe_x86\mount /Add-Package /PackagePath:"Tools\PETools\x86\WinPE_FPs\en-us\lp_en-us.cab"
+
+
+
+
+OSAttack.com/windows/commands-for-creatingworking-with-windows-pe-30
+"'
+
+:: This post is part of our "How-To's" section and covers Windows PE 3.0 which is most commonly used by those that repair computers or install Windows in enterprise environments.  This post may be expanded on in the future to help those that frequently work with Windows PE.
+
+:: This is a list of commands for the new Windows PE 3.0 based on Windows 7.  There have been many changes to PE including the addition of a new application called DISM.exe or the Deployment Image Servicing and Management tool.  ImageX can still be used for some commands such as mounting and unmounting the wim and more importantly compressing the wim.  DISM does normal compression by default but does not have an option for you to change the compression level (that I am aware of).
+
+:: At the time of writing this Windows PE 3.0 is still in the beta phase but is more than stable for typical usage.  To create Windows PE you need to download and install the Windows Automated Installation Kit or WAIK.  You can get this from Microsoft.
+
+:: To start create a directory in "C:\" called "PE" so that it looks like "C:\PE"
+
+:: You can then create batch files from the following commands by simply copying the text and pasting it into a notepad document then saving it according to the format "MountWIM.bat ".  An important note with these commands is they must be executed as an administrator.  If you are on either Windows Vista or Windows 7 you either have to elevate a command prompt or create batch files and then right click the file and select "Run as administrator".
+
+:: Create winpe_x86 directory in C:\PE (this WILL delete it if the directory already exists):
+
+rd /s/q C:\PE\winpe_x86
+
+cd "c:\Program files\windows aik\tools\petools"
+call copype.cmd x86 C:\PE\winpe_x86
+
+:: Mount the WIM image:
+
+cd "C:\Program Files\Windows AIK\Tools\x86\Servicing"
+DISM.exe /Mount-Wim /WimFile:C:\PE\winpe_x86\ISO\sources\boot.wim /index:1 /MountDir:C:\PE\winpe_x86\mount
+
+:: UnMount the WIM image commiting changes:
+
+cd "C:\Program Files\Windows AIK\Tools\x86\Servicing"
+DISM.exe /unmount-Wim /MountDir:C:\PE\winpe_x86\mount /Commit
+
+Add packages into your WIM, this can be edited to only add in what you need to reduce the size of the WIM:
+
+cd "C:\Program Files\Windows AIK\Tools\x86\Servicing\"
+dism /image:C:\PE\winpe_x86\mount /Add-Package /PackagePath:"C:\Program Files\Windows AIK\Tools\PETools\x86\WinPE_OCs\winpe.cab"
+dism /image:C:\PE\winpe_x86\mount /Add-Package /PackagePath:"C:\Program Files\Windows AIK\Tools\PETools\x86\WinPE_OCs\winpe-wmi.cab"
+dism /image:C:\PE\winpe_x86\mount /Add-Package /PackagePath:"C:\Program Files\Windows AIK\Tools\PETools\x86\WinPE_OCs\winpe-hta.cab"
+dism /image:C:\PE\winpe_x86\mount /Add-Package /PackagePath:"C:\Program Files\Windows AIK\Tools\PETools\x86\WinPE_OCs\winpe-legacysetup.cab"
+dism /image:C:\PE\winpe_x86\mount /Add-Package /PackagePath:"C:\Program Files\Windows AIK\Tools\PETools\x86\WinPE_OCs\winpe-mdac.cab"
+dism /image:C:\PE\winpe_x86\mount /Add-Package /PackagePath:"C:\Program Files\Windows AIK\Tools\PETools\x86\WinPE_OCs\winpe-scripting.cab"
+dism /image:C:\PE\winpe_x86\mount /Add-Package /PackagePath:"C:\Program Files\Windows AIK\Tools\PETools\x86\WinPE_OCs\winpe-setup.cab"
+dism /image:C:\PE\winpe_x86\mount /Add-Package /PackagePath:"C:\Program Files\Windows AIK\Tools\PETools\x86\WinPE_OCs\winpe-wds-tools.cab"
+
+:: Check what packages are installed:
+
+cd "C:\Program Files\Windows AIK\Tools\x86\Servicing\"
+dism /image:c:\PE\winpe_x86\mount\ /Get-Packages
+
+:: UnMount the WIM image discarding changes:
+
+cd "C:\Program Files\Windows AIK\Tools\x86\Servicing"
+DISM.exe /unmount-Wim /MountDir:C:\PE\winpe_x86\mount /discard
+
+:: Create Windows PE ISO:
+
+cd "C:\Program Files\Windows AIK\Tools\x86?
+oscdimg -n -bc:\PE\winpe_x86\etfsboot.com c:\PE\winpe_x86\ISO c:\PE\winpe_x86\winpe_x86.iso
+
+'"
+
+
+
+http://www.techenclave.com/operating-systems/mod-that-os-144876.html
+"'
+You need to run this from the command prompt as Adminstrator
+
+DISM.exe /Get-Wiminfo /WimFile:C:\Sources\install.wim
+# Gives you information and editions present in the install.wim#
+
+DISM.exe /Mount-Wim /WimFile:C:\Sources\install.wim /index:3 /MountDir:C:\Mount
+# Mount's the specified edition of Windows 7 in this case 3 which Pro, 4 is Ultimate and so on...#
+
+DISM.exe /Image:C:\Mount /Add-Driver:C:\Drivers /recurse
+# Will add all the drivers from the folder Drivers in the C drive including subfolders#
+
+DISM.exe /Image:C:\Mount /Get-Drivers > C:\Log\Drivers.txt
+# Will dump all the installed drivers successful or not in the Drivers.txt file#
+
+DISM.exe /Image:C:\Mount /Add-Package:C:\Updates
+# Will install all the updates(.msu packages) from the updates folder#
+
+DISM.exe /Image:C:\Mount /Get-Features | more
+# Will list all the features installed in the mounted version of the OS#
+
+DISM.exe /Image:C:\Mount /Get-Features > C:\Log\Features.txt
+# Will list all the features installed in the mounted version of the OS in the Features.txt file#
+
+DISM.exe /Image:C:\Mount /Disable-Feature /FeatureName:
+# By going through the above command/ or the Features.txt you can find the status of the installed features enabled or disabled. Now I have till now never used the Windows Media Center and think I have no use for it, also the Internet Printing so in this example I will show you have to disable them#
+
+DISM.exe /Image:C:\Mount /Disable-Feature /FeatureName:MediaCenter
+
+DISM.exe /Image:C:\Mount /Disable-Feature /FeatureName:TabletPCOC
+
+DISM.exe /Image:C:\Mount /Disable-Feature /FeatureName:Printing-Foundation-Features
+
+DISM.exe /Image:C:\Mount /Disable-Feature /FeatureName:Printing-Foundation-InternetPrinting-Client
+
+DISM.exe /Image:C:\Mount /Disable-Feature /FeatureName:FaxServicesClientPackage
+
+DISM.exe /Image:C:\Mount /Get-Features > C:\Log\FeaturesD.txt
+# Running this again to figure out what was disabled#
+
+You might want to enable some features like the Telnet client to telnet or for troubleshooting purpose
+
+DISM.exe /Image:C:\Mount /Enable-Feature:TelnetClient
+# This will enable the Telnet Client, you can do so for the Telnet Server as well but not recommended and is a security risk on the Internet#
+
+Time to save all the hard work
+
+DISM.exe /Unmount-Wim /MountDir:C:\Mount /commit
+# Trust me this will look like it is not working, but it takes approximately more than 30-45 minutes to complete, might take longer too...#
+
+Once is gives you the completed successfully message you can again copy the install.wim in to your Windows 7 DVD and the install it
+
+How do you make it bootable, if you have WAIK installed you can use the oscdimg.exe using the following command
+
+-b"C:\GRMCULXFRER_EN_DVD\boot\etfsboot.com" -h -u2 -m -lGRMCULXFRER_EN_DVD 
+"C:\GRMCULXFRER_EN_DVD" "E:\GRMCULXFRER_EN_DVD.iso"
+
+For the geeks
+
+#Deployment Image Servicing and Management tool
+Version: 6.1.7100.0
+
+
+DISM.exe [dism_options] {WIM_command} [<WIM_arguments>]
+DISM.exe {/Image:<path_to_offline_image> | /Online} [dism_options] 
+         {servicing_command} [<servicing_arguments>]
+
+DESCRIPTION:
+
+  DISM enumerates, installs, uninstalls, configures, and updates features
+  and packages in Windows images. The commands that are available depend 
+  on the image being serviced and whether the image is offline or running.
+
+WIM COMMANDS:
+
+  /Get-MountedWimInfo     - Displays information about mounted WIM images.
+  /Get-WimInfo            - Displays information about images in a WIM file.
+  /Commit-Wim             - Saves changes to a mounted WIM image.
+  /Unmount-Wim            - Unmounts a mounted WIM image.
+  /Mount-Wim              - Mounts an image from a WIM file.
+  /Remount-Wim            - Recovers an orphaned WIM mount directory.
+  /Cleanup-Wim            - Deletes resources associated with mounted WIM
+                            images that are corrupt.
+
+IMAGE SPECIFICATIONS:
+
+  /Online                 - Targets the running operating system.
+  /Image                  - Specifies the path to the root directory of an
+                            offline Windows image.
+
+DISM OPTIONS:
+
+  /English                - Displays command line output in English.
+  /Format                 - Specifies the report output format.
+  /WinDir                 - Specifies the path to the Windows directory.
+  /SysDriveDir            - Specifies the path to the system-loader file named
+                            BootMgr.
+  /LogPath                - Specifies the logfile path.
+  /LogLevel               - Specifies the output level shown in the log (1-4).
+  /NoRestart              - Suppresses automatic reboots and reboot prompts.
+  /Quiet                  - Suppresses all output except for error messages.
+  /ScratchDir             - Specifies the path to a scratch directory.
+
+What is interesting about the DISM help is that it doesnt give you all of the options.  You have to specify the /online switch 
+
+to see the other options.
+
+The following commands may be used to service the image:
+
+WINDOWS EDITION SERVICING COMMANDS:
+
+  /Set-ProductKey         - Populates the product key into the offline image.
+  /Get-TargetEditions     - Displays a list of Windows editions that an
+                            image can be upgraded to.
+  /Get-CurrentEdition     - Displays the editions of the specified image.
+  /Set-Edition            - Upgrades the Windows image to a higher edition.
+
+UNATTEND SERVICING COMMANDS:
+
+  /Apply-Unattend         - Applies an unattend file to an image.
+
+DRIVER SERVICING COMMANDS:
+
+  /Remove-Driver          - Removes driver packages from an offline image.
+  /Add-Driver             - Adds driver packages to an offline image.
+  /Get-DriverInfo         - Displays information about a specific driver
+                            in an offline image or a running operating system.
+  /Get-Drivers            - Displays information about all drivers in
+                            an offline image or a running operating system.
+
+INTERNATIONAL SERVICING COMMANDS:
+
+  /Set-LayeredDriver      - Sets keyboard layered driver.
+  /Set-UILang             - Sets the default system UI language that is used
+                            in the mounted offline image.
+  /Set-UILangFallback     - Sets the fallback default language for the system 
+                            UI in the mounted offline image.
+  /Set-UserLocale         - Sets the user locale in the mounted offline image.
+  /Set-SysLocale          - Sets the language for non-Unicode programs (also
+                            called system locale) and font settings in the 
+                            mounted offline image.
+  /Set-InputLocale        - Sets the input locales and keyboard layouts to 
+                            use in the mounted offline image.
+  /Set-TimeZone           - Sets the default time zone in the mounted offline
+                            image.
+  /Set-AllIntl            - Sets all international settings in the mounted
+                            offline image.
+  /Set-SKUIntlDefaults    - Sets all international settings to the default
+                            values for the specified SKU language in the
+                            mounted offline image.
+  /Gen-LangIni            - Generates a new lang.ini file.
+  /Set-SetupUILang        - Defines the default language that will be used
+                            by setup.
+  /Get-Intl               - Displays information about the international 
+                            settings and languages.
+
+APPLICATION SERVICING COMMANDS:
+
+  /Check-AppPatch         - Displays information if the MSP patches are 
+                            applicable to the mounted image.
+  /Get-AppPatchInfo       - Displays information about installed MSP patches.
+  /Get-AppPatches         - Displays information about all applied MSP patches
+                            for all installed applications.
+  /Get-AppInfo            - Displays information about a specific installed MSI
+                            application.
+  /Get-Apps               - Displays information about all installed MSI
+                            applications.
+
+PACKAGE SERVICING COMMANDS:
+
+  /Add-Package            - Adds packages to the image.
+  /Remove-Package         - Removes packages from the image.
+  /Enable-Feature         - Enables a specific feature in the image.
+  /Disable-Feature        - Disables a specific feature in the image.
+  /Get-Packages           - Displays information about all packages in 
+                            the image.
+  /Get-PackageInfo        - Displays information about a specific package.
+  /Get-Features           - Displays information about all features in
+                            a package.
+  /Get-FeatureInfo        - Displays information about a specific feature.
+  /Cleanup-Image          - Performs cleanup and recovery operations on the
+                            image#
+
+'"
+
+Dependencies:
+ CbsProvider.dll
+ CompatProvider.dll
+ DismCore.dll
+ DismCorePS.dll
+ DismProv.dll
+ DmiProvider.dll
+ IntlProvider.dll
+ MsiProvider.dll
+ SmiProvider.dll
+ UnattendProvider.dll
+ WimProvider.dll

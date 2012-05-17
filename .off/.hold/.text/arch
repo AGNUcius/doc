@@ -1,0 +1,48 @@
+Related: 7z, 7zip, back, bz2, bzip2, cab, chm, compress, gz, gzip, pack, store, zip
+
+Tukaani.org/xz >>XZ Utils is free general-purpose data compression software with high compression ratio. XZ Utils were written for POSIX-like systems (GNU/Linux, *BSDs, etc.), but also work on some not-so-POSIX systems like Windows. XZ Utils are the successor to LZMA Utils.
+
+Bitser.org >>Bitser is a windows application for managing archives and backups similar to Winzip, 7 zip and Winrar but with an alternate user interface. Bitser's interface is built around the file system, with explorer style views and features similar to those found in backup applications. All underlying archiving functions are performed using the open source 7 zip compression software and therefore all major archiving formats are supported.
+
+UPX.org >>Ultimate Packer for Xecutables (UPX) is an extendable software high-performance executable file compression packer software for a number of diverse executable file formats. It achieves an excellent file compression ratio and fast running decompression. The UPX executables suffer no memory overhead or other negatives. An ongoing audit of compressed and uncompressed files is maintained.
+
+LSE.sf.net/io/aio.html >>AIO enables even a single application thread to overlap I/O operations with other processing, by providing an interface for submitting one or more I/O requests in one system call (io_submit()) without waiting for completion, and a separate interface (io_getevents()) to reap completed I/O operations associated with a given completion group.
+
+AutoArchive.sf.net >>AutoArchive is a simple utility for making backups more easily. It uses tar for creating archives. The idea of the program is that every information needed for making a backup is in one file - the archive spec file. Path to this file is passed as a parameter to 'aa' command which reads informations from it and creates desired backup.
+
+PeaZip.sf.net >>PeaZip free archiver utility is a portable, open source archiving, encryption and file split tool.  Full support for 7Z, 7Z-sfx, ARC/WRC, BZ2/TBZ2, custom, GZ/TGZ, PAQ/LPAQ, PEA, QUAD/BALZ, split, TAR, UPX, ZIP.  Read support for ACE, ARJ, CAB, CHM, COMPOUND (MSI, DOC, XLS, PPT), CPIO, ISO, Java (JAR, EAR, WAR), Linux (DEB, PET/PUP, RPM, SLP), LHA/LZH, LZMA, Mac (DMG/HFS), NSIS, Open Office files, PAK/PK3/PK4, RAR, SMZIP, U3P, UDF, WIM, XAR, XPI, Z/TZ.
+
+Xarchiver.XFE.org >>Xarchiver is a lightweight desktop independent archive manager built with the GTK+2 toolkit. It was my intention to develop a simple GUI which could be used with any desktop environment and would operate using the command line rather than API calls. Xarchiver has been designed from the ground up to be fast and easy-to-use. Its user interface is clean and intuitive, and does not include any confusing or useless options.
+
+Wakaba.C3.cx/s/apps/unarchiver.html and Code.Google.com/p/theunarchiver >>The Unarchiver is a much more capable replacement for "BOMArchiveHelper.app", the built-in archive unpacker program in Mac OS X. The Unarchiver is designed to handle many more formats than BOMArchiveHelper, and to better fit in with the design of the Finder. It can also handle filenames in foreign character sets, created with non-English versions of other operating systems. I personally find it useful for opening Japanese archives, but it should handle many other languages just as well. 
+
+www.NonGNU.org/lzip >>Lzip is a lossless file compressor based on the LZMA (Lempel-Ziv-Markov chain-Algorithm) algorithm designed by Igor Pavlov. The high compression of LZMA comes from combining two basic, well-proven compression ideas: sliding dictionaries (i.e. LZ77/78), and markov models (i.e. the thing used by every compression algorithm that uses a range encoder or similar order-0 entropy coder as its last stage) with segregation of contexts according to what the bits are used for.
+
+Kyzer.me.uk >>The primary objective of copyright is not to reward the labor of authors, but "[t]o promote the Progress of Science and useful Arts." To this end, copyright assures authors the right to their original expression, but encourages others to build freely upon the ideas and information conveyed by a work....This result is neither unfair nor unfortunate. It is the means by which copyright advances the progress of science and art.
+
+KGBArchiver.net >>KGB Archiver is the compression tool with an unbelievably high compression rate. Unfortunately, in spite of its powerful compression rate, it has high hardware requirements (I recommend processor with 1,5GHz clock and 256MB of RAM as an essential minimum). One of the advantages of KGB Archiver is also AES-256 encryption which is used to encrypt the archives. This is one of the strongest encryptions known for man.
+
+Wikipedia.org/wiki/PAQ >>PAQ is a series of data compression archivers that have evolved through collaborative development to top rankings on several benchmarks measuring compression ratio (although at the expense of speed and memory usage). Specialized versions of PAQ have won the Hutter Prize and the Calgary Challenge.[1] PAQ is free software distributed under the GNU General Public License.[2]
+
+Arxiv.org >>Open access to 506,923 e-prints in Physics, Mathematics, Computer Science, Quantitative Biology and Statistics
+
+usuarios.lycos.es/reinob/lcrack
+sf.net/projects/zipcracker
+
+FarManager.com >>Far Manager is a program for managing files and archives in Windows operating systems.  Far Manager works in text mode and provides a simple and intuitive interface for performing most of the necessary actions
+
+ArchView.sf.net >>ArchView is an extension of Firefox. It can open archive file online and get the catalog. It also can preview or download files in archive. Currently, it support ZIP, RAR archives and ISO-9660 CD images. The most fancy feature of ArchView is that it can open an individal file without download the whole archive, since it only fetch the necessary portion. So it's suitable for checking the content of archive before download. ArchView can support HTTP and FTP protocols. It can also handle local files via file: protocol.
+
+libarxx.sf.net >>Advanced Resource Archives - ARX is a archiving file format with advanced features especially designed to meet the requirements of game designers.  These features include external data referencing, data synchronization with remote data storages, in-memory merging of multiple archives and arbitrary data items structuring.
+
+Archive.org >>Internet Archive and the WayBack Machine
+
+Anarchy and Source Code http://imhorst.net/?page_id=22
+
+"'The spread of the Linux operating system kernel has directed attention at the free software movement. This paper shows why free software, far from being a marginal participant in the commercial software market, is the vital first step in the withering away of the intellectual property system.'" -- "Anarchism Triumphant'" EMoglen.law.columbia.edu/publications/anarchism.html
+
+Flag.Blackened.net/daver/anarchism/tucker/tucker2.html
+
+LEADERS.sf.net >>The LEADERS Toolkit is a generic toolset that enables the creation of an online environment which integrates EAD finding aids and EAC  authority records with TEI transcripts and digitised images of archival material suitable to a wide variety of archives.
+
+UPX.org >>Ultimate Packer for Xecutables (UPX) is an extendable software high-performance executable file compression packer software for a number of diverse executable file formats. It achieves an excellent file compression ratio and fast running decompression. The UPX executables suffer no memory overhead or other negatives. An ongoing audit of compressed and uncompressed files is maintained.

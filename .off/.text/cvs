@@ -1,0 +1,7 @@
+Concurrent Versioning System (CVS) is a version control tool.
+
+
+$ cvs -d:pserver:anonymous@glaxium.cvs.sourceforge.net:/cvsroot/glaxium login # When prompted for the password press the Enter key.
+
+$ cvs -z3 -d:pserver:anonymous@glaxium.cvs.sourceforge.net:/cvsroot/glaxium co -P glaxium
+

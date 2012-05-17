@@ -1,0 +1,61 @@
+Related: assoc, binary, book, char, class, code, edit, font, FTYPE, plain, school, type, word
+
+Type: diff, group, key, kind, typic, typify, unify
+Typo: text, font, shell, spell, write
+
+Klavaro.sf.net >>Klavaro Touch Typing Tutor
+
+HyperType.org >>HyperType is a graphical typing tutor for linux. It includes a complete set of lessons, practice texts, and a game.
+
+w3.org/TR/charmod >>Character Model for the World Wide Web 1.0: Fundamentals
+Junicode or Junius Unicode: www.engl.virginia.edu/OE/junicode/junicode.html
+www.lionsgrip.com/etcatalogue.html
+www.angelfire.com/ma/vivekananda/sanscrit.html/
+home.comcast.net/~modean52/new_to_old_english_l.htm
+members.aol.com/genfir1/pandhmpg.htm
+www.consultsos.com/pandora
+hjem.get2net.dk/finn_rasmussen/MANUS.htm
+home.comcast.net/~modean52/new_to_old_english_l.htm
+Wikipedia.org/wiki/ISO_2022
+
+RFC 822, RFC 1123, RFC 1341
+
+
+==Type vs. Instance
+RMS claims at GNU.org/philosophy/why-free.html that comparing software and spaghetti is an overstretched analogy.
+
+But this conclusion may be invalid because the comparison he makes is between the Type of one Object (all possible copies of a computer program) and a single Instance of another Object (one particular copy of spaghetti).
+
+Discussion of Free Software licenses has limited our investigation to the virtual realm of information because that happens to be the domain of Copyright.  But all information requires a physical host, so the real differences between Software and Spaghetti are much smaller than they appear.
+
+: Software can NOT be copied without access to physical Sources of Production.  It requires land, a computer, at least one instance of the software, magnetic or optical media, tools, energy and time.
+
+: Spaghetti CAN be copied with access to physical Sources of Production.  It requires land, soil, at least one wheat seed, water, tools, energy and time.
+
+
+===A revised analogy
++ Comparing Type (infinite info):
+> All POSSIBLE COPIES of this software type; limited by physical Sources.
+: If you run or change your OWN INSTANCE of a program I wrote affects you directly and me only indirectly.  Whether you give a copy to your friend affects you and your friend much more than it affects me.  I shouldn't have the power to tell you not to do these things.  No one should.  Not even Microsoft.
+
+> All POSSIBLE COPIES of this spaghetti type; limited by physical Sources.
+: If you eat your OWN INSTANCE of that type of spaghetti affects you directly and me only indirectly.  Whether you give a copy to your friend affects you and your friend much more than it affects me.  I shouldn't have the power to tell you not to do these things.  No one should.  Not even Monsanto.
+
+
++ Comparing Instance (rivalrous mass):
+> The CD/DVD, Hard Drive or RAM that host THIS COPY of the software.
+: When I write software, I do object if someone else takes THAT INSTANCE, because then I cannot also use it.  His action hurts me exactly as much as it benefits him; only one of us can use THAT PARTICULAR COPY, so the question is, which?
+
+> The mashed and pressed wheat seeds (noodles) that host THIS COPY of spaghetti.
+: When I cook spaghetti, I do object if someone else eats THAT INSTANCE, because then I cannot eat it.  His action hurts me exactly as much as it benefits him; only one of us can eat the spaghetti, so the question is, which?
+
+==Physical hosts Virtual
+All physical things are hosts for the storage and expression of virtual things.
+
+Information (any virtual thing) must be hosted by material goods that have the physical properties of "mass" or "energy".
+
+===Examples
+* Audio and Video is hosted on a wide variety of physical things including a metal cylinder, grooved plastic discs, photoreactive film, etc.
+* Software is usually stored on optical or magnetic media and is expressed with a computer and electricity.
+* Mechanical design is stored on paper (blueprints) or on a computer (CAD) and is expressed with machines that copy (manufacture) that design.
+* Genetics (DNA) is stored in seeds, spores, eggs or living organisms and expressed through water, soil, air, and sun.

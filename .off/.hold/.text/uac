@@ -1,0 +1,12 @@
+Related: admin, root, sudo
+
+~/bin/UAC.Enable.cmd
+~/bin/UAC.Disable.cmd
+
+HowToGeek.com/howto/windows-vista/sudo-for-windows-vista
+
+1.  Log in as the Administrator (actually, any administrator will do)
+2.  Machine advertise your MSI package by doing: msiexec /jm my.msi
+3.  Log off
+4.  Log in as standard user (any non-administrator will do, make one up in step 1 if you have to).
+5.  Kick off the install of your MSI package by doing:  msiexec /i my.msi

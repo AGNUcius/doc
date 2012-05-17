@@ -1,0 +1,9 @@
+Patware's Emacs configuration files are at:
+
+  patware.freeshell.org/NoteMacs.tar.bz2 [less than 1 Meg]
+
+I use it as:
+    NoteMacs-NotEmacs => nil
+    NoteMacs-unified-keys => t
+    NoteMacs-apprentice => t
+    NoteMacs-wizard => t 

@@ -1,0 +1,10 @@
+Related: binary, code, debug, exec, forensics, hex, obj, text
+
+binaryFreedom.INFO
+
+Radare.Nopcode.org >>This project aims to create a complete *nix-like toolchain for working with binary files.
+
+Hachoir.org >>Hachoir is a Python library that allows to view and edit a binary stream field by field. In other words, Hachoir allows you to "browse" any binary stream just like you browse directories and files. A file is split in a tree of fields, where the smallest field is just one bit. There are other fields types: integers, strings, bits, padding types, floats, etc. Hachoir is the French word for a meat grinder (meat mincer), which is used by butchers to divide meat into long tubes; Hachoir is used by computer butchers to divide binary files into fields.
+
+CyoEncode.sf.net >>Provides C functions for encoding binary data into a printable representation using base64, base32, or base16 (hex) character sets, plus equivalent functions for the decoding of such encoded data back into its binary form.
+

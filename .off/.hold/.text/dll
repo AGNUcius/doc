@@ -1,0 +1,3 @@
+Related: exe
+
+Dynamically Loaded Library(DLL) may be implicitly linked through a .lib, or explicitly linked through a call to LoadLibrary();

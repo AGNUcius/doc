@@ -1,0 +1,116 @@
+Related: Docs, Projects, AWS, AMI, EC2, EBS, S3, Mechanical Turk
+
+====Goals
+S3: file list, copy, expose as VDisk to EC2 VM
+EC2: HSR, HIR, Attach S3 VDisk to VM
+
+====Notes
+AWS.Amazon.com/message/65648 >>Summary of the Amazon EC2 and Amazon RDS Service Disruption in the US East Region
+
+RedHat.com/solutions/cloud/foundations
+
+EnterpriseStorageForum.com/outsourcing/news/article.php/3926856
+
+Forums.AWS.Amazon.com/thread.jspa?threadID=11497 >>reseller model
+Forums.AWS.Amazon.com/thread.jspa?threadID=18658 >>Under DevPay, Amazon will charge you more for AWS than it charges end-users
+Scribd.com/doc/16909062/Amazon-Web-Services-Made-Simple-Learn-how-Amazon-EC2-S3-SimpleDB-and-SQS-Web-Services-enable-you-to-reach-business-goals-faster-100-Success-Secre
+
+ylastic.com >>Get insight into your AWS costs with spending analytics
+
+Backup.Comodo.com
+OwnCloud.org
+DropBox.com uses S3
+RackSpace.com/cloud/cloud_hosting_products/files
+Amazon.com/clouddrive/learnmore
+
+
+AWS, Alter
+
+Launchpad.net/s3daemon (c/c++) >>The Amazon S3 file transfer daemon is a daemon process that runs in the background and monitors folders. When it finds a file in one of the folders that matches a specific pattern it transfers that file to S3 storage and then removes the local copy. The folders monitored and the patterns searched for are controlled by a configuration file.
+
+QUILLEN.GoogleCode.com >>When you backup a file or directory, Quillen places those files into a conceptual "snapshot". It is a full snapshot of those files at that point in time. A snapshot can later be restored to your local disk.  Quillen splits files into chunks of data of variable size. The chunks are determined by their contents, rather than fixed offsets into a file. This enables Quillen to keep data transfer and storage to a minimum since only chunks that have not been seen before will be uploaded. Chunks have an average size of 128K, although they can range from 2K - 5MB. This method of chunking also means that a full backup of a set of files that have already been placed in a snapshot does not result in re-uploading those files. And if the files have changed since they were last backed up, only those chunks that have changed need to be uploaded. The result is a new full snapshot. The full set of files can be restored from that snapshot. This is de-duplication between snapshots.  This method of chunking also enables de-duplication within snapshots. If two files are both backed up at the same time, and the two files share chunks of data, each of those chunks is only uploaded and stored once. Quillen keeps track of the fact that a chunk is referenced by multiple files.
+
+SpaceBlock.CodePlex.com >>SpaceBlock is a simple Windows front-end for managing Amazon S3, Nirvanix, Azure Blob Storage, and now Sun Cloud Object Storage online service accounts.
+
+Resourceful.CodePlex.com >>Resourceful is a lightweight .net library for creating RESTful (or resource-oriented) web service clients and servers. Intended to be as cross-platform as possible, currently tested against mono on mac/linux (1.2.5+) and silverlight (beta 2).
+
+AWSEC2SOAP.CodePlex.com >>This sample library (along with a test program) shows simply how to access EC2 services via Microsoft's C# and Visual Studio and the SOAP interface (not REST).  If you want REST, you can download a REST C# library from Amazon's website. The advantage to this method (SOAP) is that when Amazon updates the API, all you have to do (in Visual Studio) is to refresh a query to the WSDL site and viola! - API will have been updated. This is handy as Amazon continues to add features to this cool service.
+
+AWS.CodePlex.com >>A .NET Library for Amazon's Web Services. S3, SQS, FPS, EC2, and DevPay
+
+
+gsutil
+
+S3Backer
+
+S3QL
+
+AWS.Amazon.com/sdkfornet >>The AWS SDK for .NET makes it even easier for Windows developers to build .NET applications that tap into the cost-effective, scalable, and reliable AWS cloud. Using the SDK, developers will be able to build solutions for AWS infrastructure services, including Amazon Simple Storage Service (Amazon S3), Amazon Elastic Compute Cloud (Amazon EC2), and Amazon SimpleDB. With the AWS SDK for .NET, developers get started in minutes with a single, downloadable package complete with Visual Studio project templates, the AWS .NET library, C# code samples, and documentation.
+
+S3.CodePlex.com (.NET)>>Standalone Windows .EXE command line utility for Amazon S3 & EC2
+
+AWS.CodePlex.com >>A .NET Library for Amazon's Web Services. S3, SQS, FPS, EC2, and DevPay
+
+LitS3.GoogleCode.com (.NET)>>LitS3 is a library written in C# that provides comprehensive and straightforward access to Amazon S3 for .NET developers.
+
+ThreeSharp.CodePlex.com >>No longer maintained.  Use AWS.Amazon.com/sdkfornet instead.
+
+
+libAWS.sf.net and AWS.28msec.com >>libaws is a C++ library that allows to communicate with Amazon Web Services. Currently supported are Amazon S3, SQS, and SDB.
+
+AWS4c.GoogleCode.com (c, using libcurl)>>Believe it or not there is a growing demand C/C++ programs to access Amazon Web Services. This project grew out of that demand. This project is based on the conversion of my old HPC project to run on the Amazon EC2.
+
+Libs3.ISCHO.com.S3.AmazonAWS.com >>The libs3 C Library API for Amazon S3
+
+EC2-Delete-Old-Snapshots.GoogleCode.com >> Bulk delete old snapshots from EC2 EBS with a php command line client
+
+S3Tools.org/s3cmd (python)>>Command line S3 client that can be used in scripts, backup cron jobs, etc. This is your best choice if you want to quickly get up to speed with S3. Requires Python 2.4 or newer and some pretty common Python modules.
+
+S3Sync.net (ruby)>>This is a community site for developers and users of the free and open source s3sync.rb and s3cmd.rb tools, which are interfaces to the Amazon S3 system.
+
+boto.GoogleCode.com (python)>>An integrated interface to current and future infrastructural services offered by Amazon Web Services.
+
+
+BeaconHill.com/opensource/s3cp.html (java)>>"As a user of Amazon's S3 service for hosting files and storing backups I've longed for a simple command line copy progam. s3cp is the result." - Brad Lucas
+
+S3Lib.GoogleCode.com (java)>>S3Lib is a client library for Amazon's Simple Storage Service.
+
+
+javascript
+sf.net/projects/elasticfox
+
+S3Fox.net (javascript) >> The S3Fox Organizer(S3Fox), offers the ability to upload or download files to and from Amazon S3. The interface, which opens in a Firefox browser tab, looks much like that of FTP clients with a dual-pane layout. It displays files on your PC on the left, files on Amazon S3 on the right, and status or information in a panel on the bottom.
+
+Amazon-EC2-Edit.sf.net >>
+
+
+====Web
+S3AFS.sf.net >>
+
+EC2ServConsole.sf.net >>This is an AJAX-style website based in PHP that permits an individual or group to configure, launch, and control virtual machine instances under the Amazon Elastic Compute Cloud.
+
+mod_wscpp.sf.net >>mod_wscpp is an Apache module, part of a Web Services C++ Framework, that allows to serve SOAP requests via the gSOAP library, with session information and Web Services implemented in multiple libraries.
+
+
+SPOTCKPT.sf.net >>simulator for efficiently utilizing Amazon EC2's Spot Instances
+
+====File Systems
+WinS3FS.sf.net >>WinS3fs is a filesystem for Windows written in C#, allowing access to Amazon S3 Storage. It implements a local virtual SMB server \\s3 to allow access to Amazon S3 buckets.
+
+S3Drive.net >>
+
+https://fedorahosted.org/s3fs >>s3fs is a FUSE filesystem written in python backed by Amazons Simple Storage service.
+
+S3FS.GoogleCode.com (libCURL)>>FUSE-based file system backed by Amazon S3. Mount a bucket as a local file system read/write. Store files/folders natively and transparently.
+
+FuseOverAmazon.GoogleCode.com >>
+
+S3FS-FUSE.GoogleCode.com >>Amazon's S3 is a nice and cheap way to have a remote backup system. But it is REST based which make it not very easy to use. This project just add the normal file system semantic to it.   it use the boto package for communication with Amazon S3 service.
+
+S3-Simple-Fuse.GoogleCode.com >>s3-simple-fuse is a Fuse filesystem to acccess Amazon's S3 service. It's designed to "just work" (without requiring and preparation of the S3 bucket) and be interoperable with other S3-Clients. It's basically feature complete but hasn't received much public testing yet. Use at your own risk.
+
+Duplicati.GoogleCode.com >>Duplicati is a free (LGPL) backup system, and a 100% managed C# implementation of Duplicity. Duplicati enables you to setup and monitor backups on Windows or Linux.
+
+Eucalyptus.com >>Eucalyptus is a software platform for the implementation of private cloud computing on computer clusters. There are enterprise edition and open-source edition. Currently, it exports a user-facing interface that is compatible with the Amazon EC2 and S3 services but the platform is modularized so that it can support a set of different interfaces simultaneously. The development of Eucalyptus software is sponsored by Eucalyptus Systems, a venture-backed start-up.[2] Eucalyptus works with most currently available Linux distributions including Ubuntu, Red Hat Enterprise Linux (RHEL), CentOS, SUSE Linux Enterprise Server (SLES), OpenSUSE, Debian and Fedora. Similarly Eucalyptus can use a variety of virtualization technologies including VMware, Xen and KVM hypervisors to implement the cloud abstractions it supports. Eucalyptus is an acronym for "Elastic Utility Computing Architecture for Linking Your Programs To Useful Systems".
+
+OpenNebula.org (ruby)>>Fully open source (not open core), thoroughly tested, customizable, extensible and with unique features and excellent performance and scalability to manage hundreds of thousands of VMs:

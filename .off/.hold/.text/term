@@ -1,0 +1,40 @@
+Related: console, constrain, key, PXE, shell, spell, tag, time, title, word
+
+Pleyades.net/david/sakura.php >>sakura is a terminal emulator based on GTK and VTE. It's a terminal emulator with few dependencies, so you don't need a full GNOME desktop installed to have a decent terminal emulator. Current terminal emulators based on VTE are  gnome-terminal, XFCE Terminal, TermIt and a small sample program included in the vte sources. The differences between sakura and the last one are that it uses a notebook to provide several terminals in one window and adds a contextual menu with some basic options. No more no less.
+
+Realterm.sf.net >>Realterm is a terminal program specially designed for capturing, controlling and debugging binary and other difficult data streams. It is far better for debugging comms than Hyperterminal. It has no support for dialing modems, BBS etc - that is what hyperterminal does.
+
+TTSSH2.SourceForge.jp >>TeraTerm Project would have been developed terminal emulator "Tera Term" and SSH module "TTSSH". This software is open source software under BSD License. This is Tera Term Pro 2.3 succession version and is being officially recognized by the original author.
+
+MinTTY.GoogleCode.com >>MinTTY is a terminal emulator for Cygwin. It is based on code from PuTTY 0.60 by Simon Tatham and team.
+
+puttycyg.GoogleCode.com >>PuTTYcyg is a patched version of PuTTY that, in addition to telnet, rlogin, ssh, and serial connections, can also be used as a local Cygwin terminal instead of the Windows console or xterm.  See RATIONALE section.
+
+$ mstsc #Microsoft Terminal Services Client
+
+When in X Window you may usually access several "virtual terminals" by pressing  Ctrl-Alt-F1, Ctrl-Alt-F2, Ctrl-Alt-F3, etc.  X is usually running on Ctrl-Alt-F7 or Ctrl-Alt-F5.
+
+Calno.com/evilvte >>VTE based, highly customizable terminal emulator
+
+rxvt
+uterm
+
+Tilda.sf.net >>Tilda is a Linux terminal taking after the likeness of many classic terminals from first person shooter games, Quake, Doom and Half-Life (to name a few), where the terminal has no border and is hidden from the desktop until a key is pressed.
+
+Yakuake.uv.ro >>Yet Another Kuake KDE terminal emulator
+
+Phrat.de >>YeahConsole turns an xterm into a gamelike console. This means it will slide down from top of your screen if you hit a shortcut key.
+
+
+AnyTerm.org >>Have you ever wanted SSH or telnet access to your system from an "internet desert" - from behind a strict firewall, from an internet cafe, or even from a mobile phone? Anyterm is a combination of a web page and a web server module that provides this access - see the demos.
+
+Antony.Lesuisse.org/qweb/trac/wiki/AjaxTerm >>Ajaxterm is a web based terminal. It was totally inspired and works almost exactly like http://anyterm.org/ except it's much easier to install (see comparaison with anyterm below).
+
+seehuhn.de/pages/jvterm >>Jvterm is a terminal emulator, somewhat similar to the Linux text console or the XTerm terminal emulator. Usually it runs in fullscreen mode, so you can use it to make your X11 desktop look like a boring text console ;-)
+
+
+VicerVeza.HomeUnix.net/~viric/soft/tm >>This program can start processes inside a pseudo-terminal, which can be accessed through a Unix socket, TCP or even raw ethernet (using the ethernet protocol 0xCACA). The programs can be linked to the current terminal, or they can be unlinked like in nohup. But even in this latter case you can connect to them using the mentioned protocols.
+
+
+LTSP.org >>Linux Terminal Server Project
+

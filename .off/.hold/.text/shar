@@ -1,0 +1,74 @@
+Relat: gift, join, NFS, P2P, SMB, remote, stock, trade
+
+A share is one portion of a co-owned physical source.
+
+Hardware Shares: On the impossibility of sharing hardware
+* AWS.BlueHome.net/saas.html >>Richard M Stallman- Software as a Service - Given at LibrePlanet 2010, Cambridge, Massachusetts, USA, at the Harvard University Science Center. 20th March 2010.
+* JoinDiaspora.com
+* NetTime.org/Lists-Archives/nettime-l-1005/msg00002.html
+* GNU.org/philosophy/who-does-that-server-really-serve.html
+* P2PFoundation.net/Personal_Server and Groups.FSF.org/wiki/LibrePlanet2009/Personal_Servers
+* SoftwareFreedom.org/events/2010/bkuhn-libreplanet-2010 >>Software Freedom In Network Services
+* SoftwareFreedom.org/events/2010/texas-linux-fest-2010 >>With Software as a Service, Is Only the Network Luddite Free?
+* SoftwareFreedom.org/events/2010/isoc-ny/FreedomInTheCloud-transcript.html
+* ZDNet.com/blog/btl/gpls-cloudy-future/15855
+* H-Online.com/open/features/Interview-Eben-Moglen-Freedom-vs-the-Cloud-Log-955421.html
+
+
+Shareable.net >>Design for a sharable world
+
+LinuxJournal.com/article/4880 >>Starting Share Files with NFS
+
+NIKHEF.nl/~janjust /CifsOverSSH/Howto_NoFileSharing.html >>Mounting your Nikhef home directory using SSH when Windows File Sharing is disabled
+
+Code.Google.com/p/giver >>Giver is a simple file sharing desktop application. Other people running Giver on your network are automatically discovered and you can send files to them by simply dragging the files to their photo or icon shown in Giver. There is no knowledge or set up needed beyond what the person looks like or their name to use Giver.
+
+Lanshark.29a.ch >>Lanshark is a free filesharing tool for local area networks. Lanshark allows you to share files with other users in the same network more efficiently. It automatically detects other lanshark users in the same Network and lets you browse trough their shares. Lanshark has a very fast search function that allows you to search through all the shares in the whole network in just a few seconds!
+
+SlSkNet.org >>Soulseek(tm) is a unique ad-free, spyware free, and just plain free file sharing application.  One of the things that makes Soulseek(tm) unique is our community and community-related features. Based on peer-to-peer technology, virtual rooms allow you to meet people with the same interests, share information, and chat freely using real-time messages in public or private.
+
+CosmoPool.net >>The resource sharing network.
+
+WikiShare.sf.net >>Wiki Web and file sharing in a distributed datastore. The project aims to define a protocol and to provide implementations for a fully decentralized web authoring and content management system.
+
+ShareWidely.org >>Find. Create. Remix.
+
+FreeSharing.org >>The Next Generation of Free Recycling
+
+BorrowMe.com >>Bye Bye to Buying(TM)
+
+Benkler.org/SharingNicely.html
+
+
+
+==NFS shares
+Following condensed frm http://mybeni.rootzilla.de/mybeNi/2007/how_to_set_up_nfs_and_how_to_share_files_in_a_local_network_with_ubuntu_linux
+
+Share /media/music from 'ERNIE':
+$ sudo apt-get install nfs-kernel-server
+
+Add a line to /etc/exports:
+$ ECHO "/media/music BERT(ro,async,all_squash)" >> /etc/exports
+
+Restart the NFS Server
+$ sudo /etc/init.d/nfs-kernel-server restart
+
+
+Connect and mount from 'BERT'
+$ sudo apt-get install nfs-common
+$ mkdir /var/music
+$ sudo mount ernie:/media/music /var/music
+
+To automount at start, add a line to /etc/fstab
+$ ECHO "ernie:/media/music  /var/music     nfs r,hard   0  0" >> /etc/fstab
+
+. Maybe add line to /etc/hosts.allow
+. Maybe open ports 111, 2049, 32771 (from client and server, but not from router).
+. Adjust server firewall to allow connections from client IP
+. Add client IP to the file /etc/hosts on server
+
+on server:
+$ sudo exportfs -ra
+$ sudo /etc/init.d/portmap/ restart
+$ sudo /etc/init.d/nfs-kernel-server restart
+

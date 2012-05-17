@@ -1,0 +1,5 @@
+Related: file, NTFS
+
+File Allocation Table(FAT) is an older filesystem from Microsoft.
+
+FATResize.sf.net >>The FAT16/FAT32 non-destructive resizer.

@@ -1,0 +1,12 @@
+Related: load, net
+
+Halite.sf.net >>Halite is an open-source BitTorrent client and is based on the excellent libtorrent library from Rasterbar Software. The remote control interface for Halite has been put on the back burner while the more pressing features that a bittorrent client needs.
+
+Flush.sf.net >>GTK-based BitTorrent client.
+
+WideStream.sf.net (.NET)>>WideStream is a download manager and FTP manager which main targets are speed, ease of use and rich functionality. WideStream supports multi-threaded downloads, download by ranges (can interrupt and continue downloads at any moment), direct and indirect HTTP downloads, HTTP redirects, FTP downloads, network traffic management, download priorities, host manager and offers rich configurability and easy to use and user friendly UI.
+
+FreeDownloadManager.org >>What is Free Download Manager? It is a powerful, easy-to-use and absolutely free download accelerator and manager. Moreover, FDM is 100% safe, open-source software distributed under GPL license.
+
+wget, wput
+aria2.sf.net >>aria2 is a utility for downloading files. The supported protocols are HTTP(S), FTP, BitTorrent (DHT, PEX, MSE/PE), and Metalink.

@@ -1,0 +1,9 @@
+Related: build, configure, ERP, install, setup
+
+Better-SCM.berliOS.de >>Version control systems (or Source Configuration Management systems) allow developers or authors to keep track of the history of their projects source code - to checkout older versions, maintain several branches, and merge results. The Better SCM Site is a site for comparison and advocacy of version control systems (VCSes).
+
+Fossil-SCM.org >>Fossil: Simple, high-reliability, distributed software configuration management
+
+Paella.berliOS.de >>Paella is a installation/configuration management system centered on being able to easily define, configure, maintain and update systems and networks.  The define, configure and install parts are working well.  The update and maintain portions still have yet to be realized.    Paella is not a fully extensible installer that can work in a variety of environments.  The debian-installer works much better for a generic installer.  The paella installer is designed to be run from a live system (preferably built with DebianLive) with access to a postgresql database, and a debian mirror.  It's mainly tested and used with a "net" live image, but it can be used from cdrom, or external USB.  It can also install a system in a chroot environment, although not all the features are supported in this case.
+
+Wikipedia.org/wiki/Configuration_management >>Configuration Management(CM) is a field of management that focuses on establishing and maintaining consistency of a product's performance and its functional and physical attributes with its requirements, design, and operational information throughout its life.  For information assurance, CM can be defined as the management of security features and assurances through control of changes made to hardware, software, firmware, documentation, test, test fixtures, and test documentation throughout the life cycle of an information system.

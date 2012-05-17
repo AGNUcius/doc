@@ -1,0 +1,42 @@
+computer: boot, first, getty, ksysv, start
+
+Roy.Marples.name/projects/openrc >>OpenRC is a dependency based init system that works with the system provided init program, normally /sbin/init. It is not a replacement for /sbin/init. OpenRC is 100% compatible with  Gentoo init scripts, which means you can probably find one for the daemons you want to start in the  Gentoo Portage Tree. OpenRC also provides an init script that runs BSD rc.d style scripts too, making it easy to port your BSD system to OpenRC.
+
+John.Fremlin.de/programs/linux/jinit >>jinit is based on an extended version of Richard Gooch's need(8) scheme for inits. Currently there is no provide(8) functionality, but that should not be difficult to implement, if someone ever needs it.
+
+FBunet.de/minit.shtml minit is a very small replacement for SysVinit. Minit has been developed by Felix von Leitner. Minit can replace SysVinit completly and is daemontools-alike.
+
+www.FEFE.de/minit >>minit - a small yet feature-complete init
+
+BusyBox.net/~vda/init_vs_runsv.html >>SysV init must die.
+
+SMarden.org/runit >>runit - a UNIX init scheme with service supervision
+
+TechNet.Microsoft.com/en-us/sysinternals/bb963902.aspx >>Autoruns - This utility, which has the most comprehensive knowledge of auto-starting locations of any startup monitor, shows you what programs are configured to run during system bootup or login, and shows you the entries in the order Windows processes them. These programs include ones in your startup folder, Run, RunOnce, and other Registry keys. You can configure Autoruns to show other locations, including Explorer shell extensions, toolbars, browser helper objects, Winlogon notifications, auto-start services, and much more. Autoruns goes way beyond the MSConfig utility bundled with Windows Me and XP.
+
+unix files: /sbin/init, /etc/inittab, /etc/init.d, /usr/share/doc/sysvinit
+
+Upstart.UBUNTU.com >>Upstart is an event-based replacement for the /sbin/init daemon which handles starting of tasks and services during boot, stopping them during shutdown and supervising them while the system is running.
+
+Unix.Schottelius.org/cinit >>cinit is a fast, small and simple init with support for profiles.
+
+initng is a new version that may be worth watching.
+
+UBUNTU Edgy will use Upstart to manage services
+
+c:\windows\system32\wininit.exe
+
+Use c:\windows\wininit.ini to move or rename files.
+
+$ msconfig #configure startup
+
+
+$ sudo apt-get install bum #Boot Up Manager
+
+HackToLive.org/wiki/UNetbootin_-_Super_Ubuntu
+
+LUBI.sourceforge.net and LaunchPad.net/unetbootin >>UNetbootin allows for the installation of Ubuntu, Fedora, Mandriva, OpenSuse, Arch Linux, or Debian to a real partition, so it's no different from a standard install, only it has the advantage that it needs no CD.
+
+Elinux.org/Boot_Time >>This page has information about reducing boot-up time for a Linux system. This is of interest for many embedded developers, because for many products customers expect to be able to use them very soon after system startup.
+
+Edit /etc/rc.local to change what services start during boot.

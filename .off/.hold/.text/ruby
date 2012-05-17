@@ -1,0 +1,28 @@
+Related: compute, lang
+
+Caliban.org/ruby/rit.shtml >>rit is the Ruby IMAP tool. It can be used to manipulate mailboxes over IMAP, allowing you to copy and delete mailboxes and their contents.
+
+http://codeclimber.blogspot.com/2008/06/using-ruby-for-imap-with-gmail.html
+
+http://www.ruby-doc.org/stdlib/libdoc/net/imap/rdoc/index.html
+
+merbivore.com
+
+
+==Gems on Windows
+http://stevenharman.net/blog/archive/2008/11/12/installing-rubygems-in-cygwin.aspx
+
+$ pkg-install.exe http://rubyforge.org/projects/rubygems
+$ unpack.exe ruby.tar.gz
+$ ruby.exe setup.rb install
+$ gem.exe update --system
+
+
+   3. In a bash terminal, navigate to the unpacked directory
+   4. Run the following command:
+
+      ruby setup.rb install
+
+   5. Update RubyGems by running the following: 
+
+

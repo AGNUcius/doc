@@ -1,0 +1,7 @@
+Related: develop, Devlog, hardware
+
+devices:
+$ lsdev # display information about installed hardware
+$ lshal # List devices and their properties
+
+devil: evil

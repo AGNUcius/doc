@@ -1,0 +1,3 @@
+Related: net, ping
+
+Alhem.net/project/ex10 >>This is a chat program that use the ICMP protocol to communicate. It's a conversion from a gpl'd C code example written by Vergil at www.ragestorm.net. There are two new socket classes - Stdin/Stdin2 to read from the console and ICMPTwistSocket to read/write the icmp messages.

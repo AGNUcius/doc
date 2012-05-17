@@ -1,0 +1,13 @@
+Related: change, delta, diff, match, modify
+
+TIBED.net/vpatch >>VPatch is a free patch generator which can generate small patch files which can update old versions to new versions. This means that if the old version is installed on the user system, you can patch it to the new version, and you don't have to distribute the full new version, only the much smaller patch.
+
+Cyberelk.net/tim/software/patchutils >>Patchutils is a small collection of programs that operate on patch files.
+
+xlike.BlackRoute.org >>xlike is a patch collection for the Linux vanilla kernel. It includes as many stable enhancements for the Linux kernel as possible. These include code from Xen, Kernel Mode Linux, Rule Set Based Access Control, Novell AppArmor, Openswan, grsecurity, Linux VServer, Linux-PHC, web100, Nefilters, Suspend2, Speakup, SquashFS, UnionFS, Bootsplash, BadRAM, and more. It also contains many drivers and fixes.
+
+GNU.org/software/patch >>`patch' takes a patch file containing a difference listing produced by diff and applies those differences to one or more original files, producing patched versions.
+
+CodeProject.com/KB/applications/patch.aspx >>Patch: WTL application for creating patches and patching files
+
+CodeProject.com/KB/applications/unpatcher.aspx >>UnPatcher: a COM object for patching files    mspatchc.dll (creation) and mspatcha.dll (apply). I've not included these DLLs in the zips (I don't know if I can redistribute them). You can find the creation dll in the Platform SDK and the apply dll comes with MSIE 5.01 (maybe with other MS products, I looked on MSDN and found only IE carrying this).

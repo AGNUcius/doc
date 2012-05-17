@@ -1,0 +1,51 @@
+Related: burn, CD, DeCSS, Digital Video Disk, ISO, MPlayer
+
+AVStoDVD.sf.net, Sites.Google.com/site/avstodvdmain >>AVStoDVD is a flexible tool to convert various media formats to DVD compliant streams and burn them into a highly compatible multiple tracks DVD.
+
+Bombono.org >>Bombono DVD is a DVD authoring program for Linux. It is made easy to use and has nice and clean GUI (Gtk).
+
+K9Copy.sf.net >>K9Copy is a small utility which allows copying DVD's on Linux.
+
+Vamps.sf.net >>Vamps was written to make cheap backups of DVDs under Linux. Back in 2003 Metakine published the source code of their M2Requantiser module. The idea was to make use of this great piece of software to create a transcoder for Linux for shrinking the content of a DVD9. This would enable backups on cheap single layer DVDRs (double layer burners weren't even available that time). The Metakine requantizer is pretty fast and so Vamps was designed not to break this outstanding performance.
+
+SMILE.TuxFamily.org >>Slideshow Maker In Linux Environment
+
+DVDStyler.org >>DVDStyler is a cross-platform free DVD authoring application for the creation of professional-looking DVDs. It allows not only burning of video files on DVD that can be played practically on any standalone DVD player, but also creation of individually designed DVD menus. It is Open Source Software and is completely free.
+
+lsDVD
+
+DVDFlick.net >>DVD Flick aims to be a simple but at the same time powerful DVD Authoring tool. It can take a number of video files stored on your computer and turn them into a DVD that will play back on your DVD player, Media Center or Home Cinema Set. You can add additional custom audio tracks, subtitles as well as a menu for easier navigation.
+
+HandBrake.fr >>HandBrake is an open-source, GPL-licensed, multiplatform, multithreaded video transcoder, available for MacOS X, Linux and Windows.
+
+Kornelix.SquareSpace.com /dkopp >>dkopp is a free open source Linux program used to copy or back-up disk files to DVD. Full or incremental backups can be done, with full or incremental DVD verification. A GUI is used to navigate through directories to select or de-select files or directories at any level. Backup jobs can be saved for later re-use. New, deleted, and updated disk files are handled automatically, without re-editing the backup job. An incremental backup updates the same DVD used for a prior full backup. Files can be restored to the same or another location on disk. Large backup jobs can be done using multiple DVD media.
+
+lxdvdrip.berliOS.de >>lxdvdrip is a command line tool to make a copy from a video DVD for private Use.  It automates the process of DVD ripping, authoring, previewing and burning.
+
+MeGUI.sf.net >>MeGUI is the most comprehensive GUI based ISO MPEG-4 solution. It suports MPEG-4 ASP (XviD & libavcodec MPEG-4) using mencoder, MPEG-4 AVC (x264) using x264.exe or mencoder, (HE)AAC audio using BeSweet & Nero AAC encoder and MP4 muxing using mp4box.
+
+LittleSVR.ca/isomaster >>The World's Best ISO Editor
+
+dvdisaster.net >>CD and DVD media keep their data only for a finite time (typically for many years). After that time, data loss develops slowly with read errors growing from the outer media region towards the inside.  dvdisaster stores data on CD/DVD (supported media) in a way that it is fully recoverable even after some read errors have developed. This enables you to rescue the complete data to a new medium.
+
+RasterSoft.com/programas/devede.html >>DeVeDe is a program to create video DVDs and CDs (VCD, sVCD or CVD), suitables for home players, from any number of video files, in any of the formats supported by Mplayer.
+
+OGMRip.sf.net >>OGMRip is an application and a set of libraries for ripping and encoding DVD into AVI, OGM MP4 or Matroska files using a wide variety of codecs. It relies on mplayer, mencoder, ogmtools, mkvtoolnix, oggenc, lame and faac to perform its tasks.
+
+thoggen.net >>DVD backup/ripping with style
+DVDAuthor.sf.net and QDVDAuthor.sf.net
+
+DVD-SlideShow.sf.net
+CCDtoVCD.sf.net
+SLCreator.sf.net
+VirtualPhotoOrg.sf.net
+DiaScope.sf.net
+NonGNU.org/dvdrtools
+Jensge.org/video/mmm MakeMovingMenus
+DRip.sf.net
+DVD.sf.net
+GordianKnot.sf.net
+DVDPlusRW.org
+Fy.Chalmers.se/~appro/linux/DVD+RW
+www.labs.nec.co.jp/Eng/Topics/data/r020829
+www.pioneeraus.com.au/multimedia/dvd/dvd_general_info.htm

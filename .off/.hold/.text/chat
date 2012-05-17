@@ -1,0 +1,75 @@
+Related: IM, IRC, mail, MSN, mud, P2P, phone, talk, VPN
+
+NCH.sf.net >>NetChat is a combination of NetCat and ppp's "chat", put on steroids for high performance. It is meant as a network exercise tool. Using simple "say this, expect this reply" scripts, NetChat can be made to easilly speak most text-based protocols (such as SMTP, HTTP, POP3 etc.), and many binary protocols, very easilly.
+
+http://MediaWiki.org/wiki/Extension:WebIRC >>The WebIRC extension adds a special page used to chat in real time with other wiki users using a web-based IRC client. Once installed, it will be available via Special:WebIRC
+
+qwebirc.org >>qwebirc is a fast, easy to use, free and open source IRC client designed by and originally just for the QuakeNet IRC network.
+
+WeeChat.org >>WeeChat is a fast, light and extensible chat client. It runs on many platforms (including Linux, BSD and Mac OS).
+
+RetroMessenger.sf.net >>Instant Messenger - secure & serverless, maintenance free, open source, PC & Mobile Linux/Win Phone Usage.
+
+Gajim.org >>The goal of Gajim is to provide a full featured and easy to use Jabber client. Gajim works nicely with GNOME, but does not require it to run. It is released under the GNU General Public License. If you find bugs or have ideas how Gajim can be better, please send tickets.
+
+PSYC.eu >>PSYC is a modern protocol for a messaging infrastructure for text-based conferencing (but also enabling transparent binary data). It has learned from protocols such as IRC and XMPP and found an approach that can indeed scale globally, by generalizing the multicast concept beyond chatrooms to presence awareness, news- and friendcasting and leers at decentralized privacy-driven social networking (using trust metrics) and even telephony. Also, chatrooms are programmable, which enables for applications like event notification.
+
+Wikipedia.org/wiki/PSYC >>PSYC (Protocol for SYnchronous Conferencing) is a flexible text-based protocol for delivery of data to a large number of recipients or people. It is used for text chat, instant messaging, presence display, newscasting and social networking.
+
+RabbitMQ.com >>RabbitMQ is an implementation of AMQP, the emerging standard for high performance enterprise messaging.
+
+laffer.sf.net >>Laffer Project is an effort to build complete IM environment using the model for developing Open Source Software.    Laffer Web Client(LWC) is pure HTML web application using JavaScript and DOM.
+
+Ekiga.org >>Ekiga (formely known as GnomeMeeting) is an open source VoIP and video conferencing application for GNOME. Ekiga uses both the H.323 and SIP protocols. It supports many audio and video codecs, and is interoperable with other SIP compliant software and also with Microsoft NetMeeting.
+
+AIMSniff.com >>AIM Sniff is a utility for monitoring and archiving AOL Instant Messenger and MSN messages across a network.
+
+KVIrc.net >>KVIrc is a free portable IRC client based on the excellent Qt GUI toolkit. KVirc is being written by Szymon Stefanek and the KVIrc Development Team with the contribution of many IRC addicted developers around the world.
+
+Moosaico.com >>Multilingual Virtual Community
+
+GitHub.com/melo/rasputine >>Rasputine is a XMPP-to-MUD/Moo/Talker systems.
+
+JabbIM.com >>Jabbim is an Instant Messaging service. It allows you to send messages to your friends in almost-real time. Jabbim services are free of charge.
+
+Code.Google.com/p/torchat >>TorChat is a peer to peer instant messenger with a completely decentralized design, built on top of Tor's location hidden services, giving you extremely strong anonymity while being very easy to use without the need to install or configure anything.
+
+AjaxIM.com >>ajax im ("asynchronous javascript and xml instant messenger") is a browser-based instant messaging client. It uses AJAX to create a near real-time IM environment that can be used in conjunction with community, intranet, and social websites. No refreshing of the page is ever needed for this "web application" to work, as everything is updated in real-time via JavaScript.
+
+Blueimp.net/ajax >>AJAX Chat is a free and fully customizable open source web chat software implemented in JavaScript, PHP and MySQL. Sound support is implemented using Flash, Socket support using Flash on client-side and Ruby on server-side.
+
+SamePlace.cc >>Mozilla-based Instant Messaging. User-friendly, secure, extensible --- use it inside Firefox, Flock or Thunderbird.
+
+Pidgin.im >>Pidgin is a multi-protocol Instant Messaging client that allows you to use all of your IM accounts at once.  Pidgin works with: AIM, Bonjour, Gadu-Gadu, Google Talk, Groupwise, ICQ, IRC, MSN, MySpaceIM, QQ, SILC, SIMPLE, Sametime, XMPP, Yahoo!, Zephyr
+
+DutchPipe.org >>Each web page becomes an abstracted environment or location where visitors and other items on the page are visualized. This status is retained as visitors move around.
+
+old.Manuel.Kiessling.net/projects/software/arsc >>ARSC Really Simple Chat
+
+3DChat.org Java >>The Virtual Universe is more than only a simple 3d-chat: here a complete virtual reality is simulated that can be used not only for entertainment but also for visualization and simulation purposes.
+
+Planet-Earth.org >>The planet-earth project is building a live, immersive, user-created map of the whole world and everything in it.
+
+ANtsP2P.sf.net >>ANts P2P realizes a third generation P2P net.  It protects your privacy while you are connected and makes you not trackable, hiding your identity (ip) and crypting everything you are sending/receiving from others.
+
+RetroShare.sf.net >>Friend to Friend (F2F) info sharing.  P2P serverless VOIP, Instant Messenger Phone Calls open H.232 & SIP
+
+TStone.sf.net >>We offer an open library to support serverless VOIP phonecalls for Instant Messengers.
+
+gale
+
+IRCBrowse.com >>This site allows visitors to browse select IRC (Internet Relay Chat) channels.
+
+ChaNT.com >>ChaNT™ is a flexible, powerful, cross-browser and easy to use open source web-based chat system written in PHP and JavaScript. Support for BBCode, 3D Animated Smileys with a IM like toolbar for formatting your chat messages. It does not require any browser plugins like Java or Flash. Also it not requires MySQL, all data stored in ordinary files.
+
+Decibel.kde.org >>The Vision: Communication as a fundamental part of your daily work and private live should be integrated into your desktop environment. This integration should transparently handle all the different protocols available to chat, speak or video-conference with your friends and coworkers.
+
+SILCNet.org >>SILC Project develops the Secure Internet Live Conferencing protocol, which provides secure conferencing services.
+
+Emacs-Jabber.sf.net >>a minimal jabber client for emacs
+
+JWChat.sf.net >>JWChat is a full featured, web-based Jabber client.  Written using AJAX technology it relies on JavaScript and HTML at the client-side only.  It supports basic jabber instant messaging, roster management and groupchats based on the MUC protocol.
+
+PunJab.sf.net >>PunJab is a HTTP, jabber client interface. It is a SOAP, XMLRPC, JEP-0025, or JEP-0124 server that allows persistent client connections to a jabber server. It can be used for many things, but its main purpose is to allow for stateless applications (ie web) a stateful connection to jabber.
+
+WASTE.sf.net >>WASTE is an anonymous, secure, and encryped collaboration tool which allows users to both share ideas through the chat interface and share data through the download system. WASTE is RSA secured, and has been hearalded as the most secure P2P connection protocol currently in development. For technical information please see "information", but for more information on download and installation, please see "downloads". Looking for other WASTE projects? Please choose "projects", or if you are interested in the main WASTE sourceforge project, see "sourceforge". Or, if you just need some help with WASTE, see "documentation".

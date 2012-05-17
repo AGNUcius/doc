@@ -1,0 +1,77 @@
+Related: admin, cook, cop, custodian, defense, farmer, govern, guard, guru, judge, knight, maid, mechanic, monitor, officer, police, root, sherrif, steward, WM, WMI
+
+procs
+network
+temperature
+fan speeds
+disk
+time
+window (wm)
+
+GNU.org/software/freeipmi >>FreeIPMI provides in-band and out-of-band IPMI software based on the IPMI v1.5/2.0 specification. The software has been written with a number of useful features for large HPC environments.
+
+Gedanken.Demon.co.uk/procmeter3
+
+OpenWSMan.org >>Openwsman is a project intended to provide an open-source implementation of the Web Services Management specification (WS-Management) and to expose system management information on the Linux operating system using the WS-Management protocol.
+
+SBLIM.sf.net (Standards Based Linux Instrumentation)>>SBLIM (pronounced "sublime") is an Open Source project, intended to enhance the manageability of GNU/Linux systems. It does so by enabling GNU/Linux for WBEM, a set of standards defined by the DMTF and fostered by the WBEMsource initiative.
+
+SFIDirector.sf.net >>The Node Director is a system management application for centralized user and host management in small to medium sized Unix / Linux / (Windows) system environments.
+
+
+==Other stuff
+====Display Managers, Session Managers, Login Managers:
+http://wiki.archlinux.org/index.php/CDM >>CDM is a minimalistic, yet full-featured replacement for login-managers like slim, kdm, gdm and qingy  that provides a fast, dialog-based login system without the overhead of the X Window System or the instability of qingy. Written in pure bash, CDM has no other dependencies, yet supports multiple users/sessions and can start virtually any DE/WM.
+
+qingy.sf.net >>Qingy Is Not GettY    qingy is a replacement for getty. Written in C, it uses DirectFB to provide a fast, nice GUI without the overhead of the X Windows System. It allows the user to log in and start the session of his choice (text console, gnome, kde, wmaker, ...).
+
+voins.program.ru/wdm >>Wings Display Manager
+SLiM.berliOS.de,
+XDM,
+GDM,
+KDM
+
+$ man xsession
+"'
+        $HOME/.Xsession
+              is a sequence of commands invoking X clients (or
+              a  session  manager  such  as xsm(1x)).  See the
+              manual      page      for      xinit      and/or
+              /usr/share/doc/x11-common/examples/xsession  for
+              tips on writing an .Xsession file.
+'"
+
+desktop environment: lxde.sf.net, KDE, Gnome, XFCE, CDE
+
+$ ln -s ~/.xinitrc ~/.xsession
+$ ln -s ~/.xinitrc ~/.Xclients
+$ sudo /etc/init.d/gdm start #restart gdm
+
+sample .xinitrc:
++------------------------------------+
+|#!/usr/bin/env bash				 |
+| 									 |
+|xcompmgr -fF -I-.002 -O-.003 -D1 &	 |
+|devilspie &						 |
+|sudo killall -9 esd				 |
+|sh ./.fehbg &						 |
+|xrdb -merge .Xdefaults &			 |
+| 									 |
+|export OOO_FORCE_DESKTOP=gnome		 |
+|export LANG="en_US.UTF-8"			 |
+|export LC_ALL="en_US.UTF-8"		 |
+|export LANGUAGE="en_US.UTF-8"		 |
+|export LC_CTYPE="en_US.UTF-8"		 |
+| 									 |
+|gnome-settings-daemon &			 |
+|gnome-volume-manager &				 |
+|conky &							 |
+| 									 |
+|exec quarkwm.sf.net				 |
++------------------------------------+
+
+www.gilesorr.com/papers/otherwm/book1.html
+www.plig.org/xwinman
+FreshMeat.net/articles/view/639
+cns.georgetown.edu/~ric/wm
+

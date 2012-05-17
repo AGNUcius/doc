@@ -1,0 +1,24 @@
+Related: DIF, driver
+
+OSROnline.com/article.cfm?article=97 >>devicetree    The greatest utility every written by master toolsmith and driver expert Mark Cariddi.  This utility has two views: (a) one view that will show you the entire PnP enumeration tree of device objects, including relationships among objects and all the device's reported PnP characteristics, and (b) a second view that shows you the device objects created, sorted by driver name.  There is nothing like this utility available anywhere else.
+
+$ devmgmt.msc #Device Manager
+
+Support.Microsoft.com/kb/Q304514 >>How to Configure Device Manager to Display Detailed Information
+
+
+Microsoft.com/emea/spotlight/sessionh.aspx?videoid=722
+
+
+==devcon
+$ devcon.exe >>The DevCon utility is a command-line utility that acts as an alternative to Device Manager.  Using DevCon, you can enable, disable, restart, update, remove, and query individual devices or groups of devices.  DevCon also provides information that is relevant to the driver developer and is not available in Device Manager. -- Support.Microsoft.com/kb/311272
+
+www.RobVanderwoude.com/devcon.html
+MakeMSI-Manual.DennisBareis.com/devcon_exe.htm
+
+====Building devcon.exe:
+Install Microsoft's DDK
+Open the proper build environment for your target platform
+
+$ cd c:\WinDDK\6001.18001\src\setup\devcon
+$ build -cfegb

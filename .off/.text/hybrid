@@ -1,0 +1,26 @@
+An alternate transportation technique using at least two power sources.
+
+A high level view of a hybrid vehicle in my mind combines a long range power source (usually internal combustion engine) with a way to cache some of the overflow energy that the inefficient source is producing - so it can be used during times of low-power need.
+
+Traditionally this overflow has been stored as electricity in lead-acid batteries.
+
+But there are other ways to store power:
+  Potential Energy:
+    Air pressure: Compress air.  www.engineer.ucla.edu/stories/2003/hybrid.htm
+    Elastic: compress or stretch a flexible material such as a spring or rubber band.  Like the toy airplanes with a twistable rubber band.
+
+
+Kinetic:
+  Intertia:  spin up a heavy flywheel. www.asi.org/adb/04/03/03/flywheel-energy-storage.html
+  Harmonics?: vibrate something?
+  Heat: boil water and drive a tiny steam engine.  Combine with solar contentrating mirrors.
+
+
+I am fascinated with the idea of converting old vehicles into hybrids.
+
+What is the smallest ratio of [an electric motor's power]/[a vehicle's weight] that would allow a reasonable but low performance transportation solution?
+
+Manual transmission vehicles generally include a 'safety' switch on the clutch which must be opened (by disengaging the clutch) before current is allowed to the electric starter.  Bypassing this switch shows the starter has enough power to both turn the crank-shaft of the internal combustion engine (which consumes much power because of the compression taking place in each cylinder) _and_ move the vehicle forward in first or even second gear.  If the starter motor could be clutched to the drive-train, without turning the engine, it may even be able to pull third gear.
+
+There are likely to be problems with this, as starter motors are not designed to be run more than a few seconds at a time.  But we might be able to make modifications to keep this near zero cost.
+

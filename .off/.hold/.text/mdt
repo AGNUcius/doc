@@ -1,0 +1,31 @@
+Related: AIK, install, OPK, WAIK, WinPE
+
+TechNet.Microsoft.com/en-us/library/ee376932.aspx >>Microsoft Deployment Toolkit
+
+Blogs.TechNet.com/msdeployment >>Microsoft Deployment Toolkit Team Blog
+
+Microsoft.com/downloads/details.aspx?familyid=3BD8561F-77AC-4400-A0C1-FE871C461A89 >>Microsoft Deployment Toolkit (MDT) 2010
+
+
+http://serverfault.com/questions/6826/sample-code-for-nice-gui-for-imagex-to-automatically-deploy-wim-files-using-win
+"'
+The Microsoft Deployment Toolkit 2008 Update 1 does all this and more. And it's free too! MDT 2008 will also solve a number other problems you might have.
+
+MDT 2008 includes a mmc console, a customised WinPE build environment and many very useful scripts. From it's 'imagex' wrapper gui it can (via lite touch or zero touch, smb share, pxeboot or media):
+
+   1. Inject new drivers
+   2. Change the HAL
+   3. Input a PC name and join the machine to a domain.
+   4. Change the timezone and language details
+   5. Change the local admin password
+   6. Running Windows update (including running it against your own WSUS server)
+   7. Install additional programs.
+
+MDT 2008 can also:
+
+   1. Inject new mass storage drivers
+   2. Automate imagex build and captures
+   3. Change customise deployments based on data inputted into database.
+   4. Customise WinPE images
+   5. Tons more that I'll get to listing.
+'"

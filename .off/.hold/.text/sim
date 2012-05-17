@@ -1,0 +1,10 @@
+Related: emu, game, virt
+
+SkyEye.org >>SkyEye is an Open Source Software Project (GPL Licence). Origin from GDB/Armulator, The goal of SkyEye is to provide an integrated simulation environment in Linux and Windows. SkyEye environment simulates typical Embedded Computer Systems (Now it supports a series ARM architecture based microprocessors and Blackfin DSP Processor). You can run some Embedded Operation System such as ARM Linux, uClinux, uc/OS-II (ucos-ii) etc. in SkyEye, and analysis or debug them at source level.
+
+SOFA-Framework.org >>SOFA is an Open Source framework primarily targeted at real-time simulation, with an emphasis on medical simulation. It is mostly intended for the research community to help develop newer algorithms, but can also be used as an efficient prototyping tool.
+
+SimPy.sf.net >>SimPy (= Simulation in Python) is an object-oriented, process-based discrete-event simulation language based on standard Python. It is released under the GNU Lesser GPL (LGPL), starting with version 1.5.1 (previous versions were released under GPL). It provides the modeler with components of a simulation model including processes, for active components like customers, messages, and vehicles, and resources, for passive components that form limited capacity congestion points like servers, checkout counters, and tunnels. It also provides monitor variables to aid in gathering statistics. Random variates are provided by the standard Python random module.
+
+http://www.caci.com/asl/simscript.shtml
+http://homepages.mcs.vuw.ac.nz/~vignaux/docs/simscript.html >>Simscript Simplified G A Vignaux Abstract Simscript II.5 is a powerful simulation language in active use for major simulations, particularly in engineering applications. These notes illustrate just enough of the features of Simscript so that simple simulations programs can be written.

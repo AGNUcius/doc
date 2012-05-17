@@ -1,0 +1,21 @@
+Related: archive, cab
+
+Microsoft Compiled HTML Help cannot be used over a UNC path.
+
+BoneDaddy.net/pabs3/code/#hhm >>chmdeco
+
+SpeakEasy.org/~russotto/chm >>HTML Help (CHM) Tools and Information
+
+Jedrea.com/chmlib >>CHMLIB is a library for dealing with Microsoft ITSS/CHM format files. Right now, it is a very simple library, but sufficient for dealing with all of the .chm files I've come across. Due to the fairly well-designed indexing built into this particular file format, even a small library is able to gain reasonably good performance indexing into ITSS archives.
+
+xCHM.sf.net >>xCHM is a cross-platform GUI front-end to chmlib, with borrowed bits from Pabs' chmdeco project.  Originally written for UNIX systems (Linux, *BSD, Solaris), xCHM has been since ported to Mac OS X and Windows.  xCHM can show the content tree if one is available, print pages, change font face and size, remember bookmarks, display a searchable index, and search for words in the current page and the whole book.
+
+CHMSpec.NonGNU.org and Savannah.NonGNU.org/projects/chmspec >>This is an effort to document Microsoft's Compiled HTML Help files (CHMs), mainly the internal files, since the archive format is documented already.
+
+TrexINC.sf.net/chmview.php >>A tool for viewing and extracting files from CHM (HTMLHelp) files. Written to be used in conjunction with FarManager.com
+
+GnoCHM.sf.net >>GnoCHM is a CHM file viewer. It is designed to integrate nicely with  Gnome.
+
+Chmox.sf.net >>Read your CHM documents on your Mac.
+
+arCHMage.sf.net >>This is the home page of arCHMage. arCHMage is an extensible reader and decompiler for files in the CHM format. This is the format used by Microsoft HTML Help, and is also known as Compiled HTML.  arCHMage is written in the Python programming language and uses PyCHM - python bindings for CHMLib from GnoCHM project.

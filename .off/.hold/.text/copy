@@ -1,0 +1,13 @@
+Related: back, duplicate, file, image, rescue, shadow, share, sync
+
+SuperCopier.sf.net >>SuperCopier replaces windows explorer file copy and adds many features,Transfer resuming,Copy speed control,Copy speed computation ,Better copy progress display, Copy list editable while copying , Error log, Copy list saving/loading,...
+
+Alter.org.ua/en/soft/win/bb_recover >>Bad Block Copy for Windows    Copies file ignoring Bad Blocks.  If target file doesn't exists, instead of unread blocks ZEROs are written.  If target file exists, its blocks, coresponding to Bad Blocks in source are not touched.  Thus, if you have some copies of the same file with Bad Blocks in different places, it is possible to completly restore the original file.
+
+safecopy.sf.net >>safecopy is a data recovery tool which tries to extract as much data as possible from a problematic (i.e. damaged sectors) source - like floppy drives, harddisk partitions, CDs, tape devices, ..., where other tools like dd would fail doe to I/O errors.
+
+$ robocopy.exe #32-bit command-line tool used for file replication. This tool helps maintain identical copies of a directory structure on a single computer or in separate network locations. Robocopy is included in the Microsoft(R) Windows(R) Resource Kit.
+
+CopyHandler.com >>Copy Handler program is a small tool designed for copy/move files and folders between different storage medias (hard disks, floppy disks, local networks, CD-ROMs and many other).
+
+CopyCamp.ca >>An unconference for artists about the Internet and the challenge to copyright

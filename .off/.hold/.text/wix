@@ -1,0 +1,100 @@
+Related: install, msi, strap, wxs
+
+{{"'Sometimes I wonder if Windows Installer will be the death of me. While I've successfully shipped device drivers, debuggers, and all sorts of bizarre products, I have to say that trying to get something installed on Windows is one of the more frustrating things I have encountered in my career. I can't be the only one who feels getting files onto a machine in the approved manner is far more complicated than it needs to be. The horrible state of most installations we deal with speaks to that. If I were a high enough at Microsoft I would stop all development on Windows Installer 4.5 and make the team provide example installers for all the common scenarios as well as provide documentation that doesn't assume you're an install guru. Of course all the examples and documentation would be using Windows Installer XML (WiX) since Visual Studio "Rosario" is shipping WiX. Sorry for the venting, but sometimes you just have to. <g>'" -- Wintellect.com/cs/blogs/jrobbins/archive/2007/12/10/cumulative-patching-with-wix-2-0.aspx}}
+
+----
+WiX.sf.net >>The Windows Installer XML (WiX) is a toolset that builds Windows installation packages from XML source code. The toolset supports a command line environment that developers may integrate into their build processes to build MSI and MSM setup packages.
+
+NvinInstaller.GoogleCode.com >>1. Create 100% pure Microsoft Windows Installer (.MSI) format software installers. 2. This application is developed using next generation Windows Installer XML(WiX) compiler technology. This is the same technology Microsoft uses internally for creating installers for products like Microsoft Office, SQL Server, BizTalk and Windows Live Messenger. 3. User friendly interface allows you to create create setup files easily. No need to write scripts or learn any programming. 4. You can also edit installer images to make it suitable for your business.
+
+http://www.CodeProject.com/KB/library/driver-install-with-wix.aspx >>This article is devoted to the methods of the driver packages installation/uninstallation using WiX. In particular we will discuss the usage of the Microsoft DPInst utility for the installation and removal of the drivers during the Windows Installer package setup, review the principles of DPInst functioning, review the issues with the unsigned drivers installation and learn how to launch multiple MSI installations from already running Windows Installer package setup.
+
+www.CodeProject.com/KB/install/WixTutorial.aspx >>This article is intended as an absolute beginner's introduction to Wix and Votive.
+
+StackOverflow.com/users/23852/rob-mensching
+
+www.CodeProject.com/KB/install/WixTutorial2.aspx
+
+www.Tramontana.co.hu/wix >>WiX tutorial
+
+http://www.wintellect.com/cs/blogs/jrobbins/archive/2007/10/18/wix-hints-for-new-users-part-1-of-3.aspx >>WiX: Hints for New Users (Part 1 of 3)
+
+NeilSleightholm.BlogSpot.com >>A rarely updated random collection of things that interest me or I am working on.
+
+WiXEdit.sf.net >>WiXEdit is an editor for XML source files for the Windows Installer XML (WiX) toolset to build MSI and MSM setup packages. WiXEdit tries to make the editing of WiX XML source files simple and comprehensible for everyone. Without any or little knowledge of WiX or even XML, you can create MSI installer packages for your software!
+
+
+"c:\Program Files (x86)\Windows Installer XML v3"
+"c:\Program Files (x86)\Windows Installer 4.5 SDK\TOOLS\Orca.msi"
+"c:\Program Files (x86)\Orca"
+
+
+xsd schema
+candle.exe: compile .wsx -> .wixobj
+light.exe: link .wixobj -> .msi | .msm | .pcp
+dark.exe: decompile .msi ->  wsx
+tallow.exe: codegen, dir structure, self reg, assembly reg
+
+SharpDevelop.net
+
+Laputa.Sharpdevelop.net
+
+WiX.sf.net/votive.html >>Votive is the Visual Studio package for WiX that lets you create and build WiX setup projects using the Visual Studio IDE. Votive supports syntax highlighting and IntelliSense for .wxs source files and adds a WiX setup project type to Visual Studio.
+
+==Examples
+MSDN.Microsoft.com/en-us/magazine/cc163456.aspx >>Automate Releases With MSBuild And Windows Installer XML
+
+CSScript.net/WixSharp.html >>Wix# (WixSharp)  is  a new member in the CS-Script family.  Wix# is a managed interface to WiX (Windows Installer XML toolset for building Windows installation packages from XML source code).  Wix# allows building a complete MSI or WiX source code by executing script files written with the C# syntax.  It uses a C# class structure to mimic WiX entities and their relationships in order to produce a valid deployment model.
+
+CodeProject.com/KB/install/WixSharpArticle.aspx >>Wix# (WixSharp) - managed interface for WiX    By Oleg Shilo    An article on C# interface to the WiX toolset
+
+CSScript.net >>CS-Script is a CLR (Common Language Runtime) based scripting system which uses ECMA-compliant C# as a programming language. CS-Script currently targets Microsoft implementation of CLR (.NET 2.0/3.0/3.5) with limited support on Mono.  CS-Script is an open-source initiative that is distributed under the license agreement, which can be found here.  However commercial support is also available.  CS-Script combines the power and richness of C# and FCL with the flexibility of a scripting system.  CS-Script can be useful for system and network administrators, developers and testers.  For any one who needs an automation for solving variety of programming tasks.
+
+Dalun.com/wix
+
+WiXWiki.com
+
+Wintellect.com/cs/blogs/jrobbins/archive/2007/12/10/cumulative-patching-with-wix-2-0.aspx
+
+
+mk:@MSITStore:C:\Program%20Files%20(x86)\Windows%20Installer%20XML%20v3\doc\WiX.chm::/html/make_installer_localizable.htm
+
+Microsoft.com/downloads/details.aspx?FamilyId=37A9E590-4F55-44AC-93E1-36EB63A09240 >>The MSI Utility for Microsoft Application Virtualization is a new tool designed to extend virtual application deployment by enabling the distribution of virtual applications without streaming.
+
+Blogs.InfoSupport.com/martijnb/archive/2007/11/29/Using-WiX-UI-library.aspx
+"'
+Specify images, icons and license text using a WixVariable in your .wxs as:
+
+ <WixVariable  Id="WixUILicenseRtf" Value="EULA.rtf" Overridable="yes"/>
+
+WixUILicenseRtf Path to the license file
+WixUIBannerBmp Path to the top banner bitmap
+WixUIDialogBmp Path to the background bitmap used on welcome and install-complete dialogs
+WixUIExclamationIco Path to the exclamation icon on the wait-for-costing dialog
+WixUIInfoIco Path to the information icon on the cancel and error dialogs
+WixUINewIco Path to the button icon on directory-browse dialog
+WixUIUpIco Path to the button icon on directory-browse dialog
+'"
+
+Blogs.InfoSupport.com/MartijnB and Blogs.InfoSupport.com/files/folders/13947
+
+
+
+Blog.BenDay.com/archive/2007/08/09/23155.aspx
+"'
+After playing around with it for a while, I figured out that the <Shortcut> directives will always create shortcuts to the first <File> in the <Component> rather than the <File> that contains the <Shortcut>.
+
+So...the moral of the story is always put your <File>'s with <Shortcut>'s first in your <Component>.
+'"
+
+====Shortcuts
+Blogs.TechNet.com/alexshev/pages/from-msi-to-wix-part-10-shortcuts.aspx
+http://Blog.BitterCoder.com/PermaLink,guid,367c1e6a-39c8-4103-8bde-63061b48b1d7.aspx
+
+
+====Upgrade
+StackOverflow.com/questions/114165/how-to-implement-wix-installer-upgrade
+Support.Microsoft.com/kb/300540 >>ProductCode and UpgradeCode versioning
+
+
+WiX.sf.net/manual-wix3/check_for_dotnet.htm

@@ -1,0 +1,5 @@
+Related: P2P, share, torrent, user
+
+Peerscape.org >>Peerscape is a peer-to-peer social network that you can use to share photos and such with your family and friends.  It is an application that you run on your personal computer and interact with using a web browser.  In fact, it implements a kind of serverless read-write web supporting third-party AJAX application development.  Under the hood, your computer stores copies of your data, the data of your friends and the groups you have joined, and some data about, e.g., friends of friends.  It also caches copies of other data that you navigate to. Computers that store the same data establish connections among themselves to keep it in sync.
+
+peers-at-play.org >>The peers@play project investigates how peer-to-peer technology can be used to create distributed interactive world models that are able to fulfill the highest requirements with respect to scalability, security and consistency.  Such world models can, e.g., be used to create world-wide virtual communities, or globally operating context management systems.

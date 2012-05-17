@@ -1,0 +1,26 @@
+Related: vdskvmdk, VMware, vmx
+
+A .vmdk file stores a VMware virtual hard disk.
+
+Glandium.org/projects/vmfs-tools >>Originally loosely based on the vmfs code from fluidOps, this set of tools has since evolved to handle more features from VMFS, such as extents, and allows to access VMFS through the standard Linux VFS with the help of the FUSE framework.
+
+VMware.com/products/converter >>VMware vCenter Converter Standalone provides an easy-to-use solution to automate the process of creating VMware virtual machines from physical machines (running Windows and Linux), other virtual machine formats, and third-party image formats. Through an intuitive wizard-driven interface and a centralized management console, Converter Standalone can quickly and reliably convert multiple local and remote physical machines without any disruptions or downtime.
+
+Communities.VMware.com/community/developer/vddk
+
+http://www.vmware.com/download/download.do?downloadGroup=VDDK-1-0
+
+http://communities.vmware.com/blogs/DeveloperCenter/2008/04/17/announcing-the-latest-vmware-sdk-the-vmware-virtual-disk-development-kit-vddk
+
+"c:\Program Files (x86)\VMware\VMware Virtual Disk Development Kit"
+
+c:\dev\research\emu\qemu\block-vmdk.c
+LiveView.sf.net: c:\dev\research\emu\VMware\LiveViewPublicSourcev0.6\cert\forensics\liveview\LiveViewLauncher.java
+
+RobertPeasLee.com/index.php/converting-a-physical-disk-to-a-virtual-disk-for-free
+RobertPeasLee.com/index.php/raw-image-to-vmdk-the-easy-way
+
+ChitChat.at.infoseek.co.jp/vmware/vdk.html >>With VDK you can mount a VMware virtual disk to your Windows hosts and use them as another disk drive attached to your system.
+
+
+VMware.com/appliances/learn/ovf.html >>VMDK is a file format that only encodes a single virtual disk from a virtual machine. A VMDK does not contain information about the virtual hardware of a machine, such as the CPU, memory, disk, and network information. A virtual machine may include multiple virtual disks or VMDKs. An administrator who wishes to deploy a virtual disk must then configure all of this information, often manually, using incomplete documentation.  The OVF format, on the other hand, provides a complete specification of the virtual machine. This includes the full list of required virtual disks plus the required virtual hardware configuration, including CPU, memory, networking, and storage. An administrator can quickly provision this virtual machine into virtual infrastructure with little or no manual intervention. In addition, the OVF is a standards-based, portable format that allows the user to deploy this virtual machine in any hypervisor that supports OVF.

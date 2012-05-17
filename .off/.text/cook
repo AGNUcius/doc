@@ -1,0 +1,60 @@
+see also: build, food, make
+
+Large containers suspended in ceiling or garage at cool side of house are filled with dry permaculture material.
+
+A 5 hp electric motor mounted behind the wall exposes a splined hole to attach implements which: crack, core, peel, grind, juice, mix, knead, blend, slice, press oil
+
+Solar assisted heating allows the machine to: dehydrate, boil, steam, bake, toast, roast.
+
+Advanced version inspects material to alert or remove spoiled portions.
+
+bread: grind, mix, bake
+peanut butter: shell, roast, grind
+coffee: roast, grind, wet steam
+granola: oats, wheat, nuts, dried fuit, grain or bean or goat milk, honey
+
+(defun mashed-potatoes (servings)
+  (mix
+   (drain
+	(boil
+	 (dice
+	  (peel
+	   (wash (inspect (dispense potato "russet" (pound (* .5 servings)))) cold))
+	  .25 inches)
+	 15 minutes))
+   (rice-milk (cup (* .5 servings)) 0 )
+   (salt (* (teaspoon 1) servings))))
+
+
+(defun spaghetti ()
+  "Eat...   Eat!"
+  (let ((grain (aquire "/dev/hopper/wheat/spring/hard red"))
+		(tomatoes (aquire (alert "Feed jarred tomatoes into front hopper.  If using fresh tomatoes, blanch for 2 minutes to remove skin.  .(display press <Enter> to fill")))
+		())
+    (press (mix
+      (add
+        (aquire (tsp 2.5) salt)
+        (grind grain))
+      slow hook-2) 3mm-round)
+
+    ( tomatoes)))
+
+
+vegetarian burger:
+red beans, pinto beans, corn, carrots, cumin, black pepper, red pepper, thyme, licorice, oranges, apples, oregano, plums, peaches, tomato, celery, 
+
+
+weekday 7:30am (start coffee (roast dark))
+wednesday 7:30am (start bread (Mary's-Multigrain))
+sunday 9:30am (start (bread old-white))
+
+cleanup with roboWasher.
+
+sugar from sugar beets
+corn starch
+
+salt
+soda from ash?
+
+
+www.dangermouse.net/esoteric/chef.html

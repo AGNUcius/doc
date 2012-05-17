@@ -1,0 +1,12 @@
+gsutil.GoogleCode.com
+
+gsutil allows you to store, share and manage data hosted at cloud-based storage providers. It supports a URI syntax for naming data, as well as URI wildcards. For example, the following command will retrieve all of the objects in the bucket "gs://mybucket", and store them in a local directory:
+
+gsutil cp gs://mybucket/* local_directory
+
+At present gsutil works with Google Storage for Developers and Amazon's Simple Storage Service (S3).
+
+gsutil is implemented in Python, atop the popular boto open source library. That library is included automatically when you download or check out gsutil from this site.
+
+Google implemented gsutil in part to demonstrate how to get the most out of Google Storage, and also to make it easier for developers to build their apps or tools.
+

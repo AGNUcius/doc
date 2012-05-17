@@ -1,0 +1,10 @@
+Related: power, proc
+
+CPU = Central Processing Unit
+
+GPU.sf.net >>GPU is a Gnutella client that allows users to share CPU-resources.
+
+$ sudo apt-get install cpufrequtils
+$ cpufreq-info
+
+osdcpufreq.sf.net >>osdcpufreq displays an OSD-like window (similar effect as a television's on-screen volume control) with information about the CPU current status, including frequency, driver, governor... It is very useful for laptops equipped with mobile technology processors (like the Intel Centrino), which can change the speed on the fly.

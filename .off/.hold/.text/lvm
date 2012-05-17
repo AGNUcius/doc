@@ -1,0 +1,13 @@
+Related: disk
+
+Logical Volume Manager
+
+SourceWare.org/lvm2 >>LVM2 refers to a new userspace toolset that provide logical volume management facilities on linux. It is reasonably backwards-compatible with the original LVM toolset.
+
+$ cvs -d :pserver:cvs@sources.redhat.com:/cvs/lvm2 login cvs #The password is also 'cvs'
+$ cvs -d :pserver:cvs@sources.redhat.com:/cvs/lvm2 checkout LVM2
+
+
+http://Wikipedia.org/wiki/Logical_Volume_Manager_(Linux) >>LVM is a logical volume manager for the Linux kernel: it manages disk drives and similar mass-storage devices, in particular large ones. The term "volume" refers to a disk drive or part thereof. It was originally written in 1998 by Heinz Mauelshagen, who based its design on that of the LVM in HP-UX.
+
+HowtoForge.com/linux_lvm >>This guide shows how to work with LVM (Logical Volume Management) on Linux. It also describes how to use LVM together with RAID1 in an extra chapter. As LVM is a rather abstract topic, this article comes with a Debian Etch VMware image that you can download and start, and on that Debian Etch system you can run all the commands I execute here and compare your results with mine. Through this practical approach you should get used to LVM very fast.

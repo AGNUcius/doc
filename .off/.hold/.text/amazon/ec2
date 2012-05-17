@@ -1,0 +1,34 @@
+Related: AWS, S3
+Elastic Compute Cloud
+
+http://www.reynoldsftw.com/2009/01/amazon-ec2-building-a-windows-2003-instance-from-scratch-in-10-minutes
+
+http://code.ggvaidya.com/2009/05/bundling-amazon-ec2-linux-instance-into.html
+
+http://4sysops.com/archives/amazon-ec2-aws-management-console-bundling-amis
+
+
+To back-up an EC2 instance, right-click and choose "Bundle Instance (S3 AMI).
+
+The "Amazon S3 Key Name" is the filename for storing the AMI in your S3 bucket.
+
+After the bundling finishes, you can go to the 'AMIs' task and choose "Register new AMI".
+
+The "AMI Manifest Path" is in the form: "<Amazon S3 Bucket Name>/<Amazon S3 Key Name>.manifest.xml"
+
+Now you can right-click on the AMI and choose "Launch Instance".
+
+
+==projects
+https://github.com/solutious/rudy
+
+AWSEC2SOAP.CodePlex.com >> This sample library (along with a test program) shows simply how to access EC2 services via Microsoft's C# and Visual Studio and the SOAP interface (not REST). If you want REST, you can download a REST C# library from Amazon's website. The advantage to this method (SOAP) is that when Amazon updates the API, all you have to do (in Visual Studio) is to refresh a query to the WSDL site and viola! - API will have been updated. This is handy as Amazon continues to add features to this cool service.
+
+EC2Dream.GoogleCode.com >>EC2Dream is an open source GUI system admin tool for Amazon EC2, RDS and Eucalyptus. Combine it with the Chef configuration system and Git source control management for a complete open source management environment for EC2 compatible clouds. It is written in Ruby using FXRuby for a cross-platform GUI so it runs on Windows, Mac OSX and Linux. It is easy to modify the code or change features. It is licensed under the Apache 2.0 license.
+
+AWS.Amazon.com/developertools/351 (java)>>The API tools serve as the client interface to the Amazon EC2 web service. Use these tools to register and launch instances, manipulate security groups, and more.
+
+AWS.Amazon.com/ec2/vmimport
+
+EC2Console.CodePlex.com >>Amazon's Elastic Cloud Computing (EC2) service is a very intriguing idea: it allows you to scale applications almost instantly by booting additional instances of pre-defined virtual machines. What it does not have, however, is a decent management interface. The shell scripts that Amazon provides are not exactly well suited for management of large numbers of running machine instances. This project aims to bridge that gap by providing a GUI that allows users to manage running instances, images, keypairs, and groups associated with EC2.
+

@@ -1,0 +1,108 @@
+Related: AIK, boot, OPK, PXE, WIM, WinPE3, Windows
+
+Where is WinPE 1.6 (2005)?
+
+It is not listed here: http://Microsoft.com/oem/en/downloads/Pages/opks.aspx
+
+http://OEM.Microsoft.com/downloads/worldwide/WinServer2003SP1_OPK/ensp1opk.zip
+http://OEM.Microsoft.com/downloads/worldwide/OPK_XPSP2/xpsp2_2180_usa_x86fre_opk.zip
+http://OEM.Microsoft.com/script/contentpage.aspx?pageid=504128
+http://OEM.Microsoft.com/script/contentpage.aspx?pageid=556119
+
+OPK eXtender (OPX)
+http://OEM.Microsoft.com/downloads/Worldwide/OPX1_0/opxsetup.exe
+
+ http://www.911cd.net/forums//index.php?showtopic=16362
+"'
+http://oem.microsoft.com/script/contentPage.aspx?pageid=557415
+http://oem.microsoft.com/script/agreements.aspx?download=OPX_Build_0.0.1.62.zip&OPK2=true
+
+* A reinstall CD solution for your customers
+This is a solution that restores the PC to the state that you sold it in. Use OPX to create a CD image (ISO) containing out-of-box drivers to burn to CD, as well as a Winnt.sif that adds your branding and runs Sysprep. With that CD and a floppy containing the Winnt.sif and OPX files, your customer can boot the PC with the hologram Windows CD and Winnt.sif. and the OPX files will automate the reinstallation of Windows with your customizations. The next release of OPX will add update support to the reinstall solution.
+
+* A repository of out-of-box drivers
+As you build PCs, whenever you add hardware that uses an out-of-box driver, you can add those drivers to the OPX repository. When you have a repository, you can use OPX to scan a new PC to identify the missing drivers, and automatically update config sets to add those drivers from the repository. OPX modifies all answer files for you, including Txtsetup.oem for mass-storage drivers. Then, you run the network-based preinstall using the updated config set and Windows is installed with the OOB drivers.
+
+* Customized Windows PE builds and ISOs
+OPX provides a GUI to the Windows PE build tools (Mkimg and Oscdimg) to make it simple for you to create custom Windows PE builds. You can also add OOB drivers from your repository to your Windows PE builds, including mass-storage drivers!
+
+* A driver enumeration file (DEF) for new PCs
+The Scan command of the OPX tab will analyze the hardware of a new PC and identify any missing drivers. The results of the scan are listed in a driver enumeration file (.def) and displayed in the DEF tab. You can load that DEF in the OPX install on your technician computer and use it to add the missing drivers to your repository and then to one or more config sets.
+
+* System builder profiles
+A profile is the set of information that you use to brand a new PC: your logos, a desktop background, your support info, IE home page, and so on. You can automatically update one or more config sets with a profile. If you build PCs for another system builder, you can add their profile to config sets to create PC branded with your partner's branding.
+
+* A UFD that boots with Windows PE
+The Server 2003 SP1 OPK added the ability to create bootable UFDs: USB flash devices that can boot Windows PE. If you have that OPK installed, you can use the OPX GUI to create the bootable UFD from your custom Windows PE build.
+
+* Enhanced CD-boot solution
+For those of you that use the CD-boot method, OPX enables an enhanced version that customizes the PC with the information in your profile, and reseals the PC with Sysprep.
+'"
+
+
+
+LangPacks: pkgmgr, http://technet.microsoft.com/en-us/library/dd744262%28WS.10%29.aspx
+
+"'
+If your Windows PE environment becomes unresponsive when running an application, you may have run out of memory. By default, Windows PE allocates 32 megabytes (MB) of writeable memory, known as scratch space. You can increase the scratch space up to 512 MB by typing the following at a command prompt:
+
+dism /image:<mounted_image_path> /Set-ScratchSpace:<size>
+
+Where size can be any one of the following values: 32, 64, 128, 256 and 512.
+'"
+
+http://blogs.technet.com/windowssystemdeployment/archive/2009/01/20/windows-7-deployment-changes.aspx
+
+Techarp.com/showarticle.aspx?artno=431& >>Creating A WinPE 2.0 Bootable USB Key Rev. 1.1
+
+$ drvload.exe #use within the PE env to load NIC drivers etc.
+
+Wpeinit is a command-line tool that initializes Windows PE each time it boots. When Windows PE starts, Winpeshl.exe executes Startnet.cmd, which launches Wpeinit.exe. Wpeinit.exe specifically installs PnP devices, processes Unattend.xml settings, and loads network resources.
+
+MyITForum.com/articles/15/view.asp?id=8597 >>QuickGuide to creating a custom Windows PE build
+
+Holger.WinBuilder.net >>PENetwork for VistaPE
+
+$ wpeutil.exe InitializeNetwork
+$ regsvr32.exe /s netcfgx.dll
+$ netcfg.exe -v -winpe
+
+c:\dev\WinPE\2003\Tools\WinPE\WINPEOEM.SIF
+c:\dev\WinPE\2003\Tools\WinPE\WINPESYS.INF
+c:\dev\WinPE\2003\Tools\WinPE\CONFIG.INF
+c:\dev\WinPE\2003\Tools\WinPE\WINPESTC.INF
+
+c:\dev\WinPE\2003\Tools\i386\TXTSETUP.SIF
+c:\dev\WinPE\2003\Tools\i386\SYSTEM32\WINPEOEM.SIF
+
+http://www.911cd.net/forums/index.php?showtopic=534&st=40
+
+WinPE.sf.net >>Tools and plugins related to bart's PEBuilder
+
+Blogs.Technet.com/jamesone/archive/2006/11/10/getting-started-with-windows-pe.aspx
+
+WinBuilder.net >>WinBuilder is a script engine that will run projects developed by several authors which produce very efficient boot disks available for several windows platforms.
+
+TechARP.com/showarticle.aspx?artno=431 >>Creating A WinPE 2.0 Bootable USB Key Rev. 1.1
+
+BartDeSmet.net/blogs/bart/archive/2007/10/07/getting-started-with-windows-pe-2-0-for-windows-vista-boot-windows-from-a-usb-flash-drive.aspx >>Getting started with Windows PE 2.0 for Windows Vista: boot Windows from a USB flash drive
+
+LTCOM.com/page/FAQ/WinXP%20OEM%20Preinstallation%20FAQ >>OEM Preinstallation Most Frequently Asked Questions
+
+WindowsPE.com
+
+OSS.NetFarm.it/winpe
+
+GeoCities.com/pierremounir
+
+nu2.nu/pebuilder >>Bart's Preinstalled Environment (BartPE) bootable live windows CD/DVD
+
+http://GeoCities.com/pierremounir >>WinPE Tools by  TheTruthbullet
+
+http://windowsconnected.com/blogs/joshs_blog/archive/2007/02/05/creating-a-bootable-winpe-2-0-usb-key.aspx >>Creating A Bootable WinPE 2.0 USB Key
+
+http://Support.Microsoft.com/kb/303891 >>How to create a custom startup WinPE CD-ROM in Windows XP
+
+OSAttack.com/windows/commands-for-creatingworking-with-windows-pe-30
+
+Technet.Microsoft.com/en-us/library/dd744360%28WS.10%29.aspx >>International Servicing Command-Line Options

@@ -1,0 +1,11 @@
+camera: photo
+
+HornetsEye.sf.net >>HornetsEye is a real-time computer vision library for the Ruby programming language and it runs under GNU+Linux as well as Microsoft Windows.  HornetsEye is maybe the first free software project providing a solid platform for implementing real-time computer vision software in a scripting language.  The platform potentially could be used in industrial automation, robotic applications, and human computer interfaces.
+
+$ sudo apt-get install gtkam
+
+digiKam.org >>digiKam is an advanced digital photo management application for Linux, Windows, and Mac-OSX.  The people who inspired digiKam's design are the photographers like you who want to view, manage, edit, enhance, organize, tag, and share photographs under Linux systems.
+
+www.Inference.Phy.Cam.ac.uk/opengazer >>Opengazer: open-source gaze tracker for ordinary webcams    Opengazer is an open source application that uses an ordinary webcam to estimate the direction of your gaze. This information can then be passed to other applications. For example, used in conjunction with Dasher, opengazer allows you to write with your eyes. Opengazer aims to be a low-cost software alternative to commercial hardware-based eye trackers.
+
+ZoneMinder.com >>ZoneMinder is intended for use in single or multi-camera video security applications, including commercial or home CCTV, theft prevention and child, family member or home monitoring and other domestic care scenarios such as nanny cam installations. It supports capture, analysis, recording, and monitoring of video data coming from one or more video or network cameras attached to a Linux system. ZoneMinder also support web and semi-automatic control of Pan/Tilt/Zoom cameras using a variety of protocols. It is suitable for use as a DIY home video security system and for commercial or professional video security and surveillance. It can also be integrated into a home automation system via X.10 or other protocols. If you're looking for a low cost CCTV system or a more flexible alternative to cheap DVR systems then why not give ZoneMinder a try?

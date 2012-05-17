@@ -1,0 +1,19 @@
+Related: batch, command, shell
+
+$ cmd.exe #Microsoft's Command Interpreter for NT/2k/XP/Vista
+
+Technet.Microsoft.com/en-us/library/bb491071.aspx >>Command-line reference A-Z
+
+CommandWindows.com >>The Windows Command Line, Batch Files, and Scripting
+
+
+Computing.net/answers/programming/batch-for-loop-errorlevel/13528.html
+"'
+:: Using !'s instead of %'s forces the var to update during the loop
+SetLocal EnableDelayedExpansion
+
+FOR /f %%Q IN (machines.txt) DO (
+ ping -n 1 -w 3 %PingThis%
+ IF !ERRORLEVEL! == 0 echo %%Q >> alive.txt ELSE echo %%Q Failed Ping >> dead.txt
+)
+'"

@@ -1,0 +1,19 @@
+Related: DHCP, FTP, net, PXE
+
+Download http://tftpd32.jounin.net
+
+$ mkdir c:\tftp
+$ CD c:\tftp
+
+$ wget ftp://archive.ubuntu.com/ubuntu/dists/karmic/main/installer-i386/current/images/netboot/pxelinux.0
+
+$ wget -r -np ftp://archive.ubuntu.com/ubuntu/dists/karmic/main/installer-i386/current/images/netboot/ubuntu-installer
+
+$ md pxelinux.cfg
+$ cd pxelinux.cfg
+$ wget ftp://archive.ubuntu.com/ubuntu/dists/karmic/main/installer-i386/current/images/netboot/pxelinux.cfg/default
+
+
+TFTPTerminal.sf.net >>This terminal program is great for configuring multiple devices to create a network. It has a built in TFTP sever which supports files up to 32meg, a log server for each device for debugging and SNMP support to see device interface statistics.
+
+http://alumnit.ca/wiki/index.php?page=WvTftp >>WvTftp is the world's fastest TFTP server.  No, really, it is...  It was originally developed for the NetIntegrator, but is also useful on its own, and so is available for free under the terms of the GNU LesserGeneralPublicLicense, or LGPL.  How do we make it so fast?  By cheating.  The TFTP protocol is extremely predictive.  It asks for a single file and packet #1 of that file, then packet #2 of that file, and so on.  It will never ask for anything else, so once it starts asking for a given file, we just pre-send the information, since we already know exactly what it is.

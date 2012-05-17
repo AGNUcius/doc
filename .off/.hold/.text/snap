@@ -1,0 +1,18 @@
+Related: back, capture, disk, image, shadow, store
+
+SystemLinux.org/~maan/dss >>dss creates hardlink-based snapshots of a given directory on a remote or local host using rsync's link-dest feature.
+
+ZumaStor.org >>Zumastor is Free software that adds enterprise storage features (primarily improved snapshots and remote replication) to Linux.
+
+rsnapshot.org >>rsnapshot is a filesystem snapshot utility for making backups of local and remote systems.
+
+
+Adaptec, GuardianOS
+
+Lists.GPL-Violations.org/pipermail/legal/2006-December/000952.html >>Snap Server claim to be GPL compliant, but their code does not compile, nor do they provide full source code for each release. They only provide patch files, but the patches files are not usable as they do not list correctly to which file and version they are to be applied.
+
+Forums.Procooling.com/vbb/archive/index.php/t-13199.html >>Snap & Gpl
+
+Mail-Archive.com/gnu-misc-discuss@gnu.org/msg04851.html >>Does a conveyor's violation result in rights to users?
+
+http://technet.microsoft.com/en-us/library/dd560637.aspx >>Hyper-V Virtual Machine Snapshots: Frequently Asked Questions

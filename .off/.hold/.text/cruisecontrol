@@ -1,0 +1,2 @@
+Related: build, CM
+Confluence.Public.ThoughtWorks.org/display/CCNET >>CruiseControl.NET is an automated integration server.  The Server automates the integration process by monitoring the team's source control repository directly.  Every time a developer commits a new set of modifications, the server will automatically launch an integration build to validate the changes.  When the build is complete, the server notifies the developer whether the changes that they committed integrated successfully or not.

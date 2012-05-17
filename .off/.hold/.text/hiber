@@ -1,0 +1,7 @@
+Related: check, start, stop, suspend
+
+TuxOnIce.org >>TuxOnIce is most easily described as the Linux equivalent of Windows' hibernate functionality. It saves the contents of memory to disk and powers down. When the computer is started up again, it reloads the contents and the user can continue from where they left off. No documents need to be reloaded or applications reopened and the process is much faster than a normal shutdown and start up.
+
+Win64.sf.net/suspend >>Command line utility for Windows 2000, XP, 2003, Vista to enter suspend mode - Stand By or Hibernate.
+
+hiberfil.sys

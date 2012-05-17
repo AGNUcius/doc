@@ -1,0 +1,268 @@
+compressed from ideas at linuxquestions.org
+
+MSI MSI RS482M4-L (ms-7191)
+
+The following may cause the computer to hang during boot or install; devices may fail to initialize properly.
+
+cheatcodes: noapic, noacpi
+
+lines in lilo.conf:
+## No APIC
+## No Local APIC
+
+various onboard devices including onboard network and USB devices do not initialise.
+
+
+onboard VGA=working
+Athlon 64 X2=working
+USB2=Working
+IDE=Working
+SATA=Working
+10/100 NIC=Working
+Onboard Audio=Working in 7.1
+Digital Outputs= untested
+
+
+Radeon Xpress 200 onboard Video (functional in FrameBuffer
+(VESA or SVGA only, does not work with ATI or Radeon FB options)
+
+Proprietory ATI southbridge drivers give OpenGL support
+
+ATI IXP SB400 USB Host Controller
+
+ATI 437A Serial ATA Controller SATA and IDE
+    An IDE controller on the ATI® SB450 chipset provides IDE HDD/CDROM with PIO, Bus
+    Serial ATA/150 controller integrated by ATI® SB450
+
+Onboard NIC based on Realtek 8139too card
+
+Onboard Audio
+
+\u2022 Azalia link controller integrated in SB450 chipset
+\u2022 8-channel audio codec Realtek ALC880
+- Compliance with HD Audio (Azalia) 1.0 spec
+Keywords: 	ATI xpress 200 rs482 rs480 480 482 onboard video radeon
+Chipset: 	ATI Radeon Xpress 200 RS 480
+Connection Type: 	Socket 939
+
+
+Author 	
+	Post A Reply 
+Old 12-09-2005, 06:45 AM 	#1
+Lelik
+ 
+Registered: Dec 2005
+Posts: 0
+Distribution: debian
+	Would you recommend the product? yes | : Not Indicated | Rating: 6
+
+Kernel (uname -r): 	2.6.14.3-20051209-1134157613
+Distribution: 	debian sarge-amd64
+I only hope I can edit this post later, so I can update on a progresss... Why isnt it a wiki???
+
+I bought this motherboard for a media center PC to attach to my LCD HDTV. It's a decent board with a good integrated graphics card, DVI &amp; SPDIF outputs, 64-bit etc.
+
+Here is wisdom i gathered so far:
+- Disable MMIO in bios, it won't work
+- You must boot with &quot;noapic nolapic&quot; options for a &quot;generic&quot; kernel to work. It will &quot;work&quot; enough for you to install a base system - ide will be very slow, interrupts will get lost etc.
+- Build a custom kernel as soon as you can. APIC will work fine (and has to be enabled back) on a custom built kernel.
+- ACPI DSDT is broken. I was unable to dump/dfix it yet, currently working on it...
+- The only display driver that works is an ATI propritary driver. Haven't installed it yet...
+
+Hardware / drivers:
+
+ide - ATI IXP PCI busmaster DMA
+sata - SCSI, Silicon image 3112
+nic - Realtek 8139too
+
+Overall - so far it seems to be a good motherboard, the only thing that it is a new model gives a lot of headache...
+Lelik is offline 	
+Lelik
+View Public Profile
+View LQ Blog
+View Review Entries
+View HCL Entries
+Find More Posts by Lelik
+
+
+
+
+All times are GMT -5. The time now is 04:50 PM.
+
+Contact Us - Rules - LQ Merchandise - Donations - Contributing Member - LinuxQuestions.org - Home
+	
+Main Menu
+
+    * Linux Forums
+    * Search
+    * Linux HCL
+    * Linux Tutorials
+    * Linux Wiki
+    * Distro Reviews
+    * Book Reviews
+    * Download Linux
+    * Linux Bookmarks
+    * Press Releases
+    * Linux Podcast
+    * LQ Radio
+    * LQ Radio Jukebox
+    * Home
+
+My LQ
+
+    * Login
+    * Register
+
+Write for LQ
+LinuxQuestions.org is looking for people interested in writing Editorials, Articles, Reviews, and more. If you'd like to contribute content, let us know.
+Main Menu
+
+    * LQ Calendar
+    * LQ Rules
+    * Site FAQ
+    * Linux Links
+    * View New Posts
+    * 0 Reply Threads
+    * LQ Wiki Most Wanted
+    * Jeremy's Blog
+    * Report LQ Bug
+
+Syndicate
+Latest Threads   RSS1
+LQ News   RSS1
+LQ Podcast   RSS2
+LQ Radio   RSS2
+Sponsored Links: Cheap web hosting - Web hosting - Computer Help
+
+Based on: vBulletin (©Jelsoft Enterprises)
+Copyright ©2000 - 2006, LinuxQuestions.org.
+
+
+
+
+
+
+
+
+
+MSI Micro ATX Socket 939 Motherboard RS482M4-ILD / MS-7191-020, ATI Radeon Xpress 200 Chipset, Supports Dual DDR 400, PCI-E, RAID, SATA, 1394
+This MSI RS482M4-ILD motherboard features the Radeon ATI RS482 Chipset which brings both stunning 3D graphics and universal connectivity in a chipset design that provides exceptional value for the high performance. The new chipset can effortlessly scale from everyday multimedia applications to high-definition 3D gaming.
+
+Features: 9.60 in.(L) x 9.60 in.(W); Micro- ATX ; 4 DIMMs w/ DDR 400 up to 4 GB; 1 PCI-E 16X; 2 PCI; 8 USB; 1 PCI-E 1X; 8 Ch. Audio; 10/100 LAN; IEEE 1394; RAID; SATA; ATA133; ATI Radeon Integrated Graphics, 1 x DVI-D port, 1 x Composite TV-Out; Live Update.
+
+Specifications: CPU: Supports 64-bit AMD Athlon64/64FX processor (Socket 939). Supports 3000+, 3200+, 3400+, 3500+, 3800+, 4000+, FX53, FX55 and higher CPU. Chipset: ATI RS482 Chipset: HyperTransport connection to AMD K8 Athlon 64 processor, 8 or 16 bit control/address. data transfer both directions, 1000/800/400/200MHz "Double Data Rate" operation both direction, PCI Express x16 Graphic Interface, On-board Graphic shared up to 128MB. ATI SB450 Chipset: Ultra DMA 66/100/133 master mode PCI EIDE controller, Supports dual channel native Serial ATA/RAID controller that will supply 150MB/s and support RAID 0 or RAID 1, Integrated Hardware Sound Blaster / Direct Sound AC97 audio, ACPI & PC2001 compliant enhanced power management, Supports 8 USB2.0 ports (Rear x 4 / Front x 4). Main Memory: Supports four 184-pin DDR SDRAMs up to 4GB memory size. Supports Dual Channel DDR400/DDR333 DDR SDRAM (Refer to MSI recommended modules). Support for 2Mx32 (with 64-bit interface), 4Mx32, 8Mx32 and 16Mx16 memory devices. Slots: One PCI Express X 16 slot, One PCI Express X slot, Two 32-bit Master 3.3v/5v PCI Bus slots, BIOS: The mainboard BIOS provides "Plug & Play" BIOS which detects the peripheral devices and expansion cards of the board automatically. The mainboard provides a Desktop Management Interface (DMI) function which records your mainboard specifications. Video: 3D Graphics: Full DirectX 9.0 Support (Vertex Shader v2.0 and Pixel Shader v2.0) with full precision floating point pixel pipeline, up to 4 Multiple-Render-Targets (MRTs). Supports Microsoft's next generation GDI+user interface and support resolution up to 2536x2536@32bpp. 2D Graphics: Highly optimized 128-bit engine capable of processing multiple pixels per clock. Game acceleration including support for Microsoft's DirectDraw, Double Buffering, Virtual Sprites, Transparent Blit, and Masked Blit. Supports a maximum resolution of 2048x1536@32bpp. Support for new GDI extensions in Windows XP: Alpha BLT, Transparent BLT, Gradient Fill. On-Board IDE: An IDE controller on the ATI SB450 chipset provides IDE HDD/CD-ROM with PIO, Bus Master and Ultra DMA 66/100/133 operation modes. It can connect 4 Ultra ATA drives. Serial ATA/150 controller integrated in ATI SB400: Up to 150MB/s transfer speed, Can connect up to 4 Serial ATA drives, Support RAID 0 or RAID 1. Audio: 8 Channel software audio codec Realtek ALC880, Compliance with AC97' v2.3 Spec, Meet PC2001 audio performance requirement. IEEE 1394: Supports upto 2 x 1394 ports. one 6-pin 1394 connector on Rear I/O, the other is supported by onboard Pin header. Transfer rate up to 400Mbps. Controlled by VIA 6307 chipset. LAN: Realtek 8100C. Supports 10/100 Mb/s auto-negotiation operation. Compliant with PCI v2.2 and PC99 standard . Compliance with ACPI Power Management. On-Board Peripherals: 1 floppy port supports 1 FDD with 360K, 720K, 1.2M, 1.44M and 2.88Mbytes, 1 DVI-D port, 2 IEEE1394 ports (rear x 1 / front x 1), 1 parallel port supporting SPP/EPP/ECP mode, 8 USB2.0 ports (rear x 4 / front x 4), 1 Audio (Line-In/Line-Out/MIC) port, 1 Audio header (Rear/central/side output), 1 TV-out header, 1 RJ-45 LAN Jack, 2 IDE ports support 4 IDE devices, 4 serial ATA ports. Dimension: 9.60 in.(L) x 9.60 in.(W) Micro-ATX Form Factor. Mounting: 8 mounting holes.
+
+References: | MSI Company Website | Understanding System Memory & CPU speeds |
+
+Limited Warranty: One year from invoice date with Directron.com. 3-year from invoice date with Manufactory. 30-Day money back from receiving date with 15% restocking fee for non-defective returns. No credit or refund after 30 days. Customer is responsible for returning defective products including DOA due to manufacturer unless testing is paid before shipping.
+
+Notes: (1) How to install? Click here. (2) All retail boxed motherboards are opened for receiving purposes. (3) We highly recommend testing When purchasing a motherboard and a CPU together. (4). Due to the High Performance Memory design, motherboards or system configurations may or may not operate smoothly at the JEDEC (Joint Electron Device Engineering Council) standard settings (BIOS Default on the motherboard) such as DDR voltage, memory speeds and memory timing. Please confirm and adjust your memory setting in the BIOS accordingly for better system stability. (Steven-121305)
+
+Related Items: | Microstar Motherboards | Athlon64, Socket 939 Motherboards | Serial ATA Motherboards | Dual Channel DDR Support Mobo | Onboard RAID Controllers Motherboard | Motherboard with Red PCB | ATI Radeon Xpress 200 Motherboards | Micro ATX Socket 939 Mainboard | Other Micro ATX Motherboards | MicroATX Cases | MicroATX Power Supplies | Accessories - Motherboards |
+
+
+
+MSI Micro ATX Socket 939 Motherboard RS482M4-ILD, ATI Radeon Xpress 200 Chipset, Supports Dual DDR 400, PCI-E, RAID, SATA, 1394
+Part Number: MB-RS482M4-ILDpadRegular price: $83.00padOn Sale: $79.00pad
+
+*Add Testing Service / Double Box: 
+*Add CPU: 
+*Add Memory (non-ECC): 
+*Add PCI Express Video Card: 
+*Add Video Card: 
+*Add SATA Hard Drive: 
+*Add Hard Drive: 
+*Add Round IDE Cable: 
+*Add USB Drive: 
+Quantity:    
+Read Customer Reviews on this Item/Page Write a Review on this Item/Page
+Customer Feedback through Yahoo! Report Web Error on this Page
+	
+Email this page to a friend! Enter email address:
+	
+View Top Referred Pages! - Advanced Referral
+	
+Join our Newsletter to
+get Discount Coupons
+
+Shipping Policy 		Customer Services 		Payment Policy 	
+# Est. Shipping Cost
+# Time-in-Transit Map
+# FAQ - Shipping
+# Top Reasons for Delays
+# UPS, FedEx, Postal Office
+# Walk-in Sales
+# APO/FPO Shipping
+# International
+# Tracking Orders
+# 	Return Rates
+# Store Statistics
+# Customer Satisfaction
+# Account Applications
+# Frequent Errors
+# FAQ-Services
+# FAQ-Tech Support
+# Newsletter
+# Order Status
+# 	Credit Card via Phone
+# Purchase Order
+# Prepay, PayPal
+# Resellers
+# Corporate
+# Schools, Government
+# Terms & Conditions
+# Price & Tax
+# FAQ-Payment
+
+Have a question about our products, services or technical issues?
+Find the answer instantly! Type your question or key words in English:
+            
+             (Recommended for finding a product in our web store or FAQ pages).
+            
+            (Recommended for sales, tech-support, & CS questions).
+             Advanced Search in HelpDesk
+95% email/ phone questions already have answers on our web site.
+Please check the answer online before calling or e-mailing.
+
+Directron.NET- Help Desk 		Directron.ORG - Resources 		Short Cuts 	
+# Sales Support
+# Tech Support
+# Knowledge Base
+# Customer Service
+# Open Forums
+# Report a Web Error
+# 	How to Choose?
+# FAQs, Glossary
+# BYO
+# Installation
+# How to Upgrade?
+# Troubleshooting
+# Drivers
+# 	Top Sellers
+# New Products
+# Future Products
+# Quiet Computers
+# Water Cooling
+# Overclocking
+# Case Painting
+Copyright (c) 1997-2006 Directron.com, Inc., Houston, Texas
+Buy - Sell - Trade - Build - Repair - Upgrade - Help - Troubleshoot - Shopping
+Computers - Laptops - Servers - Hardware - Parts - Software - Peripherals - Services
+High Quality - Low Prices - Discount Shop - Large Selection - Free Products - Fast Shipping
+Affiliates - AxionTech.com - Prime Systems
+	pad	
+Similar Items
+# MSI K8NGM2-L Socket 939 m-ATX Mainboard M... $69.99
+# ASUS Socket 939 All-in-one mATX Motherboa... $64.99
+# Biostar Socket 939 Micro ATX Motherboard ... $74.99
+# Biostar Socket 939 mATX Motherboard Gefor... $65.99
+Hot Products	»
+Silver/Black CMV 19in 8ms LCD Computer Display CT-934D, w/ Sp... Only $239.00
+Gigabyte GA-8I945G Pro Motherboard, LGA775, Dual DDR2 667, PC... Only $144.99
+Corsair Value Select Memory - 512MB DDR2 533 PC2-4200 240-Pin... Only $42.99
+Noise-isolating Headphone Earbuds for MP3 Players & Mobile Ph... Only $9.99
+Antec P180 ATX Mid Tower Computer Case w/ Three-Layer Side Pa... Only $124.99
+Aluminum, 4 Fans, Super-Flower Silent 520W TT-520SS P4 Switch... Only $29.99
+Promotions	»
+# Free Baseball Cap for > $299 Orders
+# Free Nero Express CD-Burning Software for > $29.99 Order

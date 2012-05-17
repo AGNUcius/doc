@@ -1,0 +1,33 @@
+performance: act, efficiency, monitor, play, top
+
+FreshMeat.net/projects/atsar >>The atsar command can be used to detect performance bottlenecks on Linux systems. It is similar to the sar command on other UNIX platforms. Atsar has the ability to show what is happening on the system at a given moment. It also keeps track of the past system load by maintaining history files from which information can be extracted. Statistics about the utilization of CPUs, disks and disk partitions, memory and swap, tty's, TCP/IP (v4/v6), NFS, and FTP/HTTP traffic are gathered. Most of the functionality of atsar has been incorporated in the atop project.
+
+Guichaz.Free.fr/iotop >>Linux has always been able to show how much I/O was going on (the bi and bo columns of the vmstat 1 command).  Iotop is a Python program with a top like UI used to show of behalf of which process is the I/O going on. 
+
+OSS.SGI.com/projects/openspeedshop >>Open|SpeedShop is an open source multi platform Linux performance tool which is initially targeted to support performance analysis of applications running on both single node and large scale IA64, IA32, EM64T, and AMD64 platforms. It is explicitly designed with usability in mind and targets both application and computer scientists.
+
+MSDN.Microsoft.com/en-us/performance
+
+MSDN.Microsoft.com/en-us/library/cc305187.aspx >>Windows Performance Toolkit (WPT)
+
+Blogs.MSDN.com/ntdebugging/archive/2008/04/03/windows-performance-toolkit-xperf.aspx >>I recently came across a very interesting profiling tool that is available in Vista SP1 and Server 08 called the Windows Performance Analyzer. You can use this tool to profile and diagnose different kinds of symptoms that the machine is experiencing. This tool is built on top off the Event Tracing for Windows (ETW) infrastructure. It uses the ETW providers to record kernel events and then display them in a graphical format.
+
+Collectl.sf.net >>Collectl is a light-weight performance monitoring tool capable of reporting interactively as well as logging to disk.  It reports statistics on cpu, disk, infiniband, lustre, memory, network, nfs, process, quadrics, slabs and more in easy to read format.
+
+Iometer.org >>As the Iometer User's Guide says, Iometer is an I/O subsystem measurement and characterization tool for single and clustered systems. It was originally developed by the Intel Corporation and announced at the Intel Developers Forum (IDF) on February 17, 1998 - since then it got wide spread within the industry.
+
+LatencyTOP.org >>LatencyTOP is a Linux* tool for software developers (both kernel and userspace), aimed at identifying where in the system latency is happening, and what kind of operation/action is causing the latency to happen so that the code can be changed to avoid the worst latency hiccups.
+
+SEToolkit.org >>The classic performance monitoring tool for Solaris "SE Toolkit" has been released under GPL!
+
+$ dstat # dag.wieers.com/home-made/dstat "'Dstat is a versatile replacement for vmstat, iostat, netstat, nfsstat and ifstat. Dstat overcomes some of their limitations and adds some extra features, more counters and flexibility. Dstat is handy for monitoring systems during performance tuning tests, benchmarks or troubleshooting.'"
+
+$ mpstat
+
+Framewave.sf.net >>Derived from the AMD Performance Library, Framewave is a free and open-source collection of popular image and signal processing routines designed to accelerate application development, debugging, multi-threading and optimization on x86-class processor platforms.
+
+LinuxForums.org/desktop/linux_performance_tuning.html
+
+$ dtrace
+
+gprof is the GNU Profiler, a tool used when tracking which functions are eating CPU in your program.  Anyway, you should already be familiar with it if you got interested in this page.

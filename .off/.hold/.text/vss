@@ -1,0 +1,13 @@
+Related: back, image, Volume Shadow Copy Service, VSnapVSS
+
+$ DiskShadow.exe
+
+MSDN.Microsoft.com/en-us/library/bb530725.aspx
+
+$ VShadowVista.exe
+$ VShadowXP.exe
+$ VShadow2003.exe
+
+Wikipedia.org/wiki/Volume_Shadow_Copy >>Shadow Copy (also called Volume Snapshot Service or VSS, or Previous Versions in Windows Vista) is a feature introduced with Windows XP with SP1, Windows Server 2003, and available in all releases of Microsoft Windows thereafter, that allows taking manual or automatic backup copies or snapshots of a file or folder on a specific volume at a specific point in time. It is used by NTBackup and the Volume Shadow Copy service to back up files. In Windows Vista, it is used by Windows Vista's backup utility, System Restore and the Previous Versions feature.
+
+$ vssadmin.exe #Volume Shadow Copy Service administrative command-line tool

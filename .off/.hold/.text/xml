@@ -1,0 +1,7 @@
+Related: lang, XHTML
+
+Syntext.com/products/serna-free >>Serna Free XML editor is an easy-to-use open source WYSIWYG XML editor for those who wish to smoothly adopt the XML technology. Indeed, Serna Free is the most powerful among free and open source XML editors for WYSIWYG authoring.
+
+fdik.org/yml >>YML - Why a Markup Language?! Any time a formal language is created for computing, a compromise has to be found: whether the language is perfect for the computer but terrible for the human or vice versa. XML is very good for the computer ;-)
+
+XBIS.sf.net >>XBIS is an encoding format for XML documents that is fully convertible to and from text, with information set equivalence between the original document text and regenerated document text. It's intended for use in transmitting XML documents between application components, and is therefore designed for processing speed. The current Java language implementation offers several times the performance of SAX2 parsers working from text documents across a wide range of document types and sizes, and across JVMs tested, while also providing a substantial reduction in document size for most types of XML documents.

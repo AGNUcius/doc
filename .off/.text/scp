@@ -1,0 +1,6 @@
+see also: ssh
+
+Secure Copy
+
+scp somefile.tar.bz2 username@shell.sf.net:/home/users/u/us/username
+

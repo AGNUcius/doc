@@ -1,0 +1,34 @@
+Related: record, sample, snap, shot
+
+captcha: test
+capture: seize, conquer, invade
+
+Greenshot.sf.net >>Greenshot is a revolutionary screenshot tool optimized for productivity.
+
+Shutter-Project.org >>Shutter is a feature-rich screenshot program. You can take a screenshot of a specific area, window, your whole screen, or even of a website - apply different effects to it, draw on it to highlight points, and then upload to an image hosting site, all within one window.    Shutter used to be called GScrot.
+
+SList.LiloTux.net/linux/qmotion >>Detect motion with your webcam.
+
+nvrec.sf.net >>nvrec aims to be a high quality, generic capture core. At the moment it supports v4l1 and v4l2 devices as video sources, oss and alsa as an audio source. It can output to quicktime (in RTjpeg, YUV2, or RAW format, and most ffmpeg formats), AVI (in DivX format), NuppelVideo format, MPEG-1, and streaming multicast/unsicast.
+
+CamStudio.org >>CamStudio is able to record all screen and audio activity on your computer and create industry-standard AVI video files and using its built-in SWF Producer can turn those AVIs into lean, mean, bandwidth-friendly Streaming Flash videos (SWFs)
+
+nullkey.ath.cx/projects/glc >>glc is an ALSA & OpenGL capture tool for Linux. It consists of a generic video capture, playback and processing library and a set of tools built around that library. glc should be able to capture any application that uses ALSA for sound and OpenGL for drawing. It is still a relatively new project but already has a long list of features. Take a look at some example videos and find out how to install it!
+
+unicap-Imaging.org >>unicap provides a uniform interface to video capture devices. It allows applications to use any supported video capture device via a single API.
+
+recordMyDesktop.iovar.org >>recordMyDesktop is a desktop session recorder for GNU / linux that attemps to be easy to use, yet also effective at it's primary task.
+
+XVidCap.sf.net
+
+Dorgem.sf.net >>Dorgem is a webcam capture application for Windows 9x and up. Any Video for Windows compatible webcam (or other digital camera) is supported.
+
+UnixUser.org/~euske/python/vnc2flv >>Vnc2flv is a cross-platform screen recording tool for UNIX, Windows or Mac. It captures a VNC desktop session (either your own screen or a remote computer) and saves as a Flash Video (FLV) file.
+
+btWinCap.sf.net >>The current driver is a Video Capture driver for Bt848, Bt849, Bt878 and Bt879 based video capture boards. It tries to take the most of the hardware, using all the features the chipset has to offer. It is also implemented as a WDM driver, so the same driver works under Win2000, Win98SE, WinXP and WinMe without modifications.
+
+Desktops.Linux.com/desktops/04/07/26/1815242.shtml?tid=6
+
+TeleTeaching.Uni-Trier.de/news.en.html record/playback macros, use paint tools
+
+DemoHelper.GoogleCode.com and Tools.TortoiseSVN.net/DemoHelperInfo >>A tool which helps in demonstrations, presentations or if you just need to explain someone something on your computer. DemoHelper is an annotation and screen zoom tool you can use for technical presentations that include application demonstrations. DemoHelper runs unobtrusively in the system tray and is activated by either customizable hotkeys or the context menu of the tray icon. You can draw on the screen to mark special areas, or you can zoom in on an area on the screen. Use cases include meetings where you have to explain something on the screen or teachers presenting lectures to students in computer classes.

@@ -1,0 +1,9 @@
+Related: MBR
+
+In computer hardware, GUID Partition Table (GPT) is a standard for the layout of the partition table on a physical hard disk.  It is a part of the Extensible Firmware Interface (EFI) standard proposed by Intel as a replacement for the PC BIOS, one of the few remaining parts of the original IBM PC.  EFI uses GPT whereas BIOS uses a Master Boot Record (MBR).
+
+Overheard >>Sector 0 is a classic MBR, while the rest of the disk is a "phantom partition".
+
+$ diskpart
+
+GPTfdisk.sf.net >>GPT fdisk is a disk partitioning tool loosely modeled on Linux fdisk, but used for modifying GUID Partition Table (GPT) disks rather than the Master Boot Record (MBR) partition tables that fdisk handles.

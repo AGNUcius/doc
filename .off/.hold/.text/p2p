@@ -1,0 +1,31 @@
+Related: buddy, friend, peer, search, share
+
+Friend2Friend.net and Friend2Friend.sf.net >>F2F is an XSLT scriptable strong-encrypted XML-VM with an F2F communications framework. Installed on a webserver, an F2F servers make up a decentralised network for securely sharing of XML data and requests with friends, friends of friends, foafoaf etc.
+
+AllianceP2P.sf.net >>Alliance takes the best from BitTorrent, Direct Connect and Waste and creates a decentralized and secure p2p network.  It is a private and secure environment to share files and communicate with people you know. Alliance works on Windows, Linux and Mac.
+
+YaCy.net >>YaCy is a scalable web search engine with an integrated web crawler and content analysis and managements functions. One YaCy installation can store more than 20 million documents, but in a community of search peers YaCy can provide a search index of unlimited size.
+
+StrongDC.sf.net >>StrongDC++ is a client for sharing files in Direct Connect network. It is modification of program DC++ and it brings many news and features from other modification. Since DC++ is developed under GNU/GPL, you can download source and modify it
+
+Research.Microsoft.com/~antr/Pastry >>A substrate for peer-to-peer applications
+
+Osprey.ibiblio.org >>Peer-to-peer enabled content distribution
+
+Nodezilla.net >>Experimental fault resilient Grid Network    Basically, Nodezilla is an experimental grid based p2p system available for Windows and Linux (on Intel platforms).
+
+PDTP.org >>DistribuStream is a project to implement the Peer Distributed Transfer Protocol (PDTP), a high performance peer-to-peer file distribution system, providing streaming downloads from a central repository which are shared through a peer network, allowing the aggregate bandwidth of the network to scale with the number of clients.
+
+Peerple.net >>Peerple is a peer-to-peer application which let users access and share data in unlimited ways. It is born to experiment new peer-to-peer paradigms under the joint efforts of Gyroweb and ASAP research teams of INRIA. Finally, Peerple is an open-source software distributed under a GPL licence.
+
+GNUnet.org >>GNU's decentralized anonymous and censorship-resistant P2P framework.
+
+Kommute.sf.net is a frontend for MUTE-net.sf.net >>MUTE File Sharing is a peer-to-peer network that provides easy search-and-download functionality while also protecting your privacy.
+
+I2P.net >>I2P is an anonymizing network, offering a simple layer that identity-sensitive applications can use to securely communicate. All data is wrapped with several layers of encryption, and the network is both distributed and dynamic, with no trusted parties.
+
+Deluge-Torrent.org >>Deluge is a Bittorrent client written in Python and GTK+.
+
+MysterNetworks.com (java)>>Myster is a file sharing utility. Similar projects include BitTorrent, Hotline and FreeNet. Myster allows you to share your files with others and download files being shared by others on the Myster network, over the Internet. But Myster isn't just any file sharing utility.
+
+Cabos.SourceForge.jp (Java) >>Cabos is Gnutella file sharing program based on LimeWire and Acquisition. It is free software. No spyware. No adware. Guaranteed.

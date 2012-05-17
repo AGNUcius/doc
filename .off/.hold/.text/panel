@@ -1,0 +1,20 @@
+Related: menu, taskbar, tray, wm
+
+GTK2Panel.eNTiDi.com >>As the name suggests, gtk2panel is a panel heavily based on the Gtk+2 stack. The primary target of this project is to provide a panel that reuses whatever available in the obvious way, such as subclassing GtkWidget instead of implementing applets (whatever they are) or by using a GtkBuilder file instead of defining a new format to customize the panel.
+
+tint2.GoogleCode.com >>tint2 is a simple panel/taskbar unintrusive and light (memory / cpu / aestetic). We try to get 'virtual desktop' and 'multi-monitor' easier to use. We follow freedesktop specifications.
+
+pyPanel.sf.net
+
+StAloneTray.sf.net
+
+fspanel
+
+fbpanel
+
+lxpanel
+
+bmpanel
+
+
+==Tray: minixcal, blinky, alltray

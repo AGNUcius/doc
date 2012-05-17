@@ -1,0 +1,12 @@
+Related: bug, follow, issue, mod, monitor, plot, strace, watch
+
+Trac-Hacks.org >>The purpose of TracHacks is to provide free Subversion hosting for community created Trac hacks.
+
+http://www-128.ibm.com/developerworks/aix/library/au-unix-strace.html?ca=dgr-lnxw07GDB1 >>Fun with strace and the GDB Debugger
+
+$ strace # A system call tracer
+$ ltrace # Tracks runtime library calls in dynamically linked programs
+
+Weather.ou.edu/~apw/projects/sreplay >>sreplay is a tool that performs system call replay of strace  logs on UNIX-like operating systems. It is written in assembly and C, and is free software licensed under the LGPL. It is ported to i386 and ppc64 Linux at present, and currently supports playback of about 34 system calls, which is enough to replay the interesting paths of some server applications and to replay simple dynamically-linked applications in their entirety.
+
+Trac.EdgeWall.org >>Trac is an enhanced wiki and issue tracking system for software development projects. Trac uses a minimalistic approach to web-based software project management. Our mission is to help developers write great software while staying out of the way. Trac should impose as little as possible on a team's established development process and policies.

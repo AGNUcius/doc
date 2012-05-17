@@ -1,0 +1,16 @@
+Related: control, device, DIF, kernel, machine, service, sys
+
+Microsoft.com/whdc >>Windows Hardware Developer Central
+
+$ drivers.exe #c:\WinDDK\6001.18002\Tools\other\amd64
+
+$ driverquery.exe
+
+$ drvinst.exe
+
+BazisLib.sf.net >>The BazisLib framework simplifies creation of device drivers (mostly virtual) for Windows & Linux, and some system applications for Win32 and WinCE.
+
+
+Alter.org.ua/en/soft/win/drv_inst >>Driver installation utility
+
+www.ACC.UMU.se/~bosse >>Windows driver examples with free source code related to file systems, virtual disks and network communication from kernel mode. Published by Bo Brantén.

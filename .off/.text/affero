@@ -1,0 +1,28 @@
+The Affero GPL is GPLv2 + the following text:
+
+"'* d) If the Program as you received it is intended to interact with users through a computer network and if, in the version you received, any user interacting with the Program was given the opportunity to request transmission to that user of the Program's complete source code, you must not remove that facility from your modified version of the Program or work based on the Program, and must offer an equivalent opportunity for all users interacting with your Program through a computer network to request immediate transmission by HTTP of the complete source code of your modified version or other derivative work.
+
+
+You may also choose to redistribute modified versions of this program under any version of the Free Software Foundation's GNU General Public License version 3 or higher, so long as that version of the GNU GPL includes terms and conditions substantially equivalent to those of this license.
+'"
+
+
+The reasoning is given at affero.org/oagpl.html
+"'
+Affero's mission is to bring a culture of patronage to the Internet.
+
+Send your questions and comments on AGPL & GNU GPL 3.0 to Affero and FSF at agpl@affero.com .
+
+Why create yet another license?
+
+We believe that certain software can extend the bounderies of a person, and therefore should not be out of the control of the individual. We believe that people's freedom should be protected. We believe that this includes their digital interface to others.
+
+The GNU General Public License does an excellent job of protecting freedoms for users and developers, but there are questions about the applicablity of the license for software that is run over a network.
+
+Since Affero's software is run over a network, and since we believe that the freedom should be fully protected, we have decided to publish yet another license.
+
+You will find it nearly identical to the GNU GPL, with an addition of section 2 (d), which covers use of the software over a computer network. We're sorry for the inconvenience of another license.
+
+And yes, we did get permission to use the GNU GPL as the basis for this license;)
+'"
+

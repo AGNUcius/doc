@@ -1,0 +1,62 @@
+Related: VDDK, virtual, VirtualBox, VIX, vmdk, vmx, VI Toolkit, XEN
+
+ESX VixDiskLib_Open() VMXSPEC and moref
+http://communities.vmware.com/message/1396132
+http://communities.vmware.com/thread/254858
+http://communities.vmware.com/thread/152408
+
+
+
+IBM.com/developerworks/linux/library/l-auto-deploy-vm/index.html?ca=dgr-lnxw07Batch-VMs&S_TACT=105AGX59&S_CMP=grsitelnxw07 >>Automate VM deployment    Save time and effort by launching batches of self-configuring VMs quickly
+
+VMware.com/support/developer/vc-sdk >>The VMware Infrastructure SDK (VI SDK) facilitates development of client applications that target the VI API. The VI API is exposed as a Web service on VMware Infrastructure servers, including ESX, ESXi, and vCenter systems.
+
+Code.Google.com/p/svmi >>svmi is a script for easy, user friendly installation and maintenance of virtualbox and vmware components on your debian system
+
+VMmanager.sf.net >>With VMmanager you can configure virtual machines. The virtual machines run with the VMware Player.
+
+Code.Google.com/p/vmware-view-open-client >>VMware View Open Client lets you connect from a Linux desktop to remote Windows desktops managed by VMware View. It is available under the GNU Lesser General Public License version 2.1 (LGPL v 2.1).
+
+VMToolKit.com >>The vmToolkit web site provides you with tools and utilities to make managing virtualization platforms easier.  Our tools are targeted at the IT worker, administrator or developer who is using or experimenting with virtualization technologies day to day.  We welcome all suggestions, comments or ideas and hope you find something useful within these pages.
+
+Open-VM-Tools.sf.net >>The Open Virtual Machine Tools (open-vm-tools) are the open source implementation of VMware Tools.  They are a set of guest operating system virtualization components that enhance performance and user experience of virtual machines.  As virtualization technology rapidly becomes mainstream, each virtualization solution provider implements their own set of tools and utilities to supplement the guest virtual machine.  However, most of the implementations are proprietary and are tied to a specific virtualization platform.
+
+TX.Downloads.XENSource.com/products/v2xva >>A V2V tool to convert VMware and Microsoft Virtual Server/Virtual PC virtual machines (with Microsoft Windows installed) to the Xen Virtual Appliance (XVA) format.
+
+ChitChat.at.InfoSeek.co.jp/vmware/vdk.html >>With VDK you can mount a VMware virtual disk to your Windows hosts and use them as another disk drive attached to your system.
+
+sf.net/projects/fuseqemu >>Tool to access virtual machine images like vmdk, qcow, qcow2 or raw images file within your linux box. Handles partitions as well. Based on the fuse and qemu project.
+
+Code.Google.com/p/akutz >>A temporary location for akutz's open source projects.
+
+SanBarrow.com
+
+Petruska.StarDock.net/Software/VMware.html
+
+LiveView.sf.net >>Live View is a Java-based graphical forensics tool that creates a VMware virtual machine out of a raw (dd-style) disk image or physical disk. This allows the forensic examiner to "boot up" the image or disk and gain an interactive, user-level perspective of the environment, all without modifying the underlying image or disk. Because all changes made to the disk are written to a separate file, the examiner can instantly revert all of his or her changes back to the original pristine state of the disk. The end result is that one need not create extra "throw away" copies of the disk or image to create the virtual machine.
+
+ChitChat.at.InfoSeek.co.jp/vmware/vdk.html >>With VDK you can mount a VMware virtual disk to your Windows hosts and use them as another disk drive attached to your system.
+
+sf.net/projects/pamvi >>PowerShell Source code for "Programming and Managing VMware Infrastructure" - an upcoming book by O'Reilly.
+
+sf.net/projects/vmdkutil and c:\dev\research\VMware\vmdkutil-1.0.1.cpp >>vmdkutil is a utility to manage VMware sparse virtual disk files (.vmdk), creating, cloning, merging, etc.
+
+
+PBA-VM.sf.net "'First, the Personal Backup Appliance provides a simple user-friendly interface to backup and restore entire hard disk drives over the network. This functionality is similar to that of commercial products such as Norton Ghost Server, but there is no added cost for additional software or hardware. This feature simplifies consumer hard disk backup, streamlines OS deployment in corporate IT environments, and provides a simple harness to backup and restore virtual machines in VMPlayer. Such a setup on physical hardware would require a non-trivial amount of time to set up on top of hardware costs. The intended audience is any consumer that wants a no-hassles backup solution. All you need to do is power on the VM, and then boot from the client on the system that you want to backup.
+
+The Personal Backup Appliance backs up the entire hard disk. The MBR, partition table and all partitions are copied. The Personal Backup Appliance aims to be an easy and fast backup solution. Most partitions types such as NTFS, FAT16/32, and ext3 are supported by tools that understand the filesystem, so only the data is copied, and empty space is ignored. This makes copying very fast. For other partition types, raw copies are made. The technology working behind the scenes in PBA is not new. In fact, many of the open source programs and tools used in PBA have been around for a long time. The innovation in PBA is in the presentation and the integration of these programs and tools.'"
+
+
+sf.net/projects/backupxe >>Remote controlled network boot based, backup, system administration and deployment solution. HTML (AJAX) graphical interface using javascript and cgis in C/bash/Tcl. Runs on Linux, Windows, openwrt/freewrt, live cd, vmware or qemu.
+
+sf.net/projects/vmachinetools >>Some simple tools to create empty virtual machines for VMWare products including VMPlayer
+
+sf.net/projects/psk >>The Penguin Sleuth Kit is a Bootable CD and a Vmware Virtual Platform.The Penguin Sleuth Kit adapts a great Linux resource to include tools that are useful when performing a forensic computer analysis & Security Auditing. Details: www.linux-forensics.com
+
+sf.net/projects/vmi-linux >>VMI-Linux is a virtualization interface for Linux with the goal of introducing cross hypervisor compatibility, so a single Linux kernel can run unmodified on L4, VMware, Xen and other hypervisors, as well as native hardware, with excellent performance.
+
+sf.net/projects/vmmanager >>With VMmanager, you can create new virtual machines and modify existing virtual machines. The following disk types can be enlarged: monolithicFlat, twoGbMaxExtentFlat, monolithicSparse and twoGbMaxExtentSparse. The VMs can be used with the VMware player.
+
+sf.net/projects/vish2 >>The Virtual Interface Shell (vish) project is a command-line interface for managing VMware's Virtual Infrastructure 3 (VI3). Written in C#, this interactive shell can be used in Windows or Linux or OS X with Mono.
+
+"c:\Program Files (x86)\VMware"

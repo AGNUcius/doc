@@ -1,0 +1,5 @@
+Related: WMI
+
+PyWBEM.sf.net >> Python WBEM Client and Provider Interface    PyWBEM is a Python library for making CIM operations over HTTP using the WBEM CIM-XML protocol. It is based on the idea that a good WBEM client should be easy to use and not necessarily require a large amount of programming knowlege. PyWBEM is suitable for a large range of tasks from simply poking around to writing web and GUI applications.
+
+SBLIM.sf.net >>SBLIM (pronounced "sublime") is an Open Source project, intended to enhance the manageability of GNU/Linux systems. It does so by enabling GNU/Linux for WBEM, a set of standards defined by the DMTF and fostered by the WBEMsource initiative.    SBLIM is an acronym for Standards Based Linux Instrumentation for Manageability. The goal of this project is to provide a complete Open Source implementation of a WBEM-based management solution for Linux. SBLIM is licensed under the CPL.

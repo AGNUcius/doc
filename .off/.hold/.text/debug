@@ -1,0 +1,42 @@
+Related: bin, bug, code, hack, hex
+
+Debug(comput): To remove software bugs such as with GDB.
+Debug(ag): To remove organism bugs.
+
+If in GNU Emacs, try "M-x gdba"
+
+ERESI-Project.org >>The ERESI Reverse Engineering Software Interface is a multi-architecture binary analysis framework providing a domain-specific language for reverse engineering. ERESI features OS-wide support for analysis, instrumentation, and debugging of INTEL, SPARC, MIPS, ALPHA and ARM binary programs. ERESI is enhanced for operating systems based on the Executable & Linking Format (ELF) such as Linux, *BSD, Solaris, HP-UX, IRIX and BeOS, but it can also debug any OS in a virtual machine or emulator via the GDB protocol.
+
+Radare.org >>Radare is a free and advanced command line hexadecimal editor    The project aims to create a complete, portable, multi-architecture, unix-like toolchain for reverse engineering.
+
+OpenDebug.GoogleCode.com >>Main idea of this debugger is focused on debugging all the applications, both the user mode and kernel mode. And of course, this debugger has crossplatform architecture. But for now, its using under Linux OS is impossible. The debugger kernel is a driver. UI uses wxWidgets cross-platform library.
+
+CGDB.sf.net >> CGDB is a curses (terminal-based) interface to the GNU Debugger (GDB).  Its goal is to be lightweight and responsive; not encumbered with unnecessary features.  The primary feature of CGDB is the constant presence of a source display (screenshots), updated as the program executes, to help keep you focused while debugging.  The interface is inspired by the classic Unix text editor, vi.  Those familiar with vi (or vim) should feel right at home using CGDB.
+
+GNU.org/software/ddd >>GNU DDD is a graphical front-end for command-line debuggers such as GDB, DBX, WDB, Ladebug, JDB, XDB, the Perl debugger, the bash debugger bashdb, the GNU Make debugger remake, or the Python debugger pydb. Besides ``usual'' front-end features such as viewing source texts, DDD has become famous through its interactive graphical data display, where data structures are displayed as graphs.
+
+$ gdb, mdb, ldd, file, nm, objdump, readelf
+
+Code.Google.com/p/jrfonseca/wiki/DrMingw >>Dr. Mingw is a Just-in-Time (JIT) debugger. When the application throws an unhandled exception, Dr. Mingw attaches itself to the application and collects information about the exception, using the available debugging information.
+
+RR0D.Droids-Corp.org >>RR0D is a ring 0 debugger.  It offers the possibility to debug any kind of code (kernel/user/rasta land).  Its philosophy is to be OS independent.  That's why RR0D can today be installed on Linux, *BSD, Wind0ws.  This has some disadvantages: RR0D is only designed to run on x86 (is this really a disadvantage?).
+
+PythonIDE.BlogSpot.com >>Free python IDE for Windows,Mac & Linux with UML,PyChecker,Debugger,GUI design,Blender & more
+
+OpenRCE.org >>Founded in June of 2005 as the brainchild of Pedram Amini, the Open Reverse Code Engineering community was created to foster a shared learning environment among researchers interested in the field of reverse engineering. Heavily modeled on the architecture of Greg Hoglund's rootkit.com, OpenRCE aims to serve as a centralized resource for reverse engineers (currently heavily win32/security/malcode biased) by hosting files, blogs, forums articles and more.
+
+pedram.redhive.com/PaiMei/docs >>PaiMei, is a reverse engineering framework consisting of multiple extensible components. The framework can essentially be thought of as a reverse engineer's swiss army knife and has already been proven effective for a wide range of both static and dynamic tasks such as fuzzer assistance, code coverage tracking, data flow tracking and more.
+Archive.org/details/Pedram_Amini_PaiMei_and_the_Five_Finger_Exploding_Palm_RE_Techniques
+
+pICE.sf.net >>pICE is an interactive kernel debugger similar to SoftICE on MS Windows(tm).
+$ cvs -d:pserver:anonymous@pice.cvs.sourceforge.net:/cvsroot/pice login
+$ cvs -z3 -d:pserver:anonymous@pice.cvs.sourceforge.net:/cvsroot/pice co -P pice
+
+CProgramming.com/gdbtutorial.html
+
+tech-archive.net/Archive/VC/microsoft.public.vc.debugger/2004-03
+
+Sources.RedHat.com/insight >>Insight is a graphical user interface to GDB, the GNU Debugger written in Tcl/Tk by people working at Red Hat, Inc. and Cygnus Solutions. We've been developing this debugger GUI since 1994. It has turned into a mature interface that is able to give you access to much of GDB's power.
+
+GUD and GDBA in Emacs
+

@@ -1,0 +1,9 @@
+Related: defrag, kill
+
+==Defrag:
+
+Kessels.com/JKDefrag >>JkDefrag is a disk defragmenter and optimizer for Windows 2000/2003/XP/Vista/2008/X64.  Completely automatic and very easy to use, fast, low overhead, with several optimization strategies, and can handle floppies, USB disks, memory sticks, and anything else that looks like a disk to Windows.  Included are a Windows version, a commandline version (for scheduling by the task scheduler or for use from administrator scripts), a screensaver version, a DLL library (for use from programming languages), versions for Windows X64, and the complete sources.
+
+UltraDefrag.sf.net >>UltraDefrag is powerful Open Source defragmentation tool for Windows NT.  It is very fast, because the defragmenting is done by kernel-mode driver.  They are three interfaces to them: graphical, console and native.  The GUI is very useful, because it represents your filesystem visually as a color coded cluster map.  The console is another option for those that prefer the command line.  It is also allows you to run UltraDefrag from the task scheduler and scripts.  Finally, the native executable will run at boot time in a manner similar to chkdsk.
+
+Free.Pages.at/blumetools/toolsen.html

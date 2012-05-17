@@ -1,0 +1,112 @@
+Related: change, burn, dir, disk, ISO, mount, DVD, store
+
+==GNUin
+WinCDemu.sf.net >>WinCDEmu is an open-source software that allows mounting CD/DVD images by clicking at the image files in Windows Explorer. It supports both Windows XP and Vista, is open-source and completely freeware.  Version 2.0 supports ISO, CUE, BIN/RAW/IMG file formats as well as SMB network shares and includes a workaround for Windows cache bug.
+
+CDDARip.sf.net >>CDDA Ripper XP is an audio CD ripper program that provides support for NT/2000/XP natively (ASPI manager is optional). It supports WAV-MP3-OGG-FLAC-ACM codec encoding and can be used to rip multiple CDs. It uses newest encoders like LAME and Ogg/Vorbis.
+Compact Discs: Store information on optical media.
+
+
+
+==GNUnix
+cd2ogg.sf.net >>cd2ogg is a script to rip and encode cds with minimal user intervention
+
+cdstatus.sf.net >>cdstatus is a tool for diagnosing cdrom drive and cd problems, and for performing digital data (music audio) extraction. It will query the drive status, and report what the system thinks the status is. Due to problems, systems have been known to disagree with users as to the status of a drive. (The user says "the cd is in there" the drive says "door open". Time to try another cdrom drive (or close the door).
+
+CafXX.StrayOrange.com/RedDisc >>RedDisc (REDundant DISC) is a system to add parity information to optical medias, to avoid data losses. The system is made up of two parts: an encoder and a decoder. The former uses the free space left on the media to add transparent parity data. The latter, in case of unreadable sectors, tries to recover them by using the parity data.
+
+http://www.penguin.cz/~utx/cddisasm "'CD-disassembler
+This is simple utility for decoding subchannel data from CD image.
+It works only with P-W RAW mode data, as specified in MMC standard.
+It does not yet understand lead-in and lead-out data.
+'"
+
+T-ST.org/split2cds_f.html >>split2cds splits up the subdirectories and files from one large directory to several small directories with a predefined size each. This is useful for burning large directories on several CDs, in a way that as little space as possible is wasted.
+
+
+CDEmu.sf.net >>CDEmu is a CD/DVD-ROM device emulator for linux, licensed under GPL v2 or later. It is a from-scratch rewrite of the legacy CDEmu project, which was started by Robert Penz.
+"'
+* B6T: BlindWrite 5/6 file format
+* C2D: WinOnCD file format
+* CCD: CloneCD image format
+* CDI: DiscJuggler file format
+* CIF: Easy CD Creator format
+* CUE: CDRwin CUE/BIN image format
+* DAA: PowerISO direct access archives (unencrypted)
+* ISO: Classic ISO9660 image format
+* MDS: Alcohol 120% image format
+* NRG: Nero Burning ROM image format
+* TOC: Cdrdao's TOC/BIN image format
+'"
+
+People.Atheme.org/~desowin/cdemu-tray >>cdemu-tray is simple cdemu client written in c using dbus-glib and gtk+
+
+cdrkit.org >> - portable command-line CD/DVD recorder software
+$ icedax #extract audio CD data
+$ genisoimage #create ISO images (was mkisofs)
+$ wodim #CD/DVD recording (was cdrecord)
+
+SCDBackup.sf.net >>Simplyfied CD/DVD Backup for Linux.  Including Xorriso "ISO 9660 Rock Ridge Filesystem Manipulator for Linux"
+
+$ sudo apt-get install cwcdr ripit ripoff ripperx yaret
+
+LittleSVR.ca/asunder >>Asunder is a graphical Audio CD ripper and encoder for Linux. You can use it to save tracks from an Audio CD as WAV, MP3, OGG, FLAC and/or WavPack.
+
+Packet-CD.sf.net "'
+There are three methods for writing data (or audio) to a CD using a CD recorder: Track-at-Once (TAO), Disc-at-Once (DAO) and Packet Writing. Track-at-Once is, by far, the most popular method today. Both Track-at-Once and Disc-at-Once use a table of contents mechanism to look up each chunk of data written to the disc. Use of a Table of Contents (TOC) requires that each session (or disc) must be closed at the end of a write, updating the table of contents which allows that session to be readable. Use of TAO and DAO methods also requires the creation of an ISO image before the disc may be written; converting the data from its form on your filesystem to a form that can be cleanly written to CD.
+
+Packet writing is a method quite different from TAO and DAO; it is designed for writing data to CD in small increments. Packet writing must be supported by hardware (not all CD writers support packet writing). The largest benefit in packet writing comes in its ease of use; packet writing enables the user to copy files to CD without mastering any images previously, allowing someone to copy files to CD without requiring significant technical knowledge. Combined with a CD-RW drive and CD-RW media, packet writing provides an extremely simple, versatile, and inexpensive method for performing regular backup of crucial data.
+'"
+
+CDRDAO.sf.net "'
+Advantages of Disk-At-Once (DAO) Recording
+    Recording in disk-at-once mode writes the complete disc, i.e. lead-in, one or more tracks and lead-out, in a single step. The commonly used track-at-once (TAO) mode writes each track independently which requires link blocks between two tracks. Older CD-recorder models forced a two second pause (pre-gap) between two tracks whereas newer models allow adjusting of the pause length in TAO mode reducing the number of link blocks to a minimal amount. However, with TAO it is generally not possible to define the data that is written in pre-gaps. But exactly this feature makes audio CD recording interesting, e.g. by creating hidden bonus tracks or track intros in pre-gaps like it is common habit on commercial CDs.
+    Finally, DAO recording is the only way to write data to the unused R-W sub-channels for e.g.  CD-G or CD-TEXT.
+'"
+
+
+----
+To create a non bootable TAO data iso:
+$ mkisofs -v -J -l -L -r -o data.iso /path/to/directory
+
+$ cdrecord -scanbus #find destination device name
+If that doesn't work you can specify the device with it's filesystem pathname:
+
+$ cdrecord -dev=/dev/cdrw -scanbus
+Should return something like:
+> 1,0,0	  0) 'PIONEER ' 'DVD-RW  DVR-106D' '1.05' Removable CD-ROM
+
+If you need to blank first:
+$ cdrecord -dev=1,0,0 -blank=fast #to blank a rewritable disk
+
+Now write the ISO to disk:
+$ cdrecord -v -dev=1,0,0 -eject data.iso #burn the ISO
+
+To make an iso that boots from a floppy image:
+First create a bootable floppy.
+Then create a boot image file from that floppy:
+$ dd if=\\.\a: of=boot.img bs=10k count=144 #w32
+$ dd if=/dev/fd0 of=boot.img bs=10k count=144 #*nix
+
+Now create the bootable ISO with that image: (it seems you must be _in_ the directory you are archiving, so the command will look more like:)
+$ mkisofs -v -J -l -L -r -b boot.img -c boot.catalog -o data.iso . #(notice the trailing '.')
+
+Copy directly from one CD drive to another: the destination is specified with the `-dev=' param, and the source is specified as a device name
+$ cdrecord -v -dev=1,0,0 -isosize \\.\f: #on w32
+$ cdrecord -v -dev=1,0,0 -isosize /dev/cdrom #on nix
+----
+
+K3b.org CD/DVD burning
+ExactAudioCopy.de  CD audio extraction [cdr, rip, music, copy]
+www.abo.fi/~jmunsin/gcombust >>gcombust is a gui for mkisofs/mkhybrid/cdda2wav/cdrecord/cdlabelgen.
+VCDImager.org >>GNU VCDImager is the complete free software solution for authoring (Super) Video CD images and reversing the process.
+
+webs.ono.com/usr016/de_xt >>Mode2 CD Maker
+webs.ono.com/de_xt Mode2 CD/XA similar to a VCD
+XCD.sf.net >>CD container format standard for multimedia content
+MCF.sf.net Media Container Format
+UCI.sf.net The Universal Codec Interface
+
+Matroska.org >>extensible open standard Audio/Video container format
+www-user.tu-chemnitz.de/~noe/Video-Zeug/AVIMux%20GUI/index-eng.html >>AVI-Mux GUI ... creates segmented multilingual AVI files ... replayed .. very low speeds .. directly from CD-R or DVD-R.
+

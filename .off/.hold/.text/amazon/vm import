@@ -1,0 +1,107 @@
+AWS.Amazon.com/ec2/vmimport
+
+
+VM Import enables you to easily import virtual machine images from your existing environment to Amazon EC2 instances. This offering allows you to leverage your existing investments in the virtual machines that you have built to meet your IT security, configuration management, and compliance requirements by seamlessly bringing those virtual machines into Amazon EC2 as ready-to-use instances. VM Import is available at no additional charge beyond standard usage charges for Amazon EC2 and Amazon S3.
+  To access VM Import:
+Sign Up for Amazon EC2
+To import your images, use the Amazon EC2 API tools to point to a virtual machine (VM) image in your existing environment. You then specify which Availability Zone and instance type you want to run in Amazon EC2, and VM Import will automatically transfer the image file, migrate the image and create your instance. Once you have imported your VMs, you can take advantage of Amazon's elasticity, scalability and monitoring via offerings like Auto Scaling, Elastic Load Balancing and CloudWatch to support your imported images. Your instance will be up and running in Amazon EC2 in as little time as it takes to upload your image.*
+
+
+The VM Import process currently supports VMware VMDK images for Windows Server 2008 SP2. We plan to import additional operating systems, versions and image formats in the future. In addition, we will enable exporting Amazon EC2 instances to common image formats. We also plan to make VM Import available via a plugin for VMware's vSphere console in the coming months. To participate in a private beta of the vSphere console plugin, please email ec2-vm-import-plugin-preview@amazon.com
+
+
+*The time required for VM Import is dependent upon your network connection speed and the size of the virtual machine image being uploaded.
+
+
+Using the VM Import Tools
+Getting started with the VM Import process is easy. You simply:
+
+    Download the VM Import Command Line Tools from Amazon EC2 API tools.
+    Use the ec2-import-instance command to create a new import instance task. The import instance task captures the parameters necessary to properly configure the Amazon EC2 instance properties such as instance size, Availability Zone, and security groups.
+    Use the ec2-upload-disk-image command to upload your disk image to Amazon S3.
+    Use the ec2-describe-conversion-tasks command to monitor the process of the disk import process and obtain the resulting Amazon EC2 instance ID.
+    Use the ec2-describe-conversion-tasks command to monitor the process of the import process and obtain the resulting Amazon EC2 instance ID. You can now boot the Amazon EC2 instance by specifying its instance ID to the ec2-run-instances API.
+    Once your import task is completed, use the ec2-delete-disk-image command line tool to delete your disk image from Amazon S3.
+
+ Top
+Common Uses for VM Import
+Easily Import Your Data Center VM Applications to Amazon EC2
+
+The VM Import process enables you to import your existing VM images from your environment to Amazon EC2. For example, you can import all of your VMware virtual machine images to Amazon EC2 and immediately begin running your imported applications in the cloud. Leverage AWS's Auto Scaling, Elastic Load Balancing, and CloudWatch monitoring to scale and monitor the newly imported applications.
+Create a Disaster Recovery Repository for your VM images
+
+Import your on-premise VM images to Amazon EC2 for backup and disaster recovery contingencies. Store the imported images as Elastic Block Store-backed AMIs so they're ready to launch in Amazon EC2 when you need them. You pay no Amazon EC2 usage charges until you need to launch the instances.
+
+ Top
+Projecting Costs
+
+The VM Import process is enabled by Amazon EC2 and is available at no additional charge. Amazon S3 storage is utilized during the import process and is billed separately. In addition, Internet data transfer rates for the image upload apply. Regular Amazon EC2 service fees apply when launching the imported images.
+
+As an example, importing a 10 GB VMware image of Windows Server 2008 would amount to $1 for data transfer (or $0.10 per GB x 10 GB data transfer in), and $0.05 for 1 day of S3 storage (or $0.14 per GB/month x 10 GB / 30 days) for a total charge of $1.05.
+
+In addition, EBS charges equal to $0.10 per GB-month will apply for the EBS volume containing the EBS-backed instance.
+
+ Top
+Resources
+Developer Resources 	
+
+    WSDL
+    Release Notes
+    Documentation
+    Sample Code & Libraries
+    Developer Tools
+    Articles & Tutorials
+    Community Forum
+
+Additional Product Information
+
+    FAQs
+    Service Health Dashboard
+
+Related Services
+
+    AWS Premium Support
+    Amazon Elastic Compute Cloud
+    Amazon S3
+
+ Top
+Amazon EC2 Details
+
+    EC2 Overview
+    EC2 FAQs
+    EC2 Pricing
+    Amazon EC2 SLA
+    EC2 Instance Types
+    EC2 Instance Purchasing Options
+    Reserved Instances
+    Spot Instances
+    Windows Instances
+
+Amazon EC2 Features
+
+    Elastic Block Store
+    Amazon CloudWatch
+    Auto Scaling
+    Elastic Load Balancing
+    High Performance Computing
+    VM Import
+
+Related Resources
+
+    Documentation
+    Release Notes
+    Sample Code & Libraries
+    Developer Tools
+    Articles & Tutorials
+    Community Forum
+    FAQs
+    AWS Premium Support
+
+    AWS Blog This link will launch a new browser window or tab.
+    Press Inquiries
+    Careers at AWS
+    Contact Us
+    Privacy Policy
+    Terms of Use
+
+©2010, Amazon Web Services LLC or its affiliates. All rights reserved.

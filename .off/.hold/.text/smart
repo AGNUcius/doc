@@ -1,0 +1,9 @@
+Related: drive, disk, hard, manage
+
+$ wmic.exe /NAMESPACE:\\root\wmi path MSStorageDriver_FailurePredictStatus
+
+SmartMonTools.sf.net >>The smartmontools package contains two utility programs (smartctl and smartd) to control and monitor storage systems using the Self-Monitoring, Analysis and Reporting Technology System (SMART) built into most modern ATA and SCSI harddisks. In many cases, these utilities will provide advanced warning of disk degradation and failure.
+
+GSmartControl.berliOS.de >>GSmartControl is a graphical user interface for smartctl (from Smartmontools, which is a tool for querying and controlling SMART (Self-Monitoring, Analysis, and Reporting Technology) data on modern hard disk drives. It allows you to inspect the drive's SMART data to determine its health, as well as run various tests on it.
+
+Microsoft.com/whdc/archive/smartdrv.mspx >>WMI Support for SMART Drives

@@ -1,0 +1,240 @@
+Related: art, change, film, media, movie, flash, TV, view
+
+==Find
+LabTube.tv
+
+DNAtube.com
+
+IEEE.tv
+
+OpenCast.org >>The Opencast community is a collaboration of higher education institutions working together to explore, define, and document podcasting best practices and technologies. Through the Community mailing list and Resource exchange, the community offers guidance and information to help others choose the best approach for delivering rich media online.
+
+Kaltura.org >>Home of Kaltura's open source video platform, the fastest growing platform on the web - used by over 35,000 sites worldwide.
+
+viddler.com >>UPLOAD, ENHANCE AND SHARE YOUR VIDEOS
+
+flixdump.com
+
+Peach.Blender.org >>Open Movie
+
+SuTree.com educational videos
+
+enix.berlios.de >>free video processing
+
+MetaCafe.com >>serving the world's best videos
+
+fuvoo.com >>The Video Billboard
+
+InsightShare.org >>The Participatory Video Revolution!
+
+VidVoting.com >>Watch It, Vote It, Share It
+
+UserScripts.org/scripts/show/13333 >>Removes ads and unwanted sections (configurable), allows downloading and resizing videos, displays all comments on video page, expands the description, can prevent autoplay and autodownload, adds a HD (High Definition) select, etc...
+
+IronSky.net >>In 1945 the Nazis fled to the moon. In 2018 they are coming back. 
+
+OpenFlix.com >>OpenFlix provides a directory of movies commonly thought to be in the public domain and works their owners are willing to let be distributed.
+
+FreeFrame.sf.net >>FreeFrame is the open-source cross-platform real-time video effects plugin system designed for use in VJing applications
+
+Transmission.cc >>Transmission is a network of citizen journalists, video makers, artists, researchers, programmers and web producers who are developing online video distribution tools for social justice and media democracy. Our objective is to make independent online video distribution possible (using FLOSS) by building the necessary tools, standards, documentation and social networks.
+
+TheoraSea.org Video and audio sharing, mostly using Theora and Vorbis in the OGG container
+
+Metavid.UCSC.edu >>Metavid is a project which seeks to capture, stream, archive and facilitate real-time collective [re]mediation of legislative proceedings.
+
+ClearerChannel.org >>ClearerChannel is an online video project which encourages viewers to download and transmit video for social change. Check out Videos listed by group or topics. Then - get involved. Use our training manuals to create video and retransmit it via email, your website, blogs, myspace, youtube whatever. We don't care - go for it!
+
+FilmForge.net >>FilmForge is a distribution (or profile) of the Free/Libre Open Source Softare content management system Drupal, tailored to the needs of videomaking communities. FilmForge makes it simple to install and run your own video sharing site.
+
+
+==Play
+Kantaris.org (.NET)>>Kantaris is a new media player based on code from Videolan client (VLC) and Bass audio library. Kantaris has a graphical user interface similar to that of Windows Media Player.
+
+
+Flowplayer.org >>Flowplayer is a video player for Web sites. Use it to embed video streams into your HTML pages. No other software makes it easier.
+
+SMPlayer.sf.net >>SMPlayer intends to be a complete front-end for MPlayer, from basic features like playing videos, DVDs, and VCDs to more advanced features like support for MPlayer filters and more.  SMPlayer will play a .wmv file using the mss2 codec.
+
+Vimeo.com >>People connecting through video.
+
+VideoLAN.org also known as VLC
+
+MPlayerHQ.hu Sometimes has audio/video synch trouble
+
+Save stream example:
+$ mplayer -noframedrop -dumpstream -dumpfile Gates_LOCKED_CLOSED_Medicine_Pirate.asf http://hqswvilib.who.int:85/streaming/wha58_bill_gates_speech.wmv?MSWMExt=.asf
+
+xineHQ.de Slower and less complete than vlc
+
+GetMiro.com >>The only video player you need.  Free and open-source, because open media matters.
+
+
+==Edit
+Lumeria.org >>Lumiera is a Free/Open Source Non-Linear Video Editing (NLE) application project for GNU/Linux developed by the CinelerraCV community.  It was born as a rewrite of the Cinelerra codebase called Cinelerra3 but it is now an independent project with its own name.
+
+OpenShotVideo.com >>"I have a simple mission: To create an open-source, non-linear video editor for Linux. Many have tried and fallen before me, but for some reason I feel compelled to try myself. I am documenting my journey in this blog for all to read. It will be a dangerous journey, and I might not make it back alive. Hold on tight, and enjoy the ride! By the way, I'm calling this project OpenShot Video Editor!"
+
+OpenMovieEditor.org >>Open Movie Editor is a free and open source video editing program, designed for basic movie making capabilities. It aims to be powerful enough for the amateur movie artist, yet easy to use.
+
+DIVFIXPP.sf.net >>DivFix++ is yours AVI video repair and preview software. It designed for repair and preview files which are on download from ed2k(emule), torrent, gnutella, ftp. web or any other source on the internet. It can repair AVI and DivX files (for now.)
+
+MLTFramework.org >>MLT is an open source multimedia framework, designed and developed for television broadcasting. It provides a toolkit for broadcasters, video editors, media players, transcoders, web streamers and many more types of applications. The functionality of the system is provided via an assortment of ready to use tools, XML authoring components, and an extensible plug-in based API.
+
+Cinefx.org >>Cinefx is a suite of open source, cross platform media playback, encoding, visual effects and editing digital content creation tools.
+
+PiTiVi.org >>PiTiVi is an open source video editor, written in Python and based on GStreamer and GTK+.
+
+Kdenlive.org >>Kdenlive is an intuitive and powerful multi-track video editor, including most recent video technologies. Our software is completely free, in all sences of the expression, as defined by the GNU foundation. Using Kdenlive is investing in a community driven project, which aims to establish relationships between people in order to built the best video tools.
+
+Cinelerra.org >>Cinelerra is the most advanced non-linear video editor and compositor for Linux. It is developed by Adam Williams (formerly known as Jack Crossfire) at Heroine Virtual Ltd..
+
+JAHSHAKA.org >>POWERING THE NEXT HOLLYWOOD
+
+LVEMPEG.sf.net >>Linux Video Editor (lve)
+LiVES.sf.net >>LiVES is a Video Editing System
+KinoDV.org >>Video Editor
+ThinLiquidFilm.org >>convert videos to the ipod format in linux
+
+
+Home.GNA.org/clive >> clive is a command line program that extracts videos from YouTube, Google Video and Dailymotion websites
+$ svn co svn://svn.gna.org/svn/clive/trunk clive
+$ cd clive
+$ sudo python setup.py install
+
+==Other tools
+AVISynth.org
+VirtualDub.org
+neuron2.net avisynth and virtualdub filters
+dscaler.org deinterlacing
+effectv.sf.net
+bag.hotmail.ru/descratch/descratch.dhtml
+lurkertech.com/lg/fields/fields.html
+100fps.com deinterlacing
+outflux.net/unix/software/GOPchop lossless MPEG2-PS editing
+piksel.org Piksel video framework
+jahshaka.org VJ
+fixounet.free.fr/avidemux/
+xs4all.nl/~salsaman/lives LiVES  is a Video Editing System
+veejay.sf.net
+ydegoyon.free.fr/pidip.html
+freej.dyne.org
+tele.ucl.ac.be/PEOPLE/DOUXCHAMPS/ieee1394/coriander firewire camera
+smartision-sc.sf.net screen capture
+bbc.co.uk/rd/projects/dirac wavelet video codec
+khronos.org/openml
+openal.org
+fixounet.free.fr/avidemux
+movix.sf.net
+heroinewarrior.com/cinelerra.php3
+dscaler.org deinterlacing
+deinterlace.sf.net 
+linuxgraphic.org
+jonny.leffe.dnsalias.com  dvd to DivX avi
+ffmpeg.sf.net record, convert and stream audio and video.
+tmpgenc.net converts *.AVI files to MPEG1
+film Gimp
+heroinewarrior.com/cinelerra.php3 advanced compositing and editing system
+on2.com/vpvision
+mythtv.org PVR (personal video recorder)
+doumo.sf.net  tv, jukebox, PVR
+gatos.sf.net ATI on Linux
+dvr.sf.net "DVR lets you record movies from a Video4Linux interface"
+blenderwars.com
+gmone.org GNU Modeller One
+movietime.sf.net dvd player
+bytesex.org/xawtv video capture player
+xmps.sf.net video player
+thedirks.org/v4l2 video for linux 2
+mythtv.org PVR (personal video recorder)
+deinterlace.sf.net 
+gstreamer.net video framework
+atoker.com/platano
+gini.sf.net free streaming media server
+gstreamer.net video framework
+gabest.org
+gstreamer.net
+xs4all.nl/~salsaman/lives/index.html
+xmps.sf.net video player
+thedirks.org/v4l2 video for linux 2
+
+
+==Compression
+bbc.co.uk/rd/projects/dirac
+freeextractor.sf.net
+faac.sf.net mp4 audio codecs
+cs.ucr.edu/~stelo/Offline
+sequence.rutgers.edu/sequitur
+cs.tut.fi/~albert/Dev/pucrunch/packing.html
+
+CoreCodec.org MPEG and other codecs
+
+Kodisein.sf.net >>Kodisein was written and designed for one purpose mainly: to be a VJ (VideoJockey) tool. That means: it should be used in discotheques to supplement the music with matching visuals.
+
+YouGrabber.sf.net >>YouGrabber is a lightweight, multi-threaded (NPTL based) command line YouTube.com video downloader with proxy (HTTP, SOCKS 4 and 5) support, made from scratch in ANSI C using the libcURL API.
+
+Arrakis.es/~rggi3/youtube-dl >>youtube-dl is a small command-line program to download videos from YouTube.com pornotube and metacafe versions available too.
+
+
+==Downloads
+Channel101.com >>The Unavoidable Future of Entertainment
+BlueRibbon.org >>Short Films
+Orange.Blender.org is an "Open" movie.
+Archive.org/details/Bush_Boys >>got their fingers on the button
+Mal*Wart is Wal*Mart WalMartMovie.com gobnf.org/v/wm/trailer.mov
+CrooksAndLiars.com Daily exposure
+http://911Blogger.com/files/video/SupaDubya.mov
+ChavezTheFilm.com "The Revolution Will Not be Televised"
+Mysite.verizon.net/res7dhyg/slaverevolt.html
+IBINY.com open source movies
+WebJay.org audio and video playlist community
+
+The Pharmacratic-Inquisition.com seems too focused on drugs alone.  I agree with some of what they say, but think the historic message may more generally be described as permaculture.
+OccultMysterySchool.com shows a picture from "Canterbury Psalter, Canterbury, England c. 1147 CE" which shows not only medicinal plants, but represents all useful beasts and plants = gifting organisms.
+
+SystemOfADownOnline.com/vid/boom.htm
+ConcreteTV.com
+SaveBetaMax.org
+Good, Fire, Hit Him
+ PrisonPlanet.com/good_fire_hit_him.wmv
+ YouthfulIndiscretions.com/other/good_fire_hit_him.mov
+LegalTorrents.com
+TheYesMen.org
+Chohomio.com
+WeedShare.com
+Bootleg.tv
+EricSchwartz.com - >>Keep Your Jesus Off My Penis
+BushFlash.com
+SnowshoeFilms.com
+IUMA.com
+FilmWatcher.com
+CommonContent.org
+RegenerationTV.net
+TorrentOcracy.com
+PhotoSig.com
+IMP.org >>The Internet Movie Project
+Machinima.com
+Irational.org/sic/radio
+FilmWatcher.com
+SonnyBoo.com/onlinemovies/film.htm
+AirAmericaRadio.com
+WorkingForChange.com/article.cfm?itemid=14478&CFID=5110773&CFTOKEN=11842427
+Huppi.com/kangaroo/L-liberalmedia.htm
+ThisDividedState.com/movies/TDS1.mov
+ThisDividedState.com/movies/TDS2.mov
+
+==Restore video resolution
+keyboard: press Ctrl-Alt-NumPad+ or Ctrl-Alt-NumPad-
+$ xvidtune #click 'prev' or 'next'
+
+==non-free ATI (fglrx) on Ubuntu:
+$ sudo apt-get update
+$ sudo apt-get install linux-restricted-modules-$(uname -r) #Okay if it is already installed
+$ sudo apt-get install xorg-driver-fglrx
+$ sudo depmod -a
+$ sudo aticonfig --initial
+$ sudo aticonfig --overlay-type=Xv
+$ displayconfig-gtk
+
+==After changing your video card.
+$ sudo dpkg-reconfigure xserver-xorg

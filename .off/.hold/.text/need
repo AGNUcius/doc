@@ -1,0 +1,67 @@
+Related: demand, poverty, solution, want
+
+Primary human needs include: space, air, water, food/drug, cloth, soap, shelter, sewer, storage
+
+Secondary needs include: fuel, transportation, insurance, communication, education, defense
+
+
+
+
+NEED: CONSTRAINT
+------------------------
+breathe: air
+air: pollut
+
+drink: water, juice, milk, tea, sweetener
+water: pollut
+
+milk: cow, tools
+cow: grass, water, sun
+tea, grass: agri
+sweet: honey, stevia, licorice, sugar: agri
+
+eat: food, spice, drug: agri
+
+wash: water, soap
+soap: agri
+
+privacy: housing, clothing
+housing: land, tools
+land: usury, pollut
+
+tools: mine, forge, lumber, mill
+
+mine: land, ore
+mill: land, tools
+lumber: agri, tools
+
+educate: communicate
+communicate: share
+share: plans, designs, words, books,
+
+forge: fuel, mirrors, bellows
+fuel: wood, ethanol, methane
+
+agri: sun, land, water, genetics, tools
+
+genetics: seeds, eggs, spores, biopiracy
+
+biopiracy: lock it open!
+
+cloth: flax, hemp, wool, cotton, dye: agri
+
+sleep: shelter, cloth
+
+clean: water, sewer, soap
+
+sewer: pipe
+
+store: glass, wood, cloth
+
+power/energy/fuel
+transportation
+insurance
+medical attention
+defense
+education
+communication

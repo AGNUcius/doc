@@ -1,0 +1,4 @@
+windows update standalone installer
+
+$ 7z.exe SomePackage.msu #list, extract
+$ ocsetup.exe SomePackage.msu #install

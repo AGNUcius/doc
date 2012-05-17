@@ -1,0 +1,53 @@
+Related: FAT, file, link, MFT, mount, stream
+
+Sentex.net/~mwandel/finddupe >>Finddupe is a tool for quick detecting of duplicate files on a hard drive under Windows. Duplicate files can be detected, hardlinked, or deleted. Finddupe can also search for hardlinked files on your computer.
+
+www.CodeProject.com/KB/files/Eyes_on_NTFS.aspx >>The structure of Change Journal's record includes USN, Reason, Filename, ParentFileReferenceNumber and TimeStamp, etc.
+
+$ fsutil behavior disablelastaccess 1 #changes HKLM\SYSTEM\CurrentControlSet\Control\FileSystem\NtfsDisableLastAccessUpdate
+
+Forensic-NTFS.sf.net >>Time-stamp of a created file can be modified by attacker. This project is meant to track File timestamp values , using NTFS data structures rather than trusting the original time stamp modified by attacker.
+
+NTFSDDUP.sf.net >>NTFSDDUP provides a deduplicated storage for NTFS filesystem backups. It can be used with ntfsclone to conduct incremental backups of NTFS filesystems.
+
+SalvageNTFS.sf.net >>SalvageNTFS is a set of applications and an associated library aimed at data recovery from NTFS volumes. It can "undelete" files, bypass file system permissions, and retrieve information from badly corrupted or inconsistent volumes.
+
+NTFSReloc.sf.net >>Set geometry and location parameters in NTFS filesystem, so it can boot.
+
+NTFSCK.sf.net >>ntfsobjects-(winntfsck) is package including some ntfs partition tools.The two main tools are ntfsck and ntfshttpd.These tools should help other ntfs tools developpers.These tools are developped to complete ntfs documentation with a Ntfs requiremen
+
+Hardlink.GoogleCode.com >>Hardlink allows to create some directories with a given size using NTFS hardlinks.
+
+FastFind.GoogleCode.com >>This utility searches for files in an NTFS filesystem by directly reading the Master File Table thus achieving high speed.
+
+NTFS-Search.sf.net >>This tool enables users to search their NTFS formatted harddrives within seconds. It uses the MFT( master file table) of NTFS to search for files very fast.
+
+NFGDump.sf.net >>nfgdump (Ntfs-Fat-Generic-dump) is a Win32/Linux tool that dumps/restores NTFS (including 3.1=XP), COMPRESSED NTFS, FAT16, FAT32 and arbitrary (generic) partitions. Dump files support compression, encryption, splits, page file content removal, etc.
+
+RawDisk.sf.net >>
+
+NTFS-Stream-Writer.GoogleCode.com
+
+ADSCheck.sf.net >>is a security tool for Windows® NTFS 4/5.x (2000, XP and Server 2003) designed to check for the presense of Alternate Data Streams which --- with their current implementation --- represent a security risk offering crackers a good means to hide their gear in the victim system. ADSCheck can also extract ADS for later examination and/or delete them. It generates a tab-delimited text report in unicode, thereby making it easy to examine it using a database application. There are also verbose and quiet switches to tweak its operation to user's needs.
+
+NTFS-ADS.sf.net >>NTFS ADS Tool is an utility to reveal, list, delete, show contents, extract/copy hidden files from NTFS Alternate Data Streams.
+
+NTFSLinkEXT.sf.net >>This is a spin-off from Michael Elsdoerfer's original NTFS Link (hosted at Novell Forge) to incorporate some fixes and extended features.
+
+NTFS-3G.org >>The NTFS-3G driver is a freely and commercially available and supported read/write NTFS driver for Linux, FreeBSD, Mac OS X, NetBSD, Solaris, Haiku, and other operating systems. It provides safe and fast handling of the Windows XP, Windows Server 2003, Windows 2000, Windows Vista, Windows Server 2008 and Windows 7 file systems.
+
+Linux-NTFS.org >>The goals of the Linux-NTFS project are to develop reliable and full feature access to NTFS by the Linux kernel driver and by a user space driver (ntfsmount), and to provide a wide collection of NTFS utilities and a developer's library for other GPLed programs.
+
+NTFS.com >>NTFS - New Technology File System designed for Windows Vista, XP, 2003, 2000. NTFS is a high-performance and self-healing file system proprietary to Windows XP Vista 2003 2000 & NT, which supports file-level security, compression and auditing. It also supports large volumes and powerful storage solution such as RAID.
+
+NTFS-Streams.GoogleCode.com >>Discover hidden files you never seen before! Computer viruses and rootkits can hide in alternate data streams on Windows and block the antivirus software from detecting by hooking API calls. This tool based on Linux and can reveal all ADS by reading NTFS offline.
+
+Forensic-Analysis-NTFS-File-System.GoogleCode.com >>Persistent attacks may try to camouflage their intentions by changing time stamps and file attributes, of installed or modified files to make them appear as legitimate programs. Goal of this practicum is to develop a tool which will analyze the low level details of file system which might not be easy for an attacker to modify, so that we can distinguish between legitimate files and malicious files based on their creation date, file modifications timestamps and modifications to timestamp. There is much more information which we can trace back, that will give insight about the anomaly behavior of a malicious program, for example if an attacker intentionally tries to modify implicit attributes of a file such as timestamps, or tries to hide files in Alternate Data Streams
+
+
+==Recovery
+NTFSUndelete.com and NTFSUndelete.GoogleCode.com >>NTFS Undelete is free software that allows to recover deleted files. It recovers files directly from hard drive, and it will work even if Recycle Bin is empty.
+
+www.CodeProject.com/KB/files/NTFSUndelete.aspx to undelete files on NTFS
+
+MemberWebs.com/stef/software/scrounge >>Data recovery program for NTFS file systems. Reads each block of the hard disk to and retrieves rebuilds file system tree on another partition.

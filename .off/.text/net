@@ -1,0 +1,23 @@
+On GNU/Linux/NetBSD if the network is down try:
+
+dhclient
+dhcpcd
+pump
+
+ifconfig -a
+
+so many things I don't know
+
+
+Networks could be Free as in Freedom by marking the hardware as Free Capital.
+
+ISP, telephone, cell phone, Satellite TV, 
+
+www, http, ftp, wget
+
+NFS: Mount *nix partitions.
+
+network boot:
+etherboot.sf.net
+nilo.sf.net
+netboot.sf.net

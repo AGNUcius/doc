@@ -1,0 +1,9 @@
+Related: MBR, VHD, WMI
+
+Boot Configuration Data
+
+BCDEditUI.CodePlex.com >>This tool adds a menu item in the windows explorer context menu. Windows 7 and windows 2008 R2 VHD can now be made bootable directly on the hardware. Adding the vhd to the boot menu needed a number of bcdedit commands. This tool automates these steps.
+
+Microsoft.com/whdc/system/platform/firmware/bcd.mspx
+
+Technet.Microsoft.com/en-us/library/cc731245%28WS.10%29.aspx

@@ -1,0 +1,227 @@
+Related: pack, OCSetup, install, WIM
+
+
+    /?, /h, /help		- Displays this help.
+    /ip			- Install package
+    /up			- Uninstall package
+
+    /up:[{package name1}[;...]]	- Uninstall package(s)
+    /iu:{update name1}[;...]	- Install update(s) specified by name
+    /uu:{update name1}[;...]	- Uninstall update(s) specified by name
+    /m:"{package directory}"	- Specifies the location of the package
+    /p:"{package name}"	- Specifies the identity of the package
+    /o:"[{boot drive path};]{offline Windows directory path}"
+    			- Specifies operation against an offline
+    			  Windows image
+    /n:{unattend file}		- Specifies unattended operation parameters
+    /s:{sandbox directory}	- Specifies directory to extract files to
+    /quiet			- Runs pkgmgr.exe without UI.  If restart is required it will be performed without a prompt
+    /norestart		- Suppress restart (when restart is necessary)
+    /l:{log file}		- Specifies a file for diagnostic output
+
+http://technet.microsoft.com/en-us/library/cc749465%28WS.10%29.aspx
+
+Package Manager (Pkgmgr.exe) installs, uninstalls, configures, and updates features and packages for Windows Vista. You can install or update Windows Vista feature packages on an offline destination computer by using Package Manager and an unattended installation answer file.
+Package Manager Command-Line Options
+
+The following command-line options are available for Package Manager.
+
+pkgmgr.exe [/?] [/h] [/help] [/l:file_name] [/ip] [/iu:Windows_feature_name] [/m:package_directory] [/n:answer_file] [/norestart] [/o:system_drive_path; offline_Windows_directory_path] [/p:package_name] [/quiet] [/s:sandbox_directory] [/up:package_name] [/uu:Windows_feature_name]
+noteNote
+Processing for command-line options is not case-sensitive.
+
+The following table shows the syntax for the Package Manager command-line options.
+ 
+Option 	Description
+
+/?, /h, /help
+	
+
+Displays Help when run with no options. Can be used online or offline.
+
+/ip
+	
+
+Installs a single package. The package name is case-sensitive. Requires packages to be specified by /m or /p. Can be used online or offline.
+
+You must point to the expanded package directory, so an /ip option must also have an /m option.
+
+/l:file_name
+	
+
+Specifies the log file for diagnostic output. Can be used online or offline.
+
+The default logs are located at %WINDIR%\logs\cbs\cbs.log. Setupact.log is a full log, and Setuperr.log logs only errors.
+
+Logging does not work when installing from read-only media, such as a Windows PE CD.
+
+/iu:Windows_feature_name
+	
+
+Specifies the Windows feature to enable.
+
+Multiple Windows features can be enabled in one command and must be separated by semicolons. Can be used online or offline.
+noteNote
+Windows feature names are case sensitive. You must use the feature name exactly as it appears in the Windows System Image Manager.
+
+If you are installing updates, then you need the name of the update if its package is in the Windows Foundation package. If it is not, then the /iu option also requires the package identity specified by the /p option, which is assumed by default to be the Windows Foundation option for the /iu option. If it is not, then override it.
+
+Multiple updates can be installed in one command and must be separated by semicolons.
+
+/m:package_directory
+	
+
+Specifies the directory with the package manifest and payload. Additional source directories can be specified after a semicolon. Can be used offline.
+
+If you are installing a package, then you must point to the expanded package directory, in which case an /ip option must also have an /m option. Required for the /up option.
+
+/n:answer_file
+	
+
+Specifies the file name of the unattended installation answer file. Can be used online or offline.
+
+All unattended installations require the /n option.
+noteNote
+If you need to install multiple packages, you must use the /n option with an unattended installation answer file.
+
+/norestart
+	
+
+Suppresses reboot. If no reboot is necessary, then this command does nothing. Can be used online only.
+
+Can be used with the /quiet option.
+
+/o:system_drive_path; offline_Windows_directory_path
+	
+
+Specifies an offline installation. The system_drive_path defines the location of the Boot Manager, based on the mapping given by the host operating system.
+
+offline_Windows_directory_path specifies the full path to the offline Windows directory as seen from the currently running operating system.
+noteNote
+The path to the offline installation must not exceed 100 characters.
+
+All offline operations require the /o option to specify the image that you intend to service offline.
+
+/p:package_name
+	
+
+Installs the entire package. Can be used offline.
+
+Required for the /up option.
+
+To find the package name, expand the .msu file and open the XML file. In the XML file, find the assemblyidentity tag and copy the values of the following attributes:
+
+    * Name
+    * PublicToken
+    * ProcessArchitecture
+    * Version
+
+You must concatenate all four values and pass the concatenation to Package Manager, for example, name~publickeytoken~processArchitecture~~version.
+
+/quiet
+	
+
+Runs in quiet mode. No user interface or console output is provided. If a reboot is required, then it is forced automatically, without displaying a reboot confirmation dialog box. Can be used online or offline.
+
+/s:sandbox_directory
+	
+
+Specifies the "sandbox directory" to which to extract files. This option is required for proper file processing when installing packages from a network. Can be used online or offline.
+
+This directory is used for temporary storage. After installation is complete, the contents of this directory are no longer needed and can be deleted.
+noteNote
+You must use a unique sandbox directory for each package you install, or delete the content of the sandbox directory between each installation.
+
+/up:package_name
+	
+
+Uninstalls packages. Requires packages to be specified by the actual package name. Multiple packages can be uninstalled in one command and must be separated by semicolons. Can be used offline.
+
+To find the package name, expand the .msu file and open the XML file. In the XML file, find the assemblyidentity tag and copy the values of the following attributes:
+
+    * Name
+    * PublicToken
+    * ProcessArchitecture
+    * Version
+
+You must concatenate all 4 values and pass the concatenation to Package Manager. For example, name~publickeytoken~processArchitecture~~version.
+
+/uu:Windows_feature_name
+	
+
+Specifies the Windows feature to disable. At least one Windows feature name must be specified. Multiple Windows features can be disabled in one command and must be separated by semicolons. Can be used online or offline.
+
+The /uu option works the same way as the /iu option.
+
+If you are uninstalling updates, you must use the name of the update if its package is in the Windows Foundation package. If it is not in the Windows Foundation package, the /uu option requires the package identity specified by the /p option.
+
+Multiple updates can be uninstalled in one command and must be separated by semicolons.
+
+If you are uninstalling multiple packages or updates, then include them all in a single command that is separated by semicolons. Any dependencies between them will be resolved as they are installed.
+
+If you are enabling a Windows feature, then you need the command-line name of the Windows feature if its package is in the Windows Foundation package. If it is not, then the /iu option also requires the package identity specified by the /p option. (More specifically, the /p option is assumed by default to be the Windows Foundation for the /iu option. If it is not, override it.)
+
+If you are configuring Windows features without using an answer file created in Windows System Image Manager (Windows SIM), then use the command-line name as given in the Windows-Foundation-Package section of the Unattended Windows Setup Reference. The name is case-sensitive.
+Examples
+
+Use the following command to have Package Manager return only after it has finished running.
+
+start /w pkgmgr ...
+
+The following command specifies an offline installation to the root of drive C.
+
+start /w pkgmgr /o:"c:\;c:\windows"
+
+Put a backward slash (\) after the drive specification, but not after the Windows directory.
+
+The following command specifies an offline installation with an answer file.
+
+start /w pkgmgr /o:"c:\;c:\windows" /n:c:\unattend.xml
+
+The following command enables a Windows feature in an offline image.
+
+start /w pkgmgr /iu:<Windows_feature_name> /o:"c:\;c:\Windows"
+
+The following command installs a package and specifies the manifest location in the directory of the expanded .cab file.
+
+start /w pkgmgr /ip /m:c:\mypackage
+
+The following command points to a language pack in the \Sandbox directory, which Package Manager will extract from the .cab file.
+
+start /w pkgmgr /ip /m:c:\lp.cab /s:c:\sandbox
+
+The following command points to the offline mounted image.
+
+start /w pkgmgr /o:"c:\wimmount;c:\wimmount\windows"
+
+The following command uninstalls a package by specifying the package name.
+
+start /w pkgmgr /up:Package_1_for_KB929761~31bf3856ad364e35~x86~~6.0.0.1
+
+Troubleshooting
+
+After each command, you should check the %ERRORLEVEL% to confirm installation. It should return zero (0) if the installation was successful.
+
+echo %ERRORLEVEL%
+
+noteNote
+When you service an offline Windows image, make sure that all offline servicing actions are successful. If there are any failures, discard the potentially corrupted Windows image.
+
+A common error that is returned by Package Manager is 87, which indicates it was passed incorrect parameters. Another common error code is 3010, which indicates that the computer needs to be rebooted for the changes to take effect. You can decode the error code by searching for it in the Winerror.h file.
+
+If you receive an error message with a hexadecimal identifier, convert the last four digits of the number to the decimal equivalent and then search Winerror.h for the decimal error code.
+
+For more information about the Winerror.h file, see this Microsoft Web site.
+
+Additional troubleshooting information can be found in the log files. Log files can be opened in Notepad or any similar text editors. The following log files can help you diagnose servicing issues.
+
+    * Windows Update log (%WINDIR%\WindowsUpdate.log)
+    * Component-Based Servicing Log (%WINDIR%\logs\cbs\cbs.log)
+
+For more information about diagnosing error logs see:
+
+    * Windows Error Diagnostic Guide located on the OPK DVD
+    * OCSetup Log Diagnoser on this Microsoft Web site.
+
+noteNote
+If two packages are extracted to the sandbox directory, you will only see errors, events, and logs for the first package that is picked up. You must use a unique sandbox directory for each package you install or uninstall. You can delete the content of the sandbox directory between each installation.

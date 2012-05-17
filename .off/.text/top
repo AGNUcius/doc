@@ -1,0 +1,7 @@
+Related: above, begin, monitor, rise
+
+View process resource use
+$ atop, dstat, htop, xosview
+
+$ ntop # display network usage in top-like format
+$ iftop # displays bandwidth usage information on an network interface

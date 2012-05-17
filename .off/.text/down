@@ -1,0 +1,8 @@
+Related: download
+
+$ wget --random-wait --wait=30 --waitretry=120 --no-parent --recursive --no-clobber --input-file=LOCAL_LIST_OF_URLS.m3u
+
+$ wget --random-wait --wait=30 --waitretry=120 --no-parent --recursive --no-clobber SOME_REMOTE_DIRECTORY
+
+
+

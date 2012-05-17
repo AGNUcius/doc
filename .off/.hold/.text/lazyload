@@ -1,0 +1,9 @@
+Related: clean, GNUin, GNUnix, install, load, MiniMacs, pack, pkg, setup
+
+Control in most Operating Systems divided across many different and disassociated interfaces.
+
+LazyLoad helps users add new nouns or verbs when they attempt to do some thing the system doesn't yet handle.
+
+LazyLoad installs by filling a submenu of the the OS's "Main Menu" with Noun/Verb associations with names, icons, screenshots and maybe even videos for what appears to be thousands of Free Software applications, but which are actually commands to download, install and then launch the request.  There is no separate package manager.  This concept works across most any wm and also in Microsoft Windows.
+
+LazyLoad is a bit like a memory page-fault or just-in-time complilation.

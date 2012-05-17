@@ -1,0 +1,28 @@
+Related: CD, DVD, fire, flame, heat, hot, ISO
+
+Burning an image to disk means to write it to the removable-media within the device.
+
+cdrte.sf.net >>A small burning application for Windows. cdrtfe is a frontend for the cdrtools (cdrecord, mkisofs, readcd, cdda2wav), Mode2CDMaker and VCDImager. It can burn data discs (CD and DVD), Audio CDs, XCDs, (S)VCDs and DVD-Video discs.
+
+InfraRecorder.org, InfraRecorder.sf.net >>The free CD/DVD burning solution
+
+BWGBurn.sf.net >>This application is a Windows XP .NET 3.5 application that can be used to burn CD-R/CD-RW/DVD-RAM/DVD-R/DVD-RW/DVD+R/DVD+RW/DVD+R DL/BD-R/BD-RE. It includes the ability to burn both data disk and audio disks.
+
+LibBurnia-Project.org >>libburnia is a project for reading, mastering and writing optical discs. Currently it is comprised of libraries named libisofs, libburn, libisoburn, a cdrecord emulator named cdrskin, and an integrated multi-session tool named xorriso.
+
+Burgner.sf.net >>The Burgner project aims to be a complete free burning suite, totally rewritten from scratch: it does not include any code from cdrtools (cdrecord and mkisofs) nor cdrdao, and is not a front-end for these tools.
+
+cdrkit.org, Packet-CD.sf.net, CDRDAO.sf.net
+
+X-CD-Roast.org >>X-CD-Roast tries to be the most flexible CD-burning software ever. It allows even the unexperienced user to create or copy a CD with a few mouse clicks in a intuitive and nice looking graphical user interface. 
+
+K3b.org CD/DVD burning
+ExactAudioCopy.de  CD audio extraction [cdr, rip, music, copy]
+www.abo.fi/~jmunsin/gcombust >>gcombust is a gui for mkisofs/mkhybrid/cdda2wav/cdrecord/cdlabelgen.
+VCDImager.org >>GNU VCDImager is the complete free software solution for authoring (Super) Video CD images and reversing the process.
+
+webs.ono.com/usr016/de_xt >>Mode2 CD Maker
+webs.ono.com/de_xt Mode2 CD/XA similar to a VCD
+XCD.sf.net >>CD container format standard for multimedia content
+MCF.sf.net Media Container Format
+UCI.sf.net The Universal Codec Interface

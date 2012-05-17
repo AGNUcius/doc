@@ -1,0 +1,3 @@
+Related: ./.code/etym.el, ./.code/linki.js
+
+linki is a simplified content management system similar in purpose to a wiki but markup is pass-through and linking is automatic.

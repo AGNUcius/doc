@@ -1,0 +1,7 @@
+Related: optional components, services, setup
+
+TechNet.Microsoft.com/en-us/library/cc748918.aspx >>Server Manager in Windows Server(R) 2008 offers a command-line tool, ServerManagerCmd.exe, to enable users to perform automated installations or removals of roles, role services, and features. ServerManagerCmd.exe options enable users to view logs of its operations and to run queries to display lists of roles, role services, and features that are both installed and available for installation on a computer.
+
+$ ServerManagerCMD.exe
+$ OCSetup.exe
+$ OCList.exe

@@ -1,0 +1,30 @@
+Related: burn, CD, disk, DVD, file, image, mount
+
+$ mkisofs
+$ genisoimage
+
+WinCDemu.sf.net >>WinCDEmu is an open-source software that allows mounting CD/DVD images by clicking at the image files in Windows Explorer. It supports both Windows XP and Vista, is open-source and completely freeware.  Version 2.0 supports ISO, CUE, BIN/RAW/IMG file formats as well as SMB network shares and includes a workaround for Windows cache bug.
+
+InfraRecorder.org, InfraRecorder.sf.net >>The free CD/DVD burning solution
+
+SaturnDiskImage.sf.net >>Saturn disk image is a tool for creating and analyzing disk images (".iso" files). Saturn can be used either as a standard Windows program, or it can be called from within a build script using the provided NAnt task.
+
+OpenSource.ebswift.com/DoISO >>Welcome to the home of DoISO, the free ISO maker (and now CD/DVD burner!) for Windows.
+
+ImageMaster.CodePlex.com >>ImageMaster is a .Net C# application for reading and writing disc images (*.iso files).
+
+GomuISO9660.CodePlex.com >>GomuISO9660 is a library for manipulating ISO9660 discs images (.iso/.bin/.mdf...) written in C#.
+
+he.fi/bchunk >>binchunker converts a CD image in a ".bin / .cue" format (sometimes ".raw / .cue") to a set of .iso and .cdr tracks. The bin/cue format is used by some popular non-Unix cd-writing software, but is not supported on most other CD burning programs. A lot of CD/VCD images distributed on the Internet are in BIN/CUE format, I've been told.
+
+LittleSVR.ca/isomaster >>ISO Master is an open-source, easy to use, graphical CD image editor for Linux and BSD. Basically you can use this program to extract files from an ISO, add files to an ISO, and create bootable ISOs - all in a graphical user interface. It can open ISO, NRG, and some MDF files but can only save as ISO.
+
+VaporCD.sf.net >>VaporCD can create a copy of a CD on your hard disk and mount it as if it were the real CD. VaporCD works with Windows NT 4.0 or Windows 2000. This is very handy when you have extra hard drive space and get tired of changing out CD's. Also, yet another benefit VaporCD is faster than a normal CD-ROM.
+
+SCDBackup.sf.net/xorriso_eng.html >>xorriso copies file objects from POSIX compliant filesystems into Rock Ridge enhanced ISO 9660 filesystems and allows session-wise manipulation of such filesystems. It can load the management information of existing ISO images and it writes the session results to optical media or to filesystem objects. Vice versa xorriso is able to restore file objects from ISO 9660 filesystems.
+
+ISOBurn.sf.net >>IsoBurn provides a lightweight, easy to use interface for the burning tools found in the Windows Resource Kit.
+
+7-zip.org and PeaZip.sf.net can read and extract .isos
+
+Developer.berliOS.de/projects/cdi2iso >>cdi2iso is a very simple utility to convert DiscJuggler image to the standard ISO-9660 format.

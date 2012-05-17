@@ -1,0 +1,35 @@
+Related: flower, pass, stream, tower, water
+
+FLOWProject.org "'FLOW is an entrepreneur of meaning, advancing an idealistic worldview through a community that supports new ways of seeing, being, doing, and belonging, based on a commitment to human flourishing, non-violence and radical tolerance. The FLOW ideal draws on the classical liberal tradition --- freedom, voluntary exchange, individual initiative, combined with social and environmental consciousness.'"
+
+Pawfal.org/fluxus "'act of a flowing; a continuous moving on or passing by, as of a flowing stream; a continuous succession of changes'"
+
+
+==WorkFlow software:
+WSDL http://en.wikipedia.org/wiki/Web_Services_Description_Language
+
+BPMN http://en.wikipedia.org/wiki/BPMN
+WSCL (Web Services Conversation Language (WSCL) 1.0)
+# Business Process Management
+# Business Process Modeling Notation
+
+WSFL from IBM + XLANG from MS = BPEL4WS -> OASIS -> WS-BPEL 2.0
+
+Business Process Execution Language (BPEL) uses Web Services Description Language (WSDL) for messaging.
+
+
+"'Document imaging and workflow solutions that reduce your cost of doing business'" -- 1mage.com
+
+"'Freefluo can handle WSDL based web service invocation. It supports two XML workflow languages, one based on IBM's WSFL and another named XScufl that is under development as part of the Taverna Sourceforge project.
+
+Freefluo is very flexible, at its core is a reusable orchestration framework that is not tied to any workflow language or execution architecture. Freefluo includes extension libraries that enable execution of workflows written in a subset of WSFL. Support exists for for discovery via standard UDDI and recording of provenance.'" -- Freefluo.sf.net
+
+"'The Taverna project aims to provide a language and software tools to facilitate easy use of workflow and distributed compute technology within the eScience community. As a component of the EPSRC  funded myGrid  project, Taverna is available freely under the terms of the GNU Lesser General Public License (LGPL).'" -- Taverna.sf.net
+
+"'A CMF/Plone product for locally changing the workflow of content types'" -- http://ingeniweb.sourceforge.net/Products/CMFPlacefulWorkflow/
+
+"'WfMOpen is a J2EE based implementation of a workflow facility (workflow engine) as proposed by the Workflow Management Coalition (WfMC) and the Object Management Group (OMG).'" -- wfmopen.sf.net
+
+OpenWFE.org Java; BSD license
+
+sf.net/projects/tigr-workflow Java; NSF funded

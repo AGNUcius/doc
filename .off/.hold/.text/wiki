@@ -1,0 +1,21 @@
+Related: CRM, draw, edit, link, linki, map, plot, tag, text, web, word
+
+uWiki.Pipapo.org >>uWiki is a framework to build a self extensible wiki engine, its a idea/subproject of the Lumiera team. The wikis own code is available for web editing (protected by ACL's). Content is not tied to any specific markup but instead uWiki maintains a metadata database which associates content with a type which defines how to process it. Revision control is also done by plugins. Sub hierarchies can be controlled by different revision control systems. This together makes it possible to maintain sub-wikis which are for example checkouts of an other software project, for review and small fixes, documentation and localization for example.
+
+FOSWiki.org >>Foswiki is a wiki, supporting the editing of web pages in an ordinary web browser, by end users. In fact, you are viewing a Foswiki right now. What makes Foswiki special is that it supports the embedding of active and passive macros that enhance the page content (e.g., with global and/or dynamic information) and allow end-users to build applications that store and process data in a structured manner.
+
+WikkaWiki.org >>WikkaWiki is a flexible, standards-compliant and lightweight wiki engine written in PHP, which uses MySQL to store pages. Forked from WakkaWiki. Designed for speed, extensibility, and security. Released under the GPL license.
+
+Pimki.RubyForge.org >>Pimki is a PIM (Personal Information Manager) loosely based on Instiki's Wiki technology. This is the place to dump your brain, organise your thoughts and Get Things Done. The ease of use and immediacy of a wiki combined with extended view to slice and dice the data give you a unique power to store, manage and retrieve all loose bit of information in your life.
+
+The goals of ./.code/etym.el are similar to a wiki, but links are automatic and markup is pass-through.
+
+wikidPad.sf.net >>wikidPad is a Wiki-like notebook for storing your thoughts, ideas, todo lists, contacts, or anything else you can think of to write down.
+
+IkiWiki.info >>Ikiwiki is a wiki compiler. It converts wiki pages into HTML pages suitable for publishing on a website. Ikiwiki stores pages and history in a revision control system such as Subversion or Git. There are many other features, including support for blogging, as well as a large array of plugins.
+
+LionWiki.0o.cz >>LionWiki is a minimalist Wiki engine. It is extensible, templatable, file based (it doesn't need database like MySQL) and requires just one file to properly function. It is suitable for small sites, personal notebooks or journals. LionWiki is fork from french-only WiKiss.TuxFamily.org
+
+Hatta.sheep.art.pl >>Hatta is a wiki engine -- software that lets you run a wiki. It requires no configuration and can be easily started in any Mercurial repository.
+
+WikiBlog.com >>WikyBlog is a groupware platform that fuses the collaborative editing features of wikis with the user friendly publishing characteristics of blogs.

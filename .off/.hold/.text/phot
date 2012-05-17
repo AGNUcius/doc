@@ -1,0 +1,11 @@
+Related: camera, graph, image, light, picture
+
+$ apt-cache search photo
+
+People.Via.ECP.fr/~remi/soft/rphoto/rphoto_en.php3 >>RPhoto is a small software aiming at the easy handling of digital camera's photos. (RPhoto is the next generation of IMPhoto). Its origin resides in the lack of a simple software capable of cropping photos with a constant ratio, to avoid white borders when printing.
+
+Kornelix.SquareSpace.com/fotoxx >>Fotoxx is a free open-source Linux program for improving image files made with a digital camera.
+
+PhotoBatch.Stani.be >>Phatch is a simple to use cross-platform GUI Photo Batch Processor which handles all popular image formats and can duplicate (sub)folder hierarchies. Phatch can batch resize, rotate, rename, ... and more in minutes instead of hours or days if you do it manually.
+
+hugin.sf.net >>Goal: an easy to use cross-platform panoramic imaging toolchain based on Panorama Tools (PanoTools.sf.net).  With hugin you can assemble a mosaic of photographs into a complete immersive panorama, stitch any series of overlapping pictures and much more.

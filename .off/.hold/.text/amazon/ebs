@@ -1,0 +1,71 @@
+Amazon EBS is a new type of storage designed specifically for Amazon EC2 instances. Amazon EBS allows you to create volumes that can be mounted as devices by EC2 instances
+
+AWS.Amazon.com/ebs >>Amazon Elastic Block Store (EBS) provides block level storage volumes for use with Amazon EC2 instances.  Amazon EBS volumes are off-instance storage that persists independently from the life of an instance.  Amazon Elastic Block Store provides highly available, highly reliable storage volumes that can be attached to a running Amazon EC2 instance and exposed as a device within the instance.  Amazon EBS is particularly suited for applications that require a database, file system, or access to raw block level storage.
+
+    Amazon EBS allows you to create storage volumes from 1 GB to 1 TB that can be mounted as devices by Amazon EC2 instances. Multiple volumes can be mounted to the same instance.
+    Storage volumes behave like raw, unformatted block devices, with user supplied device names and a block device interface. You can create a file system on top of Amazon EBS volumes, or use them in any other way you would use a block device (like a hard drive).
+    Amazon EBS volumes are placed in a specific Availability Zone, and can then be attached to instances also in that same Availability Zone.
+    Each storage volume is automatically replicated within the same Availability Zone. This prevents data loss due to failure of any single hardware component.
+    Amazon EBS also provides the ability to create point-in-time snapshots of volumes, which are persisted to Amazon S3. These snapshots can be used as the starting point for new Amazon EBS volumes, and protect data for long-term durability. The same snapshot can be used to instantiate as many volumes as you wish.
+    AWS also enables you to create new volumes from AWS hosted public data sets.
+    Amazon CloudWatch exposes performance metrics for EBS volumes, giving you insight into bandwidth, throughput, latency, and queue depth. The metrics are accessible via the AWS CloudWatch API or the AWS Management Console. For more details, see Amazon CloudWatch.
+
+
+
+
+Amazon Elastic Block Store (EBS) offers persistent storage for Amazon EC2 instances. Amazon EBS volumes provide off-instance storage that persists independently from the life of an instance. Amazon EBS volumes are highly available, highly reliable volumes that can be leveraged as an Amazon EC2 instance's boot partition or attached to a running Amazon EC2 instance as a standard block device. When used as a boot partition, Amazon EC2 instances can be stopped and subsequently restarted, enabling you to only pay for the storage resources used while maintaining your instance's state. Amazon EBS volumes offer greatly improved durability over local Amazon EC2 instance stores, as Amazon EBS volumes are automatically replicated on the backend (in a single Availability Zone). For those wanting even more durability, Amazon EBS provides the ability to create point-in-time consistent snapshots of your volumes that are then stored in Amazon S3, and automatically replicated across multiple Availability Zones. These snapshots can be used as the starting point for new Amazon EBS volumes, and can protect your data for long term durability. You can also easily share these snapshots with co-workers and other AWS developers. See Amazon Elastic Block Store for more details on this feature.
+
+
+Amazon Elastic Block Storage (EBS) is a type of storage designed specifically for Amazon EC2 instances. Amazon EBS allows you to create volumes that Amazon EC2 instances can mount as devices much like a standard hard drive.
+
+Amazon EBS volumes behave like raw unformatted external block devices. They have user-supplied device names and provide a block device interface. You can load a file system on top of Amazon EBS volumes, or use them just as you would use a block device.
+
+Because the volumes behave just like any other mounted hard drive, you can do anything with them you would do with standard hard drives, even make a RAID array.
+
+Amazon EBS volumes can now be used as the root device for an instance. These instances launch faster, use persistent storage, and support larger root device sizes than AMIs that use the local instance store as their root device. For more information, go to the AMIs Backed by Amazon EBS in the Amazon Elastic Compute Cloud User Guide.
+
+Amazon CloudWatch monitoring is automatically enabled for your volumes at no additional charge. Graphs are available when you select a volume (a Monitoring tab is displayed next to the volume's Description tab). For descriptions of the graphs, go to Monitoring Your Instances and Volumes in the Amazon Elastic Compute Cloud User Guide.
+
+To attach a volume to an instance
+    Select a volume and click Attach.
+    The Attach Volume dialog box appears.
+    Select the instance for the device from the Instance list box.
+    Specify how to expose the volume to the instance in the Device field (/dev/sdb through /dev/sdz in Linux and xvdb through xvdh in Windows). For information about which devices are reserved by the instance stores, go to Instance Storage in the Amazon Elastic Compute Cloud User Guide.
+    Click Attach.
+    Amazon EC2 attaches the volume to the instance.
+
+After attaching a volume, you must format it.
+
+To format and mount a volume in Linux/UNIX
+
+    Enter the following commands to format and mount the drive on directory /mnt/myVol (replace "/dev/sdb" with the device you chose to mount the Volume):
+    mkfs -t ext2 /dev/sdb
+    mkdir /mnt/myVol
+    mount /dev/sdb /mnt/myVol
+
+To format and mount a volume in Windows
+
+    On the taskbar, click Start, and then click Run.
+    Type diskmgmt.msc and click OK. The Disk Management utility opens.
+    Right-click the Amazon EBS volume, select New Volume, and follow the on-screen prompts to mount it.
+
+ 
+Detach a Volume
+
+To detach a volume from an instance
+
+    Select a volume and click Detach.
+    A confirmation dialog box appears.
+    Click Yes, Detach.
+    Amazon EC2 detaches the volume from the instance.
+
+ 
+Delete a Volume
+
+To delete a volume
+
+    Select a volume and click Delete.
+    A confirmation dialog box appears.
+    Click Yes, Delete.
+    Amazon EC2 detaches the volume from any instance to which it is connected and deletes it.
+

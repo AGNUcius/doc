@@ -1,0 +1,252 @@
+<?xml version="1.0"?>
+<JWM>
+  <StartupCommand>
+	<!-- 	xli -onroot /usr/share/backgrounds/default.jpg -->
+  </StartupCommand>
+
+  <!-- Window 'frame' properties -->
+  <WindowStyle>
+	<Font>FreeSans-16:bold</Font>
+	<Width>1</Width>
+	<Height>16</Height>
+	<Active>
+	  <Title>darkblue</Title>
+	  <Text>gray80</Text>
+	  <Corner>red</Corner>
+	  <Outline>darkblue</Outline>
+	</Active>
+
+	<Inactive>
+	  <Title>darkblue</Title>
+	  <Text>gray40</Text>
+	  <Corner>red</Corner>
+	  <Outline>darkblue</Outline>
+	</Inactive>
+  </WindowStyle>
+
+  <Icons>
+	<IconPath>/usr/share/icons/;/usr/share/icons/hicolor/16x16/apps/</IconPath>
+  </Icons>
+  <MoveMode>opaque</MoveMode> <!--outline, opaque-->
+  <ResizeMode>opaque</ResizeMode> <!--outline, opaque-->
+  <FocusModel>click</FocusModel> <!--sloppy or click-->
+  <SnapMode distance="1">border</SnapMode> <!--none, screen, border-->
+
+  <!-- Tray and Tasklist -->
+  <TrayStyle>
+	<Background>darkblue</Background>
+	<Foreground>gray80</Foreground>
+	<Font>FreeSans-16:bold</Font>
+  </TrayStyle>
+
+  <TaskListStyle>
+	<ActiveBackground>darkblue</ActiveBackground>
+	<ActiveForeground>gray80</ActiveForeground>
+	<!-- inactive --><Background>darkblue</Background>
+	<!-- inactive --><Foreground>gray40</Foreground>
+	<Font>FreeSans-16:bold</Font>
+  </TaskListStyle>
+
+  <Tray x="0" y="-1" height="26" autohide="false"> <!-- width, border, layer, layout -->
+	<Font>FreeSans-16:bold</Font>
+	<!-- The 'Start' menu -->
+	<TrayButton label="GNU" popup=""/>
+
+	<TaskList/> <!-- maxwidth -->
+
+	<TrayButton popup="Control Processes" icon="/usr/share/icons/gnome/16x16/devices/gnome-dev-wavelan.png">exec:~/bin/vt -e htop</TrayButton>
+	<!-- 	<Swallow name="xosview">xosview -load -cpu -page -disk -int -labels -swap</Swallow> -->
+
+	<Swallow name="xload" width="32">xload -scale 2 -update 4 -bg black -fg red -hl grey -nolabel</Swallow>
+
+	<TrayButton popup="audio" icon="/usr/share/icons/gnome/16x16/devices/audio-input-microphone.png">exec:~/bin/vt -e aumix</TrayButton>
+
+	<Clock>rclock</Clock>
+  </Tray>
+
+  <Clock>
+	<!-- 	The program launched when Mouse-1 on Tray.Clock. -->
+	<Program>rclock</Program>
+  </Clock>
+
+  <MenuStyle>
+	<Font>FreeSans-16:bold</Font>
+	<ActiveBackground>yellow</ActiveBackground>
+	<ActiveForeground>red</ActiveForeground>
+	<!-- inactive --><Background>darkblue</Background>
+	<!-- inactive --><Foreground>gray80</Foreground>
+  </MenuStyle>
+
+  <RootMenu label="JWM"> <!-- Additional attributes: onroot, labeled, label height="32" -->
+	<Font>FreeSans-16:bold</Font>
+	<!-- <Restart label="Restart" icon="restart.png"/> $ jwm -restart -->
+	<!-- <Exit label="Exit" confirm="true" icon="exit.png"/> Ctrl-Alt-Backspace -->
+
+	<Menu label="Work">
+
+	  <Program label="Desktop Files">xfe ~/Desktop</Program>
+	  <Program label="Internet Browser (WWW)">firefox</Program>
+	  <Program label="Word Processor">oowriter</Program>
+	  <Program label="Spreadsheet">oocalc</Program>
+
+	  <Program label="Open Office">ooffice</Program>
+
+	  <Program label="Calculator">xcalc</Program>
+	  <Program label="Scientific Calculator">galculator</Program>
+	  <Program label="Chat">pidgin</Program>
+	</Menu>
+
+	<Menu label="Play">
+
+	  <Menu label="School">
+		<Program label="OpenEuclide">openeuclide</Program>
+	  </Menu>
+
+	  <Menu label="Art">
+		<Program label="Tux Paint">tuxpaint --fullscreen</Program>
+<!-- 		<Program label="Inkscape">inkscape</Program> -->
+		<Program label="mtPaint">mtpaint</Program>
+		<Program label="The Gimp">gimp</Program>
+		<Program label="Blender">blender</Program>
+		<Program label="XPaint">xpaint</Program>
+		<Program label="GPaint">gpaint</Program>
+	  </Menu>
+
+	  <Menu label="Games">
+		<Menu label="Adventure">
+		  <Program label="Scourge">scourge</Program>
+		  <Program label="Saurbraten">saurbraten</Program>
+		  <Program label="Bobobot">cd ~/Desktop/game/bobobot-preview3; ./bobobot</Program>
+		</Menu>
+
+		<Menu label="War">
+		  <Program label="Open Lierox">openlierox</Program>
+		  <Program label="Barrage">barrage</Program>
+		  <Program label="Battle Ball">battleball :0 comp</Program>
+		  <Program label="Blob Wars">blobwars</Program>
+		</Menu>
+
+		<Menu label="Maze">
+		  <Program label="Zanthor">cd ~/Desktop/game/zanthor; python main.py fullscreen</Program>
+		  <Program label="Amoebax">amoebax</Program>
+		  <Program label="BeastieWorker">cd ~/Desktop/down/BeastieWorker-0.4; ./BeastieWorker</Program>
+		  <Program label="SDL Scavenger">cd ~/Desktop/down/sdlscav-144/data; ./sdlscav</Program>
+		  <Program label="BurgerSpace">burgerspace</Program>
+		  <Program label="Rocks 'n Diamonds">cd ~/Desktop/game/rocksndiamonds-3.2.4/; ./rocksndiamonds</Program>
+		  <!-- 	  <Program label="DOOM">cd ~/Desktop/game/vavoom-1.24; vavoom.x86_64</Program> -->
+		  <Program label="Dynamite">cd ~/Desktop/game/dynamite-1.1; ./dynamite</Program>
+		  <Program label="Epiphany">epiphany</Program>
+		  <Program label="Alphashooter">cd ~/Desktop/game/alphashooter-0.0.2; ./alphashooter</Program>
+		  <Program label="XDigger">xdigger</Program>
+		</Menu>
+
+		<Menu label="Asteriods, Invaders, Gala[gxi]a[n]">
+		  <Program label="Dodgin Diamond 2">dodgindiamond2</Program>
+		  <Program label="XBlast-TNT">xblast-tnt</Program>
+		  <Program label="XGalaga">xgalaga</Program>
+		  <Program label="Invasores">cd ~/Desktop/down/invasores-0.9_beta3; python invasores.py</Program>
+		  <Program label="Kill Everything That Moves">ketm</Program>
+		  <Program label="Powermanga">powermanga</Program>
+		  <Program label="Sasteroids">sasteroids</Program>
+		</Menu>
+
+		<Menu label="Card">
+		  <Program label="Silly Poker">~/bin/vt -e sillypoker</Program>
+		</Menu>
+
+		<Menu label="Cars">
+		  <Program label="Crash Test">cd ~/Desktop/game/crashtest-1.0/; make run</Program>
+		  <Program label="My Lost Dog">mylostdog</Program>
+		  <Program label="Stormbaancoureur">stormbaancoureur</Program>
+		  <Program label="Super Tux Kart" icon="/usr/local/share/pixmaps/supertuxkart_32.xpm">supertuxkart</Program>
+		</Menu>
+
+		<Menu label="Educational">
+		  <!-- 	  <Program label="GCompris">gcompris</Program> -->
+		  <Program label="Help Hannah's Horse">cd ~/Desktop/down/hhh-2007-02-12; ./hhh</Program>
+		</Menu>
+
+		<Menu label="Space">
+		  <Program label="Stellarium">stellarium</Program>
+		  <Program label="Orbit">orbit</Program>
+		</Menu>
+
+		<Menu label="Mario">
+		  <Program label="Super Mario War (SMW)" icon="/usr/share/smw/gfx/docs/i02.png">smw</Program>
+		  <Program label="Super Mario All Stars and World" icon="/usr/share/smw/gfx/docs/m07.png">cd ~/Desktop/emu/SNES; snes9express Super\ Mario\ All\ Stars\ and\ World\ \(U\).zip</Program>
+		  <Program label="Super Mario RGP" icon="/usr/share/smw/gfx/docs/m08.png">cd ~/Desktop/emu/SNES; snes9express Super\ Mario\ RPG\ \(U\).zip</Program>
+		</Menu>
+
+		<Menu label="Bricks, Blocks, Bubbles">
+		  <Program label="Brikx">cd ~/Desktop/game/brikx/src; ./brikx</Program>
+		  <Program label="Frozen Bubble">frozen-bubble</Program>
+		</Menu>
+
+		<Menu label="Balls">
+		  <Program label="Tennix">cd ~/Desktop/game/tennix-0.3.2; ./tennix</Program>
+		  <Program label="Trackballs">trackballs</Program>
+		</Menu>
+
+		<!-- 	  <Program label="The Adventures of Maddog Williams(TM)">~/Desktop/game/mdwfull/dosbox-MDWVGA.EXE</Program> -->
+	  </Menu>
+
+	  <Menu label="Emulators">
+		
+	  </Menu>
+	</Menu>
+
+	<Menu label="Development">
+	  <Program label="GNU Emacs">emacs</Program>
+	  <Program label="Terminal">~/bin/vt</Program>
+	  <!-- 	  <Program icon="gxine.png" label="gxine">gxine</Program> -->
+	  <!-- 	  <Program icon="xmms.xpm" label="XMMS">xmms</Program> -->
+	</Menu>
+
+	<Menu label="System">
+	  <Menu label="Processes">
+		<Program label="">conky</Program>
+		<Program label="View OS condition">xosview</Program>
+		<Program label="Manage Running Programs">~/bin/vt -e htop</Program>
+		<Program label="Manage Running Programs as ROOT!">~/bin/vt -e htop</Program>
+		<Program label="Kill Window">xkill</Program>
+		<Program label="Kill Window as ROOT!">rxvt -e sudo xkill</Program>
+	  </Menu>
+
+	  <Program label="Manage Printer">firefox localhost:631</Program>
+
+	  <Program label="Adjust Audio Settings">~/bin/vt -e aumix</Program>
+
+	  <Program label="Tune Video Settings">xvidtune</Program>
+	  <Program label="Magnify Screen Area" icon="xmag.png">xmag</Program>
+<!-- 	  <Program label="Change Program Fonts" icon="xfontsel.png">xfontsel</Program> -->
+	  <!-- 		<Program label="xprop" icon="xprop.png">xprop | xmessage -file -</Program> -->
+	</Menu>
+  </RootMenu>
+
+  <!-- Global gunk -->
+  <Desktops count="1"/>
+  <DoubleClickSpeed>400</DoubleClickSpeed> <!-- milliseconds -->
+  <DoubleClickDelta>2</DoubleClickDelta> <!-- pixels -->
+  <PopupStyle>
+	<Outline>white</Outline>
+	<Background>yellow</Background>
+	<Foreground>red</Foreground>
+	<Font>FreeSans-16:bold</Font>
+  </PopupStyle>
+
+  <!-- Key bindings -->
+  <Key key="Up">up</Key>
+  <Key key="Down">down</Key>
+  <Key key="Right">right</Key>
+  <Key key="Left">left</Key>
+  <Key key="Return">select</Key>
+  <Key key="Escape">escape</Key>
+
+  <Key mask="A" key="Tab">next</Key>
+  <Key mask="A" key="F4">close</Key>
+
+  <Key mask="H" key="space">window</Key>
+  <Key mask="H" key="z">root:1</Key> <!-- WindowsKey-z brings up root menu -->
+
+</JWM>
+

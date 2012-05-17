@@ -1,0 +1,3 @@
+Related: log, mutex
+
+Projects.SentinelChicken.org/grokevt >>GrokEVT is a collection of scripts built for reading WindowsÂ® NT/2K/XP/2K3 event log files. GrokEVT is released under the GNU GPL, and is implemented in Python. It is loosely based on the PHP script and documentation provided by Jamie French, which can be obtained here.

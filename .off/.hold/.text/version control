@@ -1,0 +1,41 @@
+Version Control: cvs, SCM, svn, git, arch, darcs, monotone, VC, vss
+
+RabbitVCS.org >>RabbitVCS is a set of graphical tools written to provide simple and straightforward access to the version control systems you use. We provide multiple clients and extensions designed to give you a uniform experience no matter what development tools you use.
+
+vcs-pkg.org >>The aim of the vcs-pkg project is to investigate the use of version control for distro package maintenance. We bring together people interested in taking the next step in distro package maintenance: the proper integration of version control into the package maintenance workflow.
+
+EmacsWiki.org/emacs/VersionControl
+
+ViewVC.org >>ViewVC is a browser interface for CVS and Subversion version control repositories. It generates templatized HTML to present navigable directory, revision, and change log listings. It can display specific versions of files as well as diffs between those versions. Basically, ViewVC provides the bulk of the report-like functionality you expect out of your version control tool, but much more prettily than the average textual command-line program output.
+
+Devwork.sf.net >>Devwork is an open-source FPC LCL based GUI utility for version control tools (like SVN). It's inspired by Borland Team Source for the easy of use and simple interface. as well as provides the latest features available with modern version control tools.
+
+
+=Distributed
+Fossil-SCM.org >>Fossil: Simple, high-reliability, distributed software configuration management 
+
+PlasmasTurm.org/log/523
+"'
+In brief praise of DVCSs
+
+Sunday, Oct 19, 2008, 22:41
+
+Since I started using git, I've noticed that I use version control for many more things than I would in the days of using Subversion: it seems to be a lot easier to put everything under version control. But for a while, that was merely a feeling whose reasons I found hard to fathom, then hard to articulate. After recently reviewing the ceremony required by Subversion to establish version control for something, the reason stood out to me clearly: Subversion makes the mental overhead of creating a repository very much greater than any DVCS.
+
+
+With a DVCS you just say git init or hg init or bzr init or whatever you prefer -- there's no need to pick a location for your repository since it just goes wherever your working copy is. There's also no need to turn the current directory into a working copy after checking it in initially by checking it right back out, which may in turn require casting a path to a URI (since svnadmin only works locally).
+
+
+It seems like small potatoes, but when someone turns something that takes five actions and has a free variable into a single action that requires no thinking whatsoever, it changes the quality of the game. You start creating throw-away repositories for the littlest reason because the only decision left to make is whether to create one or not. It's a classic example of the tyranny of choice.
+
+©2001–2009 Aristotle Pagaltzis
+'"
+
+====GIT
+git-gui, gitk
+
+GitHub.com >>GitHub is for Public Open Source and Private Business Code
+
+Gitorious.com >>Gitorious provides free open source infrastructure for open source projects that use Git.
+
+

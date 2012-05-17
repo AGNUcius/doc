@@ -1,0 +1,4 @@
+jidanni.org/comp/index_en.html
+
+I managed to put a Chinese character into a favicon.ico file using: echo [Chinese character] | bg5ps -s 15 | pstopnm -stdout -pbm - | pnmcut -bottom 333 | pnmcrop | pnmpad -white -l1 -r1 -t1 -b1 | ppmtowinicon -output favicon.ico
+

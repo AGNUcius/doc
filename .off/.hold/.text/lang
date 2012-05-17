@@ -1,0 +1,86 @@
+Related: babel, bibl, code, compute, logo, ling, phon, program, text, trans, word
+
+==Human languages
+ZWDisplay.sf.net >>ZWDisplay is a desktop program to assist learners of Mandarin to understand and learn to read Chinese text.  When the user enters Chinese-language text, ZWDisplay will display the text with the pronunciation of each word (in Pinyin) and an English translation.  If the user clicks on any Chinese language text, ZWDisplay will hide the Pinyin and translation ('known words'). Clicking it again will restore them.  ZWDisplay will store the known words in a file. This file can be imported into PlecoDict (in text format) to create flashcards. This enables one to choose vocabulary to learn based on one's reading.  The name ZWDisplay is short for zhongwen [Chinese writing] display.
+
+zkanji.sf.net >>zkanji is a free, open-source Japanese language learning tool and also a kanji and word dictionary software providing many useful features for those who are interested in the Japanese language. I've started making zkanji in the hope that it can help me study kanji and I hope that it will help others too. While I can't guarantee that it will do your studying for you, maybe you can use it to your benefit.
+
+Risujin.org/cellwriter >>CellWriter is a grid-entry natural handwriting input panel. As you write characters into the cells, your writing is instantly recognized at the character level.
+
+SquareLanguage.sf.net >>A code language text. All paragraphs in a square, all words in a square. Similar letter to phonetics
+
+Colang.sf.net >>Colang is Collaborative Translation Framework which brings possibility for software developers or any writers to keep up to date translations of their textual information in any language.
+
+afflatus.ucd.ie
+
+TranSolution.Python-Hosting.com
+
+Alt-Usage-English.org >>An Open Source Translation Suite
+
+LTC.sf.net >>Linguistic Tree Calculator
+
+WeiLiYu.sf.net >>WeiLiYu (喂鯉魚) is a freely available pinyin/Chinese character learning game. The name means "feed the koi", which is the object of the game. Playing this game will improve your pinyin and Chinese reading skills.
+
+EtymOnline.com
+
+Wikipedia.org/wiki/Toki_Pona >>Toki Pona is a minimal language. Like a pidgin, it focuses on simple concepts and elements that are relatively universal among cultures. Kisa designed Toki Pona to express maximal meaning with minimal complexity. The language has 14 phonemes and 118 words. It is not designed as an international auxiliary language but is instead inspired by Taoist philosophy, among other things.[4]
+
+translator.cx (GPLTrans)
+
+moji.MozDev.org >>The moji project aims to help foreigners learning Japanese language to read web pages. The main goal is to add lecture guides to chinese characters (kanji) and translations. It is a Mozilla Firefox & Thunderbird extension.
+
+OmegaTplus.sf.net >>The OmegaT+ project is dedicated to bringing together a suite of computer assisted translation(CAT)  tools for use by translators, localization engineers, and other language professionals.
+
+http://www.cs.rutgers.edu/~mdstone/nlg.html >>Natural language generation (NLG) research aims at constructing systems that output speech or text to describe the content of internal computer states and representations.
+
+SenseRelate.sf.net >>SenseRelate uses measures of semantic similarity to perform word sense disambiguation.
+
+www.cs.rutgers.edu/~mdstone/nlg.html <<Natural language generation (NLG) research aims at constructing systems that output speech or text to describe the content of internal computer states and representations.
+
+ConLangs.Berkeley.edu >>The Conference is a set of talks and panel discussions about various issues related to language creation, from several different perspectives. It includes both fairly academic linguistic discussions as well as more general sociological ones...
+
+http://www.ilc.cnr.it/EAGLES/isle/right.html
+http://www.isi.edu/natural-language/mteval/
+
+Ellogon.org >>The Ellogon Language Engineering Platform
+
+OpenNLP.sf.net >>OpenNLP is an organizational center for open source projects related to natural language processing. Its primary role is to encourage and facilitate the collaboration of researchers and developers on such projects.
+
+NLTK.sf.net >>NLTK, the Natural Language Toolkit, is a suite of program modules, data sets and tutorials supporting research and teaching in computational linguistics and natural language processing.
+
+>>The FreeLing package consists of a library providing language analysis services.
+
+
+Wikipedia.org/wiki/List_of_machine_translation_software
+
+Statmt.org/moses and MosesDecoder.sf.net >>Moses is a statistical machine translation system that allows you to automatically train translation models for any language pair. All you need is a collection of translated texts (parallel corpus).
+
+Linguaphile.sf.net >>Linguaphile is a simplistic and easy to use command line translator. It is open source, platform independent, and programmed in perl.
+cvs -d:pserver:anonymous@linguaphile.cvs.sourceforge.net:/cvsroot/linguaphile login
+cvs -z3 -d:pserver:anonymous@linguaphile.cvs.sourceforge.net:/cvsroot/linguaphile co -P linguaphile
+
+Logos-MT.com
+
+www.NonGNU.org/libtranslate >>libtranslate is a library for translating text and web pages between natural languages. Its modular infrastructure allows to implement new translation services separately from the core library.
+
+OpenTrad.org >>open-source automatic translation 
+
+Apertium.sf.net >>Apertium is a toolbox to build open-source shallow-transfer machine translation systems, especially suitable for related language pairs: it includes the engine, maintenance tools, and open linguistic data for several language pairs.
+
+Matxin.sf.net >>Matxin is one of the two open-source machine translation engines being developed inside project OpenTrad; Matxin is designed to translate between different kind of languages (see Documentation below). The OpenTrad consortium is led by Eleka Ingeniaritza Linguistikoa.
+
+WordTrans.sf.net "'Wordtrans is a graphical application that allows you to look for words in several dictionaries. It can also translate the word that you select with your mouse. Wordtrans supports three kind of dictionaries:
+
+* Dictionaries from Babylon Translator.
+      Wordtrans can read the dictionaries from Babylon Translator, right now only the dic format, which is the old format. Dictionaries in the new format (blg) will work in a future release.
+* Dictionaries in plain text.
+      There are some dictionaries in text plain format (thay can be edited in any text editor), like the English-Spanish dictionary i2e with 24,401 terms or the German-English dictionary, with 111,088 terms. And it's also possible to add new terms to those dictionaries.
+* Dictionaries for the DICT server.
+      The DICT server has a lot of very interesting dictionaries (although most of them are only in English).
+'"
+
+poEdit.org >>poEdit is cross-platform gettext catalogs (.po files) editor.
+
+Traduki.sf.net >>Welcome to Traduki! Traduki is a suite of open source linguistic software. Originally intended to be "just" a machine translation software, Traduki got its author so involved that it eventually grew into a much larger scale project.
+
+Lingvo.org Esperanto something

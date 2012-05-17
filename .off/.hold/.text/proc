@@ -1,0 +1,43 @@
+Related: automation, code, design, human, idea, law, media, program, software, task, thread
+
+A computer process is similar to an organism, and may be governed by similar principles as shown in "ecOS".
+
+==Management
+
+==Win32
+ProcessHacker.sf.net (.NET)>>Process Hacker is a feature-packed tool for manipulating processes and services on your computer.
+
+ProcessGrpKill.sf.net >>This tool is a good replacement of MS Task manager, it provide more info about each process (7 tab), can open the contening folder of the process and kill more than one process (each are checked) in one click. A ClickOnce setup (Win + IE only) is also available
+
+$ procexp.exe (non-free) #Process Explorer, Download.SysInternals.com/Files/ProcessExplorer.zip and Technet.Microsoft.com/en-us/sysinternals/bb896653.aspx
+
+http://technet.microsoft.com/en-us/sysinternals/bb896645.aspx !NON-FREE!>>Process Monitor v2.03
+
+http://technet.microsoft.com/en-us/sysinternals/bb896682.aspx !NON-FREE!>>PsList v1.28
+
+==GNU
+ps, top, htop, ntop
+
+atcomputing.nl/Tools/atop >>ATOP is an interactive monitor for Linux-systems to view the load on system-level and process-level.
+
+procps.sf.net >>procps is the package that has a bunch of small useful utilities that give information about processes using the /proc filesystem. The package includes the programs ps, top, vmstat, w, kill, free, slabtop, and skill.
+
+People.RedHat.com/drepper/pagein.html >>determine page-in order
+
+PagesPerso-Orange.fr/sebastien.godard >>The sysstat utilities are a collection of performance monitoring tools for Linux. These include sar, sadf, mpstat, iostat, pidstat and sa tools.
+
+Kornelix.SquareSpace.com/watsup >>Watsup monitors Linux system resources and the processes using those resources.
+
+Qps.KLDP.net >>Qps is a GUI version version of "ps" or "top"
+
+$ xkill, htop, atop, ps, top, conky.sf.net, view, xosview, gkrellm
+$ pgrep,  pkill #look  up or signal processes based on name and other attributes
+$ gprof #display call graph profile data
+
+MetaMonitor.sf.net >>MetaMonitor is a simple program written for KDE, which watches the syslog's or metalog's log file and pops up the window whenever the new message comes. You can specify the file to watch and a regular expression for parsing the log line, so you can watch other than log files too.
+
+blahps.sf.net >>blahps is a process viewer or task manager that aims to be useful in situations where other task managers are not. As an example, it keeps track of processes which have died so you can see them _after_ they are gone. Also it has filtering.
+
+Gedanken.demon.co.uk/procmeter3 >>This version of ProcMeter is designed to be more user-friendly and customisable compared to Procmeter version 2.x. The textual as well as graphical outputs and the extra mouse options avilable are part of this. It is perhaps now less of a system status monitor and more of a user information display. It can be configured to show the date and/or time instead of having a clock and it can also monitor your e-mail inbox and act like biff.
+
+procps.sf.net >>procps is the package that has a bunch of small useful utilities that give information about processes using the /proc filesystem. The package includes the programs ps, top, vmstat, w, kill, free, slabtop, and skill.

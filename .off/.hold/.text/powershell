@@ -1,0 +1,186 @@
+Related: Hyper-V, shell, WMI, WPF
+
+$ reg query HKLM\SOFTWARE\Microsoft\PowerShell
+
+PoshConsole.CodePlex.com >>PoshConsole is a modern graphical PowerShell Console. We aim to have a complete open source implementation of the PSHostUserInterface and PSRawHostUserInterface written in WPF and including a custom ConsoleControl which can be reused for other purposes.
+
+
+PowerBoots.CodePlex.com
+"'
+1. Unpack into your Documents folder in: c:\windows\sytem32\WindowsPowerShell\Modules (or another folder in your $Env:PSModulePath).
+2. You should now be able to get-module -list PowerBoots and see at least one module (CTP3 shows two).
+3. To load the module, you need to run Import-Module PowerBoots in the console or your profile script.
+'"
+
+
+http://blogs.msdn.com/powershell/archive/2009/03/11/how-to-create-an-object-in-powershell.aspx
+"'
+# You can compile a class with C# or other .NET languages in PowerShell v2
+Add-Type @'
+public class MyObject
+{
+    public int MyField = 5;
+    public int xTimesMyField(int x) {
+        return x * MyField;
+    }
+}
+'@
+
+$object = New-Object MyObject
+
+$object
+$object.XTimesMyField(10)
+
+# You can also use -asCustomObject with the New-Module cmdlet to export a module as a class
+$object = New-Module {
+    [int]$myField = 5
+    function XTimesMyField($x) {
+        $x * $myField
+    }
+    Export-ModuleMember -Variable * -Function *
+} -asCustomObject
+
+$object
+$object.xTimesMyField(10)
+
+# You can also simply declare an object and start tacking on properties and methods with the
+# Add-Member cmdlet.  If you use -passThru you can make one giant pipeline that adds all of the
+# members and assign it to a variable
+
+$object = New-Object Object |
+    Add-Member NoteProperty MyField 5 -PassThru |
+    Add-Member ScriptMethod xTimesMyField {
+        param($x)
+        $x * $this.MyField
+        } -PassThru
+
+$object
+$object.xTimesMyField(10)
+'"
+
+
+
+~/Documents/WindowsPowerShell/Profile.ps1
+
+ComputerPerformance.co.uk/ezine >>What to expect from Guy's Scripting Ezine? My speciality is getting people started.  Once people are up and running I like to support them with simple scripts, which are annotated with learning points and notes. Each article has at least one script which you can copy and paste, moreover, I hope that you will be able to use the notes and examples to modify the code to suit your environment. For the last year I have switched from VBScript to PowerShell, consequently the ezine now features PowerShell cmdlets rather than VB scripts.
+
+http://keithhill.spaces.live.com/blog/cns!5A8D2641E0963A97!6930.entry >>Effective Windows PowerShell: The Free eBook
+
+Microsoft.com/technet/scriptcenter/topics/winpsh/manual/run.mspx
+
+Nerdistan.Spaces.Live.com >>Blogging PowerShell, SCVMM and all things computing
+
+H9LabsCmdlets.Wiki.sf.net >>The H9Labs PowerShell Cmdlets project consists of a series of PowerShell cmdlets created by the fine folks at H9Labs (that would be us), which we find useful and wanted to give back to the community. To that end, here are the H9Labs PowerShell Cmdlets!
+
+JohnDCook.com/powershellbooklet.html >>The booklet PowerShell Day 1 lists some things that I wish someone had told me the first day I started using PowerShell. It is not a tutorial on PowerShell per se. There are many excellent tutorials out there, and these can be found via the links in the booklet. Instead, what this book covers is some of the environmental issues surrounding PowerShell that are harder to discover.
+
+TheVESI.org >>The goal of the Vizioncore Virtualization EcoShell is to provide a freeware desktop application for novice and expert IT administrators leveraging Windows PowerShell scripts across their multi-platform virtual environments.
+
+$ ServerManagerCMD.exe -i PowerShell #to install the Server 2008 role
+$ Set-ExecutionPolicy RemoteSigned #allow local unsigned scripts
+
+http://www.synergyonline.com/blog/blog-moss/Lists/Posts/Post.aspx?ID=21 >>Using a PowerShell script to start and stop Hyper-V virtual machines
+
+
+PowerShell.com >>Welcome to PowerShell.com, the educational and community site for Windows PowerShell People
+
+MyITForum.com/cs2/blogs/yli628 >>Ying Li(MVP) at myITforum.com PowerShell & System Center
+
+PowerShellPro.com >>PowerShell Pro! has become a leading source of on-line tutorials for Microsoft's PowerShell environment. Is your Active Directory becoming more complex? We share with you the knowledge and tools required for your success.
+
+RichardSiddaway.Spaces.Live.com >>Of PowerShell and Other Things
+
+BSonPoSH.com >>The "Power" of SHELL
+
+Get-Scripting.BlogSpot.com >>Home of the Get-Scripting Powershell Podcast
+
+ThePowerShellGuy.com >>The PowerShell Guy    Marc van Orsouw    MVP Windows Admin FrameWorks (PowerShell)
+
+
+/confirm:$false
+
+PowerShellCommunity.org
+
+Microsoft.com/powershell >>Microsoft Windows PowerShell command line shell and scripting language helps IT professionals achieve greater control and productivity. Using a new admin-focused scripting language, more than 130 standard command line tools, and consistent syntax and utilities, Windows PowerShell allows IT professionals to more easily control system administration and accelerate automation. Windows PowerShell is easy to adopt, learn, and use, because it works with your existing IT infrastructure and existing script investments, and because it runs on Windows XP, Windows Vista, and Windows Server 2003. Windows PowerShell is now included as part of Windows Server 2008 and can be evaluated in Windows Server 2008 Beta 3. Exchange Server 2007, System Center Operations Manager 2007, System Center Data Protection Manager V2, and System Center Virtual Machine Manager also leverage Windows PowerShell to improve administrator control, efficiency, and productivity.
+
+Wikipedia.org/wiki/Windows_PowerShell
+Blogs.MSDN.com/PowerShell >>PowerShell Team Blog
+
+DmitrySotnikov.WordPress.com >>Dmitry Sotnikov's view on PowerShell, PowerGUI and everything he sees around
+
+PShell.info
+
+sf.net/projects/pstools >>This is a package of cmdlets for PowerShell. Currently provided tools are: PStime - a cmdlet to measure the time elapsed by running the specified command. (is similar to GNU time(1)), PSwget - a cmdlet to get the content of the resource specified by URL,
+
+sf.net/projects/pamvi >>PowerShell Source code for "Programming and Managing VMware Infrastructure" - an upcoming book by O'Reilly.
+
+CodePlex.com/PowerBoots >>PowerBoots makes it easier for scripters to create graphical user interfaces in PowerShell, exposing much of the power of WPF to PowerShell in a simple syntax which supports events, threading, and much, much, more.
+
+Microsoft.com/downloads/details.aspx?FamilyID=d87daf50-e487-4b0b-995c-f36a2855016e >>Windows PowerShell Scriptomatic
+
+Blogs.technet.com/chitpro-de/archive/2008/02/28/free-windows-powershell-workbook-server-administration.aspx >>Free Windows PowerShell workbook: server administration
+
+CodePlex.com/VSCmdShell >>VSCmdShell provides users with a shell window inside the Visual Studio IDE that can be used for Visual Studio commands as well.  Current version allows user to use either Windows Command Shell (cmd.exe) or Windows PowerShell.
+
+PoshCode.org >>PowerShell Code Repository    PoshCode is a collection of PowerShell functions, scripts and modules that are free for public use.  As you find things useful, we only ask that you contribute back to the community.
+
+CodePlex.com/PowerShellCX >>PowerShell Community Extensions (PSCX) is aimed at providing a widely useful set of additional cmdlets, providers, aliases, filters, functions and scripts for Windows PowerShell that members of the community have expressed interest in.
+
+PASH.sf.net >>PowerShell open source reimplementation for "others" (Mac, Linux, Solaris, etc...) and Windows (including Windows Mobile and Windows CE)
+
+PowerGUI.org >>an open source community for PowerGUI, a graphical user interface and script editor for Windows PowerShell!
+
+sf.net/projects/tmd >>Tmd is a wrapper around Cmd.exe and Windows PowerShell. Directories can be navigated via a folder view as in Windows Explorer. A batch editor allows easy editing of batch files.
+
+Technet.Microsoft.com/en-us/magazine/cc138003.aspx >>Windows PowerShell  Rethinking the Pipeline
+http://MSDN.Microsoft.com/en-us/library/ms714674(VS.85).aspx >>Windows PowerShell Programmer's Guide
+http://MSDN.Microsoft.com/en-us/library/ms714469(VS.85).aspx >>Windows PowerShell SDK
+
+Blogs.MSDN.com/powershell/archive/tags/WPF/default.aspx >>WPF & PowerShell
+
+Microsoft.com/technet/scriptcenter/hubs/msh.mspx
+Microsoft.com/technet/scriptcenter/topics/winpsh/pshell2.mspx
+Microsoft.com/technet/scriptcenter/topics/winpsh/toolbox.mspx
+
+
+Channel9.MSDN.com/shows/The+DFO+Show/The-DFO-Show-Introducing-Windows-PowerShell >>In this first of several shows focusing on Windows PowerShell, architect evangelist David Aiken shows some basic "getting started" commands in Windows PowerShell.  The show covers help, basic cmdlet usage, formatting, objects, navigation and safety.
+
+MyITForum.com/myITWiki/Default.aspx?Page=WinPowerShell&AspxAutoDetectCookieSupport=1
+
+MyITForum.com/cs2/blogs/yli628
+
+Channel9.MSDN.com/playground/Sandbox/249904-Windows-PowerShell-Visual-Studio-2005-Templates-C-and-VBNET/
+Blogs.MSDN.com/daiken/archive/2006/11/15/configuring-a-visual-studio-2005-environment-for-windows-powershell.aspx
+Blogs.MSDN.com/daiken/archive/2007/02/07/creating-a-windows-powershell-cmdlet-using-the-visual-studio-windows-powershell-templates.aspx
+
+Blogs.MSDN.com/powershell/archive/2006/04/30/586973.aspx >>How PowerShell Formatting and Outputting REALLY works
+Blogs.MSDN.com/powershell/archive/2006/06/21/641738.aspx >>More - How does PowerShell formatting really work?
+
+ComputerWorld.com/action/article.do?command=viewArticleBasic&articleId=9066180 >>PowerShell Tips and Tricks
+
+==Examples
+$ Get-WmiObject win32_bios
+
+$ Start-Transcript #creates a record of all or part of a Windows PowerShell session in a txt file. The transcript includes all command that the user types and all output that appears on the console.
+
+$ Stop-Transcript #stops a transcript that was started by using the Start-Transcript cmdlet. Of course, you can also stop a stranscript by ending the session.
+
+Microsoft.com/technet/scriptcenter/topics/msh/multivalued.mspx >>Retrieving Multi-Valued WMI Properties from Windows PowerShell
+
+KeithHill.Spaces.Live.com/blog/cns!5A8D2641E0963A97!6930.entry >>I've gotten some requests to turn my Effective PowerShell blog posts into booklet form which I have done.  I expect that this document will grow over time as I add new items.  If you have feedback (typos, suggestions, etc) please drop me a line.
+
+
+==Profiles
+LeastPrivilege.com/PowerShellProfile.aspx
+Blogs.MSDN.com/yvesdolc/archive/2007/03/07/my-powershell-profile.aspx
+MSDN.Microsoft.com/en-us/library/bb613488(VS.85).aspx
+
+
+==Advanced
+JohndCook.com/regex.html >>Regular expressions in PowerShell and Perl
+
+==Emacs
+
+http://VivekSharma.com/techlog/attache/powershell-mode.el.txt >>Version: 0.5, Author: Vivek Sharma, Date: Oct 2008
+
+http://Nabble.com/Run-powershell-as-a-shell-within-Emacs-on-Windows-td17504130.html and http://Blogs.MSDN.com/dotnetinterop/archive/2008/04/10/run-powershell-as-a-shell-within-emacs.aspx >>Version: 0.1, Author: Dino Chiesa, Date: Apr 2008

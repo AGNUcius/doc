@@ -1,0 +1,59 @@
+Related: BCD, WinPE, pkgmgr
+
+Windows Imaging Format (WIM)
+
+Wikipedia.org/wiki/Windows_Imaging_Format >>Like other disk image formats, a WIM file contains a set of files and associated filesystem metadata. However, unlike sector-based formats (such as .ISO, .CUE/.BIN used for CD and DVD images), WIM is file-based, which means that the smallest unit of information is a file. The primary advantages of it being file-based include hardware independence and unique storage of a file referenced multiple times in the filesystem tree (single instance storage).
+
+http://technet.microsoft.com/en-us/library/cc766141%28WS.10%29.aspx >>Add Device Drivers to an Offline Windows Image    You can use Package Manager (Pkgmgr.exe) to install one or more device drivers to an offline Windows image. With Pkgmgr, boot-critical device drivers are added to Windows before installation.
+
+Boot-Land.net/forums/?showtopic=3753&st=10
+"'
+1. 'imagex /export' => wim of 151,552 KB (147 MB)
+2. 'imagex /mountrw', 'imagex /capture' => wim of 165,311 KB (161 MB)
+3. 'imagex /mountrw', 'peimg /prep', 'imagex /capture' => wim of 103,842 KB (101 MB)
+4. with wim from 2: 'imagex /export' => wim of 165,311 KB (161 MB) ... no change
+5. with wim from 3: 'imagex /export' => wim of 103,842 KB (101 MB) ... no change
+6. 'imagex /mountrw', 'imagex /commit' => wim of 161,369 KB (157 MB)
+7. 'imagex /mountrw', 'peimg /prep', 'imagex /commit' => wim of 161,183 KB (157 MB)
+8. with wim from 6: 'imagex /export' => wim of 151,552 KB (147 MB)
+9. with wim from 7: 'imagex /export' => wim of 94,778 KB (92.5 MB)
+'"
+
+Code.MSDN.Microsoft.com/InstallWindowsImage >>The Install-WindowsImage PowerShell script uses the wimgapi.dll in Windows 7 or Windows Server 2008 R2 to apply a Windows image in a .wim file to a specified location. The script can be used to apply a Windows 7 or Windows Server 2008 R2 .wim image to a Virtual Hard Disk (VHD) used for native VHD boot or to boot in a Hyper-V virtual machine. The Using Install-WindowsImage document provides a step-by-step walkthrough of how to create a VHD in Windows 7 and use Install-WindowsImage to apply an image for native boot. The document is available on the Downloads tab in Microsoft Office Word 2007 (.docx) or Protable Documentation Format (.pdf). A related tool, WIM2VHD, is available from the MSDN Code Gallery that automates the steps of VHD creation and applying a .wim image using the Imagex deployment tool from the Windows Automated Installation Kit (AIK).
+
+
+Windows System Image Manager (SIM)
+
+www.CodeProject.com/KB/vista/wimgapi.aspx >>Vista Imaging APIs (WIMGAPI) With C#
+
+
+
+http://windowsitpro.com/article/articleid/97934/q-how-can-i-add-a-microsoft-windows-imaging-format-wim-based-preinstallation-environment-pe-and-recovery-environment-re-to-my-boot-menu.html
+"'
+:: Put boot.wim and boot.sdi in the root of C:
+
+:: now create the RamDisk:
+
+bcdedit /create {ramdiskoptions} /d "Ramdisk options"
+bcdedit /set {ramdiskoptions} ramdisksdidevice partition=C:
+bcdedit /set {ramdiskoptions} ramdisksdipath \boot.sdi
+
+bcdedit /create /d "StorageCraft Recovery Environment" /application OSLOADER
+
+REM Which will output something like:
+:: The entry {AAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE} was successfully created.
+REM echo use the generated GUID to do the rest:
+REM pause
+REM goto :eof
+
+REM bcdedit /set {AAAAAAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE} device ramdisk=[c:]\boot.wim,{ramdiskoptions}
+REM bcdedit /set {AAAAAAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE} path \windows\system32\winload.exe
+REM bcdedit /set {AAAAAAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE} osdevice ramdisk=[c:]\boot.wim,{ramdiskoptions}
+REM bcdedit /set {AAAAAAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE} systemroot \windows
+REM bcdedit /set {AAAAAAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE} winpe yes
+REM bcdedit /set {AAAAAAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE} detecthal yes
+REM bcdedit -displayorder {AAAAAAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE} /addlast
+'"
+
+
+http://windowsitpro.com/article/articleid/101459/q-how-can-i-create-a-windows-preinstallation-environment-winpe-21-boot-image-that-has-both-x86-and-x64-versions.html

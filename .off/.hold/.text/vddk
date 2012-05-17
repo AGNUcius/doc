@@ -1,0 +1,10 @@
+Related: VMware, VIX
+VMware's Virtual Disk Development Kit(VDDK)
+
+"c:\Program Files (x86)\VMware\VMware Virtual Disk Development Kit"
+
+Communities.Vmware.com/community/developer/vddk
+
+Code.Google.com/p/ctypes-vddk >>A python3000 wrapper that makes "Virtual Disk Development Kit" easy and clear
+
+$ svn checkout http://ctypes-vddk.googlecode.com/svn/trunk/ ctypes-vddk-read-only

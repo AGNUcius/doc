@@ -1,0 +1,19 @@
+Related: admin passwd, root, runas, su, user
+
+
+sf.net/projects/sudo4vista >>Ease the pain of operating a Windows Vista system with User Account Control (UAC) enabled--similar to the sudo command available for *nix systems.
+
+__FILE ~/bin/sudo.cmd
+runas /env /user:Administrator "cmd /k %*"
+__END
+
+
+http://PeterProvost.org/blog/post/Powershell-Sudo-(sort-of)-for-Vista-UAC-REDUX.aspx
+function elevate
+{
+	$file, [string]$arguments = $args;
+	$psi = new-object System.Diagnostics.ProcessStartInfo $file;
+	$psi.Arguments = $arguments;
+	$psi.Verb = "runas";
+	[System.Diagnostics.Process]::Start($psi);
+}

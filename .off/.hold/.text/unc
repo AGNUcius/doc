@@ -1,0 +1,9 @@
+Related: SMB, SIF
+
+Universal or Uniform Naming Convention(UNC) names a a network resource
+
+\\Server\Volume\File
+
+Long UNC or UNCW
+\\?\UNC\Server\Volume\File
+\\?\C:\File

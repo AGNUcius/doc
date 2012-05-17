@@ -1,0 +1,3 @@
+Related: emulation, Hyper-V, KVM, virtualization
+
+BitVisor.org >>BitVisor is a tiny hypervisor (Virtual Machine Monitor) for enhancing the security of desktop computers. It can be used as a basis for implementing various security services, such as mandantory encryption of storage and networks, intrusion detection, access control, and so on, by providing a facility for security modules in the hypervisor to intercept and manipulate I/O access from the guest OS.

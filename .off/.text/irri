@@ -1,0 +1,46 @@
+Irrigation is a controlled delivery of water, usually to support a biome of organisms.
+
+
+Sidewalk and roof sloped to fill underground cistern.
+
+Waterproof fabric could protect crops and increase storage when weather is too wet.
+
+Wind assisted pump lifts water if needed.
+
+Automatic irrigation delivers during dry times.
+
+Compress clay and rocks into terrace trenches to carry water further.
+
+Trench banks are walkways and work areas covered with semi-native gifting groundcover.
+
+
+Auto-irrigate indoor or out with low pressure humidity-sensored feedback.
+    Valves at base station.
+    Low cost 1/4 inch valves, tubing, connections and heads.
+    Low performance microcontroller guides 'turret' style valve.
+        More destinations with far less hardware.
+        Turret remains fixed; the valve would crawl around to the dry the turret on a rail and connect with each station through an automated quick-attach connection.
+
+                _______
+               /   \   \
+              / 0 0 \___\
+              |     |___|
+             / 0   0 \___\
+             |   _   |___|
+             |0 \*\_0|___|
+             |   \ \  \  \
+             \ 0 /\ \  \--\
+              |  | (*) |__|
+              \ 0\     /__/
+               \  \___/_ /
+                \___/
+
+Runaway watering is prohibited:
+    Valve is closed when:
+        No contact with a humidity sensor.
+        Sensor reports no humidity increase after some time.
+
+other ideas: 1-wire protocol using conductivity of water?
+
+
+sprinkle.sourceforge.net

@@ -1,0 +1,12 @@
+Related: BSOD, disk, recover, rescue
+
+CrashRecovery.org >>Crash Recovery for Linux sounds a bit superfluous. Linux is regarded as one of todays most stable Operating Systems. In the case of some hardware failure like a broken disk it can however be handy.
+
+Rugg.sf.net >>Flexible file system and hard drive crash testing
+"'
+Rugg is a hard drive and filesystem harness tool that allows you to test and benchmark drives and filesystems, by writing simple to complex scenarios that can mimic the behaviour of real-world applications.
+
+What makes Rugg special is that it can be easily customized to test specific usages of the filesystem. Initially, Rugg was made to test new database server harddrives intended to host a Postgres database. The goal was to enable to simulate the way the database used the hard drive.
+
+Rugg sports a simple and expressive domain specific language designed from the start to be compact and versatile.
+'"

@@ -1,0 +1,33 @@
+Related: WFP
+
+Support.Microsoft.com/?kbid=310747 >>Description of Windows XP and Windows Server 2003 System File Checker (Sfc.exe)
+
+$ sfc.exe # System File Checker
+"'
+Microsoft (R) Windows (R) Resource Checker Version 6.0
+Copyright (c) 2006 Microsoft Corporation. All rights reserved.
+
+Scans the integrity of all protected system files and replaces incorrect versions with
+correct Microsoft versions.
+
+SFC [/SCANNOW] [/VERIFYONLY] [/SCANFILE=<file>] [/VERIFYFILE=<file>]
+    [/OFFWINDIR=<offline windows directory> /OFFBOOTDIR=<offline boot directory>]
+
+/SCANNOW        Scans integrity of all protected system files and repairs files with
+                problems when possible.
+/VERIFYONLY     Scans integrity of all protected system files. No repair operation is
+                performed.
+/SCANFILE       Scans integrity of the referenced file, repairs file if problems are
+                identified. Specify full path <file>
+/VERIFYFILE     Verifies the integrity of the file with full path <file>.  No repair
+                operation is performed.
+/OFFBOOTDIR     For offline repair specify the location of the offline boot directory
+/OFFWINDIR      For offline repair specify the location of the offline windows directory
+
+e.g.
+
+        sfc /SCANNOW
+        sfc /VERIFYFILE=c:\windows\system32\kernel32.dll
+        sfc /SCANFILE=d:\windows\system32\kernel32.dll /OFFBOOTDIR=d:\ /OFFWINDIR=d:\windows
+        sfc /VERIFYONLY
+'"

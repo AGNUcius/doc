@@ -1,0 +1,19 @@
+Related: monitor, ps, RAM, top
+
+BadXMS.sf.net >>BadXMS is a convenient solution for DOS, Windows 9x and ME.
+
+BadMem.sf.net >>BadMEM is the successor of the V4-series of the BadRAM patch which was originally programmed by Rick van Rein.
+
+VolatileSystems.com/default/volatility >>The Volatility Framework is a completely open collection of tools, implemented in Python under the GNU General Public License, for the extraction of digital artifacts from volatile memory (RAM) samples. The extraction techniques are performed completely independent of the system being investigated but offer unprecedented visibilty into the runtime state of the system. The framework is intended to introduce people to the techniques and complexities associated with extracting digital artifacts from volatile memory samples and provide a platform for further work into this exciting area of research.
+
+Hoard.org >>The Hoard memory allocator is a fast, scalable, and memory-efficient memory allocator.  It runs on a variety of platforms, including Linux, Solaris, and Windows.  Hoard is a drop-in replacement for malloc() that can dramatically improve application performance, especially for multithreaded programs running on multiprocessors.  No change to your source is necessary.  Just link it in or set just one environment variable.
+
+Home.ComCast.net/~fbui/bandwidth.html >>Linux benchmark to determine a system's memory bandwidth, including primarily L2 cache, main memory, and framebuffer memory.
+
+DUMA.sf.net >>DUMA is an open-source library (under GNU General Public License) to detect buffer overruns and under-runs in C and C++ programs.  This library is a fork of Buce Perens Electric Fence library and adds some new features to it.
+
+www.Berthels.co.uk/exmap >>Exmap is a memory analysis tool which allows you to accurately determine how much physical memory and swap is used by individual processes and shared libraries on a running system. In particular, it accounts for the sharing of memory and swap between different processes.
+
+$ free, memusage, memusagestat, slabtop
+
+>>Linux-mm.org is a wiki for documenting how memory management works and for coordinating new memory management development projects.

@@ -1,0 +1,19 @@
+Related: deduplication
+
+Single Instance Storage(SIS)
+
+http://blogs.technet.com/josebda/archive/2008/01/02/the-basics-of-single-instance-storage-sis-in-wss-2003-r2-and-wudss-2003.aspx "'SIS was originally introduced as part of the RIS (Remote Installation Services) in Windows Server 2000, but at that time it was restricted to volumes used by RIS to hold multiple installations of Windows.
+
+RIS has since been replaced by Windows Deployment Services (WDS), which leverages the WIM file format for the de-duplication of Windows installation files.
+
+Today, SIS is only included as part of WSS 2003 R2 and WUDSS 2003.'"
+
+
+http://blogs.techrepublic.com.com/datacenter/?p=266 >>Single Instance Storage will also be included in Windows Server 2008, but only in the Storage edition. The feature will not be made available in other editions.
+
+Wikipedia.org/wiki/Single_instance_storage >>Single-instance storage is a system's ability to keep one copy of content that multiple users or computers share. It is a means to eliminate data duplication and to increase efficiency, SIS is frequently implemented in file systems, e-mail server software, data backup and other storage-related solutions.
+
+http://research.microsoft.com/sn/Farsite/WSS2000.pdf
+
+FreshPatents.com/Replication-and-restoration-of-single-instance-storage-pools-dt20081002ptan20080244204.php >>Replication and restoration of single-instance storage pools
+

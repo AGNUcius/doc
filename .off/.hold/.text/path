@@ -1,0 +1,8 @@
+Related: file, filesystem, UNC
+
+The %PATH% environment variable is used to 'search' for executable binaries, batch or shell files.
+
+Local File System (LFS): C:\File
+Uniform Naming Convention (UNC): \\Server\Volume\File
+Unix: /some/dir/ and ../dir
+Windows Special File: \\.\COM1

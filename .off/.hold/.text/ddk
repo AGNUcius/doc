@@ -1,0 +1,6 @@
+Related: build, WDK
+Device Driver Kit (DDK)
+
+Microsoft's DDK cannot find it's own files if your project files or folders contain spaces.
+
+WD-3.com >>The Windows Driver Developer's Digest

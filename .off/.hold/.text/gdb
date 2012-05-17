@@ -1,0 +1,36 @@
+GDB is the GNU Debugger; used with GCC to develop free software.
+
+SA-Swargam.BlogSpot.com/2009/02/using-gdb-with-emacs.html
+
+If in Emacs type  M-x gdba RET
+
+CGDB.sf.net >>CGDB is a curses-based interface to the GNU Debugger (GDB). The goal of CGDB is to be lightweight and responsive; not encumbered with unnecessary features.
+
+
+http://www-128.ibm.com/developerworks/aix/library/au-gdb.html?ca=dgr-lnxw07GDB2
+
+
+PixelBeat.org/programming/debugger
+"'
+GDB Essential commands
+The command set of GDB really is quite concise and intuitive,
+so learn it now so you don't have to when things are going pear shaped!
+
+Command	Abbrev	Description
+set args	 	set command line arguments
+break	b	set breakpoint (at function, line number, ...)
+run	r	(re)start execution
+continue	c	continue execution
+step	s	next line
+next	n	next line without recursing into functions
+finish	fin	next line after this function returns
+list	l	show source (for line, function, offset, ...)
+backtrace	bt	show the current stack trace
+watch	wa	break when variable changes value
+display	disp	display expression each time program stops
+info locals	inf loc	display local variables
+help ...	h	display online help
+Ctrl-x a	 	display code in another window
+Ctrl-L	 	redraw the display (if program outputs for example)
+<Return>	 	repeat the last command
+'"

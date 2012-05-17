@@ -1,0 +1,25 @@
+Related: pkgmgr, WIM
+
+---------------------------
+Windows Optional Component Setup
+---------------------------
+OCSETUP </? | /h | /help>
+OCSETUP <component> [/uninstall] [/passive] [/unattendfile:<file>] [/quiet] [/norestart] [/log:<file>] [/x:<parameters>]
+
+/?, /h, /help - Display help information.
+
+<component> - Name of component to be installed or uninstalled.
+
+[/uninstall] - Uninstall the component.  Installation is default.
+
+[/passive] - Unattended mode, progress only.
+
+[/unattendfile:<file>] - Non-default configuration parameters, implies /passive.  See component documentation for details.
+
+[/quiet] - Quiet mode, no user interaction.
+
+[/norestart] - Do not restart the machine, even if required to complete setup.
+
+[/log:<files>] - Non-default log file location.
+
+[/x:<parameters>] - Extra parameters to be supplied to the underlying installer.  See component documentation for details.

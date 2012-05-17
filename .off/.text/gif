@@ -1,0 +1,104 @@
+http://www.lcdf.org/%7Eeddietwo/gifsicle:
+"' 
+Gifsicle logo 	
+Gifsicle
+
+Source and documentation
+gifsicle-1.44.tar.gz (228882 bytes)
+ungifsicle-1.44.tar.gz (223689 bytes)
+
+Prebuilt binaries
+gifsicle-1.44-1.i386.rpm (291109 bytes)
+ungifsicle-1.44-1.i386.rpm (291101 bytes)
+Win32 executables: gifsicle.exe, ungifsicle.exe (version 1.39; created by Stephen Schnipsel at m4f.net)
+Debian Linux package (old; maintained by Eduardo Marcel Macan)
+NetBSD package (maintained by Ben Wong)
+DarwinPorts package available for Mac OS X (maintained by Nigel Kersten)
+
+Read the gifsicle man page
+
+Changes from other versions
+What is this junk?
+
+Gifsicle is a UNIX command-line tool for creating, editing, and getting information about GIF images and animations. Making a GIF animation with gifsicle is easy:
+
+    % gifsicle --delay=10 --loop *.gif > anim.gif 
+
+But extracting frames from animations is easy too:
+
+    % gifsicle anim.gif '#0' > firstframe.gif 
+
+You can also edit animations by replacing, deleting, or inserting frames:
+
+    % gifsicle -b anim.gif --replace '#0' new.gif 
+
+Some more gifsicle features:
+
+    * Batch mode for changing GIFs in place.
+    * Prints detailed information about GIFs, including comments.
+    * Control over interlacing, comments, looping, transparency...
+    * Creates well-behaved GIFs: removes redundant colors, only uses local color tables if it absolutely has to (local color tables waste space and can cause viewing artifacts), etc.
+    * It can shrink colormaps and change images to use the Web-safe palette (or any colormap you choose).
+    * It can optimize your animations! This stores only the changed portion of each frame, and can radically shrink your GIFs. You can also use transparency to make them even smaller. Gifsicle\u2019s optimizer is pretty powerful, and usually reduces animations to within a couple bytes of the best commercial optimizers.
+    * Unoptimizing animations, which makes them easier to edit.
+    * A dumb-ass name.
+
+Two other programs are included with gifsicle: gifview is a lightweight animated-GIF viewer which can show animations as slideshows or in real time, and gifdiff compares two GIFs for identical visual appearance.
+
+Gifsicle is freely available. All you\u2019ll need is an ANSI C compiler. I welcome changes, bug reports, complaints, etc.: mail me at kohler@icir.org!
+Gifsicle questions
+
+People have downloaded it by now and there are few complaints; but still, let the -- um -- person who isn\u2019t actually buying anything but is rather downloading something for free, beware.
+
+Q: How do you pronounce \u201cgifsicle\u201d?
+A: \u201cYo\u2019 mama.\u201d
+
+Q: What about patents?
+A: The GIF image format has some patent problems. As of July 2004, all of Unisys's LZW/GIF patents have expired, but IBM has a remaining patent. There may be reason to believe that Gifsicle avoids these issues; I have no position on that. Gifsicle is not distributed with a patent license. You are responsible for obtaining a license, deciding not to obtain a license, or (probably the best option) using a different image format, such as PNG.
+Other UNIX GIF tools
+
+Whirlgif (an older version) merges single GIFs into animations, but cannot extract frames, edit animations, or use animations as input files. It either uses local color tables, or it changes input colors by only using colors from the first GIF frame. It also cannot handle complicated input transparency or more than 256 colors total. Gifsicle now uses its adaptive tree method for LZW encoding (thanks!) which makes it basically as fast as Whirlgif.
+
+GIFMerge is based on an earlier program called txtmerge. Like Whirlgif, it cannot extract frames or edit animations. It also cannot optimize animations. Resulting animations always have local color tables. Doesn\u2019t deal with input transparency.
+
+Giftool does batch mode, comments, interlacing, and information, but doesn\u2019t handle animations.
+
+That\u2019s all I know about. Of course, there are hundreds of programs available for Macs and Windows boxes!
+
+There\u2019s at least one GIF optimizer available via the Web. You submit a GIF URL to GIF Wizard, and it spits out several impressively optimized versions for you to select from. Gifsicle -O2 usually does about as well as GIF Wizard (as of mid-1998).
+Testimonials
+
+\u201cI would even go so far as to say that it is stunning.\u201d
+Anne \u201cIdiot\u201d Dudfield
+
+\u201cI just downloaded Gifsicle, and would like to make two small points:
+
+   1. It is vastly better than GIFMerge and Whirlgif, in every way I could think of. Not least importantly, it reduced the GIF animations on my web site from 19MB total down to 11MB, which suddenly made my site much easier to navigate.
+   2. Don\u2019t be so hard on poor Anne, whoever she is; Gifsicle isn\u2019t such a bad name (at least it\u2019s memorable.)\u201d
+
+Jim Bednar
+
+\u201cYESYESYESYESYES I HAVE A DENTIST APPOINT MENT THAT DAY!!!
+
+IT\u2019S A VERY IMPORTANT DENTISST APOINTMENT, AS THEY ARE FILLING A CAVITY FROM WHICH THE LAST FILLING HAD FALLEN OUT, AND IT IS GETTING SENSITIVE!!!
+
+CAN\u2019T MISS THAT DENTIST APPPOINTMENT!!! CAN\u2019T RESCHEDULE IT, AS THEY ARE VERY BUSY AT THE DENTIST PLACE!!!!!!!!!
+
+YESSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS- SSSSSSSSSSSSSSSSSSSSSSSSSS\u201d
+Anne \u201cIdiot\u201d Dudfield
+
+\u201cGod bless you and gifsicle! It is the answer to my prayers and yearnings. Linux go bragh.\u201d
+Patrick Killelea
+
+Testimonials Européens
+
+\u201c...Gifsicle, manejador de gifs...\u201d
+Urko Lusa
+
+Testimonialae Africanae
+
+\u201cJa-nee swaer. Ek het nog steeds nie die ding gedownload nie, maar dit lyk vir my sonder twyfel nat-kak.\u201d
+Etienne Posthumus
+
+Eddie Kohler
+'"

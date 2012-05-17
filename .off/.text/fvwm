@@ -1,0 +1,10 @@
+.fvwm file for keys looks something like:
+#### Windows Key Root Menu
+Key Super_L  A  A   Menu MenuFvwmRoot
+Key Super_R  A  A   Menu MenuFvwmRoot
+
+
+A FVWM (mis)feature causes NumLock to break Alt-TAB.
+Can we not map both `Alt-TAB' _and_ `NumLock-Alt-TAB' in the default theme?
+
+FVWM-Themes.sf.net

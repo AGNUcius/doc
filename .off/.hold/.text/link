@@ -1,0 +1,14 @@
+Related: file, fs, hardlink, junction, linki, map, reparse point, softlink, shortcut, system, tag, wiki
+
+Hardlink.GoogleCode.com >>Hardlink allows to create some directories with a given size using NTFS hardlinks.
+
+$ fsutil.exe hardlink create <new filename> <existing filename>
+
+$ mklink.exe # TechNet.Microsoft.com/en-us/library/cc753194.aspx >>Creates a symbolic link; requires Vista/2008 or higher
+
+Support.Microsoft.com/kb/205524 >>How to create and manipulate NTFS junction points
+$ MountVol.exe #Creates, deletes, or lists a volume mount point.
+$ linkd.exe #from the Microsoft Windows 2000 Resource Kit
+$ DelRP.exe #from the Microsoft Windows 2000 Resource Kit
+
+$ ln #in unix

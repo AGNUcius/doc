@@ -1,0 +1,42 @@
+bread, hlaf
+
+June 14 07: Posted to Blog.P2PFoundation.net/one-loaf-per-child/2007/06/14
+    One Loaf Per Child
+
+Bread and software are more the same than different.
+
+We tend to think of software as a special product because it appears to exist in a virtual world of zero rivalry.  But that is incorrect.  While any digital information can be quickly and almost effortlessly copied from one physical medium to another, the costs to store and express it are not even close to zero.  One of the largest costs is the computer itself.
+
+The genetics of wheat, the designs of the tools and the plan or instructions used to plant, harvest, grind, mix and bake are the virtual parts of bread.  The physical parts are the actual seeds (the mass which contains that data called DNA), land (surface area of the earth), soil (both minerals and rotting organic matter), water, energy (including the SUN), petrol for plastics and metals (and recursively the virtual and physical parts of the machines used to extract these from the earth and form them), etc.
+
+A computer also needs land (rackspace - which also implies a building), energy (electricity), plastic and metals; plus the virtual designs needed to assemble those raw materials into motherboards, CPU, RAM, Hard Drive, Optical Media read/writer, fans, screws, etc.
+
+Moglen claims it would be evil to not give bread away if it were as cheap to produce, yet, if we step through the costs of production we find the physical resouces needed to host the production of bread are much smaller than those needed to host instances of software.
+
+When he says nobody owns Free Software he is referring to the virtual part, but when it comes to the physical material required to host (store and express) that software, it is primarily the end-users that own.  OLPC was started to address that very issue for those that don't have a home machine.
+
+So for computing the problem is hidden in plain sight - in that we overlook those costs maybe because we have the attitude "well, I would have bought the computer either way".  But that same reasoning could be applied to your yard.  If you own land that is not covered by asphalt, concrete or continually poisoned with weed killer then it will probably be growing something, and that something very well could be the extremely easy to grow grass called Wheat.  You could grow enough in 1 square foot to make a loaf, but most people don't because it is too clumsy, but even if we limit ourselves to the small-scale production where physical Sources are only individually owned (such as Mao's back-yard steel furnaces) the cost is still less than software.  The simple hand tools required over the entire production of bread are very rudimentary and orders of magnitude less complex than the electronics required to store and express software.
+
+But this is even easier to prove for large scale, corporate owned agriculture where the costs are so small that the US government actually PAYS farmers to NOT grow wheat.  They (the supposed "we") use federal tax dollars to keep wheat (and therefore bread) artificially expensive so that price does not reach cost.  This also causes US to 'dump' this food in foreign countries for prices less than what the local producer can charge.
+
+You may think "It's not our fault, why don't they just grow their own damn food?".  But the trouble there is our universal misconception of profit as goal instead of production.  So, while a small farmer who owns the physical Sources of Production can grow some wheat for himself, once he begins trading with neighbors he must take a stance AGAINST them because ownership of those Sources do not 'flow' to the consumers of the objects of that production.
+
+This is the same lack of control we see and are beginning to complain about with SaaS hosts such as MySpace, Feedburner, Google, etc. and all other industry such as cell-phone 'service', gasoline producers, DRM laden electronics, etc. who offer deals that appears to be "good enough", but can pull the rug out whenever they please and can charge a price far above cost, as they are the owners.
+
+This is the core issue of what is wrong with the structure of our economy.  Prices must be "protected" from reaching cost because businesses define their success by the profit they extract, not by production itself.
+
+Confusingly, the word "producer" sometimes denotes the Owners, and sometimes denotes the Workers.  For a small business where the owner is also a worker the line is even more blurry.  Workers receive wages, and are not generally involved with profit, while owners usually invest for the long term goal of profit.  This is a precarious situation that destroys small business that play that game, since efficiency in scale causes only the largest corporations to survive.  This is why we see fewer and fewer farm owners and our food supply being controlled by a handful of powerful corporations that barely need answer to our supposed consumer 'demands'.
+
+But there is a special case where price can reach cost - where production and abundance is always good and profit is actually meaningless.  This condition occurs when the Object Users (consumers) also happen to be the very Owners of the physical Sources (Means of Production).
+
+When you OWN the land, water, seed, tractor, thresher, grinder, mixer, stove, pans, buildings needed to make bread you may hire someone to operate those things (and would pay that wage as a cost), but you can't pay price above cost, as it doesn't make even sense at that point; profit is undefined.
+
+Owning the Sources of Production is easy when the operation is small and you don't need to share, but in many cases it is more efficient or even mandatory that the physical Sources be jointly owned because each person just can't afford (and it would be terribly wastful) to Own the land, buildings, tools, etc. to make (for instance) laptops - we tend to leave that to a random group of owners that intend to keep price above cost.
+
+The argument against adressing this issue usually revolves around the idea "Well, who in the world would invest if there will be no profit?".  The surprising answer is: *The Consumer* will invest, since production is already their only motive.
+
+So now the question of how to make this occur without coercion - since any other way would be not only unfair, but, as Moglen states, would not have enough momentum to continue anyway.
+
+A solution patterned after the GNU General Public License trade agreement would be some kind of contract that owners could CHOOSE to apply to physical property.  That contract might say something to the effect of:
+
+: If you share this object (say an apple), you must ensure the end user (the consumer) has access to the Sources of that object (the land, water, trees, tools).  One way to accomplish this is through a revenue sharing scheme that causes any amount paid above costs (what would usually be called profit) to become an investment in the name of that User toward the purchase of more physical Sources required for future production of that same object.

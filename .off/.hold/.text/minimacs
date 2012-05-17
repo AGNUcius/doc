@@ -1,0 +1,31 @@
+Related: distro, GNUin, GUnix, install, LazyInit, LazyLoad, LazyPack, MinEmacs
+
+MiniMacs -- an initially minimal but infinitely extensible GNU OS.
+
+This is the platform independent level of GNUnix and GNUin.
+
+
+====Boot and/or Install
+Small installer downloads initial image and writes it to either of:
+ File residing on current filesystem.
+ Newly created partition.
+ A PXE boot directory, then starts a PXE server.
+ USB key
+ CD or DVD
+
+
+====Packaging
+pkg, LazyLoad
+
+
+====Control
+procs, services, drivers
+registry
+files, disks
+
+
+
+==Inspiration
+EmacsWiki.org/MinEmacs >>MinEmacs wants to help the OneTrueEditor become a lighter yet even more instantly extendable environment by repackaging GNU Emacs as a careful minimum of bundled functionality that also makes extra EmacsLisp or 'c' language changes available through AutoExtend.
+
+https://wiki.ubuntu.com/Lubuntu/Applications

@@ -1,0 +1,7 @@
+Related: client, ftp, http
+
+GNU.org/software/wget >>GNU Wget is a free software package for retrieving files using HTTP, HTTPS and FTP, the most widely-used Internet protocols. It is a non-interactive commandline tool, so it may easily be called from scripts, cron jobs, terminals without X-Windows support, etc.
+
+wput.sf.net >>Wput is a command-line ftp-client that looks like wget but instead of downloading, uploads files or whole directories to remote ftp-servers.
+
+Khomsanph.net/visualwget (Ms-PL) >>VisualWget is a download manager that use Wget as a core retriever to retrieve files from the web. You can think of VisualWget as a GUI front-end for Wget that give you all of Wget functionalities (e.g. download resuming, recursive download) plus little management features such as download queue (prioritizing), speed limit and scheduler. When retrieving a file, VisualWget gather some necessary informations by communicating with Wget, then compute and display a progress bar, speed and ETA within a jobs list that you can easily see and estimate an overall progress by yourself.

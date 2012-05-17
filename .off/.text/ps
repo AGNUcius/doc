@@ -1,0 +1,98 @@
+Related: pdf, Proc, Size, Top
+
+PS(1)                 Linux User’s Manual                PS(1)
+
+ps - report a snapshot of the current processes.
+
+example:
+
+$ ps -e
+  PID TTY          TIME CMD
+    1 ?        00:00:00 init
+    2 ?        00:00:00 migration/0
+    3 ?        00:00:00 ksoftirqd/0
+    4 ?        00:00:00 watchdog/0
+    5 ?        00:00:01 events/0
+    6 ?        00:00:00 khelper
+    7 ?        00:00:00 kthread
+   10 ?        00:00:00 kblockd/0
+   11 ?        00:00:00 kacpid
+  140 ?        00:00:00 pdflush
+  141 ?        00:00:00 pdflush
+  143 ?        00:00:00 aio/0
+  729 ?        00:00:00 kseriod
+  142 ?        00:00:03 kswapd0
+ 1764 ?        00:00:00 ata/0
+ 1765 ?        00:00:00 ata_hotplug/0
+ 1769 ?        00:00:00 scsi_eh_0
+ 1770 ?        00:00:00 scsi_eh_1
+ 1771 ?        00:00:00 scsi_eh_2
+ 1772 ?        00:00:00 scsi_eh_3
+ 1877 ?        00:00:00 khubd
+ 1898 ?        00:00:00 khpsbpkt
+ 1916 ?        00:00:00 knodemgrd_0
+ 2006 ?        00:00:04 kjournald
+ 2235 ?        00:00:00 udevd
+ 3022 ?        00:00:00 shpchpd_event
+ 3169 ?        00:00:00 hda_codec/0
+ 3442 ?        00:00:00 dhclient3
+ 3470 ?        00:00:00 kjournald
+ 3670 ?        00:00:00 syslogd
+ 3698 ?        00:00:00 dbus-daemon
+ 3713 ?        00:00:01 hald
+ 3714 ?        00:00:00 hald-runner
+ 3719 ?        00:00:00 hald-addon-acpi
+ 3769 ?        00:00:02 hald-addon-keyb
+ 3780 ?        00:01:16 hald-addon-stor
+ 3781 ?        00:01:17 hald-addon-stor
+ 4106 ?        00:00:00 gdm
+ 4128 ?        00:00:01 gdm
+ 4134 tty7     00:57:44 Xorg
+ 4150 ?        00:00:00 dirmngr
+ 4226 ?        00:00:00 cron
+ 4299 tty1     00:00:00 getty
+ 4300 tty2     00:00:00 getty
+ 4301 tty3     00:00:00 getty
+ 4302 tty4     00:00:00 getty
+ 4303 tty5     00:00:00 getty
+ 4304 tty6     00:00:00 getty
+ 4334 ?        00:00:00 startkde
+ 4386 ?        00:00:00 ssh-agent
+ 4389 ?        00:00:00 dbus-launch
+ 4390 ?        00:00:00 dbus-daemon
+ 4417 ?        00:00:00 kdeinit
+ 4420 ?        00:00:01 dcopserver
+ 4422 ?        00:00:00 klauncher
+ 4424 ?        00:00:08 kded
+ 4426 ?        00:00:03 gam_server
+ 4432 ?        00:00:05 artsd
+ 4435 ?        00:00:00 kacpid-work-0
+ 4436 ?        00:00:04 kaccess
+ 4437 ?        00:00:00 kwrapper
+ 4439 ?        00:00:00 ksmserver
+ 4442 ?        00:01:09 kwin
+ 4445 ?        00:00:05 kdesktop
+ 4447 ?        00:03:04 kicker
+ 4449 ?        00:00:13 klipper
+ 4452 ?        00:00:01 kbluetoothd
+ 4455 ?        00:00:32 adept_notifier
+ 4460 ?        00:00:00 korgac
+ 4462 ?        00:00:03 knotify
+ 4465 ?        00:00:01 konsole
+ 4466 pts/1    00:00:00 bash
+ 4489 pts/1    04:20:12 emacs-snapshot
+ 4507 ?        00:00:00 gconfd-2
+ 5651 ?        00:00:07 yakuake
+ 5652 pts/2    00:00:00 bash
+ 7710 ?        00:00:01 konqueror
+ 7714 ?        00:00:00 kio_uiserver
+ 7752 ?        00:00:00 kio_file
+ 7895 ?        00:00:00 kdesud
+15126 ?        00:00:00 bonobo-activati
+15752 ?        00:00:05 evolution
+15756 ?        00:00:00 evolution-data-
+15759 ?        00:00:03 evolution-alarm
+23320 ?        00:00:00 cupsd
+  672 pts/3    00:00:00 gdb
+18779 ?        00:04:38 firefox-bin
+20632 pts/4    00:00:00 ps

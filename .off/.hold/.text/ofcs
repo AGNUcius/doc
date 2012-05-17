@@ -1,0 +1,159 @@
+Open Fair Credit Standard (OFCS)
+
+1.Characteristics
+1.Non-liquid
+FTCS is not  a currency system, in that there are no anonymous units of symbolic value  that can be exchanged. Debits and credits are applied directly on accounts of individuals or commodities themselves. Credits and debits cannot be transferred from one account to another.
+2.Cashless
+There cannot be cash in this system because every credit or debit is a record of a unique event and thus cannot be exchanged for substituted for another. Cash as such may be replaced by documentation, or receipts when a physical representation is needed, but are not in themselves to be considered of any value or negotiable.
+3.Pseudonymous
+An OFCS account can be opened under any name. Biometrics and other physical keys will ensure identity security. All records can be audited, though personal information will be kept secret and can actually be omitted. Individuals can create as many accounts as they wish in the system.
+4.Transparent
+All debits and credits created or negated can be audited, even credits and debits that have been negated from being spent or fulfilled, respectively.
+5.Decentralized
+A redundant, encrypted and distributed file system ensures that the OFCS can survive the loss of several nodes and is invulnerable to malicious attack.
+6.Secure
+Each credit or debit has a unique record of evidence such as video built into it as a matter of verification. Additionally, a third party must verify the credit or debit creation. All data is heavily encrypted and keyed to identifiers such as time or geolocation.
+7.Flexible
+The underlying OFCS can be utilized for a variety of purposes, so that multiple independent exchange systems can be created. Any number of social and communication tools can be used to facilitate the function and particular rule-set of each system.
+2.Application
+1.Formation of a Credit Syndicate
+Basis of credit -- Each syndicate should at its heart have a common idea for what should be the basis for credit: labor-time, energy, power, karma, trust, or widgets, etc. Any basis for credit must be absolute and normative, because the system does not allow for interest, depreciation, or other such trappings of subjective currency.
+Syndicate membership and self-government. The Syndicate must decide how it will govern itself, whether that be by direct democracy, elected delegates, designated individuals, or even by total automation.
+Purpose -- The purpose and principles of the syndicate must be clear, otherwise there will be no guidelines when it comes to creating the rule-set.
+2.Customized OFCS Rule-set
+Each syndicate will have choices to make in implementing a rule-set. Though the underlying system is inflexible, there are certain behaviors and matters of policy that will be hard-wired but revisable. Some of these will be ad-hoc rules, such as crediting certain professions or activities at a different rate than others.
+Testing -- the rule-set must be tested in simulation by either role-playing or using gaming simulations.
+Revisions -- must be made to the rule-set that satisfy both the syndicate's principles and utilitarian concerns. The procedure for revisions shall be determined by each syndicate.
+3.Normal Operations
+Autonomous transactions -- The system applies the custom rule-set in all transactions such that all transactions are quick and conveniently executed.
+Problem management -- all disputes or errors will be reported to the appropriate regulating syndicate and dealt with in their particular ways.
+Syndicate evolution -- the syndicate is entrusted to continually be improving its own rule-set and relations with other credit syndicates, as well as providing services to its constituents.
+4.Dissolution or Merger of Syndicates
+When a credit syndicate becomes untenable, unstable, or inactive due to neglect, it may be necessary to dissolve the syndicate. Dissolution itself is not complex, but a process for distribution and transference of all indebted goods must be laid out beforehand to prevent disputes.
+If two syndicates wish to merge their economies, there are several options: they can either keep their separate credit unit systems, create a new system from scratch, or transfer all of one credit system into the other.
+3.Regulation
+1.Account Holder Balances
+Automated checks of individual accounts can occur continuously, adjusting for variable rates in the market. For example, GHG sequestering may vary in labor costs, which will dynamically affect the balance of an individual who has GHG emissions tallied in their debits.
+Rules can be set for deficit spending. For example, it could be that syndics may only accrue twice as much debt totals as their current credit totals. This can be set per credit category, or tied to an equation.
+Rules can be tailored for category. For example, all food or health care purchases (within a certain time span) will be allowed despite a negative balance.
+2.Autonomous Federalism
+Each credit syndicate operates autonomously from one another. No syndicate can interfere with the rule-enforcement of another, but deals may be made where syndicates audit each other to ensure equal trade.
+Syndicates that form a Federation need to have all meta-rules in compliance, but customized rule-sets do not need to be identical to be compatible.
+3.Aggregate Metrics
+The flow of goods and credit/debit can be mapped and made available without breaching the privacy of individuals.
+Suspect transactions can be escalated via many criteria, such as repeated validation by the same 3rd party, or a singularity in the flow of goods.
+Since all exchanges have qualitative data associated with it, it is easy to produce numerical statistics associated with economic activity. Audit trails of individual goods can also be generated.
+4.Complex Rule-making
+Rules can be made to apply either universally or by opt-in. For example, controversial goods like recreational drugs may have their circulation and exchange restricted to only individuals who approve of their use.
+If all rules are opt-in, the syndicates no longer are formal organization but rather heteronymous subsets of the entire fair credit user base.
+
+
+
+Meta-Rules
+
+The “meta-rules” are the overall design of the syndicate and determine the syndicate's compatibility with other syndicates. 3 x 3 x 2 x 2 = 36 possible syndicate varieties.
+
+Labor Category Approval
+1.Open -- all kinds of labor is acceptable in the system
+2.Adaptable -- the approved labor categories are changeable by the syndicate's administrative body.
+3.Static -- all the approved labor activities are set at the founding of the syndicate and cannot be changed.
+
+Openness
+1.Anonymous -- all users' records are hidden from everyone, and all auditing must be done by the system itself without human intervention.
+2.Pseudononymous -- each user has a long identification number, and records are viewable by any member of the syndicate, but no personally identifiable details are available.
+3.Transparent -- all users, including all personally identifiable details are available to all other members of the syndicate.
+
+Credit Complexity
+1.Simplified -- all value is quantified in a single unit system. This precludes dynamic pricing.
+2.Multiple -- all debits and credits include multiple values, such as carbon emissions, labor time, and energy.
+
+Macroeconomics
+1.Balanced -- for every debit, a credit must be generated, and vice versa. This precludes any “free” services.
+2.Dynamic -- This allows labor to be credited without attaching a debit to any object or person. Debited objects may also remain uncompensated-for, and people can accumulate debit without a corresponding credit being generated.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OFCS FAQ
+
+
+First off is OFCS a alternative currency scheme ?
+
+No.
+
+Think of it as the next progression in the evolution of trading. eg.:
+barter -> coinage -> commodity-backed currency -> post-Keynes currency -> complementary currency -> infonomics credit accounting (OFCS)
+
+Jargon aside, the idea is that currency is liquid, in that units of currency are homogeneous and circulate (like molecules of water) between users and organizations. OFCS tracks credit, which is really just information about time, energy, and physical objects consumed or produced.
+
+What is the incentive for someone to participate in the OFCS ?
+
+There are many reasons:
+* It encourages people to pursue their desired profession
+* It allows true free market choices
+* The cost to the average person for common goods will drop dramatically
+* It rewards people for doing social and charitable work without relying on funding, and can even credit people for doing things they previously had to pay to do, such as going to school.
+* The monopoly of banks is broken; anyone can start a Credit Syndicate
+* The value of goods is fixed to measurable quantities.
+* The system is self-regulated by participants, not a government or other central body.
+* Credit theft is impossible, either by thieves or institutions.
+* Hard work is directly rewarded, without prejudice due to geophysical conditions.
+
+How will the OFCS grow or compete with capitalism as the dominant form of
+exchange?
+
+The key to OFCS is that it isn't a single set of rules, but actually a tool that other people can use to set up their own credit-and-exchange systems. One strategy may be to use OFCS to set up a local credit system (as a replacement for a local currency), and unlike local currencies, there is a clear path to linking the community to other communities using an OFCS-based credit system.
+
+Also, implementing an OFCS credit system is easy, if not easier than using a currency, which relies on cash. OFCS relies on already available technology, namely camera-equipped cell phones and the Internet. It is more secure than the US Dollar, in that it cannot be stolen, since credits always remain with a person. It can be implemented alongside the existing economic system, and as more and more businesses and goods enter the OFCS system, it creates even more incentive for people to join it.
+
+The way that credits work in OFCS de-incentivizes selling goods for US Dollars, Euros, or other contemporary currencies. Even if sold for dollars, the debit-value of the good remains with the owner, because ownership would have to be transferred to another OFCS-based account in order to be removed.
+
+How will taxes and tariffs be handled by the OFCS?
+
+They cannot be applied, but can be mitigated by a different form.
+
+Taxes will be unneccessary, because as providers of a democratically-approved service, government workers can be credited for their work. This assumes that the government agency or service in question has already passed a particular OFCS-based credit system's integration procedure.
+
+Tariffs are enforced to mitigate the disparate socioeconomic and geopolitical circumstances that cause competitive advantages between workers in different countries, and to enrich governments as well. Since OFCS is normative to measurable quantities, workers in different countries earn credit at exactly the same rates, and thus can automatically trade fairly with workers all over the globe using an OFCS-based credit system.
+
+What kind of projects do things similar to OFCS?
+
+
+There are complementary currencies, there are local currencies, but again, these are currencies, and operate on fundamentally different principles than OFCS-based credit. OFCS is an accounting system, a management system, and an adaptable client interface  all done with cloud computing and decentralized data management. There is existing software that exhibits similar functions to OFCS, but not taken as a whole.
+
+
+What do you see being the most important idea behind the OFCS or it's
+guiding principle?
+
+
+
+OFCS enables people to create their own economic systems, and the non-currency based crediting system will actually fund large-scale, transformative projects. Currently, there is no money to pay for the transformation of our civilization into a sustainable ecosystem. OFCS systems can fund green projects and account for all pollutants.
+
+The underlying principle is that surplus value schould be distributed, and encourage individual growth and hard work. All members of society have a right to certain necessities, regardless of ability, and we should reward those that work to garauntee those rights for all.
+
+
+How do you have economies of scale with OFCS? How are capital goods financed?
+
+The answer lies in the ability of OFCS to dynamically adjust the price (that is, the "negative credit) of a good, in any stage of ownership. That means the owner of a machine that needs repairs will fix the machine, and the time, energy, and parts they expended to fix it will cancel out the credits they earn for fixing it. That means that the net effect of depreciation (at least, for the individual) is 0 or negative (if they have to purchase parts).
+
+This scenario begs the question: why would anyone want to be the sole propietor of a business, then? Indeed, OFCS creates the incentive to share ownership of capital goods. If more people own the factory, the personal drain of depreciation becomes less and less. This sets the stage for syndicalism (worker-owned means of production) but it also enables public financing of large projects, like spaceflight.
+
+Keep in mind that current economies of scale produce goods that are cheap in terms of dollars, but a LOT of their true cost is externalized; GHG emissions and other pollutants, the health cost to foreign laborers, and irreplacable natural resources, for instance. True life-cycle accounting creates the incentive for producers to not only be efficient, safe, and eco-friendly, but to design the system systainably.
+
+If shareholders of the venture become disenchanted, they could always divest themselves, increasing the debt-burden of remaining shareholders. Because large ventures require substantial overhead to keep running, there will come a point where depreciation and overhead costs will become burdensome to those not gaining credit for overhead work, giving them incentive to divest.
+
+Rules governing divestment, investment, and other details should be left to the particular credit system.
+

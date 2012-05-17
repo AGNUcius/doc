@@ -1,0 +1,26 @@
+see also: boot, USB, partition
+
+cfdisk, fdisk, sfdisk, parted
+hdparm
+
+
+for each partition of a disk you might do:
+    mkdir /mnt/hdb1
+    mount /dev/hdb1 /mnt/hdb1
+
+    mkdir /mnt/hdb2
+    mount /dev/hdb2 /mnt/hdb2
+
+
+
+"WMI Support for SMART Drives" -- www.microsoft.com/whdc/archive/smartdrv.mspx
+
+windirstat.sourceforge.net and kdirstat.sourceforge.net
+
+Drives are regexp: [hd|sd][a-z][0-99] where:
+    'hd' is "Hard Drive" | 'sd' is "SCSI device"
+    [a-z]: 'a' is Primary IDE Master
+        'b' is Primary IDE Slave
+        'c' is Secondary IDE Master etc.
+    [0-99]: partition number
+

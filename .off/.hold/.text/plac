@@ -1,0 +1,4 @@
+Related: space
+
+Search and replace across multiple files
+$ perl -p -i -e 's/regexp/REGEXP/g' filename

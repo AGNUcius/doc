@@ -1,0 +1,199 @@
+AVS/H.264 is the patent encumbered Advanced Video Standard from the MPEG group.
+
+mplayer can encode and decode H.264.
+
+
+en.wikipedia.org/wiki/H.264:
+"'
+The ITU-T H.264 standard and the ISO/IEC MPEG-4 Part 10 standard (formally, ISO/IEC 14496-10) are technically identical, and the technology is also known as AVC, for Advanced Video Coding. The final drafting work on the first version of the standard was completed in May of 2003.
+
+H.264 is a name related to the ITU-T line of H.26x video standards, while AVC relates to the ISO/IEC MPEG side of the partnership project that completed the work on the standard, after earlier development done in the ITU-T as a project called H.26L. It is usual to call the standard as H.264/AVC (or AVC/H.264 or H.264/MPEG-4 AVC or MPEG-4/H.264 AVC) to emphasize the common heritage. The name H.26L, harkening back to its ITU-T history, is far less common, but still used. Occasionally, it has also been referred to as "the JVT codec", in reference to the JVT organization that developed it. (Such partnership and multiple naming is not unprecedented, as the video codec standard known as MPEG-2 also arose from a partnership between MPEG and the ITU-T, and MPEG-2 video is also known in the ITU-T community as H.262.)
+
+...
+
+
+As with MPEG-2 Parts 1 and 2 and MPEG-4 Part 2 amongst others, the vendors of H.264/AVC products and services are expected to pay patent licensing royalties for the patented technology that their products use. The primary source of licenses for patents applying to this standard is a private organization known as MPEG-LA, LLC (which is not affiliated in any way with the MPEG standardization organization, but which also administers patent pools for MPEG-2 Part 1 Systems, MPEG-2 Part 2 Video, MPEG-4 Part 2 Video, and other technologies). Via Licensing also operates an H.264 patent pool. Some patent holders may not join either of the two licensing pools. (Licensing pools generally do not indemnify against third-party patents and cannot force patent-holders to join their pools.) This situation has caused reluctance to embrace H.264 among some potential adopters and may result in adoptions of alternative codecs that are believed to have lower licensing fees and lawsuit risks.
+
+'"
+
+
+
+
+"'
+MPEG-4 AVC/H.264 Information
+What is MPEG-4?
+
+MPEG-4 (ISO 14496) is a broad Open Standard developed by the Moving Picture Experts Group (MPEG), a working group of the International Organization for Standardization (ISO) which also did the well known MPEG-1 (MP3, VCD) and MPEG-2 (DVD, SVCD) Standards, standardizing all sorts of audio/video compression formats and much more
+By its nature the MPEG-4 Standard doesnt aim at standardizing one potential product (eg something comparable to DVD) but covers a broad range of Sub-Standards, which Product Providers can choose from to follow, according to what they need for their product
+
+The MPEG-4 Standard, as mentioned, is divided into many different sub-standards, where for us users on Doom9 the following parts might be of major interest:
+- ISO 14496-1 (Systems), Animation/Interactivity (like DVD Menus)
+- ISO 14496-2 (Video), e.g. Advanced Simple Profile (ASP), as followed by XviD, DivX5, 3ivx...
+- ISO 14496-3 (Audio), Advanced Audio Coding (AAC)
+- ISO 14496-10 (Video), Advanced Video Coding (AVC), also known as H.264
+- ISO 14496-14 (Container), MP4 container format (uses the .mp4 extension)
+- ISO 14496-17 (Subtitles), MPEG-4 Timed Text subtitle format
+
+This information thread now aims at providing some usefull infos on most of these parts, with a focus on MPEG-4 ASP and AVC/H.264
+
+
+What are the possible advantages of an open standard, like MPEG-4, compared to closed formats, like Micro$oft's Windows Media?
+
+The good thing about an open standard is that its open for everyone to follow when creating a product. therefore we already have a lot of different products which are compatible to the MPEG-4 Standard and are therefore also compatible to each other
+Next to interoperability and big product range to choose from, an open standard leads to competition, which means for the consumer that products in the competitive market will most likely have a better increase in quality, lower prices and a better focus on the consumers needs
+
+but not to forget and thats maybe the most important point for me:
+an open standard allows open source development, like we all know from XviD for example
+__________________
+Between the weak and the strong one it is the freedom which oppresses and the law that liberates (Jean Jacques Rousseau)
+I know, that I know nothing (Socrates)
+
+MPEG-4 ASP FAQ | AVC/H.264 FAQ | AAC FAQ | MP4 FAQ | MP4Menu stores DVD Menus in MP4 (guide)
+Ogg Theora | Ogg Vorbis
+use WM9 today and get Micro$oft controlling the A/V market tomorrow for free
+Last edited by bond : 22nd October 2005 at 15:55.
+bond is online now   	Reply With Quote
+bond
+View Public Profile
+Send a private message to bond
+Visit bond's homepage!
+Find More Posts by bond
+Add bond to Your Buddy List
+Old 20th March 2004, 14:08 	  #2  |  Link
+bond
+Moderator
+ 
+Join Date: Nov 2001
+Posts: 6,170
+	
+ISO 14496-10 (Video) - Advanced Video Coding (AVC)
+With AVC/H.264 the MPEG-4 Standard defines one of the newest and technically best available, state-of-the-art Video Coding Formats
+
+The AVC/H.264 Video Coding Standard was together finalized and identically specified in 2003 by two Groups, the MPEG (Moving Pictures Experts Group) from ISO and the VCEG (Video Coding Experts Group) from ITU (International Telecommunication Union), a suborganisation of the United Nations (UNO), which also standardised the H.263 format (mainly used in video conference software now)
+The AVC/H.264 Standard itself was developed by the Joint Video Team (JVT), which included experts from both MPEG and VCEG
+
+Looking from the MPEG side the standard is called MPEG-4 Part 10 (ISO 14496-10), looking from the ITU side, it is called H.264 (the ITU document number), by which the format is widely known already
+As "official" title for the new standard Advanced Video Coding (AVC) was chosen by MPEG - as video counterpart to the Advanced Audio Coding (AAC) audio format
+
+
+AVC/H.264 Profiles
+
+The AVC/H.264 standard defines four different Profiles: Baseline, Main, Extended and High Profile (which themselves are subdivided into Levels):
+
+- Baseline Profile offers I/P-Frames, supports progressive and CAVLC only
+- Extended Profile offers I/P/B/SP/SI-Frames, supports progressive and CAVLC only
+- Main Profile offers I/P/B-Frames, supports progressive and interlaced, and offers CAVLC or CABAC
+- High Profile (aka FRExt) adds to Main Profile: 8x8 intra prediction, custom quants, lossless video coding, more yuv formats (4:4:4...)
+
+It seems the most usable profile for DVD Backups is the High Profile with maybe the following tools (also check out the tool description of MPEG-4 ASP as all, except GMC, are available in AVC too):
+
+CAVLC/CABAC:
+AVC/H.264 defines two, more advanced tools for entropy coding of the bitstream syntax (macroblock-type, motionvectors + reference-index...) than MPEG-4 ASP: Context-Adaptive Variable Length Coding (CAVLC) and Context-Adaptive Binary Arithmetic Coding (CABAC)
+CABAC, compared to CAVLC (aka UVLC) which is the default method in AVC/H.264, is a more powerful compression method, being said to bring down the bitrate additonally by about 10-15% (especially on high bitrates). CABAC (as CAVLC) is a lossless method and therefore will never hurt the quality, but will slow down encoding and decoding.
+
+Loop/Deblocking Filter:
+in contrary to prefiltering (for example via avisynth, done on the input), or postprocessing/filtering (via the decoder, done on the final output), LoopFiltering is applied during the encoding process on every single frame, after it got encoded, but before it gets used as reference for the following frames. This helps avoiding blocking artifacts, especially on low bitrates, but will slow down en/decoding
+
+Variable Block Sizes/Macroblock Partitions:
+in contrary to MPEG-4 ASP (where, only with Inter4V/4MV, the Block Sizes can varry between 16x16 and 8x8 pixels), AVC/H.264 offers for Motion Search Precision the division of a macroblock down to 4x4 pixels (including steps like 8x4...). The Block Size is adaptive/variable, a good encoder will be smart enough to decide which one is best to use in every specific macroblock
+
+Multiple Reference Frames:
+in contrary to MPEG-4 ASP (which only allows using the frame before the actual frame as reference), AVC/H.264 offers choosing from multiple ones for inter motion search, which means the codec can decide whether he wants to simply refer to the previous frame (like in ASP) or even to a frame before that. Because of that (eg a P-Frame can refer to a frame before the latest I-Frame) a new frametype had to be introduced: IDR-Frames, which are I-Frames before which no following frame is allowed to refer to. Allowing multiple reference frames will slow down encoding and decoding and cutting will be only possible at IDR-Frames
+
+Weighted Prediction:
+With Weigthed Prediction there can be weights applied to a reference frame (eg you can scale (brightness-wise) a previous picture). This helps especially whenever there are fades, where the subsequent picture is very similar to the previous one except that it is darker. WP will not help with cross-fades (eg a fade from one scene to another)
+
+Rate Distortion Optimisation (RDO):
+RDO allows the encoder to make the most efficient coding decisions whenever it has to choose between different choices (for example when it comes to inter/intra decisions, motion search...)
+RDO is not a tool defined by the AVC/H.264 specs, but it's a new decision making approach which was first introduced by the H.264 reference software. Other codecs can also make use of RDO, like XviD's VHQ Mode enables RDO already for example
+
+
+An overview of AVC/H.264 compared to other popular video coding formats:
+
+
+available AVC/H.264 Codecs
+
+AVC/H.264 implementations are available atm already from x264, Nero, Apple, Sorenson, Elecard, Moonlight, VSS, mpegable, Envivio, Hdot264 (binary), DSPR, JM (reference software) (binary), ffmpeg, Philips, FastVDO, Skal, Sony and many more
+
+Encoders
+
+- x264: the first publically available High Profile encoder, opensource (GPL) (Source), available for VFW: x264vfw, ffdshow (output .avi), as commandline: x264cli (outputs .mp4, raw), mencoder (outputs raw, .avi) (Doom9's MeGUI) or ffmpeg
+x264 supports 2pass, CABAC, Loop, multiple B-Frames, B-References, multiple Reference Frames, 4x4 P-Frame, 8x8 B-Frame Blocksizes, anamorphic signalling and High Profile: 8x8 dct and intra prediction, lossless and custom quant matrices
+- NeroDigital AVC: useable in Nero Recode2, outputs .mp4
+ND AVC supports 2pass, CABAC, (adaptive) Loop, multiple B-Frames, mulitple Reference Frames, weighted prediction, 8x8 P-Frame Blocksizes, 16x16 B-Frame Blocksizes, Adaptive Quant. (Psy High)
+- Sorenson: useable in Sorenson Squeeze 4, outputs .mp4,
+Sorenson supports 2pass, max 2 B-Frames, B-References, Loop and multiple Slices
+- Apple: useable in Quicktime 7, outputs .mp4 and .mov
+Apple supports 2pass, max 1 B-frame, Adapt. Quant, multiple Slices, but no CABAC, no Loop and no Weighted Prediction
+- JM: The AVC Reference Software offers in v9.3 Main and High Profile: B/SP-Frames, CABAC, Loop Filter, 4x4 Blocksizes, multiple Reference Frames, Adaptive Quant, Error Resilience, RDO, Lossless Coding, Custom Quants, Rate Control aso...
+- Hdot264: opensource (GPL) VFW version of the reference software by doom9 member charact3r, still based on a very old version of the reference (JM 4.0c)
+- VSS: free preview VFW Encoder (limited to 5 days), based on the reference encoder
+- Elecard: useable in Elecard Mobile Converter, outputs .mp4 and MainConcept's v2 encoder, outputs .264 and .mpg PS/TS
+not publically available anymore:
+- Moonlight: useable in Moonlight's OneClick Compressor v1.1 and CyberLink's PowerEncoder, outputs .mpg
+Moonlight supports 1pass (VBR/CBR/Fixed Quants), CABAC, Loop, 2 B-Frames, 8x8 P-Frame Sizes, Adapt. Quant, PAR, Interlacing
+- MainConcept: was useable in the v1 encoder (adds a watermark), outputs .264 and .mpg PS/TS
+1pass (CBR/VBR/fixed Quants), P-Frame Reorder, CABAC, Loop, Multiple B-Vops, Multiple Ref, 4x4 P-Frame Sizes, PAR, RDO
+- mpegable: offered for some time a free VFW Encoder (not based on the reference), doesnt handle YV12
+mpegable supports 1pass (fixed quants) uses P-Frames only, 8x8 P-Frame Blocksizes, CAVLC only, Loop
+- Envivio: useable in 4Coder, outputs .mp4
+
+Decoders (comparison)
+
+- ffmpeg: opensource (LGPL), used e.g. in ffdshow (VFW and DShow decoder), mplayer and VideoLAN
+supports B-Frames, B-References, CABAC, Loop, Weighted Prediction and High Profile (8x8 dct and intra prediction, lossless)
+- Apple: AVC decoding inside Quicktime 7
+supports .mp4/.mov and B-Frames, CABAC, Loop
+- NeroDigital AVC: DShow Decoder and .mp4 Parser coming with Recode2
+supports Main and High Profile
+- VSS: preview VFW Decoder (limited to 5 days) and a DShow Decoder (limited to 30 days)
+VSS DShow supports .avi (with VSSH and H264 fourcc), CABAC, Loop, B-Frames
+- Elecard: available in Elecard's MPEG Player v4.0 and MainConcept's v2 encoder
+- Envivio: not freely available AVC DShow decoder called EnvivioTV, handling AVC in .mp4 (since 2.0, current version: 2-1-181)
+- Philips: DShow AVC decoder freely available in the AVC Alliance player (handles raw AVC only)
+- FastVDO: time limited (5 minutes per video) High Profile DShow Decoder
+- Pegasus: not really compliant DShow AVC decoder available here
+- Basic AVC Decoder in C, for an university project available here
+not publically available anymore:
+- Moonlight: DShow decoder/Parser handling AVC in .mpg, .mp4 and .264 available in Moonlight's MPEG Player v3.0
+supports Main and High Profile
+- MainConcept: the v1 preview offered a free DShow AVC decoder (adds watermark) and Parser handling AVC as .mpg PS/TS
+- mpegable: offered for some time a free VFW decoder (usable also in DShow), supports .avi (with DAVC fourcc)
+
+
+Sample content
+
+NeroDigital: mp4, mp4
+Sorenson: mp4
+AVC Alliance: raw
+Moonlight: raw/medium bitrates, raw/low bitrates, raw, mpg
+FastVDO: raw/high profile
+Apple: mov
+Videosoft: avi, avi/new, avi/old
+Lead: ogm
+
+
+current issues with AVC/H.264
+
+- interoperability: most implementations support different container formats atm:
+.mp4: which is the container of AVC defined in the MPEG-4 Standard (ISO 14496-15) and supported by Apple, Nero, Sorenson, Envivio, Elecard/Moonlight and x264 atm
+.mpg PS/TS: which are the containers of AVC defined in the MPEG-2 Standard (ISO 13818-1, AMD3) and supported by Mainconcept and Elecard/Moonlight atm
+.avi: using AVC-in-AVI is nowhere standardized and therefore already causes incompatibilies. The limitations of AVI and VFW (eg regarding b-frames or arbitrary frame coding orders), together with the necessary hacks caused by these two formats, hinder the full implementation of all possible features AVC offers and therefore harm the possible quality or at least the speed of the development, the interoperability and therefore also the competition. AVI is currently used by VSS and x264 (mencoder and vfw)
+.264/.h264: the raw bitstream not stored in a container. output for example by the reference, x264cli, mencoder and mainconcept
+
+- speed: some current implementations are pretty slow
+still x264 and NeroDigital's AVC encoder seems to offer already a nice speed and quality. But this doesnt change the fact that AVC is a very advanced video coding format and therefore encoding and decoding on old CPU's can be very time consuming
+
+
+MPEG-4 AVC/H.264 on Hardware - HD-DVD/Blu-ray
+
+Two organisations (the DVD Forum and the Blu-ray Disc Association) are currently working on the successor of the popular DVD format, which will support so called High Definition content (larger picture sizes than current DVD): HD-DVD and BD-ROM
+
+As reported here the DVD Forum already made the decision that MPEG-4 AVC/H.264 will be used as mandatory video codec for HD-DVD
+Also the Blu-ray Disc Association has announced the inclusion of MPEG-4 AVC/H.264 as can be read here
+
+It is therefore very likely that AVC/H.264 will be THE upcoming video format, which will be widely used and supported, like it is the case with MPEG-2 (used in DVD) today
+
+
+'" -- doom9.org
+

@@ -1,0 +1,83 @@
+Related: free
+
+
+Lock sources open with a GPL to protect user freedom.
+
+----------------------------------------------------------------
+A thing may be OPEN or CLOSED and, independently, may be LOCKED or UNLOCKED.  These four states are:
+
+1. LOCKED CLOSED: [Users MAY NOT apply their own lock, Source IS NOT available]
+Every human should have an inalienable right to keep some holdings private.  Proprietary resources are LOCKED CLOSED.  It is illegal to open the gate (reverse engineer) or to apply your own lock (may not be 'captured' by another contract).  Most land speculation, water privatization, genetic BioPiracy, freeware, shareware, "off the shelf" software and hardware are under these terms.
+
+
+2. UNLOCKED CLOSED: [Users MAY apply their own lock, source IS NOT available]
+The resource may be used and copied "at cost", but the design documents are not available.  The resource may be 'captured' by another contract.  Some gifts and some freeware software is available under these terms.
+
+
+3. UNLOCKED OPEN: [Users MAY apply their own lock, source IS available]
+If ownership is retained, the conditions allow others to 'capture' use and improvements under their own terms.  For example: a BSD license allowed Microsoft and Apple to build on the work of others, and then lock those resources closed.  A GPL may also 'capture' UNLOCKED OPEN resources, so GNUBSD is likely future fork.  Public Domain is also UNLOCKED OPEN simply because ownership has been relenquished.
+
+
+4. LOCKED OPEN: [Users MAY NOT apply their own lock, source IS available]
+This once rare state is enforced by 'Lefting' contracts such as the GPL.  Proprietary vendors dislike this state because it disables the hoarding they rely upon for usury extraction.
+
+
+
+A conversation with a co-worker:
+----
+An owner may lock organism genetics OPEN to stop another from hoarding their property (I should mention the ability to lock such things at all - to even claim them as property - is distasteful to me, but since Monsanto and others have already started locking them closed, we must defend ourselves).
+
+If the new worker chooses to build on that work (for instance by adjusting the genetic qualities of peach grown from a seed received under the GPL), then you have agreed (by accepting the license applied to that peach) to lock your changes open.  But you are not forced to participate.  If a locking license doesn't appeal to you, you should find organism genetics that are still UNLOCKED.  There are many to be had for now, but if you look carefully at seed catalogs you will find there are fewer each year.
+
+Eventually everything will be privately owned.  Do you hope those locks keep access OPEN or CLOSED?
+
+
+>When people hoard and make mistakes and are jerks and choose the wrong
+>things, they can learn from those experiences and become better people
+>if they choose to.  If you take away the choice of hoarding, being
+>selfish, making mistakes, etc., you take away that person's freedom and
+>you become a controller of people just like the "bad" people who are
+>enslaving people today!  You also take away their right to be generous
+>of their own free will too!  They are generous because they are forced
+>to, not because they learn to do it of their own free will.  They are
+>therefore dependant upon you for their own generosity.  If you leave the
+>picture, their selfishness will return and you haven't improved them one
+>bit.
+
+Does our society use laws that disallow?
+Would you say a society should never use laws that disallow?
+Is there a way to categorize activities which should be disallowed?
+
+
+>It's not the economics, it's the people!  If the people are "good"
+>(unselfish, etc.) then these economic models would probably work.  If
+>the people are "bad" (selfish, etc.) then these economic models would
+>probably fail.  Work on the people and getting them to be unselfish by
+>their own free will.
+
+You are hoping selfishness can be solved by "work[ing] on the people"?  What should we do - beg the hoarders to give up their land/IP/genetics/designs?  This is very unlikely to have any effect.  Even if it did, they would immediately be grabbed by other hoarders again.
+
+
+>I think that the only way to have what you desire is by getting people
+>to become less selfish of their own free will rather than compelling
+>them to be unselfish.  Gather these people together and form a society
+>with them.  These people would be selfless, generous, concerned for
+>others as much as for themselves, and completely free!  You would then
+>only allow people who are (of their own free will) truly generous to
+>enter the society.  The rest of the people who don't choose to be that
+>way will eventually die of their own hoarding and selfishness.
+
+Actors require some selfishness (as in self-care), but hoarding must be constrained by law (where 'law' means rules, contract, "Terms of Operation", etc. non-coercively agreed upon by those willing to apply those terms to their own physical property).
+
+
+> I guess all else being the same, LOCKED OPEN destroys competition, which is why socialism and communism always collapse since we humans seem to need some competition and a bit of greed motivating us to work hard and come up with newer and better things, etc.
+
+Sweet Jesus!  It's the "no motivation without exploitation" argument.  We all need bread.  Would you stop eating if your purchasing discontinued to be a burden on the workers who create that food?  Would you care at all?  You may claim "If the owners had not the foresight to organize workers to plant, water, harvest, grind, mix and cook the wheat, we would *all* be dead for lack; and if he can collect no profit, what would be his incentive to ever begin?".  But that argument is invalid because the owner also requires bread.  There is no need for him to have extended leverage against consumers.  If object consumers were to incrementally become source owners at each purchase, then the idea of profit becomes meaningless, as they would only be withholding value from themselves.
+----
+
+
+
+$ lsof #list open files
+$ fuser #identify processes using files or sockets
+
+

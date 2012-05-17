@@ -1,0 +1,5 @@
+Related: file, ftp, ssh
+
+WinSCP.net >>WinSCP is an open source free SFTP client and FTP client for Windows. Legacy SCP protocol is also supported. Its main function is safe copying of files between a local and a remote computer.
+
+Wikipedia.org/wiki/SSH_file_transfer_protocol >>In computing, the SSH File Transfer Protocol (sometimes called Secure File Transfer Protocol or SFTP) is a network protocol that provides file transfer and manipulation functionality over any reliable data stream. It is typically used with version two of the SSH protocol (TCP port 22) to provide secure file transfer, but is intended to be usable with other protocols as well.

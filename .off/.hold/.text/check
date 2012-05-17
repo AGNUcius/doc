@@ -1,0 +1,24 @@
+Related: checkin, checkpoint, checksum, hibernate, md5, migrate, start, stop, suspend, test
+
+CheckPointing.org
+
+==Checksum:
+md5deep.sf.net [Public Domain]>>md5deep is a set of programs to compute MD5, SHA-1, SHA-256, Tiger, or Whirlpool message digests on an arbitrary number of files.
+
+RapidCRC.sf.net [GNU GPL]>>RapidCRC is a tool for windows for checking and creating CRC32 and MD5 checksums; ... Goal is to use the fastest available open source (assembly) implementations for this task.
+
+cfv.sf.net >>cfv is a utility to both test and create .sfv, .csv, .crc, .md5(sfv-like), md5sum, bsd md5, sha1sum, and .torrent files. These files are commonly used to ensure the correct retrieval or storage of data.
+
+http://Blog.NFLLab.com/archives/152-Win32-native-md5sum,-sha1sum,-sha256sum-etc..html [GNU GPL]>>I have compiled native (no Cygwin, no other dlls) Windows versions of md5sum.exe, sha1sum.exe, sha224sum.exe, sha256sum.exe, sha384sum.exe and sha512sum.exe. Download binaries here, and source (as required by GPL) here. If you want to compile them yourself (with MinGW and MSYS), just delete error-causing lines from configure and makefiles until you succeed.
+
+Code.Kliu.org/hashcheck [Simplified BSD]>>The HashCheck Shell Extension makes it easy for anyone to calculate and verify checksums (including hashes) from Windows Explorer. In addition to integrating file checksumming functionality into Windows, HashCheck can also create and verify SFV files (and other forms of checksum files, such as .md5 files). It is fast and efficient, with a very light disk and memory footprint, and it is open-source.
+
+FourmiLab.ch/md5 [Public Domain]>>This page describes md5, a command line utility usable on either Unix or MS-DOS/Windows, which generates and verifies message digests (digital signatures) using the MD5 algorithm. This program can be useful when developing shell scripts or Perl programs for software installation, file comparison, and detection of file corruption and tampering.
+
+BlissTonia.com/software/WinMD5 (.NET)[GNU GPL]>>WinMD5 v2.0 is a free Windows (98, XP, 2000) utility for computing the MD5 hashes ("fingerprints") of files. These fingerprints can be used to ensure that your file is uncorrupted.
+
+GNUWin32.sf.net/packages/coreutils.htm >>GNU coreutils
+
+MD5Summer.org (Pascal)>>MD5summer is an application for Microsoft Windows 9x, NT, ME, 2000 and XP which generates and verifies md5 checksums.  Its output file is compatible with the output of the Linux GNU MD5Sum and it will also read Linux generated files.  It is released under the General Public License, the source can be downloaded from the downloads page (down the bottom).
+
+Toast442.org/md5 [GNU GPL]>>MD5 GUI is a small (well, relatively..) Win 95/98/NT program that generates and checks MD5 checksums.

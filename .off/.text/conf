@@ -1,0 +1,5 @@
+Configure: build, install, make, setup, upgrade, update
+dpkg-reconfigure --priority=low postfix # to setup mail
+SoluCorp.qc.ca/linuxconf
+
+Confine: contain

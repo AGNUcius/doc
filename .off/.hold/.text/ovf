@@ -1,0 +1,20 @@
+Related: CIM, VMware
+
+Open Virtualization Format (OVF)
+
+https://www.citrix.com/English/SS/downloads/details.asp?dID=1349740&downloadID=1689144&pID=683148
+"'Citrix® XenConvert™ converts a server or desktop workload from either a physical machine or from another type of virtual machine, to a XenServer virtual machine.
+
+    * Converting to a XenServer VM produces an intermediate XVA containing a bootable XenServer VM and automatically imports it into a XenServer.
+    * Converting to an XVA produces an offline package of a bootable XenServer VM ready to manually import into a XenServer.
+    * Converting to a VHD produces a VHD compatible with Provisioning Server 5.x, if the target device software included with Provisioning Server 5.x was installed beforehand.
+    * Converting to a OVF package produces an offline package of a bootable XenServer VM ready to manually import into a XenServer. The OVF package can contain vDisks in either VHD or VMDK format.
+'"
+
+Community.Citrix.com/display/xs/Kensho >>Citrix Project Kensho provides administrators with highly usable tools that facilitate the export and import of virtual machines and virtual machine based workloads (virtual appliances) using the Open Virtual Machine Format (OVF) and Common Information Model (CIM) industry standards developed by the Distributed Management Task Force (DMTF).  The Project Kensho OVF Tool utilizes the OVF standard for the export and import of virtual appliances.  The Open Virtual Machine Format is an XML document that describes the metadata of virtual machine(s) that are stand alone or part of a virtual appliance along with pointers to the location of the virtual disks.  Citrix Project Kensho also provides a CIM interface to the XenServer™ API.  As well as introducing a WSMAN interface to XenServer™.  The Xen-CIM component is required by the Project Kensho OVF Tool and installs directly on the XenServer™.
+
+VMware.com/appliances/learn/ovf.html >>VMDK is a file format that only encodes a single virtual disk from a virtual machine. A VMDK does not contain information about the virtual hardware of a machine, such as the CPU, memory, disk, and network information. A virtual machine may include multiple virtual disks or VMDKs. An administrator who wishes to deploy a virtual disk must then configure all of this information, often manually, using incomplete documentation.  The OVF format, on the other hand, provides a complete specification of the virtual machine. This includes the full list of required virtual disks plus the required virtual hardware configuration, including CPU, memory, networking, and storage. An administrator can quickly provision this virtual machine into virtual infrastructure with little or no manual intervention. In addition, the OVF is a standards-based, portable format that allows the user to deploy this virtual machine in any hypervisor that supports OVF.
+
+VMware.com/pdf/ovf_whitepaper_specification.pdf
+VMware.com/pdf/ovf_spec_draft.pdf
+DMTF.org/standards/published_documents/DSP0243_1.0.0.pdf

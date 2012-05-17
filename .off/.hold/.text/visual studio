@@ -1,0 +1,242 @@
+Related: DevStudio, Microsoft
+
+http://MSDN.Microsoft.com/en-us/library/ms165509(VS.80).aspx >>Emacs Default Shortcut Keys
+http://MSDN.Microsoft.com/en-us/library/ms165528.aspx >>Emacs Specific Shortcut Keys, Emacs Scheme
+
+MSDN.Microsoft.com/en-us/vsts2008/aa718351.aspx#tfpt >>Team Foundation Server Power Tool (tfpt.exe) is a command-line tool. To use these commands, start tfpt.exe at the Command Prompt. Some of the commands will display a graphical user interface when used. In addition, you can access the Annotate and Treediff commands from Source Control Explorer in Visual Studio or Team Explorer
+
+CodePlex.com/VSCmdShell >>VSCmdShell provides users with a shell window inside the Visual Studio IDE that can be used for Visual Studio commands as well.  Current version allows user to use either Windows Command Shell (cmd.exe) or Windows PowerShell.
+
+
+PyWin32.sf.net >>Python Extensions for Windows
+
+
+BadByteBlues.BlogSpot.com/2007/08/automating-developer-studio.html
+"'
+Wednesday, August 29
+Automating Visual Studio
+
+Visual Studio is both a curse and a boon. A boon because it is a very good IDE for debugging. A curse because it's restricted to a single platform and tends to lock out third-party editors, such as Emacs, jEdit, SlickEdit, or whatever it is you use.
+
+Most decent editors expect to be able to compile a file via a shell command, capture that commands output, and then scan the output for errors, enabling you to jump to the exact locaton. This can be via make, scons, and the regexp can be modified for different compilers.
+
+However the 'Export Makefile' command dissapeared from Visual Studio with version six. The functionality to compile individual files from the command line has gone, leaving the non-Microsoft editor user with a dilemma. Whether to change their editing habits for the sake of a peaceful life with the GUI, or forsake the ability to compile individual files - whole projects can still be built via the DevEnv command.
+
+However there is a nice Python hack that lets you get at the compiling functionality. You need to use the Python Win32 COM extensions to access Visual Stduio automation from Python. Micheal Graz created this script and tightly integrated it with Vim. I've taken out the vim-specific parts, and added only one Emacs specific part (in dte_get_file) to invoke Emacs when "getting" the current file from Visual Studio. The compilation output now goes to the command line rather than a vim quickfix buffer, so it should be possible to adapt this to your needs.
+
+
+import os, sys, re, time, pywintypes, win32com.client
+
+vsWindowKindTaskList     = '{4A9B7E51-AA16-11D0-A8C5-00A0C921A4D2}'
+vsWindowKindFindResults1 = '{0F887920-C2B6-11D2-9375-0080C747D9A0}'
+vsWindowKindFindResults2 = '{0F887921-C2B6-11D2-9375-0080C747D9A0}'
+vsWindowKindOutput       = '{34E76E81-EE4A-11D0-AE2E-00A0C90FFFC3}'
+
+vsBuildStateNotStarted = 1   # Build has not yet been started.
+vsBuildStateInProgress = 2   # Build is currently in progress.
+vsBuildStateDone = 3         # Build has been completed
+
+#----------------------------------------------------------------------
+
+def dte_compile_file ():
+    dte = _get_dte()
+    if not dte: return
+    try:
+        dte.ExecuteCommand ('Build.Compile')
+    except Exception, e:
+        _dte_exception (e)
+        return
+    # ExecuteCommand is not synchronous so we have to wait
+    while dte.Solution.SolutionBuild.BuildState == vsBuildStateInProgress:
+        time.sleep (0.1)
+    dte_output ('output')
+    _status_msg ('Compile file complete')
+
+#----------------------------------------------------------------------
+
+def dte_build_solution():
+    dte = _get_dte()
+    if not dte: return
+    if dte.CSharpProjects.Count:
+        dte.Documents.CloseAll()
+    _dte_raise ()
+    _dte_output_activate ()
+    try:
+        dte.Solution.SolutionBuild.Build (1)
+        # Build is not synchronous so we have to wait
+        while dte.Solution.SolutionBuild.BuildState != vsBuildStateDone:
+            time.sleep (0.25)
+    except Exception, e:
+        _dte_exception (e)
+        return
+    dte_output ('output')
+    _status_msg ('Build solution complete')
+
+
+#----------------------------------------------------------------------
+
+def dte_output (window_kind):
+    if window_kind == 'find_results_1':
+        window_name = 'Find Results 1'
+        window_id = vsWindowKindFindResults1
+    elif window_kind == 'find_results_2':
+        window_name = 'Find Results 2'
+        window_id = vsWindowKindFindResults2
+    elif window_kind == 'output':
+        window_name = 'Output'
+        window_id = vsWindowKindOutput
+    else:
+        _msg ('Error: unrecognized window (%s)' % window_kind)
+        return
+    dte = _get_dte()
+    if not dte: 
+        print ">> Failed to get dte."
+        return
+    if window_id == vsWindowKindOutput:
+        owp = dte.Windows.Item(window_id).Object.OutputWindowPanes.Item('Build')
+        sel = owp.TextDocument.Selection
+    else:
+        sel = dte.Windows.Item(window_id).Selection
+    sel.SelectAll()
+    _status_msg ('VS %s' % window_name)
+    print sel.Text
+    sel.Collapse()
+
+
+#----------------------------------------------------------------------
+
+def dte_get_file ():
+    dte = _get_dte()
+    if not dte: return
+    doc = dte.ActiveDocument
+    if not doc:
+        _status_msg ('No VS file!')
+        return
+    pt = doc.Selection.ActivePoint
+    file = os.path.join (doc.Path, doc.Name)
+    os.system("emacsclientw -n +%d:%d %s " % (pt.Line, pt.DisplayColumn, file))
+
+#----------------------------------------------------------------------
+
+def dte_put_file (filename, line_num, col_num):
+    if not filename:
+        return
+    dte = _get_dte()
+    if not dte: return
+    io = dte.ItemOperations
+    rc = io.OpenFile (os.path.abspath (filename))
+    sel = dte.ActiveDocument.Selection
+    sel.MoveToLineAndOffset (line_num, col_num)
+    _dte_raise ()
+
+#----------------------------------------------------------------------
+
+def _get_dte ():
+    try:
+        return win32com.client.GetActiveObject ('VisualStudio.DTE')
+    except pywintypes.com_error:
+        _msg ('Cannot access VisualStudio. Not running?')
+    return None
+
+#----------------------------------------------------------------------
+
+_wsh = None
+def _get_wsh ():
+    global _wsh
+    if not _wsh:
+        try:
+            _wsh = win32com.client.Dispatch ('WScript.Shell')
+        except pywintypes.com_error:
+            _msg ('Cannot access WScript.Shell')
+    return _wsh
+
+#----------------------------------------------------------------------
+
+
+#----------------------------------------------------------------------
+
+def _dte_raise ():
+    dte = _get_dte()
+    if not dte: return
+    try:
+        dte.MainWindow.Activate ()
+        _get_wsh().AppActivate (dte.MainWindow.Caption)
+    except:
+        pass
+
+#----------------------------------------------------------------------
+
+def _dte_output_activate ():
+    dte = _get_dte()
+    if not dte: return
+    dte.Windows.Item(vsWindowKindOutput).Activate()
+
+#----------------------------------------------------------------------
+
+def _dte_set_autoload ():
+    dte = _get_dte()
+    if not dte: return
+    p = dte.Properties ('Environment', 'Documents')
+    p.Item('DetectFileChangesOutsideIDE').Value = 1
+    p.Item('AutoloadExternalChanges').Value = 1
+
+
+#----------------------------------------------------------------------
+
+def _dte_exception (e):
+    if isinstance (e, pywintypes.com_error):
+        try:
+            msg = e[2][2]
+        except:
+            msg = None
+    else:
+        msg = e
+    if not msg:
+        msg = 'Encountered unknown exception'
+    _status_msg ('ERROR %s' % msg)
+
+#----------------------------------------------------------------------
+
+def _status_msg (msg):
+    try:
+        caption = _get_dte().MainWindow.Caption.split()[0]
+    except:
+        caption = None
+    if caption:
+        msg = msg + ' (' + caption + ')'
+    _msg (msg)
+
+#----------------------------------------------------------------------
+
+def _msg (msg):
+    print ">> " + msg
+
+
+#----------------------------------------------------------------------
+# eg vsgo.py dte_compile_file
+#    vsgo.py dte_put_file GridToolPanelComponent.cpp 10 5
+#    vsgo.py dte_get_file
+#    vsgo.py dte_build_solution
+
+def main ():
+    prog = os.path.basename(sys.argv[0])
+    if len(sys.argv) == 1:
+        print 'echo "ERROR: not enough args to %s"' % prog
+        return
+
+    fcn_name = sys.argv[1]
+    if not globals().has_key(fcn_name):
+        print 'echo "ERROR: no such fcn %s in %s"' % (fcn_name, prog)
+        return
+
+    fcn = globals()[fcn_name]
+    try:
+        apply(fcn, sys.argv[2:])
+
+    except TypeError, e:
+        print 'echo "ERROR in %s: %s"' % (prog, str(e))
+        return
+
+if __name__ == '__main__': main()
+
+'"

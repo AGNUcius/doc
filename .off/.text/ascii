@@ -1,0 +1,244 @@
+Related: MIME, 822, text, LibCACA.zoy.org
+
+//The first 32 Unicode characters with code points from 0 to 31 are known as the C0 controls.
+
+000 00 CTRL-@   NUL Null
+001 01 CTRL-A   SOH Start Of Heading
+002 02 CTRL-B   STX Start of text
+003 03 CTRL-C   ETX End of TeXt
+004 04 CTRL-D   EOT End Of Transmission, not same as ETB
+005 05 CTRL-E   ENQ ENQuiry, goes with ACK; old HP flow control
+006 06 CTRL-F   ACK ACKnowledge, clears ENQ logon hand
+007 07 CTRL-G   BEL BELL
+008 08 CTRL-H   BS  BackSpace. \b
+009 09 CTRL-I   HT  Horizontal Tab. \t
+010 0A CTRL-J   LF  Line Feed or NL New Line or EOL End Of Line. \n. Unix EOL.
+011 0B CTRL-K   VT  Vertical Tab. \v
+012 0C CTRL-L   NP  New Page, page eject or FF Form Feed. \f
+013 0D CTRL-M   CR  Carriage Return. \r. Mac EOL Win EOL is \r\n.
+014 0E CTRL-N   SO  Shift Out, alternate character set
+015 0F CTRL-O   SI  Shift In, resume default character set
+016 10 CTRL-P   DLE Data Link Escape
+017 11 CTRL-Q   DC1 X-ON, with XOFF to pause listings; ":okay to send"
+018 12 CTRL-R   DC2 Device Control 2, block-mode flow control
+019 13 CTRL-S   DC3 X-OFF, with XON is TERM=18 flow control
+020 14 CTRL-T   DC4 Device Control 4
+021 15 CTRL-U   NAK Negative AcKnowlede
+022 16 CTRL-V   SYN SYNchronous idle
+023 17 CTRL-W   ETB End Transmission Block, not same as EOT
+024 18 CTRL-X   CAN CANcel, MPE echoes
+025 19 CTRL-Y   EM  End of Medium, Control-Y interrupt
+026 1A CTRL-Z   SUB Substitute
+027 1B CTRL-[   ESC ESCape, next character not echoed. \e
+028 1C CTRL-\   FS  File Separator
+029 1D CTRL-]   GS  Group Separator or IS3
+030 1E CTRL-^   RS  Record Separator, block-mode terminator or IS2
+031 1F CTRL-_   US  Unit Separator or IS1
+
+032   space
+033 ! exclam
+034 " quote
+035 # hash
+036 $ dollar sign
+037 % percent
+038 & ampersand
+039 ' single quote
+040 ( open paren
+041 ) close paren
+042 * asterisk
+043 + plus
+044 , comma
+045 - minus
+046 . period
+047 / slash
+048 0 zero
+049 1 one
+050 2 two
+051 3 three
+052 4 four
+053 5 five
+054 6 six
+055 7 seven
+056 8 eight
+057 9 nine
+058 : colon
+059 ; semicolon
+060 < less than
+061 = equal
+062 > more than
+063 ? question
+064 @ at
+065 A
+066 B
+067 C
+068 D
+069 E
+070 F
+071 G
+072 H
+073 I
+074 J
+075 K
+076 L
+077 M
+078 N
+079 O
+080 P
+081 Q
+082 R
+083 S
+084 T
+085 U
+086 V
+087 W
+088 X
+089 Y
+090 Z
+091 [ open bracket
+092 \ backslash
+093 ] close bracket
+094 ^ power or ctrl
+095 _ underscore
+096 ` backtick
+097 a
+098 b
+099 c
+100 d
+101 e
+102 f
+103 g
+104 h
+105 i
+106 j
+107 k
+108 l
+109 m
+110 n
+111 o
+112 p
+113 q
+114 r
+115 s
+116 t
+117 u
+118 v
+119 w
+120 x
+121 y
+122 z
+123 { open brace
+124 |
+125 } close brace
+126 ~ tilde
+
+http://www.cl.cam.ac.uk/~mgk25/unicode.html
+ISO-8859-* is an 8-bit encoding, while UTF-8 is multibyte but the same as ASCII for 7-bit strings.
+
+Characters beyond 0x7F are written as a multi-byte sequence of bytes where the MSB is always high.
+
+The first byte is always from 0xC0 to 0xFD and indicates how many bytes follow.  All further bytes in a multibyte sequence are in the range 0x80 to 0xBF.  0xFE and 0xFF are reserved for BOM for easy resynchronization and makes the encoding stateless and robust against missing bytes.
+
+    * All possible 231 UCS codes can be encoded.
+    * UTF-8 encoded characters may theoretically be up to six bytes long, however 16-bit BMP characters are only up to three bytes long.
+    * The sorting order of Bigendian UCS-4 byte strings is preserved.
+
+
+"'Finally, note that positions 127-159 are not displayable characters in ISO 8859-1 Latin 1, and are not part of any HTML standard, so that HTML code such as "&#153;" is incorrect, and will be displayed differently in browsers on d'" -- pemberley.com/janeinfo/latin1.html
+
+160   Non-breaking space
+161 ¡ Inverted exclamation
+162 ¢ Cent sign
+163 £ Pound sterling
+164 ¤ General currency sign
+165 ¥ Yen sign
+166 ¦ Broken vertical bar
+167 § Section sign
+168 ¨ Umlaut (dieresis)
+169 © Copyright
+170 ª Feminine ordinal
+171 « Left angle quote, guillemotleft
+172 ¬ Not sign
+173 ­ Soft hyphen
+174 ® Registered trademark
+175 ¯ Macron accent
+176 ° Degree sign
+177 ± Plus or minus
+178 ² Superscript two
+179 ³ Superscript three
+180 ´ Acute accent
+181 µ Micro sign
+182 ¶ Paragraph sign
+183 · Middle dot
+184 ¸ Cedilla
+185 ¹ Superscript one
+186 º Masculine ordinal
+187 » Right angle quote, guillemotright
+188 ¼ Fraction one-fourth
+189 ½ Fraction one-half
+190 ¾ Fraction three-fourths
+191 ¿ Inverted question mark
+192 À Capital A, grave accent ("&Agrave;")
+193 Á Capital A, acute accent ("&Aacute;")
+194 Â Capital A, circumflex accent ("&Acirc;")
+195 Ã Capital A, tilde ("&Atilde;")
+196 Ä Capital A, dieresis or umlaut mark ("&Auml;")
+197 Å Capital A, ring ("&Aring;")
+198 Æ Capital AE dipthong (ligature) ("&AElig;")
+199 Ç Capital C, cedilla ("&Ccedil;")
+200 È Capital E, grave accent ("&Egrave;")
+201 É Capital E, acute accent ("&Eacute;")
+202 Ê Capital E, circumflex accent ("&Ecirc;")
+203 Ë Capital E, dieresis or umlaut mark ("&Euml;")
+204 Ì Capital I, grave accent ("&Igrave;")
+205 Í Capital I, acute accent ("&Iacute;")
+206 Î Capital I, circumflex accent ("&Icirc;")
+207 Ï Capital I, dieresis or umlaut mark ("&Iuml;")
+208 Ð Capital Eth, Icelandic ("&ETH;")
+209 Ñ Capital N, tilde ("&Ntilde;")
+210 Ò Capital O, grave accent ("&Ograve;")
+211 Ó Capital O, acute accent ("&Oacute;")
+212 Ô Capital O, circumflex accent ("&Ocirc;")
+213 Õ Capital O, tilde ("&Otilde;")
+214 Ö Capital O, dieresis or umlaut mark ("&Ouml;")
+215 × Multiply sign
+216 Ø Capital O, slash ("&Oslash;")
+217 Ù Capital U, grave accent ("&Ugrave;")
+218 Ú Capital U, acute accent ("&Uacute;")
+219 Û Capital U, circumflex accent ("&Ucirc;")
+220 Ü Capital U, dieresis or umlaut mark ("&Uuml;")
+221 Ý Capital Y, acute accent ("&Yacute;")
+222 Þ Capital THORN, Icelandic ("&THORN;")
+223 ß Small sharp s, German (sz ligature) ("&szlig;")
+224 à Small a, grave accent ("&agrave;")
+225 á Small a, acute accent ("&aacute;")
+226 â Small a, circumflex accent ("&acirc;")
+227 ã Small a, tilde ("&atilde;")
+228 ä Small a, dieresis or umlaut mark ("&auml;")
+229 å Small a, ring ("&aring;")
+230 æ Small ae dipthong (ligature) ("&aelig;")
+231 ç Small c, cedilla ("&ccedil;")
+232 è Small e, grave accent ("&egrave;")
+233 é Small e, acute accent ("&eacute;")
+234 ê Small e, circumflex accent ("&ecirc;")
+235 ë Small e, dieresis or umlaut mark ("&euml;")
+236 ì Small i, grave accent ("&igrave;")
+237 í Small i, acute accent ("&iacute;")
+238 î Small i, circumflex accent ("&icirc;")
+239 ï Small i, dieresis or umlaut mark ("&iuml;")
+240 ð Small eth, Icelandic ("&eth;")
+241 ñ Small n, tilde ("&ntilde;")
+242 ò Small o, grave accent ("&ograve;")
+243 ó Small o, acute accent ("&oacute;")
+244 ô Small o, circumflex accent ("&ocirc;")
+245 õ Small o, tilde ("&otilde;")
+246 ö Small o, dieresis or umlaut mark ("&ouml;")
+247 ÷ Division sign
+248 ø Small o, slash ("&oslash;")
+249 ù Small u, grave accent ("&ugrave;")
+250 ú Small u, acute accent ("&uacute;")
+251 û Small u, circumflex accent ("&ucirc;")
+252 ü Small u, dieresis or umlaut mark ("&uuml;")
+253 ý Small y, acute accent ("&yacute;")
+254 þ Small thorn, Icelandic ("&thorn;")
+255 ÿ Small y, dieresis or umlaut mark ("&yuml;")
+

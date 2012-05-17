@@ -1,0 +1,205 @@
+Related: Hyper-V, PowerShell, virtual
+
+Technet.Microsoft.com/en-us/scvmm >>>>System Center Virtual Machine Manager TechCenter
+
+diTii.com/2009/03/25/how-to-scvmm-2008-cmdlet-ref
+
+Microsoft.com/downloads/details.aspx?displaylang=en&FamilyID=58e79a68-cea8-4e73-840f-cdd8feb9de87 >>System Center Virtual Machine Manager 2008 Cmdlet Reference
+
+Nerdistan.Spaces.Live.com >>Nerdistan (The work and computing side of my life)    Blogging PowerShell, SCVMM and all things computing
+
+
+Blogs.TechNet.com/jonjor/archive/2009/04/07/scvmm-tracing-made-easy.aspx
+"'
+Jonathan's Virtual Blog - Thinking Outside the Physical Box
+
+SCVMM Tracing Made Easy
+
+So you've run into a problem with VMM. Maybe your Hosts have lost connectivity with the SCVMM Server. Or, P2V fails for a certain machine every time. If you've searched many TechNet blogs or forums for answers you have probably come to one conclusion: you're going to have to run a trace to collect the required information.
+
+How do I capture a trace? Armed with DbgView (available from Sysinternals.com) and a number of registry modifications, followed by service restarts on each involved machine, you're ready to begin. Problem is, configuring a server for tracing is time consuming, tedious, and prone to human error. I've worked to alleviate your pain.
+
+Easy? Seriously?
+
+True. You need two files on each server you wish to run the trace on. The process is automated, requires very little input, and works. I'll skip how it works other than to say it performs the work in Cheng's article for you.
+
+Instructions
+
+1 -- Download and save DbgView.exe from Sysinternals.
+
+    http://live.sysinternals.com/dbgview.exe
+
+2 -- Copy the text at bottom to NOTEPAD and save. (Saving to Word or otherwise will include unwanted characters). Name the saved file 'sctrace.cmd' making sure the actual extension is .CMD not .TXT.
+
+3 -- Place BOTH files in the same directory. ('C:\Temp' is good)
+
+4 -- From an ELEVATED command prompt change to the directory where the files are saved and type sctrace.cmd
+
+Tips for Successful Tracing
+
+Follow the instructions in the command prompt. Remember that the goal is to capture the issue while is is reproduced. If the problem is between a Host and the SCVMM Server, run this same script on both machines at the SAME TIME. We need both ends of the conversation to figure out what is going on. The script will provide an opportunity to get things kicked off on all servers then start all the traces at once.
+
+Disclaimer
+Every effort has been made to accommodate various environments, while at the same time keeping the length of the script to a minimum. This script may not work if you have a locked down system. This script is provided as is. That said, I would love to hear what you think of it. Corrections appreciated as well. Check back for version updates.
+
+:: START SCRIPT COPY HERE
+
+:: sctrace.cmd
+:: v1.6
+
+@echo off
+
+if (%1)==(/?) goto :HELP
+if (%1)==(-?) goto :HELP
+if (%1)==(odsoff) goto :ODSOFF
+
+:: Test Running Elevated
+if not exist %windir%\SCVMM_TRACE\test (
+mkdir %windir%\SCVMM_TRACE\test
+)
+If Not %ERRORLEVEL% EQU 0 (
+echo Error: You must run this from an elevated command prompt
+Goto End
+)
+
+:: Check for DbgView
+if not exist dbgview.exe (
+cls
+echo DbgView is required to capture a trace.
+echo Please download from http://live.sysinternals.com/dbgview.exe
+echo and place in same directory as script.
+echo.
+echo.
+Goto End
+)
+
+:: BIG NOTICE
+cls
+echo v1.6
+echo.
+echo    YOU MUST FOLLOW 3 STEPS TO CAPTURE A TRACE
+echo.
+echo  FOLLOW THE DIRECTIONS ON THIS SCREEN AT ALL TIMES
+echo.
+echo                READ CAREFULLY
+echo.
+pause
+
+:: Verify DbgView Settings
+cls
+echo.
+echo  STEP 1 of 3  -  CONFIGURE DEBUGVIEW  -  STEP 1 of 3
+echo.
+echo  - DebugView will open. Select the CAPTURE menu.
+echo.
+echo  - Verify 'Capture Win32' and 'Capture Global Win32' are checked.
+echo.
+echo  - Exit DebugView and return to this window.
+echo.
+echo.
+CHOICE /C C /N /M "Press [C] to configure DbgView now."
+IF errorlevel 1 dbgview.exe
+
+:: Cleanup
+rmdir %windir%\SCVMM_TRACE\test
+Start taskkill /IM debugview.exe
+Start taskkill /IM dbgview.exe
+
+:Begin
+:: Verify Environment
+if not exist %windir%\SCVMM_TRACE\logs (
+mkdir %windir%\SCVMM_TRACE\logs
+)
+
+:: Capture Exact Time to Prevent Overwrites
+set hh=%time:~0,2%
+if "%time:~0,1%"==" " set hh=0%hh:~1,1%
+set yymmdd_hhmmss=%date:~12,2%%date:~4,2%%date:~7,2%_%hh%%time:~3,2%%time:~6,2%
+
+:: Format and Remove Spaces
+set Filepath=%windir%\SCVMM_TRACE\logs
+set Filename=%Filepath%\%COMPUTERNAME%_%yymmdd_hhmmss%.log
+set Filename=%filename: =%
+
+::Enable Tracing
+Reg Add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Tracing\Microsoft\Carmine" /v ODS /t REG_DWORD /d 00000001 /f
+Reg Add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Tracing\Microsoft\Carmine" /v ODSFLAGS /t REG_DWORD /d 255 /f
+
+:: Restart Services
+cls
+net stop vmmagent
+net stop vmmservice
+
+net start vmmagent
+net start vmmservice
+
+:: IISRESET will NOT occur unless /IIS switch is used
+if (%1)==(iis) iisreset
+
+:: Choose Systems
+cls
+echo.
+echo  STEP 2 of 3  -  STAGE OTHER SERVERS  -  STEP 2 of 3
+echo.
+echo  MAKE A DECISION...  ONE SERVER OR MANY?
+echo.
+echo  Start this trace on other involved systems now if needed.
+echo  When all systems are sitting at  STEP 2 of 3  proceed below.
+echo.
+CHOICE /C C /N /M "Press [C] to continue when all systems ready."
+IF errorlevel 1 Start Dbgview.exe /t /f /l %Filename%
+
+:: All Systems GO!
+:STOPDBGVIEW
+cls
+echo.
+echo  STEP 3 of 3  -  TRACING NOW  -  STEP 3 of 3
+echo.
+echo  Trace is capturing all activity on this system now.
+echo  Make sure all systems involved show STEP 3 of 3 then...
+echo  REPRODUCE YOUR ISSUE NOW.
+echo.
+echo  Press [F] to Finish on all systems AFTER reproducing issue
+echo.
+CHOICE /C F /N
+IF errorlevel 1 (
+Start taskkill /IM debugview.exe
+Start taskkill /IM dbgview.exe
+cls
+echo Writing out log file... Please wait
+timeout /t 5
+)
+
+:: Disable Tracing
+Reg Add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Tracing\Microsoft\Carmine" /v ODS /t REG_DWORD /d 00000000 /f
+
+:: Open Explorer Showing Trace File
+start %Filepath%
+cls
+echo DONE!
+echo.
+echo Provide the latest file in %FilePath% to support
+echo.
+echo.
+
+Goto End
+
+:HELP
+cls
+@echo Trace Options
+@echo.
+@echo From an elevated command prompt type Trace.cmd
+@echo Options: /?, -?    This Help Menu
+@echo          /odsoff   Disable tracing
+@echo          /iis      Perform iisreset
+@echo.
+@echo.
+Goto End
+
+:ODSOFF
+Reg Add HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Tracing\Microsoft\Carmine /v ODS /t REG_DWORD /d 00000000 /f
+
+:END
+
+:: STOP SCRIPT
+'"

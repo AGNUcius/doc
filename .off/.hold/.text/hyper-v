@@ -1,0 +1,35 @@
+Related: emu, hypervisor, role, SCVMM, .vhd, virtual, VirtualPC, VMWare, XEN
+
+Forum.Storagecraft.com/Community/forums/p/1952/9035.aspx "'IanB
+I believe the 'Vista boot environment' that ShadowProtect uses is WinPE so it would be fantastic to have the Hyper-V Integration Components installed into the environment so that (among other things) the mouse can be used inside the VM when accessed over RDP.
+
+This post indicates it is possible:
+http://blog.augustoalvarez.com.ar/2009/02/28/step-by-step-adding-hyper-v-integration-components-to-windows-pe-using-waik-20-tools
+'"
+
+HitSystems.com/blog/2008/12/6/kill-those-stuck-hyper-v-virtual-machines
+
+Microsoft.com/windowsserver2008/en/us/hyperv-faq.aspx >>Virtualization with Hyper-V: FAQ
+
+http://technet.microsoft.com/en-us/library/cc732470.aspx >>Hyper-V Getting Started Guide
+
+$ %ProgramFiles%\Hyper-V\virtmgmt.msc
+
+DungKHoang.Spaces.Live.com/blog/cns!31A50D02D661C816!128.entry?_c=BlogPart >>Hyper-V WMI Examples - Part I    Microsoft announced last week the Hyper-V WMI provider and published its documentation here. I find it very interesting for IT Pros like us to build scripts to manage and provision virtual machines through WMI. When combining PowerShell with WMI, you really have powerful tools in your hands for managing virtual environments.
+
+http://msdn.microsoft.com/en-us/library/cc136992(VS.85).aspx >>Virtualization WMI Provider    Hyper-V provides a scalable, reliable, and highly available virtualized server computing environment. It enables one or more guest operating systems to run concurrently on a single physical computer. Key uses for virtual machine technology include the following:    * Server consolidation    * Consolidation of development and testing environments    * Simplified disaster recovery
+
+PSHyperV.CodePlex.com >>A project to provide a PowerShell management library for Hyper-V
+
+HyperVBlog.com >>Virtual Adventures
+
+http://blogs.msdn.com/virtual_pc_guy >>runas /savecred /user:Administrator "mmc \"C:\Program Files\Hyper-V\virtmgmt.msc\""
+
+Community.Citrix.com/blogs/citrite/simoncr/2009/03/24/The+Tale+of+an+Enlightened+Mouse
+
+http://www.brianmadden.com/blogs/gabeknuth/archive/2008/03/11/microsoft-windows-server-2008-hyper-v-solution-overview.aspx
+
+
+Blogs.TechNet.com/julesman
+
+http://technet.microsoft.com/en-us/library/cc732470.aspx >>Hyper-V(R) is a role in Windows Server(R) 2008 that provides you with the tools and services you can use to create a virtualized server computing environment. This type of environment is useful because you can create and manage virtual machines, which allows you to run multiple operating systems on one physical computer and isolate the operating systems from each other. This guide introduces Hyper-V by providing instructions for installing this role and configuring a virtual machine.

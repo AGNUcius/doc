@@ -1,0 +1,45 @@
+Related: animate, CamStudio, Flash, Gnash, JavaScript
+
+AudioFlash.org >>AudioFlash allows you to quickly and easily add audio to your website by creating MP3 compressed audio files and a set of Play, Pause and Stop buttons (SWF Flash) enabling visitors to have complete control over the audio.
+
+GNU.org/software/gnash >>Gnash is a GNU Flash movie player.
+
+FlameProject.org >>An Integrated Development Environment for producing animated swf files, similar to Adobe Captivate.  Licensed under the LGPL.
+
+AsWing.org >>AsWing is an Open Source Flash ActionScript GUI framework and library that allows programmers to make their flash application(or RIA) UI easily. Its usage is similar to Java Swing. It provides a set of GUI components, which we intent to implement in pure object oriented ActionScript 2. A pluggable look and feel will be implemented too. It also provides many Util classes. AsWing is BSD licensed.
+
+Staugler.net/flivpee >>Flivpee is a Flash video player that uses JavaScript widgets and is styled with CSS. It's released under the GNU General Public License and developed with haXe.
+
+FlashSandy.org >>Sandy 3D Engine
+
+F4L.sf.net >>Flash For Linux - Make SWF Writer
+HAXE.org was MTASC.org
+MING.sf.net
+GPLFlash.sf.net
+Swift-Tools.net/Flash
+VNC2SWF: http://www.unixuser.org/~euske/vnc2swf
+FreeMovie.sf.net
+sf.net/projects/swf-auth
+SSWF.sf.net
+FlashExperiments.insh-allah.com
+snow.prohosting.com/bensch/flasp.html call stack tracer
+www.jurjans.lv/flash resources, examples
+www.quiss.org/swftools
+linuxgazette.net/102/washko.html
+www.sodan.org/~penny/vncrec
+Flasm.sf.net "'Flasm is a free command line assembler/disassembler of Flash ActionScript bytecode. It lets you make changes to any SWF. Flasm fully supports SWFs produced by Macromedia Flash 8 and earlier Flash versions.'"
+www.anotherbigidea.com/javaswf/index.html
+DrawSWF.sf.net
+ActionCrypt.sf.net
+Cabron.sf.net "'Another Open-Source Implementation of PHP - Flash Remoting'"
+CarbonFive.com/opensource-main-1.html
+ActionScripts.org
+www.geocities.com/TimesSquare/Labyrinth/5084/flash/download.html
+Use FlashBlock.Mozdev.org in Firefox
+
+"'OpenOffice.org can convert any of its files including PowerPoint files into Flash files. It's free and has great tool for direct conversion of PowerPoint files to .swf files. You only have to import PowerPoint file to OpenOffice and then export presentation to .swf file. Transitions and animations are not supported.'" -- http://www.stanford.edu/~kwillis/blog/archives/2006/04/openofficeorg_c.html
+
+"'Here I have been using OpenOffice for the last two years and I didn't know that you could export a PowerPoint file (or a native OOo Presentation file) from OpenOffice to Macromedia Flash format. The last time I had to send pre-conference slides, I exported them as an Adobe PDF, which worked well. Now I can save slides in Flash format, and they can be read by any web browser. My test file was a 2.5 MB PowerPoint file, which was the same size in OpenOffice Presenter. When I converted it to Flash (.swf), the file was compressed to 360 KB.'" -- http://www.jarche.com/?p=370
+
+http://robla.net/1996/svg2swf >>This is a command-line Python script that will convert a (rudimentary) SVG file into a Macromedia Flash (swf) file, using SAX to do the parsing, and the ming library to write the .swf file.
+

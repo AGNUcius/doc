@@ -1,0 +1,3 @@
+Related: W32, Windows, WinPE
+
+NTUtils.sf.net >>NTUtils is a collection of utilities that may be useful to Win32 system administrators, in the spirit of pstools by Systems Internals. Unlike pstools, the programs in NTUtils are open-source, and demonstrate some lesser known but relatively simple techniques. As the name implies, they do not support the Windows 9x line.

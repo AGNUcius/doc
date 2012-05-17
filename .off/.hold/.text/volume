@@ -1,0 +1,34 @@
+Related: music, noise, sound, space
+
+Chrysocome.net/virtualvolumes "'
+Explore2fs has been around for a long time now, and although I try and keep it up to date with the latest advances in linux storage, the time has come to redesign it to support these features from the ground up.
+
+Kernel mode drivers like ext2ifs also suffer from an inability to read LVM2 which is the default on a lot of distros now. Any new solution needs to solve this problem, and with a minimum of duplication.
+
+Current Features of Virtual Volumes:
+
+    * Supported by all versions of Windows (Vista is still Work In Progress)
+    * Read and Write LVM2 (linear stripes only)
+    * Read and Write EXT2/EXT3 (e2fsprogs/libext2fs)
+    * Read ReiserFS (rfstools)
+    * Read and Write Win32 filesystems (Win32 API)
+    * Read FAT12/FAT16/FAT32 without using Win32
+    * Read and Write software RAID0, RAID1 and RAID5
+    * Read and Write via SFTP
+    * Read and Write VMWare disks
+    * VFS allows mounting on subdirectories
+    * VFS abstraction allows multiple filesystems to be supported
+    * VFS abstraction allows network filesystems like ftp, http and scp to be supported
+    * Command line interface
+    * Drag & Drop GUI
+    * Auto detect available filesystems for GUI quickstart
+
+
+Planned Features of Virtual Volumes:
+
+    * More filesystems (HFS, ISO9660, NTFS, ...)
+    * More file based filesystems (.zip, .tgz etc)
+    * Accessable in native namespace to give filesystem drivers access to LVM2 and RAID
+    * NT Kernel driver to enable IFS to read LVM2
+    * Apache module to make Virtual Volumes available via WEB-DAV. This will allow Windows to assign a drive letter to Virtual Volumes.
+'"

@@ -1,0 +1,13 @@
+computer: /etc/fstab
+
+mount USB:
+$ mkdir /mnt/sda1
+$ mount /dev/sda1 /mnt/sda1
+
+
+make partition available for NFS mount on host:
+$ export # this doesn't work for me on UBUNTU
+
+mount NFS drive on client:
+$ mkdir /mnt/192.168.1.101
+$ mount 192.168.1.101:/ /mnt/192.168.1.101

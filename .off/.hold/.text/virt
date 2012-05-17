@@ -1,0 +1,42 @@
+Related: design, emu, host, hypervisor, Hyper-V, info, KVM, OVF, physical, sim, terminal, type, virtual, VirtualBox, VM, VMware, VPN, XEN
+
+==Computing
+see: emulation
+
+
+==Econ
+Virtual sources are information such as ideas, plans, design, intellect, software, video, audio, genetics, etc. which must be stored and expressed by physical space, time, mass and energy.
+
+Design is important, but it is just one half of the sources required for production.
+
+Design can be thought of as the VIRTUAL Sources of Production.  Virtual sources are infinite in theoretic potential and include things such as ideas, plans, mechanical design, genetics, text, audio, video, software.  I am not talking about any particular copy of any of these things, but the *pattern* of those things.  What I mean by 'pattern' here is the information describing any single instance of those things, but NOT any particular instance.
+
+Physical Sources are the other half of every thing.  To "instantiate" any Virtual Source requires the Physical Sources of Space, Time, Mass and Energy.
+
+The genetics of an apple are "instantiated" by the organism itself as a seed and then tree uses land, time, soil, water, sun, and other rotting organisms to grow.
+
+The mechanical design of a CEB machine is not worth anything until someone creates an instance of it using land, time, machines, steel, plastic, grease, electricity, fuel, etc.
+
+Because of their inescapable connection to physical sources, virtual things can never actually be copied for zero cost.  Even across the internet there are costs for both the server and the client such as: bandwidth, slightly higher electricity to run the NIC, more CPU time to run the kernel module that controls the NIC, the usermode applications that serve and receive the data, RAM dedicated to that process and Hard Drive space needed to store the new copy.  There is also the 'cost' of the exclusivity of those physical resources to that data and activity during those time slices.  This may seem an unrealistic academic exercise, but it really isn't if we scale the problem toward the upper extreme.  Imagine these costs for YouTube.com, Video.Google.com, etc. when they are servicing millions of customers.  It is a very big deal indeed and requires huge rooms with expensive cooling equipment (I once read the cooling is commonly more expensive than the electricity for the computers).
+
+Virtual sources are information such as ideas, plans, design, intellect, software, video, audio, genetics, etc. which must be stored and expressed by physical space, time, mass and energy.
+
+Design is important, but it is just one half of the sources required for production.
+
+Design can be thought of as the VIRTUAL Sources of Production.  Virtual sources are infinite in theoretic potential and include things such as ideas, plans, mechanical design, genetics, text, audio, video, software.  I am not talking about any particular copy of any of these things, but the *pattern* of those things.  What I mean by 'pattern' here is the information describing any single instance of those things, but NOT any particular instance.
+
+Physical Sources are the other half of every thing.  To "instantiate" any Virtual Source requires the Physical Sources of Space, Time, Mass and Energy.
+
+The genetics of an apple are "instantiated" by the organism itself as a seed and then tree uses land, time, soil, water, sun, and other rotting organisms to grow.
+
+The mechanical design of a CEB machine is not worth anything until someone creates an instance of it using land, time, machines, steel, plastic, grease, electricity, fuel, etc.
+
+Because of their inescapable connection to physical sources, virtual things can never actually be copied for zero cost.  Even across the internet there are costs for both the server and the client such as: bandwidth, slightly higher electricity to run the NIC, more CPU time to run the kernel module that controls the NIC, the usermode applications that serve and receive the data, RAM dedicated to that process and Hard Drive space needed to store the new copy.  There is also the 'cost' of the exclusivity of those physical resources to that data and activity during those time slices.  This may seem an unrealistic academic exercise, but it really isn't if we scale the problem toward the upper extreme.  Imagine these costs for YouTube.com, Video.Google.com, etc. when they are servicing millions of customers.  It is a very big deal indeed and requires huge rooms with expensive cooling equipment (I once read the cooling is commonly more expensive than the electricity for the computers).
+
+
+
+VirtualCultures.TypePad.com
+
+VirtualCitizenship.org continues where Ryzom.org left off.
+
+Solipsis.NetOfPeers.net >>Solipsis is a pure peer-to-peer system for a massively shared virtual world. There are no central servers at all: it only relies on end-users' machines.

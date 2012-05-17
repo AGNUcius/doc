@@ -1,0 +1,149 @@
+Related: host, labor, slave
+
+$ rcconf
+
+http://live.gnome.org/FreeOpenServicesDefinition
+
+http://blog.chandlerproject.org/2007/08/30/chandler-hub-as-an-open-service >>Chandler Hub as an open service
+
+http://tieguy.org/blog/2007/10/07/some-freeopen-services-links >>some free/open services links
+
+http://gondwanaland.com/mlog/2006/07/06/constitutionally-open-services >>Constitutionally open services
+
+FreedomDefined.org/Free_Service_Definition >>The core idea of the Free Service Definition (FSD) is to protect users' freedom when they use services (eg gmail, flickr, todocue, mugshot) --- standardize Terms of Service/Privacy Policies so users know how a service will respect their freedom, privacy, and data. Having a standardized FSD would make the decision to become a freedom-respecting service provider simpler and less risky. We are in the process of defining what a Free Service is.
+
+OpenSocialWeb.org >>A Bill of Rights for Users of the Social Web
+
+OpenDefinition.org/osd >>Open Service Definition
+
+TieGuy.org/blog/2007/07/22/evaluating-a-freeopen-service-definition-rough-draft
+"'
+evaluating a Free/Open Service Definition (rough draft)
+
+Thinking about the Open Service problem
+
+As Havoc mentioned, I'm putting in some time on thinking about what an Open Service Definition (to parallel the Open Source and Free Software Definitions). I present here a rough draft of a framework for evaluating such a definition. It is not the definition itself, nor a license/technology/business model/etc. which follows the definition, merely a framework which will generate questions to ask and issues to cover when creating such things. It is not the only possible framework, either, but I think it is probably a good starting point to think about what questions must be addressed.
+
+Some of these evaluation criteria will be familiar from the older definitions; some will have been implied by them but not widely discussed. All will still need elaboration, but I think it will be useful to write down how I'm thinking about the problem. Comments are welcome; email preferred, because of the complex nature of the problem, which I don't think lends itself well to linear wordpress comments yet. If I've reached out to you recently about this problem, expect personalized email or phone calls in the next few days :)
+
+All of these criteria involve sliding scales- obviously if a licensor moves any of them all the way to the closed/unavailable side you have proprietary or semi-proprietary software, but depending on where the lines are drawn, you have more or less onerous requirements with different outcomes- much like the current differences between more protective licenses like GPL and less restrictive but still meeting the definition licenses like BSD.
+
+Goals
+The point of having open/free systems:
+
+    * user freedom. results in security/autonomy/self-actualization/moral development/customer satisfaction/what-have-you. (Interestingly, neither the OSI nor the FSF definitions really go into why freedom or openness is actually good, which I think contributes to the lack of clarity around each.)
+    * direct contribution to the codebase or otherwise to the community. Includes the free rider problem and possibly other collective action problems as well.
+    * ecosystem participation. e.g., application development or API consumption. May include network effects and stickiness (both as a benefit and detriment.)
+
+Evaluating these criteria differently will result in different values for the next two categories (preconditions and rights). For example, when in doubt the FSF favors user freedom, which means much stricter restrictions on redistribution than might otherwise be ideal for direct contribution; when in doubt Linus favors contribution and ecosystem participation and hence prefers GPL v2 to v3. And of course the Open Source/Free Software split was precipitated in part by an increased emphasis on ecosystem participation and decreased emphasis on user freedom.
+
+I'm not entirely sure yet that direct contribution and ecosystem participation are really all that different in practice, but it seems they might be (particularly in an online context) so I'm keeping them separate for now.
+
+Preconditions
+
+If these preconditions are not met, then you can't meaningfully achieve the rights listed below or the goals listed above:
+
+    * data access: taken for granted until recently because our data has always lived on local drives, or on servers we controlled. As a result, this is implied by the Free Software Definition and yet not protected by the GPL (even v3). DRM falls into this area- the software or hardware takes away your data access, and hence deprives you of the user rights. Sliding scale includes not having any data access (many web services), having access to the data, but only as a binary blob (most end-user proprietary software), or having access to the data stored in standardized or otherwise open formats.
+    * source access: as noted in the Free Software definition, this is a precondition for all other user rights. Sliding scale can include (among other options) mandatory provision (GPL v2), mandatory provision and reuse (v3's tivo clauses), or no such (BSD.)
+    * hardware access: never much discussed because, unlike everything else here, hardware actually is scarce, and so can't be provisioned merely by good intent or good licensing. May make some sense to discuss in the context of servers, though- for example, if all your source is available, but it can only be run on multi-billion dollar server farms, is it actually meaningfully open? Does dealing with this angle require p2p solutions, or will single-point of failure solutions (with other safeguards) be sufficient?
+
+It may make sense to speak of skills to manipulate source as being a precondition, alongside but distinct from source access. For the time being, though, I'm content to do what the FSF has done and say that as long as you have access to the source, you can buy skills from elsewhere and hence approximate the freedom of someone with the skills.
+
+User data privacy is clearly important to the analysis of online services, but I'm not yet sure how this fits into the analytical model. It is often spoken of as a constraint on data access, so perhaps it fits as part of that criteria or sliding scale. Note also that there is a similar problem with the data which is created as a shared value- e.g., obviously my password is private when I contribute to Advogato, and so should not be shared, and my Advogato diary entries should probably (though not certainly) be removable, but what about the trust metric ratings I have contributed? Should they remain irrevocably available? Not yet clear where this fits in the criteria/discussion.
+
+Rights
+
+Rights available to participants in the commons.
+
+    * use: this includes a temporal dimension, which open source has typically taken for granted, but which is now relevant for discussion in the case where servers/services go away (either maliciously or for other reasons.) This temporal aspect may make more sense elsewhere, since it has implications for things like server ownership and server governance. Note also that the v3 now includes some potential restrictions on use (where, for example, the network is damaged by modified clients.)
+    * modify: as in FSF/OSI, pretty much, including sliding scale of options. May have some implications for APIs/service guarantees in an online context which are not readily comparable with the traditional model.
+    * redistribute: as in FSF/OSI, pretty much, including sliding scale of options.
+
+These are pretty much straight out of the Free Software Definition. I tend to think FSF freedoms 1, 2, and 3 have a fair amount of redundancy, so they get collapsed to modify/redistribute, with the assumption that redistribution means either modified or unmodified.
+
+FSF calls these freedoms; I call them rights here because I personally tend to think of them as inalienable things which should be provisioned rather than optional things which can be taken or not. But neither term is completely satisfactory for this analysis, since saying that these are rights or freedoms implies taking a position on where on the sliding scale restrictions should be made.
+
+Not clear where the question of who gets access to these things fits into the analytical model; OSI's definition leaves that up to the license, and even FSF allows some fairly strong restrictions on who gets source access and hence gets to exercise these rights, so perhaps it is merely implied that that is part of the spectrum of options for each criteria.
+
+Where to from here
+
+I'll be working with a number of people (both inside and outside Red Hat) to try to flesh this out in the next few weeks. I don't expect we'll really have pragmatic outcomes (i.e., licenses, business models) in that time, but I hope that we'll at least be able to frame the discussion so that those writing code and running servers (including, but obviously not limited to the online-desktop) can think about the issues more easily and more transparently. As such, if there are other axes/criteria that need evaluation, I'm happy to discuss them with anyone- email or by any other way you can get a hold of me.
+
+I'll obviously be participating where appropriate in similar efforts- I'm not a fan of duplication of effort or NIH problems, so I welcome pointers to any advanced and pragmatic efforts I should be working with. But so far it is my observation that most open service definition proposals either have specific goals (i.e., they think there is a particular technical solution that must be used, or a particular policy agenda which must be advanced) or they have no code in the game, or both. I want to avoid the first problem, at least right now, by advancing a framework for discussion, and then allowing people with specific technologies/agendas/etc. to reason within that framework, rather than picking an outcome and then discussing a framework. I also want to take advantage of the opportunity to work with online-desktop in order to have someone implement the outcome- I think that it is only by implementing such technologies that we'll actually get a good understanding of what licenses, business models, governance systems, etc., are really appropriate. So far it seems that other such proposals have not had this key element of real-world application in place. (Plan to throw one away; you will, anyhow.)
+
+I'll probably be wikifying this all soon as well (as soon as I can figure out where, and figure out how to keep the signal/noise ratio high); the wiki will include source links to the various places that have provided background or information for this, as well as some more details and questions that are still very much unanswered. In the meantime, thanks to various people, including Kragen, Mako, Mike Linksvayer, Gabriel Burt, Havoc, and many more who have influenced my thinking on this. (Including Stallman- who, whatever else you may think of him, is the reason we're all here.)
+
+
+5 Comments
+
+   1.
+      Crosbie Fitch wrote:
+
+      How to tell the difference between a right and a privilege:
+
+      A right is something you already have by dint of your individual power, but the more powerful state can wrest from you in order to provide a privilege to someone else.
+
+      A privilege is something you didn't have, but thanks to the state, you now do.
+
+      Ideally, the state protects and reinforces people's rights, and creates privileges with extreme reluctance.
+
+      You already have rights to reverse engineer, share, use, reproduce and create derivatives of software. The state suspends these rights in order to create privileges for the benefit of publishers.
+
+      So, just abolish the privileges.
+
+      However, you are exhibiting all the signs of wanting to create privileges in the opposite direction.
+
+      You appear to want the privilege of being able to compel software authors to release their source code (if not, being able to seize it or penalise non-publication). Perhaps you'd make it a crime to publish a binary without source code, or any work of art without intermediate drafts or component materials.
+
+      Everyone has a right to privacy and to choose what they publish or withhold from publication. Just because it's frustrating to have a binary without source, that you would highly covet the source to a binary you value, doesn't give you the right to it. Try paying for it rather than demanding the state give you the privilege of being able to have it without payment.
+
+      The right to privacy is natural. We have it already. We can control access to our private domain in so far as our individual power permits. Ideally the state protects and reinforces this right, and certainly does not violate it to privilege collaborating software developers.
+
+      If you want someone's private property then offer to pay for it. You have no right to it - however much you want it.
+      Posted on 23-Jul-07 at 3:52 am | Permalink
+   2.
+      Alex Hudson wrote:
+
+      I think `direct contribution' and `ecosystem' are pretty different in practice - with the latter, your contributions seem to be limited by someone else. I'm also not totally sure about `hardware access' - this doesn't seem to be a webapp problem per se; there is free software which only runs on large clusters - I think it has been less of a problem because of the limited user appeal (e.g., physicists), but I don't think having the ability to run your software on their machines is necessarily a right (particularly since that can affect the ability to use the service for other users).
+
+      I'm pretty interested in this work, though. I hack on the Bongo Project (http://bongo-project.org), and part of what we're trying to do is web service-like, but it's also server software. Most importantly, I'd want to integrate it into online free services, but it also has to be a free service itself, I think.
+      Posted on 23-Jul-07 at 6:16 am | Permalink
+   3.
+      Christian Sasso wrote:
+
+      FYI
+
+      Affero GPL:
+      (1)
+      (2) http://gplv3.fsf.org/agplv3-dd1.html
+      Posted on 24-Jul-07 at 12:30 am | Permalink
+   4.
+      Rufus Pollock wrote:
+
+      I entirely agree that we are in need of an open service definition and at the Open Knowledge Foundation we had a substantial discussion on this last October on this very subject: An Open Service Definition thread.
+
+      Out of that discussion came the following proposal:
+
+      An open service is one:
+
+      1. Whose data is open as defined by the open knowledge/data definition though with the exception that where the data is personal in nature the data need only be made available to the user (i.e. the owner of that account).
+
+      2. Whose source code is F/OSS and *is made available*.
+
+      Remark: The OKD requires technological openness (i.e. provision in an open format)
+
+      Remark: The OKD also requires that data should be accessible in some machine automatable manner (e.g. through a standardized open API or via download from a standard specified location).
+      Posted on 27-Jul-07 at 4:32 am | Permalink
+   5.
+      Alexander Boström wrote:
+
+      I came across this:
+
+      http://digg.com/tech_news/Microsoft_Building_The_Ultimate_Spyware_System
+
+      It's about $(B!H(BMicrosoft'd 'software plus services' initiative$(B!I(B. I don't know much about it, but it sounds an awful lot like an Online Desktop, which means that ideas like $(B!H(BMicrosoft is building spyware$(B!I(B could rub off on GNOME. This clearly isn't the intention, but here's one way to try to make that explicit in the OSD:
+
+      If we start from the ground up, the data stored in the database, we see that it would be wise to categorize that data. One category would be $(B!H(Binformation about person X$(B!I(B, and it would probably be a good idea include a definition of what that actually means into an OSD. It could also require there to be a $(B!H(Bgive me all information you have on file about me$(B!I(B operation with the purpose of enumerating, displaying or linking to all such data. (There would be exceptions of course, like passwords which would be replaced by just the text $(B!H(Ba password$(B!I(B.)
+      Posted on 29-Jul-07 at 1:16 am | Permalink
+
+'"

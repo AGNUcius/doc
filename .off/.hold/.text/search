@@ -1,0 +1,19 @@
+Related: diff, find, help, P2P, replace
+
+BetterThanGrep.com >>ack is a tool like grep, designed for programmers with large trees of heterogeneous source code.
+
+Sector.sf.net >>Sector/Sphere supports distributed data storage, distribution, and processing over large clusters of commodity computers. Sector is a distributed storage system. Sphere is a middleware for distributed data processing.
+
+grepWin.GoogleCode.com >>grepWin is a simple search and replace tool which can use regular expressions to do its job.  This allows to do much more powerful searches and replaces.
+
+Beagle-Project.org >>Quickly find the stuff you care about.  Beagle is a search tool that ransacks your personal information space to find whatever you're looking for.
+
+Mahalo.com >>Human-powered Search
+OpenSearch.org >>OpenSearch is a collection of simple formats for the sharing of search results.
+Nutch.org
+grub.org >>Search is part of the fundamental infrastructure of the Internet. And, it is currently broken.  Why is it broken? It is broken for the same reason that proprietary software is always broken: lack of freedom, lack of community, lack of accountability, lack of transparency.  Here, we will start to change all that.
+www.htdig.org
+Archive.org
+GigaBlast.com
+
+$ grep STRING FILE

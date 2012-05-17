@@ -1,0 +1,11 @@
+Related: crypt, GPG
+
+GnuPG.org >>GnuPG is the GNU project's complete and free implementation of the OpenPGP standard as defined by RFC4880 . GnuPG allows to encrypt and sign your data and communication, features a versatile key managment system as well as access modules for all kind of public key directories. GnuPG, also known as GPG, is a command line tool with features for easy integration with other applications. A wealth of frontend applications and libraries are available. Version 2 of GnuPG also provides support for S/MIME.
+
+The Sphinx project launched by German authorities aims to improve secure email exchange. The projects technological base is the protocol 'TeleTrust e.V. MailTrusT Version 2'. This includes the standards S/MIME, X.509v3 and others.
+
+WinPT.GNUPT.de/int and WinPT.Wald.Intevation.org >>Windows Privacy Tray (WinPT) is a graphical user front-end for the free OpenPGP implementation GnuPG.
+
+GnuPT.de >> The project provides information on this page, documentation and downloads about encryption with GnuPG.  You will receive support through our website to our offer as well as very practical and helpful tips on dealing with GnuPG.  The core of the project is the modular GnuPT installer. This gives you after you install the graphical access to the GnuPG key management WinPT. With WinPT you have a powerful and yet still very lean and simple tool to hand, what your key management for child's play.
+
+GPG4Win.org >>Gpg4win is a installer package for Windows (2000/XP/2003/Vista) with computer programs and handbooks for EMail and file encryption. Both relevant cryptography standards are supported, OpenPGP and S/MIME (the latter is in progress and currently works with GnuPG2 and Claws Mail). Gpg4win and the software included with Gpg4win are Free Software.

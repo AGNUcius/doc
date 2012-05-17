@@ -1,0 +1,3 @@
+wget is recursive network (ftp, http, ) file retreiver
+
+try --passive-ftp if having trouble on ftp:// sites.

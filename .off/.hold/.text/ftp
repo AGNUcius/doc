@@ -1,0 +1,20 @@
+Related: down, file, HTTP, SFTP, SSH, sync, TCP, transport
+
+HSCP.sf.net >>HSCP (Hybrid scp) is developing to transmit the large size file at high speed on the long distance and wideband infrastructure. It has achieved the fast transfer by changing the file transfer part of scp into the UDP (using UDT).
+
+WinSCP.net >>WinSCP is an open source free SFTP client and FTP client for Windows.  Legacy SCP protocol is also supported. Its main function is safe copying of files between a local and a remote computer.
+
+FireFTP.MozDev.org >>FireFTP is a free, secure, cross-platform FTP client for Mozilla Firefox which provides easy and intuitive access to FTP servers.
+
+FileZilla-Project.org >>Welcome to the homepage of FileZilla, the free FTP solution. Both a client and a server are available. FileZilla is open source software distributed free of charge under the terms of the GNU General Public License
+
+wget
+
+BetaFTPD.sf.net >>BetaFTPD is a single-threaded FTP daemon, making it very fast (contrary to common belief) while still remaining small (about 20 kB compiled) and providing a decent amount of functionality.
+
+CurlFtpFS.sf.net >>CurlFtpFS is a filesystem for accessing FTP hosts based on FUSE and libcurl.
+
+LftpFS.sf.net >>LftpFS is a read-only network filesystem with caching for smart mirror of sites. Useful for mirroring of Linux repositories. It's based on FUSE and LFTP client, which supports FTP, HTTP, FISH, SFTP, HTTPS, FTPS protocols and works over proxies. LftpFS is a fork from unmaintained FuseFTP.
+
+Sentex.net/~mwandel/ftpdmin >>Ftpdmin is a minimal Windows FTP server. FTP does not require an "install". It is intended to be run temporarily, on an as-needed basis basis to do file transfers between Windows computers without going thru the trouble of trying to configure windows file sharing or an FTP server. Also useful for Windows to Linux if the Linux computer doesn't happen to have an FTP server already set up and configured.
+

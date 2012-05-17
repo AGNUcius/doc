@@ -1,0 +1,131 @@
+
+.wxs is a WiX source file.
+
+
+====Snippets
+ <WixVariable  Id="WixUILicenseRtf" Value="EULA.rtf" Overridable="yes"/>
+
+----
+<Component>
+The On attribute will determine when the file will be removed (possible values are install, uninstall and both). The Name can contain wildcard characters, too. The file or files should be located in the same directory as the component itself. To override this directory, you can use either the Directory or the Property attribute. The second will allow us to remove files from a directory we don't yet know at the time of creating the installation package.
+  ...
+  <RemoveFile Id='LogFile' On='uninstall' Name='Foobar10.log' LongName='Foobar10User.log' />
+</Component>
+
+
+Directories created by the installer and emptied when all files inside are removed during the uninstallation are deleted automatically but when we manually delete files that were created by the application itself, directories may be left empty. To remove them, use RemoveFolder:
+
+<Component>
+  <RemoveFolder Id='LogFolder' On='uninstall' />
+</Component>
+
+
+----
+    <InstallExecuteSequence>
+      <Custom Action="startNotepad" After="InstallFiles"></Custom>
+    </InstallExecuteSequence>
+
+    <Property Id="NOTEPAD" Hidden="yes"><![CDATA[c:\Windows\Notepad.exe]]></Property>
+    <CustomAction Id="startNotepad" Property="NOTEPAD" ExeCommand="[INSTALLLOCATION]\ReadMe.txt" Execute="deferred" Impersonate="no" Return="check"  />
+  </Product>
+
+
+To create a registry key, include a Registry inside a component:
+
+<Registry Id='FoobarRegInstallDir' Root='HKLM' Key='Software\Acme\Foobar 1.0' Name='InstallDir'
+  Action='write' Type='string' Value='[INSTALLDIR]' />
+
+The Action attribute can be selected from append, prepend, remove and write. Type can be string, integer, binary, expandable and multiString. In case of multiString, use one or more RegistryValue children to specify the individual strings:
+
+<Registry Id='FoobarRegInstallDir' Root='HKLM' Key='Software\Acme\Foobar 1.0' Name='InstallDir'
+  Action='write' Type='multiString'>
+  <RegistryValue>[TARGETDIR]</RegistryValue>
+  <RegistryValue>[INSTALLDIR]</RegistryValue>
+  <RegistryValue>[ProgramFilesFolder]</RegistryValue>
+</Registry>
+
+Neither Type nor Value can be specified if the Action you provided is remove.
+
+If your application handles its own file data type, you will need to register a file association for it. Put a ProgId inside your component. FileId should refer to the Id attribute of the File element describing the file meant to handle the files of this extension. Note the exclamation mark: it will return the short path of the file instead of the long one:
+
+<ProgId Id='AcmeFoobar.xyzfile' Description='Acme Foobar data file'>
+  <Extension Id='xyz' ContentType='application/xyz'>
+    <Verb Id='open' Sequence='10' Command='Open' Target='[!FileId]' Argument='"%1"' />
+  </Extension>
+</ProgId>
+
+To assign an icon to this file type, you have to specify the appropriate registry entries yourself inside your component:
+
+<Registry Id='FooIcon1' Root='HKCR' Key='.xyz' Action='write'
+  Type='string' Value='AcmeFoobar.xyzfile' />
+<Registry Id='FooIcon2' Root='HKCR' Key='AcmeFoobar.xyzfile' Action='write'
+  Type='string' Value='Acme Foobar data file' />
+<Registry Id='FooIcon3' Root='HKCR' Key='AcmeFoobar.xyzfile\DefaultIcon' Action='write'
+  Type='string' Value='[INSTALLDIR]Foobar.exe,1' />
+
+----
+ <Condition Level="0">NOT Privileged</Condition>
+</Feature>
+
+----
+<Shortcut Id="desktopFoobar10" Directory="DesktopFolder" Name="Foobar10"
+                  LongName="Foobar 1.0" WorkingDirectory='INSTALLDIR'
+                  Icon="Foobar10.exe" IconIndex="0" />
+              </File>
+
+----
+<?if $(var.Platform) = "Intel" ?>
+     <Condition Message="Foo installation on a 64-bit operating system 
+requires the 64-bit Foo installation package. Please get the 64-bit 
+installer and try again.">
+         <![CDATA[Not VersionNT64]]>
+     </Condition>
+<?endif?>
+
+
+---- Install a Service
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="832B8322-6349-4ddd-8AC6-CF18E7A05509" Name="DotNetService"
+           Language="1033" Version="1.0.0.0" Manufacturer="Persistent"
+           UpgradeCode="6493A097-BA2D-482b-9EDD-2BDBC3E5463E">
+    <Package InstallerVersion="200" Compressed="yes" />
+    <Media Id="1" Cabinet="WixServiceInstaller.cab" EmbedCab="yes" />
+    <Directory Id='TARGETDIR' Name='SourceDir'>
+      <Directory Id='ProgramFilesFolder' Name='PFiles'>
+        <Directory Id='DOTNETSERVICE' Name='DotNet'>
+          <Component Id="InstallService" Guid='AAA67783-EEF0-453f-BBAF-E02B1341E3BC'>
+            <File Id="WindowsService" Name="WixServiceInstaller.exe"
+                  Source="WixServiceInstaller.exe" KeyPath="yes"/>
+            <ServiceInstall Id="ABC"
+                            Name="WixServiceInstaller"
+                            DisplayName="WixServiceInstaller"
+                            Type="ownProcess"
+                            Start="auto"
+                            ErrorControl="normal"
+                            Description="WixServiceInstaller"
+                            Account="[SERVICEACCOUNT]"
+                            Password="[SERVICEPASSWORD]" />
+            <ServiceControl Id="StartWixServiceInstaller"
+                            Name="WixServiceInstaller" Start="install" Wait="no" />
+            <ServiceControl Id="StopWixServiceInstaller" Name="WixServiceInstaller"
+                            Stop="both" Wait="yes" Remove="uninstall" />
+          </Component>
+        </Directory>
+      </Directory>
+    </Directory>
+    <Feature Id='TheOnlyFeature' Description='Feature contains the single component'
+             Level='1'>
+      <ComponentRef Id='InstallService'/>
+    </Feature>
+  </Product>
+</Wix>
+----
+
+
+Blog.BenDay.com/archive/2007/08/09/23155.aspx
+"'
+After playing around with it for a while, I figured out that the <Shortcut> directives will always create shortcuts to the first <File> in the <Component> rather than the <File> that contains the <Shortcut>.
+
+So...the moral of the story is always put your <File>'s with <Shortcut>'s first in your <Component>.
+'"

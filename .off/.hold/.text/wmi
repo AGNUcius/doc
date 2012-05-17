@@ -1,0 +1,17 @@
+Related: CIM, powershell, WBEM, Windows Management Instrumentation
+
+$ WinMgmt.exe # Windows Management Instrumentation
+$ wmic.exe # Microsoft's WMI Console
+$ wbemtest.exe 
+
+CodeProject.com/KB/system/PermEvtSubscriptionMOF.aspx >>Creating WMI Permanent Event Subscriptions Using MOF
+
+zevv.nl/play/code/wmifinfo >>Dockapp that shows information for all interfaces
+
+TechNet.Microsoft.com/en-us/magazine/cc160919.aspx >>Gathering WMI Data without Writing a Single Line of Code
+
+Microsoft.com/downloads/details.aspx?FamilyId=6430F853-1120-48DB-8CC5-F2ABDC3ED314 >>WMI Administrative Tools
+
+c:\dev\research\wmic\WMIC
+
+$ wmic.exe

@@ -1,0 +1,5 @@
+Related: back, security
+
+http://Technet.Microsoft.com/en-us/sysinternals/bb897418.aspx >>NewSID    Many organizations use disk image cloning to perform mass rollouts of Windows. This technique involves copying the disks of a fully installed and configured Windows computer onto the disk drives of other computers. These other computers effectively appear to have been through the same install process, and are immediately available for use. While this method saves hours of work and hassle over other rollout approaches, it has the major problem that every cloned system has an identical Computer Security Identifier (SID). This fact compromises security in Workgroup environments, and removable media security can also be compromised in networks with multiple identical computer SIDs.
+
+http://Support.Microsoft.com/default.aspx?scid=kb;EN-US;314828 >>The Microsoft policy concerning disk duplication of Windows XP installations

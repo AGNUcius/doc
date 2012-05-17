@@ -1,0 +1,10 @@
+Related: share
+
+
+"'So, in GPL version three, we have now defined two new terms: "propagate" and "convey". "Propagate" means, basically, copying and/or distribution but it's not defined that way. It's defined in a way that will get uniform results. It's basically: anything that copyright law covers, other than running the copy or modifying it. So that's basically going to mean copying and distribution, but some other things too. Whatever there might be. So when we're giving permission for propagation, we're automatically giving permission for whatever other things might need it. But we divide propagating into two kinds. The kinds that end up giving other people copies, and the kinds that don't.
+
+When it results in others having copies, we call that "conveying" copies to others. Where we used to put conditions on "distribution", we put them on "conveying". This way, it doesn't matter how a country's copyright law categorises different activities because we have categorised them the way that's appropriate for our goal.
+
+Regardless of how the law classifies your doing that, whether the law calls it "distribution", or "communication to the public", or whatever, that isn't going to affect the GPL's conditions. The conditions do depend on some other criteria that we've stated, of course.
+
+So you'll find that throughout the GNU GPL, there's very little mention of the word "distribution". There are only occasional special reasons why we would talk about that. Instead we'll talk about conveying. That is, doing things such that others get copies, and no matter how you do that, the conditions are the same.'" -- RMS at http://fsfeurope.org/projects/gplv3/bangalore-rms-transcript

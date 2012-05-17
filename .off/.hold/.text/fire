@@ -1,0 +1,3 @@
+Related: cool, heat, Firefox
+
+fwup.org >>Firewall is a set of scripts (firewall, fwup and fwdown) that implement an ipchains firewall and various forms of network address and port translation. All you have to do is read the policy file and edit it to reflect your topology and filtering policy.

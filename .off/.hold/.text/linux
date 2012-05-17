@@ -1,0 +1,24 @@
+Related: Cygwin, GNU, kernel, unix, user
+
+Linux.org
+
+Linux is not a full Operating System, but is a *kernel*.  Most usually that kernel is being used within a GNU-based OS.
+
+FOLK.sf.net >>The FOLK project is aiming to produce a patch containing as many Linux Kernel experimental projects, bug-fixes and tweaks as humanly possible.
+
+MakeLinux.net/ldd3 >>Linux Device Drivers, 3rd Edition
+
+LinuxTopia.org/online_books/linux_kernel/kernel_configuration >>Linux Kernel in a Nutshell
+
+Captain.at/howto-linux-device-driver-template-skeleton.php >>Linux Device Driver Template/Skeleton with Interrupt Handler and Device Read Blocking (Kernel Module Example)
+
+LinuxDevCenter.com/pub/a/linux/2007/07/05/devhelloworld-a-simple-introduction-to-device-drivers-under-linux.html
+
+$ sudo apt-get install module-assistant
+$ sudo apt-get install linux-kernel-devel
+$ sudo apt-get install linux-headers-`uname -r`
+
+
+www.yl.is.s.u-tokyo.ac.jp/~tosh/kml >>Kernel Mode Linux is a technology which enables us to execute user programs in kernel mode. In Kernel Mode Linux, user programs can be executed as user processes that have the privilege level of kernel mode. The benefit of executing user programs in kernel mode is that the user programs can access a kernel address space directly. So, for example, user programs can invoke system calls very fast because it is unnecessary to switch between a kernel mode and a user mode by using costly software interruptions or context switches. Unlike kernel modules, user programs are executed as ordinary processes (except for their privilege level), so scheduling and paging are performed as usual.
+
+FreshMeat.net/projects/util-linux >>Util-linux is a suite of essential utilities for any Linux system. It contains the following programs: addpart, agetty, blockdev, cal, cfdisk, chfn, chkdupexe, chrt, chsh, col, colcrt, colrm, column, ctrlaltdel, cytune, ddate, delpart, display-services, dmesg, elvtune, fastboot, fasthalt, fdformat, fdisk, flock, fsck.cramfs, fsck.minix, getopt, halt, hexdump, hwclock, initctl, ionice, ipcrm, ipcs, isosize, kill, last, line, logger, login, look, losetup, mcookie, mesg, mkfs, mkfs.bfs, mkfs.cramfs, mkfs.minix, mkswap, more, mount, namei, need, newgrp, partx, pg, pivot_root, provide, ramsize, raw, rdev, readprofile, reboot, rename, renice, reset, rev, rootflags, script, scriptreplay, setsid, setterm, sfdisk, shutdown, simpleinit, swapoff, swapon, taskset, tailf, tunelp, ul, umount, vidmode, vipw, wall, whereis, and write.

@@ -1,0 +1,41 @@
+Related: reg, register, regedit, RegeditEX, regedt32, regini
+
+VirusEffectRemo.sf.net >>Virus Effect Remover is the tool which help you to remove the effect of virus from windows registry and file system. It also detect the registry error caused by virus and enables the Blocked content like task manager , registry editor, folder option etc.
+
+RegEdt33.sf.net >>This program mostly covers MS Windows Regedit functionality (some things are still missing, though). In fact, the only 'advanced feature' at this time is a search/replace function.
+
+LittleCleaner.sf.net >>Little Registry Cleaner is an open source that is designed to cleanup Microsoft Windows Registry. It removes obsolete or unwanted items that build up in the registry over time in order to improve the stability and performance of your computer.
+
+www.CodeProject.com/KB/applications/NtRegEdit.aspx >>I wanted to create a registry editor that used the "Native Registry APIs" instead of using the Microsoft Registry APIs in AdvApi32.dll (which is just a wrapper to the Native Registry APIs). There is still dependency to the AdvApi32.dll because of the all the other APIs in it. I basically wrote a class that does this (I guess it is also a wrapper - see picture below). I wanted to create something that would have the same functionality as Microsoft's Registry Editor but with the ability to do a lot more. I liked working with the SDI Framework, and decided to start with that. I also wanted to make it a bit easier to read the registry data, so I decided on color coding. This would make it easier for a user to color the information to their liking, making it easier to read and more user-friendly.
+
+Projects.SentinelChicken.org/reglookup >>RegLookup is an small command line utility for reading and querying Windows NT-based registries. RegLookup is released under the GNU GPL, and is implemented in ANSI C. Original source was borrowed from the program editreg, written by Richard Sharpe. It has since been rewritten to use the regfio library, written by Gerald Carter.
+
+RegViewer.sf.net >>RegViewer is GTK 2.2 based GUI Windows registry file navigator. It is platform independent allowing for examination of Windows registry files from any platform. Particularly useful when conducting forensics of Windows files from *nix systems.
+
+RegRipper.net >>RegRipper is a Windows Registry data extraction and correlation tool. RegRipper uses plugins (similar to Nessus) to access specific Registry hive files in order to access and extract specific keys, values, and data, and does so by bypassing the Win32API.
+
+
+$ reg.exe query HKLM\System\CurrentControlSet\Services
+
+
+From RobVanderwoude.com/regedit.php
+"'
+Self-contained registry scripts
+
+In .REG files, every line after the first one that starts with a semicolon (;) is treated as comment.
+Batch files completely ignore the semicolons before commands.
+So the following batch file will use itself as a .REG file:
+
+REGEDIT4
+
+; @ECHO OFF
+; CLS
+; REGEDIT.EXE /S "%~f0"
+; EXIT
+
+[HKEY_CURRENT_USER\Software\Test]
+"TestVal"="Succeeded"
+
+The REGEDIT4 line is required, and must be the first line, otherwise REGEDIT.EXE won't accept the script as a valid .REG file. However, it will generate an error message when running as a batch file, hence the CLS command to wipe the error message from the screen.
+To prevent more error messages, EXIT is used to abort the batch file immediately after the REGEDIT.EXE command.
+'"

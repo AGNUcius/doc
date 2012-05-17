@@ -1,0 +1,7 @@
+Related: author, crypt, secure, sign, SSL
+
+TinyCA.SM-Zone.net >>TinyCA is a simple graphical userinterface written in Perl/Gtk to manage a small CA (Certification Authority).    TinyCA works as a frontend for openssl
+
+OpenCA.org >>The OpenCA PKI Project is a collaborative effort to develop a robust, full-featured and Open Source out-of-the-box Certification Authority implementing the most used protocols with full-strength cryptography world-wide. OpenCA is based on many Open-Source Projects. Among the required software there are OpenLDAP, OpenSSL, Apache Project, Apache mod_ssl.
+
+CAcert.org >>CAcert.org is a community driven, Certificate Authority that issues certificates to the public at large for free. CAcert's goal is to promote awareness and education on computer security through the use of encryption, specifically with the X.509 family of standards. We have compiled a document base that has helpful hints and tips on setting up encryption with common software, and general information about Public Key Infrastructures (PKI).

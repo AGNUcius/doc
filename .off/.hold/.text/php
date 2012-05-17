@@ -1,0 +1,271 @@
+
+I'm trying to design a Form class in PHP. So far, I have the <input> buttons pretty well working. But the <select> boxes have me stymied. I'm trying to figure out a "generic" way of adding the <option> tags, and am lacking the creativity.
+
+I'm not asking for teh codez, but implementation ideas are welcome.
+php class forms select
+
+
+function select($name, $options = array(), $attrs = array(), $showEmpty = false) {
+    $attrs['name'] = $name;
+    $attrs['class'] = isset($attrs['class']) ? $attrs['class'] . ' input' : 'input';
+    if(isset($this->validation->invalid[$name])) {
+        $attrs['class'] .= ' errorinput';
+    }           
+    $opts = array();
+    foreach($attrs as $key => $value) {
+        $opts[] = $key . '="' . $value . '"';   
+    }
+    $htmloptions = array();
+    $hasSelected = false;
+    foreach($options as $option => $value) {
+        if(isset($this->validation->post[$name]) && $this->validation->post[$name] == $option) {
+            $hasSelected = true;
+            $htmloptions[] = '<option value="' . $option . '" selected>' . $value;  
+        } else {
+            $htmloptions[] = '<option value="' . $option . '">' . $value;                               
+        }
+    }
+    if($showEmpty) {
+        $emptyoption = '<option value=""' . (($hasSelected) ? '' : ' selected') . '>';
+        $htmloptions = array_merge($emptyoption, $htmloptions);
+    }
+    return '<select ' . implode(' ', $opts) . '>' . implode("\n", $htmloptions) . '</select>';
+}
+
+link|flag
+	
+edited Apr 2 at 21:00
+
+	
+answered Apr 2 at 20:54
+Paolo Bergantino
+14.6k?19?50
+	
+comments (1)
+vote up 0 vote down
+	
+
+Heres some function I made some while ago.
+
+function formLabel($id, $text, $attr = array(), $escape = true) {
+    $attr['for'] = $id;
+    return htmlElement('label', $text, $attr, true, $escape);
+}
+
+function formSelect($name, $selected, $options, $attr = array(), $escape = true) {
+    $attr['name'] = $name;
+    if (!isset($attr['id'])) {
+        $attr['id'] = $name;
+    }
+    $options = formSelectOptions($selected, $options, $escape);
+    return htmlElement('select', $options, $attr, true, false);
+}
+
+function formSelectOptions($selected = null, $options, $escape = true) {
+    if ($escape) {
+        $options = escape($options);
+    }
+    array_walk($options, 'formSelectOption', $selected);
+    return implode('', $options);
+}
+
+function formSelectOption(&$value, $key, $selected)  {
+    if (is_array($value)) {
+        $attr['label'] = $key;
+        array_walk($value, 'formSelectOption', $selected);
+        $value = htmlElement('optgroup', implode('', $value), $attr, true, false);
+    } else {
+        $attr['value'] = $key;
+        if (($selected == $key) &&
+                (0 === strcmp($selected, $key)) && 
+                ($selected !== null)) {
+                $attr['selected'] = 'selected';
+        }
+        $value = htmlElement('option', $value, $attr, true, false);
+    }
+}
+
+function escape($val) {
+    if (is_array($val)) {
+        return array_map('escape', $val);
+    }
+    return htmlspecialchars($val, ENT_QUOTES);
+}
+
+function htmlElement($tag, $value, $attr = null, $end = true, $escape = true) {
+    if (!is_array($attr)) {
+        $attr = array();
+    }
+    if ($escape) {
+        $value = htmlspecialchars($value);
+    }
+    return "<$tag" . (!empty($attr) ? ' ' : '') . arrayToAttributes($attr) . ($end ? '' : '/') . '>' . $value . ($end ? "</$tag>" : '');
+}
+
+function arrayToAttributes($attr) {
+    array_walk($attr, '_arrayToAttributes');
+    return implode(' ', $attr);
+}
+function _arrayToAttributes(&$v, $k) {
+        $k = escape($k);
+        $t = escape($v);
+        $v = "$k=\"$t\"";
+}
+
+Some tests
+
+<html><header><title>Test</title></header>
+<body>
+<p>
+<?php
+$arr = array('hoi', 'wee', 'hai', 'Sub' => array('Hi' => 'Hi', 'Lo' => 'Lo'));
+echo '<p>', formSelect('aaaa', null, $arr), "</p>\n";
+echo '<p>', formSelect('ccc', 'Hi', $arr), "</p>\n";
+echo '<p>', formLabel('hello', 'Hello'), ': ', formSelect('hello', 1, $arr), "</p>\n";
+?></p>
+<p>
+<?php
+$months = array (1 => 'Januar',
+'Februar', 'Mars', 'April', 'Mai',
+'Juni', 'Juli', 'August', 'September',
+'Oktober', 'November', 'Desember');
+echo formLabel('month', 'Month'), ': ', formSelect('month', null, $months), "\n";
+echo formLabel('month2', 'Month'), ': ', formSelect('month2', 4, $months), "\n";
+?></p>
+</body><html>
+
+link|flag
+	
+answered Apr 2 at 21:43
+OIS
+1,580?9
+	
+add comment
+vote up 0 vote down
+	
+
+function array_drop_down($name, $display_fields, $id_fields, $selected_display_field, $misc = ''){
+        $array_dd_html = '<select name="'.$name.'" '.$misc.'>';
+
+        for($i = 0; $i < sizeof($id_fields); $i++){
+                if($selected_display_field == $display_fields[$i]){
+                        $array_dd_html.= '<option selected="yes" value="'.$id_fields[$i].'">'.$display_fields[$i].'</option>';
+                }
+                else{
+                        $array_dd_html.= '<option value="'.$id_fields[$i].'">'.$display_fields[$i].'</option>';
+                }
+
+        }
+        $array_dd_html.= '</select>';
+
+        return $array_dd_html;
+}
+
+function sql_drop_down($sql_statement, $name, $display_field, $id_field, $selected_field='',$selected_value='', $misc = ''){
+        $result = mysql_query($sql_statement);  
+        $numOfCols = mysql_num_rows($result);
+        $select_html = '<select name="'.$name.'"'. $misc.'>';
+        if($numOfCols > 0){
+                for($i = 0; $i < $numOfCols; $i++)
+                {
+                        $id = mysql_result($result, $i, $id_field);
+                        $display = mysql_result($result, $i, $display_field);
+                        if($selected_value == $id){
+                                $select_html.= '<option selected="yes" value="'.$id.'">'.$display.'</option>';
+                        }
+                        else{
+                                $select_html.= '<option value="'.$id.'">'.$display.'</option>';
+                        }
+                }
+                $select_html.= '</select>';
+        }
+        else{
+                $select_html = "Error Occured...";
+        }
+        return $select_html;
+}
+
+Use the $misc variable to pass in CSS, id's, javascript or whatever else
+link|flag
+	
+answered Apr 2 at 23:31
+mike condiff
+164?6
+	
+add comment
+Your Answer:
+
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+*
+
+community wiki
+OpenID Login:
+Get an OpenID
+	
+or
+	Name: Email: (never shown) Home Page:
+Not the answer you're looking for? Browse other questions tagged php class forms select or ask your own question.
+Hello World!
+
+Stack Overflow is a collaboratively edited question and answer site for programmers — regardless of platform or language. It's 100% free, no registration required.
+
+about »
+faq »
+
+tagged
+php × 5350
+forms × 365
+class × 319
+select × 150
+
+asked
+
+12 days ago
+
+viewed
+
+84 times
+
+latest activity
+
+12 days ago
+Scalable multi-servers. Try Plastic SCM: Agile Distributed Version Control
+Related
+html form not working with select list in IE8 (IE7 Compatability)
+HTML SELECT - can you have multiple font colors in select field?
+Java NIO select() returns without selected keys - why?
+Is it possible to use JS to open an HTML select to show it’s option list?
+Is there an onSelect event or equivalent for HTML <select> ?
+How to expand ‘select’ option width after the user wants to select an option.
+What does “select((select(s),$|=1)[0])” do in Perl?
+Select all columns except one in MySQL?
+Restrict selection of SELECT option without disabling the field
+Select rows in dataset table based on other dataset table
+Check if option is selected with jQuery, if not select a default
+Two questions on inner classes in Java (class A { class B { } })
+In HTML, what should happen to a selected, disabled option element?
+Php redefine Class Methods OR Class
+Force .NET webservice to use local object class, not proxy class
+
+Builds Are Boring. Productivity is Good. Let Visual Build do the work and YOU can have the fun. Try it FREE today!
+sponsor
+feed icon
+question feed
+about | faq | blog | podcast | privacy policy | contact us | feedback always welcome
+cc-wiki, PEAK Internet
+svn revision: 2884
+site design and logo is © 2009 stackoverflow.com LLC; all user contributed content is licensed under cc-wiki

@@ -1,0 +1,60 @@
+Related: dll, include, import, require, risk, vulnerable
+
+
+$ depends.exe #DependencyWalker.com >>Dependency Walker is a free utility that scans any 32-bit or 64-bit Windows module (exe, dll, ocx, sys, etc.) and builds a hierarchical tree diagram of all dependent modules. For each module found, it lists all the functions that are exported by that module, and which of those functions are actually being called by other modules. Another view displays the minimum set of required files, along with detailed information about each file including a full path to the file, base address, version numbers, machine type, debug information, and more.
+
+DependencyWalker.com/help/html/hidr_command_line_help.htm
+
+$ depends /c /pa0 "c:\program files\mozilla\mozilla.exe"
+
+$ depends /pa1 /pd"c:\program files\mozilla" /pr"-console" /od"desktop\mozilla.dwi" "c:\program files\mozilla\mozilla.exe"
+
+This v
+
+$ depends /c /a 1 /f 1 /u 1 /ps 1 /pp 1 /po 1 /ph 1 /pl 1 /pg 1 /pt 1 /pn 1 /pe 1 /pm 1 /pf 1 /pc 1 /pb /pd"c:\program files\mozilla" /pr"-console" /od"desktop\mozilla.dwi" "c:\program files\mozilla\mozilla.exe"
+
+
+--------------------------------------------------------------------------------
+
+Command Line Options and Return Values
+
+--------------------------------------------------------------------------------
+
+DEPENDS.EXE [/?] [/c] [/a:#] [/f:#] [/u:#] [/ps:#] [/pp:#] [/po:#] [/ph:#] [/pl:#] [/pg:#] [/pt:#] [/pn:#] [/pe:#] [/pm:#] [/pf:#] [/pi:#] [/pc:#] [/pa:#] [/pd:dir] [/pb] [/sm:#] [/si:#] [/se:#] [/sf:#] [/od:path] [/ot:path] [/of:path] [/oc:path] [/d:path] [path [args...]]
+/? Help - Displays this page.
+/c Console mode - Dependency Walker will process the other command line options and exit without displaying its graphical interface. You must specify a module or Dependency Walker Image (DWI) file to open when using this option.
+/a:# Auto Expand - Use /a:0 to start Dependency Walker with the Auto Expand setting initially turned off, or /a:1 to start with it turned on. If this option is not specified, then the setting from the last time you ran Dependency Walker will be used.
+/f:# View full paths - Use /f:0 to start Dependency Walker with the View Full Paths setting initially turned off, or /f:1 to start with it turned on. If this option is not specified, then the setting from the last time you ran Dependency Walker will be used.
+/u:# Undecorate C++ functions - Use /u:0 to start Dependency Walker with the Undecorate C++ Functions setting initially turned off, or /u:1 to start with it turned on. If this option is not specified, then the setting from the last time you ran Dependency Walker will be used.
+/ps:# Profiling option: Simulate ShellExecute by inserting any App Paths directories into the PATH environment variable - Use /ps:0 to start Dependency Walker with this setting initially turned off, or /ps:1 to start with it turned on. If this option is not specified, then the setting from the last time you ran Dependency Walker will be used.
+/pp:# Profiling option: Log DllMain calls for process attach and process detach messages - Use /pp:0 to start Dependency Walker with this setting initially turned off, or /pp:1 to start with it turned on. If this option is not specified, then the setting from the last time you ran Dependency Walker will be used.
+/po:# Profiling option: Log DllMain calls for all other messages, including thread attach and thread detach - Use /po:0 to start Dependency Walker with this setting initially turned off, or /po:1 to start with it turned on. If this option is not specified, then the setting from the last time you ran Dependency Walker will be used.
+/ph:# Profiling option: Hook the process to gather more detailed dependency information - Use /ph:0 to start Dependency Walker with this setting initially turned off, or /ph:1 to start with it turned on. If this option is not specified, then the setting from the last time you ran Dependency Walker will be used.
+/pl:# Profiling option: Log LoadLibrary function calls - Use /pl:0 to start Dependency Walker with this setting initially turned off, or /pl:1 to start with it turned on. If this option is not specified, then the setting from the last time you ran Dependency Walker will be used. If this option is turned on, then the "Hook the process to gather more detailed dependency information" option will also be turned on.
+/pg:# Profiling option: Log GetProcAddress function calls - Use /pg:0 to start Dependency Walker with this setting initially turned off, or /pg:1 to start with it turned on. If this option is not specified, then the setting from the last time you ran Dependency Walker will be used. If this option is turned on, then the "Hook the process to gather more detailed dependency information" option will also be turned on.
+/pt:# Profiling option: Log thread information - Use /pt:0 to start Dependency Walker with this setting initially turned off, or /pt:1 to start with it turned on. If this option is not specified, then the setting from the last time you ran Dependency Walker will be used.
+/pn:# Profiling option: Use simple thread numbers instead of actual thread IDs - Use /pn:0 to start Dependency Walker with this setting initially turned off, or /pn:1 to start with it turned on. If this option is not specified, then the setting from the last time you ran Dependency Walker will be used. If this option is turned on, then the "Log thread information" option will also be turned on.
+/pe:# Profiling option: Log first chance exceptions - Use /pe:0 to start Dependency Walker with this setting initially turned off, or /pe:1 to start with it turned on. If this option is not specified, then the setting from the last time you ran Dependency Walker will be used.
+/pm:# Profiling option: Log debug output messages - Use /pm:0 to start Dependency Walker with this setting initially turned off, or /pm:1 to start with it turned on. If this option is not specified, then the setting from the last time you ran Dependency Walker will be used.
+/pf:# Profiling option: Use full paths when logging file names - Use /pf:0 to start Dependency Walker with this setting initially turned off, or /pf:1 to start with it turned on. If this option is not specified, then the setting from the last time you ran Dependency Walker will be used.
+/pi:# Profiling option: Log a time stamp with each line of log - Use /pi:0 to start Dependency Walker with this setting initially turned off, or /pi:1 to start with it turned on. If this option is not specified, then the setting from the last time you ran Dependency Walker will be used.
+/pc:# Profiling option: Automatically open and profile child processes - Use /pc:0 to start Dependency Walker with this setting initially turned off, or /pc:1 to start with it turned on. If this option is not specified, then the setting from the last time you ran Dependency Walker will be used. This option is ignored when running in console mode.
+/pa:# Profiling option: Turn all profiling options on or off - Use /pa:0 to initially turn all profiling options off, or /pa:1 to initially turn them all on. This option can be used before other profiling options. For example, /pa:1 /pf:0 will turn on all options except for the "Use full paths when logging file names" option.
+/pd:dir Profiling option: Starting directory - Specifies the starting directory to use when profiling the module. This option requires that you specify a module to open.
+/pb Profiling option: Automatically begin profiling after the module has been loaded - This option requires that you specify a module to open. If an output option (/od, /ot, /of, or /oc) is specified, Dependency Walker will wait until the profiling fully completes before saving the results.
+/sm:# Sort column for module list view - This option controls the initial sort column that Dependency Walker will use when sorting the items in the Module List View. If this option is not specified, then the value from the last time you ran Dependency Walker will be used. The values allowed are:
+/si:# Sort column for parent import function list view - This option controls the initial sort column that Dependency Walker will use when sorting the items in the Parent Import Function List View. If neither this option or the /sf option is specified, then the value from the last time you ran Dependency Walker will be used. The values allowed are:
+/se:# Sort column for export function list views - This option controls the initial sort column that Dependency Walker will use when sorting the items in the Export Function List View. If neither this option or the /sf option is specified, then the value from the last time you ran Dependency Walker will be used. The values allowed are:
+/sf:# Sort column for both function list views - This option controls the initial sort column that Dependency Walker will use when sorting the items in both the Parent Import Function List View and the Export Function List View. If no sort column option is specified for a particular column, then the value(s) from the last time you ran Dependency Walker will be used. The values allowed are:
+/od:path Output file in Dependency Walker Image (DWI) format - This option requires that you specify a module or Dependency Walker Image (DWI) file to open. Once the module has been processed, the results will be written to the specified file in the Dependency Walker Image (DWI) format.
+/ot:path Output file in text format - This option requires that you specify a module or Dependency Walker Image (DWI) file to open. Once the module has been processed, the results will be written to the specified file in text format.
+/of:path Output file in text format with import / export function lists - This option requires that you specify a module or Dependency Walker Image (DWI) file to open. Once the module has been processed, the results will be written to the specified file in text format, including the import and export function lists.
+/oc:path Output file in Comma Separated Value (CSV) format - This option requires that you specify a module or Dependency Walker Image (DWI) file to open. Once the module has been processed, the results will be written to the specified file in a Comma Separated Value (CSV) format.
+/d:path Dependency Walker Path (DWP) file to load - This options allows you to specify a Dependency Walker Path (DWP) File to load and use as the initial search path when searching for modules. DWP files can be created using the Configure Module Search Order command in Dependency Walker.
+
+depends -c -f:0 -u:1 -pa:1 -pf:0 -pe:0 -pb -sm:12 -sf:4 -d:search.dwp -oc:result.csv -od:result.dwi foo.exe
+ Could be shortened to:
+depends -cf0u1pa1pf0pe0pbsm12sf4dsearch.dwp -ocresult.csv -odresult.dwi foo.exe bar
+
+If the return value is greater than or equal to 0x00010000, then there was a processing error with Dependency Walker and no work was done. Otherwise, if the return value is greater than or equal to 0x00000100, then the operating system will not be able to load the module due to some module or dependency error. Otherwise, if the return value is greater than or equal to 0x00000001, then the module has no load-time dependency problems and will most likely have no problems loading, but may have runtime problems.
+

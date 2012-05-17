@@ -1,0 +1,5 @@
+Related: chat, MOO, MUSH
+
+MudPy.org >>The mudpy project aims to create a simple, generic, cross-platform, freely-redistributable MUD core engine which can be easily understood and extended. It is written in Python (currently compatible with 2.3 and later 2.x versions) and has no prerequisite dependencies beyond Python and its built-in modules. All configuration and data are stored in consistently-formatted plain text files for ease of administration. The core engine is unicode-clean internally and supports UTF-8 encoding for input and output of extended text characters.
+
+CircleMud.org

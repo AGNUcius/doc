@@ -1,0 +1,18 @@
+Related: boot, disk, GPT, MFT
+
+Master Boot Record(MBR)
+
+The MBR is the first 512 bytes of the 0th sector of a hard-drive
+
+Microsoft Windows recognizes a disk as being 'initialized' when the last two bytes of this sector are filled with the values: 0x55=0b01010101 and 0xAA=0b10101010
+
+
+JesusNJim.com/code/mbrsaverestore.html >>mbrsave and mbrrestore are tools that save and restore the master boot record of a hard disk. mbrprint shows the partition records. You specify the physical disk number starting with 0 as outlined in control panel|administrative tools|computer management|disk management on an 2000/XP/Vista/7 box.
+
+ms-sys.sf.net >>This is a Linux program for writing Microsoft compatible boot records. The program does the same as Microsoft "fdisk /mbr" to a hard disk or "sys d:" to a floppy or FAT partition except that it does not copy any system files, only the boot record is written.
+
+www.GeoCities.com/thestarman3/asm/mbr
+
+mbldr.sf.net >>mbldr is a boot loader which fits into first sector (446 bytes) of an HDD (MBR).  It allows to choose which partition to boot and is intended to replace an MBR coming with DOS/Windows (fdisk /mbr).  It may boot OSes above 1024cyl, Linux/BSD are also supported.   mbldr is not an operating system loader.  I can not boot Linux or Windows directly (thus it is not a replacement of LILO for example), but it can boot appropriate loader from a boot record of a particular partition (again LILO or GRUB for instance).
+
+Alter.org.ua/en/soft/win/read_boot >>Command-line tool for reading MBR and BOOT-sectors. Is suitable for backups.

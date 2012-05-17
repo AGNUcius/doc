@@ -1,0 +1,8 @@
+see also: net, remote debug, Terminal Services, VNC
+
+Some say freeNX.org is a great way to connect to XEN.org virtual machines.
+
+why doesn't the shell command:
+    /usr/bin/X11/X 192.168.2.2
+just work?
+

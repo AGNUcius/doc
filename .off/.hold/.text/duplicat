@@ -1,0 +1,9 @@
+Related: copy, instance, SIS
+
+LessFS.sf.net >>Data deduplication (often called "intelligent compression" or "single instance storage") is a method of reducing storage needs by eliminating redundant data. Data deduplication is often used for backup purposes and for virtual machine image storage. lessfs can determine if data is redundant by calculating an unique (192 bit) tiger hash of each block of data that is written. When lessfs has determined that a block of data needs to be stored it first compresses the block with LZO or QUICKLZ compression. The combination of these two techniques results in a very high overall compression rate for many types of data. Multimedia files like mp3, avi or jpg files can not be compressed by lessfs when they are only stored once on the filesystem.
+
+Arrow-Backup.GoogleCode.com >>Arrow is a backup system that combines hashing, error-correction, and rsync-like searching to provide a versioned, deduplicating, verifiable, and safe data backup system.
+
+DRBD.org >>DRBD (R) refers to block devices designed as a building block to form high availability (HA) clusters. This is done by mirroring a whole block device via an assigned network. DRBD can be understood as network based raid-1.
+
+Raxco.com/products/perfectdisk2k/whitepapers/FreeSpaceConsolidation.pdf

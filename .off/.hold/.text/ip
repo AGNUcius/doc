@@ -1,0 +1,13 @@
+Related: addr, net
+
+Internet Protocol
+
+IPTrack.sf.net >>IPplan is a free (GPL), web based, multilingual, TCP IP address management software and tracking tool written in php 4, simplifying the administration of your IP address space. IPplan goes beyond TCPIP address management including DNS administration, configuration file management, circuit management (customizable via templates) and storing of hardware information (customizable via templates). IPplan can handle a single network or cater for multiple networks and customers with overlapping address space. Makes managing ip addresses and managing ip address space simple and easy!
+
+An "eye pee" is an Internet Protocol address.  If someone says "give me your I P" they are asking for the IP your computer is currently using on the network.
+
+$ dhclient, dhcpcd
+$ ipconfig
+$ ifconfig
+
+Intellectual Property: IP-Watch.org

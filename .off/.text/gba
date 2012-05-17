@@ -1,0 +1,53 @@
+hem.passagen.se/lysek/gbacd.htm
+www.console-dev.de/visualham/binaries.htm
+
+"'GBA DEV :
+¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
+
+CAN I CREATE MY OWN GBA GAME?
+Yes, you can. You need some knowledge about the programming language C++, C or ASM. I would say C++ is the way to go. Then you need some hardware and software. Basically you can do everything with software, but it's better to test your game on real hardware then with a software emulation of the hardware. To do that you need a FlashLinker.
+
+What software do I need? You can start coding the GBA with a text editor and a compiler like devkitadv, but it's much easier with an Integrated Development Enviroment. VisualHAM is a great IDE that is based around the HAM lib that makes coding the GBA much easier and it's free.
+
+Then you need to know the hardware of the GBA. The GBA has some limits and advantages you better know before you start coding. Here's a basic spec list:
+
+CPU Modes
+ARM Mode ARM7TDMI 32bit RISC CPU, 16.78MHz, 32bit opcodes (GBA)
+THUMB Mode ARM7TDMI 32bit RISC CPU, 16.78MHz, 16bit opcodes (GBA)
+CGB Mode Z80/8080-style 8bit CPU, 4.2MHz or 8.4MHz (CGB compatibility)
+DMG Mode Z80/8080-style 8bit CPU, 4.2MHz (monochrome gameboy compatib.)
+
+Internal Memory
+BIOS ROM 16 KBytes
+Work RAM 288 KBytes (32K in-chip + 256K on-board)
+VRAM 96 KBytes
+OAM 1 KByte (128 OBJs 3x16bit, 32 OBJ-Rotation/Scalings 4x16bit)
+Palette RAM 1 KByte (256 BG colors, 256 OBJ colors)
+
+Video
+Display 240x160 pixels (2.9 inch TFT color LCD display)
+BG layers 4 background layers
+BG types Tile/map based, or Bitmap based
+BG colors 256 colors, or 16 colors/16 palettes, or 32768 colors
+OBJ colors 256 colors, or 16 colors/16 palettes
+Effects Rotation/Scaling, alpha blending, fade-in/out, mosaic, window
+OBJ size 12 types (in range 8x8 up to 64x64 dots)
+OBJs/Screen max. 128 OBJs of any size (up to 64x64 dots each)
+OBJs/Line max. 128 OBJs of 8x8 dots size (under best circumstances)
+Priorities OBJ/OBJ: 0-127, OBJ/BG: 0-3, BG/BG: 0-3
+Effects Rotation/Scaling, alpha blending, fade-in/out, mosaic, window
+
+Sound
+Analogue 4 channel CGB compatible
+Digital 2 DMA sound channels
+Output Built-in speaker, or stereo headphones
+
+Controls
+Gamepad 4 Direction Keys, 6 Buttons
+Communication Ports
+Serial Port Various transfer modes, 4-Player Link, Single Game Pak play
+
+External Memory
+GBA Game Pak max. 32MB ROM or flash ROM + max 64K SRAM
+CGB Game Pak max. 32KB ROM + 8KB SRAM (more memory requires banking)
+'" -- gba.rogotworld.com/gbadev.html

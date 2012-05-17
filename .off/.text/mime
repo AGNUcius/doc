@@ -1,0 +1,50 @@
+MIME is: Multipurpose Internet Mail Extensions
+
+www.faqs.org/rfcs/rfc1521.html
+
+Plain Text Content-Type: "text/plain; charset=us-ascii"
+
+
+http://rfc.net/rfc2049.html
+
+
+(7)   Many mail domains use variations on the US-ASCII
+          character set, or use character sets such as EBCDIC
+          which contain most but not all of the US-ASCII
+          characters.  The correct translation of characters not
+          in the "invariant" set cannot be depended on across
+          character converting gateways.  For example, this
+          situation is a problem when sending uuencoded
+          information across BITNET, an EBCDIC system.  Similar
+          problems can occur without crossing a gateway, since
+          many Internet hosts use character sets other than US-
+          ASCII internally.  The definition of Printable Strings
+          in X.400 adds further restrictions in certain special
+          cases.  In particular, the only characters that are
+          known to be consistent across all gateways are the 73
+          characters that correspond to the upper and lower case
+          letters A-Z and a-z, the 10 digits 0-9, and the
+          following eleven special characters:
+
+            "'"  (US-ASCII decimal value 39)
+            "("  (US-ASCII decimal value 40)
+
+            ")"  (US-ASCII decimal value 41)
+            "+"  (US-ASCII decimal value 43)
+            ","  (US-ASCII decimal value 44)
+            "-"  (US-ASCII decimal value 45)
+            "."  (US-ASCII decimal value 46)
+            "/"  (US-ASCII decimal value 47)
+
+            ":"  (US-ASCII decimal value 58)
+
+            "="  (US-ASCII decimal value 61)
+
+            "?"  (US-ASCII decimal value 63)
+
+          A maximally portable mail representation will confine
+          itself to relatively short lines of text in which the
+          only meaningful characters are taken from this set of
+          73 characters.  The base64 encoding follows this rule.
+
+

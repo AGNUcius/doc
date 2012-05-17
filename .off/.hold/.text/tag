@@ -1,0 +1,11 @@
+Related: code, link, parse, wiki, word
+
+CTags
+
+ETags
+
+Code.Google.com/p/google-gtags >>This is an extension to GNU Emacs and X-Emacs TAGS functionality, with a server-side component that narrows down the view of a potentially large TAGS file and serves the narrowed view over the wire for better performance. An Emacs Lisp client, a python client, and vim extensions are supplied.
+
+GNU.org/software/global >>GNU GLOBAL is a source code tagging system that works the same way across diverse environments (emacs, vi, less, bash, web browser, etc). You can locate specified objects in source files and move there easily. It is useful for hacking a large project containing many subdirectories, many #ifdef and many main() functions. It is similar to ctags or etags but is different from them at the point of independence of any editor.
+
+CScope.sf.net >>Cscope is a developer's tool for browsing source code. It has an impeccable Unix pedigree, having been originally developed at Bell Labs back in the days of the PDP-11. Cscope was part of the official AT&T Unix distribution for many years, and has been used to manage projects involving 20 million lines of code!

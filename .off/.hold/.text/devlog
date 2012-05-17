@@ -1,0 +1,152 @@
+Related: games, GNUnix, software
+
+A devlog is meant to record worker activity for transparent and repeatable solutions.
+
+This can be generalized into the physical world by recording video and audio, but for now is mostly about making a new system to build, install, debug, patch, update, subscribe, rate, etc.
+
+Devlog files are written as Human Script (.hs) files which are translated to shell script (.sh) by the /usr/bin/HumanScript application and then executed by your system shell (such as /bin/sh).
+General layout:
+Lines beginning with __ indicate the beginning or end of a Devlog
+Lines beginning with $ are shell commands that should be executed at a terminal prompt.
+Lines beginning with > are (part of) the output of that command.
+
+Devlogs should probably include:
+. Home URL, title and description.
+. Download URL and version or CVS and branch
+. Decompression tools used: tar, gunzip, bunzip2, p7zip, unrar*
+. Fixes for known problems
+. Build commands: ./configure, make, scons, jam
+. Install unmet dependencies: sudo apt-cache search ?; sudo apt-get install ?
+. Command to run
+
+==Some examples:
+
+__Kids.PlatinumArts.net
+$ wget Kids.PlatinumArts.net/sandbox/platinumartssandboxbeta1.1.zip
+$ unzip platinumartssandboxbeta1.1.zip
+$ cd PlatinumArtsSandbox1.1
+$ cd src
+$ chmod 755 enet/configure
+$ make
+$ make install
+$ cd ..
+$ ./sandbox_unix
+__
+
+__GNU.org/software/gnash >>Gnash is a GNU Flash movie player.
+$ wget SWFMill.org/releases/swfmill-0.2.12.tar.gz
+$ tar -zxvf swfmill-0.2.12.tar.gz
+$ cd swfmill-0.2.12
+$ sudo apt-get install libxslt1-dev libgcrypt11-dev
+$ ./configure
+$ make
+$ sudo make install
+
+$ cvs -z3 -d:pserver:anonymous@cvs.sv.gnu.org:/sources/gnash co gnash
+$ cd gnash
+
+$ sh autogen.sh
+
+$ sudo apt-get install libtool libcurl3-dev libboost-thread-dev libagg-dev libming-dev mtasc ffmpeg libavcodec-dev libavformat-dev
+
+$ ./configure --enable-gui=gtk
+$ make
+$ sudo make install
+
+$ gnash
+__
+
+__SuperTuxKart.berliOS.de
+$ svn co svn://svn.berlios.de/supertuxkart/trunk
+$ mv trunk SuperTuxKart
+$ cd SuperTuxKart
+$ ./configure
+$ make
+$ sudo make install
+$ supertuxkart
+__
+
+__ScourgeWeb.org
+
+$ sudo apt-get install libfreetype6-dev libgl1-mesa-dev libglu1-mesa-dev libsdl1.2-dev libsdl-mixer1.2-dev libxmu-dev subversion xorg-dev libwxgtk2.6-dev libsdl-ttf2.0-dev libsdl-net1.2-dev scons svn
+> xorg-dev if you are getting GL not found errors when you configure.
+> libwxgtk2.6-dev to compile the map editor tools
+$ svn co https://svn.sourceforge.net/svnroot/scourge/trunk scourge
+$ cd scourge/scourge
+$ scons
+$ ./scourge -f
+To remove invinciblity and debugging keys:
+  in src/debug.h: set GOD_MODE to 0
+  where #define DEBUG_KEYS 1 :put // before the #define
+    this disables some keys like "add 1000exp" 
+Compiling with Debug mode enabled
+$ scons debug=true
+$ gdb ./scourge
+$ > set args -f
+$ > r
+$ > bt #after a crash
+__
+
+
+__Dark-Oberon.sf.net on Ubuntu Edgy Eft
+>>Dark Oberon is an open source real-time strategy game similar to Warcraft II released under GPL.  It has got unique graphics - textures created from shots of real models made out of plasticine!
+$ cvs -z3 -d:pserver:anonymous@dark-oberon.cvs.sourceforge.net:/cvsroot/dark-oberon co -P dark-oberon
+$ cd dark-oberon
+$ cat README
+> non-free fmod.org required for audio
+$ cd src
+$ sh create_makefile.sh
+> Searching recursive includes for *.cpp...
+$ make
+> /usr/bin/ld: cannot find -lglfw
+$ sudo apt-cache search glfw
+>
+$ cat README
+> GLFW.sf.net required
+$ cd ../../
+$ cvs -z3 -d:pserver:anonymous@glfw.cvs.sourceforge.net:/cvsroot/glfw co -P glfw
+$ cd glfw
+$ html2text readme.html
+> type make to see currently supported options
+$ make
+> /usr/bin/make x11             for Unix/X11 (auto-configuring)
+$ make x11
+>
+$ html2text readme.html
+> After compiling GLFW, a file named libglfw.a should have appeared in the lib/x11 directory. This is the GLFW static link library, which should be copied to your compiler's lib directory (where all other link libraries are located).
+> You should also copy the GLFW include file, include/GL/glfw.h, to the GL directory of your compiler's include directory (where gl.h, glu.h etc. are located).
+__
+
+
+__DungeonDigger.sf.net on Ubuntu Edgy
+>>Q: When will you release the first version ?
+>>>A: If everything goes right, next Christmas.  If it's nearly Christmas when you read this, think more about the next Christmas.
+$ cvs -z3 -d:pserver:anonymous@dungeondigger.cvs.sourceforge.net:/cvsroot/dungeondigger co -P digger
+$ cd digger
+$ make
+> cannot create file obj/
+$ mkdir obj
+$ make
+> can't find lua, 3ds, glu, etc.
+$ sudo apt-get install liblua5.1-0-dev
+$ sudo apt-get install lib3ds-dev
+$ #probably others too
+$ make
+> /usr/bin/ld: cannot open output file bin/digger: No such file or directory
+$ mkdir bin
+$ make
+$ ./bin/digger
+> Connection error 'Connection refused' to 127.0.0.1:4242
+$ make server
+$ ./bin/digger-server
+$ ./bin/digger
+> Error while Loading model file
+> Error : model file is not loaded
+$ cd ..
+$ wget Downloads.sf.net/dungeondigger/digger-data_10.tar.gz
+$ tar zxvf digger-data_10.tar.gz
+$ cd digger
+$ ./bin/digger-server
+$ ./bin/digger
+Adjust the ./scripts/config.lua file to change the language or make it fullscreen etc.
+__

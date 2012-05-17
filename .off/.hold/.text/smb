@@ -1,0 +1,30 @@
+Related: CIFS, Network Neighborhood, NFS, Samba
+
+SMBNetFS.sf.net >>SMBNetFS is a Linux/FreeBSD filesystem that allow you to use samba/microsoft network in the same manner as the network neighborhood in Microsoft Windows.
+
+Bzeeet.sf.net >>Bzeeet is a stable and flexible Desktop-Files/SMB/FTP crawler and search engine.
+
+Ubiqx.org/cifs/SMB.html >>Like NetBIOS, the Server Message Block protocol originated a long time ago at IBM. Microsoft embraced it, extended it, and in 1996 gave it a marketing upgrade by renaming it "CIFS".
+>>> In the early DOS years IBM and Microsoft (with some input from Intel and 3Com) contributed to it but by the time of the first OS/2 server version (LANMAN1.0 dialect and later) Microsoft did much of the work (for "LAN Manager" and its relatives).
+
+MSDN.Microsoft.com/en-us/library/aa365233(vs.85).aspx >>The Server Message Block (SMB) Protocol is a network file sharing protocol, and as implemented in Microsoft Windows is known as Microsoft SMB Protocol. The set of message packets that defines a particular version of the protocol is called a dialect. The Common Internet File System (CIFS) Protocol is a dialect of SMB. Both SMB and CIFS are also available on VMS, several versions of Unix, and other operating systems.
+
+SolutionFound.BlogSpot.com >>Windows XP checks for Scheduled Tasks on the host computer which can add up to 30 seconds of delay. To disable this process.
+HKEY_LOCAL_MACHINE/Software/Microsoft/Windows/Current Version/Explorer/RemoteComputer/NameSpace
+delete {D6277990-4C6A-11CF-8D87-00AA0060F5BF}
+
+T-ST.org/smbspider_f.html >>SMBSpider is a fast, lightweight indexer for SMB shares in the LAN. It provides web-based search and browse functionality, as well as an optional IRC interface via eggdrop.
+
+$ /sbin/mount.smbfs
+
+
+: Samba.org >>Samba is the standard Windows interoperability suite of programs for Linux and Unix.
+>> Samba is Free Software licensed under the GNU General Public License, the Samba project is a member of the Software Freedom Conservancy.
+>> Since 1992, Samba has provided secure, stable and fast file and print services for all clients using the SMB/CIFS protocol, such as all versions of DOS and Windows, OS/2, Linux and many others.
+>> Samba is an important component to seamlessly integrate Linux/Unix Servers and Desktops into Active Directory environments using the winbind daemon.
+
+
+If, while trying to connect to a CIFS or SMB share, you receive: "'Multiple connections to a server or shared resource by the same user, using more than one user name, are not allowed. Disconnect all previous connections to the server or shared resource and try again.'" try the following:
+
+$ net use #this will tell us the ServerName\ShareName we need to DELETE
+$ net use /DELETE \\ServerName\ShareName

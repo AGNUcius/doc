@@ -1,0 +1,3 @@
+Related: defrag, undelete
+
+The NTFS Master File Table(MFT) should be near the beginning of a disk

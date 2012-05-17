@@ -1,0 +1,33 @@
+Simple Storage Service
+
+http://Cloudiquity.com/2009/03/differences-between-s3-and-ebs
+
+Amazon S3 provides a simple web services interface that can be used to store and retrieve any amount of data, at any time, from anywhere on the web
+
+So if I am not wrong: Both actually are designed to allow the storage and both provide the Web Services on top of that. Both are capable of configuring the machine instances.
+
+While S3 is easily scalable, we have to manually take care of the scalability of EBS instance. Would that be a correct conclusion?
+
+
+om_prakash_p:
+03/23/10 11:02 PM, ID: 28419011
+Yes both EBS and S3 are designed to allow the storage.
+EBS allows to create volumes and format them where as S3 provides web services interface which can be used to sore/retreive data.
+
+Some main differences are:
+1. EBS can only be accessed by one machine at a time whereas snapshots on S3 can be shared
+2. performance of S3 is higher
+3. S3 has  maximum  throughput
+4. For file listing S3 is slow and search is by prefix only  whereas EBS has fast directory listing and searching.
+
+Yes S3 is scalable, we have to manually take care of the scalability of EBS instance.
+
+
+shalomc:
+03/24/10 04:48 AM, ID: 28439900
+EBS is actually a SAN storage, with all SAN benefits.
+You can do a snapshot, unmount and remount the volume to different instances, and connect an AMI for persistent offline storage.
+
+S3 is sort of a NAS, with a proprietary access protocol, but with data replication and uber high availability.
+
+Which one to chose? depends on the use case, on the budget, on the skills and the tools you have.

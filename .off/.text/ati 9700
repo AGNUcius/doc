@@ -1,0 +1,6 @@
+I own an ATI 9700 All In Wonder.  The "All In Wonder" part means it has a TV tuner.
+
+The hoarding bastards won't release the specification so the laborers attempting to make a full driver for GNU/Linux (for example) have not been able to do their job (which they would do for free by the way).
+
+On Windows XP the 'Display Properties' dialog allowed me to change the vertical refresh rate to 85_hz, but the monitor was only being driven to 75_hz.  My sensetivity to rates below 85 was causing headaches.  After poking around in the 'Advanced' section i found an area with a checkbox indicating the use of DDC to determine the monitor's capabilities.  Since the Viewsonic G810 that I use reports erroneously low values, unchecking this box allowed me to finally change the highest allowed refresh to 85.
+

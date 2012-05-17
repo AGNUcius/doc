@@ -1,0 +1,176 @@
+If logo is the data, logi is the code.
+
+dict.org
+"'
+From The Collaborative International Dictionary of English v.0.48 :
+
+  Logic \Log"ic\, n. [OE. logike, F. logique, L. logica, logice,
+     Gr. logikh` (sc. te`chnh), fr. logiko`s belonging to speaking
+     or reason, fr. lo`gos speech, reason, le`gein to say, speak.
+     See Legend.]
+     1. The science or art of exact reasoning, or of pure and
+        formal thought, or of the laws according to which the
+        processes of pure thinking should be conducted; the
+        science of the formation and application of general
+        notions; the science of generalization, judgment,
+        classification, reasoning, and systematic arrangement; the
+        science of correct reasoning.
+        [1913 Webster]
+  
+              Logic is the science of the laws of thought, as
+              thought; that is, of the necessary conditions to
+              which thought, considered in itself, is subject.
+                                                    --Sir W.
+                                                    Hamilton.
+        [1913 Webster]
+  
+     Note: Logic is distinguished as pure and applied. "Pure logic
+           is a science of the form, or of the formal laws, of
+           thinking, and not of the matter. Applied logic teaches
+           the application of the forms of thinking to those
+           objects about which men do think." --Abp. Thomson.
+           [1913 Webster]
+  
+     2. A treatise on logic; as, Mill's Logic.
+        [1913 Webster]
+  
+     3. correct reasoning; as, I can't see any logic in his
+        argument; also, sound judgment; as, the logic of surrender
+        was uncontestable.
+        [PJC]
+  
+     4. The path of reasoning used in any specific argument; as,
+        his logic was irrefutable.
+        [PJC]
+  
+     5. (Electronics, Computers) A function of an electrical
+        circuit (called a gate) that mimics certain elementary
+        binary logical operations on electrical signals, such as
+        AND, OR, or NOT; as, a logic circuit; the arithmetic and
+        logic unit.
+        [PJC]
+
+
+From WordNet (r) 2.0 :
+
+  logic
+       n 1: the branch of philosophy that analyzes inference
+       2: reasoned and reasonable judgment; "it made a certain kind of
+          logic"
+       3: the principles that guide reasoning within a given field or
+          situation; "economic logic requires it"; "by the logic of
+          war"
+       4: a system of reasoning [syn: logical system, system of
+          logic]
+
+
+From Moby Thesaurus II by Grady Ward, 1.0 :
+
+  72 Moby Thesaurus words for "logic":
+     Aristotelian logic, Boolean algebra, Ramistic logic, admissibility,
+     aesthetics, algebra of classes, algebra of relations, axiology,
+     casuistry, common sense, cosmology, deduction, dialectic,
+     dialectics, doctrine of inference, doctrine of terms,
+     epistemological logic, epistemology, ethics, experimental logic,
+     first philosophy, formal logic, gnosiology, good sense,
+     intelligence, judiciousness, justifiability, justness, logicality,
+     logicalness, logics, logistic, material logic, mathematical logic,
+     mental philosophy, metaphysics, moral philosophy, ontology,
+     phenomenology, philosophastry, philosophic doctrine,
+     philosophic system, philosophic theory, philosophical inquiry,
+     philosophical speculation, philosophy, plausibility, practicality,
+     presence of mind, propositional calculus, psychological logic,
+     psychologism, ratiocination, rationality, reason, reasonability,
+     reasonableness, reasoning, school of philosophy, school of thought,
+     science of being, sense, sensibleness, set theory, sophistry,
+     sound sense, soundness, sweet reason, theory of beauty,
+     theory of knowledge, value theory, wisdom
+  
+  
+
+
+From The Free On-line Dictionary of Computing (27 SEP 03) :
+
+  logic
+       
+          1.  A branch of philosophy and
+          mathematics that deals with the formal principles, methods and
+          criteria of validity of inference, reasoning and
+          knowledge.
+       
+          Logic is concerned with what is true and how we can know
+          whether something is true.  This involves the formalisation of
+          logical arguments and proofs in terms of symbols
+          representing propositions and logical connectives.  The
+          meanings of these logical connectives are expressed by a set
+          of rules which are assumed to be self-evident.
+       
+          Boolean algebra deals with the basic operations of truth
+          values: AND, OR, NOT and combinations thereof.  Predicate
+          logic extends this with existential and universal
+          quantifiers and symbols standing for predicates which may
+          depend on variables.  The rules of natural deduction
+          describe how we may proceed from valid premises to valid
+          conclusions, where the premises and conclusions are
+          expressions in predicate logic.
+       
+          Symbolic logic uses a meta-language concerned with truth,
+          which may or may not have a corresponding expression in the
+          world of objects called existance.  In symbolic logic,
+          arguments and proofs are made in terms of symbols
+          representing propositions and logical connectives.  The
+          meanings of these begin with a set of rules or primitives
+          which are assumed to be self-evident.  Fortunately, even from
+          vague primitives, functions can be defined with precise
+          meaning.
+       
+          Boolean logic deals with the basic operations of truth
+          values: AND, OR, NOT and combinations thereof.  Predicate
+          logic extends this with existential quantifiers and
+          universal quantifiers which introduce bound variables
+          ranging over finite sets; the predicate itself takes on
+          only the values true and false.  Deduction describes how we
+          may proceed from valid premises to valid conclusions, where
+          these are expressions in predicate logic.
+       
+          Carnap used the phrase "rational reconstruction" to describe
+          the logical analysis of thought.  Thus logic is less concerned
+          with how thought does proceed, which is considered the realm
+          of psychology, and more with how it should proceed to discover
+          truth.  It is the touchstone of the results of thinking, but
+          neither its regulator nor a motive for its practice.
+       
+          See also fuzzy logic, logic programming, arithmetic and logic unit,
+          first-order logic,
+       
+          See also Boolean logic, fuzzy logic, logic programming,
+          first-order logic, logic bomb, combinatory logic,
+          higher-order logic, intuitionistic logic, equational
+          logic, modal logic, linear logic, paradox.
+       
+          2.  Boolean logic circuits.
+       
+          See also arithmetic and logic unit, asynchronous logic,
+          TTL.
+       
+          (1995-03-17)
+       
+       
+
+
+From THE DEVIL'S DICTIONARY ((C)1911 Released April 15 1993) :
+
+  LOGIC, n.  The art of thinking and reasoning in strict accordance with
+  the limitations and incapacities of the human misunderstanding.  The
+  basic of logic is the syllogism, consisting of a major and a minor
+  premise and a conclusion -- thus:
+      _Major Premise_:  Sixty men can do a piece of work sixty times as
+  quickly as one man.
+      _Minor Premise_:  One man can dig a posthole in sixty seconds;
+  therefore --
+      _Conclusion_:  Sixty men can dig a posthole in one second.
+      This may be called the syllogism arithmetical, in which, by
+  combining logic and mathematics, we obtain a double certainty and are
+  twice blessed.
+  
+'"  

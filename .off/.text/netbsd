@@ -1,0 +1,285 @@
+see also: NetBSD Current, NetBSD automount, NetBSD optimizations
+
+
+Some notes about how to get NetBSD up and running:
+
+Preinstall
+----------------
+Split up drive with parted?
+
+Install any locked closed OSes
+
+Boot with NetBSD CD, floppy, bootp, DHCP
+
+wget ftp://ftp.netbsd.org/pub/NetBSD/NetBSD-2.0/i386/installation/floppy/boot-big.fs
+
+Answer annoying questions because of incorrect defaults:
+  Attn. Sysinst Maintainers:  RET should always move in the the most sane manner.
+
+Set NetBSD partition as: 'active'.  I also set 'default' and 'install', but maybe didn't need to.
+
+Reboot
+
+
+Networking
+-------------
+  If you are on a DHCP network just say:
+    dhclient
+
+  To view your network condition:
+    ifconfig -a
+
+  For DNS troubles:
+  (add-line "option domain-name-servers 10.3.144.60, 10.3.144.61" "/etc/dhclient.conf")
+
+  man netstat
+  man route
+
+SOFTWARE
+-----------
+  INITIAL source tree
+  -------------------
+    cd /usr
+    wget ftp://ftp.netbsd.org/pub/NetBSD/packages/pkgsrc.tar.gz # USER=anonymous PASS=")
+    tar -xzpf pkgsrc.tar.gz
+
+  UPDATING source tree
+  --------------------
+    cvs -d:pserver:anoncvs@anoncvs.netbsd.org:/cvsroot login #USER:anoncvs PASS:anoncvs
+    cvs -z3 -d:pserver:anoncvs@anoncvs.netbsd.org:/cvsroot update -d -P
+
+  SECURITY tasks
+  --------------
+  cd /usr/pkgsrc/security/audit-packages
+  make install
+  /usr/pkg/sbin/download-vulnerability-list
+
+  EXAMPLE install
+  ---------------
+    cd /usr/pkgsrc/editors/emacs
+    make install
+
+    cd /usr/pkgsrc/wm/wmii
+    make install ALLOW_VULNERABLE_PACKAGES=YES
+
+    CLEANUP after an install:
+    make clean CLEANDEPENDS=YES
+
+  BINARY PACKAGES
+  ---------------
+  setenv PKG_PATH ftp://ftp.netbsd.org/pub/NetBSD/packages/2.0/i386/All
+  pkg_add -v perl
+
+  PROBLEMS
+  --------
+    setenv FTP_PASSIVE_MODE true
+
+KEYBOARD
+--------
+  To make the meta (or "Alt") key work for emacs on the console:
+    (add-line "encoding us.metaesc" "/etc/wscons.conf")
+
+  To make "Caps Lock" act like the "Ctrl" key:
+    On the console [caution: this can cause trouble if you suddenly exit from X with CAPS_LOCK on]
+      (add-line "mapfile /usr/share/wscons/keymaps/pckbd.caps2ctrl" "/etc/wscons.conf")
+      (add-line "keysym Caps_Lock = Control_L" "/usr/share/wscons/keymaps/pckbd.caps2ctrl")
+
+    in X: see X setup
+    edit ~/.xmodmap to look like:
+        remove Lock = Caps_Lock
+        remove Control = Control_L
+        keysym Caps_Lock = Control_L
+        add Control = Control_L
+
+    or (this didn't work for me)
+        in /etc/X11/XF86Config add the line
+            Option     "XkbOptions"             "ctrl:nocaps"
+        to the "Device" section
+
+    problems:
+        C-/ sends a literal /  my undo key!  use C-_ instead.  How do I fix this?
+
+X Window
+-------
+  SETUP
+  -----
+    Generate /etc/X11/XF86Config:
+      run xf86cfg and press OK
+
+      if that doesn't work, try xf86config:
+        emulate 3 buttons?  y if 2button mouse, n otherwise
+        mouse device?  /dev/wsmouse
+
+  START
+  -----
+  /usr/startx  will begin the X session
+      If it fails, look at the output and run xf86config again or edit /etc/X11/XF86Config by hand.
+      use Ctrl-Alt-NumPad-- and Ctrl-Alt-NumPad-+ (hold down both the Ctrl and Alt keys while pressing the - or + keys on the Num Pad) to change resolutions
+      use Ctrl-Alt-Backspace to abort the X session (especially useful if your mouse type or device is wrong)
+
+  to change window managers:
+    build a wm in /usr/pkgsrc/wm
+
+    edit ~/.xinitrc to look something like:
+        emacs&
+        exec ratpoison
+
+----optimizations:
+    soft updates:
+        /etc/fstab example:
+            /dev/wd0e /usr ffs rw,softdep 1 2
+
+
+/dev/wd0a / ffs rw,softdep 1 1
+/dev/wd0b none swap sw 0 0
+/dev/wd0e /usr ffs rw,softdep 1 2
+
+
+----SAMBA NETWORKING (that's SMB, which is Microsoft's "folder sharing" networking):
+(add-line "nmbd=YES # NetBIOS over IP" "/etc/rc.conf")
+(add-line "smbd=YES # SMB/CIFS server" "/etc/rc.conf")
+
+
+sharity-light:
+
+cd /usr/pkgsrc/net/sharity-light
+make install
+
+mkdir /mnt/smb
+
+#if you want netbios naming, make an entry in /etc/hosts
+
+shlight //host/share /mnt/smb -U username -P password
+
+#to unmount:
+unshlight /mnt/smb
+
+
+
+
+----RESEARCH:
+/etc/rc.sysctl
+/etc/sysctl.conf 
+  I don't understand how to change the tty or vt emulation or whatever it is that makes me start in vt100 instead of a more featureful interface like vt220... I think this is not the right terminology, but I'm talking about more colors, resolutions, column widths, fonts, etc.
+
+
+
+----USEFUL INSTALLS:
+emacs          GNU editing macros (editor)
+wget           Retrieve files from the 'net via HTTP and FTP
+tightvnc       Display X and Win32 desktops on remote X/Win32/Java displays
+tightvncviewer Viewer for remote X and Win32 VNC servers
+bash           The GNU Bourne Again Shell
+surfraw       Shell Users' Revolutionary Front Rage Against the Web
+evilwm   Minimalist Window Manager for X
+bochs         i386 machine emulator capable of running DOS/Windows
+mplayer  Documentation and fonts used by mplayer and gmplayer
+xosview      X11 graphical display of OS statistics
+xmame        X11 emulator for old arcade machines
+wmx       another X11 window manager based on wm2, with GNOME compliance
+mplayer        Software only MPEG video decoder
+rdesktop      Open Remote Desktop Protocol client
+phoenix      Lightweight gecko web browser
+mpg123   Command player for mpeg layer 1, 2 and 3 audio
+curl         client that groks URLs
+ratpoison     Simple window manager with no fat library dependencies
+xpmroot      Sets the root window to an Xpm pixmap
+cabextract      Microsoft cabinet (.CAB) file extractor
+samba        SMB/CIFS protocol server suite for UNIX
+
+
+
+----
+mail-index.netbsd.org/tech-x11/2002/12/29/0000.html
+
+Subject: Xft and anti-aliased fonts on NetBSD (a short howto)
+To: None <tech-x11@netbsd.org>
+From: Jared D. McNeill <jmcneill@invisible.ca>
+List: tech-x11
+Date: 12/29/2002 19:54:23
+
+I've written a short howto on configuring anti-aliased fonts with NetBSD.
+Comments / suggestions are welcome.
+
+Cheers,
+Jared
+
+How to setup anti-aliased fonts on NetBSD with XFree86 4
+
+    NOTE: The paths below should be adjusted appropriately if using xpkgwedge
+
+    1. Install the following packages from pkgsrc:
+        fonts/ms-ttf
+        fonts/mkfontscale
+        fonts/fontconfig
+    2. Setup the font hints:
+        mkfontscale /usr/X11R6/lib/X11/fonts/TrueType
+        mkfontdir /usr/X11R6/lib/X11/fonts/TrueType
+       There should now be a 'fonts.dir' and 'fonts.scale' in the
+       TrueType font directory.
+    3. Configure the X server:
+        a. In the "Module" section, make sure that the following exists:
+        Load "type1"
+        Load "freetype"
+        b. In the "Files" section, verify the order of the font paths.
+           Verify that the TrueType and Type1 font paths are before
+           the rest:
+            FontPath   "/usr/X11R6/lib/X11/fonts/local/"
+            FontPath   "/usr/X11R6/lib/X11/fonts/TrueType/"
+            FontPath   "/usr/X11R6/lib/X11/fonts/Type1/"
+            FontPath   "/usr/X11R6/lib/X11/fonts/misc/"
+            FontPath   "/usr/X11R6/lib/X11/fonts/75dpi/:unscaled"
+            FontPath   "/usr/X11R6/lib/X11/fonts/100dpi/:unscaled"
+            FontPath   "/usr/X11R6/lib/X11/fonts/75dpi/"
+            FontPath   "/usr/X11R6/lib/X11/fonts/100dpi/"
+    4. Configure Xft -- an example /usr/X11R6/lib/X11/XftConfig follows:
+
+##### Example XftConfig
+dir "/usr/X11R6/lib/X11/fonts/TrueType"
+dir "/usr/X11R6/lib/X11/fonts/Type1"
+# Uncomment the following line if using an LCD display
+#match edit rgba = rgb;
+match any family == "fixed"             edit family =+ "mono";
+includeif       "~/.xftconfig"
+match any family == "Times"             edit family += "Times New Roman";
+match any family == "Helvetica"         edit family += "Verdana";
+match any family == "Courier"           edit family += "Courier New";
+match any family == "serif"             edit family += "Times New Roman";
+match any family == "sans"              edit family += "Verdana";
+match
+        any family == "mono"
+        all slant == roman
+        all weight < bold
+edit
+        family += "monotype.com";
+match any family == "mono"              edit family += "Courier New";
+match any family == "Charter"           edit family += "Bitstream Charter";
+match any family == "Bitstream Charter" edit family =+ "Charter";
+match any family == "Lucidux Serif"     edit family += "LuciduxSerif";
+match any family == "LuciduxSerif"      edit family =+ "Lucidux Serif";
+match any family == "Lucidux Sans"      edit family += "LuciduxSans";
+match any family == "LuciduxSans"       edit family =+ "Lucidux Sans";
+match any family == "Lucidux Mono"      edit family += "LuciduxMono";
+match any family == "LuciduxMono"       edit family =+ "Lucidux Mono";
+match any family == "Comic Sans"        edit family += "Comic Sans MS";
+match any family == "Comic Sans MS"     edit family =+ "Comic Sans";
+match any family == "Trebuchet"         edit family += "Trebuchet MS";
+match any family == "Trebuchet MS"      edit family =+ "Trebuchet";
+match any family == "Monotype"          edit family =+ "Monotype.com";
+match any family == "Andale Mono"       edit family += "Monotype.com";
+match any family == "Monotype.com"      edit family =+ "Andale Mono";
+##### End of XftConfig
+
+    5. Rebuild the font cache for applications that use fontconfig:
+        fc-cache -v
+       This will take a very long time (~20 minutes on a PII 366),
+       so be patient.
+    6. That's it! Restart the X server, and test the configuration:
+        xterm -ls -fg gray -bg black -ls -fa "Courier New Bold" -fs 10
+
+
+www.mreriksson.net/faqs/netbsd
+www.netbsd.org
+
+www.mclink.it/personal/MG2508/nbsdeng/netbsd.html
+

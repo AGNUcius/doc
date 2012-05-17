@@ -1,0 +1,6 @@
+xhosxe.free.fr/glaxium "'After launching Galxium if the only thing you see is :
+> Couldn't set 800x600 GL video mode: Couldn't find matching GLX visual
+You have 2 solutions:
+1 - remove line 148 in main.cpp: "SDL_GL_SetAttribute(SDL_GL_STENCIL_SIZE,8);" and stay in 16 bpp - you won't have any shadows :-(
+2 - set 32 bpp in your X config and you'll enjoy all Glaxium special effects ! 
+'"

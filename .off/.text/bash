@@ -1,0 +1,388 @@
+http://www.builderau.com.au/program/linux/soa/10-shortcuts-to-master-bash/0,339028299,339279043,00.htm
+
+
+By developers for developers - builderau.com.au
+
+    * News
+    * Program
+          o App Development
+                + .Net
+                + C#
+                + Java, C, C++
+                + Python
+                + VB/VB.Net
+          o Database
+                + MySQL
+                + Oracle
+                + SQL Server
+          o Platform
+                + UNIX
+                + Embedded/Mobile
+                + Linux
+                + Mac
+                + Windows
+          o Web Development
+                + AJAX
+                + Apache
+                + ASP/ASP.Net
+                + ColdFusion
+                + CSS
+                + Flash/Flex
+                + XHTML
+                + IIS
+                + JavaScript
+                + Perl
+                + PHP
+                + XML
+                + Ruby
+    * Strategy
+          o Project Management
+          o Design Principles
+          o Development Process
+          o Future Tech
+          o Architecture
+          o Business Management
+          o Career
+    * Blogs
+          o Beta Living
+          o Code Monkey Business
+          o Nouveau Riche Internet
+          o Syslog
+          o The .Net Effect
+    * Downloads
+    * Forums
+    * Membership
+
+RSS  |  User Groups  |  Site Map
+Search Builder AU Search
+
+    * .Net
+    * Java, C, C++
+    * C#
+    * XHTML
+    * AJAX
+    * PHP
+    * Linux
+    * Windows
+    * MySQL
+    * Oracle
+    * SQL Server
+    * » More
+
+    * You are here:
+    * builderau.com.au
+    * Program
+    * Linux
+
+10 shortcuts to master bash
+By Guest Contributor, TechRepublic | 2007/06/25 18:30:02
+Change the text size: a | A
+
+    * Print this
+    * E-mail this
+    * Leave a comment
+    * digg this
+    * del.ici.ous
+    * Clip this
+
+Close
+Log in | Sign up | Why join Builder AU's community? See the benefits.
+
+Please login or sign up to clip this article.
+E-mail
+Password
+Remember me Login
+
+If you've ever typed a command at the Linux shell prompt, you've probably already used bash -- after all, it's the default command shell on most modern GNU/Linux distributions.
+
+The bash shell is the primary interface to the Linux operating system -- it accepts, interprets and executes your commands, and provides you with the building blocks for shell scripting and automated task execution.
+
+Bash's unassuming exterior hides some very powerful tools and shortcuts. If you're a heavy user of the command line, these can save you a fair bit of typing. This document outlines 10 of the most useful tools:
+1. Easily recall previous commands
+
+Bash keeps track of the commands you execute in a history buffer, and allows you to recall previous commands by cycling through them with the Up and Down cursor keys. For even faster recall, "speed search" previously-executed commands by typing the first few letters of the command followed by the key combination Ctrl-R; bash will then scan the command history for matching commands and display them on the console. Type Ctrl-R repeatedly to cycle through the entire list of matching commands.
+2. Use command aliases
+
+If you always run a command with the same set of options, you can have bash create an alias for it. This alias will incorporate the required options, so that you don't need to remember them or manually type them every time. For example, if you always run ls with the -l option to obtain a detailed directory listing, you can use this command:
+
+bash> alias ls='ls -l' 
+
+To create an alias that automatically includes the -l option. Once this alias has been created, typing ls at the bash prompt will invoke the alias and produce the ls -l output.
+
+You can obtain a list of available aliases by invoking alias without any arguments, and you can delete an alias with unalias.
+3. Use filename auto-completion
+
+Bash supports filename auto-completion at the command prompt. To use this feature, type the first few letters of the file name, followed by Tab. bash will scan the current directory, as well as all other directories in the search path, for matches to that name. If a single match is found, bash will automatically complete the filename for you. If multiple matches are found, you will be prompted to choose one.
+4. Use key shortcuts to efficiently edit the command line
+
+Bash supports a number of keyboard shortcuts for command-line navigation and editing. The Ctrl-A key shortcut moves the cursor to the beginning of the command line, while the Ctrl-E shortcut moves the cursor to the end of the command line. The Ctrl-W shortcut deletes the word immediately before the cursor, while the Ctrl-K shortcut deletes everything immediately after the cursor. You can undo a deletion with Ctrl-Y.
+5. Get automatic notification of new mail
+
+You can configure bash to automatically notify you of new mail, by setting the $MAILPATH variable to point to your local mail spool. For example, the command:
+
+bash> MAILPATH='/var/spool/mail/john'
+bash> export MAILPATH 
+
+Causes bash to print a notification on john's console every time a new message is appended to John's mail spool.
+6. Run tasks in the background
+
+Bash lets you run one or more tasks in the background, and selectively suspend or resume any of the current tasks (or "jobs"). To run a task in the background, add an ampersand (&) to the end of its command line. Here's an example:
+
+bash> tail -f /var/log/messages &
+[1] 614
+
+Each task backgrounded in this manner is assigned a job ID, which is printed to the console. A task can be brought back to the foreground with the command fg jobnumber, where jobnumber is the job ID of the task you wish to bring to the foreground. Here's an example:
+
+bash> fg 1
+
+A list of active jobs can be obtained at any time by typing jobs at the bash prompt.
+7. Quickly jump to frequently-used directories
+
+You probably already know that the $PATH variable lists bash's "search path" -- the directories it will search when it can't find the requested file in the current directory. However, bash also supports the $CDPATH variable, which lists the directories the cd command will look in when attempting to change directories. To use this feature, assign a directory list to the $CDPATH variable, as shown in the example below:
+
+bash> CDPATH='.:~:/usr/local/apache/htdocs:/disk1/backups'
+bash> export CDPATH
+
+Now, whenever you use the cd command, bash will check all the directories in the $CDPATH list for matches to the directory name.
+8. Perform calculations
+
+Bash can perform simple arithmetic operations at the command prompt. To use this feature, simply type in the arithmetic expression you wish to evaluate at the prompt within double parentheses, as illustrated below. Bash will attempt to perform the calculation and return the answer.
+
+bash> echo $((16/2))
+8
+
+9. Customise the shell prompt
+
+You can customise the bash shell prompt to display -- among other things -- the current username and host name, the current time, the load average and/or the current working directory. To do this, alter the $PS1 variable, as below:
+
+bash> PS1='\u@\h:\w \@> '
+
+bash> export PS1
+root@medusa:/tmp 03:01 PM>
+
+This will display the name of the currently logged-in user, the host name, the current working directory and the current time at the shell prompt. You can obtain a list of symbols understood by bash from its manual page.
+10. Get context-specific help
+
+Bash comes with help for all built-in commands. To see a list of all built-in commands, type help. To obtain help on a specific command, type help command, where command is the command you need help on. Here's an example:
+
+bash> help alias
+...some help text...
+
+Obviously, you can obtain detailed help on the bash shell by typing man bash at your command prompt at any time.
+
+    * Print this
+    * E-mail this
+    * Leave a comment
+    * digg this
+    * del.ici.ous
+    * Clip this
+
+Close
+Log in | Sign up | Why join Builder AU's community? See the benefits.
+
+Please login or sign up to clip this article.
+E-mail
+Password
+Remember me Login
+
+Tags: alias | command line | linux | open source | unix
+
+    * Related Links
+
+    * Monitor remote systems with Nagios
+    * Automount filesystems with flexible AutoFS tool
+    * Try this workaround for time-out issues in kernel 2.6.17 and higher
+    * Use lbdb to combine contact sources for easy address lookup
+
+    * Comments
+
+1
+Ken - 26/06/07
+
+Wow - stuff anyone using unix/linux for more than 1 day already knows....presented as if it was deep "Guru" level deep knowledge...
+» Report offensive content
+
+2
+dustin - 26/06/07
+
+hmm, ctrl-R only gets me to "reverse-i-search". using ubuntu. Any idea how to get to the speed search?
+» Report offensive content
+
+3
+thanatos - 26/06/07
+
+You can put any of this configuration in .bash_profile or .bash_rc (I think) and it'll be there the next time.
+
+@ken - What gave you the impression it was "Guru" level stuff? After you read the first tip I think everyone understood. Someone obviously didn't go to preschool to learn, "if you don't have something nice to say..."
+» Report offensive content
+
+4
+FatMan - 26/06/07
+
+Uh oh, you didn't take the time to make sure Ken learned something new. That means your artical is completely useless and you've wasted EVERYBODY'S time. Sorry, Ken, next time we'll ask you first.
+
+I actually found this artical useful because I'm just learning linux and bash. I'm excited to get home and try the auto-completion with tab. That's really going to help. Thanks for the artical, and just ignore Ken, he's obviously so smart that his knowledge makes everybody around him also know everything. Thanks!
+» Report offensive content
+
+5
+Czar - 26/06/07
+
+Nice post. $CDPATH is wonderful. :-)
+
+- czar @ http://czarism.com
+» Report offensive content
+
+6
+Angel - 26/06/07
+
+Ken is right. The title is misleading, unfortunately that seems to be the standard with a lot of articles on the internet today. The article is OK if you are new to Unix. I came here from Digg so I'm definitely burying this one.
+» Report offensive content
+
+7
+Nathan - 26/06/07
+
+The title is misleading, I thought I would learn something to "master" bash. I learned CDPATH. yay.
+» Report offensive content
+
+8
+George - 26/06/07
+
+What is the problem with what Ken said? The title stated the these are shortcuts to help you "master bash". I knew all of these after my first day or two using bash (except $CDPATH). These are very basic bash commands/tools. The more accurate title would have been something like '10 shortcuts for beginning bash'. What Ken said is correct and if the title were accurate people like Ken and myself would have never looked at the article.
+» Report offensive content
+
+9
+see link below: - 26/06/07
+
+http://www.ukuug.org/events/linux2003/papers/bash_tips/
+» Report offensive content
+
+10
+Edgardo - 26/06/07
+
+pushd/popd are nice navigational tools.
+» Report offensive content
+
+    * Leave A Comment
+
+Your name *
+
+Your e-mail address * (won't be displayed on the site)
+
+Comment here. * Stay on topic (policy).
+No HTML tags.
+
+Code (if you need to share some code)
+
+You must read and type the 6 chars within 0..9 and A..F
+
+You must read and type the 6 chars within 0..9 and A..F *
+
+Submit your comment
+
+* mandatory fields.
+
+    * Latest comments
+
+10
+Edgardo - 26/06/07
+
+pushd/popd are nice navigational tools. ... more
+
+9
+see link below: - 26/06/07
+
+http://www.ukuug.org/events/linux2003/papers/bash_tips/ ... more
+
+8
+George - 26/06/07
+
+What is the problem with what Ken said? The title stated the these are shortcuts to help you "master bash". ... more
+Click here to leave your comment
+Read all comments
+Log in
+E-mail
+Password
+Login Remember me
+
+Sign up | Forgot your password?
+
+    * News
+    * Most Popular
+    * Features
+
+    * Apple Windows Safari: Second patch batch unleashed (1 hour, 50 minutes ago)
+    * Linux coders join green revolution (1 day ago)
+    * Discovery Channel switches to Silverlight in a flash (1 day ago)
+    * US patent reforms inches forward
+    * Symantec to block exploits in IE
+    * Mandriva rejects Microsoft's 'patent protection'
+    * PHP exploit code plants itself in GIF
+    * Mystery surrounds Microsoft's virtualisation flip-flop
+    * More »
+
+    * FaceBook platform attracts 1,000 developers a day
+    * Apple's Windows Safari: 3 patches, 1 million users
+    * VMWare brings Windows apps to the Mac
+    * Open-source Solaris makes GPL 3 more attractive: Linus Torvalds
+    * iPhone success depends on Windows?
+    * Dell pressured to extend Ubuntu PCs outside US
+    * Sun CEO wants to "join hands" with Torvalds
+    * Linux faster, more reliable than Microsoft IIS
+    * Safari, Firefox charge towards a more colourful Web
+    * Post data to other Web pages with ASP.NET 2.0
+
+    * 10 shortcuts to master bash
+    * Starting with Spry
+    * Successful negotiating requires perspective and flexible thinking
+    * Adapt to your audience with CSS media types
+    * Post data to other Web pages with ASP.NET 2.0
+    * Monitor remote systems with Nagios
+    * Achieve seamless socket programming in Java
+    * Prevent identity theft by avoiding these seven common mistakes
+    * More »
+
+    * Blogs
+
+StaffBuilder AU's June book giveaway
+Help out in the Builder AU forums and win a book! Read more »
+
+-- posted by Staff
+
+Chris DuckettThe return to the king
+Does the arrival of Web applications on the desktop warrant the death pronouncement of the desktop or is it just hot air? Read more »
+
+-- posted by Chris Duckett
+You'll need Macromedia Flash Player 8 or above in order to view some of our content. Download now!
+
+    * Most Popular Tags
+
+.net adobe ajax apple browser collaboration dell developer e-mail firefox flash google gpl ibm intel internet iphone java linux malware management microsoft microsoft windows novell open source openoffice operating system oracle patch patent pc red hat safari security silverlight software sun suse linux symantec trojan ubuntu virtualisation vista vmware web 2.0 web applications web site windows windows vista windows xp
+
+    * What's On?
+
+Forums: Can you help? Forums: Can you help?
+"I am trying to use a dll created in dotnet using c# in my ASP pages. It is giving error - Server object, ASP 0177 (0x800401F3) Invalid class string"
+
+Birthday Competition Birthday Competition
+To celebrate Builder AU's fifth birthday, we are offering readers the opportunity to win one of six big ticket prizes. AU$12,000 worth of prizes to be won!
+
+    * Featured Links
+
+    * Visual Studio 2005
+      Click here to download a collection of tools you can use today.
+    * Builders Fifth!
+      Over AU$12,000 worth of prizes to be won!
+    * Delphi for PHP
+      PHP development goes RAD! Click now for FREE trial version
+    * Make your mark at Tech.Ed 2007
+      With 180 sessions and 14 specialist tracks, Tech.Ed is not to be missed.
+    * Database development
+      You no longer have to take so many risks. Check out the secret weapon now.
+
+About Us | Contact Us | Membership | RSS Feeds
+Privacy Policy | Terms of Use
+
+Copyright © 2007 CNET Networks, Inc. All rights reserved.
+
+Other CNET Networks sites: ZDNet Australia | CNET.com.au | AppleSource
+Builder.com | Builder UK | TechRepublic

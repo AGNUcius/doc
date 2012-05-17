@@ -1,0 +1,2 @@
+If root has no password use:
+    sudo passwd

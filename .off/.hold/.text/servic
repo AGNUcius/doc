@@ -1,0 +1,12 @@
+Related: daemon, driver, good, sys
+
+$ sysv-rc-conf #Debian and UBUNTU
+
+$ chkconfig # on RedHat
+
+CodeProject.com/KB/dotnet/simplewindowsservice.aspx
+
+$ services.msc
+$ sc.exe query
+$ reg.exe query HKLM\system\CurrentControlSet\Services
+

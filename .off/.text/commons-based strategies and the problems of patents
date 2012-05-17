@@ -1,0 +1,85 @@
+www.sciencemag.org/cgi/content/full/305/5687/1110?ijkey=IJEyaBYYPM9zI&keytype=ref&siteid=sci
+
+Commons-Based Strategies and the Problems of Patents
+Yochai Benkler*
+
+The role of intellectual property in science has dramatically increased in the past 25 years. U.S. law has encouraged universities to patent their discoveries and license them commercially, judicial reforms have increased patent protection, and the trend has expanded internationally through trade treaties. The expansion occurred even though economic theory is ambivalent about the effects of patents on welfare and innovation (1). Empirical evidence suggests that patents are important in few industries, mostly pharmaceutical (2, 3), and that aggregate effects of strong protection are small and often negative (4, 5). Excessive patent protection has been criticized as impeding scientific research through "anticommons" effects (6) and as imposing cost barriers on access to medicines. Proposed solutions usually take the form of legal change, but the emerging model of commons-based production can be implemented by the scientific community without waiting for law reform.
+
+Commons-Based Production
+Property, contract, and managerial commands are the basic tools of managing mainstream production. By contrast, production is "commons-based" when no one uses exclusive rights to organize effort or capture its value, and when cooperation is achieved through social mechanisms other than price signals or managerial directions. Large-scale instances of such cooperation are "peer production" (7).
+
+Free software is the paradigm of commons-based production, as is the Linux kernel for peer production. Free software is based on a legal innovation, the GNU General Public License (GPL), which has been adopted with variations by 85% of open source projects (8). It permits anyone to use the software and to develop it, but no one can appropriate outputs exclusively. It requires improvers to share access to their improvements. The Linux kernel development process added an organizational innovation: It modularized the work and thereby harnessed thousands of volunteer developers and testers (9). The measurable quality of free software and its wide adoption have proved its value.
+
+Beyond software, the Internet abounds with commons-based peer production. Wikipedia (wikipedia.org) is a multilingual encyclopedia produced by 20,000 volunteers. A major Web index, the Open Directory Project (dmoz.org), is produced by 60,000 volunteers. SETI@Home processes radio astronomy data (setiathome.ssl.berkeley.edu), combining the excess computer cycles of 4.5 million PCs to create a supercomputer.
+
+Why do people do it? How do they organize without property and contract? Peer production modularizes work so that individuals can contribute at different levels of effort consistent with their motivation; contributions are then integrated into a usable whole. Instead of direct payment, commons-based production relies on indirect rewards: both extrinsic, enhancing reputation and developing human capital and social networks; and intrinsic, satisfying psychological needs, pleasure, and a sense of social belonging. Instead of exclusive property and contract, peer production uses legal devices like the GPL, social norms, and technological constraints on "antisocial" behavior.
+
+Nonproprietary frameworks for scientists. Science has long been the quintessence of nonproprietary production (10). Academic freedom to choose one's goals and open distribution of the inputs and outputs of the scientific process are its organizational norms. Some academic projects already offer working models for using the culture of science to solve the problems of patents.
+
+The open bioinformatics movement has focused on developing an open source model, providing open access to tools and research outputs. Visible successes include the Ensembl Genome Browser (www.ensembl.org) and resources offered by the National Center for Biotechnology Information (www.ncbi.nlm.nih.gov).
+
+The Public Library of Science (www.plos.org), based on the e-Biomed proposal (11), offers a model of commons-based, peer-reviewed scientific publication. It has a professional staff funded by philanthropic giving and author page charges. Papers published are freely available under a Creative Commons Attribution license. Creative Commons is an organization that created a menu of licenses that provide authors several ways to license their work openly (12).
+
+The ArXiv.org e-Print Archive offers a more radical alternative (13). Authors post physics papers on a server with no prepublication peer review. Postpublication criticism, a facility for version updating, and a tight-knit academic community where reputation effects are substantial provide accreditation and quality control.
+
+Harnessing nonscientists. National Aeronautics and Space Administration (NASA) clickworkers was an experiment (clickworkers.arc.nasa.gov/top) to see if volunteers, working in small increments, could do analysis normally done by a scientist or graduate student. Users were provided an interface that enabled them to mark craters on Mars images. In 6 months, over 85,000 users visited the site, many contributing to the effort. Their automatically computed consensus was equivalent in quality to the markings of a trained scientist (14).
+
+Folding@home may be the best- documented distributed computing project. It harnesses contributions of over 572,000 CPUs from 272,000 users. The processing power is used to simulate protein folding without a dedicated supercomputer and has resulted in multiple scientific publications (15).
+
+Proposal 1: Publicly Minded Licensing
+Patent royalty and licensing revenue provides an insignificant portion of total university revenues (see the table, below). Revenue from government-sponsored research outweighs patent revenues by an order of magnitude. These facts make it fiscally feasible and likely advantageous for universities to use their intellectual property rights to alleviate impediments of the patent system when applied to research tools and distribution in poor nations. Universities could cooperate to seek wide adoption of open licensing provisions. One model is PIPRA (Public Intellectual Property for Agriculture), a collaboration among agricultural research universities to share their intellectual property and retain rights to use their technologies for subsistence and specialty crop development (16). Collectively, universities would have substantial negotiating power with the biotechnology and pharmaceuticals industries.
+
+
+SELECTED REVENUES FROM U.S. UNIVERSITIES*
+	Revenues (millions $)
+Institution	Total	Licensing and royalties	Government grants and contracts
+All universities	227,000	1,270	31,430
+Univ. California	14,166	81	2,372
+Harvard	2,473	48	416
+Stanford	3,475	43	860
+Univ. Minn.	1,237	39	324
+Florida State	2,646	36	238
+Cal Tech	531	27dag	268
+*Sources for this information are as described (19). dagAlmost half of this amount is in income from a single initial public offering; without that offering, the revenue would be $15.7 million.
+Universities could adopt two varieties of license: an open research license (ORL) and a developing country license (DCL). An ORL would include two core elements:
+
+Reservation for research. The university would reserve a right to use and nonexclusively sublicense its technology for research and education. This is more permissive than, but consistent with, emerging practice since Madey clarified that the research exemption in patent law was illusory (17).
+
+Reciprocal nonexclusive license to research. The licensee and any sublicensee would grant back a nonexclusive license to the university to use and sublicense all technology that the licensee develops based on university technology, again, for research and education only.
+
+A DCL would add development, manufacture, and distribution of end-product drugs if distribution is limited to developing nations. It would permit generics to manufacture for developing nations, using the same licensing technique as the GPL.
+
+This approach would alleviate anticommons effects and patent-based limits on global distribution without significantly impacting pharmaceutical revenues. Universities and scientists would lose almost no revenue from end products, but would lose the remote likelihood of appropriating a basic enabling technology. Their gains would be reduced research impediments and improved public perception of universities as public interest organizations, not private businesses. This gain is far from symbolic. Minor increases in public funding of university science would make up for loss of the small probability of striking gold in research tools patents.
+
+Proposal 2: Peer Production
+Scientists can complement university licensing practices by adopting peer-production strategies. Although many think that science is too expensive to be done this way, people once thought the same of supercomputing. It would require identification of the components of scientific production and modularization of tasks to minimize the burden on any single contributor.
+
+Initially, anything that can be computer modeled has the same economic characteristics as free software and distributed computing. This is where current proposals for peer production of biomedical research for tropical diseases primarily focus (18). Adapting peer production to the laboratory is harder, but specifying its components can mark feasible paths. First, graduate students, post-docs, and scientists are parallel in life-cycle and motivational profile to free software developers. Scientists may be busier, but anyone who can find days to work on unexpected grant applications can find a few minutes or hours to contribute to other goals they value. Second, experiments that can be done with widely available equipment can be designed to fit peer production. Some equipment is ubiquitous and offers redundant capacity. Scientists interested in starting a project must specify the research program in fine-grained modules, preferably executable on widespread equipment--like discrete polymerase chain reaction (PCR) analyses. These could be placed on a Web site to allow contributors to perform analyses when their equipment is free and to upload results to the project site. Others could review and analyze results. In principle, this process could be used for abundant materials, perhaps including some laboratory organisms and animals. The person who builds the platform will require greater investment of effort, but will reap greater rewards. Repeat contributors may become coauthors on papers based on the results. Many contributors could add smaller contributions--spending 2 hours using an otherwise idle machine--for the benefit of finding a new treatment, gaining experience, or mention as a contributor.
+
+Experiments that require expensive equipment that has no downtime, or rare materials, may resist modularization. Some perceived bottlenecks may, however, merely be convenience-oriented and time-saving. A high-throughput process, such as automated sequencing, might be replaced by many scientists working in discrete increments using simpler equipment to achieve acceptable throughput (if sample and reagents availability and cost were solved). As distributed computing has shown, seemingly insurmountable equipment costs may sometimes be resolvable by reorganizing a process. Ultimately the problem of high-cost bottlenecks may limit the extent to which some processes can be made amenable to peer production. If small enough, however, residual costs may be covered by philanthropic and government funding.
+
+Scientists can learn from peer production how to organize their research projects to modularize research tasks and to integrate contributions from many low-intensity collaborators. This will increase their ability to pursue science that affects millions of lives, but cannot pay its way under the present system.
+
+References and Notes
+
+   1. K. Arrow, in The Rate and Direction of Inventive Activity: Economic and Social Factors [National Bureau of Economic Research (NBER), Cambridge, MA, 1962], p. 609.
+   2. R. Levin et al., Brookings Pap. Econ. Activ. 1987, 783 (1987).
+   3. W. M. Cohen et al., NBER Work. Pap. Ser. 2000 (w7552) (2000).
+   4. A. Jaffe, Res. Policy 29, 531 (2000).
+   5. J. Lerner, Am. Econ. Rev. 92 (2), 221 (2002).
+   6. M. A. Heller, R. S. Eisenberg, Science 280, 698 (1998).
+   7. Y. Benkler, Yale Law J. 112, 369 (2002).
+   8. J. Lerner, J. Tirole, J. Law Econ. Org. 21, in press; NBER Work. Pap. Ser. 2002 (w9363) (2002).
+   9. E. Raymond, The Cathedral and the Bazaar (O'Reilly, Cambridge, MA, 2001).
+  10. R. Merton, The Sociology of Science (Univ. of Chicago Press, Chicago, 1973).
+  11. H. Varmus, E-Biomed: A Proposal for Electronic Publication in the Biomedical Sciences (NIH, Bethesda, MD, 1999); available at www.nih.gov/about/director/pubmedcentral/ebiomedarch.htm.
+  12. L. Lessig, Free Culture (Penguin, New York, 2004).
+  13. M. Sincell, Science 293, 419 (2001).
+  14. B. Kanefsky et al., 32nd Lunar and Planetary Science Conf. Abstr., Houston, TX, 12 to 16 March 2001, 1272 (2001); available at www.lpi.usra.edu/meetings/lpsc2001/pdf/1272.pdf.
+  15. C. D. Snow et al., Nature 420, 102 (2002).
+  16. R. C. Atkinson et al., Science 301, 174 (2003).
+  17. Madey v. Duke University, 307 F.3d 1351 (Fed. Cir. 2002).
+  18. S. M. Maurer, A. Rai, A. Soli, in Biotechnology: Essays from Its Heartland (BASIC & QB3, San Francisco and Santa Cruz, CA, 2004), p. 33; available at www.qb3.org/pdfs/biotech1.pdf.
+  19. Sources: Aggregate revenues: National Center for Education Statistics, U.S. Dept. of Education, Enrollment in Postsecondary Institutions, Fall 2001, and Financial Statistics, Fiscal Year 2001 (2003), Table F; Association of University Technology Management, Annual Survey Summary FY 2002 (AUTM 2003), Table S-12. Individual institutions: publicly available annual reports of each university and/or its technology transfer office for FY 2003. 
+
+Yale Law School, Yale University, 127 Wall Street, New Haven, CT 06520, USA. E-mail: yochai.benkler@yale.edu

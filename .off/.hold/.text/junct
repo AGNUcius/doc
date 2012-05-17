@@ -1,0 +1,26 @@
+Related: link, reparse point
+
+Support.Microsoft.com/kb/205524/en-us
+"'
+Linkd.exe
+
+    * Grafts any target folder onto a Windows 2000 version of NTFS folder
+    * Displays the target of an NTFS junction point
+    * Deletes NTFS junction points that are created with Linkd.exe
+    * Location: Microsoft Windows 2000 Resource Kit
+
+Mountvol.exe
+
+    * Grafts the root folder of a local volume onto a Windows 2000 version of NTFS folder (or "mounts" the volume)
+    * Displays the target of an NTFS junction point that is used to mount a volume
+    * Lists the local file system volumes that are available for use
+    * Deletes the volume mount points that are created with mountvol.exe
+    * Location: Windows 2000 CD-ROM in the I386 folder
+
+Delrp.exe
+
+    * Deletes NTFS junction points
+    * Also deletes other types of reparse points, which are the entities that underlie junction points
+    * Aimed primarily at developers who create reparse points
+    * Location: Microsoft Windows 2000 Resource Kit
+'"

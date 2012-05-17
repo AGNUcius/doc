@@ -1,0 +1,17 @@
+====create with:
+clay, wood, glass
+
+
+====wash dishes
+Dish states:
+  Dirty: on table or being carried to tray at input door.
+  Dirty: one or two trays straddling sink or splash area at input door.
+  Clean: one or two tray at output door.
+  Clean: most tray slid into cupboard tracks.
+
+Cleaned trays (still full of dishes/silverware) may be slid into shelfless cupboards designed to accept them.
+
+This could cause scattering unless you pay some attention, and try to clump things in familiar areas.
+
+Lower this impact by:
+  Storing low-use items out of trays.

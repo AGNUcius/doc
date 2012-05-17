@@ -1,0 +1,33 @@
+Related: 3, arithmetic, CAD, calc, code, equation, fract, number, plot
+
+dealII.org >>deal.II is a C++ program library targeted at the computational solution of partial differential equations using adaptive finite elements. It uses state-of-the-art programming techniques to offer you a modern interface to the complex data structures and algorithms required.
+
+Antiprism.com >>Antiprism is a set of programs for generating, manipulating, transforming and visualising polyhedra.
+
+WWW710.Univ-Lyon1.fr/~exco/NanoEdit/nanoedit.html >>[translated from French]NanoEdit is an algebraic modeling environment interaction.  Nodes and leaf expressions are `` objects''.  It is very easy to incorporate its algorithms and data structures in NanoEdit, then we have a powerful user interface for test.
+
+GeoGebra.org or GeoGebra.sf.net (java) >>GeoGebra is a free and multi-platform dynamic mathematics software for schools that joins geometry, algebra and calculus. It received several international awards including the European and German educational software awards.
+
+FEniCS.org >>FEniCS is free software for automated solution of differential equations. We provide software tools for working with computational meshes, finite element variational formulations of PDEs, ODE solvers and linear algebra.
+
+MathGL.sf.net >>At this version (1.9) MathGL has more than 35000 lines of code, more than 55 general types of graphics for 1d, 2d and 3d data arrays. It can export graphics to raster and vector (EPS or SVG) formats. It has Qt, FLTK, OpenGL interfaces and can be used even from console programs. It has functions for data handling and script MGL language for simplification of data plotting. Also it has several types of transparency and smoothed lightning, vector fonts and TeX-like symbol parsing, arbitrary curvilinear coordinate system and many over useful things. It can be used from code written on C++/C/Fortran/Python/Octave and many other languages. Finally it is platform independent and free (under GPL v.2.0 license).
+
+SageMath.org >>Sage is a free open-source  mathematics software system licensed under the GPL. It combines the power of many existing open-source packages into a common Python-based interface.  Mission: Creating a viable free open source alternative to Magma, Maple, Mathematica and Matlab.
+
+Qmcalc.sf.net >>Qmcalc is a multi-function, multi-memory, programmable scientific calculator. with about the same capabilities of a Ti-82 Graphic Scientific Calculator minus a few unimplemented features, but also a few extras not included with the original Ti-82 graphic calculator.
+
+GCalc.sf.net >>When in the course of computing events it becomes apparent that not all calculators are created equal, one must turn no further than to GraphCalc. When the requirements of your computations exceed the capabilities of your four-function figurer, turn to GraphCalc. When you need to see what multiple compound exponential sinusoidal waves look like, turn to GraphCalc. Haven't we all at some point wanted to see what "sin(x)^2-3*ln(tan(x*pi))" looked like, and the Windows calculator just wasn't up to the task?
+
+U-M-P.sf.net >>Ump is a graphical, easy to use math program, which works with complex numbers, matrices, functions and much more.
+
+FreeMat.sf.net >>FreeMat is a free environment for rapid engineering and scientific prototyping and data processing. It is similar to commercial systems such as MATLAB from Mathworks, and IDL from Research Systems, but is Open Source.
+
+Jirka.org/genius.html >>Genius is a general purpose calculator program similiar in some aspects to BC, Matlab, Maple or Mathematica. It is useful both as a simple calculator and as a research or educational tool. The syntax is very intuitive and is designed to mimic how mathematics is usually written. GEL is the name of its extention language, it stands for Genius Extension Language, clever isn't it? In fact, many of the standard genius functions are written in GEL itself.
+
+Mathomatic.org >>Mathomatic is a portable, general purpose CAS (Computer Algebra System) written entirely in the C programming language.
+
+MathStudio.sf.net >>MathStudio is an open-source project conceived to make typing and resolution of mathematical expressions easier and more comfortable.
+
+K3DSurf.sf.net >>K3DSurf is a program to visualize and manipulate Mathematical models in three, four, five and six dimensions. K3DSurf supports Parametric equations and Isosurfaces.
+
+HyperFun.org and HyperFun.sf.net >>HyperFun is a geometric modeling language and software tools supporting implicit surfaces, convolution surfaces, constructive solids, and more general function representation (FRep) objects.

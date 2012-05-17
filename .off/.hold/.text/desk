@@ -1,0 +1,16 @@
+Related: assoc, file, GNUnix, menu, UI, window
+
+PaperDesk.sf.net >>Manage every Window, Package, File and Setting in your GNU OS. Integrating the Window Manager, Control Panel, Package Manager, File Manager, Edit and Viewing of Text, Images, Music, Video, ...
+
+EmergeDesktop.org >>Emerge Desktop is a replacement windows "shell" (the desktop environment normally provided by Windows Explorer) for Windows 2000 and above. In order to replace Windows Explorer as a shell, it provides a system tray (the area that collects the icons collected at the lower right corner in Explorer), called emergeTray. It will also provide access to the users programs (normally accessed with the windows "start" button) via a right-click on the desktop, via emergeCore.
+
+LXDE.org >>"Lightweight X11 Desktop Environment", is an extremely faster, performing and energy saving desktop environment. It is maintained by an international community of developers and comes with a beautiful interface, multi-language support, standard keyboard short cuts and additional features like tabbed file browsing. LXDE uses less CPU and less RAM. It is especially designed for cloud computers with low hardware specifications like netbooks, mobile devices (e.g. MIDs) or older computers. LXDE can be installed with distributions like Ubuntu or Debian. It provides a fast desktop experience connecting easily with applications in the cloud. LXDE supports a wealth of programs, that can be installed with Linux systems locally. The source code of LXDE is licensed partly under the terms of the General Public License and partly under the LGPL.
+
+iDesk.sf.net >>iDesk gives users of minimal wm's (fluxbox, blackbox, openbox, windowmaker...) icons on their desktop.
+
+WDesktop.org >>WDE Toolkit is multiplatform C++ library that provides fast and efficient graphics user interface. It implements own windowing system for child controls and own software accelerated painters (MMX, SSE or SSE2 acceleration if CPU allows it). Main philosophy of this library is to be small, but optimized. WDE Toolkit often creates double buffer for top level windows that avoids flickering and it's able to cache exposure events.
+
+www.NonGNU.org/antiright >>This is the homepage of the AntiRight desktop environment. AntiRight is a lightweight desktop environment that uses the GTK+ 2.x toolkit. AntiRight tries to maintain low hardware requirements and low user experience requirements while still catering to advanced users.
+
+Tayasui.com/Grape.html >>is a visual and spacial way to organize temporary files on the desktop.
+

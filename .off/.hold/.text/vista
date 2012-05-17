@@ -1,0 +1,22 @@
+Related: Windows
+
+CommandWindows.com/vista-tips.htm
+
+BlackViper.com/WinVista/servicecfg.htm
+
+Press 'Windows-Key' (not Win-R), type "cmd" (without quotes) but don't press ENTER - instead press Ctrl-Shift-ENTER to make a terminal running with Admin rights.
+
+
+$ reg.exe query HKEY_CURRENT_USER\Software\Microsoft\Windows\DWM ColorizationOpaqueBlend
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\DWM]
+"Composition"=dword:00000001
+"ColorizationOpaqueBlend"=dword:00000000
+"CompositionPolicy"=dword:00000000
+
+
+==Enable the Admin account:
+$ net.exe user administrator SOMEPASSWORD
+$ net.exe user administrator /active:yes

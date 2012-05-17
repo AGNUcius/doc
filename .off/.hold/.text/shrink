@@ -1,0 +1,25 @@
+Related: disk, volume
+
+http://forums.virtualbox.org/viewtopic.php?t=169&highlight=vditool
+
+explore-backup wizard
+mount as writable
+dismount
+
+$ sbmount.exe
+"'
+    shrink      = There are two ways to shrink a volume using this tool.
+                  One way is to shrink the volume as part of a dismount
+                  operation using the optional [s]hrink parameter.
+                  Shrinking during dismount does not require administrative
+                  privileges, and therefore does not involve UAC dialogs.
+                  Shrinking using the s<h>rinkVolume command does require
+                  administrative privileges.  For practical purposes
+                  it's generally best to simply use [s]hrink as part of
+                  a dismount command.  Limitations: Shrink will only work
+                  under Windows Vista/2008+ against a writeable mount of
+                  a backup image that contains an NTFS file system.
+                  The shrink performed by either of these options is a
+                  truncation shrink - it will shrink the file system so
+                  that its new size extends to the last allocated cluster.
+'"

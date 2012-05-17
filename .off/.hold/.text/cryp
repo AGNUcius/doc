@@ -1,0 +1,75 @@
+Related: cert, cipher, entropy, PGP, scramble, sign
+
+DiskCryptor.de >>DiskCryptor is an open-source software licensed under the GPL Version 3. It has been founded and is developed by russian software developers. More information about the DiskCryptor project is available on freed0m.org - however, only few pages are available in english.
+
+Jetico.com/bcrypt.htm >>BestCrypt provides users with the highest security level as well as with a number of various ways of encrypting data
+
+Scherrer.cc/crypt >>Open Source AES and TwoFish Linux compatible on the fly encryption for Windows XP and Windows 2000.
+
+FreeOTFE.org >>FreeOTFE is a free, open source, "on-the-fly" transparent disk encryption program for PCs and PDAs    Using this software, you can create one or more "virtual disks" on your PC/PDA. These disks operate exactly like a normal disk, with the exception that anything written to one of them is transparently, and securely, encrypted before being stored on your computer's hard drive.
+
+cryptmount.sf.net >>cryptmount is a utility for GNU/Linux operating systems which allows an ordinary user to mount an encrypted filing system without requiring superuser privileges.
+
+TrueCrypt.org >>Free open-source disk encryption software for Windows Vista/XP, Mac OS X, and Linux
+
+MCrypt.sf.net >>MCrypt is a replacement for the old crypt() package and crypt(1) command, with extensions. It allows developers to use a wide range of encryption functions, without making drastic changes to their code. It allows users to encrypt files or data streams without having to be cryptographers. Above all, it allows you to have some really neat code on your machine. :)
+"'
+MCrypt Functions implemented:
+
+Algorithm	Encumbered	Block Size	Key Type	Notes
+3-Way	No	96	Secret
+Arcfour	Probably not	Stream	Secret	Name is derived from "Alternative RC4". It is a mathematical clone of RC4, apparently to bypass the IP limitations of the original formulation. Arcfour is usually treated as unencumbered, and seems safe to regard as such, in general. IP interpretations at a given time or place may be different. If it is reclassed as encumbered, it will be removed from the main code.
+Blowfish	No	64	Secret
+Cast	No	64	Secret
+DES	No	64	Secret
+Enigma	No	Stream	Secret
+Gost	No	64	Secret
+Idea	No	64	Secret
+RC2	No	64	Secret
+RC6	Yes	128	Secret
+Loki	No	128	Secret
+Mars	Yes	128	Secret
+Panama	No	Stream	Secret	Fails Test
+Rijndael	No	128, 192, 256	Secret	AES if used in 128-bit mode
+Safer	No	64	Secret
+Safer+	No		Secret
+Serpent	No	Block	Secret
+Skipjack	Doubtful	64	Secret	External module. Written by NSA for Clipper chip. Origins are murky.
+Twofish	No	128	Secret
+Triple DES	No	64	Secret
+Wake	No		Secret
+XTea	No	64	Secret
+'"
+
+
+Botan.RandomBit.net >>Botan is a BSD-licensed crypto library written in C++. It provides a wide variety of basic cryptographic algorithms, X.509 certificates and CRLs, PKCS #10 certificate requests, a filter/pipe message processing system, and a wide variety of other features, all written in portable C++.
+"'
+Botan currently includes the following cryptographic algorithms:
+
+    * Public Key Algorithms: RSA, DSA, Diffie-Hellman, ElGamal, Nyberg-Rueppel, Rabin-Williams
+    * Block Ciphers: AES, Blowfish, CAST-128, CAST-256, DES/DESX/3DES, GOST, IDEA, KASUMI, Lion, Luby-Rackoff, MARS, MISTY1, RC2, RC5, RC6, SAFER-SK, SEED, Serpent, Skipjack, Square, TEA, Twofish, XTEA
+    * Stream Ciphers: ARC4, Turing, WiderWake4+1, ISAAC, SEAL
+    * Hash Functions: MD2, MD4, MD5, RIPEMD-128, RIPEMD-160, SHA-1, SHA-256, SHA-384, SHA-512, Tiger, Whirlpool, FORK-256, HAS-160, HAVAL
+    * Checksums: Adler32, CRC24, CRC32
+    * MACs: HMAC, CMAC, ANSI X9.19 MAC
+
+In addition, there is support for all or parts of: IEEE 1363-2000/1363a, X.509v3/PKIX certificates, PKCS #1/#3/#5/#8/#10, ANSI X9.{9,19,23,30,31,32}, FIPS 46-3/180-1/186-2, and various other standards. Interfaces of various levels of flexibility/complexity are included in the library, and are described in the included documentation.
+'"
+
+CryptoPP.com >>Crypto++ Library is a free C++ class library of cryptographic schemes.
+"'
+Currently the library contains the following algorithms:
+algorithm type	name
+high speed stream ciphers	Panama, Salsa20, Sosemanuk
+AES and AES candidates	AES (Rijndael), RC6, MARS, Twofish, Serpent, CAST-256
+other block ciphers	IDEA, Triple-DES (DES-EDE2 and DES-EDE3), Camellia, RC5, Blowfish, TEA, XTEA, Skipjack, SHACAL-2
+block cipher modes of operation	ECB, CBC, CBC ciphertext stealing (CTS), CFB, OFB, counter mode (CTR)
+message authentication codes	VMAC, HMAC, CBC-MAC, DMAC, Two-Track-MAC
+hash functions	SHA-1, SHA-2 (SHA-224, SHA-256, SHA-384, and SHA-512), Tiger, WHIRLPOOL, RIPEMD-128, RIPEMD-256, RIPEMD-160, RIPEMD-320
+public-key cryptography	RSA, DSA, ElGamal, Nyberg-Rueppel (NR), Rabin, Rabin-Williams (RW), LUC, LUCELG, DLIES (variants of DHAES), ESIGN
+padding schemes for public-key systems	PKCS#1 v2.0, OAEP, PSS, PSSR, IEEE P1363 EMSA2 and EMSA5
+key agreement schemes	Diffie-Hellman (DH), Unified Diffie-Hellman (DH2), Menezes-Qu-Vanstone (MQV), LUCDIF, XTR-DH
+elliptic curve cryptography	ECDSA, ECNR, ECIES, ECDH, ECMQV
+insecure or obsolescent algorithms retained for backwards compatibility and historical value	MD2, MD4, MD5, Panama Hash, DES, ARC4, SEAL 3.0, WAKE, WAKE-OFB, DESX (DES-XEX3), RC2, SAFER, 3-WAY, GOST, SHARK, CAST-128, Square
+'"
+

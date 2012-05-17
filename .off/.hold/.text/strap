@@ -1,0 +1,23 @@
+Related: boot, ClickOnce, ClickThrough, pack, start
+
+Blogs.MSDN.com/astebner/archive/2009/02/20/9436778.aspx >>Possible issues with the Visual Studio 2008 bootstrapper and how to work around them
+
+Microsoft.com/DOWNLOADS/details.aspx?familyid=BF253CFD-1EFC-4FC5-BA7E-6A6F21403495 >>The Setup.exe Bootstrapper sample complements Dotnetfx.exe and a .NET Framework application's Microsoft Windows Installer-based setup program (.msi file). The purpose of the sample is to demonstrate how to create a single setup program that, when launched, installs the .NET Framework redistributable package Dotnetfx.exe, if necessary, and then installs a .NET Framework application.
+
+LearnerPS-DotNet.BlogSpot.com/2007/04/bootstrapper-bootstrapping.html >>
+
+MSEiTSetupBootstrap.CodePlex.com >>MSE-iT Setup Bootstrapper is a library to build lightweight bootstrappers for MSI installations. It encapsulates all information into one setup.exe file (resources in a compressed form) and makes it easy to detect and download a missing .NET Framework. It is developed in C++.
+
+Blogs.MSDN.com/chrsmith/archive/2006/03/10/Bootstrapper-SDK-R1.aspx >>The big news however, is that I have finally uploaded the first edition of the Visual Studio 2005 Generic Bootstrapper SDK!  In it you will find some tools, files, and documentation to help you in creating custom packages.
+
+Code.MSDN.Microsoft.com/bmg (was BMG.CodePlex.com ?) >>Bootstrap Manifest Generator
+
+DotNETInstaller.CodePlex.com >>dotNetInstaller enables the developer to define the application prerequisites and install the correct version(s) of these components in a predictable order based on the processor architecture, user operating system type and language, allow the user to download these components from the web, install these components directly from a single packaged setup, local media or both. dotNetInstaller is very feature rich and runs on all known Windows operating systems with a very tiny footprint.  A boostrapper doesn't replace tools like InstallShield, Wise, Visual Studio Setup and Deployment Project or Wix. The goal is to create an application to help users with installing the correct prerequisites. Most real world applications need to install several components to work properly, including Windows Service Packs, Internet Explorer, MDAC or .NET Framework. This kind of applications are most commonly known as bootstrappers. dotNetInstaller is such a bootstrapper.
+
+www.CodeProject.com/KB/install/dotNetInstaller.aspx?fid=23954&fr=26
+
+RobMensching.com/blog/posts/2009/7/14/Lets-talk-about-Burn
+
+MSDN.Microsoft.com/en-us/magazine/cc163899.aspx >>Use the Visual Studio 2005 Bootstrapper to Kick-Start Your Installation
+
+MSDN.Microsoft.com/en-us/library/ms164294.aspx >>GenerateBootstrapper Task    Provides an automated way to detect, download, and install an application and its prerequisites. It serves as a single installer that integrates the separate installers for all the components making up an application.

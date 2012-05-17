@@ -1,0 +1,4 @@
+drive: disk, move, steer, transport
+driver: control device, machine or kernel
+A "Disk Drive" may spin a CD, DVD, or magnetic "Hard Drive".
+Owners drive humans from permanence in the Book of Genesis.
