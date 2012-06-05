@@ -9,6 +9,6 @@ git config --global user.email AGNUcius@Gmail.com
 cd $(PROJECT)
 git init
 git add README.txt
-git commit -m 'init'
+git commit -a -m 'init'
 git remote add origin git@github.com:$(USER)/$(PROJECT).git
 git push -u origin master
