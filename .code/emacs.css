@@ -1,26 +1,28 @@
-body {background:#000; color:#aaa;}
+body {background:#555; color:#000;}
 
-#main {background:#000; border:1em solid #222;}
-
-#header,#footer {background:#222;}
+/* #main {background:#555; border:1em solid #222;} */
+/* #header,#footer {background:#222;} */
 
 span.rel{background:#070; color:#000;}
 span.date{background:#aaa; color:#000;}
 
-span.quot,span.quot2,span.quot3{color:#ccc;}
+/* span.quot,span.quot2,span.quot3{color:#ccc;} */
 
-span.quot{background:#022;}
-span.quot2{background:#220;}
-span.quot3{background:#202;}
+span.quot,span.quot2,span.quot3{
+	/* text-shadow: #000 1px 0px 0px; */
+}
 
-span.cmnt{background:#020;}
-span.shell{background:#222;}
-span.type{background:#200;}
+span.cmnt{background:#252;}
+span.shell{background:#555;}
+span.type{background:#522;}
 
-/* span.h1,span.h2,span.h3,span.h4{background:#222;} */
+span.h1,span.h2,span.h3,span.h4{background:#666;}
 
-a{color:LightSkyBlue;}
-a:visited{color:LightSteelBlue;}
-a:hover, a:focus{color:blue; background:#ff0;}
-a.ext{color:chocolate;}
-a.ext:hover, a.ext:focus{color:red}
+
+a{color:#00f;}
+a:visited{color:#222;}
+
+a.ext{color:#f55;}
+/* a:hover, a:focus{border-bottom: thick solid;} */
+a:hover, a:focus{background:#fff;}
+/* a.ext:hover, a.ext:focus{background:#600; color:#ff0;} */

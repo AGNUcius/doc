@@ -1,9 +1,9 @@
 Related: file, wipe
 
-Deleting genetic lines increases profit through artificial scarcity.
-
 ==Recover
 www.codeproject.com/KB/files/NTFSParseLib.aspx >>It seems a hard job, but it took me less than an hour to implement it by using this library, and much time was wasted on adjusting the dialog interface. Of course, this is rather a simple test program than a commercial product. I didn't check if the freed clusters had been modified by another file (it's one reason why commercial tools take such a long time when analyzing a big volume).
+
+TSKMount-FUSE.sf.net >>TSKmount is a Fuse filesystem written in perl and based on The Sleuth Kit tools. It is intended to provide an easy way to recover deleted files over ext2, vfat (FAT 12/16/32) and NTFS filesystems.
 
 NTFSUndelete.GoogleCode.com >>NTFS Undelete is free software that allows to recover deleted files. It recovers files directly from hard drive, and it will work even if Recycle Bin is empty.
 

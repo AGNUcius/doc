@@ -1,9 +1,107 @@
+Related: vc
+
+
+==Intro
+Git-SCM.com >>The fast version control system
+
+Kernel.org/pub/software/scm/git/docs
+
+sunoano.name/ws/public_xhtml/scm.html
+
+www-cs-students.stanford.edu/~blynn/gitmagic >>Git is a version control Swiss army knife. A reliable versatile multipurpose revision control tool whose extraordinary flexibility makes it tricky to learn, let alone master.
+
+Eagain.net/articles/git-for-computer-scientists >>Quick introduction to git internals for people who are not scared by words like Directed Acyclic Graph.
+
+WikiBooks.org/wiki/Source_Control_Management_With_Git
+
+WhyGitIsBetterThanX.com >>This site is here because I seem to be spending a lot of time lately defending Gitsters against charges of fanboyism, bandwagonism and koolaid-thirst. So, here is why people are switching to Git from X, and why you should too.
+
+==Tools
+MSYSGit.GoogleCode.com >>Historically, Git on Windows was only officially supported using Cygwin. To help make a native Windows version, this project was started, based on the fork.
+
+TortoiseGit.GoogleCode.com >>It is porting TortoiseSVN to TortoiseGit The latest release 0.9.1.0 This release can complete regular task, such commit, show log, diff two version, create branch and tag, Create patch and so on.
+
+
+==Hosting
+repo.or.cz
+Gitorious.org
+GitHub.com
+
+
+= Quick Reference
+Jonas.Nitro.dk/git/quick-reference.html
+"'
+Getting help:
+git help command 	or
+git command --help 	Show help for a command
+Repository creation:
+git init 	Create a repository in the current directory
+git clone url 	Clone a remote repository into a subdirectory
+File operations:
+git add path 	Add file or files in directory recursively
+git rm path 	Remove file or directory from the working tree
+      -f 	Force deletion of file(s) from disk
+git mv path destination 	Move file or directory to new location
+      -f 	Overwrite existing destination files
+git checkout [rev] file 	Restore file from current branch or revision
+      -f 	Overwrite uncommitted local changes
+Working tree:
+git status 	Show status of the working tree
+git diff [path] 	Show diff of changes in the working tree
+git diff HEAD path 	Show diff of stages and unstaged changes
+git add path 	Stage file for commit
+git reset HEAD path 	Unstage file for commit
+git commit 	Commit files that has been staged (with git-add)
+      -a 	Automatically stage all modified files
+git reset --soft HEAD^ 	Undo commit & keep changes in the working tree
+git reset --hard HEAD^ 	Reset the working tree to the last commit
+git clean 	Clean unknown files from the working tree
+Examining History:
+git log [path] 	View commit log, optionally for specific path
+git log [from[..to]] 	View commit log for a given revision range
+      --stat 	List diffstat for each revision
+      -S'pattern' 	Search history for changes matching pattern
+git blame [file] 	Show file annotated with line modifications
+Remote repositories - remotes:
+git fetch [remote] 	Fetch changes from a remote repository
+git pull [remote] 	Fetch and merge changes from a remote repository
+git push [remote] 	Push changes to a remote repository
+git remote 	List remote repositories
+git remote add remote url 	Add remote to list of tracked repositories
+Branches:
+git checkout branch 	Switch working tree to branch
+      -b branch 	Create branch before switching to it
+git branch 	List local branches
+git branch -f branch rev 	Overwrite existing branch, start from revision
+git merge branch 	Merge changes from branch
+Exporting and importing:
+git apply - < file 	Apply patch from stdin
+git format-patch from[..to] 	Format a patch with log message and diffstat
+git archive rev > file 	Export snapshot of revision to file
+      --prefix=dir/ 	Nest all files in the snapshot in directory
+      --format=[tar|zip] 	Specify archive format to use: tar or zip
+Tags:
+git tag name [revision] 	Create tag for a given revision
+      -s 	Sign tag with your private key using GPG
+      -l [pattern] 	List tags, optionally matching pattern
+File status flags:
+M modified 	File has been modified
+C copy-edit 	File has been copied and modified
+R rename-edit 	File has been renamed and modified
+A added 	File has been added
+D deleted 	File has been deleted
+U unmerged 	File has conflicts after a merge
+Last updated 02-Jun-2007 19:39:04 CEST
+'"
+
+
+
+==Init Machine
 git config --global user.name "Your Name"
-git config --global user.email AGNUcius@Gmail.com
+git config --global user.email your@email.com
 
-==Add github.com project
-
-====Add ssh key:
+ssh-keygen -t rsa -C "your@email.com"
+copy ~/.ssh/id_rsa.pub to the git host (such as github)
 
 ====Init project
 cd $(PROJECT)
@@ -12,3 +110,8 @@ git add README.txt
 git commit -a -m 'init'
 git remote add origin git@github.com:$(USER)/$(PROJECT).git
 git push -u origin master
+
+
+
+====Clone project with write access
+git clone git@github.com:AGNUcius/GNUnix.git

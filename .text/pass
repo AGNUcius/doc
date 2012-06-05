@@ -1,4 +1,4 @@
-Related: ACL, code, crack, hack, key, secure, recover, rescue, reset, word
+Related: ACL, admin, code, crack, hack, key, secure, recover, rescue, reset, word
 
 ==Microsoft Windows
 $ net.exe user USERNAME * /domain #reset a domain password
@@ -9,6 +9,8 @@ $ control userpasswords2
 $ rundll32.exe keymgr.dll, KRShowKeyMgr
 
 IHTeam.net/eden-live >>Welcome to the Eden Project! This small distribution was born to retrive passwords and sensitive files on Windows and Unix partitions.
+
+Ophcrack.sf.net >>Ophcrack is a Windows password cracker based on a time-memory trade-off using rainbow tables. This is a new variant of Hellman's original trade-off, with better performance. It recovers 99.9% of alphanumeric passwords in seconds.
 
 CDSlow.WebHost.ru/ntpwedit >>NTPWEdit based on sources from The Offline NT Password Editor (chntpw version 0.99.4 070409 (decade)) (c) 1997-2007 Petter Nordahl-Hagen. In fact, NTPWEdit is a Win32 GUI port of chntpw.
 

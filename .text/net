@@ -4,6 +4,9 @@ curl, wget, wput, netsh, ipconfig, ifconfig, dhclient
 
 Wicd.org >>Wicd is an open source wired and wireless network manager for Linux which aims to provide a simple interface to connect to networks with a wide variety of settings.
 
+Packet-O-Matic.org >>packet-o-matic is a real time packet processor under the GPL license. It mainly does network forensics. It is able to dump, log multiple informations about various types of connections. It reads the packet from an input module, match the packet using rules and connection tracking information and then send it to a target module. For example, it can read an HTTP connection, output a log file in the same format than apache log files and also dump credential informations along with the payload of the request.
+This has been tested on Linux/x86, Linux/x86_64, Linux/hppa, Linux/sparc, FreeBSD/x86, Solaris/sparc and OSX/ppc.
+
 Miechu.pl/freemeter >>Monitor network bandwidth (C#.NET 2k/XP+). Desktop and Systray graph. Configurable connection speed, update interval, color, transparency. Monitor any or all network interfaces. Ping/Trace/UPnP utilities. Email notifier (POP/IMAP). Requires .NET 2.0. Written by David Schultz and Mieszko Lassota.
 
 Sector.sf.net >>Sector/Sphere supports distributed data storage, distribution, and processing over large clusters of commodity computers. Sector is a high performance, scalable, and secure distributed file system. Sphere is a high performance parallel data processing engine that can process Sector data files with very simple programming interfaces. Sector/Sphere can be broadly compared to Google's GFS/MapReduce stack, but differes several key design choices and provides better performance.
@@ -20,7 +23,7 @@ wormulon.net/slurm >>slurm started as a FreeBSD port of the Linux ppp link monit
 
 AngryZiber.com >>Angry IP Scanner (or simply ipscan) is an open-source and cross-platform network scanner designed to be fast and simple to use. It scans IP addresses and ports as well as has many other features. It is widely used by network administrators and just curious users around the world, including large and small enterprises, banks, and government agencies. It runs on Linux, Windows, and Mac OS X, possibly supporting other platforms as well.
 
-MetaGeek.net/products/inssider >>inSSIDer is an award-winning free Wi-Fi network scanner for Windows Vista and Windows XP. Because NetStumbler doesn't work well with Vista and 64-bit XP, we built an open-source Wi-Fi network scanner designed for the current generation of Windows operating systems. A year later, inSSIDer was discussed by Lifehacker and Tekzilla!
+MetaGeek.net/products/inssider and MetaGeek.net/svn/Inssider/trunk >>inSSIDer is an award-winning free Wi-Fi network scanner for Windows Vista and Windows XP. Because NetStumbler doesn't work well with Vista and 64-bit XP, we built an open-source Wi-Fi network scanner designed for the current generation of Windows operating systems. A year later, inSSIDer was discussed by Lifehacker and Tekzilla!
 
 Packetyzer.sf.net >>Packetyzer provides a Windows interface for the Ethereal packet capture and dissection library. Ethereal is used by network professionals around the world for troubleshooting, analysis, software and protocol development, and education. Ethereal has all of the standard features expected in a protocol analyzer, and several features not otherwise available.
 
@@ -148,7 +151,7 @@ Netatalk.sf.net >>Netatalk is a freely-available, kernel level implementation of
 If, while trying to connect to a CIFS or SMB share, you receive: "'Multiple connections to a server or shared resource by the same user, using more than one user name, are not allowed. Disconnect all previous connections to the server or shared resource and try again.'" try the following:
 
 $ net use #this will tell us the ServerName\ShareName we need to DELETE
-$ net use /DELETE \\ServerName\ShareName
+$ net use \\ServerName\ShareName  /DELETE
 
 
 Support.Microsoft.com/kb/242468 NON-FREE! >>Netsh.exe is a tool an administrator can use to configure and monitor Windows-based computers at a command prompt. With the Netsh.exe tool, you can direct the context commands you enter to the appropriate helper, and the helper then carries out the command. A helper is a Dynamic Link Library (.dll) file that extends the functionality of the Netsh.exe tool by providing configuration, monitoring, and support for one or more services, utilities, or protocols. The helper may also be used to extend other helpers.

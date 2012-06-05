@@ -1,17 +1,5 @@
 Related: burn, CD, disk, driver, file, fstab, ISO, link, ntfs, sbmount, USB
 
-==Mount Windows Share (SMB/CIFS)
-WinIP: IP of the Windows machine.
-ShareName: Name of the share, such as c$.
-
-Escape any of the following characters with a backslash:    (, ), &, *
-
-$ mkdir /mnt/WinIP/ShareName
-$ mount -t cifs //WinIP/ShareName /mnt/WinIP/ShareName -o user=YourUserName
-
-If you want to specify a domain and password, use:
-$ mount -t cifs //WinIP/ShareName /mnt/WinIP/ShareName -o domain=YourDomain,user=YourUserName,pass=YourPassWord
-
 WinFlux.GoogleCode.com >>WinFlux: Filesystems in Windows Userspace!
 
 Glandium.org/projects/vmfs-tools >>Originally loosely based on the vmfs code from fluidOps, this set of tools has since evolved to handle more features from VMFS, such as extents, and allows to access VMFS through the standard Linux VFS with the help of the FUSE framework.
@@ -19,6 +7,21 @@ Glandium.org/projects/vmfs-tools >>Originally loosely based on the vmfs code fro
 Ltr-Data.se/opencode.html ImDisk is a virtual disk driver for Windows NT/2000/XP/2003/Vista/2008. It can use one or more disk image files to create virtual hard disk, floppy or CD/DVD drives .The install package installs a console-mode control program called imdisk.exe and a Control Panel applet. After install is finished, type imdisk without parameters for syntax help or double click the ImDisk icon in the Control Panel. It also adds a menu item in Windows Explorer so that you can right-click on a file to mount it as a virtual disk drive. Users of mdconfig in FreeBSD will probably be familiar with the command line syntax of imdisk.exe. The driver, service and control program can be uninstalled using the Add/Remove programs applet in the Control Panel. No reboot is required for installing or uninstalling.
 
 ChitChat.at.InfoSeek.co.jp/vmware/vdk.html >>With VDK you can mount a VMware virtual disk to your Windows hosts and use them as another disk drive attached to your system.
+
+==Mount Windows Share (SMB/CIFS)
+$ mkdir /mnt/WindowsMachineOrIP/ShareName
+$ mount -t cifs //WindowsMachineOrIP/ShareName /mnt/WindowsMachineOrIP/ShareName -o domain=YourDomain,user=YourUserName,pass=YourPassWord
+
+Use the backslash '\' to escape any of: (, ), &, *, \
+
+
+$ mount -t cifs //WindowsMachineOrIP/ShareName /mnt/WindowsMachineOrIP/ShareName -o credentials=~/WindowsCredentialsFile.txt
+
+__file: ~/WindowsCredentialsFile.txt
+domain=SomeDomain
+user=YourUserName
+pass=YourPassWord
+__
 
 
 ==ISO

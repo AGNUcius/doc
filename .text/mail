@@ -1,12 +1,5 @@
 Related: chat, collab, commun, connect, IMAP, MAPI, net, POP, post, [E]SMTP, web
 
-emailman.com
-
-OfflineIMAP.org
-
-NotMuchMail.org
-
-
 ==Clients
 UltraFunk.com/popcorn >>Popcorn is an e-mail client that uses the Post Office Protocol (POP) to connect to your Internet Service Provider's (ISP) mail server and downloads the e-mail stored on it. When an e-mail is sent to your address it is held on an e-mail server until it is deleted. Usually messages are deleted as an e-mail client downloads them, however it is possible to download these messages without deleting them until you wish to remove them permanently.
 
@@ -15,6 +8,8 @@ Virtual-Access.org >>Virtual Access is a mature and well established Windows mai
 Courier-MTA.org/cone >>Cone is a text-based mail client. Cone seamlessly handles multiple POP3, IMAP accounts, and local mail folders. Cone is also a simple newsreader. Cone's interface is foolproof enough to be used by inexperienced users, but it also offers advanced features for power users.
 
 fdm.sf.net >>fdm is a simple, lightweight replacement for mail fetch, filter and delivery programs such as fetchmail and procmail. It can fetch using POP3 or IMAP (with SSL) or from stdin, and deliver to a pipe, file, maildir, mbox or SMTP server, based on regexp
+
+NotMuchMail.org >>Notmuch -- The mail indexer
 
 LinuxMafia.com/faq/Mail/muas.html >>Mail User Agents (MUAs) for Linux
 
@@ -34,15 +29,34 @@ DavMail.sf.net >>Ever wanted to get rid of Outlook ? DavMail is a POP/IMAP/SMTP/
 
 Mahogany.sf.net >>Mahogany is an OpenSource cross-platform mail and news client. It is available for X11/Unix and MS Win32 platforms, supporting a wide range of protocols and standards, including SMTP, POP3, IMAP, NNTP (including SSL support for all of them) and full MIME support.
 
+
+
+==== IMAP, POP3
+OfflineIMAP.org >>OfflineImap synchronizes emails between two repositories, so that you can read the same mailbox from multiple computers. It supports IMAP as REMOTE repository and Maildir/IMAP as LOCAL repository. See below for a full list of features.
+
+isync.sf.net >>isync: free IMAP and MailDir mailbox synchronizer
+
+Caliban.org/ruby/rit.shtml >>rit is the Ruby IMAP tool. It can be used to manipulate mailboxes over IMAP, allowing you to copy and delete mailboxes and their contents.
+
+Dovecot.org >>Dovecot is an open source IMAP and POP3 server for Linux/UNIX-like systems, written with security primarily in mind. Dovecot is an excellent choice for both small and large installations. It's fast, simple to set up, requires no special administration and it uses very little memory.
+
+Fetchmail
+
+CyrusIMAP.web.cmu.edu >>Cyrus is a highly scalable enterprise mail system designed for use in enterprise environments of various sizes using standards based technologies. Cyrus technologies scale from independent use in email departments to a system centrally managed in a large enterprise.
+
+BincIMAP.org abandoned?
+
+FreePOPs.org
+
+IMAPEngine.org >>IMAPEngine is an IMAP email server that stores all email and mailbox data within a tdbengine database structure. Thus it provides high performance even with a huge number of email accounts, messages and folders.
+
 MMM3.sf.net >>Magic Mail Monitor (MMM) is a free POP3 mail monitor with multiple accounts support. It sits silently in your system tray, and notifies you about new messages in your mailboxes. Then you can preview messages and delete unwanted mail in order to avoid spam and viruses.
 
 Mailcheck.sf.net >>Mailcheck is a simple, command line, configurable tool that allows multiple mailboxes to be checked for the existence of new mail messages. It supports both mbox and maildir-style mailboxes. It also supports remote POP3 and IMAP mailboxes.
 
 Alumnit.ca/wiki/index.php?page=RetchMail >>RetchMail is the world's most stupidly fast POP3 retriever.
 
-siMail.si >>
-
-Blat.net (Blat.sf.net) >>Blat is a Win32 command line utility that sends eMail using SMTP or post to usenet using NNTP.
+Blat.net, Blat.sf.net >>Blat is a Win32 command line utility that sends eMail using SMTP or post to usenet using NNTP.
 
 Hastymail.org >>Hastymail is a full featured IMAP/SMTP client written in PHP.
 
@@ -105,7 +119,7 @@ archivemail.sf.net >>archivemail is a tool for archiving and compressing old ema
 
 Mailsync.sf.net >>Mailsync is a way of synchronizing a collection of mailboxes.  The algorithm is a 3-way diff.  Two mailboxes are simultaneously compared to a record of the state of both mailboxes at last sync.  New messages and message deletions are propagated between the two mailboxes.  If you're familiar with CVS, it's the same principle, except there's no opportunity for conflicts.
 
-libEtPan.sf.net >>libEtPan ! is a mail purpose library.  It will be used for low-level mail handling : network protocols (IMAP/NNTP/POP3/SMTP over TCP/IP and SSL/TCP/IP, already implemented), local storage (mbox/MH/maildir), message / MIME parser
+EtPan.org >>The purpose of this mail library is to provide a portable, efficient framework for different kinds of mail access. When using the drivers interface, the interface is the same for all kinds of mail access, remote and local mailboxes.
 
 www.RPCurnow.force9.co.uk/mairix >>mairix is a program for indexing and searching email messages stored in Maildir (see the documentation section below), MH or mbox folders.
 
@@ -125,9 +139,9 @@ Collaboration-World.com/pantomime >>The Pantomime framework supports the major m
 
 Collaboration-World.com/gnumail >>The complete and fast mail application for GNUstep and Mac OS X.
 
-Washington.edu/alpine >> In late 2005, Computing & Communications at the University of Washington began a project to create a new family of email tools built upon the Pine® Message System.  This family of tools is called Alpine.  Alpine consists of a UNIX command-line program, a PC version, and a Web version.
+Washington.edu/alpine >> In late 2005, Computing & Communications at the University of Washington began a project to create a new family of email tools built upon the Pine Message System.  This family of tools is called Alpine.  Alpine consists of a UNIX command-line program, a PC version, and a Web version.
 
-Wiki.Mozilla.org/Penelope >>Qualcomm's intention with the Penelope (huh?) project (overview) is to join the Eudora® user experience with the Mozilla platform.  We intend to produce a version of Eudora that is open source and based on Mozilla and Thunderbird.  It's not our intention to compete with Thunderbird; rather, we want to complement it.
+Wiki.Mozilla.org/Penelope >>Qualcomm's intention with the Penelope (huh?) project (overview) is to join the Eudora user experience with the Mozilla platform.  We intend to produce a version of Eudora that is open source and based on Mozilla and Thunderbird.  It's not our intention to compete with Thunderbird; rather, we want to complement it.
 
 SUP.RubyForge.org >>Sup is a console-based email client for people with a lot of email. It supports tagging, very fast full-text search, automatic contact-list management, and more.
 
@@ -171,23 +185,6 @@ Maildrop
 Sendmail
 
 Postfix
-
-==== IMAP, POP3
-Dovecot.org >>Dovecot is an open source IMAP and POP3 server for Linux/UNIX-like systems, written with security primarily in mind. Dovecot is an excellent choice for both small and large installations. It's fast, simple to set up, requires no special administration and it uses very little memory.
-
-Fetchmail
-
-CyrusIMAP.web.cmu.edu >>Cyrus is a highly scalable enterprise mail system designed for use in enterprise environments of various sizes using standards based technologies. Cyrus technologies scale from independent use in email departments to a system centrally managed in a large enterprise.
-
-BincIMAP.org abandoned?
-
-isync.sf.net >>isync: free IMAP and MailDir mailbox synchronizer
-
-Software.Complete.org/offlineimap
-
-FreePOPs.org
-
-Courier-MTA.org/cone/libmail.html >>LibMAIL is a C++ E-mail access library, which provides a high-level API for accessing E-mail messages stored on POP3 and IMAP servers, or in local mail folders; and for sending mail via ESMTP, or the local sendmail command. LibMAIL also serves as a platform for development of a new experimental network mail access protocol, SMAP, that offers additional capabilities not available in IMAP and POP3.
 
 
 ==== MAPI

@@ -35,6 +35,10 @@ Replicator.sf.net >>Replicator is a set of scripts to automate the duplication o
 
 $ bootsect.exe #From the WAIK
 $ diskpart.exe
+$ cfdisk
+$ fdisk
+$ grub
+$ gparted
 
 
 

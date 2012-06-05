@@ -3,6 +3,8 @@ Related: distro, GNU, GNUnix, Macintosh, Microsoft, MiniMacs, kernel, OS, pack, 
 An Operating System should attempt to minimize overall resource usage by maximizing the effectiveness of physical source utilization per process.  This is traditionally accomplished by carefully allocating and scheduling the Material Means of production on a per-process basis according to the preceived 'needs' of that process and to generally inhibit process 'starvation' by weighting allocation and scheduling decisions against current holdings.
 
 
+GeoCities.com/ze_aks >>MyOS: OpenGL & OpenGL ES - Open Source & Demos -
+
 ==News
 Operating-System.org >>Operating System Documentation Project
 DistroWatch.com
@@ -16,17 +18,20 @@ GNUnix.sf.net, MiniMacs, LazyLoad, PaperDesk.sf.net
 replicant.us >>Replicant is a distribution of Android that is 100% Free Software. Most of Android is licensed freely under the Apache License 2.0. The Linux core is mostly Free Software under the GPLv2. However, there are numerous components of the default software stack on the devices that are proprietary software. Most notably, nearly any component that touches the hardware directly is proprietary software.
 
 UBUNTU
-T2-Project.org
 Cross-LFS.org
 XPud.org
 
 LoseThos.com >>If you have an x86_64 PC machine such as a Core_i7, a Core_2_Duo, a Pentium_D... nothing worse than a Pentium_4_Extreme_Edition, then enjoy the clean, 64-bit, programming environment of LoseThos.  In addition to having 64-bit registers, there are eight additional general purpose registers in 64-bit mode!  LoseThos is the ultimate in clean because all tasks on all cores can access all RAM memory at all times with no banking, protections or segmentation.  Essentially, there are no virtual addresses, just physical because PAGING IS NOT USED and pointers are 64-bit, able to access, directly, all of the 12 Gig RAM physical memory on my machine, at all times from all tasks on all cores.  LoseThos is like nothing else -- I wrote all of it, entirely from scratch, including the compiler/assembler.  It is the ultimate in clean and simple.
+
+Telesphoreo.org >>Telesphoreo is an APT-based distribution of Unix software for modern smartphones started by Jay Freeman (saurik). Initially, the only supported target is Apple's iPhone (and iPod Touch), but soon we anticipate porting our repository to other Unix-y environments such as Android.
 
 ReturnInfinity.com/baremetal.html >>BareMetal is a 64-bit OS for x86-64 based computers. The OS is written entirely in Assembly, while applications can be written in Assembly or C/C++.
 
 UberStudent.org >>UberStudent is a free, user-friendly Linux distribution for learning, doing, and teaching the essential skills of academic success at the higher education and advanced secondary levels. It is supported by a free virtual learning environment. Lifelong learners, researchers, and knowledge workers of all sectors will equally benefit.
 
 GeoCities.com/ze_aks >>MyOS: OpenGL & OpenGL ES - Open Source & Demos -
+
+Angstrom-Distribution.org >>Angstrom was started by a small group of people who worked on the OpenEmbedded, OpenZaurus and OpenSimpad projects to unify their effort to make a stable and userfriendly distribution for embedded devices like handhelds, set top boxes and network-attached storage devices and more.
 
 MeeGo.com >>MeeGo is an open source, Linux project which brings together the Moblin project, headed up by Intel, and Maemo, by Nokia, into a single open source activity. MeeGo integrates the experience and skills of two significant development ecosystems, versed in communications and computing technologies. The MeeGo project believes these two pillars form the technical foundations for next generation platforms and usages in the mobile and device platforms space.
 
@@ -74,7 +79,7 @@ TUX.org/pub/people/kent-robotti/looplinux/rip >>You can get the (R)ecovery (I)s 
 
 Ping.WindowsDream.com >>PING is a live Linux ISO, based on the excellent Linux From Scratch (LFS) documentation. It can be burnt on a CD and booted, or integrated into a PXE / RIS environment. Several tools have been added and written, so to make this ISO the perfect choice to backup and restore whole partitions, an easy way. It sounds like Symantec Ghost(tm), but has even better features, and is totally free.
 
-DEFTLinux.net >>DEFT (acronym for Digital Evidence & Forensic Toolkit) is a Xubuntu Linux-based Computer Forensics live CD. It is designed to meet police, investigators, system administrator and Computer Forensics specialist�s needs.
+DEFTLinux.net >>DEFT (acronym for Digital Evidence & Forensic Toolkit) is a Xubuntu Linux-based Computer Forensics live CD. It is designed to meet police, investigators, system administrator and Computer Forensics specialist's needs.
 
 CAINE-Live.net >>CAINE (Computer Aided INvestigative Environment) is a GNU/Linux live distribution created by Giancarlo Giustini as a project of Digital Forensics for Interdepartment Center for Research on Security (CRIS), supported by the University of Modena and Reggio Emilia.
 
@@ -293,7 +298,13 @@ Aloofix.sf.net >>Aloofix is a minimalist Linux distribution optimized for use in
 
 Revisor.FedoraUnity.org >>Revisor enables you to customize and compose your own Fedora based installation and live media. It does so by presenting you a GUI with all options you can click your way through, a command-line interface and extended configuration files for more advanced users. Features that Revisor has vary from customizing the packages available during the installation and/or installed on the live media, to fully customizing the desktop environment for the live media. Check out Screenshots!
 
+GeekConnection.org/remastersys/ubuntu.html >>A Unique Linux Backup to Live Media Tool for Debian and Ubuntu
+
+T2-Project.org >>T2 SDE is not just a common Linux distribution - it is a flexible Open Source System Development Environment or Distribution Build Kit (others might even name it Meta Distribution). T2 allows the creation of custom distributions with state of the art technology, up-to-date packages and integrated support for cross compilation. Currently the Linux kernel is normally used - but the T2 SDE is being expanded to Minix, Hurd, OpenDarwin, Haiku and OpenBSD - more to come.
+
 OSBuilder
+
+Igelle.org >>Igelle is, first and foremost, an open source software development project that develops a Linux-based operating system that is intended to be portable, and is designed to work on various different hardware devices and architectures, including laptops, desktops, mobile phones, mobile internet devices, netbooks, etc. Some notable highlights of Igelle, or differences to other Linux distributions, are listed here. If you wish to try out Igelle instead, and/or install it on our device/computer, see the download page instead.
 
 smxi.org >>smxi is an interactive script designed to help people maintain their systems. It supports Debian (Stable, Testing, and Sid) and true Debian based distros (sidux, AntiX, Mepis). It does not support Ubuntu based distros because there are too many differences between Debian and Ubuntu.
 
@@ -303,7 +314,7 @@ PokyLinux.org >>Poky is an embedded Linux build system, distribution and develop
 
 Linux-Live.org >>Linux Live is a set of shell scripts which allows you to create own Live Linux from your installed Linux distribution.
 
-CS.Wisc.edu/condor >>The goal of the Condor® Project is to develop, implement, deploy, and evaluate mechanisms and policies that support High Throughput Computing (HTC) on large collections of distributively owned computing resources. Guided by both the technological and sociological challenges of such a computing environment, the Condor Team has been building software tools that enable scientists and engineers to increase their computing throughput.
+CS.Wisc.edu/condor >>The goal of the Condor Project is to develop, implement, deploy, and evaluate mechanisms and policies that support High Throughput Computing (HTC) on large collections of distributively owned computing resources. Guided by both the technological and sociological challenges of such a computing environment, the Condor Team has been building software tools that enable scientists and engineers to increase their computing throughput.
 
 Beowulf.org >>is a collection of resources for the expanding universe of users and designers of Beowulf class cluster computers. These enterprise systems are built on commodity hardware deploying Linux OS and open source software.
 

@@ -2,9 +2,39 @@ Related: install, msi
 
 Macrovision InstallShield is a proprietary and aggravating but very popular IDE. for creating .msi installers.
 
+
+http://stackoverflow.com/questions/2857671/what-encoding-does-installshield-expect-non-latin-alphabet-string-table-entries-t/2908736
+
+"'
+working (with InstallShield 2009) algorithm, reverse-engineered by a co-worker:
+   1. Start with a unicode (multi-byte-character) string
+   2. Write out the length as the encoded-length field in the ism-file
+   3. Encode the string as UTF-16-little-endian
+   4. Base-64 using the uuencode dictionary, except with ` (back-tick) instead of spaces.
+   5. Write the result to the ism-file, escaping XML entities
+
+Be aware that base-64ing using the uuencode dictionary is not the same as using the uuencode algorithm. Standard uuencode produces a set of newline-separated lines, including a header, footers and one or more data lines, each of which begins with a length-character. If you're implementing this using a uuencode codec, you'll need to strip all of that off.
+'"
+
+
+
 TestingReflections.com/node/view/4839 >>Troubleshooting Installshield Errors with Windows Installer Logging
 
 $ SomeSetup.exe /c /t c:\SomeOutputDir #extract .msi from .exe
+
+
+Forum.StorageCraft.com/Community/forums/t/1637.aspx
+"'
+To create your own answer file, use the /r options with setup.exe
+
+Setup.exe /r
+
+This will create a setup.iss answer file.  The default location for this file is c:\windows.
+
+To use silent install, use the following options:
+
+Setup.exe /s /f1C:\setup.iss /f2c:\setup.log
+'"
 
 
 Community.Acresso.com/archive/index.php?t-131806.html >>Standalone build and ISDEV : error 125
@@ -48,6 +78,13 @@ InstallSite.org/pages/en/bugs_isw115.htm >>If you want to use the -o parameter t
 
 
 Community.Macrovision.com/showthread.php?t=169901
+
+
+
+Is sbuninst.exe an uninstaller helper app?  Is the source in svn?
+
+> ISDEV : warning -6248: Could not find dependent file sbimageapi.dll, or one of its dependencies of component ImageManager.exe
+>> Running depends.exe on sbimageapi.dll tells me I'm missing DWMAPI.DLL
 
 $ sfc.exe /scannow #Scans all protected system files and replaces incorrect versions with correct Microsoft versions.
 

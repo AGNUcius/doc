@@ -1,5 +1,4 @@
-Related: cloud, emu, Virtual, Machine
+Related: cloud, design, emu, host, hypervisor, Hyper-V, info, KVM, OVF, physical, sim, terminal, type, Virtual Machine, VirtualBox, VM, VMware, VPN, XEN
 
-Virtual Machine(VM)
 
 LXC.sf.net >>Linux Containers take a completely different approach than system virtualization technologies such as KVM and Xen, which started by booting separate virtual systems on emulated hardware and then attempted to lower their overhead via paravirtualization and related mechanisms. Instead of retrofitting efficiency onto full isolation, LXC started out with an efficient mechanism (existing Linux process management) and added isolation, resulting in a system virtualization mechanism as scalable and portable as chroot, capable of simultaneously supporting thousands of emulated systems on a single server while also providing lightweight virtualization options to routers and smart phones.

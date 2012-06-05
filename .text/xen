@@ -1,19 +1,39 @@
 Related: vhd, virt
 
-f:\dev\research\emu\XEN
+==XEN and Citrix XenServer
+Support image file conversion to Xen format (.xva)
 
-==Networking
-http://wiki.xensource.com/xenwiki/XenNetworking
-http://jolokianetworks.com/70Knowledge/Virtualization/Open_Source_Windows_Paravirtualization_Drivers_for_Xen
-GNU GPL xennet drivers http://xenbits.xensource.com/ext/win-pvdrivers
-http://wiki.xensource.com/xenwiki/XenWindowsGplPv
-http://wiki.xensource.com/xenwiki/XenWindowsGplPv/Installing
+VMware Converter
+XenConvert forums.citrix.com/forum.jspa?forumID=876
+Project Kensho community.citrix.com/display/xs/Kensho
+OVF support.citrix.com/article/CTX121652 >>OVF is the natural successor to XVA
+
+
+www.jolokianetworks.com/70Knowledge/Virtualization/Converting_from_Citrix_XenServer_to_Xen_open_source/Xenmigrate.py
+
+www.jolokianetworks.com/70Knowledge/Virtualization/Converting_from_Citrix_XenServer_to_Xen_open_source/Citrix_.XVA_%28Xen_Virtual_Appliance%29_Format
+"'
+In Citrix 4.1 the .xva file is pretty simple, yet stupid.  It is a tar file, with screwed up dates, your old friend ova.xml and then a directories starting with Ref that are full of parts of your logical volumes that make up the drives of your virtual.  The ova.xml file has relevent metadata in it, but some moron laid out the xml in a format fit only for an incessently looping xml reading script -- you can read it, but you'll want to smack someone after you do.
+
+In 4.1 the files are numbered starting at 00000000 going up in blocks of 1MB.  When there is blank space on the drive, the files are skipped.  Pretty damned spiffy way of saving space compared to something like, I donno, compression?  Anyway, you can paste those files back together assuming you put the blank space back in and then use the file as a raw.  The xenmigrate.py program will do this for you:
+
+python xenmigrate --convert=myfiles/ref\: myfiles/output.raw
+
+That's it, it'll take some time, but you'll end up with a usable raw file.
+
+I thought 5.0 would introduce compressed files and segements up to 1GB.  It doesn't appear that any of that made it into 5.0 -- its files are the same as 4.0.
+
+I'd love it if someone would chime in here and tell me why someone would make a stupid file format like this.  What would be wrong with just tarring the up raw file?  Why break it into small bits if you are going to pack it into one file anyway?  Why not compress it?  Why is his head so big?  Why?
+'"
+
+Forums.Citrix.com/thread.jspa?threadID=248957&tstart=0 >>XenConvert can consume a VMware created OVF, however, VMware can (currently) only consume their own OVF.
+
+
 
 Mediakey.dk/~cc/howto-install-windows-xp-vista-on-xen
 
 Developer.Novell.com/wiki/index.php/Xenfire >>Xenfire is a soft appliance that can be used to auto-install multiple virtual machines on a single physical server using the Xen virtualization technology. It can be useful for small and medium enterprises to consolidate their intranet servers and gateway server into one single physical server, while still preserving the administrative and security advantages of running two separate systems.
 
-==Links
 DSG.CS.UBC.ca/secondsite >> SecondSite is a project to provide high availability services via the Xen virtual machine monitor. Its mechanisms include: * frequent virtual machine checkpoints (using iterative copy to minimize downtime) * group-wide checkpoint consistency via network interposition * low-overhead persistent storage checkpointing using the Parallax block device
 
 xen-tools.org >>xen-tools is a collection of software which allow you to create new guest domains.

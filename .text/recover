@@ -16,6 +16,8 @@ ReaR.sf.net >>Relax and Recover (abbreviated ReaR) is a highly modular disaster 
 
 mkCDrec.sf.net >>mkCDrec makes a bootable (El Torito) disaster recovery image (CDrec.iso), including backups of the linux system to the same CD-ROM (or CD-RW) if space permits, or to a multi-volume CD-ROM set. Otherwise, the backups can be stored on another local disk, NFS disk or (remote) tape.
 
+MondoRescue.org >>Mondo Rescue is a GPL disaster recovery solution. It supports Linux (i386, x86_64, ia64) and FreeBSD (i386). It's packaged for multiple distributions (RedHat, RHEL, SuSE, SLES, Mandriva, Debian, Gentoo).
+
 CrashRecovery.org >>Crash Recovery for Linux sounds a bit superfluous. Linux is regarded as one of todays most stable Operating Systems. In the case of some hardware failure like a broken disk it can however be handy.
 
 CGSecurity.org/wiki/TestDisk >>TestDisk is a powerful free data recovery software! It was primarily designed to help recover lost partitions and/or make non-booting disks bootable again when these symptoms are caused by faulty software, certain types of viruses or human error (such as accidentally deleting your Partition Table). Partition table recovery using TestDisk is really easy.

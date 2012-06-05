@@ -29,6 +29,7 @@ DiscUtils.CodePlex.com >>DiscUtils is a .NET library to read and write ISO files
 
 Technet.Microsoft.com/en-us/library/cc778339.aspx >>Disk and Data Management Support Tools
 
+$ fsutil.exe
 $ chkdsk.exe
 $ connstat.cmd
 $ devcon.exe
