@@ -47,3 +47,5 @@ www.FSArchiver.org >>FSArchiver is a system tool that allows you to save the con
 PartImage.org >>Partimage is a Linux utility which saves partitions having a supported filesystem to an image file.
 
 Partclone.org >>Partclone provides utilities to back up and restore used-blocks of a partition and it is designed for higher compatibility of the file system by using existing library, e.g. e2fslibs is used to read and write the ext2 partition.
+
+gnetic.NonGNU.org >>Gnetic is a free project developed in C++ to create or restore system images. It can also create clones of computers over the network. You can create the clones using a connection between two or more computers, or using the "link mode" that creates a chain of nodes that sends the information from one computer to next one.

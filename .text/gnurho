@@ -1,6 +1,6 @@
 Related: Amero, Euro, Federal Reserve Note, Imputed Production, money, Product Future, Yenom
 
-The GNUrho is an insuring deposit currency with a face value of some good or service within some time-frame.
+The GNUrho is an insuring deposit currency with a face value of a quantity and quality of good or service within some time-frame.
 
 GNUrho are "issued against" or "backed by" the combined value of:
 
@@ -10,13 +10,13 @@ GNUrho are "issued against" or "backed by" the combined value of:
 
 
 ==EXAMPLES of 'Face Value'
-1 gallon of whole, raw milk per week for 52 weeks.
-1 lb Grade AA salted butter per week for 52 weeks.
-1 Doz Grade A eggs per week for 52 weeks.
+1 gallon of raw milk per week
+1 lb Grade AA raw butter per week
+1 Doz Grade A eggs per week
 1 oil-change and chassis lube per year.
-1 game of bowling.
-1 hr of bus fare.
-1 mile of taxi service.
+1 game of bowling per month
+1 mile of bus service per day
+1 mile of taxi service per day
 
 
 ==EXAMPLES of 'Backing Value'
@@ -29,28 +29,36 @@ GNUrho are "issued against" or "backed by" the combined value of:
  "Taxi + land, machines, buildings, tools for hosting."
 
 ====Examples of Physical Work Bond:
- "Will operate dairy every day for 365 days."
- "Will operate chicken farm every day for 365 days."
- "Will operate automotive garage for one oil-change and chassis lube."
- "Will operate bowling alley for one game of bowling."
- "Will operate bus for one hour."
- "Will operate taxi for one mile."
+ "Will milk cows at the X dairy every day until the end of this year."
+ "Will make butter at the X dairy every other day until July 1st 3033."
+ "Will feed chickens and gather eggs at the X chicken farm every day until the end of February."
+ "Will change oil and lube chassis at the X automotive garage every Tuesday and Thursday until December 21 of this year."
+ "Will maintain the X bowling alley every Saturday and Sunday until I get sick of it; will give 1 week notice."
+ "Will drive X bus every Monday and Wednesday from 8am to 2pm for a while...  I will give 2 weeks notice before leaving."
+ "Will drive X taxi from 6pm to 1am every Friday and Saturday until I get bored of it.  May not warn before I quit."
 
 
-Most GNUrho will be 'recurring' since the "Physical Source Title" part of them represent ownership in the Physical Sources of that production.
+Each individual worker sets his own conditions for fulfilling a Work Bonds.
 
-But it might be best to issue them as separable 'tickets' ~ so the butter, eggs or milk might be issued as a book of 52 tickets...
+Co-owners should advertise minimum allowable standards to avoid attracting workers unwilling to meet those constraints.
 
-Ideally this will all be electronic and we will simply carry a card or identify ourselves in some other manner to collect the goods we already own.
+Each GNUrho represents all *potential* production of those Physical assets, and so is much more powerful/valuable than a typical currency.
 
-Electronic ownership titles will be almost neccessary to automate the exchange between each GNUrho type.
+It might be useful to also issue 'tickets' against future payouts that would more closely resemble typical currency.
+
+Each ticket would have a window of validity - where it could not be used before some certain time, nor could it be used after some other certain time.
+
+For example, a group might issue a book of 52 tickets each year for products that are used weekly.
+
+Ideally this will all be electronic and we will simply carry a card or identify ourselves in some other manner to collect the goods and services we already own, and to track that use to disallow cheating.  (We must defend ourselves against someone who pays for 1 gallon of milk per week, but then tries to collect more).
+
 
 Each GNUrho should represent the societal need as assessed by object users according to the full price paid - where paying up to cost indicates worth, and paying any amount over cost as a desire to grow.
 
 Free Hardware owners issue GNUrho to new object users in response to that consumer paying a price above the total costs (including wages) expended in the creation of that object instance.
 
 
-Owners who share Free Objects must issue new GNUrho titles to any user who pays more than cost.  The amount traditionally calculated as profit is offered back to the user as shares of ownership in the perpetuation of the Free Sources(TM) required to produce more Objects of this same variety.
+Owners who share Free Objects will issue new GNUrho titles to any user who pays more than cost.  The amount traditionally calculated as profit is offered back to the user as shares of ownership in the perpetuation of the Free Sources(TM) required to produce more Objects of this same variety.
 
 Object users are new investors in the physical Sources needed for future production in exactly the amount they pay above cost.  This distributes control as shares of divisible ownership in the physical sources of production so objects become free for each user.
 
@@ -80,22 +88,10 @@ As a free object user you MAY:
 
 
 
-Kellia wrote:
-> token never acquires a value apart
-> from the things that it stands for.
-
-> how do you keep it from obtaining
-> independent intrinsic value?
-
-> There must be another part of the
-> social contract that forbids it.
-
-I understand what you mean.
-
 On the one hand I think owners who
-intend to keep the SOURCES for the
-PRODUCT will naturally take care of
-that property and trade the SKILLS
+intend to keep the Sources for the
+Product will naturally take care of
+that property and trade the Skills
 needed to achieve that production.
 
 On the other hand, the owner might
@@ -106,7 +102,7 @@ I'm not sure what we can do other
 than maybe require a 'notice' on
 Tokens using our social contract.
 
-The notice would explain the PRODUCT
+The notice would explain the Product
 is an expected but not guaranteed
 quantity and quality.
 

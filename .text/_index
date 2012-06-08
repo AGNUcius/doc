@@ -13,6 +13,7 @@ admin
 agnu
 agpl
 agree
+arena
 art
 aton
 back
@@ -41,6 +42,7 @@ diary-apr-2008
 diary-apr-2009
 diary-apr-2010
 diary-apr-2011
+diary-apr-2012
 diary-aug-2007
 diary-aug-2008
 diary-aug-2009
@@ -50,14 +52,17 @@ diary-dec-2007
 diary-dec-2008
 diary-dec-2009
 diary-dec-2010
+diary-dec-2011
 diary-feb-2008
 diary-feb-2009
 diary-feb-2010
 diary-feb-2011
+diary-feb-2012
 diary-jan-2008
 diary-jan-2009
 diary-jan-2010
 diary-jan-2011
+diary-jan-2012
 diary-jul-2007
 diary-jul-2008
 diary-jul-2009
@@ -72,10 +77,12 @@ diary-mar-2008
 diary-mar-2009
 diary-mar-2010
 diary-mar-2011
+diary-mar-2012
 diary-may-2008
 diary-may-2009
 diary-may-2010
 diary-may-2011
+diary-may-2012
 diary-nov-2007
 diary-nov-2008
 diary-nov-2009
@@ -84,15 +91,20 @@ diary-oct-2007
 diary-oct-2008
 diary-oct-2009
 diary-oct-2010
+diary-oct-2011
 diary-sep-2007
 diary-sep-2008
 diary-sep-2009
 diary-sep-2011
 diff
 disk
+ecocom
+ecol
 econ
+ecos
 edit
 emacs
+employ
 emu
 file
 forensic
@@ -102,6 +114,7 @@ fund
 game
 general public law
 general public license
+git
 gnu
 gnucius
 gnuin
@@ -128,7 +141,9 @@ installshield
 insur
 interest list
 inventory
+iota
 javascript
+job
 key
 know
 land
@@ -140,8 +155,10 @@ mail
 mak
 map
 menu
+minemacs
 mingw
 mod
+mone
 moni
 mosaic
 mount
@@ -160,10 +177,12 @@ pass
 pay
 payer own
 pdf
-permaculture production mosaic
 permaculture propagation project
 pic
 pkg
+pkg.add
+pkg.search
+pkg.up
 pop
 pric
 produc
@@ -187,6 +206,7 @@ smtp
 soap
 social sufficiency coalition
 sock
+sourc
 source freedom
 source war
 spac
@@ -204,12 +224,16 @@ subversion
 sync
 thread
 title
+trad
 usb
 use
 user
 user own
+vipm
 virtualbox
 vm
+vnc
 web
 wm
+work
 xen

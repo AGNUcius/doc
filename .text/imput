@@ -1,15 +1,20 @@
 Related: citizen owned, co-own, GNUrho, interest list, insurance
 
+
                 Imputing Production
 
 .Fund/Invest: Cross-Commit Sources or Skills
   Sources: Land and Capital - Crowd Funded
   Skills: Labor - Crowd Sourced
 
-. Product as the Investor's Return
-. Profit as the Payer's Investment
+. Product as Investor Return
+. Profit as Payer Investment
+
+. Profit is undefined
+  when Product is ROI
 
 . Schedule
+
 . Exchange
 
 . Insure
@@ -17,6 +22,7 @@ Related: citizen owned, co-own, GNUrho, interest list, insurance
 . Currency
 
 . Products are Pre-Distributed
+
 . Work is Pre-Scheduled
 
 . Maximize Utilization
@@ -29,26 +35,17 @@ Production requires Sources and Skills
 4.) Skills applied to these Sources to create Products.
 
 
-Swapping Skills happens *before* production begins, while Bartering
-Products happens at the point-of-sale - long after production is
-completed.
 
-Bartering Products suffers from the "simultaneous coincidence of
-wants" problem because it occurs far too late, and so there is not
-enough time to resolve the "chain of exchange".
+Swapping Skills happens *before* production begins, while Bartering Products happens at the point-of-sale - long after production is completed.
 
-By "chain of exchange" I mean the list of people required to 'connect'
-the work-commitments of one person to the work-commitments of some
-other person.
+Bartering Products suffers from the "simultaneous coincidence of wants" problem because it occurs far too late, and so there is not enough time to resolve the "chain of exchange".
 
-When Swapping Skills, workers commit to work in the *future* for
-others (say picking apples) in exchange for someone else committing to
-work in the *future* for them (say picking oranges).
+By "chain of exchange" I mean the list of people required to 'connect' the work-commitments of one person to the work-commitments of some other person.
 
-This gives us time to resolve the "chain of exchange" needed for that
-trade to occur and so do not need to pass tokens (receive Wages) -
-though we will need to track whether workers fulfill those
-commitments.
+When Swapping Skills, workers commit to work in the *future* for others (say picking apples) in exchange for someone else committing to work in the *future* for them (say picking oranges).
+
+This gives us time to resolve the "chain of exchange" needed for that trade to occur and so do not need to pass tokens (receive Wages) - though we will need to track whether workers fulfill those commitments.
+
 
 
 Profit is a growth-vector we can 'reflect' toward the payer as his investment in even more Means of Production - so the growth of the organization is continuously redistributed to those willing to pay for the growth and then continuation of that production.
@@ -237,7 +234,7 @@ It will be a sort of 'Simulated Commons' in that we are explicitly using Propert
 
 2.) The land is held in perpetuity by a Trust or non-profit corporation, or whatever (I don't know all the different instruments that can be chosen from).
 
-3.) The Trust *must* either qualify as a non-profit entity or move outside of city-limits to escape city property taxes that will otherwise punish all improvements.
+3.) The Trust should try to qualify as a non-profit entity to escape property taxes that will otherwise punish all improvements.
 
 4.) Doing this will 'virtualize' access to the Land - allowing individuals and corporations to Lease parts of the whole, but never able to sell any part.
 
@@ -246,6 +243,7 @@ It will be a sort of 'Simulated Commons' in that we are explicitly using Propert
 The concept of "Profit is Payer Investment" still applies, and means "Whenever the amount of a Lease is more than needed to cover Costs, that overpayment becomes the Payer's co-ownership in the Trust.
 
 6.) I'm still uncertain if this is sufficient.  I've always imagined whatever Social Compact we design must also apply to movable co-owned Capital (tools and such), but am trying to get away from that approach, mostly because it is so hard to 'police' and 'enforce'.
+
 
 
 ==Deposits instead of Debts
@@ -269,6 +267,7 @@ I'm not sure what 'Interest' is in this scenario...
 
 Related idea: Groups of Workers will reconnect Credibility with Credit in ... Accreditation Unions.
 
+
 For example, if I co-buy a roto-tiller with some other guys, and supplied 21% of the funds, then I have 21% of the 'say' when we decide things like "How often should we change the oil?".
 
 For example, We, the Users, will need collectively purchase and/or build and then co-own the material infrastructure that our ISPs and Cell-Phone providers hold against us before we can finally have any real say in how those networks are governed.
@@ -276,8 +275,6 @@ For example, We, the Users, will need collectively purchase and/or build and the
 Once we see that Property Ownership can be used as a force for good, we can then begin to co-buy our way out of subjection.
 
 But such an organization will be very unstable unless we are able to admit the true origin and purpose of Profit, for otherwise the originators of such a facility will surely treat that Price above Cost as a reward for themselves - which will concentrate power and eventually cause the group to be no different from any other Capitalist endeavor.
-
-
 
 For example, imagine a neighborhood of say 1000 people rent a Business-Class internet connection from an ISP in the area.
 
@@ -288,7 +285,6 @@ Suddenly all these co-payers have high-speed internet in the US for just $2/mont
 We can do this with any and all industry.  Imagine a Consumer Owned cell-phone network.
 
 We would only charge ourselves *exactly* what it Costs to send a txt message or a photograph, etc.
-
 
 
 
@@ -342,7 +338,8 @@ These prepayments will be treated as real investments so those End-Users become 
 And the ROI for their risk is paid to them as at-cost Product instead of trying to sell the outputs at the market with the hope of keeping Price above Cost (which requires scarcity).
 
 
-Crowd funded and Crowd *OWNED* so each sub-venture can concentrate on use-value, since the Product will no longer need to be sold, but will instead be ROI itself.
+
+Not just Crowd funded, but Crowd *OWNED* so each sub-venture can concentrate on use-value, since the Product will no longer need to be sold - the Product will be the direct ROI.
 
 
 Communities can simply *buy* the infrastructure away from these corporations - since those communities eventually pay for all those costs anyway *and* pay profit.

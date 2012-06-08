@@ -1,19 +1,11 @@
 Related: acl, data, directory, disk, forensic, FTP, image, network stream, part, port, process, recover, socket, stor
 
 ==Managers
-CubicExplorer.GoogleCode.com >>CubicExplorer is a file manager which is aimed to replace Windows Explorer. It's goal is to be easy and pleasant to use but still have enough power for more advanced usage. It has many familiar features from modern browsers like tabs and bookmarks.
-
-ExplorerPlusPlus.com >>Explorer++ is a free multi-tab file manager for Windows.    Available on Windows XP and above, it features the same familiar interface as Windows Explorer, while introducing several enhancements and improvements for a much richer file browsing experience.
-
-Stagione.interfree.it >>FxMovieManager is a Filemanager written to help managing Movie files and Video clips. It includes a filemanager, a playlist and act as a simple front-end to MPlayer. Both filemanager and playlist can display Thumbnails of Movie files making easier working with video clips and ordering different pieces of the same movie. At present it is developed on the Linux platform. Copyright (C) 2008, 2009, 2010 Luigi Ziviani.
-
-FoxPlanet.de/explorer >>It is a freely available program intended as replacement of MS Windows Explorer in the upcoming open source operation system ReactOS. It covers the explorer functionalities of desktop, explorer windows,  desktop bar with start menu, task bar and notification area (where you can see the "tray icons"). It is not yet complete, it's work in progress. However you can already work with it. I have installed it for me as default shell. This is the best way to find problems with it, and to encounter, which functions are missing the most.
+Xfe.sf.net >>X File Explorer (Xfe) is an MS-Explorer like file manager for X. It is based on the popular, but discontinued, X Win Commander, which was developed by Maxim Baranov.  Xfe aims to be the filemanager of choice for all the Unix addicts!
 
 emelFM.sf.net >>emelFM is a file manager that implements the popular two-pane design. It features a simple GTK+ interface, a flexible filetyping scheme, and a built-in command line for executing commands without opening an xterm.
 
-Xfe.sf.net >>X File Explorer (Xfe) is an MS-Explorer like file manager for X. It is based on the popular, but discontinued, X Win Commander, which was developed by Maxim Baranov.  Xfe aims to be the filemanager of choice for all the Unix addicts!
-
-Xenon-Portable.sf.net >>Xenon File Manager Portable is a file manager specifically designed to work from a USB drive.
+Stagione.interfree.it >>FxMovieManager is a Filemanager written to help managing Movie files and Video clips. It includes a filemanager, a playlist and act as a simple front-end to MPlayer. Both filemanager and playlist can display Thumbnails of Movie files making easier working with video clips and ordering different pieces of the same movie. At present it is developed on the Linux platform. Copyright (C) 2008, 2009, 2010 Luigi Ziviani.
 
 PCManFM.sf.net >>PCMan File Manager    An extremly fast and lightweight file manager which features tabbed browsing and user-friendly interface
 
@@ -21,11 +13,14 @@ FileWorkBench.sf.net >>File Workbench (FWB) is a cross platform file manager env
 
 DoubleCMD.sf.net >>Double Commander is a cross platform open source file manager with two panels side by side. It is inspired by Total Commander and features some new ideas.
 
-ultraMage.sf.net >>ultraMage is a powerful dual-window file manager for Windows with many useful features like bookmarks, advanced file operations and folder synchronisation. It is still very easy to use, because the user interface is similar to that of Windows Explorer.
+TuxCmd.sf.net >>Tux Commander is a windowed file manager with 2 panels side by side similar to popular Total Commander or Midnight Commander file managers. The main goal of this project is to create powerful and user friendly file manager for Unix operating systems.
 
-CoolExplorer.sf.net >>CoolExplorer - open source file manager for Windows.
+Obsession.se/gentoo >>This is the new, slightly simpler, home page for gentoo, the GTK+ file manager. The old site design has served well, but it was time for a refresh for the new 0.15.x series of gentoo. This new version of gentoo is based on the current 2.x series of the GTK+ toolkit, finally bringing gentoo into the present (the last version of GTK 1.2 was released in 2001). It's good to be back.
 
-FarManager.com >>Far Manager is a program for managing files and archives in Windows operating systems. Far Manager works in text mode and provides a simple and intuitive interface for performing most of the necessary actions
+FireFly.MozDev.org >>Firefly is a filemanager extesnion for Firefox.
+
+EmacsWiki.org/cgi-bin/wiki/Sunrise_Commander >>As a long time user of the Midnight Commander on Linux (and, long before that, of Norton Commander and Norton Navigator on DOS), one of the first things I tried after moving to Emacs was running MC in term-mode. It was no joy, so after that I tried using nc.el and mc.el, but both scripts were far away from what I was looking for.
+v
 
 Atol.sf.net >>Atol is a dual panel file manager written using GTK+ toolkit and C++ programming language. Project is free and open source (released under BSD license).
 
@@ -40,15 +35,6 @@ XWC.sf.net >>X WinCommander is a file manager with these features:
     * Xterm opening on current folder.
     * Configuration of applications, fonts, icons, etc.'"
 
-TuxCmd.sf.net >>Tux Commander is a windowed file manager with 2 panels side by side similar to popular Total Commander or Midnight Commander file managers. The main goal of this project is to create powerful and user friendly file manager for Unix operating systems.
-
-Obsession.se/gentoo >>This is the new, slightly simpler, home page for gentoo, the GTK+ file manager. The old site design has served well, but it was time for a refresh for the new 0.15.x series of gentoo. This new version of gentoo is based on the current 2.x series of the GTK+ toolkit, finally bringing gentoo into the present (the last version of GTK 1.2 was released in 2001). It's good to be back.
-
-XCProject.sf.net >>XC is a free, user friendly file manager.
-
-FireFly.MozDev.org >>Firefly is a filemanager extesnion for Firefox.
-
-EmacsWiki.org/cgi-bin/wiki/Sunrise_Commander >>As a long time user of the Midnight Commander on Linux (and, long before that, of Norton Commander and Norton Navigator on DOS), one of the first things I tried after moving to Emacs was running MC in term-mode. It was no joy, so after that I tried using nc.el and mc.el, but both scripts were far away from what I was looking for.
 
 ROX.sf.net >>ROX is a fast, user friendly desktop which makes extensive use of drag-and-drop. The interface revolves around the file manager, or filer, following the traditional Unix view that `everything is a file' rather than trying to hide the filesystem beneath start menus, wizards, or druids.
 
@@ -63,8 +49,6 @@ BoomerangsWorld.de/worker >>Worker is a file manager for X-Window on UNIX.  The 
 Thunar.XFCE.org >>Thunar is a new modern file manager for the Xfce Desktop  Environment. Thunar has been designed from the ground up to be fast and easy-to-use. Its user interface is clean and intuitive, and does not include any confusing or useless options. Thunar is fast and responsive with a good start up time and directory load time. Thunar is accessible using Assistive Technologies and is fully standards compliant.
 
 4pane.co.uk >>4Pane is a multi-pane, detailed-list file manager for Linux. It is designed to be fully-featured without bloat, and aims for speed rather than visual effects. In addition to standard file manager things, it offers multiple undo and redo of most operations (including deletions), archive management including 'virtual browsing' inside archives, multiple renaming/duplication of files, a terminal emulator and user-defined tools.
-
-Chrysocome.net/explore2fs >>explore2fs is a GUI explorer tool for accessing ext2 and ext3 filesystems. It runs under all versions of Windows and can read almost any ext2 and ext3 filesystem.
 
 muCommander.com >>muCommander is a lightweight, cross-platform file manager featuring a Norton Commander style interface and running on any operating system with Java support (Mac OS X, Windows, Linux, *BSD, Solaris...).
 
@@ -159,4 +143,25 @@ $ lsof # list open files
 $ fragger, partview, gdmap, uxplor
 $ sfc.exe # System File Checker --- Microsoft (R) Windows (R) Resource Checker
 $ fsck #GNU/Linux File System Checker
+
+
+
+====Windows
+XCProject.sf.net >>XC is a free, user friendly file manager.
+
+CubicExplorer.GoogleCode.com >>CubicExplorer is a file manager which is aimed to replace Windows Explorer. It's goal is to be easy and pleasant to use but still have enough power for more advanced usage. It has many familiar features from modern browsers like tabs and bookmarks.
+
+ExplorerPlusPlus.com >>Explorer++ is a free multi-tab file manager for Windows.    Available on Windows XP and above, it features the same familiar interface as Windows Explorer, while introducing several enhancements and improvements for a much richer file browsing experience.
+
+FoxPlanet.de/explorer >>It is a freely available program intended as replacement of MS Windows Explorer in the upcoming open source operation system ReactOS. It covers the explorer functionalities of desktop, explorer windows,  desktop bar with start menu, task bar and notification area (where you can see the "tray icons"). It is not yet complete, it's work in progress. However you can already work with it. I have installed it for me as default shell. This is the best way to find problems with it, and to encounter, which functions are missing the most.
+
+Xenon-Portable.sf.net >>Xenon File Manager Portable is a file manager specifically designed to work from a USB drive.
+
+ultraMage.sf.net >>ultraMage is a powerful dual-window file manager for Windows with many useful features like bookmarks, advanced file operations and folder synchronisation. It is still very easy to use, because the user interface is similar to that of Windows Explorer.
+
+CoolExplorer.sf.net >>CoolExplorer - open source file manager for Windows.
+
+FarManager.com >>Far Manager is a program for managing files and archives in Windows operating systems. Far Manager works in text mode and provides a simple and intuitive interface for performing most of the necessary actions
+
+Chrysocome.net/explore2fs >>explore2fs is a GUI explorer tool for accessing ext2 and ext3 filesystems. It runs under all versions of Windows and can read almost any ext2 and ext3 filesystem.
 

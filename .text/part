@@ -35,10 +35,21 @@ Replicator.sf.net >>Replicator is a set of scripts to automate the duplication o
 
 $ bootsect.exe #From the WAIK
 $ diskpart.exe
+
+
 $ cfdisk
 $ fdisk
-$ grub
-$ gparted
+$ parted
+$ sfdisk
+$ gdisk
+
+
+Force the Linux kernel to reread the partition table:
+$ blockdev --rereadpt /dev/sda
+$ sfdisk -R /dev/sda
+$ partprobe /dev/sda
+
+http://www.rodsbooks.com/gdisk/index.html
 
 
 
