@@ -1,5 +1,15 @@
 Related: back, boot, CD, disc, drive, DVD, fdisk, file, /etc/fstab, hard, image, ISO, media, mount, NTFS, part, recover, SMART, store, UDF, USB
 
+DefragFS.sf.net >>The defragfs project aims on file-system/directory defragmentation of the Linux operating system, it is (currently) file-system independent and only CLI, hope further development could bring the GUI and better functionality.
+
+HDGraph.com >>HDGraph helps you to free disk space : it finds for you the largest folders on your drive.
+
+IOMeter.org >>ometer is an I/O subsystem measurement and characterization tool for single and clustered systems.
+
+DiskGUI.sf.net >>A Disk Benchmarking Program
+
+DAVTools.sf.net >>Disk Allocation Viewer
+
 SourceForge.jp/projects/crystaldiskinfo >>CrystalDiskInfo is a HDD/SSD utility software which supports S.M.A.R.T and a part of USB-HDD.
 
 SourceForge.jp/projects/crystaldiskmark >>CrystalDiskMark is a disk benchmark software.

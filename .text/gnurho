@@ -1,12 +1,17 @@
-Related: Amero, Euro, Federal Reserve Note, Imputed Production, money, Product Future, Yenom
+Related: Amero, Euro, Federal Reserve Note, Imputed Production, IOTA, money, Product Future, Yenom
 
-The GNUrho is an insuring deposit currency with a face value of a quantity and quality of good or service within some time-frame.
 
-GNUrho are "issued against" or "backed by" the combined value of:
+The GNUrho is a Title of Insurance for some quality and quantity of good or service within some time-frame.
 
-1. The Physical Sources of production needed to provide the good or service under the jurisdiction of the GNU's Not Usury General Public Law.  This is a "Title of Ownership" over Physical Sources [Material Means of Production] needed to accomplish some production.  This Property Deed is issued by legal owners and received by the person or group paying price above cost during any act of trade falling under the jurisdiction of the GNU General Public Law.
+The projected quality and rate of production is not guaranteed, but is determined by the validity of the Sources that 'back' these titles:
 
-2. Promisory notes for the human labor needed to install, operate, maintain, secure and insure those Physical Sources.  This is a "Promise to Pay" some quantity and quality of good or service during some window of time.  This contract against future labor may be issued by an individual worker, by a group of workers or by an accreditation - entity.
+1. Commitments of the Means of Production required to create that Product.
+ These are titles of property ownership of land, water-rights, tools, plants, animals, etc. needed to achive that production.
+ This is a % of real and 'secessionable' co-ownership which any subgroup can fork from the group for any reason (constrained by minimum realistic divisibility).
+
+2. Commitments of the Human Labor required to create that Product.
+ These are Worker "Promisory Notes" toward the future work needed to install, operate, maintain, and secure those Means of Production.
+ This a "Promise to Pay" some quantity and quality of good or service during some window of time issued by an individual worker, by a group of workers or by some voluntary accreditation entity.
 
 
 ==EXAMPLES of 'Face Value'
@@ -15,98 +20,102 @@ GNUrho are "issued against" or "backed by" the combined value of:
 1 Doz Grade A eggs per week
 1 oil-change and chassis lube per year.
 1 game of bowling per month
-1 mile of bus service per day
-1 mile of taxi service per day
+10 miles of bus service per day
+10 hours of taxi service per day
 
 
 ==EXAMPLES of 'Backing Value'
-====Examples of Physical Source Title:
- "Dairy cattle + land, water, feed, machines, buildings, tools needed to host those cattle."
- "Chickens + land, water, feed, machines, buildings, tools for hosting."
- "Motor oil and grease + land, machines, buildings, tools for hosting."
- "Bowling alley + land, machines, buildings, tools for hosting."
- "Bus + land, machines, buildings, tools for hosting."
- "Taxi + land, machines, buildings, tools for hosting."
-
-====Examples of Physical Work Bond:
- "Will milk cows at the X dairy every day until the end of this year."
- "Will make butter at the X dairy every other day until July 1st 3033."
- "Will feed chickens and gather eggs at the X chicken farm every day until the end of February."
- "Will change oil and lube chassis at the X automotive garage every Tuesday and Thursday until December 21 of this year."
- "Will maintain the X bowling alley every Saturday and Sunday until I get sick of it; will give 1 week notice."
- "Will drive X bus every Monday and Wednesday from 8am to 2pm for a while...  I will give 2 weeks notice before leaving."
- "Will drive X taxi from 6pm to 1am every Friday and Saturday until I get bored of it.  May not warn before I quit."
+====Means of Production:
+Dairy cattle + land, water, feed, machines, buildings, tools needed to host those cattle.
+Chickens + land, water, feed, machines, buildings, tools, etc.
+Motor oil and grease + land, machines, buildings, tools, etc.
+Bowling alley + land, machines, buildings, tools, etc.
+Bus + land, machines, buildings, tools, etc.
+Taxi + land, machines, buildings, tools, etc.
 
 
-Each individual worker sets his own conditions for fulfilling a Work Bonds.
+====Work Contracts
+Will milk cows at the X dairy every day until the end of this year.
+Will make butter at the X dairy every other day until July 1st 3033.
+Will feed chickens and gather eggs at the X chicken farm every day until the end of February.
+Will change oil and lube chassis at the X automotive garage every Tuesday and Thursday until December 21 of this year.
+Will maintain the X bowling alley every Saturday and Sunday until I get sick of it; will give 1 week notice.
+Will drive X bus every Monday and Wednesday from 8am to 2pm for a while...  I will give 2 weeks notice before leaving.
+Will drive X taxi from 6pm to 1am every Friday and Saturday until I get bored of it.  May not warn before I quit.
+
+
+As a worker, you may choose to sign such contracts for anyone willing to accept your expertise.  These commitments are real investments.
+
+Other investments are commitments of Land or Capital, or whenever you pay Profit within the Production Arena.
+
+
+As an Investor, you recieve full or partial GNUrho Titles as a combination of:
+
+1. Some % of co-ownership in the Means of Production for which you need the outputs.  For example, someone who drinks milk would want ownership in cattle; someone who uses honey would want ownership in bees.
+
+2. Commitments from other Workers within the Production Arena to supply the labor needed to operate those Means of Production on your behalf.  While you are fixing cars or painting buildings, those with which you have Swapped Skills will be milking cows and gathering honey.
+
+
+This gives us time to solve the "Simultaneous Coincidence of Wants" problem that faces typical barter, and nearly eliminates the need to use money at all, since the goods and services we need are already the property of those who need them.
+
+Each worker declares the conditions
 
 Co-owners should advertise minimum allowable standards to avoid attracting workers unwilling to meet those constraints.
+
 
 Each GNUrho represents all *potential* production of those Physical assets, and so is much more powerful/valuable than a typical currency.
 
 It might be useful to also issue 'tickets' against future payouts that would more closely resemble typical currency.
 
-Each ticket would have a window of validity - where it could not be used before some certain time, nor could it be used after some other certain time.
+Each ticket has a window of validity - where it could not be used before some certain time, nor could it be used after some other certain time.
 
 For example, a group might issue a book of 52 tickets each year for products that are used weekly.
 
 Ideally this will all be electronic and we will simply carry a card or identify ourselves in some other manner to collect the goods and services we already own, and to track that use to disallow cheating.  (We must defend ourselves against someone who pays for 1 gallon of milk per week, but then tries to collect more).
 
-
-Each GNUrho should represent the societal need as assessed by object users according to the full price paid - where paying up to cost indicates worth, and paying any amount over cost as a desire to grow.
-
-Free Hardware owners issue GNUrho to new object users in response to that consumer paying a price above the total costs (including wages) expended in the creation of that object instance.
+Each GNUrho should represent the societal need as assessed by Product users according to the full price paid - where paying up to cost indicates worth, and paying any amount over cost as a desire to grow.
 
 
-Owners who share Free Objects will issue new GNUrho titles to any user who pays more than cost.  The amount traditionally calculated as profit is offered back to the user as shares of ownership in the perpetuation of the Free Sources(TM) required to produce more Objects of this same variety.
+GNUrho are issued in response to any investment type, including when Users pay Price above Costs.
 
-Object users are new investors in the physical Sources needed for future production in exactly the amount they pay above cost.  This distributes control as shares of divisible ownership in the physical sources of production so objects become free for each user.
+Profit is accepted from Users during the sale of surplus and is then offered back to that same User as shares of co-ownership in the growth of that group.
 
-This distributes control so the objects of physical sources stay free.  Object users become investors in the Sources needed for future production in proportion to the the amount they pay above cost, as this is a measurement of the need to grow.
+These payers of Profit become new investors in the Means of Production in exactly the amount they pay above cost.  This distributes control to those willing to pay for that growth as shares of divisible ownership in the physical sources required for production - so Products become Free (as in Freedom) for every User.
 
-Owners have real costs associated with physical sources.
-Costs differ by management and current level of development.
-Users pay owners to buy or hire what they want.
-Workers pay owners to buy or hire capital want.
-Profit is the difference between Consumer Price and Owner Cost.
+The GNUrho is bound by the conditions of the IOTA.
 
 
+A functional Production Arena will require a minimum "Horizontal Diversity" to allow us to 'pay' each other without needing to pass tokens.  For example, we buy/build a dentist office and the tools for simple dental procedures.  We must attract or train someone that can operate those tools, and who is willing to commit to do that work for the 'pay' of gaining co-ownership in the Means of Production for his housing, food, clothing, transportation, sanitation, etc. combined with commitments of others to operate those MoP for his benefit in return for his fixing their teeth.  Notice this fully replaces traditional insurance.
 
-==End User Object DEED
-As a free object user you MAY:
-  0. Use this instance for any purpose.
-  1. Modify this instance by renting or buying the physical sources needed for that modification.  (YOU ARE ALREADY A CO-OWNER IF YOU PAID PRICE ABOVE COST.)
-  2. Copy this instance by renting or buying the physical sources needed for that production.  (YOU ARE ALREADY A CO-OWNER IF YOU PAID PRICE ABOVE COST.)
-  3. Share this instance or a copy - whether modified or not.
-
-	If you share this object instance or a copy - whether modified or not, you MUST:
-	  A. Accompany each instance with a copy of this DEED.
-	  B. Treat all profit gained through the sale of this object or through the rental of physical sources as an investment from that user toward more physical sources.
-	  C. Issue GNUrho currency against those physical sources.
-
-[*Profit separates from wage as property is multiplexed (during co-ownership).]
+We will also want to work toward "Vertical Integration" to move away from the need to gather and spend external tokens. For example, we will buy grains and alfalfa at first to feed our chickens and cattle, but will also grow those plants to avoid the need to buy in the future.  Vertical Integration is a very long-term goal, and we won't co-own mines or factories right away, but will just buy tools from China at first, while we are 'booting'.
 
 
+Part of the initial costs for purchasing the Means of Production might be collected from middle-income consumers who are willing to pre-pay for organic goods.
 
-On the one hand I think owners who
-intend to keep the Sources for the
-Product will naturally take care of
-that property and trade the Skills
-needed to achieve that production.
+Each person would invest just enough (either Money, Land or Capital) to cover the predicted costs of production for the amount of Product they each intend to use.
 
-On the other hand, the owner might
-want to pretend the Token is valid
-once he decides to use it in trade.
+Each of these investors would still need to pay their % of the costs as usual, but since they would accept the Product itself as the return for that risk, there would be sale, and so Profit would not exist at all.
 
-I'm not sure what we can do other
-than maybe require a 'notice' on
-Tokens using our social contract.
 
-The notice would explain the Product
-is an expected but not guaranteed
-quantity and quality.
+Labor will come from skilled artisans initially willing to work in return for food, shelter, basic medical care, etc. with a future payout of real co-ownership in the Production Arena.
 
-The social contract itself would
-contain instructions about how this
-notice must be legible and even a
-prominent part of the coin or card.
+These workers must receive real co-ownership in the MoP for which they need the outputs, but until those facilities are functional, will need to be paid more 'directly' by being housed in tents and fed basic rations, etc.
+
+
+Here is the rough business model:
+----
+1.) Product is the Investor's Return.  This means Consumers will micro-invest by pre-paying for results, become co-owners of that business and receive the Product itself as a side-effect of that ownership.
+
+2.) Profit is the Payer's Investment.  This means late-coming Consumers will overpay for Product as usual, but we will treat (at least some % of) that value as though they had invested as described in #1.
+
+3.) Investments are commitments of Future Labor and Physical Sources. This means we will issue a deposit-based, *insuring* currency backed by both the land and tools and other inputs, plus the work needed to transform those assets into a Product.
+
+
+Products are not sold when the Users co-own the Means of Production, because the product is already in the hands of those who will consume it - even before it is produced.
+
+For example, you do not need to buy Apples when you co-own an Apple or orchard because you *already* own your % of that product according to your % of ownership in the physical Sources (trees, land, water-rights, etc.) needed to produce those apples.
+
+
+When workers commit to swap skills before production begins, there is no need to pay wages because compensation comes in the form of accepting the work of others on your behalf.
+
+For example, you do not need to be paid to pick Oranges when someone else is picking Apples for you, and while someone else is promising to fix your teeth, and someone else promises to fix your car, etc., because your needs are then already met.

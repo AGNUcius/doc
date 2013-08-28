@@ -22,9 +22,10 @@ Benjie.org/software/linux/collaborative-vnc >>Collaborative VNC lets you share a
 
 KarlRunge.com/x11vnc >>x11vnc allows one to view remotely and interact with real X displays (i.e. a display corresponding to a physical monitor, keyboard, and mouse) with any VNC viewer. In this way it plays the role for Unix/X11 that WinVNC plays for Windows.
 
-NOTE: start x11vnc with the `-xkb' switch if your SHIFT key doesn't work.
-NOTE: start x11vnc with the `-forever' switch to avoid shutdown whenever a client disconnects.
-
+-xkb fixes broken SHIFT key
+-forever keeps the server alive after a client disconnects.
+-usepw gives a small amount of security
+-ncache 10 might make things faster
 
 SICS.se/~adam/uvnc
 

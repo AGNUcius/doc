@@ -1,10 +1,9 @@
 Related: coreutils, desk, distro, GNUin, LazyLoad, menu, MiniMacs, Operating System, tools
 
-GNUnix.sf.net >>Simplified X11 Desktop using an orthogonal set of re-branded "best of breed" applications.  We also merge the "Start Menu" with the "Package Manager" and the "Window Manager" with "Bug Report/Feature Requests" for holistic ease of use.
+GNUnix.sf.net, github.com/AGNUcius/GNUnix
 
-github.com/AGNUcius/GNUnix
 "'
-GNUnix is not GNU/Linux
+GNUnix is not Linux
 
 GNUnix is an Operating System construction kit
 that starts as a very lightweight distribution
@@ -56,6 +55,8 @@ such as "prompt before install", "uninstall app
 after X days of disuse", "sort menu entries
 by popularity", etc.
 '"
+
+
 
 ==Goals
 Minimal resource use through JIT download, install, start.
@@ -166,15 +167,6 @@ $ pkg.add dkms
 Reboot the machine.
 
 Install VBox "Guest Additions"
-
-
-On the VBox GUI Choose "Devices|Shared Folders..." and add a "Machine Folder".  Share the c$ drive and name that share 'c'.
-
-Create a directory in GNUnix that will represent the Shared Folder.
-$ sudo mkdir /mnt/c
-
-Mount the Shared Folder 'c' to mountpoint /mnt/c as type "vboxsf"
-$ sudo mount -t vboxsf c /mnt/c
 
 
 ====X Window

@@ -9,8 +9,8 @@ Ltr-Data.se/opencode.html ImDisk is a virtual disk driver for Windows NT/2000/XP
 ChitChat.at.InfoSeek.co.jp/vmware/vdk.html >>With VDK you can mount a VMware virtual disk to your Windows hosts and use them as another disk drive attached to your system.
 
 ==Mount Windows Share (SMB/CIFS)
-$ mkdir /mnt/WindowsMachineOrIP/ShareName
-$ mount -t cifs //WindowsMachineOrIP/ShareName /mnt/WindowsMachineOrIP/ShareName -o domain=YourDomain,user=YourUserName,pass=YourPassWord
+$ sudo mkdir /mnt/WindowsMachineOrIP/ShareName
+$ sudo mount -t cifs //WindowsMachineOrIP/ShareName /mnt/WindowsMachineOrIP/ShareName -o domain=YourDomain,user=YourUserName,pass=YourPassWord
 
 Use the backslash '\' to escape any of: (, ), &, *, \
 
@@ -72,3 +72,13 @@ FS-Driver.org [[!NON-FREE!  Source is locked closed.  Do not use.  For historica
 
 ==Reiser
 RFSD.sf.net >>ReiserDriver is an Installable File System Driver (IFSD), used to easily (and natively!) read ReiserFS disk partitions under Microsoft Windows (2K/XP) by allowing ReiserFS partitions to appear as additional disks to the Windows operating system.
+
+
+==VirtualBox
+In the VBox GUI Choose "Devices|Shared Folders..." and add a "Machine Folder".  Share the c$ drive and name that share 'c'.
+
+Create a directory in GNUnix that will represent the Shared Folder.
+$ sudo mkdir /mnt/c
+
+Mount the Shared Folder 'c' to mountpoint /mnt/c as type "vboxsf"
+$ sudo mount -t vboxsf c /mnt/c

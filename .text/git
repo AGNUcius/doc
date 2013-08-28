@@ -1,35 +1,10 @@
-Related: vc
+Related: version control
 
+to publish: git commit -a; git push
+to update: git pull
 
-==Intro
-Git-SCM.com >>The fast version control system
-
-Kernel.org/pub/software/scm/git/docs
-
-sunoano.name/ws/public_xhtml/scm.html
-
-www-cs-students.stanford.edu/~blynn/gitmagic >>Git is a version control Swiss army knife. A reliable versatile multipurpose revision control tool whose extraordinary flexibility makes it tricky to learn, let alone master.
-
-Eagain.net/articles/git-for-computer-scientists >>Quick introduction to git internals for people who are not scared by words like Directed Acyclic Graph.
-
-WikiBooks.org/wiki/Source_Control_Management_With_Git
-
-WhyGitIsBetterThanX.com >>This site is here because I seem to be spending a lot of time lately defending Gitsters against charges of fanboyism, bandwagonism and koolaid-thirst. So, here is why people are switching to Git from X, and why you should too.
-
-==Tools
-MSYSGit.GoogleCode.com >>Historically, Git on Windows was only officially supported using Cygwin. To help make a native Windows version, this project was started, based on the fork.
-
-TortoiseGit.GoogleCode.com >>It is porting TortoiseSVN to TortoiseGit The latest release 0.9.1.0 This release can complete regular task, such commit, show log, diff two version, create branch and tag, Create patch and so on.
-
-
-==Hosting
-repo.or.cz
-Gitorious.org
-GitHub.com
-
-
-= Quick Reference
-Jonas.Nitro.dk/git/quick-reference.html
+== Quick Reference
+From Jonas.Nitro.dk/git/quick-reference.html
 "'
 Getting help:
 git help command 	or
@@ -94,6 +69,32 @@ U unmerged 	File has conflicts after a merge
 Last updated 02-Jun-2007 19:39:04 CEST
 '"
 
+
+==Intro
+Git-SCM.com >>The fast version control system
+
+Kernel.org/pub/software/scm/git/docs
+
+sunoano.name/ws/public_xhtml/scm.html
+
+www-cs-students.stanford.edu/~blynn/gitmagic >>Git is a version control Swiss army knife. A reliable versatile multipurpose revision control tool whose extraordinary flexibility makes it tricky to learn, let alone master.
+
+Eagain.net/articles/git-for-computer-scientists >>Quick introduction to git internals for people who are not scared by words like Directed Acyclic Graph.
+
+WikiBooks.org/wiki/Source_Control_Management_With_Git
+
+WhyGitIsBetterThanX.com >>This site is here because I seem to be spending a lot of time lately defending Gitsters against charges of fanboyism, bandwagonism and koolaid-thirst. So, here is why people are switching to Git from X, and why you should too.
+
+==Tools
+MSYSGit.GoogleCode.com >>Historically, Git on Windows was only officially supported using Cygwin. To help make a native Windows version, this project was started, based on the fork.
+
+TortoiseGit.GoogleCode.com >>It is porting TortoiseSVN to TortoiseGit The latest release 0.9.1.0 This release can complete regular task, such commit, show log, diff two version, create branch and tag, Create patch and so on.
+
+
+==Hosting
+repo.or.cz
+Gitorious.org
+GitHub.com
 
 
 ==Init Machine

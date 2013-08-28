@@ -1,5 +1,7 @@
 camera: photo
 
+eViaCam.sf.net >>Enable Viacam (aka eViacam) is a mouse replacement software that moves the pointer as you move your head. It works on standard PCs equipped with a web camera. No additional hardware is required. Based on the award winning Facial Mouse software.
+
 HornetsEye.sf.net >>HornetsEye is a real-time computer vision library for the Ruby programming language and it runs under GNU+Linux as well as Microsoft Windows.  HornetsEye is maybe the first free software project providing a solid platform for implementing real-time computer vision software in a scripting language.  The platform potentially could be used in industrial automation, robotic applications, and human computer interfaces.
 
 $ sudo apt-get install gtkam
