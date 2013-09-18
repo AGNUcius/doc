@@ -1,16 +1,15 @@
 Related: GNUrho, Property Left, VIPM
 
-The Intra-Owner Trade Agreement (IOTA) is a Deposit-Based, *Insuring* currency representing a predicted quantity and quality of PRODUCT.
+The Intra-Owner Trade Agreement (IOTA) is a deposit-based Title of Insurance representing a projected quantity and quality of some PRODUCT based on the PROPERTY and PROMISES backing that production
 
 
 This legal document has 3 distict sections:
 
-1. A PRODUCT of some predicted type and quantity and quality.
+1. A PRODUCT of some projected quantity and quality.
 
-2. Commitments of the SOURCES such as land, mineral/water rights,
-buildings, tools, etc. required for production.
+2. Commitments of the PROPERTY such as land, mineral/water rights, buildings, tools, etc. required for production.
 
-3. Commitments of all the SKILLS required for production.
+3. Commitments of the PROMISES such as milking cows, building roads, fixing teeth, etc. required for production.
 
 
 For example:
@@ -18,67 +17,65 @@ For example:
 
 1. Co-ownership in land and tools etc. of a chicken farm and to grow feed.
 
-2. Contractural from all the people required to make it happen.
+2. Contractural agreements from all the people required to make it happen.
 
 
 ==Internal Governance
-The IOTA enforces the following constraints on Trade:
+The IOTA enforces the following constraints on Trade of the PRODUCT:
 
-A: Product is Investor's Return: The Product is not sold*,
-   because each Villager already owns the exact** amount
-   of Product from their ownership in Sources.
-* Surplus can be sold to those who own insufficient Sources.
-** Predictions are never exact, but we can 'hover' nearby.
-  Most Villagers will 'overcommit' as Insurance against low
+A: PRODUCT is Investor's Return: The PRODUCT is not sold*,
+   because each co-owner of PROPERTY already owns the same
+   amount of PRODUCT as their ownership in PROPERTY.
+* Surplus can be sold to those who own insufficient PROPERTY.
+** Projections are never exact, but we can 'hover' nearby.
+  Most co-owners will 'overcommit' as Insurance against low
   production seasons.
 
+B: Workers receive PROPERTY and/or PROMISES in return for
+   their own commitment of PROMISES.
 
-B: Profit is Payer Investment: When Surplus is sold to non-
+C: Profit is Payer Investment: When Surplus is sold to non-
    owners, the Profit must be treated as an Investment from
-   that Payer - so that latecomers gain as much control as
+   that Payer - so that latecomers gain as much PROPERTY as
    they are willing to Pay, and ultimately Work for.
 
+D: Any subgroup may secede without extra penalty and retain
+   full co-ownership of their portion of the PROPERTY.
 
 
-==Sharing Sources
-Products are preallocated when the users of output are the co-owner of inputs.
+==Sharing PROPERTY
+PRODUCTS are preallocated when the users of output are the co-owner of inputs.
 
 When input co-owners are output users, the owner need not change.
+
 Each %-owner of a cow does not buy milk, but owns that % already.
 
 
-==Swapping Skills
-When a worker commits to labor in the future
+==Swapping PROMISES
+We can specialize without passing tokens and without resorting to barter by trading PROMISES to work *before* production begins.
 
-We can specialize without passing tokens and without resorting to barter.
+So Mr. A may commit to work for Ms. B in return for Ms. B committing to work for Mr. A.
 
-This is only for the subset of outputs
+But more complex chains can also be arranged such as A works for B and B works for C and C works A, etc.
 
- (promises to Work in the future) so that I can achieve goals for others in the VIPM in return for their commitments to Work toward my personal goals (I'll shovel shit and plant trees in return for commitments from Dentists, Mechanics, etc. to work for me when needed) instead of passing tokens *late*.
+This insures any PRODUCT for as much as the PROPERTY and PROMISES can be secured.
 
-
-This insures any Product as much as the Skills and Sources can be secured.
-
-
-
-Selling surplus to non-owners will usually cause profit from  be treated as that Payer's Investment in more Sources.
 
 ----
-* Investors COMMIT Sources or Skills.
-* Each Investor is a %-owner in the Sources according to the amount the did COMMIT.
-* 
-Product is the Investors' Return.
-* Profit collected during the sale of surplus is handled as that payer's investment.
-
+* Investors commit PROPERTY or PROMISES.
+* Each Investor becomes co-owner in the PROPERTY and holder of legally-binding PROMISES needed for that production.
+* These co-owners accept the PRODUCT as the return for those risky commitments.
+* Profit during sale of surplus is handled as the payer's investment.
+* Co-owners may secede for any reason while retaining their portion of that PROPERTY.
 
 As User you MAY:
   0. Use this instance for any purpose.
-  1. Modify this instance by renting or buying the physical sources needed for that modification.  (YOU ARE ALREADY A CO-OWNER IF YOU PAID PRICE ABOVE COST.)
-  2. Copy this instance by renting or buying the physical sources needed for that production.  (YOU ARE ALREADY A CO-OWNER IF YOU PAID PRICE ABOVE COST.)
+  1. Modify this instance by renting or buying the PROPERTY needed for that modification.  (YOU ARE ALREADY A CO-OWNER IF YOU PAID PRICE ABOVE COST.)
+  2. Copy this instance by renting or buying the PROPERTY needed for that production.  (YOU ARE ALREADY A CO-OWNER IF YOU PAID PRICE ABOVE COST.)
   3. Share this instance or a copy - whether modified or not.
 	If you share this object instance or a copy - whether modified or not, you MUST:
 	  A. Accompany each instance with a copy of this DEED.
-	  B. Treat all profit gained through the sale of this object or through the rental of physical sources as an investment from that user toward more physical sources.
-	  C. Issue GNUrho currency against those physical sources.
+	  B. Treat all profit gained through the sale of this object or through the rental of PROPERTY as an investment from that user toward more physical sources.
+	  C. Issue IOTAs against the PROPERTY bought with that profit and give those to the original payer of profit.
 
 [*Profit separates from wage as property is multiplexed (during co-ownership).]

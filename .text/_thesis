@@ -1,34 +1,14 @@
 Related: _FAQ, imputation,
 
-Specialization without Tokenization
-
-Trading outputs *before* production 
-
-Profit is the difference between the Price a consumer pays and the Costs the owners paid.
-
-Most corporations must keep price above cost to pay investors that difference.
-
-
-
 Profit measures property misallocation.
 
-Profit is an inverse measure of development.  A fully prosperous society would have perfect competition and no profit at all.
+The purpose of property is the product.
 
-When the owners of inputs are the consumers of outputs, the product is not sold, and so price and costs are the same.
+When the consumers of outputs are owners of inputs, the product is not sold, and so price and costs are the same and profit is undefined.
 
-When consumers co-own the Means of Production, the price they pay is simply the real costs of production.
+A promise to work in the future is another kind of investment.
 
-Consumers are the investors and owners of the Means of Production and accept Product as the return on those investmentments.
-
-Competition is perfected as the number of vendors is maximized, because each Consumer *becomes* his own vendor as he gains real property ownership in the land, buildings, water rights, fungi/flora/fauna and tools needed for the production that must occur.
-
-When property is finally in the proper hands, democracy will be direct because owners rule their own property through votes amongst themselves weighted by their % of ownership in that particular Physical Source.
-
-
-
-Some of these Costs are objectively valid, while others are toast buttering such as inflated wages or bonuses to Owners continuing in to Work in unimportant or posh+overpaid positions.
-
-Inflated Wages (think C*O salaries) divert funds that would have otherwise been labeled Profit if Physical Source ownership were more distributed to those who pay for those products - the consumers.
+When workers commit to work for others within a Cross-Crowd organization, those workers receive a bundle of property and promises we call the IOTA.
 
 Profit is separated from wages as the number of owners per physical source increases.  Workers are then hired by the collecitve owners explicitly instead of the labor being 'assumed' by some of the owners who may otherwise overpay themselves.
 
@@ -87,7 +67,6 @@ Let's work together to design and implement a realistic alternative that keeps c
 
 
 
-==2. Type vs. Instance
 Many tend to think rivalry (finiteness) is limited to certain *TYPES* of things (such as a loaf of bread or a washing machine), while we simultaneously mistakenly believe other things (such as movies and software) have no rivalry whatsoever.
 
 Whether software or bread, everything is infinite (non-rivalrous) in potential, yet realistically constrained (rivalrous) in it's actualization.
@@ -104,7 +83,9 @@ While the time and personal energy (labor) needed to copy a grain of wheat appea
 
 So, even though different TYPES of things require different AMOUNTS of physical resources for their production, the fact remains that all things have infinite potential, and all things are realistically constrained by space, time, mass and energy.
 
-====Object Oriented Production -- The Goals of Political Economy
+
+
+                Object Oriented Production -- The Goals of Political Economy
 
 Any software developer employing "Object Oriented Programming" (OOP) understands the difference between the 'type' and 'instance' of an object.  An object type is mostly defined as the design (code, methods or accessors) and any state (data, variables or slots) that will be shared among all instantiations of that type.  In contrast, an object instance is primarily defined by the extra resources required to differentiate it as an separable, individual 'copy' of that type of thing.
 
@@ -121,7 +102,7 @@ The purpose of production is product (objects), not profit.
 Profit is simply the difference between the price a consumer pays for an object(ive), and the costs the owners of the physical sources paid for it's production.
 
 
-==3. Free Beer!
+                Free Beer!
 . Wages are a cost of production paid by owners to workers.
 . Workers specialize by trading labor through barter or a currency.
 . Competition and Subtle Monopoly.
@@ -141,7 +122,7 @@ Of course you know that if you Own a nut tree yourself, and are the only Consume
 As Object Users become Source Owners, employment can be safely minimized and there is no reason to hope other producers fail, as abundance is always good, and scarcity is to be avoided.  This is the positive-feedback that can close the loop on an economy and cause it to finally stabilize.
 
 
-==4. User Owned
+                User Owned
 
 There is a special case in economics that occurs when the end users OWN the physical sources of their objectives:
 
@@ -199,37 +180,11 @@ As Object Consumers become Source Owners, (this will never be 'perfect', as Cons
 
 
 
-==TODO
-Hosting Costs
-
-Contributions or "effort sharing", not exchange.
-
-Commons and possession for use value, not property for exchange value.
-
-Free cooperation, not coercion or command
-
-Risk
-
-====Money, currency, barter
-Barter requires simultaneous coincidence of wants.
-Currency as insurance title backed by physical sources.
-Currency as abstraction for trading labor.
-
-====Objects are the output or objectives of production
-
-====All production requires physical sources
-
-====Object Use
-
+                Thoughts
 We should not speak of consumers and workers as though they were different classes.  All workers are consumers, and in a GNU OS, all consumers are workers unless they are being voluntarily supported by other workers (such as infants and elders) or by the productivity of their current property.
 
 The act of consuming may be different from the act of working
 
-====User Freedom
-
-Art is code, code is art.
-
-====Why invest for product
 Source ownership offers full control and "at cost" objectives.
 
 The owner of physical sources also owns the objectives even before they are produced.
@@ -238,23 +193,16 @@ The nut tree owner is the nut owner even before growth.
 Who will invest and risk?
 What is credit and debt?
 
-
-attribution
-non-commercial
-
-====Governance, Incorporation, Joint Property
 Incorporation is the original and only valid purpose of government.
 
 Consumers of corporate production and citizens of 'representative' governments lose control over time because real control as divisible ownership in physical sources does not flow to those who pay price, rent or tax above the real costs of those objectives.
 
-====Tax and Rent
 Owners of physical sources held public must receive rent from users as compensation for real costs, including the difficult to calculate costs of exclusion.
 
-
-Life requires production.  Production requires physical sources.
+Life requires production.  Production requires sources and skills.
 
 Specialization increase production efficiency.
-Autonomy requires either solitude or cooperation.
+
 Productive organization of joint owned expensive physical sources is complicated and risky.
 
 Democracy is direct and price equals costs when every user owns physical sources in the kind and amount needed for the future production of his own demands.  This dynamic state can be held place by treating profit as an investment from the user that pays it.
@@ -262,11 +210,8 @@ Democracy is direct and price equals costs when every user owns physical sources
 Imperfect competition is subtle or partial monopoly.
 Dependence increases profit.
 
-Why do humans seek community?
 Advantages of specialization.
 Advantages of sharing.
-
-Three modes of ownership: Private, Proprietary, Public.
 
 State becomes private estate.
 Mayor becomes hired manager.
@@ -281,7 +226,6 @@ Vote weighted by ownership percentage in each physical source.
 Conflicts may split realistically divisibile sources.
 Borders privacy, personal, public, proprietary
 
-Vesting
 
 ====Implementation Jujitsu
 Developers may start a church, club, corporation, community that treat profit as an investment from the consumer who paid it - so the corporation would grow through the user investment called Profit that is usually pocketed by the Owners as a prize (a prize that also happens to incent the anti-social behaviour we have already discussed).

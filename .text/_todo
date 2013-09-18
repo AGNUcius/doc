@@ -1,15 +1,5 @@
-Related: _diary
+Related: _diary, _projects
 
-delete patware.freeshell.org/html: NoteMacs.7z, .icewm.7z, .local.7z
+Moving to github.com/AGNUcius
 
-githib.com/AGNUcius
-
-use offlineimap to archive mail
- partly done at: ~/Maildir
-
-continue making universal aliases
- for now in eshell at ~/.eshell/alias
-
-_projects
-
-
+Use offlineimap to archive email
