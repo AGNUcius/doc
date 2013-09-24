@@ -1,6 +1,6 @@
 Related: version control
 
-to publish: git commit -a; git push
+to publish: git commit -a -m "some message"; git push
 to update: git pull
 
 == Quick Reference
